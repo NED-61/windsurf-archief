@@ -1,0 +1,22 @@
+{
+ "event_slug": "nk-slalom-2021",
+ "scope": "nl",
+ "name": "NK Slalom 2021",
+ "series": "NK Slalom",
+ "year": 2021,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "classes": [
+  "nk-2021-slalom-heren",
+  "nk-2021-slalom-dames",
+  "nk-2021-slalom-jeugd",
+  "nk-2021-slalom-fun-heren-oktober",
+  "nk-2021-slalom-fun-dames-oktober"
+ ],
+ "notes": [
+  "Uitslagen uit het Windtulip Results Archive."
+ ]
+}

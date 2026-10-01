@@ -1,0 +1,429 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2019-short-course-kids-14-jongens-a",
+ "event": {
+  "name": "The Real Trip 2019",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2019,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Makkum",
+  "discipline": "short_course",
+  "gender": "men",
+  "class": "Kids -14 jongens A",
+  "class_label_published": "KIDS -14 YEARS BOYS A",
+  "fleet": "Kids groep A",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "K01",
+   "K02",
+   "K03",
+   "K04",
+   "K05",
+   "K06",
+   "K07",
+   "K08",
+   "K09",
+   "K10",
+   "K11"
+  ],
+  "discards": 2,
+  "scoring_system": "Low Point: punten = plaats in de race",
+  "fleet": "Kids groep A"
+ },
+ "source": {
+  "name": "PSR-live: THE REAL TRIP 2019 // KIDS -14 YEARS BOYS A",
+  "publisher": "PSR-live (admin.psr.nl), via de Wayback Machine",
+  "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=49",
+  "file": "archive/nl/2019/the-real-trip-2019/bronnen/psr-1023-class49-wayback-20191113205745.html",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "Telerik PivotGrid uit de html gelezen (rijkoppen met rowspan voor gedeelde plaatsen)",
+  "metadata_sources": [
+   {
+    "name": "PSR-live via de Wayback Machine (eventid 1023)",
+    "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=51",
+    "used_for": "uitslagen per klasse; datum van de editie staat niet in de bron"
+   }
+  ],
+  "verified": "13 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: PSR-live, klasse 49 van eventid 1023, gearchiveerd door de Wayback Machine op 13 november 2019. De PSR-pagina toont punten zonder statuscode.",
+  "PSR toont de weglatingen als kolommen WAIVED1 en WAIVED2 met de weggelaten punten, niet bij welke race ze horen; ze staan per rider in discard_points.",
+  "Pagina opgehaald als ruwe Wayback-kopie (id_) via de ingebouwde browser."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "skip-brull",
+   "sail": null,
+   "bib": "60",
+   "name": "Skip Brull",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    2.0,
+    1.0,
+    1.0
+   ],
+   "discard_points": [
+    2.0,
+    2.0
+   ],
+   "total": 14.0,
+   "net": 10.0,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "brendan-lorho",
+   "sail": null,
+   "bib": "17",
+   "name": "Brendan Lorho",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    2.0,
+    1.0,
+    1.0,
+    3.0,
+    3.0,
+    2.0
+   ],
+   "discard_points": [
+    3.0,
+    3.0
+   ],
+   "total": 26.0,
+   "net": 20.0,
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "matt-de-jong",
+   "sail": null,
+   "bib": "18",
+   "name": "Matt de Jong",
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    9.0,
+    8.0,
+    5.0,
+    5.0,
+    5.0,
+    4.0,
+    6.0
+   ],
+   "discard_points": [
+    9.0,
+    8.0
+   ],
+   "total": 50.0,
+   "net": 33.0,
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "bart-idsinga",
+   "sail": null,
+   "bib": "25",
+   "name": "Bart Idsinga",
+   "division": null,
+   "points": [
+    5.0,
+    5.0,
+    6.0,
+    7.0,
+    5.0,
+    4.0,
+    4.0,
+    7.0,
+    4.0,
+    5.0,
+    3.0
+   ],
+   "discard_points": [
+    7.0,
+    7.0
+   ],
+   "total": 55.0,
+   "net": 41.0,
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "nolan-snel",
+   "sail": null,
+   "bib": "239",
+   "name": "Nolan Snel",
+   "division": null,
+   "points": [
+    11.0,
+    9.0,
+    10.0,
+    11.0,
+    3.0,
+    6.0,
+    3.0,
+    3.0,
+    1.0,
+    2.0,
+    4.0
+   ],
+   "discard_points": [
+    11.0,
+    11.0
+   ],
+   "total": 63.0,
+   "net": 41.0,
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "ruben-landstra",
+   "sail": null,
+   "bib": "517",
+   "name": "Ruben Jort Landstra",
+   "division": null,
+   "points": [
+    6.0,
+    6.0,
+    4.0,
+    4.0,
+    7.0,
+    3.0,
+    9.0,
+    6.0,
+    8.0,
+    8.0,
+    7.0
+   ],
+   "discard_points": [
+    9.0,
+    8.0
+   ],
+   "total": 68.0,
+   "net": 51.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "sjirk-bult",
+   "sail": null,
+   "bib": "328",
+   "name": "Sjirk Bult",
+   "division": null,
+   "points": [
+    7.0,
+    7.0,
+    7.0,
+    6.0,
+    8.0,
+    7.0,
+    8.0,
+    4.0,
+    6.0,
+    7.0,
+    5.0
+   ],
+   "discard_points": [
+    8.0,
+    8.0
+   ],
+   "total": 72.0,
+   "net": 56.0,
+   "remark": null
+  },
+  {
+   "rank": 7,
+   "person": "chris-kooystra",
+   "sail": null,
+   "bib": "37",
+   "name": "Chris Kooystra",
+   "division": null,
+   "points": [
+    9.0,
+    10.0,
+    11.0,
+    9.0,
+    6.0,
+    5.0,
+    7.0,
+    8.0,
+    7.0,
+    6.0,
+    8.0
+   ],
+   "discard_points": [
+    11.0,
+    10.0
+   ],
+   "total": 86.0,
+   "net": 65.0,
+   "remark": null
+  },
+  {
+   "rank": 8,
+   "person": "ruben-van-schooneveld",
+   "sail": null,
+   "bib": "63",
+   "name": "Ruben van Schooneveld",
+   "division": null,
+   "points": [
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    11.0,
+    11.0,
+    14.0,
+    9.0,
+    14.0,
+    14.0,
+    14.0
+   ],
+   "discard_points": [
+    14.0,
+    14.0
+   ],
+   "total": 105.0,
+   "net": 77.0,
+   "remark": null
+  },
+  {
+   "rank": 9,
+   "person": "huub-van-der-veen",
+   "sail": null,
+   "bib": "39",
+   "name": "Huub van der Veen",
+   "division": null,
+   "points": [
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    12.0,
+    12.0,
+    10.0,
+    10.0,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "discard_points": [
+    12.0,
+    12.0
+   ],
+   "total": 103.0,
+   "net": 79.0,
+   "remark": null
+  },
+  {
+   "rank": 10,
+   "person": "rens-de-bruin",
+   "sail": null,
+   "bib": "36",
+   "name": "Rens de Bruin",
+   "division": null,
+   "points": [
+    10.0,
+    11.0,
+    9.0,
+    10.0,
+    10.0,
+    10.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0
+   ],
+   "discard_points": [
+    14.0,
+    14.0
+   ],
+   "total": 130.0,
+   "net": 102.0,
+   "remark": null
+  },
+  {
+   "rank": 11,
+   "person": "jelmer-jansen",
+   "sail": null,
+   "bib": "82",
+   "name": "Jelmer Jansen",
+   "division": null,
+   "points": [
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    4.0,
+    9.0,
+    6.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0
+   ],
+   "discard_points": [
+    14.0,
+    14.0
+   ],
+   "total": 131.0,
+   "net": 103.0,
+   "remark": null
+  },
+  {
+   "rank": 12,
+   "person": "marc-le-comte",
+   "sail": null,
+   "bib": "500",
+   "name": "Marc le Comte",
+   "division": null,
+   "points": [
+    12.0,
+    12.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0
+   ],
+   "discard_points": [
+    14.0,
+    14.0
+   ],
+   "total": 150.0,
+   "net": 122.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

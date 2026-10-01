@@ -1,0 +1,352 @@
+{
+ "schema_version": 1,
+ "id": "nk-2020-slalom-dames",
+ "event": {
+  "name": "NK Slalom 2020",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2020,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": "women",
+  "class": "Dames",
+  "windtulip_regatta": "NK 2020"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 6,
+  "discards": [
+   1
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/137/total_results/",
+  "type": "web",
+  "file": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-137-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "5 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [1]; rangschikking oplopend op netto; 6 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke van de Veen",
+   "nationality": "NED",
+   "division": "women",
+   "points": [
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "discarded": [
+    6
+   ],
+   "total": 4.0,
+   "net": 2.0
+  },
+  {
+   "rank": 2,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL-26",
+   "name": "Andrea Vanhoorne",
+   "nationality": "BEL",
+   "division": "women",
+   "points": [
+    3.0,
+    2.0,
+    0.0,
+    2.0,
+    2.0,
+    5.0
+   ],
+   "discarded": [
+    6
+   ],
+   "total": 14.0,
+   "net": 9.0
+  },
+  {
+   "rank": 3,
+   "person": "fabienne-hoogendam",
+   "sail": "NED-223",
+   "name": "Fabienne Hoogendam",
+   "nationality": "NED",
+   "division": "jeugd women",
+   "points": [
+    5.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    0.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 17.0,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "ashley-veenstra",
+   "sail": "NED-700",
+   "name": "Ashley Veenstra",
+   "nationality": "NED",
+   "division": "jeugd women",
+   "points": [
+    2.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 22.0,
+   "net": 17.0
+  },
+  {
+   "rank": 5,
+   "person": "romy-anne-reenders",
+   "sail": "NED-190",
+   "name": "Romy Anne Reenders",
+   "nationality": "NED",
+   "division": "women",
+   "points": [
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "discarded": [
+    6
+   ],
+   "total": 28.0,
+   "net": 23.0
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/137/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "ashley-veenstra"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "romy-anne-reenders"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/137/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "romy-anne-reenders"
+      },
+      {
+       "rank": 5,
+       "person": "ashley-veenstra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/137/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 2,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "ashley-veenstra"
+      },
+      {
+       "rank": 5,
+       "person": "romy-anne-reenders"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "url": "https://windtulip.nl/home/results_dashboard/137/4/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "ashley-veenstra"
+      },
+      {
+       "rank": 5,
+       "person": "romy-anne-reenders"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "url": "https://windtulip.nl/home/results_dashboard/137/5/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "ashley-veenstra"
+      },
+      {
+       "rank": 5,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "url": "https://windtulip.nl/home/results_dashboard/137/6/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 2,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "ashley-veenstra"
+      },
+      {
+       "rank": 5,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      },
+      {
+       "rank": 5,
+       "person": "andrea-vanhoorne",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

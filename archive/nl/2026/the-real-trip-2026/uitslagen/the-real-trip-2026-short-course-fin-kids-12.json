@@ -1,0 +1,373 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2026-short-course-fin-kids-12",
+ "event": {
+  "name": "The Real Trip 2026",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-09-18",
+  "location": "Makkum (strand bij De Holle Poarte)",
+  "discipline": "short_course",
+  "gender": null,
+  "class": "Fin Kids (-12)",
+  "class_label_published": "Fin Kids (-12)",
+  "fleet": "Short course",
+  "equipment": "fin"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "K1",
+   "K4",
+   "K5",
+   "K6",
+   "K7",
+   "K12",
+   "K13",
+   "K14",
+   "K18",
+   "K19",
+   "K20",
+   "K21"
+  ],
+  "discards": 3,
+  "scoring_system": "Low Point, winnaar 0.7; DNS = aantal deelnemers + 1 (9)",
+  "fleet": "Short course"
+ },
+ "source": {
+  "name": "The Real Trip: Results",
+  "url": "https://therealtrip.nl/en/results",
+  "file": "archive/nl/2026/the-real-trip-2026/bronnen/therealtrip-2026-results-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "klasse-tabbladen en rider-detailpagina's vastgelegd via de ingebouwde browser (json.gz met de ruwe html)",
+  "metadata_sources": [
+   {
+    "name": "The Real Trip: Info",
+    "url": "https://therealtrip.nl/info",
+    "used_for": "18 t/m 20 september 2026, Makkum strand bij De Holle Poarte; long distance races met Rabbit Start, kids races in de baai; sinds 1995"
+   }
+  ],
+  "verified": "tabblad en detailpagina's: discard en netto gelijk, som racepunten = totaal, gemarkeerde weglatingen = discard; 8 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: therealtrip.nl/en/results, vastgelegd op 2026-10-01: het tabblad per categorie en de detailpagina van elke rider.",
+  "Punten per race uit de detailpagina's; plaats, weglating en netto uit het tabblad (beide gecontroleerd).",
+  "Puntentelling zoals waargenomen: winnaar van een race 0.7, daarna de plaats; DNS = aantal deelnemers + 1 (9)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "bjorn-bruining",
+   "sail": null,
+   "bib": "802",
+   "name": "Björn Bruining",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    9.0,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {
+    "K18": "DNS"
+   },
+   "discarded": [
+    9,
+    11,
+    12
+   ],
+   "total": 16.7,
+   "net": 6.3,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "ge-de-kort",
+   "sail": null,
+   "bib": "806",
+   "name": "Gé de Kort",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    2.0,
+    3.0,
+    9.0,
+    2.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {
+    "K18": "DNS"
+   },
+   "discarded": [
+    9,
+    11,
+    12
+   ],
+   "total": 37.0,
+   "net": 21.0,
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "boris-dj-dijk",
+   "sail": "NOG",
+   "bib": "824",
+   "name": "Boris dj Dijk",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    9.0,
+    9.0,
+    2.0,
+    9.0,
+    3.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {
+    "K12": "DNS",
+    "K13": "DNS",
+    "K18": "DNS"
+   },
+   "discarded": [
+    6,
+    7,
+    9
+   ],
+   "total": 51.0,
+   "net": 24.0,
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "justin-tettero",
+   "sail": null,
+   "bib": "818",
+   "name": "Justin Tettero",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0,
+    5.0,
+    9.0,
+    9.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {
+    "K18": "DNS",
+    "K19": "DNS"
+   },
+   "discarded": [
+    9,
+    10,
+    12
+   ],
+   "total": 60.0,
+   "net": 37.0,
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "alexander-gielen",
+   "sail": null,
+   "bib": "816",
+   "name": "Alexander Gielen",
+   "nationality": "BE",
+   "division": null,
+   "points": [
+    9.0,
+    5.0,
+    9.0,
+    9.0,
+    9.0,
+    2.0,
+    4.0,
+    4.0,
+    9.0,
+    9.0,
+    4.0,
+    2.0
+   ],
+   "race_remarks": {
+    "K1": "DNS",
+    "K5": "DNS",
+    "K6": "DNS",
+    "K7": "DNS",
+    "K18": "DNS",
+    "K19": "DNS"
+   },
+   "discarded": [
+    5,
+    9,
+    10
+   ],
+   "total": 75.0,
+   "net": 48.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "jeppe-doppenberg",
+   "sail": "NED51",
+   "bib": "809",
+   "name": "Jeppe Doppenberg",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    5.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    6.0,
+    5.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {
+    "K4": "DNS",
+    "K5": "DNS",
+    "K6": "DNS",
+    "K7": "DNS",
+    "K14": "DNS",
+    "K18": "DNS",
+    "K19": "DNS",
+    "K20": "DNS",
+    "K21": "DNS"
+   },
+   "discarded": [
+    10,
+    11,
+    12
+   ],
+   "total": 97.0,
+   "net": 70.0,
+   "remark": null
+  },
+  {
+   "rank": 7,
+   "person": "stan-vd-vegt",
+   "sail": null,
+   "bib": "801",
+   "name": "Stan vd Vegt",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    9.0,
+    9.0,
+    5.0,
+    9.0,
+    9.0,
+    5.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {
+    "K1": "DNS",
+    "K4": "DNS",
+    "K6": "DNS",
+    "K7": "DNS",
+    "K13": "DNS",
+    "K14": "DNS",
+    "K18": "DNS",
+    "K19": "DNS",
+    "K20": "DNS",
+    "K21": "DNS"
+   },
+   "discarded": [
+    10,
+    11,
+    12
+   ],
+   "total": 100.0,
+   "net": 73.0,
+   "remark": null
+  },
+  {
+   "rank": 8,
+   "person": "vigo-gerritsen",
+   "sail": null,
+   "bib": "807",
+   "name": "Vigo Gerritsen",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {
+    "K1": "DNS",
+    "K4": "DNS",
+    "K5": "DNS",
+    "K6": "DNS",
+    "K7": "DNS",
+    "K12": "DNS",
+    "K13": "DNS",
+    "K14": "DNS",
+    "K18": "DNS",
+    "K19": "DNS",
+    "K20": "DNS",
+    "K21": "DNS"
+   },
+   "discarded": [
+    10,
+    11,
+    12
+   ],
+   "total": 108.0,
+   "net": 81.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

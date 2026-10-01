@@ -1,0 +1,376 @@
+{
+ "schema_version": 1,
+ "id": "nk-2021-slalom-dames",
+ "event": {
+  "name": "NK Slalom 2021",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2021,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": "women",
+  "class": "Dames",
+  "windtulip_regatta": "NK Slalom 2021"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 3,
+  "discards": [
+   0
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/153/total_results/",
+  "type": "web",
+  "file": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-153-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "10 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [0]; rangschikking oplopend op netto; 3 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC of DNF in alle heats en finales tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": "open women",
+   "points": [
+    0.0,
+    4.0,
+    0.0
+   ],
+   "discarded": [],
+   "total": 4.0,
+   "net": 4.0
+  },
+  {
+   "rank": 2,
+   "person": "ghislaine-van-empel",
+   "sail": "NED-201",
+   "name": "Ghislaine van Empel",
+   "nationality": "NED",
+   "division": "open women",
+   "points": [
+    2.0,
+    0.0,
+    2.0
+   ],
+   "discarded": [],
+   "total": 4.0,
+   "net": 4.0
+  },
+  {
+   "rank": 3,
+   "person": "fianne-van-den-brule",
+   "sail": "NED-119",
+   "name": "Fianne van den Brule",
+   "nationality": "NED",
+   "division": "open women",
+   "points": [
+    3.0,
+    2.0,
+    3.0
+   ],
+   "discarded": [],
+   "total": 8.0,
+   "net": 8.0
+  },
+  {
+   "rank": 4,
+   "person": "fabienne-hoogendam",
+   "sail": "NED-223",
+   "name": "Fabiene Hogendam",
+   "nationality": "NED",
+   "division": "women onder 21",
+   "points": [
+    4.0,
+    3.0,
+    7.0
+   ],
+   "discarded": [],
+   "total": 14.0,
+   "net": 14.0
+  },
+  {
+   "rank": 5,
+   "person": "anne-steenbrink",
+   "sail": "NED-133",
+   "name": "Anne Steenbrink",
+   "nationality": "NED",
+   "division": "open women",
+   "points": [
+    6.0,
+    5.0,
+    4.0
+   ],
+   "discarded": [],
+   "total": 15.0,
+   "net": 15.0
+  },
+  {
+   "rank": 6,
+   "person": "zara-rozeboom",
+   "sail": "NED-1",
+   "name": "Zara Rozeboom",
+   "nationality": "NED",
+   "division": "women onder 17",
+   "points": [
+    5.0,
+    7.0,
+    5.0
+   ],
+   "discarded": [],
+   "total": 17.0,
+   "net": 17.0
+  },
+  {
+   "rank": 7,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL-26",
+   "name": "Andrea Vanhoorne",
+   "nationality": "BEL",
+   "division": "open women",
+   "points": [
+    7.0,
+    6.0,
+    6.0
+   ],
+   "discarded": [],
+   "total": 19.0,
+   "net": 19.0
+  },
+  {
+   "rank": 8,
+   "person": "lisa-ponsteen",
+   "sail": "NED-151",
+   "name": "Lisa Ponsteen",
+   "nationality": "NED",
+   "division": "women onder 17",
+   "points": [
+    9.0,
+    8.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 27.0,
+   "net": 27.0
+  },
+  {
+   "rank": 9,
+   "person": "romy-anne-reenders",
+   "sail": "NED-190",
+   "name": "Romy Anne Reenders",
+   "nationality": "NED",
+   "division": "open women",
+   "points": [
+    8.0,
+    10.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 28.0,
+   "net": 28.0
+  },
+  {
+   "rank": 10,
+   "person": null,
+   "sail": "NED-378",
+   "name": "Alexandra Louisa Schmidt",
+   "nationality": "NED",
+   "division": "open women",
+   "points": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0,
+   "counted": false
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/153/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "ghislaine-van-empel"
+      },
+      {
+       "rank": 3,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 4,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 5,
+       "person": "zara-rozeboom"
+      },
+      {
+       "rank": 6,
+       "person": "anne-steenbrink"
+      },
+      {
+       "rank": 7,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 8,
+       "person": "romy-anne-reenders"
+      },
+      {
+       "rank": 9,
+       "person": "lisa-ponsteen"
+      },
+      {
+       "rank": 10,
+       "person": null,
+       "remark": "DNF",
+       "name": "Alexandra Louisa Schmidt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/153/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ghislaine-van-empel"
+      },
+      {
+       "rank": 2,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "anne-steenbrink"
+      },
+      {
+       "rank": 6,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 7,
+       "person": "zara-rozeboom"
+      },
+      {
+       "rank": 8,
+       "person": "lisa-ponsteen"
+      },
+      {
+       "rank": 10,
+       "person": null,
+       "remark": "DNF",
+       "name": "Alexandra Louisa Schmidt"
+      },
+      {
+       "rank": 10,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/153/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "ghislaine-van-empel"
+      },
+      {
+       "rank": 3,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 4,
+       "person": "anne-steenbrink"
+      },
+      {
+       "rank": 5,
+       "person": "zara-rozeboom"
+      },
+      {
+       "rank": 6,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 10,
+       "person": null,
+       "remark": "DNF",
+       "name": "Alexandra Louisa Schmidt"
+      },
+      {
+       "rank": 10,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      },
+      {
+       "rank": 10,
+       "person": "lisa-ponsteen",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

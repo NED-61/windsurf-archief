@@ -1,0 +1,940 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2019-long-distance-masters-heren",
+ "event": {
+  "name": "The Real Trip 2019",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2019,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Makkum",
+  "discipline": "long_distance",
+  "gender": "men",
+  "class": "Masters heren",
+  "class_label_published": "SENIORS MEN MASTERS",
+  "fleet": "Long distance",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "A01"
+  ],
+  "discards": 0,
+  "scoring_system": "Low Point: punten = plaats in de race",
+  "fleet": "Long distance"
+ },
+ "source": {
+  "name": "PSR-live: THE REAL TRIP 2019 // SENIORS MEN MASTERS",
+  "publisher": "PSR-live (admin.psr.nl), via de Wayback Machine",
+  "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=53",
+  "file": "archive/nl/2019/the-real-trip-2019/bronnen/Uitslagen3.html",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "Telerik PivotGrid uit de html gelezen (rijkoppen met rowspan voor gedeelde plaatsen)",
+  "metadata_sources": [
+   {
+    "name": "PSR-live via de Wayback Machine (eventid 1023)",
+    "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=51",
+    "used_for": "uitslagen per klasse; datum van de editie staat niet in de bron"
+   }
+  ],
+  "verified": "59 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: PSR-live, klasse 53 van eventid 1023, gearchiveerd door de Wayback Machine op 13 november 2019. De PSR-pagina toont punten zonder statuscode.",
+  "33 rider(s) kregen 60 punten (aantal deelnemers + 1) zonder statuscode in de bron; vermoedelijk niet gestart of niet gefinisht. Plaats en punten zoals gepubliceerd.",
+  "Pagina door de gebruiker opgeslagen uit de Wayback Machine (inclusief werkbalk van archive.org)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "pieter-eliens",
+   "sail": null,
+   "bib": "349",
+   "name": "Pieter Eliens",
+   "division": null,
+   "points": [
+    1.0
+   ],
+   "discard_points": null,
+   "total": 1.0,
+   "net": 1.0,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "john-munten",
+   "sail": null,
+   "bib": "533",
+   "name": "John Munten",
+   "division": null,
+   "points": [
+    2.0
+   ],
+   "discard_points": null,
+   "total": 2.0,
+   "net": 2.0,
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "renee-vonk",
+   "sail": null,
+   "bib": "197",
+   "name": "Renee Vonk",
+   "division": null,
+   "points": [
+    3.0
+   ],
+   "discard_points": null,
+   "total": 3.0,
+   "net": 3.0,
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "martijn-vos",
+   "sail": null,
+   "bib": "143",
+   "name": "Martijn Vos",
+   "division": null,
+   "points": [
+    4.0
+   ],
+   "discard_points": null,
+   "total": 4.0,
+   "net": 4.0,
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "henning-ter-horst",
+   "sail": null,
+   "bib": "62",
+   "name": "Henning Ter Horst",
+   "division": null,
+   "points": [
+    5.0
+   ],
+   "discard_points": null,
+   "total": 5.0,
+   "net": 5.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "john-vlasbloem",
+   "sail": null,
+   "bib": "159",
+   "name": "John Vlasbloem",
+   "division": null,
+   "points": [
+    6.0
+   ],
+   "discard_points": null,
+   "total": 6.0,
+   "net": 6.0,
+   "remark": null
+  },
+  {
+   "rank": 7,
+   "person": "peter-de-rijke",
+   "sail": null,
+   "bib": "211",
+   "name": "Peter de Rijke",
+   "division": null,
+   "points": [
+    7.0
+   ],
+   "discard_points": null,
+   "total": 7.0,
+   "net": 7.0,
+   "remark": null
+  },
+  {
+   "rank": 8,
+   "person": "carsten-hanke",
+   "sail": null,
+   "bib": "532",
+   "name": "Carsten Hanke",
+   "division": null,
+   "points": [
+    8.0
+   ],
+   "discard_points": null,
+   "total": 8.0,
+   "net": 8.0,
+   "remark": null
+  },
+  {
+   "rank": 9,
+   "person": "robert-baas",
+   "sail": null,
+   "bib": "545",
+   "name": "Robert Baas",
+   "division": null,
+   "points": [
+    9.0
+   ],
+   "discard_points": null,
+   "total": 9.0,
+   "net": 9.0,
+   "remark": null
+  },
+  {
+   "rank": 10,
+   "person": "peter-konstapel",
+   "sail": null,
+   "bib": "543",
+   "name": "Peter Konstapel",
+   "division": null,
+   "points": [
+    10.0
+   ],
+   "discard_points": null,
+   "total": 10.0,
+   "net": 10.0,
+   "remark": null
+  },
+  {
+   "rank": 11,
+   "person": "rob-hazelaar",
+   "sail": null,
+   "bib": "11",
+   "name": "Rob Hazelaar",
+   "division": null,
+   "points": [
+    11.0
+   ],
+   "discard_points": null,
+   "total": 11.0,
+   "net": 11.0,
+   "remark": null
+  },
+  {
+   "rank": 12,
+   "person": "rob-de-jong",
+   "sail": null,
+   "bib": "104",
+   "name": "Rob de jong",
+   "division": null,
+   "points": [
+    12.0
+   ],
+   "discard_points": null,
+   "total": 12.0,
+   "net": 12.0,
+   "remark": null
+  },
+  {
+   "rank": 13,
+   "person": "dirk-kooystra",
+   "sail": null,
+   "bib": "97",
+   "name": "Dirk Kooystra",
+   "division": null,
+   "points": [
+    13.0
+   ],
+   "discard_points": null,
+   "total": 13.0,
+   "net": 13.0,
+   "remark": null
+  },
+  {
+   "rank": 14,
+   "person": "bas-brull",
+   "sail": null,
+   "bib": "142",
+   "name": "Bas Brull",
+   "division": null,
+   "points": [
+    14.0
+   ],
+   "discard_points": null,
+   "total": 14.0,
+   "net": 14.0,
+   "remark": null
+  },
+  {
+   "rank": 15,
+   "person": "edwin-de-koning",
+   "sail": null,
+   "bib": "341",
+   "name": "Edwin de koning",
+   "division": null,
+   "points": [
+    15.0
+   ],
+   "discard_points": null,
+   "total": 15.0,
+   "net": 15.0,
+   "remark": null
+  },
+  {
+   "rank": 16,
+   "person": "nick-glaettli",
+   "sail": null,
+   "bib": "521",
+   "name": "Nick Glattli",
+   "division": null,
+   "points": [
+    16.0
+   ],
+   "discard_points": null,
+   "total": 16.0,
+   "net": 16.0,
+   "remark": null
+  },
+  {
+   "rank": 17,
+   "person": "paul-salomons",
+   "sail": null,
+   "bib": "58",
+   "name": "Paul Salomons",
+   "division": null,
+   "points": [
+    17.0
+   ],
+   "discard_points": null,
+   "total": 17.0,
+   "net": 17.0,
+   "remark": null
+  },
+  {
+   "rank": 18,
+   "person": "bob-rietbergen",
+   "sail": null,
+   "bib": "331",
+   "name": "Bob Rietbergen",
+   "division": null,
+   "points": [
+    18.0
+   ],
+   "discard_points": null,
+   "total": 18.0,
+   "net": 18.0,
+   "remark": null
+  },
+  {
+   "rank": 19,
+   "person": "maarten-oussoren",
+   "sail": null,
+   "bib": "501",
+   "name": "Maarten Oussoren",
+   "division": null,
+   "points": [
+    19.0
+   ],
+   "discard_points": null,
+   "total": 19.0,
+   "net": 19.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "ronald-poel",
+   "sail": null,
+   "bib": "220",
+   "name": "Ronald Poel",
+   "division": null,
+   "points": [
+    20.0
+   ],
+   "discard_points": null,
+   "total": 20.0,
+   "net": 20.0,
+   "remark": null
+  },
+  {
+   "rank": 21,
+   "person": "michel-van-maastricht",
+   "sail": null,
+   "bib": "173",
+   "name": "Michel van Maastricht",
+   "division": null,
+   "points": [
+    21.0
+   ],
+   "discard_points": null,
+   "total": 21.0,
+   "net": 21.0,
+   "remark": null
+  },
+  {
+   "rank": 22,
+   "person": "pieter-buis",
+   "sail": null,
+   "bib": "191",
+   "name": "Pieter Buis",
+   "division": null,
+   "points": [
+    22.0
+   ],
+   "discard_points": null,
+   "total": 22.0,
+   "net": 22.0,
+   "remark": null
+  },
+  {
+   "rank": 23,
+   "person": "rob-heemskerk",
+   "sail": null,
+   "bib": "508",
+   "name": "Rob Heemskerk",
+   "division": null,
+   "points": [
+    23.0
+   ],
+   "discard_points": null,
+   "total": 23.0,
+   "net": 23.0,
+   "remark": null
+  },
+  {
+   "rank": 24,
+   "person": "ewald-gouwenberg",
+   "sail": null,
+   "bib": "171",
+   "name": "Ewald Gouwenberg",
+   "division": null,
+   "points": [
+    24.0
+   ],
+   "discard_points": null,
+   "total": 24.0,
+   "net": 24.0,
+   "remark": null
+  },
+  {
+   "rank": 25,
+   "person": "herman-legtenberg",
+   "sail": null,
+   "bib": "539",
+   "name": "Herman Legtenberg",
+   "division": null,
+   "points": [
+    25.0
+   ],
+   "discard_points": null,
+   "total": 25.0,
+   "net": 25.0,
+   "remark": null
+  },
+  {
+   "rank": 26,
+   "person": "peter-magnee",
+   "sail": null,
+   "bib": "96",
+   "name": "Peter Magnee",
+   "division": null,
+   "points": [
+    26.0
+   ],
+   "discard_points": null,
+   "total": 26.0,
+   "net": 26.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "bart-branders",
+   "sail": null,
+   "bib": "522",
+   "name": "Bart Branders",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "david-goris",
+   "sail": null,
+   "bib": "334",
+   "name": "David Goris",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "frank-dansercoer",
+   "sail": null,
+   "bib": "346",
+   "name": "Frank Dansercoer",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "friedbert-rogge",
+   "sail": null,
+   "bib": "81",
+   "name": "Friedbert Rogge",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "marcel-prymka",
+   "sail": null,
+   "bib": "188",
+   "name": "Marcel Prymka",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "martin-roos",
+   "sail": null,
+   "bib": "136",
+   "name": "Martin Roos",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "thomas-blanke",
+   "sail": null,
+   "bib": "134",
+   "name": "Thomas Blanke",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "francois-lorho",
+   "sail": null,
+   "bib": "518",
+   "name": "Francois Lorho",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "albert-ponsteen",
+   "sail": null,
+   "bib": "540",
+   "name": "Albert Ponsteen",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "andreas-mater",
+   "sail": null,
+   "bib": "160",
+   "name": "Andreas Mater",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "arjen-klinkenberg",
+   "sail": null,
+   "bib": "158",
+   "name": "Arjen Klinkenberg",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "bas-kwee",
+   "sail": null,
+   "bib": "119",
+   "name": "Bas Kwee",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "cobus-van-der-stel",
+   "sail": null,
+   "bib": "537",
+   "name": "Cobus van der Stel",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "dirk-van-reijendam",
+   "sail": null,
+   "bib": "170",
+   "name": "Dirk van Reijendam",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "frank-buikstra",
+   "sail": null,
+   "bib": "180",
+   "name": "Frank Buikstra",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "hj-vermeulen",
+   "sail": null,
+   "bib": "153",
+   "name": "H.J. Vermeulen",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "harald-lamberts",
+   "sail": null,
+   "bib": "139",
+   "name": "Harald Lamberts",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "henk-vos",
+   "sail": null,
+   "bib": "140",
+   "name": "Henk Vos",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "henri-hogenhuis",
+   "sail": null,
+   "bib": "88",
+   "name": "Henri Hogenhuis",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "ingolf-van-oostveen",
+   "sail": null,
+   "bib": "227",
+   "name": "Ingolf van Oostveen",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "jan-paul-spoelstra",
+   "sail": null,
+   "bib": "9",
+   "name": "Jan Paul Spoelstra",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "jan-van-duin",
+   "sail": null,
+   "bib": "222",
+   "name": "Jan van Duin",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "luc-salomons",
+   "sail": null,
+   "bib": "199",
+   "name": "Luc Salomons",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "marco-baaijen",
+   "sail": null,
+   "bib": "128",
+   "name": "Marco Baaijen",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "marco-vossen",
+   "sail": null,
+   "bib": "212",
+   "name": "Marco Vossen",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "michel-meijer",
+   "sail": null,
+   "bib": "150",
+   "name": "Michel Meijer",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "mike-hessels",
+   "sail": null,
+   "bib": "169",
+   "name": "Mike Hessels",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "niels-van-haarlem",
+   "sail": null,
+   "bib": "129",
+   "name": "Niels van Haarlem",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "nils-duindam",
+   "sail": null,
+   "bib": "90",
+   "name": "Nils Duindam",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "peter-van-der-ven",
+   "sail": null,
+   "bib": "174",
+   "name": "Peter van der Ven",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "remco-zielstra",
+   "sail": null,
+   "bib": "531",
+   "name": "Remco Zielstra",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "robin-van-wijngaarden",
+   "sail": null,
+   "bib": "223",
+   "name": "Robin van Wijngaarden",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  },
+  {
+   "rank": 27,
+   "person": "ron-cooper",
+   "sail": null,
+   "bib": "226",
+   "name": "Ron Cooper",
+   "division": null,
+   "points": [
+    60.0
+   ],
+   "discard_points": null,
+   "total": 60.0,
+   "net": 60.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

@@ -1,0 +1,17 @@
+{
+ "event_slug": "ronde-om-texel-2019",
+ "scope": "nl",
+ "name": "Ronde om Texel 2019",
+ "series": "Ronde om Texel",
+ "year": 2019,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2019-06-22",
+ "date_end": null,
+ "location": "Texel",
+ "classes": [],
+ "notes": [
+  "Metadata uit Info.txt van de eigen verzameling van de repo-eigenaar (niet geverifieerd tegen een officiële bron).",
+  "Datum volgens Info.txt, niet geverifieerd."
+ ]
+}

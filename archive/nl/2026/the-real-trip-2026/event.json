@@ -1,0 +1,47 @@
+{
+ "event_slug": "the-real-trip-2026",
+ "scope": "nl",
+ "name": "The Real Trip 2026",
+ "series": "The Real Trip",
+ "year": 2026,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2026-09-18",
+ "date_end": "2026-09-20",
+ "location": "Makkum (strand bij De Holle Poarte)",
+ "discipline": "long_distance",
+ "classes": [
+  "the-real-trip-2026-long-distance-fin-adults-men",
+  "the-real-trip-2026-long-distance-fin-adults-women",
+  "the-real-trip-2026-short-course-fin-kids-12",
+  "the-real-trip-2026-long-distance-fin-master",
+  "the-real-trip-2026-long-distance-fin-profleet",
+  "the-real-trip-2026-long-distance-fin-youth-13-17-long-course",
+  "the-real-trip-2026-short-course-fin-youth-13-17-short-course",
+  "the-real-trip-2026-long-distance-lt-adults",
+  "the-real-trip-2026-long-distance-long-course-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "The Real Trip: Info",
+   "url": "https://therealtrip.nl/info",
+   "used_for": "18 t/m 20 september 2026, Makkum strand bij De Holle Poarte; long distance races met Rabbit Start, kids races in de baai; sinds 1995"
+  }
+ ],
+ "notes": [
+  "The Real Trip is een long-distance funrace in Makkum (sinds 1995, volgens therealtrip.nl). Per fleet worden meerdere races gevaren en per categorie geklasseerd; kids varen hun eigen races op een korte baan.",
+  "Fleets en categorieën: zie per uitslag event.fleet, event.equipment en event.class."
+ ],
+ "awards": [
+  {
+   "award": "Encouragement award",
+   "bib": "813",
+   "name": "Lars Dijkstra"
+  },
+  {
+   "award": "Special Recognition award",
+   "bib": "818",
+   "name": "Justin Tettero"
+  }
+ ]
+}

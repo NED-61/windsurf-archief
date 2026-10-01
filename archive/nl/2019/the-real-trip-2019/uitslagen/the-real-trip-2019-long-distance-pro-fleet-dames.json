@@ -1,0 +1,84 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2019-long-distance-pro-fleet-dames",
+ "event": {
+  "name": "The Real Trip 2019",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2019,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Makkum",
+  "discipline": "long_distance",
+  "gender": "women",
+  "class": "Pro fleet dames",
+  "class_label_published": "PRO FLEET WOMEN",
+  "fleet": "Long distance",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "A01"
+  ],
+  "discards": 0,
+  "scoring_system": "Low Point: punten = plaats in de race",
+  "fleet": "Long distance"
+ },
+ "source": {
+  "name": "PSR-live: THE REAL TRIP 2019 // PRO FLEET WOMEN",
+  "publisher": "PSR-live (admin.psr.nl), via de Wayback Machine",
+  "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=62",
+  "file": "archive/nl/2019/the-real-trip-2019/bronnen/psr-1023-class62-wayback-20191113195746.html",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "Telerik PivotGrid uit de html gelezen (rijkoppen met rowspan voor gedeelde plaatsen)",
+  "metadata_sources": [
+   {
+    "name": "PSR-live via de Wayback Machine (eventid 1023)",
+    "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=51",
+    "used_for": "uitslagen per klasse; datum van de editie staat niet in de bron"
+   }
+  ],
+  "verified": "2 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: PSR-live, klasse 62 van eventid 1023, gearchiveerd door de Wayback Machine op 13 november 2019. De PSR-pagina toont punten zonder statuscode.",
+  "Pagina opgehaald als ruwe Wayback-kopie (id_) via de ingebouwde browser."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "andrea-vanhoorne",
+   "sail": null,
+   "bib": "28",
+   "name": "Andrea Verhoorne",
+   "division": null,
+   "points": [
+    1.0
+   ],
+   "discard_points": null,
+   "total": 1.0,
+   "net": 1.0,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "esther-de-geus",
+   "sail": null,
+   "bib": "32",
+   "name": "Esther de Geus",
+   "division": null,
+   "points": [
+    2.0
+   ],
+   "discard_points": null,
+   "total": 2.0,
+   "net": 2.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

@@ -1,0 +1,31 @@
+{
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "local-only/nl/2018/ronde-om-texel-2018/media/foto/WhatsApp Image 2024-02-25 at 18.37.54 (3).jpeg",
+   "type": "foto",
+   "sha256": "24b9bf8353e25b9538f763e3851eb268b3bac012677d69fea43e1abe29468f15",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2018/ronde-om-texel-2018/media/foto/WhatsApp Image 2024-02-25 at 18.37.54 (4).jpeg",
+   "type": "foto",
+   "sha256": "7426daa8bb8f47bc19bd598d153cf3176adbc7a2fb785b9c74be3e42c43be246",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  }
+ ]
+}

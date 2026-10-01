@@ -11,8 +11,7 @@ archive/<scope>/<jaar>/<evenement>/   (scope = nl of internationaal)
     uitslagen/<id>.json                  één bestand per klasse-uitslag (eindstand + detail per format)
     bronnen/                             DE ORIGINELEN (pdf, xlsx, html), byte-identiek bewaard, plus transcripties
     media/foto/  media/video/            originele foto's en video's (+ media/media.json met bijschrift, maker, rechten)
-data/people.json                         ridersregister (id, aliassen, zeilnummers per optreden)
-data/merge-log.json                      beslissingen over koppelingen van riders
+data/people.json                         ridersregister: id, aliassen, optredens; ook koppelbeslissingen (confirmed, not_same, pending)
 data/registry.json                       wat is binnengekomen en wat er mee gebeurd is
 INDEX.md                                 overzicht per jaar + openstaande punten (gegenereerd)
 tools/                                   importers en controlescripts
@@ -25,6 +24,13 @@ Horen bij een evenement: `archive/<scope>/<jaar>/<evenement>/media/foto|video/`,
 - Geen namen bij foto's van minderjarigen zonder expliciete toestemming (`people` blijft leeg tenzij zeker en toegestaan).
 - Grote video's: Git LFS of extern hosten (keuze nog te maken bij de eerste grote video).
 
+## Riders (people.json)
+Eén bestand voor riders én koppelbeslissingen:
+- `people[]`: `id`, `name`, `aliases`, `appearances` (per optreden: uitslag-id, naam en zeilnummer zoals gepubliceerd; `match` = waarom het bij deze persoon hoort: `naam` = zelfde volledige naam, `bevestigd` = door jou bevestigd). Optioneel `confirmed`: namen die jij aan deze persoon hebt toegewezen (andere spelling, alleen voorletters).
+- `not_same`: paren die jij als verschillende personen hebt aangemerkt.
+- `pending`: open koppelvragen.
+Regel: dezelfde volledige naam (hoofdletters, accenten en koppeltekens genegeerd) is dezelfde persoon. Afwijkende spelling of alleen voorletters wordt pas gekoppeld na jouw bevestiging.
+
 ## Backlog
 `data/backlog/windtulip-index.txt` bevat de 173 bekende Windtulip-dashboards (ID 3 t/m 243, categorie afgeleid uit de titel). `python3 tools/archive.py backlog-import` zet ze als `wacht` in de registry (scope nl of internationaal); `INDEX.md` toont de aantallen. Fase 1 is Nederland: alleen scope `nl` wordt omgezet naar JSON.
 
@@ -35,6 +41,21 @@ Horen bij een evenement: `archive/<scope>/<jaar>/<evenement>/media/foto|video/`,
 - `python3 tools/archive.py verify`: controleert dat elk geregistreerd origineel er nog is en niet gewijzigd is; meldt bronnen waarvan alleen een link of transcriptie bestaat
 - `python3 tools/archive.py index`: INDEX.md opnieuw genereren
 - `python3 tools/build_elimination.py <transcriptie>`: eliminatie-uitslag bouwen en controleren
+- `python3 tools/bulk_register.py --folder <map> --event archive/<scope>/<jaar>/<evenement> [--name .. --series ..]` (of `--skip`/`--hold "reden"`): één map uit `inbox/bulk` registreren; maakt `event.json` aan als die ontbreekt; foto's/video's zonder bekende rechten naar `local-only/`
+- `python3 tools/build_site.py [--out site]`: bouwt de website in `site/` (staat in `.gitignore`); zie hieronder
+- `python3 tools/import_windtulip.py [--dry-run]`: Windtulip-dashboards (page-data.json, totaal + alle eliminaties) registreren, omzetten naar elimination-uitslagen, controleren en riders koppelen (herhaalbaar; welke dashboards bij welk evenement horen staat in het script)
+- `python3 tools/merge_people.py --keep <id> --merge <id> [--name "Hoofdnaam"]` of `--not-same <id> <id>` of `--reassign "Naam" --from <id> --to <id>` (verkeerde koppeling herstellen): een koppelbeslissing vastleggen in `data/people.json` (`confirmed` / `not_same`), de person-id in de uitslagen bijwerken en het open voorstel sluiten
+- `python3 tools/counting.py [--dry-run]`: past de NK-regel toe: wie in een NK-uitslag alleen DNC of DNF heeft, telt niet mee. De regel blijft in de uitslag staan zoals gepubliceerd met `"counted": false` en `person: null` (geen rider, geen koppelvraag, geen start op de site); `import_windtulip.py` roept dit zelf aan
+- `python3 tools/import_realtrip.py [--dry-run]`: The Real Trip (Makkum): registreert de bronnen uit `inbox/los` (opgeslagen webpagina's: de `_files`-mappen gaan naar `local-only/`), zet 2019 (PSR-live via de Wayback Machine), 2023 (PSR-pdf's) en 2026 (therealtrip.nl, vastlegging van tabbladen en rider-detailpagina's) om naar fleet_racing-uitslagen, controleert en koppelt riders (herhaalbaar)
+- `python3 tools/import_gpa.py [--dry-run]`: GPA-uitslagen (Grote Prijs van Aalsmeer, pdf) omzetten, riders koppelen aan `data/people.json` (herhaalbaar)
+
+## Website
+`python3 tools/build_site.py` maakt een statische site in `site/`: losse HTML-pagina's per wedstrijd, klasse-uitslag (met alle heats en finales) en rider, plus zoeken, statistieken (onderlinge vergelijking, riders per jaar, ranglijsten, winnaars) en een over-pagina. De generator leest alleen de uitslagen, `event.json` en `people.json`. Alle links zijn relatief, dus de map `site/` kan op elke host of in een submap staan. Opmaak: stijl "Rustig" (systeemletter, dunne lijnen, één linkkleur); de site laadt niets van andere domeinen. Na elke nieuwe uitslag opnieuw bouwen en de map `site/` opnieuw uploaden.
 
 ## Formattypes
+**long_distance** (rondjes/uren-wedstrijden, bijv. Grote Prijs van Aalsmeer): entries hebben de vaste kern plus `laps`, `time` (`h:mm:ss` zoals gepubliceerd), `gender` (alleen als gepubliceerd), `bib` (startnummer, als er geen zeilnummer is) en `overall_rank` (alleen als de bron één lijst over alle klassen geeft; dan is `rank` de afgeleide klasseplaats). `format.ranking` en `format.time_basis` leggen vast hoe de bron rangschikt en wat `time` betekent (totale tijd of tijd sinds opening finishlijn); tijden worden nooit omgerekend. Niet-gefinishte deelnemers hebben `rank: null` en `remark: "DNF"`.
+
+**fleet_racing** (meerdere races met punten per race, bijv. The Real Trip): `format.races` bevat de racecodes zoals gepubliceerd (A2, K01, R01 …), `format.discards` het aantal weglatingen en `format.scoring_system` de puntentelling zoals gepubliceerd of waargenomen. Entries hebben de vaste kern plus `points` (punten per race in de volgorde van `format.races`; `null` als de race voor die rider niet in de bron staat), `race_remarks` (statuscode per race, bijv. `{"A4": "DNS"}`), `discarded` (posities, vanaf 1, van de weggelaten races) of, als de bron niet zegt welke race is weggelaten, `discard_points` (de weggelaten punten), `total` (som van de racepunten) en `net`. Verder `bib` (startnummer), `nationality` (als de bron een vlag toont) en `rank_published` (als de gepubliceerde plaats meer is dan een getal, bijv. `12*`).
+`event.fleet` is de groep die dezelfde races vaart (long course, short course, kids groep A), `event.equipment` het materiaal (fin, foil, LT); `event.class` is de categorie waarin geklasseerd wordt. Een klassement over categorieën heen (bijv. "Long course overall") is een eigen uitslag met `"aggregate": true` en per entry `category`; de site toont die bij de wedstrijd en de rider, maar telt het niet als extra start en neemt het niet mee in de onderlinge vergelijking. Zijn de punten per race niet gepubliceerd, dan is `points` `null` en staat `format.points_per_race_published: false`.
+
 De werkafspraken (formattypes, bronnen, riders samenvoegen, media) staan in de projectinstructies in het Claude-project "Windsurf wedstrijd archief". Een nieuw formattype wordt hier bijgeschreven zodra het voor het eerst voorkomt.

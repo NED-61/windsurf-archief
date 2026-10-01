@@ -1,0 +1,3145 @@
+{
+ "schema_version": 1,
+ "id": "nk-2022-slalom-jeugd",
+ "event": {
+  "name": "NK Slalom 2022",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Jeugd",
+  "windtulip_regatta": "NK Slalom 2022"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 8,
+  "discards": [
+   2
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/171/total_results/",
+  "type": "web",
+  "file": "archive/nl/2022/nk-slalom-2022/bronnen/windtulip-171-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "30 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [2]; rangschikking oplopend op netto; 8 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC of DNF in alle heats en finales tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    2.0,
+    0.0,
+    2.0,
+    4.0,
+    4.0,
+    5.0,
+    2.0,
+    3.0
+   ],
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 22.0,
+   "net": 13.0
+  },
+  {
+   "rank": 2,
+   "person": "cyril-evrard",
+   "sail": "BEL-250",
+   "name": "Cyril Evrard",
+   "nationality": "BEL",
+   "division": "U 21-Heren",
+   "points": [
+    30.0,
+    30.0,
+    10.0,
+    0.0,
+    0.0,
+    0.0,
+    4.0,
+    0.0
+   ],
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 74.0,
+   "net": 14.0
+  },
+  {
+   "rank": 3,
+   "person": "koen-hessels",
+   "sail": "NED-88",
+   "name": "Koen Hessels",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    3.0,
+    3.0,
+    14.0,
+    3.0,
+    5.0,
+    2.0,
+    7.0,
+    2.0
+   ],
+   "discarded": [
+    3,
+    7
+   ],
+   "total": 39.0,
+   "net": 18.0
+  },
+  {
+   "rank": 4,
+   "person": "skip-brull",
+   "sail": "NED-173",
+   "name": "Skip Brüll",
+   "nationality": "NED",
+   "division": "U 17-Heren",
+   "points": [
+    5.0,
+    4.0,
+    11.0,
+    5.0,
+    6.0,
+    4.0,
+    9.0,
+    8.0
+   ],
+   "discarded": [
+    3,
+    7
+   ],
+   "total": 52.0,
+   "net": 32.0
+  },
+  {
+   "rank": 5,
+   "person": "sem-stroosma",
+   "sail": "NED-450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    4.0,
+    8.0,
+    12.0,
+    30.0,
+    30.0,
+    3.0,
+    0.0,
+    5.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 92.0,
+   "net": 32.0
+  },
+  {
+   "rank": 6,
+   "person": "freerk-blom",
+   "sail": "NED-25",
+   "name": "Freerk Blom",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    30.0,
+    30.0,
+    3.0,
+    2.0,
+    2.0,
+    8.0,
+    17.0,
+    4.0
+   ],
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 96.0,
+   "net": 36.0
+  },
+  {
+   "rank": 7,
+   "person": "kaj-rozeboom",
+   "sail": "NED-6 / 155",
+   "name": "Kaj Rozeboom",
+   "nationality": "NED",
+   "division": "U 17-Heren",
+   "points": [
+    11.0,
+    6.0,
+    4.0,
+    8.0,
+    7.0,
+    30.0,
+    6.0,
+    6.0
+   ],
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 78.0,
+   "net": 37.0
+  },
+  {
+   "rank": 8,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED-259",
+   "name": "Bart Van den Bogaart",
+   "nationality": "NED",
+   "division": "U 17-Heren",
+   "points": [
+    7.0,
+    12.0,
+    7.0,
+    13.0,
+    12.0,
+    6.0,
+    5.0,
+    10.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 72.0,
+   "net": 47.0
+  },
+  {
+   "rank": 9,
+   "person": "matt-de-jong",
+   "sail": "NED-59",
+   "name": "Matt De Jong",
+   "nationality": "NED",
+   "division": "U 17-Heren",
+   "points": [
+    30.0,
+    13.0,
+    5.0,
+    6.0,
+    8.0,
+    11.0,
+    8.0,
+    9.0
+   ],
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 90.0,
+   "net": 47.0
+  },
+  {
+   "rank": 10,
+   "person": "luc-buse",
+   "sail": "NED-333",
+   "name": "Luc Busé",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    9.0,
+    7.0,
+    8.0,
+    7.0,
+    10.0,
+    15.0,
+    19.0,
+    30.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 105.0,
+   "net": 56.0
+  },
+  {
+   "rank": 11,
+   "person": "bjorn-droop",
+   "sail": "NED-220",
+   "name": "Bjorn Droop",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    12.0,
+    9.0,
+    6.0,
+    12.0,
+    11.0,
+    10.0,
+    12.0,
+    11.0
+   ],
+   "discarded": [
+    4,
+    7
+   ],
+   "total": 83.0,
+   "net": 59.0
+  },
+  {
+   "rank": 12,
+   "person": "jelle-van-der-veen",
+   "sail": "NED-225",
+   "name": "Jelle van der Veen",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    6.0,
+    5.0,
+    30.0,
+    30.0,
+    30.0,
+    9.0,
+    3.0,
+    7.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 120.0,
+   "net": 60.0
+  },
+  {
+   "rank": 13,
+   "person": "thijs-hanemaaijer",
+   "sail": "NED-107",
+   "name": "Thijs Hanemaaijer",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    10.0,
+    10.0,
+    13.0,
+    9.0,
+    9.0,
+    13.0,
+    18.0,
+    12.0
+   ],
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 94.0,
+   "net": 63.0
+  },
+  {
+   "rank": 14,
+   "person": "kas-de-wolf",
+   "sail": "NED-8123",
+   "name": "Kas de Wolf",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    30.0,
+    30.0,
+    0.0,
+    11.0,
+    3.0,
+    8.0,
+    16.0,
+    30.0
+   ],
+   "discarded": [
+    2,
+    8
+   ],
+   "total": 128.0,
+   "net": 68.0
+  },
+  {
+   "rank": 15,
+   "person": "mika-boone",
+   "sail": "NED-134",
+   "name": "Mika Boone",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    8.0,
+    11.0,
+    17.0,
+    14.0,
+    14.0,
+    16.0,
+    20.0,
+    14.0
+   ],
+   "discarded": [
+    3,
+    7
+   ],
+   "total": 114.0,
+   "net": 77.0
+  },
+  {
+   "rank": 16,
+   "person": "finn-brull",
+   "sail": "NED-731",
+   "name": "Finn Brüll",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    13.0,
+    14.0,
+    16.0,
+    17.0,
+    16.0,
+    12.0,
+    11.0,
+    18.0
+   ],
+   "discarded": [
+    4,
+    8
+   ],
+   "total": 117.0,
+   "net": 82.0
+  },
+  {
+   "rank": 17,
+   "person": "peyton-dits",
+   "sail": "NED-241",
+   "name": "Peyton Dits",
+   "nationality": "NED",
+   "division": "U 13-Heren",
+   "points": [
+    14.0,
+    15.0,
+    18.0,
+    15.0,
+    15.0,
+    17.0,
+    10.0,
+    17.0
+   ],
+   "discarded": [
+    3,
+    8
+   ],
+   "total": 121.0,
+   "net": 86.0
+  },
+  {
+   "rank": 18,
+   "person": "arthur-dunnewind",
+   "sail": "NED-135",
+   "name": "Arthur Dunnewind",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    15.0,
+    16.0,
+    15.0,
+    19.0,
+    13.0,
+    15.0,
+    23.0,
+    16.0
+   ],
+   "discarded": [
+    4,
+    7
+   ],
+   "total": 132.0,
+   "net": 90.0
+  },
+  {
+   "rank": 19,
+   "person": "joep-havik",
+   "sail": "NED-231",
+   "name": "Joep Havik",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    30.0,
+    30.0,
+    20.0,
+    18.0,
+    20.0,
+    18.0,
+    13.0,
+    15.0
+   ],
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 164.0,
+   "net": 104.0
+  },
+  {
+   "rank": 20,
+   "person": "bjarne-van-der-weg",
+   "sail": "NED-2024 / 4",
+   "name": "Bjarne van der Weg",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    30.0,
+    30.0,
+    9.0,
+    10.0,
+    30.0,
+    22.0,
+    22.0,
+    13.0
+   ],
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 166.0,
+   "net": 106.0
+  },
+  {
+   "rank": 21,
+   "person": "hidde-van-der-meer",
+   "sail": "NED-352",
+   "name": "Hidde van der Meer",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    0.0,
+    2.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 182.0,
+   "net": 122.0
+  },
+  {
+   "rank": 22,
+   "person": "steff-de-bruijn",
+   "sail": "NED-508",
+   "name": "Steff de Bruijn",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    20.0,
+    18.0,
+    20.0,
+    21.0,
+    20.0
+   ],
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 189.0,
+   "net": 129.0
+  },
+  {
+   "rank": 23,
+   "person": "merlijn-boswijk",
+   "sail": "NED-244",
+   "name": "Merlijn Boswijk",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    30.0,
+    30.0,
+    19.0,
+    16.0,
+    17.0,
+    30.0,
+    30.0,
+    30.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 202.0,
+   "net": 142.0
+  },
+  {
+   "rank": 24,
+   "person": "cedric-walhof",
+   "sail": "XX",
+   "name": "Cédric Walhof",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    19.0,
+    15.0,
+    19.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 203.0,
+   "net": 143.0
+  },
+  {
+   "rank": 25,
+   "person": "diederik-leemans",
+   "sail": "NED-301",
+   "name": "Diederik Leemans",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    21.0,
+    14.0,
+    21.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 206.0,
+   "net": 146.0
+  },
+  {
+   "rank": 26,
+   "person": "julian-koldeweid",
+   "sail": "NED-54",
+   "name": "Julian Koldeweid",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    21.0,
+    19.0,
+    30.0,
+    30.0,
+    30.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 220.0,
+   "net": 160.0
+  },
+  {
+   "rank": 27,
+   "person": "milo-zaal",
+   "sail": "NED-303",
+   "name": "Milo Zaal",
+   "nationality": "NED",
+   "division": "U 15-Heren",
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    23.0,
+    30.0,
+    22.0
+   ],
+   "discarded": [
+    5,
+    7
+   ],
+   "total": 225.0,
+   "net": 165.0
+  },
+  {
+   "rank": 28,
+   "person": "laurens-ooms",
+   "sail": "NED-369",
+   "name": "Laurens Ooms",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    24.0,
+    30.0
+   ],
+   "discarded": [
+    6,
+    8
+   ],
+   "total": 234.0,
+   "net": 174.0
+  },
+  {
+   "rank": 29,
+   "person": "john-john-vanderick",
+   "sail": "BEL-50",
+   "name": "John John Vanderick",
+   "nationality": "BEL",
+   "division": "U 13-Heren",
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 240.0,
+   "net": 180.0
+  },
+  {
+   "rank": 29,
+   "person": null,
+   "sail": "NED-1009",
+   "name": "Joa van den Berg",
+   "nationality": "NED",
+   "division": "U 21-Heren",
+   "points": [
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0,
+    30.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 240.0,
+   "net": 180.0,
+   "counted": false
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/171/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 2,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 5,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 6,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 7,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 8,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 9,
+       "person": "peyton-dits"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 2,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 4,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "person": null,
+       "remark": "DNF",
+       "name": "Joa van den Berg"
+      },
+      {
+       "rank": 8,
+       "person": "arthur-dunnewind",
+       "remark": "DNF"
+      },
+      {
+       "rank": 8,
+       "person": "bjorn-droop",
+       "remark": "OCS"
+      },
+      {
+       "rank": 8,
+       "person": "kaj-rozeboom",
+       "remark": "OCS"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 2,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 5,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 6,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "person": "mika-boone"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 2,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 4,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 5,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 6,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 7,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 22,
+       "person": "milo-zaal",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "john-john-vanderick",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "cedric-walhof",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "diederik-leemans",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "steff-de-bruijn",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "kas-de-wolf",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "merlijn-boswijk",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "laurens-ooms",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "julian-koldeweid",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "joep-havik",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "freerk-blom",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "cyril-evrard",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "bjarne-van-der-weg",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": null,
+       "remark": "DNF",
+       "name": "Joa van den Berg"
+      },
+      {
+       "rank": 22,
+       "person": "matt-de-jong",
+       "remark": "OCS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/171/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 2,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 4,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 5,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 6,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 9,
+       "person": null,
+       "remark": "DNF",
+       "name": "Joa van den Berg"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 3,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 4,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 6,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 7,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 8,
+       "person": "arthur-dunnewind"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 5,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 6,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 7,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 8,
+       "person": "sem-stroosma"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 2,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 4,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 5,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 6,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 7,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 8,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 22,
+       "person": "milo-zaal",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "john-john-vanderick",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "cedric-walhof",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "diederik-leemans",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "steff-de-bruijn",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "kas-de-wolf",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "merlijn-boswijk",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "laurens-ooms",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "julian-koldeweid",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "joep-havik",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "freerk-blom",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "cyril-evrard",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": "bjarne-van-der-weg",
+       "remark": "DNC"
+      },
+      {
+       "rank": 22,
+       "person": null,
+       "remark": "DNF",
+       "name": "Joa van den Berg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/171/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 2,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 4,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 12,
+       "person": "arthur-dunnewind",
+       "remark": "DNF"
+      },
+      {
+       "rank": 12,
+       "person": "julian-koldeweid",
+       "remark": "DNF"
+      },
+      {
+       "rank": 12,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      },
+      {
+       "rank": 12,
+       "person": "steff-de-bruijn",
+       "remark": "DNF"
+      },
+      {
+       "rank": 12,
+       "person": "koen-hessels",
+       "remark": "OCS"
+      },
+      {
+       "rank": 12,
+       "person": "cyril-evrard",
+       "remark": "OCS"
+      },
+      {
+       "rank": 12,
+       "person": "skip-brull",
+       "remark": "OCS"
+      },
+      {
+       "rank": 12,
+       "person": "sem-stroosma",
+       "remark": "OCS"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 3,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 4,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 5,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 6,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 9,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 11,
+       "person": "joep-havik",
+       "remark": "DNF"
+      },
+      {
+       "rank": 11,
+       "person": "merlijn-boswijk",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 2,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 3,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 4,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 5,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 6,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 7,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 9,
+       "person": "bjarne-van-der-weg"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 3,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 5,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 6,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 9,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 10,
+       "person": "merlijn-boswijk"
+      },
+      {
+       "rank": 11,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 21,
+       "person": "milo-zaal",
+       "remark": "DNC"
+      },
+      {
+       "rank": 21,
+       "person": "john-john-vanderick",
+       "remark": "DNC"
+      },
+      {
+       "rank": 21,
+       "person": "cedric-walhof",
+       "remark": "DNC"
+      },
+      {
+       "rank": 21,
+       "person": "diederik-leemans",
+       "remark": "DNC"
+      },
+      {
+       "rank": 21,
+       "person": "julian-koldeweid",
+       "remark": "DNF"
+      },
+      {
+       "rank": 21,
+       "person": "steff-de-bruijn",
+       "remark": "DNF"
+      },
+      {
+       "rank": 21,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      },
+      {
+       "rank": 21,
+       "person": "hidde-van-der-meer",
+       "remark": "DNC"
+      },
+      {
+       "rank": 21,
+       "person": "jelle-van-der-veen",
+       "remark": "DNC"
+      },
+      {
+       "rank": 21,
+       "person": null,
+       "remark": "DNC",
+       "name": "Joa van den Berg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "url": "https://windtulip.nl/home/results_dashboard/171/4/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 3,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 4,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 5,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 6,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 7,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 8,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 9,
+       "person": "merlijn-boswijk"
+      },
+      {
+       "rank": 10,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 12,
+       "person": "arthur-dunnewind",
+       "remark": "DNF"
+      },
+      {
+       "rank": 12,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 2,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 3,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 4,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 5,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 6,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 9,
+       "person": "julian-koldeweid"
+      },
+      {
+       "rank": 10,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 11,
+       "person": "sem-stroosma",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 5,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 6,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 7,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 8,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 9,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 10,
+       "person": "bjarne-van-der-weg"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 2,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 3,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 4,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 5,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 6,
+       "person": "merlijn-boswijk"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 9,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 10,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 11,
+       "person": "julian-koldeweid"
+      },
+      {
+       "rank": 20,
+       "person": "milo-zaal",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "john-john-vanderick",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "cedric-walhof",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "diederik-leemans",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "sem-stroosma",
+       "remark": "DNF"
+      },
+      {
+       "rank": 20,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      },
+      {
+       "rank": 20,
+       "person": "hidde-van-der-meer",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": null,
+       "remark": "DNC",
+       "name": "Joa van den Berg"
+      },
+      {
+       "rank": 20,
+       "person": "jelle-van-der-veen",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "url": "https://windtulip.nl/home/results_dashboard/171/5/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 3,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 4,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 5,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 6,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 7,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 9,
+       "person": "merlijn-boswijk"
+      },
+      {
+       "rank": 10,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 11,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 12,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 2,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 4,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 5,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 6,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 9,
+       "person": "julian-koldeweid"
+      },
+      {
+       "rank": 11,
+       "person": "sem-stroosma",
+       "remark": "DNF"
+      },
+      {
+       "rank": 11,
+       "person": "bjarne-van-der-weg",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 3,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 4,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 5,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 6,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 7,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 8,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 9,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 10,
+       "person": "luc-buse"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 2,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 4,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 5,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 6,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 7,
+       "person": "merlijn-boswijk"
+      },
+      {
+       "rank": 8,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 9,
+       "person": "julian-koldeweid"
+      },
+      {
+       "rank": 10,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 20,
+       "person": "milo-zaal",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "john-john-vanderick",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "cedric-walhof",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "diederik-leemans",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": "sem-stroosma",
+       "remark": "DNF"
+      },
+      {
+       "rank": 20,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      },
+      {
+       "rank": 20,
+       "person": "bjarne-van-der-weg",
+       "remark": "DNF"
+      },
+      {
+       "rank": 20,
+       "person": "hidde-van-der-meer",
+       "remark": "DNC"
+      },
+      {
+       "rank": 20,
+       "person": null,
+       "remark": "DNC",
+       "name": "Joa van den Berg"
+      },
+      {
+       "rank": 20,
+       "person": "jelle-van-der-veen",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "url": "https://windtulip.nl/home/results_dashboard/171/6/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 2,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 3,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 6,
+       "person": "mika-boone",
+       "remark": "DNF"
+      },
+      {
+       "rank": 6,
+       "person": "diederik-leemans",
+       "remark": "DNF"
+      },
+      {
+       "rank": 6,
+       "person": "milo-zaal",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 3,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 5,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 6,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 7,
+       "person": "kaj-rozeboom",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 3",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 2,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 3,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 4,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 5,
+       "person": "cedric-walhof"
+      },
+      {
+       "rank": 6,
+       "person": "john-john-vanderick"
+      }
+     ]
+    },
+    {
+     "name": "Heat 4",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 3,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 4,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 5,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 7,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "steff-de-bruijn",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 5",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 2,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 4,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 5,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 6,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "person": "luc-buse"
+      }
+     ]
+    },
+    {
+     "name": "Heat 6",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 3,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 4,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 5,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 6,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "arthur-dunnewind",
+       "remark": "OCS"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 3,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 5,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 6,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "person": "kas-de-wolf",
+       "remark": "OCS"
+      },
+      {
+       "rank": 8,
+       "person": "freerk-blom",
+       "remark": "OCS"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 3,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 4,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 5,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 7,
+       "person": "luc-buse",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "arthur-dunnewind",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "C Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 2,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 3,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 4,
+       "person": "cedric-walhof"
+      },
+      {
+       "rank": 5,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 6,
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 7,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 8,
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 15,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": "kaj-rozeboom",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": "john-john-vanderick",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": "hidde-van-der-meer",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": null,
+       "remark": "DNC",
+       "name": "Joa van den Berg"
+      },
+      {
+       "rank": 15,
+       "person": "merlijn-boswijk",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "julian-koldeweid",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "url": "https://windtulip.nl/home/results_dashboard/171/7/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 2,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 4,
+       "person": "cedric-walhof"
+      },
+      {
+       "rank": 5,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 6,
+       "person": "luc-buse",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 2,
+       "person": "kas-de-wolf"
+      },
+      {
+       "rank": 3,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 4,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 5,
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 6,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 7,
+       "person": "john-john-vanderick",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 3",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 3,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 4,
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 5,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 6,
+       "person": "thijs-hanemaaijer",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 4",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 4,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 5,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 6,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 7,
+       "person": "laurens-ooms"
+      }
+     ]
+    },
+    {
+     "name": "Heat 5",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 2,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 5,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 6,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 7,
+       "person": "cedric-walhof"
+      },
+      {
+       "rank": 8,
+       "person": "kas-de-wolf",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 6",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 3,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 5,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 6,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 7,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 8,
+       "person": "diederik-leemans"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 2,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 3,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 5,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 6,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 7,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 8,
+       "person": "matt-de-jong",
+       "remark": "OCS"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 2,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 3,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 4,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 5,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 6,
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 7,
+       "person": "cedric-walhof"
+      },
+      {
+       "rank": 8,
+       "person": "kas-de-wolf",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "C Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 2,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 4,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 5,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 6,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 7,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 8,
+       "person": "laurens-ooms"
+      },
+      {
+       "rank": 14,
+       "person": null,
+       "remark": "DNF",
+       "name": "Joa van den Berg"
+      },
+      {
+       "rank": 14,
+       "person": "hidde-van-der-meer",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "julian-koldeweid",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "merlijn-boswijk",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "john-john-vanderick",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "milo-zaal",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "url": "https://windtulip.nl/home/results_dashboard/171/8/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 2,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 3,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "person": "arthur-dunnewind"
+      },
+      {
+       "rank": 5,
+       "person": "cedric-walhof"
+      },
+      {
+       "rank": 6,
+       "person": "luc-buse",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 2,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 3,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 4,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 5,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 6,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 3",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 3,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 4,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 5,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 6,
+       "person": "diederik-leemans"
+      }
+     ]
+    },
+    {
+     "name": "Heat 4",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 2,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 3,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 5,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 7,
+       "person": "kas-de-wolf",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "john-john-vanderick",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 5",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "skip-brull"
+      },
+      {
+       "rank": 2,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 3,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 4,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 6,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 7,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 8,
+       "person": "arthur-dunnewind"
+      }
+     ]
+    },
+    {
+     "name": "Heat 6",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 3,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 5,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 6,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 7,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "person": "joep-havik"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 3,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 4,
+       "person": "freerk-blom"
+      },
+      {
+       "rank": 5,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 6,
+       "person": "kaj-rozeboom"
+      },
+      {
+       "rank": 7,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 8,
+       "person": "skip-brull"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "matt-de-jong"
+      },
+      {
+       "rank": 2,
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 4,
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 5,
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 6,
+       "person": "mika-boone"
+      },
+      {
+       "rank": 7,
+       "person": "joep-havik"
+      },
+      {
+       "rank": 8,
+       "person": "arthur-dunnewind",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "C Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "peyton-dits"
+      },
+      {
+       "rank": 2,
+       "person": "finn-brull"
+      },
+      {
+       "rank": 3,
+       "person": "cedric-walhof"
+      },
+      {
+       "rank": 4,
+       "person": "steff-de-bruijn"
+      },
+      {
+       "rank": 5,
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 6,
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 14,
+       "person": "kas-de-wolf",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "laurens-ooms",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "luc-buse",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "john-john-vanderick",
+       "remark": "DNF"
+      },
+      {
+       "rank": 14,
+       "person": "hidde-van-der-meer",
+       "remark": "DNC"
+      },
+      {
+       "rank": 14,
+       "person": null,
+       "remark": "DNC",
+       "name": "Joa van den Berg"
+      },
+      {
+       "rank": 14,
+       "person": "merlijn-boswijk",
+       "remark": "DNC"
+      },
+      {
+       "rank": 14,
+       "person": "julian-koldeweid",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

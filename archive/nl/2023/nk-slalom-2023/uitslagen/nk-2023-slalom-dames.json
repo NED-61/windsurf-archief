@@ -1,0 +1,935 @@
+{
+ "schema_version": 1,
+ "id": "nk-2023-slalom-dames",
+ "event": {
+  "name": "NK Slalom 2023",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": "women",
+  "class": "Dames",
+  "windtulip_regatta": "NK Slalom 2023"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 20,
+  "discards": [
+   4
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/205/total_results/",
+  "type": "web",
+  "file": "archive/nl/2023/nk-slalom-2023/bronnen/windtulip-205-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "5 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [4]; rangschikking oplopend op netto; 20 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "discarded": [
+    6,
+    12,
+    19,
+    20
+   ],
+   "total": 5.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "sara-de-kimpe",
+   "sail": "NED-170",
+   "name": "Sara de Kimpe",
+   "nationality": "NED",
+   "division": "U21",
+   "points": [
+    5.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    3.0,
+    3.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "discarded": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "total": 61.0,
+   "net": 43.0
+  },
+  {
+   "rank": 3,
+   "person": "fabienne-hoogendam",
+   "sail": "NED-223",
+   "name": "Fabiënne Hoogendam",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    3.0,
+    4.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    2.0,
+    2.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "discarded": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "total": 71.0,
+   "net": 51.0
+  },
+  {
+   "rank": 4,
+   "person": "fianne-van-den-brule",
+   "sail": "NED-119",
+   "name": "Fianne Van den Brule",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "discarded": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "total": 80.0,
+   "net": 60.0
+  },
+  {
+   "rank": 5,
+   "person": "anna-korevaar",
+   "sail": "NED-157",
+   "name": "Anna Korevaar",
+   "nationality": "NED",
+   "division": "U13",
+   "points": [
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "discarded": [
+    17,
+    18,
+    19,
+    20
+   ],
+   "total": 89.0,
+   "net": 69.0
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/205/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "anna-korevaar"
+      },
+      {
+       "rank": 5,
+       "person": "sara-de-kimpe",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/205/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 3,
+       "person": "anna-korevaar"
+      },
+      {
+       "rank": 4,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 5,
+       "person": "sara-de-kimpe"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/205/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 3,
+       "person": "anna-korevaar"
+      },
+      {
+       "rank": 4,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "url": "https://windtulip.nl/home/results_dashboard/205/4/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 3,
+       "person": "anna-korevaar"
+      },
+      {
+       "rank": 4,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "url": "https://windtulip.nl/home/results_dashboard/205/5/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 3,
+       "person": "anna-korevaar"
+      },
+      {
+       "rank": 4,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "url": "https://windtulip.nl/home/results_dashboard/205/6/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "fianne-van-den-brule"
+      },
+      {
+       "rank": 2,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "anna-korevaar"
+      },
+      {
+       "rank": 4,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "url": "https://windtulip.nl/home/results_dashboard/205/7/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "url": "https://windtulip.nl/home/results_dashboard/205/8/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "url": "https://windtulip.nl/home/results_dashboard/205/9/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "url": "https://windtulip.nl/home/results_dashboard/205/10/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "url": "https://windtulip.nl/home/results_dashboard/205/11/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "url": "https://windtulip.nl/home/results_dashboard/205/12/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 2,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 3,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "url": "https://windtulip.nl/home/results_dashboard/205/13/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "url": "https://windtulip.nl/home/results_dashboard/205/14/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "url": "https://windtulip.nl/home/results_dashboard/205/15/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "url": "https://windtulip.nl/home/results_dashboard/205/16/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "url": "https://windtulip.nl/home/results_dashboard/205/17/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "url": "https://windtulip.nl/home/results_dashboard/205/18/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "url": "https://windtulip.nl/home/results_dashboard/205/19/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "url": "https://windtulip.nl/home/results_dashboard/205/20/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      },
+      {
+       "rank": 5,
+       "person": "fianne-van-den-brule",
+       "remark": "DNC"
+      },
+      {
+       "rank": 5,
+       "person": "anna-korevaar",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

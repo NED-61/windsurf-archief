@@ -1,0 +1,92 @@
+{
+ "schema_version": 1,
+ "id": "gpa-2025-long-distance-raceboard-max-9-5m2",
+ "event": {
+  "name": "Grote Prijs van Aalsmeer 2025",
+  "scope": "nl",
+  "series": "Grote Prijs van Aalsmeer",
+  "organizer": "Wind Surf Club Aalsmeer (WSCA)",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-10-05",
+  "location": "Westeinderplassen, Aalsmeer (Surfeiland)",
+  "discipline": "long_distance",
+  "gender": "open",
+  "class": "Raceboard tot max 9,5 m²",
+  "class_label_published": "Raceboard tot max 9,5m2"
+ },
+ "format": {
+  "type": "long_distance",
+  "ranking": "rondes aflopend, daarna tijd oplopend (één overall-lijst over alle klassen)",
+  "time_basis": "gepubliceerde notitie: 'Time is gemeten vanaf opening finishlijn' (niet omgerekend naar totale tijd)",
+  "rank_basis": "afgeleid: plaats binnen de klasse volgens de volgorde van de gepubliceerde overall-lijst; gepubliceerde overall-plaats staat in overall_rank"
+ },
+ "source": {
+  "name": "GPA (gpa = grote prijs van aalsmeer)-2025-overall-uitslag.pdf",
+  "url": null,
+  "file": "archive/nl/2025/gpa-2025/bronnen/GPA (gpa = grote prijs van aalsmeer)-2025-overall-uitslag.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-01",
+  "method": "pdfplumber: woordposities per kolom (de pdf bevat geen tabelranden); regels die over twee regels lopen samengevoegd",
+  "metadata_sources": [
+   {
+    "name": "WSCA: Wedstrijdregels GPA 2025",
+    "url": "https://www.wsca.nl/wp-content/uploads/2025/09/Wedstrijdregels-GPA-2025-20250914-Final.pdf",
+    "used_for": "datum (zondag 5 oktober 2025), duur 2u30 plus rondje afmaken, finishlijn opent 2u30 na start, klassen"
+   },
+   {
+    "name": "WSCA: De Grote Prijs van Aalsmeer 2025",
+    "url": "https://www.wsca.nl/de-grote-prijs-van-aalsmeer-2025-een-spectaculaire-race-op-de-westeinder/",
+    "used_for": "82 deelnemers, locatie Westeinderplassen/Surfeiland; artikel gepubliceerd 2025-10-10 met 'afgelopen zondag'"
+   },
+   {
+    "name": "WSCA: Grote Prijs Aalsmeer",
+    "url": "https://www.wsca.nl/grote-prijs-aalsmeer/",
+    "used_for": "organisator WSCA, gehouden sinds 1993, formaat '2,5 uur plus een ronde', rangschikking op rondes en bij gelijk aantal op tijd laatste ronde"
+   }
+  ],
+  "verified": "overall-lijst: 51 regels, plaatsen 1..51 aaneengesloten, volgorde klopt met rondes en tijd; 2 entries (2 gefinisht, 0 DNF); plaatsen aaneengesloten 1..2; geen dubbele namen; volgorde klopt met rondes (aflopend) en tijd (oplopend)"
+ },
+ "coverage": "partial",
+ "notes": [
+  "Klasseplaats is afgeleid uit de gepubliceerde overall-lijst; de bron geeft alleen een overall-plaats (veld overall_rank).",
+  "Coverage partial: de PDF bevat 51 regels, terwijl WSCA 82 deelnemers meldt. Geen DNF/DNS-regels gepubliceerd; de ontbrekende deelnemers (waarschijnlijk niet-gefinishten) staan niet in deze bron.",
+  "Geen geslacht gepubliceerd; zeilnummer ontbreekt, de bron geeft een startnummer (bib).",
+  "Tekencodeerfout in de bron hersteld voor: Bas BrÃ¼ll (UTF-8 als cp1252 gelezen)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "overall_rank": 28,
+   "person": "jan-de-muyer",
+   "sail": null,
+   "bib": "3",
+   "name": "Jan De Muyer",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 5,
+   "time": "0:06:21",
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "overall_rank": 45,
+   "person": "bas-brull",
+   "sail": null,
+   "bib": "168",
+   "name": "Bas Brüll",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "0:05:25",
+   "remark": null,
+   "flag": "naam in bron met tekencodeerfout ('Bas BrÃ¼ll'), hersteld"
+  }
+ ],
+ "detail": {}
+}

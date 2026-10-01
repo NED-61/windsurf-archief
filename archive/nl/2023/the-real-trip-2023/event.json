@@ -1,0 +1,34 @@
+{
+ "event_slug": "the-real-trip-2023",
+ "scope": "nl",
+ "name": "The Real Trip 2023",
+ "series": "The Real Trip",
+ "year": 2023,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2023-09-15",
+ "date_end": "2023-09-17",
+ "location": "Makkum",
+ "discipline": "long_distance",
+ "classes": [
+  "the-real-trip-2023-long-distance-foil-masters-men-40",
+  "the-real-trip-2023-long-distance-foil-men-18-up-to-40",
+  "the-real-trip-2023-long-distance-foil-pro-fleet-men",
+  "the-real-trip-2023-long-distance-foil-pro-fleet-women",
+  "the-real-trip-2023-long-distance-foil-women-18-up-to-40",
+  "the-real-trip-2023-long-distance-foil-youth-15-up-to-17-boys",
+  "the-real-trip-2023-long-distance-foil-youth-15-up-to-17-girls",
+  "the-real-trip-2023-long-distance-fin-youth-15-up-17-boys"
+ ],
+ "metadata_sources": [
+  {
+   "name": "Funsport Makkum: The RealTrip keert terug naar Makkum",
+   "url": "https://www.funsportmakkum.nl/blog/the-realtrip-2023",
+   "used_for": "vrijdag 15 tot zondag 17 september 2023, Makkum; long distance-starts op zaterdag en zondag, kids-competitie"
+  }
+ ],
+ "notes": [
+  "The Real Trip is een long-distance funrace in Makkum (sinds 1995, volgens therealtrip.nl). Per fleet worden meerdere races gevaren en per categorie geklasseerd; kids varen hun eigen races op een korte baan.",
+  "Fleets en categorieën: zie per uitslag event.fleet, event.equipment en event.class."
+ ]
+}

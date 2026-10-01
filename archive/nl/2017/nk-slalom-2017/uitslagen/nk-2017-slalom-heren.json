@@ -32,7 +32,8 @@
  "coverage": "complete",
  "notes": [
   "Datum en locatie ontbreken op Windtulip; niet ingevuld.",
-  "Zusterdashboard Vrouwen (id 14) nog niet verwerkt."
+  "Zusterdashboard Vrouwen (id 14) nog niet verwerkt.",
+  "Telt niet mee: 6 ingeschreven rider(s) met alleen DNC of DNF in alle heats en finales tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
  ],
  "entries": [
   {
@@ -895,7 +896,7 @@
   },
   {
    "rank": 40,
-   "person": "bob-rietbergen",
+   "person": null,
    "sail": "Ned 277",
    "name": "Bob Rietbergen",
    "division": "Master",
@@ -913,11 +914,12 @@
     45.0
    ],
    "total": 495.0,
-   "net": 360.0
+   "net": 360.0,
+   "counted": false
   },
   {
    "rank": 40,
-   "person": "erik-smeets",
+   "person": null,
    "sail": "Ned 222",
    "name": "Erik Smeets",
    "division": "Master",
@@ -935,11 +937,12 @@
     45.0
    ],
    "total": 495.0,
-   "net": 360.0
+   "net": 360.0,
+   "counted": false
   },
   {
    "rank": 40,
-   "person": "bart-snippert",
+   "person": null,
    "sail": "x57",
    "name": "Bart Snippert",
    "division": "Heren",
@@ -957,11 +960,12 @@
     45.0
    ],
    "total": 495.0,
-   "net": 360.0
+   "net": 360.0,
+   "counted": false
   },
   {
    "rank": 40,
-   "person": "mack-van-der-eerenbeemt",
+   "person": null,
    "sail": "Aru 9",
    "name": "Mack van der Eerenbeemt",
    "division": "Heren",
@@ -979,11 +983,12 @@
     45.0
    ],
    "total": 495.0,
-   "net": 360.0
+   "net": 360.0,
+   "counted": false
   },
   {
    "rank": 40,
-   "person": "joris-bosman",
+   "person": null,
    "sail": "Ned 152",
    "name": "Joris Bosman",
    "division": "Master",
@@ -1001,11 +1006,12 @@
     45.0
    ],
    "total": 495.0,
-   "net": 360.0
+   "net": 360.0,
+   "counted": false
   },
   {
    "rank": 40,
-   "person": "anton-geesink",
+   "person": null,
    "sail": "Ned 53",
    "name": "Anton Geesink",
    "division": "Master",
@@ -1023,7 +1029,8 @@
     45.0
    ],
    "total": 495.0,
-   "net": 360.0
+   "net": 360.0,
+   "counted": false
   }
  ],
  "eliminations": [
@@ -1363,33 +1370,39 @@
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
@@ -1765,33 +1778,39 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
@@ -2191,33 +2210,39 @@
       },
       {
        "rank": 25,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 25,
-       "person": "bart-snippert",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bart Snippert"
       },
       {
        "rank": 25,
-       "person": "anton-geesink",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Anton Geesink"
       },
       {
        "rank": 25,
-       "person": "bob-rietbergen",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 25,
-       "person": "joris-bosman",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Joris Bosman"
       },
       {
        "rank": 25,
-       "person": "erik-smeets",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Erik Smeets"
       },
       {
        "rank": 25,
@@ -2614,8 +2639,9 @@
       },
       {
        "rank": 25,
-       "person": "bob-rietbergen",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 25,
@@ -2624,13 +2650,15 @@
       },
       {
        "rank": 25,
-       "person": "erik-smeets",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Erik Smeets"
       },
       {
        "rank": 25,
-       "person": "anton-geesink",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Anton Geesink"
       },
       {
        "rank": 25,
@@ -2639,13 +2667,15 @@
       },
       {
        "rank": 25,
-       "person": "joris-bosman",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Joris Bosman"
       },
       {
        "rank": 25,
-       "person": "bart-snippert",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Bart Snippert"
       },
       {
        "rank": 25,
@@ -2659,8 +2689,9 @@
       },
       {
        "rank": 25,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 25,
@@ -3041,8 +3072,9 @@
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
@@ -3051,23 +3083,27 @@
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
@@ -3096,8 +3132,9 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
@@ -3493,18 +3530,21 @@
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
@@ -3513,8 +3553,9 @@
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
@@ -3523,8 +3564,9 @@
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
@@ -3548,8 +3590,9 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
@@ -3940,28 +3983,33 @@
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
@@ -3985,8 +4033,9 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
@@ -4456,8 +4505,9 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
@@ -4466,8 +4516,9 @@
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
@@ -4476,13 +4527,15 @@
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
@@ -4496,13 +4549,15 @@
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
@@ -4887,13 +4942,15 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
@@ -4902,13 +4959,15 @@
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
@@ -4932,8 +4991,9 @@
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
@@ -4942,8 +5002,9 @@
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
@@ -5336,13 +5397,15 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
@@ -5351,13 +5414,15 @@
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
@@ -5381,8 +5446,9 @@
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
@@ -5391,8 +5457,9 @@
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
@@ -5740,8 +5807,9 @@
       },
       {
        "rank": 29,
-       "person": "bob-rietbergen",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bob Rietbergen"
       },
       {
        "rank": 29,
@@ -5770,8 +5838,9 @@
       },
       {
        "rank": 29,
-       "person": "joris-bosman",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Joris Bosman"
       },
       {
        "rank": 29,
@@ -5780,8 +5849,9 @@
       },
       {
        "rank": 29,
-       "person": "bart-snippert",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Bart Snippert"
       },
       {
        "rank": 29,
@@ -5790,8 +5860,9 @@
       },
       {
        "rank": 29,
-       "person": "erik-smeets",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Erik Smeets"
       },
       {
        "rank": 29,
@@ -5805,8 +5876,9 @@
       },
       {
        "rank": 29,
-       "person": "mack-van-der-eerenbeemt",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Mack van der Eerenbeemt"
       },
       {
        "rank": 29,
@@ -5815,8 +5887,9 @@
       },
       {
        "rank": 29,
-       "person": "anton-geesink",
-       "remark": "DNC"
+       "person": null,
+       "remark": "DNC",
+       "name": "Anton Geesink"
       },
       {
        "rank": 29,

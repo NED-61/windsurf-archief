@@ -1,0 +1,17 @@
+{
+ "event_slug": "ronde-om-texel-2018",
+ "scope": "nl",
+ "name": "Ronde om Texel 2018",
+ "series": "Ronde om Texel",
+ "year": 2018,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2018-06-16",
+ "date_end": null,
+ "location": "Texel",
+ "classes": [],
+ "notes": [
+  "Metadata uit Info.txt van de eigen verzameling van de repo-eigenaar (niet geverifieerd tegen een officiële bron).",
+  "Info.txt noemt dit 'Ronde van Texel'; de reeks heet in 2019 'Ronde om Texel'. Datum volgens Info.txt, niet geverifieerd."
+ ]
+}

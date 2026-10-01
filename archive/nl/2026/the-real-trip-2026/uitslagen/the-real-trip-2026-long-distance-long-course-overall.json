@@ -1,0 +1,2550 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2026-long-distance-long-course-overall",
+ "event": {
+  "name": "The Real Trip 2026",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-09-18",
+  "location": "Makkum (strand bij De Holle Poarte)",
+  "discipline": "long_distance",
+  "gender": null,
+  "class": "Long course overall",
+  "class_label_published": "Long course · overall",
+  "fleet": "Long course",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "A2",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "A9"
+  ],
+  "discards": 1,
+  "scoring_system": "Low Point op overall-plaats; punten per race niet gepubliceerd",
+  "fleet": "Long course",
+  "points_per_race_published": false
+ },
+ "source": {
+  "name": "The Real Trip: Results",
+  "url": "https://therealtrip.nl/en/results",
+  "file": "archive/nl/2026/the-real-trip-2026/bronnen/therealtrip-2026-results-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "klasse-tabbladen en rider-detailpagina's vastgelegd via de ingebouwde browser (json.gz met de ruwe html)",
+  "saved_page": "archive/nl/2026/the-real-trip-2026/bronnen/Results — The Real Trip.html",
+  "metadata_sources": [
+   {
+    "name": "The Real Trip: Info",
+    "url": "https://therealtrip.nl/info",
+    "used_for": "18 t/m 20 september 2026, Makkum strand bij De Holle Poarte; long distance races met Rabbit Start, kids races in de baai; sinds 1995"
+   }
+  ],
+  "verified": "detailpagina's tonen categoriepunten (gelijk aan categorietabblad voor 126 van 130); 130 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; geen punten per race gepubliceerd: totaal en netto niet herrekend; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: therealtrip.nl/en/results, vastgelegd op 2026-10-01: het tabblad per categorie en de detailpagina van elke rider.",
+  "Klassement over alle long-course-categorieën heen; de categorie van elke rider staat per entry.",
+  "Punten per race zijn voor dit klassement niet gepubliceerd: de detailpagina achter een naam in dit tabblad toont de punten in de eigen categorie (voor 126 van de 130 riders gecontroleerd: gelijk aan het categorietabblad). Plaats, weglating en netto komen uit het overall-tabblad; die netto is een eigen overall-telling (weglatingen tot 131 en 132 punten bij 130 deelnemers) en wijkt af van de categorienetto.",
+  "Een * achter de plaats is zo gepubliceerd (gelijke netto, volgorde volgens de organisatie). Rijen zonder plaats delen de plaats van de rij erboven.",
+  "Vergeleken met de door de gebruiker opgeslagen pagina: identiek (naam, plaats, netto)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jakob-kooij",
+   "sail": "NED99",
+   "bib": "173",
+   "name": "Jakob Kooij",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 8.1,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 2,
+   "person": "fabian-blanke",
+   "sail": null,
+   "bib": "143",
+   "name": "Fabian Blanke",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 18.1,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 3,
+   "person": "max-baaijen",
+   "sail": "NED61",
+   "bib": "310",
+   "name": "Max Baaijen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    7.0
+   ],
+   "net": 18.7,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 4,
+   "person": "jeffrey-van-hoe",
+   "sail": "BEL6",
+   "bib": "24",
+   "name": "Jeffrey van Hoe",
+   "nationality": "BE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    6.0
+   ],
+   "net": 28.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 5,
+   "person": "stijn-de-bruin",
+   "sail": null,
+   "bib": "18",
+   "name": "Stijn de Bruin",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 38.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 6,
+   "person": "adri-keet",
+   "sail": null,
+   "bib": "309",
+   "name": "Adri Keet",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    12.0
+   ],
+   "net": 41.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 7,
+   "person": "jan-wim-becker",
+   "sail": "GER876",
+   "bib": "8",
+   "name": "Jan Wim Becker",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    12.0
+   ],
+   "net": 51.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 8,
+   "person": "bendix-engemann",
+   "sail": "G1703/107",
+   "bib": "167",
+   "name": "Bendix Engemann",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    20.0
+   ],
+   "net": 53.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 9,
+   "person": "remco-bakker",
+   "sail": "NED15",
+   "bib": "116",
+   "name": "Remco Bakker",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    14.0
+   ],
+   "net": 65.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 10,
+   "person": "jens-salomons",
+   "sail": null,
+   "bib": "318",
+   "name": "Jens Salomons",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    34.0
+   ],
+   "net": 70.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 11,
+   "person": "doeke-de-valk",
+   "sail": "NED535",
+   "bib": "179",
+   "name": "Doeke de Valk",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    40.0
+   ],
+   "net": 81.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 12,
+   "person": "joeri-gybels",
+   "sail": "BEL248",
+   "bib": "31",
+   "name": "Joeri Gybels",
+   "nationality": "BE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    29.0
+   ],
+   "net": 101.0,
+   "remark": null,
+   "rank_published": "12*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 13,
+   "person": "peter-de-rijke",
+   "sail": null,
+   "bib": "10",
+   "name": "Peter de Rijke",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    34.0
+   ],
+   "net": 101.0,
+   "remark": null,
+   "rank_published": "13*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 14,
+   "person": "paul-salomons",
+   "sail": null,
+   "bib": "15",
+   "name": "Paul Salomons",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 102.0,
+   "remark": null,
+   "rank_published": "14*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 15,
+   "person": "bjarne-de-leeuw",
+   "sail": "NED164",
+   "bib": "128",
+   "name": "Bjarne de Leeuw",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    21.0
+   ],
+   "net": 102.0,
+   "remark": null,
+   "rank_published": "15*",
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 16,
+   "person": "peter-konstapel",
+   "sail": null,
+   "bib": "123",
+   "name": "Peter Konstapel",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    34.0
+   ],
+   "net": 108.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 17,
+   "person": "ingmar-etmans",
+   "sail": null,
+   "bib": "42",
+   "name": "Ingmar Etmans",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    23.0
+   ],
+   "net": 122.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 18,
+   "person": "mika-lievens",
+   "sail": null,
+   "bib": "812",
+   "name": "Mika Lievens",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    51.0
+   ],
+   "net": 125.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 19,
+   "person": "isabelle-westerveld",
+   "sail": "NED214",
+   "bib": "830",
+   "name": "Isabelle Westerveld",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    27.0
+   ],
+   "net": 130.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 20,
+   "person": "stijn-beks",
+   "sail": "NED343",
+   "bib": "124",
+   "name": "Stijn Beks",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    28.0
+   ],
+   "net": 136.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 21,
+   "person": "boy-van-der-veer",
+   "sail": null,
+   "bib": "139",
+   "name": "Boy van der Veer",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    43.0
+   ],
+   "net": 150.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 22,
+   "person": "rob-hazelaar",
+   "sail": null,
+   "bib": "20",
+   "name": "Rob Hazelaar",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    32.0
+   ],
+   "net": 161.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 23,
+   "person": "nick-glaettli",
+   "sail": null,
+   "bib": "103",
+   "name": "Nick Glaettli",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 166.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 24,
+   "person": "wessel-douma",
+   "sail": null,
+   "bib": "126",
+   "name": "Wessel Douma",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 169.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 25,
+   "person": "tycho-nomden",
+   "sail": null,
+   "bib": "314",
+   "name": "Tycho Nomden",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 175.0,
+   "remark": null,
+   "rank_published": "25*",
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 26,
+   "person": "jan-hendrik-de-bruin",
+   "sail": null,
+   "bib": "121",
+   "name": "Jan Hendrik de Bruin",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    54.0
+   ],
+   "net": 175.0,
+   "remark": null,
+   "rank_published": "26*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 27,
+   "person": "martijn-mobach",
+   "sail": null,
+   "bib": "323",
+   "name": "Martijn Mobach",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 183.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 28,
+   "person": "melvin-jansen",
+   "sail": "NED404",
+   "bib": "9",
+   "name": "Melvin Jansen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    54.0
+   ],
+   "net": 188.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 29,
+   "person": "seppe-wiersema",
+   "sail": "NL215",
+   "bib": "36",
+   "name": "Seppe Wiersema",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 208.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 30,
+   "person": "martijn-vos",
+   "sail": null,
+   "bib": "168",
+   "name": "Martijn Vos",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 210.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 31,
+   "person": "arne-hoogerwerf",
+   "sail": null,
+   "bib": "21",
+   "name": "Arne Hoogerwerf",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    45.0
+   ],
+   "net": 213.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 32,
+   "person": "dylan-de-jong",
+   "sail": null,
+   "bib": "328",
+   "name": "Dylan de Jong",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 217.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 33,
+   "person": "peter-mulder",
+   "sail": "NED95",
+   "bib": "303",
+   "name": "Peter Mulder",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 219.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 34,
+   "person": "friedus-jongbloed",
+   "sail": null,
+   "bib": "100",
+   "name": "Friedus Jongbloed",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    66.0
+   ],
+   "net": 231.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 35,
+   "person": "peter-martijn-bronkhorst",
+   "sail": "NED1052",
+   "bib": "166",
+   "name": "Peter Martijn Bronkhorst",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    51.0
+   ],
+   "net": 247.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 36,
+   "person": "peter-kuiter",
+   "sail": null,
+   "bib": "165",
+   "name": "Peter Kuiter",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 257.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 37,
+   "person": "haijo-switters",
+   "sail": null,
+   "bib": "325",
+   "name": "Haijo Switters",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 258.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 38,
+   "person": "jolanda-bruining",
+   "sail": null,
+   "bib": "831",
+   "name": "Jolanda Bruining",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    63.0
+   ],
+   "net": 259.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 39,
+   "person": "sander-van-gelderen",
+   "sail": "NED766",
+   "bib": "107",
+   "name": "Sander van Gelderen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 297.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 40,
+   "person": "johan-bulthuis",
+   "sail": null,
+   "bib": "164",
+   "name": "Johan Bulthuis",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 309.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 41,
+   "person": "gert-jan-huisink",
+   "sail": null,
+   "bib": "114",
+   "name": "Gert Jan Huisink",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 315.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 42,
+   "person": "jasper-jongepier",
+   "sail": null,
+   "bib": "151",
+   "name": "Jasper Jongepier",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 338.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 43,
+   "person": "marijn-schouten",
+   "sail": "NED160",
+   "bib": "803",
+   "name": "Marijn Schouten",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 344.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 44,
+   "person": "joannes-van-soest",
+   "sail": null,
+   "bib": "161",
+   "name": "Joannes van Soest",
+   "nationality": "PL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 355.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 45,
+   "person": "dyon-cools",
+   "sail": null,
+   "bib": "26",
+   "name": "Dyon Cools",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 398.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 46,
+   "person": "jurrien-wind",
+   "sail": null,
+   "bib": "144",
+   "name": "Jurriën Wind",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 411.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 47,
+   "person": "iris-gimpel",
+   "sail": "NED567",
+   "bib": "45",
+   "name": "Iris Gimpel",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 413.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 48,
+   "person": "sipke-bijlsma",
+   "sail": null,
+   "bib": "132",
+   "name": "Sipke Bijlsma",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 425.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 49,
+   "person": "pieter-eliens",
+   "sail": "NED538",
+   "bib": "172",
+   "name": "Pieter Eliens",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 426.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 50,
+   "person": "thewes-de-boer",
+   "sail": null,
+   "bib": "171",
+   "name": "Thewes de Boer",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 428.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 51,
+   "person": "marinus-ubbink",
+   "sail": null,
+   "bib": "37",
+   "name": "Marinus Ubbink",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 429.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 52,
+   "person": "piet-van-dooren",
+   "sail": null,
+   "bib": "12",
+   "name": "Piet van Dooren",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 448.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 53,
+   "person": "jandirk-ubbels",
+   "sail": null,
+   "bib": "326",
+   "name": "Jandirk Ubbels",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 461.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 54,
+   "person": "edu-hoekstra",
+   "sail": null,
+   "bib": "331",
+   "name": "Edu Hoekstra",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 468.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 55,
+   "person": "huug-de-kort",
+   "sail": null,
+   "bib": "105",
+   "name": "Huug de Kort",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 469.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 56,
+   "person": "robin-gosselaar",
+   "sail": null,
+   "bib": "136",
+   "name": "Robin Gosselaar",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 493.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 57,
+   "person": "sebastiaan-mulder",
+   "sail": null,
+   "bib": "169",
+   "name": "Sebastiaan Mulder",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 501.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 58,
+   "person": "stefan-zielstra",
+   "sail": null,
+   "bib": "28",
+   "name": "Stefan Zielstra",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 503.0,
+   "remark": null,
+   "rank_published": "58*",
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 59,
+   "person": "bart-waardijk",
+   "sail": null,
+   "bib": "304",
+   "name": "Bart Waardijk",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 503.0,
+   "remark": null,
+   "rank_published": "59*",
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 60,
+   "person": "alexander-mulder",
+   "sail": null,
+   "bib": "350",
+   "name": "Alexander Mulder",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 520.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 61,
+   "person": "ingmar-van-groningen",
+   "sail": null,
+   "bib": "133",
+   "name": "Ingmar van Groningen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 524.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 62,
+   "person": "wybe-tibma",
+   "sail": null,
+   "bib": "327",
+   "name": "Wybe Tibma",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 527.0,
+   "remark": null,
+   "rank_published": "62*",
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 63,
+   "person": "sebastiaan-klok",
+   "sail": "NED2009",
+   "bib": "49",
+   "name": "Sebastiaan Klok",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 527.0,
+   "remark": null,
+   "rank_published": "63*",
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 64,
+   "person": "christoph-deus",
+   "sail": "GER8",
+   "bib": "330",
+   "name": "Christoph Deus",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 543.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 65,
+   "person": "merijn-van-ginhoven",
+   "sail": null,
+   "bib": "50",
+   "name": "Merijn van Ginhoven",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 551.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 66,
+   "person": "herman-legtenberg",
+   "sail": null,
+   "bib": "135",
+   "name": "Herman Legtenberg",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 554.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 67,
+   "person": "stefan-nikolayczik",
+   "sail": null,
+   "bib": "808",
+   "name": "Stefan Nikolayczik",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 556.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 68,
+   "person": "rene-griffioen",
+   "sail": "2223",
+   "bib": "507",
+   "name": "René Griffioen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 564.0,
+   "remark": null,
+   "category": "LT Adults"
+  },
+  {
+   "rank": 69,
+   "person": "dirk-kooystra",
+   "sail": null,
+   "bib": "27",
+   "name": "Dirk Kooystra",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 575.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 70,
+   "person": "jolt-bekema",
+   "sail": null,
+   "bib": "170",
+   "name": "Jolt Bekema",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 599.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 71,
+   "person": "jochem-van-bergeijk",
+   "sail": "NED1225",
+   "bib": "104",
+   "name": "Jochem van Bergeijk",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 609.0,
+   "remark": null,
+   "rank_published": "71*",
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 72,
+   "person": "piet-piekstra",
+   "sail": null,
+   "bib": "113",
+   "name": "Piet Piekstra",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 609.0,
+   "remark": null,
+   "rank_published": "72*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 73,
+   "person": "marcel-weidemann",
+   "sail": null,
+   "bib": "162",
+   "name": "Marcel Weidemann",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 624.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 74,
+   "person": "jouke-pricker",
+   "sail": null,
+   "bib": "25",
+   "name": "Jouke Pricker",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 626.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 75,
+   "person": "ewald-gouwenberg",
+   "sail": null,
+   "bib": "308",
+   "name": "Ewald Gouwenberg",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 628.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 76,
+   "person": "eltjo-toutenhoofd",
+   "sail": null,
+   "bib": "119",
+   "name": "Eltjo Toutenhoofd",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 637.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 77,
+   "person": "marco-moria",
+   "sail": "NED710",
+   "bib": "147",
+   "name": "Marco Moria",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 642.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 78,
+   "person": "erik-de-vries",
+   "sail": null,
+   "bib": "178",
+   "name": "Erik de Vries",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 645.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 79,
+   "person": "dennis-littel",
+   "sail": "NED13",
+   "bib": "334",
+   "name": "Dennis Littel",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 668.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 80,
+   "person": "kai-esselbrugge",
+   "sail": null,
+   "bib": "4",
+   "name": "Kai Esselbrugge",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 690.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 81,
+   "person": "marco-vermoen",
+   "sail": null,
+   "bib": "35",
+   "name": "Marco Vermoen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 691.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 82,
+   "person": "saar-schuling",
+   "sail": null,
+   "bib": "805",
+   "name": "Saar Schuling",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 695.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 83,
+   "person": "rob-de-jong",
+   "sail": null,
+   "bib": "311",
+   "name": "Rob de Jong",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 701.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 84,
+   "person": "menno-van-den-berg",
+   "sail": null,
+   "bib": "137",
+   "name": "Menno van den Berg",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 705.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 85,
+   "person": "michael-breit",
+   "sail": null,
+   "bib": "106",
+   "name": "Michael Breit",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 708.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 86,
+   "person": "arjen-klinkenberg",
+   "sail": null,
+   "bib": "333",
+   "name": "Arjen Klinkenberg",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 710.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 87,
+   "person": "emily-legtenberg",
+   "sail": null,
+   "bib": "5",
+   "name": "Emily Legtenberg",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 714.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 88,
+   "person": "arnold-talsma",
+   "sail": null,
+   "bib": "33",
+   "name": "Arnold Talsma",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 717.0,
+   "remark": null,
+   "rank_published": "88*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 88,
+   "person": "linda-ter-veld",
+   "sail": "NED217",
+   "bib": "125",
+   "name": "Linda ter Veld",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 717.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 89,
+   "person": "marcel-borst",
+   "sail": "11",
+   "bib": "313",
+   "name": "Marcel Borst",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 719.0,
+   "remark": null,
+   "category": "LT Adults"
+  },
+  {
+   "rank": 90,
+   "person": "eric-kamminga",
+   "sail": null,
+   "bib": "322",
+   "name": "Eric Kamminga",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 726.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 91,
+   "person": "john-vlasbloem",
+   "sail": null,
+   "bib": "505",
+   "name": "John Vlasbloem",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 729.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "andreas-hron",
+   "sail": null,
+   "bib": "130",
+   "name": "Andreas Hron",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "rank_published": "92*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "anton-dona",
+   "sail": null,
+   "bib": "503",
+   "name": "Anton Dona",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "LT Adults"
+  },
+  {
+   "rank": 92,
+   "person": "bas-kwee",
+   "sail": "18",
+   "bib": "316",
+   "name": "Bas Kwee",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "LT Adults"
+  },
+  {
+   "rank": 92,
+   "person": "berj-khassab",
+   "sail": null,
+   "bib": "7",
+   "name": "Berj Khassab",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "caren-niezen",
+   "sail": "NED367",
+   "bib": "149",
+   "name": "Caren Niezen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 92,
+   "person": "carolien-de-kort",
+   "sail": null,
+   "bib": "34",
+   "name": "Carolien de Kort",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 92,
+   "person": "dirk-wouters",
+   "sail": null,
+   "bib": "115",
+   "name": "Dirk Wouters",
+   "nationality": "BE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "edwin-komdeur",
+   "sail": null,
+   "bib": "301",
+   "name": "Edwin Komdeur",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "fabienne-hoogendam",
+   "sail": "NED99",
+   "bib": "43",
+   "name": "Fabiënne Hoogendam",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 92,
+   "person": "floris-stam",
+   "sail": null,
+   "bib": "129",
+   "name": "Floris Stam",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "friedbert-rogge",
+   "sail": null,
+   "bib": "11",
+   "name": "Friedbert Rogge",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "jean-paul-krijgsman",
+   "sail": "NED5325",
+   "bib": "319",
+   "name": "Jean Paul Krijgsman",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "koen-zweekhorst",
+   "sail": null,
+   "bib": "315",
+   "name": "Koen Zweekhorst",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "kris-gielen",
+   "sail": null,
+   "bib": "108",
+   "name": "Kris Gielen",
+   "nationality": "BE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "laura-moria",
+   "sail": "NED209",
+   "bib": "16",
+   "name": "Laura Moria",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 92,
+   "person": "laurens-legtenberg",
+   "sail": null,
+   "bib": "305",
+   "name": "Laurens Legtenberg",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "lennart-van-marion",
+   "sail": "NED17",
+   "bib": "29",
+   "name": "Lennart van Marion",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 92,
+   "person": "maarten-oussoren",
+   "sail": null,
+   "bib": "112",
+   "name": "Maarten Oussoren",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "marcel-prymka",
+   "sail": null,
+   "bib": "300",
+   "name": "Marcel Prymka",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "martin-roos",
+   "sail": null,
+   "bib": "502",
+   "name": "Martin Roos",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "maurits-van-tinteren",
+   "sail": "NED183",
+   "bib": "117",
+   "name": "Maurits van Tinteren",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "merijn-kegel",
+   "sail": "NED511",
+   "bib": "317",
+   "name": "Merijn Kegel",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "michiel-de-zeeuw",
+   "sail": null,
+   "bib": "23",
+   "name": "Michiel de Zeeuw",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "niels-meima",
+   "sail": null,
+   "bib": "134",
+   "name": "Niels Meima",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "oeds-wiersma",
+   "sail": null,
+   "bib": "501",
+   "name": "Oeds Wiersma",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "rene-simons",
+   "sail": "NED3003",
+   "bib": "109",
+   "name": "René Simons",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "robert-moosdorf",
+   "sail": null,
+   "bib": "142",
+   "name": "Robert Moosdorf",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults men"
+  },
+  {
+   "rank": 92,
+   "person": "roel-vaessen",
+   "sail": null,
+   "bib": "163",
+   "name": "Roel Vaessen",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "stephan-scherf",
+   "sail": null,
+   "bib": "148",
+   "name": "Stephan Scherf",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "thomas-blanke",
+   "sail": "GER3366",
+   "bib": "321",
+   "name": "Thomas Blanke",
+   "nationality": "DE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "wessel-miezenbeek",
+   "sail": null,
+   "bib": "118",
+   "name": "Wessel Miezenbeek",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 92,
+   "person": "willem-gilissen",
+   "sail": "1445",
+   "bib": "506",
+   "name": "Willem Gilissen",
+   "nationality": "BE",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 92,
+   "person": "yfke-van-der-meer",
+   "sail": "NED252",
+   "bib": "122",
+   "name": "Yfke van der Meer",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    131.0
+   ],
+   "net": 786.0,
+   "remark": null,
+   "category": "Fin Adults women"
+  },
+  {
+   "rank": 93,
+   "person": "jonathan-klok",
+   "sail": "NED204",
+   "bib": "51",
+   "name": "Jonathan Klok",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 787.0,
+   "remark": null,
+   "category": "Fin Youth (13-17) long course"
+  },
+  {
+   "rank": 94,
+   "person": "geert-beek-van",
+   "sail": "NED525",
+   "bib": null,
+   "name": "Geert Beek van",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 792.0,
+   "remark": null,
+   "rank_published": "94*",
+   "category": "Fin Master"
+  },
+  {
+   "rank": 94,
+   "person": "max-shytikov",
+   "sail": "NED507",
+   "bib": null,
+   "name": "Maksym Shytikov",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 792.0,
+   "remark": null,
+   "category": "Fin Profleet"
+  },
+  {
+   "rank": 94,
+   "person": "marc-fokkinga",
+   "sail": "NED2411",
+   "bib": null,
+   "name": "Marc Fokkinga",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 792.0,
+   "remark": null,
+   "category": "Fin Master"
+  },
+  {
+   "rank": 94,
+   "person": "nico-wierstra",
+   "sail": "NED81",
+   "bib": null,
+   "name": "Nico Wierstra",
+   "nationality": "NL",
+   "division": null,
+   "points": null,
+   "race_remarks": null,
+   "discarded": null,
+   "total": null,
+   "discard_points": [
+    132.0
+   ],
+   "net": 792.0,
+   "remark": null,
+   "category": "Fin Master"
+  }
+ ],
+ "detail": {},
+ "aggregate": true
+}

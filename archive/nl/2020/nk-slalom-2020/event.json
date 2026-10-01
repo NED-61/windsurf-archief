@@ -1,0 +1,23 @@
+{
+ "event_slug": "nk-slalom-2020",
+ "scope": "nl",
+ "name": "NK Slalom 2020",
+ "series": "NK Slalom",
+ "year": 2020,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "classes": [
+  "nk-2020-slalom-heren",
+  "nk-2020-slalom-jeugd",
+  "nk-2020-slalom-dames",
+  "nk-2020-slalom-fun-foil-dames",
+  "nk-2020-slalom-fun-foil-heren",
+  "nk-2020-slalom-fun-foil-jeugd"
+ ],
+ "notes": [
+  "Uitslagen uit het Windtulip Results Archive."
+ ]
+}

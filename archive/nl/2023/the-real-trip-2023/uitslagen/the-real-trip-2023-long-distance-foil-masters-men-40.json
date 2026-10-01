@@ -1,0 +1,206 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2023-long-distance-foil-masters-men-40",
+ "event": {
+  "name": "The Real Trip 2023",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2023-09-15",
+  "location": "Makkum",
+  "discipline": "long_distance",
+  "gender": "men",
+  "class": "Foil Masters Men 40+",
+  "class_label_published": "Foil Masters Men 40+",
+  "fleet": "Foil",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R01"
+  ],
+  "discards": 0,
+  "scoring_system": "Low Point: punten = plaats in de race",
+  "fleet": "Foil"
+ },
+ "source": {
+  "name": "PSR-pdf: Windsurf Foil Masters Men 40+ (no discards)",
+  "publisher": "PSR-uitslagen (pdf) van The Real Trip 2023",
+  "url": null,
+  "file": "archive/nl/2023/the-real-trip-2023/bronnen/Results Windsurf Foil Masters Men 40+ (no discards)pdf.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-01",
+  "method": "pdfplumber (tekstlaag)",
+  "metadata_sources": [
+   {
+    "name": "Funsport Makkum: The RealTrip keert terug naar Makkum",
+    "url": "https://www.funsportmakkum.nl/blog/the-realtrip-2023",
+    "used_for": "vrijdag 15 tot zondag 17 september 2023, Makkum; long distance-starts op zaterdag en zondag, kids-competitie"
+   }
+  ],
+  "verified": "9 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: PSR-pdf met de vermelding '(no discards)'.",
+  "DNS-riders kregen de punten van de laatste plaats (gedeelde plaats), zoals gepubliceerd."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "henning-terstiege",
+   "sail": null,
+   "bib": "357",
+   "name": "Henning Terstiege",
+   "division": null,
+   "points": [
+    1.0
+   ],
+   "race_remarks": null,
+   "discard_points": null,
+   "total": 1.0,
+   "net": 1.0,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "johan-bulthuis",
+   "sail": null,
+   "bib": "074",
+   "name": "Johan Bulthuis",
+   "division": null,
+   "points": [
+    2.0
+   ],
+   "race_remarks": null,
+   "discard_points": null,
+   "total": 2.0,
+   "net": 2.0,
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "pieter-janssens",
+   "sail": null,
+   "bib": "108",
+   "name": "Pieter Janssens",
+   "division": null,
+   "points": [
+    3.0
+   ],
+   "race_remarks": null,
+   "discard_points": null,
+   "total": 3.0,
+   "net": 3.0,
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "eric-bom",
+   "sail": null,
+   "bib": "051",
+   "name": "Eric Bom",
+   "division": null,
+   "points": [
+    4.0
+   ],
+   "race_remarks": null,
+   "discard_points": null,
+   "total": 4.0,
+   "net": 4.0,
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "meindert-van-der-wolf",
+   "sail": null,
+   "bib": "364",
+   "name": "Meindert van der Wolf",
+   "division": null,
+   "points": [
+    5.0
+   ],
+   "race_remarks": null,
+   "discard_points": null,
+   "total": 5.0,
+   "net": 5.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "frank-zoethout",
+   "sail": null,
+   "bib": "344",
+   "name": "Frank Zoethout",
+   "division": null,
+   "points": [
+    6.0
+   ],
+   "race_remarks": {
+    "R01": "DNS"
+   },
+   "discard_points": null,
+   "total": 6.0,
+   "net": 6.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "joris-de-luij",
+   "sail": null,
+   "bib": "169",
+   "name": "Joris de Luij",
+   "division": null,
+   "points": [
+    6.0
+   ],
+   "race_remarks": {
+    "R01": "DNS"
+   },
+   "discard_points": null,
+   "total": 6.0,
+   "net": 6.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "matthijs-van-der-weg",
+   "sail": null,
+   "bib": "370",
+   "name": "Matthijs van der Weg",
+   "division": null,
+   "points": [
+    6.0
+   ],
+   "race_remarks": {
+    "R01": "DNS"
+   },
+   "discard_points": null,
+   "total": 6.0,
+   "net": 6.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "michael-brozio",
+   "sail": null,
+   "bib": "165",
+   "name": "Michael Brozio",
+   "division": null,
+   "points": [
+    6.0
+   ],
+   "race_remarks": {
+    "R01": "DNS"
+   },
+   "discard_points": null,
+   "total": 6.0,
+   "net": 6.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

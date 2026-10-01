@@ -1,0 +1,110 @@
+{
+ "schema_version": 1,
+ "id": "gpa-2024-long-distance-rookies",
+ "event": {
+  "name": "Grote Prijs van Aalsmeer 2024",
+  "scope": "nl",
+  "series": "Grote Prijs van Aalsmeer",
+  "organizer": "Wind Surf Club Aalsmeer (WSCA)",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2024-10-06",
+  "location": "Westeinderplassen, Aalsmeer",
+  "discipline": "long_distance",
+  "gender": "open",
+  "class": "Rookies (korte baan)",
+  "class_label_published": "Rookies"
+ },
+ "format": {
+  "type": "long_distance",
+  "ranking": "rondes aflopend, daarna tijd oplopend",
+  "time_basis": "gepubliceerde tijd (Tijd) bij de laatst voltooide ronde; alle tijden zijn >= 2:30:00",
+  "rank_basis": "gepubliceerd per klasse"
+ },
+ "source": {
+  "name": "GPA-2024-overall-uitslag.pdf",
+  "url": null,
+  "file": "archive/nl/2024/gpa-2024/bronnen/GPA-2024-overall-uitslag.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-01",
+  "method": "pdfplumber: tabellen per klasse; plaatsnummers staan links buiten de tabel en zijn apart uitgelezen (tekst-pdf, gemaakt met Excel)",
+  "metadata_sources": [
+   {
+    "name": "Webscorer: Grote Prijs van Aalsmeer 2024",
+    "url": "https://www.webscorer.com/racealldetails?raceid=368597&lang=nl&topn=3",
+    "used_for": "datum (zondag 6 oktober 2024), organisator, aantal deelnemers (109); locatie op Webscorer: Kudelstaart"
+   },
+   {
+    "name": "WSCA: Grote Prijs Aalsmeer",
+    "url": "https://www.wsca.nl/grote-prijs-aalsmeer/",
+    "used_for": "organisator WSCA, gehouden sinds 1993, formaat '2,5 uur plus een ronde', rangschikking op rondes en bij gelijk aantal op tijd laatste ronde"
+   }
+  ],
+  "verified": "4 entries (4 gefinisht, 0 DNF); plaatsen aaneengesloten 1..4; geen dubbele namen; volgorde klopt met rondes (aflopend) en tijd (oplopend)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "DNF-regels staan in de bron onderaan de klasse zonder plaats, tijd en rondes (als 'dnf'); bewaard als remark 'DNF'.",
+  "Deelnemers in 'Rookies' hebben 3-4 rondes; 2025 noemt dit 'Korte baan: Rookies'."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "giny-cnossen",
+   "sail": null,
+   "bib": null,
+   "name": "Giny Cnossen",
+   "gender": "female",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 4,
+   "time": "2:30:32",
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "menno-paddenburg",
+   "sail": null,
+   "bib": null,
+   "name": "Menno Paddenburg",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 3,
+   "time": "2:34:18",
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "joas-berlage",
+   "sail": null,
+   "bib": null,
+   "name": "Joas Berlage",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 3,
+   "time": "2:49:07",
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "laura-rientsma",
+   "sail": null,
+   "bib": null,
+   "name": "Laura Rientsma",
+   "gender": "female",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 3,
+   "time": "2:50:59",
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

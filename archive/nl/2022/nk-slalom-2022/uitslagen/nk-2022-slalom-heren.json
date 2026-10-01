@@ -1,0 +1,2083 @@
+{
+ "schema_version": 1,
+ "id": "nk-2022-slalom-heren",
+ "event": {
+  "name": "NK Slalom 2022",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": "men",
+  "class": "Heren",
+  "windtulip_regatta": "NK Slalom 2022"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 8,
+  "discards": [
+   2
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/168/total_results/",
+  "type": "web",
+  "file": "archive/nl/2022/nk-slalom-2022/bronnen/windtulip-168-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "21 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [2]; rangschikking oplopend op netto; 8 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): 1 afwijking(en)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort.",
+  "Punten wijken af van de afleiding uit de finales (1x), zie detail.deviations; gepubliceerde punten aangehouden."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jordy-vonk",
+   "sail": "NED-69",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0
+   ],
+   "discarded": [
+    6,
+    8
+   ],
+   "total": 2.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED-191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    2.0,
+    2.0,
+    5.0,
+    2.0,
+    2.0,
+    0.0,
+    2.0,
+    2.0
+   ],
+   "discarded": [
+    3,
+    8
+   ],
+   "total": 17.0,
+   "net": 10.0
+  },
+  {
+   "rank": 3,
+   "person": "ennio-dal-pont",
+   "sail": "ITA-465",
+   "name": "Ennio Dal Pont",
+   "nationality": "ITA",
+   "division": "Senior",
+   "points": [
+    3.0,
+    4.0,
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 26.0,
+   "net": 18.0
+  },
+  {
+   "rank": 4,
+   "person": "thomas-van-den-heuvel",
+   "sail": "NED-246",
+   "name": "Thomas van den Heuvel",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    4.0,
+    3.0,
+    7.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 35.0,
+   "net": 23.0
+  },
+  {
+   "rank": 5,
+   "person": "bob-van-de-burgt",
+   "sail": "NED-737",
+   "name": "Bob van de Burgt",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    6.0,
+    6.0,
+    3.0,
+    6.0,
+    6.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 42.0,
+   "net": 30.0,
+   "point_notes": {
+    "6": "RDG (5)"
+   }
+  },
+  {
+   "rank": 6,
+   "person": "jakob-kooij",
+   "sail": "NED-99",
+   "name": "Jakob Kooij",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    5.0,
+    5.0,
+    6.0,
+    7.0,
+    7.0,
+    6.0,
+    6.0,
+    7.0
+   ],
+   "discarded": [
+    5,
+    8
+   ],
+   "total": 49.0,
+   "net": 35.0
+  },
+  {
+   "rank": 7,
+   "person": "martijn-van-noord",
+   "sail": "NED-703",
+   "name": "Martijn van Noord",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    8.0,
+    7.0,
+    2.0,
+    4.0,
+    5.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 89.0,
+   "net": 47.0
+  },
+  {
+   "rank": 8,
+   "person": "vincent-jansen",
+   "sail": "NED-199",
+   "name": "Vincent Jansen",
+   "nationality": "NED",
+   "division": "Grandmaster",
+   "points": [
+    15.0,
+    21.0,
+    11.0,
+    9.0,
+    10.0,
+    11.0,
+    9.0,
+    8.0
+   ],
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 94.0,
+   "net": 58.0
+  },
+  {
+   "rank": 9,
+   "person": "matthijs-van-der-weg",
+   "sail": "NED-2023 / 3",
+   "name": "Matthijs van der Weg",
+   "nationality": "NED",
+   "division": "Master",
+   "points": [
+    13.0,
+    14.0,
+    9.0,
+    10.0,
+    9.0,
+    7.0,
+    14.0,
+    11.0
+   ],
+   "discarded": [
+    2,
+    7
+   ],
+   "total": 87.0,
+   "net": 59.0
+  },
+  {
+   "rank": 10,
+   "person": "peter-mulder",
+   "sail": "NED-95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    11.0,
+    11.0,
+    13.0,
+    11.0,
+    11.0,
+    8.0,
+    8.0,
+    13.0
+   ],
+   "discarded": [
+    3,
+    8
+   ],
+   "total": 86.0,
+   "net": 60.0
+  },
+  {
+   "rank": 11,
+   "person": "martijn-van-geemen",
+   "sail": "NED-31",
+   "name": "Martijn van Geemen",
+   "nationality": "NED",
+   "division": "Master",
+   "points": [
+    9.0,
+    9.0,
+    8.0,
+    8.0,
+    8.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 105.0,
+   "net": 63.0
+  },
+  {
+   "rank": 12,
+   "person": "bas-mulder",
+   "sail": "NED-92",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    7.0,
+    8.0,
+    21.0,
+    21.0,
+    21.0,
+    12.0,
+    11.0,
+    9.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 110.0,
+   "net": 68.0
+  },
+  {
+   "rank": 13,
+   "person": "remco-hoekstra",
+   "sail": "NED-267",
+   "name": "Remco Hoekstra",
+   "nationality": "NED",
+   "division": "Grandmaster",
+   "points": [
+    17.0,
+    12.0,
+    10.0,
+    13.0,
+    21.0,
+    10.0,
+    21.0,
+    10.0
+   ],
+   "discarded": [
+    5,
+    7
+   ],
+   "total": 114.0,
+   "net": 72.0
+  },
+  {
+   "rank": 14,
+   "person": "aart-jan-van-zadelhoff",
+   "sail": "NED-416",
+   "name": "Aart-Jan van Zadelhoff",
+   "nationality": "NED",
+   "division": "Grandmaster",
+   "points": [
+    10.0,
+    10.0,
+    12.0,
+    12.0,
+    12.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 119.0,
+   "net": 77.0
+  },
+  {
+   "rank": 15,
+   "person": "aron-etmon",
+   "sail": "CUR-2",
+   "name": "Aron Etmon",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    5.0,
+    7.0,
+    6.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 123.0,
+   "net": 81.0
+  },
+  {
+   "rank": 16,
+   "person": "mac-koeleman",
+   "sail": "NED-283",
+   "name": "Mac Koeleman",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    16.0,
+    16.0,
+    21.0,
+    21.0,
+    21.0,
+    14.0,
+    10.0,
+    12.0
+   ],
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 131.0,
+   "net": 89.0
+  },
+  {
+   "rank": 17,
+   "person": "pieter-eliens",
+   "sail": "NED-538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "Grandmaster",
+   "points": [
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    9.0,
+    12.0,
+    21.0
+   ],
+   "discarded": [
+    5,
+    8
+   ],
+   "total": 147.0,
+   "net": 105.0
+  },
+  {
+   "rank": 18,
+   "person": "john-munten",
+   "sail": "NED-30",
+   "name": "John Munten",
+   "nationality": "NED",
+   "division": "Master",
+   "points": [
+    12.0,
+    13.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 151.0,
+   "net": 109.0
+  },
+  {
+   "rank": 19,
+   "person": "bas-brull",
+   "sail": "NED-1731",
+   "name": "Bas Brüll",
+   "nationality": "NED",
+   "division": "Master",
+   "points": [
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    13.0,
+    13.0,
+    21.0
+   ],
+   "discarded": [
+    5,
+    8
+   ],
+   "total": 152.0,
+   "net": 110.0
+  },
+  {
+   "rank": 20,
+   "person": "marc-de-jong",
+   "sail": "NED-691",
+   "name": "Marc De Jong",
+   "nationality": "NED",
+   "division": "Master",
+   "points": [
+    14.0,
+    15.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 155.0,
+   "net": 113.0
+  },
+  {
+   "rank": 21,
+   "person": "dyon-cools",
+   "sail": "X",
+   "name": "Dyon Cools",
+   "nationality": "NED",
+   "division": "Senior",
+   "points": [
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 168.0,
+   "net": 126.0
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/168/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 3,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 4,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 5,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 6,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 7,
+       "person": "marc-de-jong"
+      },
+      {
+       "rank": 8,
+       "person": "peter-mulder"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 4,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 5,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 6,
+       "person": "john-munten"
+      },
+      {
+       "rank": 7,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 8,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 9,
+       "person": "vincent-jansen"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 5,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 6,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 7,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 8,
+       "person": "martijn-van-noord"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 2,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 3,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 4,
+       "person": "john-munten"
+      },
+      {
+       "rank": 5,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 6,
+       "person": "marc-de-jong"
+      },
+      {
+       "rank": 7,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 8,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 9,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 13,
+       "person": "dyon-cools",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "bas-brull",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "aron-etmon",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "pieter-eliens",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/168/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 3,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 4,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 5,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 6,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 7,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 8,
+       "person": "john-munten"
+      },
+      {
+       "rank": 9,
+       "person": "matthijs-van-der-weg"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 5,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 7,
+       "person": "marc-de-jong"
+      },
+      {
+       "rank": 8,
+       "person": "aart-jan-van-zadelhoff",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 4,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 5,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 6,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 7,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 8,
+       "person": "bas-mulder"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 2,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 3,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 4,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 5,
+       "person": "john-munten"
+      },
+      {
+       "rank": 6,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 7,
+       "person": "marc-de-jong"
+      },
+      {
+       "rank": 8,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 13,
+       "person": "dyon-cools",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "bas-brull",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "aron-etmon",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "pieter-eliens",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "vincent-jansen",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/168/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 3,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 4,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 5,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 6,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 7,
+       "person": "remco-hoekstra"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 4,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 5,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 6,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 7,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 3,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 4,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 5,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 6,
+       "person": "jakob-kooij"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 2,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 3,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 4,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 5,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 6,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 7,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 15,
+       "person": "dyon-cools",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "bas-brull",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "aron-etmon",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "pieter-eliens",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": "bas-mulder",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "john-munten",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "mac-koeleman",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "url": "https://windtulip.nl/home/results_dashboard/168/4/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 2,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 3,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 4,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 5,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 7,
+       "person": "remco-hoekstra",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 4,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 5,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 7,
+       "person": "matthijs-van-der-weg",
+       "remark": "OCS"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 5,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 6,
+       "person": "bob-van-de-burgt"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 2,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 3,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 4,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 5,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 7,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 15,
+       "person": "dyon-cools",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "bas-brull",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "aron-etmon",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "pieter-eliens",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": "bas-mulder",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "john-munten",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "mac-koeleman",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "url": "https://windtulip.nl/home/results_dashboard/168/5/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 2,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 3,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 4,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 5,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 7,
+       "person": "remco-hoekstra",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 4,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 5,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 6,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 7,
+       "person": "peter-mulder",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 5,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 6,
+       "person": "bob-van-de-burgt"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 2,
+       "person": "martijn-van-geemen"
+      },
+      {
+       "rank": 3,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 4,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 5,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 15,
+       "person": "dyon-cools",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "bas-brull",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "aron-etmon",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "pieter-eliens",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "remco-hoekstra",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": "bas-mulder",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "john-munten",
+       "remark": "DNC"
+      },
+      {
+       "rank": 15,
+       "person": "mac-koeleman",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "url": "https://windtulip.nl/home/results_dashboard/168/6/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 4,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 5,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 6,
+       "person": "bas-brull"
+      },
+      {
+       "rank": 7,
+       "person": "dyon-cools"
+      },
+      {
+       "rank": 8,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 3,
+       "person": "aron-etmon"
+      },
+      {
+       "rank": 4,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 5,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 6,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 7,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 9,
+       "person": "mac-koeleman",
+       "remark": "DNF"
+      },
+      {
+       "rank": 9,
+       "person": "bob-van-de-burgt",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 5,
+       "person": "aron-etmon"
+      },
+      {
+       "rank": 6,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 7,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 8,
+       "person": "peter-mulder",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 2,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 3,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 4,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 5,
+       "person": "bas-brull"
+      },
+      {
+       "rank": 6,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 13,
+       "person": "bob-van-de-burgt",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "dyon-cools",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "aart-jan-van-zadelhoff",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "martijn-van-noord",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "martijn-van-geemen",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "john-munten",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "url": "https://windtulip.nl/home/results_dashboard/168/7/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 4,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 5,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 6,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 7,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 8,
+       "person": "mac-koeleman"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 3,
+       "person": "aron-etmon"
+      },
+      {
+       "rank": 4,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 5,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 6,
+       "person": "bas-brull"
+      },
+      {
+       "rank": 7,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 9,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      },
+      {
+       "rank": 9,
+       "person": "dyon-cools",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 5,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 6,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 7,
+       "person": "aron-etmon"
+      },
+      {
+       "rank": 8,
+       "person": "peter-mulder"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 2,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 3,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 4,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 5,
+       "person": "bas-brull"
+      },
+      {
+       "rank": 6,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 13,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "remco-hoekstra",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "dyon-cools",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "aart-jan-van-zadelhoff",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "martijn-van-noord",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "martijn-van-geemen",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "john-munten",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "url": "https://windtulip.nl/home/results_dashboard/168/8/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 4,
+       "person": "aron-etmon"
+      },
+      {
+       "rank": 5,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 7,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 8,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 3,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 4,
+       "person": "vincent-jansen"
+      },
+      {
+       "rank": 5,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 7,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 9,
+       "person": "bas-brull",
+       "remark": "DNF"
+      },
+      {
+       "rank": 9,
+       "person": "dyon-cools",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 5,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 6,
+       "person": "aron-etmon"
+      },
+      {
+       "rank": 7,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 8,
+       "person": "vincent-jansen"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 2,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 3,
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 4,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 5,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 13,
+       "person": "bas-brull",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "pieter-eliens",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "marc-de-jong",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "dyon-cools",
+       "remark": "DNF"
+      },
+      {
+       "rank": 13,
+       "person": "aart-jan-van-zadelhoff",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "martijn-van-noord",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "martijn-van-geemen",
+       "remark": "DNC"
+      },
+      {
+       "rank": 13,
+       "person": "john-munten",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {
+  "deviations": [
+   "elim 6 B Final: rank 13 DNF -> afgeleid 21.0, gepubliceerd 5.0"
+  ]
+ }
+}

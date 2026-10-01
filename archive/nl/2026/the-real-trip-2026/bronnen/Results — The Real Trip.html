@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://therealtrip.nl/en/results -->
+<html lang="nl" data-theme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Google Consent Mode v2 — defaults BEFORE GTM loads. Everything denied until the
+         visitor accepts; a stored choice from a previous visit is re-applied immediately. -->
+    <script async="" src="./Results — The Real Trip_files/gtm.js.download"></script><script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('consent', 'default', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'denied',
+            wait_for_update: 500
+        });
+        try {
+            if (localStorage.getItem('trt-consent') === 'granted') {
+                gtag('consent', 'update', {
+                    ad_storage: 'granted', ad_user_data: 'granted',
+                    ad_personalization: 'granted', analytics_storage: 'granted'
+                });
+            }
+        } catch (e) { }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MQ2NVDBD');</script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MUST be first: a <base> only affects resources that come AFTER it. Absolute "/"
+         (site is root-hosted) so relative asset paths (_content/…, _framework/…) always
+         resolve to the root, not against multi-segment routes like /en/my-results. -->
+    <!--<base href="/">--><base href=".">
+    <meta name="theme-color" content="#008C67">
+    
+
+    <!-- Per-page <PageTitle> / <HeadContent> (SEO: title, description, Open Graph) render server-side hier -->
+    <!--!--><!--!--><!--!--><title>Results — The Real Trip</title><!--!--><!--!--><!--!--><meta name="description" content="The Real Trip 2026 results in Makkum, by class."><!--!-->
+    <link rel="canonical" href="https://therealtrip.nl/en/results"><link rel="alternate" hreflang="nl" href="https://therealtrip.nl/results"><link rel="alternate" hreflang="en" href="https://therealtrip.nl/en/results"><link rel="alternate" hreflang="de" href="https://therealtrip.nl/de/results"><link rel="alternate" hreflang="x-default" href="https://therealtrip.nl/results"><!--!-->
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Real Trip">
+    <meta property="og:locale" content="en_GB"><!--!-->
+    <meta property="og:title" content="Results — The Real Trip"><!--!-->
+    <meta property="og:description" content="The Real Trip 2026 results in Makkum, by class."><!--!-->
+    <meta property="og:url" content="https://therealtrip.nl/en/results"><!--!-->
+    <meta property="og:image" content="https://therealtrip.nl/media/trtweb.jpg"><!--!-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Results — The Real Trip"><!--!-->
+    <meta name="twitter:description" content="The Real Trip 2026 results in Makkum, by class."><!--!-->
+    <meta name="twitter:image" content="https://therealtrip.nl/media/trtweb.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://therealtrip.nl/icons/favicon-48.png">
+    <link rel="apple-touch-icon" href="https://therealtrip.nl/icons/favicon-192.png">
+
+    <!-- Flag icons (reuse from registration) -->
+    <link rel="stylesheet" href="./Results — The Real Trip_files/flag-icons.min.css">
+
+    <!-- Leaflet (public map) + marker clustering -->
+    <link rel="stylesheet" href="./Results — The Real Trip_files/leaflet.min.css">
+    <link rel="stylesheet" href="./Results — The Real Trip_files/MarkerCluster.css">
+    <link rel="stylesheet" href="./Results — The Real Trip_files/MarkerCluster.Default.css">
+
+    <!-- Site CSS — asp-append-version busts the browser cache on every deploy,
+         so a plain refresh always picks up the latest styles. -->
+    <link rel="stylesheet" href="./Results — The Real Trip_files/site.css">
+
+    <!-- Theme: apply stored choice or the system preference before first paint (no flash) -->
+    <script>
+        (function () {
+            try {
+                var t = localStorage.getItem('trt-theme');
+                if (t !== 'dark' && t !== 'light')
+                    t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', t);
+            } catch (e) { }
+        })();
+        window.trtToggleTheme = function () {
+            var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            try { localStorage.setItem('trt-theme', next); } catch (e) { }
+        };
+        // Native OS share sheet (mobile → WhatsApp/Instagram/etc.). Returns false when unsupported.
+        window.trtShare = async function (title, url) {
+            if (navigator.share) { try { await navigator.share({ title: title, url: url }); return true; } catch (e) { return false; } }
+            return false;
+        };
+        // Live save-the-date countdown. labels = [days, hours, minutes]. Ticks each minute.
+        window.trtCountdown = function (elementId, targetIso, labels) {
+            var el = document.getElementById(elementId);
+            if (!el) return;
+            function tick() {
+                var diff = new Date(targetIso).getTime() - Date.now();
+                if (isNaN(diff) || diff <= 0) { el.textContent = ''; if (el._t) clearInterval(el._t); return; }
+                var d = Math.floor(diff / 86400000);
+                var h = Math.floor(diff / 3600000) % 24;
+                var m = Math.floor(diff / 60000) % 60;
+                el.innerHTML =
+                    '<span><b>' + d + '</b> ' + labels[0] + '</span>' +
+                    '<span><b>' + h + '</b> ' + labels[1] + '</span>' +
+                    '<span><b>' + m + '</b> ' + labels[2] + '</span>';
+            }
+            tick();
+            if (el._t) clearInterval(el._t);
+            el._t = setInterval(tick, 60000);
+        };
+        window.trtScrollToId = function (id) {
+            var el = document.getElementById(id);
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        };
+        // Zet de URL-hash naar de vraag en kopieer de deeplink; geeft true bij succes.
+        window.trtFaqCopyLink = async function (id) {
+            try { history.replaceState(null, '', '#' + id); } catch (e) { }
+            var url = location.href;
+            try { if (navigator.clipboard) { await navigator.clipboard.writeText(url); return true; } } catch (e) { }
+            return false;
+        };
+        window.trtCopy = function (text) {
+            if (navigator.clipboard) return navigator.clipboard.writeText(text);
+            var ta = document.createElement('textarea');
+            ta.value = text; document.body.appendChild(ta); ta.select();
+            try { document.execCommand('copy'); } catch (e) { }
+            document.body.removeChild(ta); return Promise.resolve();
+        };
+    </script>
+<style id="trt-map-popup-styles">
+                                .leaflet-popup-content-wrapper { background:#1F4E38 !important; color:#E8F7F2 !important; border-radius:10px !important;
+                                    box-shadow:0 4px 24px rgba(0,0,0,.45) !important; border:1px solid #2D6E50 !important; padding:0 !important; }
+                                .leaflet-popup-content { margin:0 !important; padding:0 !important; color:#E8F7F2 !important; }
+                                .leaflet-popup-tip { background:#1F4E38 !important; border:none !important; box-shadow:none !important; }
+                                .leaflet-popup-close-button { color:#AEDCCF !important; font-size:18px !important; }
+                                .trt-map-tooltip { padding:.75rem 1rem; font-size:.83rem; min-width:180px; max-width:280px; }
+                                .trt-map-tooltip__title { font-weight:800; font-size:.9rem; color:#fff; margin-bottom:.2rem; }
+                                .trt-map-tooltip__sub { color:#AEDCCF; font-size:.78rem; margin-bottom:.3rem; }
+                                .trt-map-tooltip__chips { display:flex; flex-wrap:wrap; gap:.25rem; margin-top:.4rem; }
+                                .trt-map-tooltip__chip { background:#2D6E50; color:#C8EDE2; border-radius:20px;
+                                    padding:.15rem .55rem; font-size:.72rem; font-weight:700; border:1px solid #3D8867; }
+                                .trt-map-tooltip__body { margin-top:.4rem; font-size:.78rem; color:#C8EDE2; }
+                                .trt-map-tooltip__cal { margin-top:.5rem; border-top:1px solid #2D6E50; padding-top:.4rem; }
+                                .trt-map-tooltip__cal-date { font-size:.72rem; font-weight:800; text-transform:uppercase;
+                                    letter-spacing:.3px; color:#5FBFA0; margin:.4rem 0 .15rem; }
+                                .trt-map-tooltip__cal-row { display:flex; gap:.4rem; font-size:.78rem;
+                                    color:#C8EDE2; padding:.1rem 0; border-bottom:1px solid rgba(255,255,255,.06); }
+                                .trt-map-tooltip__cal-time { flex-shrink:0; width:80px; color:#7ECFB3; font-size:.72rem; font-weight:600; }
+                                .trt-map-ctrl-btn { display:flex; align-items:center; justify-content:center;
+                                    width:34px; height:34px; background:#1F4E38; border:2px solid #3D8867;
+                                    border-radius:4px; cursor:pointer; font-size:16px; color:#fff;
+                                    box-shadow:0 1px 5px rgba(0,0,0,.4); margin-bottom:4px; }
+                                .trt-map-ctrl-btn:hover { background:#2D6E50; }
+                                .trt-map-ctrl-btn.active { background:#008C67; border-color:#5FBFA0; }
+                                .trt-pulse { position:relative; width:24px; height:24px; }
+                                .trt-pulse::before, .trt-pulse::after {
+                                    content:''; position:absolute; left:50%; top:50%; width:24px; height:24px;
+                                    margin:-12px 0 0 -12px; border-radius:50%; border:3px solid #008C67;
+                                    animation:trtPulse 1.4s ease-out infinite; }
+                                .trt-pulse::after { animation-delay:.7s; }
+                                @keyframes trtPulse {
+                                    0%   { transform:scale(.4); opacity:.95; }
+                                    100% { transform:scale(2.6); opacity:0; } }
+                            </style></head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQ2NVDBD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <app>
+        <!--!--><!--!--><!--!--><!--!--><!--!--><div class="trt-site theme-default"><nav class="trt-nav"><div class="trt-nav__inner"><button class="trt-hamburger " aria-label="Menu"><!--!--><span></span><span></span><span></span></button><!--!-->
+
+        <div class="trt-nav__links "><a class="trt-nav__link " href="https://therealtrip.nl/en">HOME</a><a class="trt-nav__link " href="https://therealtrip.nl/en/info">INFO</a><a class="trt-nav__link " href="https://therealtrip.nl/en/register">REGISTER</a><a class="trt-nav__link " href="https://therealtrip.nl/en/programme">PROGRAMME</a><a class="trt-nav__link " href="https://therealtrip.nl/en/location">LOCATION</a><a class="trt-nav__link trt-nav__link--active" href="https://therealtrip.nl/en/results">RESULTS</a><a class="trt-nav__link " href="https://therealtrip.nl/en/partners">PARTNERS</a><a class="trt-nav__link " href="https://therealtrip.nl/en/media">MEDIA</a><a class="trt-nav__link " href="https://therealtrip.nl/en/about">ABOUT</a><a class="trt-nav__link " href="https://therealtrip.nl/en/contact">CONTACT</a></div><!--!-->
+
+        <div class="trt-nav__right"><!--!--><button class="trt-theme-toggle" onclick="trtToggleTheme()" aria-label="Licht of donker thema" title="Licht / donker"><svg class="ti-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"></path></svg>
+                <svg class="ti-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></button>
+
+            <div class="lang-switcher"><button class="lang-btn " title="Nederlands"><!--!--><svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" style="border-radius:2px;display:block;"><rect width="20" height="14" fill="#AE1C28"></rect><rect y="4.67" width="20" height="4.67" fill="white"></rect><rect y="9.33" width="20" height="4.67" fill="#21468B"></rect></svg></button><button class="lang-btn lang-btn--active" title="English"><!--!--><svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" style="border-radius:2px;display:block;"><rect width="20" height="14" fill="#012169"></rect><line x1="0" y1="0" x2="20" y2="14" stroke="white" stroke-width="2.5"></line><line x1="20" y1="0" x2="0" y2="14" stroke="white" stroke-width="2.5"></line><line x1="0" y1="0" x2="20" y2="14" stroke="#C8102E" stroke-width="1.5"></line><line x1="20" y1="0" x2="0" y2="14" stroke="#C8102E" stroke-width="1.5"></line><rect x="8" y="0" width="4" height="14" fill="white"></rect><rect y="5" width="20" height="4" fill="white"></rect><rect x="8.8" y="0" width="2.4" height="14" fill="#C8102E"></rect><rect y="5.8" width="20" height="2.4" fill="#C8102E"></rect></svg></button><button class="lang-btn " title="Deutsch"><!--!--><svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg" style="border-radius:2px;display:block;"><rect width="20" height="14" fill="#000"></rect><rect y="4.67" width="20" height="4.67" fill="#DD0000"></rect><rect y="9.33" width="20" height="4.67" fill="#FFCE00"></rect></svg></button></div></div></div></nav><div class="trt-page-header "><!--!--><div class="trt-page-header__arch"></div>
+            <a href="https://therealtrip.nl/en" class="trt-page-header__logo"><!--!--><img src="./Results — The Real Trip_files/trtlogo-white-transparant.svg" alt="The Real Trip"></a><!--!-->
+            <div class="trt-container" style="position:relative;z-index:2;padding-top:1.5rem;padding-bottom:2.5rem;"><div class="trt-page-header__row"><!--!--><img src="./Results — The Real Trip_files/feelthefreedom-mono.svg" alt="Feel the Freedom" class="trt-page-header__ftf">
+                    <h1 class="trt-page-header__title" tabindex="-1">RESULTS</h1></div></div><!--!-->
+            <div class="trt-page-header__wave "><!--!--><svg class="trt-wave-svg" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;"><path d="M0,58 C120,58 120,24 240,24 C360,24 360,58 480,58 C600,58 600,24 720,24 C840,24 840,58 960,58 C1080,58 1080,24 1200,24 C1320,24 1320,58 1440,58 L1440,90 L0,90 Z" fill="var(--theme-light)" opacity="0.4"></path><path d="M0,58 C120,58 120,30 240,30 C360,30 360,58 480,58 C600,58 600,30 720,30 C840,30 840,58 960,58 C1080,58 1080,30 1200,30 C1320,30 1320,58 1440,58 L1440,90 L0,90 Z" fill="var(--trt-bg)"></path></svg></div></div><main><!--!--><!--!--><!--!--><!--!--><!--!-->
+<!--!--><!--!--><!--!-->
+
+<section class="trt-section" style="padding-top:1.5rem;"><div class="trt-container"><h1 class="trt-res-eventtitle">THE REAL TRIP 2026</h1><div class="trt-res-classbar"><div class="trt-res-classes"><button type="button" class="trt-res-class   ">Fin Adults men</button><button type="button" class="trt-res-class   ">Fin Adults women</button><button type="button" class="trt-res-class   ">Fin Kids (-12)</button><button type="button" class="trt-res-class   ">Fin Master</button><button type="button" class="trt-res-class   ">Fin Profleet</button><button type="button" class="trt-res-class   ">Fin Youth (13-17) long course</button><button type="button" class="trt-res-class   ">Fin Youth (13-17) short course</button><button type="button" class="trt-res-class   ">LT Adults</button><button type="button" class="trt-res-class is-active  is-overall">Long course · overall</button><button type="button" class="trt-res-class  is-award ">Encouragement award</button><button type="button" class="trt-res-class  is-award ">Special Recognition award</button></div></div><div class="trt-res-tablewrap"><table class="trt-res-table"><thead><tr><!--!--><th class="trt-res-rank">#</th>
+                                <th class="trt-res-bib">Bib</th><!--!-->
+                                <th></th>
+                                <th class="trt-res-name">Name</th><!--!-->
+                                <th class="trt-res-num">Races</th><!--!-->
+                                <th class="trt-res-num">Discard</th><!--!-->
+                                <th class="trt-res-num trt-res-net">Net</th></tr></thead><!--!-->
+                        <tbody><tr><td class="trt-res-rank">1</td><!--!-->
+                                    <td class="trt-res-bib">173</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/6be1690f-2fa8-4b46-84ac-64dad9014403">Jakob Kooij</a><span class="trt-res-sail">NED99</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">8.1</td></tr><tr><td class="trt-res-rank">2</td><!--!-->
+                                    <td class="trt-res-bib">143</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ae024068-300a-40f8-bba3-5662cddc6798">Fabian Blanke</a><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">18.1</td></tr><tr><td class="trt-res-rank">3</td><!--!-->
+                                    <td class="trt-res-bib">310</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ecef0da5-c97c-438f-a6bc-0f54b952860e">Max Baaijen</a><span class="trt-res-sail">NED61</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−7.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">18.7</td></tr><tr><td class="trt-res-rank">4</td><!--!-->
+                                    <td class="trt-res-bib">24</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-be"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/9e06d524-d700-404c-81a9-b25e95e1f49e">Jeffrey van Hoe</a><span class="trt-res-sail">BEL6</span><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−6.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">28.0</td></tr><tr><td class="trt-res-rank">5</td><!--!-->
+                                    <td class="trt-res-bib">18</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/7bb963a7-9083-4fd3-b457-0832bcf1ba36">Stijn de Bruin</a><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">38.0</td></tr><tr><td class="trt-res-rank">6</td><!--!-->
+                                    <td class="trt-res-bib">309</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/a978ede7-0493-4024-8dd1-cf50d12fdfd2">Adri Keet</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−12.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">41.0</td></tr><tr><td class="trt-res-rank">7</td><!--!-->
+                                    <td class="trt-res-bib">8</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/3c80e50f-b945-4154-9d09-07175635e49f">Jan Wim Becker</a><span class="trt-res-sail">GER876</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−12.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">51.0</td></tr><tr><td class="trt-res-rank">8</td><!--!-->
+                                    <td class="trt-res-bib">167</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/5890b387-9af7-4ebb-9cd9-631a4e973d6b">Bendix Engemann</a><span class="trt-res-sail">G1703/107</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−20.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">53.0</td></tr><tr><td class="trt-res-rank">9</td><!--!-->
+                                    <td class="trt-res-bib">116</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/a7c99ae4-ec2a-480a-aaa9-21bdafc669ca">Remco Bakker</a><span class="trt-res-sail">NED15</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−14.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">65.0</td></tr><tr><td class="trt-res-rank">10</td><!--!-->
+                                    <td class="trt-res-bib">318</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/fcbc42d4-3de1-45c9-92ec-bbea8ea5eabc">Jens Salomons</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−34.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">70.0</td></tr><tr><td class="trt-res-rank">11</td><!--!-->
+                                    <td class="trt-res-bib">179</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/c5403212-c2fd-466b-9eff-28bbcbc00b16">Doeke de Valk</a><span class="trt-res-sail">NED535</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−40.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">81.0</td></tr><tr><td class="trt-res-rank">12*</td><!--!-->
+                                    <td class="trt-res-bib">31</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-be"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/8ed3ce79-9803-4065-bb3a-b652fcaff6cf">Joeri Gybels</a><span class="trt-res-sail">BEL248</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−29.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">101.0</td></tr><tr><td class="trt-res-rank">13*</td><!--!-->
+                                    <td class="trt-res-bib">10</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/5769d554-ae6e-49c5-8a4c-812f17c77fc0">Peter de Rijke</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−34.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">101.0</td></tr><tr><td class="trt-res-rank">14*</td><!--!-->
+                                    <td class="trt-res-bib">15</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/f2449e89-05b4-481c-b12c-2382616906e2">Paul Salomons</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">102.0</td></tr><tr><td class="trt-res-rank">15*</td><!--!-->
+                                    <td class="trt-res-bib">128</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/16d05d81-470b-4268-bded-533cc5e2b850">Bjarne de Leeuw</a><span class="trt-res-sail">NED164</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−21.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">102.0</td></tr><tr><td class="trt-res-rank">16</td><!--!-->
+                                    <td class="trt-res-bib">123</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/28a73bb9-cf0d-4b46-9f33-5675fd5dcd94">Peter Konstapel</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−34.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">108.0</td></tr><tr><td class="trt-res-rank">17</td><!--!-->
+                                    <td class="trt-res-bib">42</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ac391acb-9ec5-47d9-a014-35f947cdd52d">Ingmar Etmans</a><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−23.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">122.0</td></tr><tr><td class="trt-res-rank">18</td><!--!-->
+                                    <td class="trt-res-bib">812</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/dad529d9-55a9-457c-b25f-f78a33c848ea">Mika Lievens</a><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−51.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">125.0</td></tr><tr><td class="trt-res-rank">19</td><!--!-->
+                                    <td class="trt-res-bib">830</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/6ea1cbce-72eb-461a-9007-a0b0793170a2">Isabelle Westerveld</a><span class="trt-res-sail">NED214</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−27.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">130.0</td></tr><tr><td class="trt-res-rank">20</td><!--!-->
+                                    <td class="trt-res-bib">124</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/3d154868-4a93-4bbf-993f-9c413f2eca2b">Stijn Beks</a><span class="trt-res-sail">NED343</span><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−28.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">136.0</td></tr><tr><td class="trt-res-rank">21</td><!--!-->
+                                    <td class="trt-res-bib">139</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ca2236d0-f7f7-44c8-a579-ab8c2a9a99cd">Boy van der Veer</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−43.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">150.0</td></tr><tr><td class="trt-res-rank">22</td><!--!-->
+                                    <td class="trt-res-bib">20</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/5edd5806-3fbf-42ca-954e-8348d3e9ec72">Rob Hazelaar</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−32.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">161.0</td></tr><tr><td class="trt-res-rank">23</td><!--!-->
+                                    <td class="trt-res-bib">103</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/b3634b63-96f6-4aed-9382-0d6f8f6c2215">Nick Glaettli</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">166.0</td></tr><tr><td class="trt-res-rank">24</td><!--!-->
+                                    <td class="trt-res-bib">126</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/322e0e1c-2a3d-4587-b330-769b236c68c4">Wessel Douma</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">169.0</td></tr><tr><td class="trt-res-rank">25*</td><!--!-->
+                                    <td class="trt-res-bib">314</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e6c56599-da27-416e-9354-464baa593a19">Tycho Nomden</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">175.0</td></tr><tr><td class="trt-res-rank">26*</td><!--!-->
+                                    <td class="trt-res-bib">121</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/d73de3e5-9a18-4f2b-8d27-2c005e5c742b">Jan Hendrik de Bruin</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−54.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">175.0</td></tr><tr><td class="trt-res-rank">27</td><!--!-->
+                                    <td class="trt-res-bib">323</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/4881698b-de83-4831-a173-4c1d82b71ac2">Martijn Mobach</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">183.0</td></tr><tr><td class="trt-res-rank">28</td><!--!-->
+                                    <td class="trt-res-bib">9</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/32ac15b4-adf2-4806-a3d9-c9eddc4544b6">Melvin Jansen</a><span class="trt-res-sail">NED404</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−54.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">188.0</td></tr><tr><td class="trt-res-rank">29</td><!--!-->
+                                    <td class="trt-res-bib">36</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ce0f6547-ea56-46fe-91fb-2e606c14bc1f">Seppe Wiersema</a><span class="trt-res-sail">NL215</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">208.0</td></tr><tr><td class="trt-res-rank">30</td><!--!-->
+                                    <td class="trt-res-bib">168</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/c38b8eaa-3fbd-4e7a-ab85-abaffef2e019">Martijn Vos</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">210.0</td></tr><tr><td class="trt-res-rank">31</td><!--!-->
+                                    <td class="trt-res-bib">21</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/05d4ccf8-3781-407f-afda-12afa6f82e99">Arne Hoogerwerf</a><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−45.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">213.0</td></tr><tr><td class="trt-res-rank">32</td><!--!-->
+                                    <td class="trt-res-bib">328</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/056acaac-d6cf-4ecd-80e6-d12149016c7d">Dylan de Jong</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">217.0</td></tr><tr><td class="trt-res-rank">33</td><!--!-->
+                                    <td class="trt-res-bib">303</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/fdce55dd-515c-4977-aacf-ab8ff3b4c7e0">Peter Mulder</a><span class="trt-res-sail">NED95</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">219.0</td></tr><tr><td class="trt-res-rank">34</td><!--!-->
+                                    <td class="trt-res-bib">100</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/49324aa0-04ba-484b-8c3e-b766f502c8c4">Friedus Jongbloed</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−66.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">231.0</td></tr><tr><td class="trt-res-rank">35</td><!--!-->
+                                    <td class="trt-res-bib">166</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/0fae679b-3d73-42e7-9d7d-ff0d4628c28d">Peter Martijn Bronkhorst</a><span class="trt-res-sail">NED1052</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−51.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">247.0</td></tr><tr><td class="trt-res-rank">36</td><!--!-->
+                                    <td class="trt-res-bib">165</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/bbe654ee-ef95-4ccc-8939-ae7f556e99d1">Peter Kuiter</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">257.0</td></tr><tr><td class="trt-res-rank">37</td><!--!-->
+                                    <td class="trt-res-bib">325</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/6f7ebfac-6edd-4fcf-a69a-659ee9b27231">Haijo Switters</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">258.0</td></tr><tr><td class="trt-res-rank">38</td><!--!-->
+                                    <td class="trt-res-bib">831</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/69b674d5-262f-4590-8133-2b93d7d2521e">Jolanda Bruining</a><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−63.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">259.0</td></tr><tr><td class="trt-res-rank">39</td><!--!-->
+                                    <td class="trt-res-bib">107</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/b445f0a4-7388-4ef3-b787-c18c637cce9e">Sander van Gelderen</a><span class="trt-res-sail">NED766</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">297.0</td></tr><tr><td class="trt-res-rank">40</td><!--!-->
+                                    <td class="trt-res-bib">164</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ea071911-3546-49b2-a7ed-a2b17c789a6b">Johan Bulthuis</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">309.0</td></tr><tr><td class="trt-res-rank">41</td><!--!-->
+                                    <td class="trt-res-bib">114</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/520c76ac-2526-46a5-a65c-129fdde60049">Gert Jan Huisink</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">315.0</td></tr><tr><td class="trt-res-rank">42</td><!--!-->
+                                    <td class="trt-res-bib">151</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/0158218c-8436-460e-8e7e-e3c372eb5d19">Jasper Jongepier</a><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">338.0</td></tr><tr><td class="trt-res-rank">43</td><!--!-->
+                                    <td class="trt-res-bib">803</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/0dea7be4-41dd-4da8-a717-71138d658204">Marijn Schouten</a><span class="trt-res-sail">NED160</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">344.0</td></tr><tr><td class="trt-res-rank">44</td><!--!-->
+                                    <td class="trt-res-bib">161</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-pl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/5f6f589f-5fdd-484e-bd7b-18ee503754a0">Joannes van Soest</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">355.0</td></tr><tr><td class="trt-res-rank">45</td><!--!-->
+                                    <td class="trt-res-bib">26</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/a69e0d21-50eb-4ac3-9f7e-18f821338b6d">Dyon Cools</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">398.0</td></tr><tr><td class="trt-res-rank">46</td><!--!-->
+                                    <td class="trt-res-bib">144</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e433297e-1d62-4fd2-9431-6793b3568ee3">Jurriën Wind</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">411.0</td></tr><tr><td class="trt-res-rank">47</td><!--!-->
+                                    <td class="trt-res-bib">45</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/3d6bd7a7-d39c-41ac-b576-88505e397431">Iris Gimpel</a><span class="trt-res-sail">NED567</span><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">413.0</td></tr><tr><td class="trt-res-rank">48</td><!--!-->
+                                    <td class="trt-res-bib">132</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/382fec86-c8e4-44b5-b77c-d470daa51d02">Sipke Bijlsma</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">425.0</td></tr><tr><td class="trt-res-rank">49</td><!--!-->
+                                    <td class="trt-res-bib">172</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/9516b1c3-ac0a-4e04-abd6-d003f15d85b2">Pieter Eliens</a><span class="trt-res-sail">NED538</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">426.0</td></tr><tr><td class="trt-res-rank">50</td><!--!-->
+                                    <td class="trt-res-bib">171</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/dfa81a4e-3904-46f9-a44b-311bf85db819">Thewes de Boer</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">428.0</td></tr><tr><td class="trt-res-rank">51</td><!--!-->
+                                    <td class="trt-res-bib">37</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/935922e3-e71a-4fc9-a0a1-3353b1bad8e0">Marinus Ubbink</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">429.0</td></tr><tr><td class="trt-res-rank">52</td><!--!-->
+                                    <td class="trt-res-bib">12</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/40276a8f-fa4f-4daa-8a58-e7d2ada01630">Piet van Dooren</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">448.0</td></tr><tr><td class="trt-res-rank">53</td><!--!-->
+                                    <td class="trt-res-bib">326</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/c4956a57-5bd4-428a-acab-98eb1c285b54">Jandirk Ubbels</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">461.0</td></tr><tr><td class="trt-res-rank">54</td><!--!-->
+                                    <td class="trt-res-bib">331</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e76c61cc-bffa-4c4c-a7de-e9dab5132760">Edu Hoekstra</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">468.0</td></tr><tr><td class="trt-res-rank">55</td><!--!-->
+                                    <td class="trt-res-bib">105</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/2c61b1b8-12b6-452a-8b4c-1f7f26b64120">Huug de Kort</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">469.0</td></tr><tr><td class="trt-res-rank">56</td><!--!-->
+                                    <td class="trt-res-bib">136</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/f405a75a-f71c-4947-9eca-331e97036910">Robin Gosselaar</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">493.0</td></tr><tr><td class="trt-res-rank">57</td><!--!-->
+                                    <td class="trt-res-bib">169</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e8a93bcd-9861-4c49-b3be-9b80370ceefe">Sebastiaan Mulder</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">501.0</td></tr><tr><td class="trt-res-rank">58*</td><!--!-->
+                                    <td class="trt-res-bib">28</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/c01f56ae-d256-491a-9cfe-ec38cae79b6e">Stefan Zielstra</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">503.0</td></tr><tr><td class="trt-res-rank">59*</td><!--!-->
+                                    <td class="trt-res-bib">304</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/461bb844-4a58-41ea-9718-00b012939f26">Bart Waardijk</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">503.0</td></tr><tr><td class="trt-res-rank">60</td><!--!-->
+                                    <td class="trt-res-bib">350</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/67be999c-1daf-45af-8d44-34bdf50f5a7a">Alexander Mulder</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">520.0</td></tr><tr><td class="trt-res-rank">61</td><!--!-->
+                                    <td class="trt-res-bib">133</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/4e696bdd-5e39-4335-89ed-ee660373f737">Ingmar van Groningen</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">524.0</td></tr><tr><td class="trt-res-rank">62*</td><!--!-->
+                                    <td class="trt-res-bib">327</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/b86d7802-5892-4e9b-802a-b0b2eb07fc79">Wybe Tibma</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">527.0</td></tr><tr><td class="trt-res-rank">63*</td><!--!-->
+                                    <td class="trt-res-bib">49</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/b6f0d76e-a173-4a31-bf81-594bcd41e27b">Sebastiaan Klok</a><span class="trt-res-sail">NED2009</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">527.0</td></tr><tr><td class="trt-res-rank">64</td><!--!-->
+                                    <td class="trt-res-bib">330</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/21a2bafd-f1e0-490a-92da-2f2e92f80e4e">Christoph Deus</a><span class="trt-res-sail">GER8</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">543.0</td></tr><tr><td class="trt-res-rank">65</td><!--!-->
+                                    <td class="trt-res-bib">50</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/8ad7ce21-5f4e-4c62-9409-a7763c4a5426">Merijn van Ginhoven</a><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">551.0</td></tr><tr><td class="trt-res-rank">66</td><!--!-->
+                                    <td class="trt-res-bib">135</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/f2831430-09b4-463d-9775-9eb4d0b2fb19">Herman Legtenberg</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">554.0</td></tr><tr><td class="trt-res-rank">67</td><!--!-->
+                                    <td class="trt-res-bib">808</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/a4f336ad-bba2-4e25-9f06-9ad61ab9d3c6">Stefan Nikolayczik</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">556.0</td></tr><tr><td class="trt-res-rank">68</td><!--!-->
+                                    <td class="trt-res-bib">507</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/3086f8eb-0e98-4455-b0ee-e6e53d584b0a">René Griffioen</a><span class="trt-res-sail">2223</span><div class="trt-res-riderclass">LT Adults</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">564.0</td></tr><tr><td class="trt-res-rank">69</td><!--!-->
+                                    <td class="trt-res-bib">27</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e6be3a80-86cd-4221-a082-3f7320536f14">Dirk Kooystra</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">575.0</td></tr><tr><td class="trt-res-rank">70</td><!--!-->
+                                    <td class="trt-res-bib">170</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/4ca7305b-b886-4599-b8a5-70f64fa980c0">Jolt Bekema</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">599.0</td></tr><tr><td class="trt-res-rank">71*</td><!--!-->
+                                    <td class="trt-res-bib">104</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/8281744a-55ca-424b-8684-946f036b5844">Jochem van Bergeijk</a><span class="trt-res-sail">NED1225</span><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">609.0</td></tr><tr><td class="trt-res-rank">72*</td><!--!-->
+                                    <td class="trt-res-bib">113</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/d13b14ee-02c5-40a7-b5b2-6a3be876cb7f">Piet Piekstra</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">609.0</td></tr><tr><td class="trt-res-rank">73</td><!--!-->
+                                    <td class="trt-res-bib">162</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/f4688944-1d33-4a60-8a71-8fa3698dd38c">Marcel Weidemann</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">624.0</td></tr><tr><td class="trt-res-rank">74</td><!--!-->
+                                    <td class="trt-res-bib">25</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/7b634bd2-b55e-4edc-beaf-8b6576e794b5">Jouke Pricker</a><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">626.0</td></tr><tr><td class="trt-res-rank">75</td><!--!-->
+                                    <td class="trt-res-bib">308</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/c5cb9f4c-16be-40c2-8d00-609457eb9c7c">Ewald Gouwenberg</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">628.0</td></tr><tr><td class="trt-res-rank">76</td><!--!-->
+                                    <td class="trt-res-bib">119</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/a1724b1e-dc9d-492a-bd17-b2c1c042b7b5">Eltjo Toutenhoofd</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">637.0</td></tr><tr><td class="trt-res-rank">77</td><!--!-->
+                                    <td class="trt-res-bib">147</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/89e4c74b-11fc-47ae-b23c-518eb1997cf4">Marco Moria</a><span class="trt-res-sail">NED710</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">642.0</td></tr><tr><td class="trt-res-rank">78</td><!--!-->
+                                    <td class="trt-res-bib">178</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/1f2dfe16-a6f2-44fd-b021-a26a45b7538e">Erik de Vries</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">645.0</td></tr><tr><td class="trt-res-rank">79</td><!--!-->
+                                    <td class="trt-res-bib">334</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/d984601c-da82-4ee5-a258-9e67743f9d6d">Dennis Littel</a><span class="trt-res-sail">NED13</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">668.0</td></tr><tr><td class="trt-res-rank">80</td><!--!-->
+                                    <td class="trt-res-bib">4</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/80dfc47c-2f55-41ac-9937-6e963b5eea1b">Kai Esselbrugge</a><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">690.0</td></tr><tr><td class="trt-res-rank">81</td><!--!-->
+                                    <td class="trt-res-bib">35</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/8e92fc69-f606-4cb0-996c-c770bdaef448">Marco Vermoen</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">691.0</td></tr><tr><td class="trt-res-rank">82</td><!--!-->
+                                    <td class="trt-res-bib">805</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ce6ddb55-c342-4bf2-afe0-e677f5acb571">Saar Schuling</a><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">695.0</td></tr><tr><td class="trt-res-rank">83</td><!--!-->
+                                    <td class="trt-res-bib">311</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/6b06e15f-f39f-4413-83f3-ab387c2dfaef">Rob de Jong</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">701.0</td></tr><tr><td class="trt-res-rank">84</td><!--!-->
+                                    <td class="trt-res-bib">137</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/9a97b954-2bcc-4120-bdb4-77e1278f80c2">Menno van den Berg</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">705.0</td></tr><tr><td class="trt-res-rank">85</td><!--!-->
+                                    <td class="trt-res-bib">106</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/f7b7ccec-1613-4285-b649-07089aa3944a">Michael Breit</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">708.0</td></tr><tr><td class="trt-res-rank">86</td><!--!-->
+                                    <td class="trt-res-bib">333</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/a207197d-da46-4c6d-a9fc-4362310469c1">Arjen Klinkenberg</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">710.0</td></tr><tr><td class="trt-res-rank">87</td><!--!-->
+                                    <td class="trt-res-bib">5</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/7c5beba0-ca56-46ce-b8e7-898d94c66ec7">Emily Legtenberg</a><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">714.0</td></tr><tr><td class="trt-res-rank">88*</td><!--!-->
+                                    <td class="trt-res-bib">33</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/76eb52e5-d5b7-4f4c-816d-e304bca83486">Arnold Talsma</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">717.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">125</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/acb3eed0-4ef6-4230-8691-6d6dd7d0868c">Linda ter Veld</a><span class="trt-res-sail">NED217</span><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">717.0</td></tr><tr><td class="trt-res-rank">89</td><!--!-->
+                                    <td class="trt-res-bib">313</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/33313b89-3626-40da-bac1-5108e0281380">Marcel Borst</a><span class="trt-res-sail">11</span><div class="trt-res-riderclass">LT Adults</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">719.0</td></tr><tr><td class="trt-res-rank">90</td><!--!-->
+                                    <td class="trt-res-bib">322</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/a56e7464-e511-4d0f-bce5-356e50e42d5e">Eric Kamminga</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">726.0</td></tr><tr><td class="trt-res-rank">91</td><!--!-->
+                                    <td class="trt-res-bib">505</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/04abedde-7c60-4349-9260-decdcdc5dfe9">John Vlasbloem</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">729.0</td></tr><tr><td class="trt-res-rank">92*</td><!--!-->
+                                    <td class="trt-res-bib">130</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/dd46f372-ee55-4c29-a194-44898127144f">Andreas Hron</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">503</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/4338f710-973a-4c27-9389-89c8d8774def">Anton Dona</a><div class="trt-res-riderclass">LT Adults</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">316</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e089285f-df72-428f-8c51-7dd983059e5e">Bas Kwee</a><span class="trt-res-sail">18</span><div class="trt-res-riderclass">LT Adults</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">7</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/6911a68e-f33d-42e1-a570-8588bc2dde1c">Berj Khassab</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">149</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/bca4d9d3-0043-491b-be98-a0908dc71e4e">Caren Niezen</a><span class="trt-res-sail">NED367</span><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">34</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/cf0b7ee3-9167-43c1-af86-db8b7d94b9d4">Carolien de Kort</a><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">115</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-be"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/883660a1-ba3a-4ec4-88d2-7daafef8c137">Dirk Wouters</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">301</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/b646daf9-4322-4881-be99-a95b858a82e3">Edwin Komdeur</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">43</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/84eeefef-d2fb-40e8-98d9-439cfc58d3d6">Fabiënne Hoogendam</a><span class="trt-res-sail">NED99</span><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">129</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/191623fa-7746-421f-bda1-09da24c56529">Floris Stam</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">11</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/6a89fdeb-c11d-45ea-bf67-1e0ed84d20b6">Friedbert Rogge</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">319</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/21380eb8-8fe6-4d88-8e4e-834bf2f0533a">Jean Paul Krijgsman</a><span class="trt-res-sail">NED5325</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">315</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/f3a44893-dd5a-439c-b334-304ca90c2b72">Koen Zweekhorst</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">108</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-be"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/59be22f4-11bc-4136-9a34-0b372bee20df">Kris Gielen</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">16</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/83fba4b4-8f4d-4cd4-8cba-c6e6e45bbcd0">Laura Moria</a><span class="trt-res-sail">NED209</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">305</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/d8245ec9-96ad-432c-a89f-9e67e033beae">Laurens Legtenberg</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">29</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/02155900-7627-45b3-83d9-c2e1a1c2ee70">Lennart van Marion</a><span class="trt-res-sail">NED17</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">112</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/ec87de61-8b90-4171-a78b-95df81d957dc">Maarten Oussoren</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">300</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e61e74c4-ccb8-4b06-ba04-9a670801575c">Marcel Prymka</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">502</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/49579e65-e34a-41cf-86ee-4b3613150ab4">Martin Roos</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">117</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/7db79356-b5f0-4441-b611-87abd3d9666e">Maurits van Tinteren</a><span class="trt-res-sail">NED183</span><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">317</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/31048598-3277-4c52-9668-0d8906ab8b63">Merijn Kegel</a><span class="trt-res-sail">NED511</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">23</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/f968eff4-4279-4475-8098-8485caad2e75">Michiel de Zeeuw</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">134</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/73da97c5-3033-4ec9-977d-d8c37c67897d">Niels Meima</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">501</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/4a78b635-e360-420f-919b-52ea0771e927">Oeds Wiersma</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">109</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e839b284-6d63-4cbb-89f3-800afdc358bc">René Simons</a><span class="trt-res-sail">NED3003</span><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">142</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/694bceb6-2084-4067-a5f3-ab9cef6ca4f4">Robert Moosdorf</a><div class="trt-res-riderclass">Fin Adults men</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">163</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/cd389525-a553-43ab-b268-0fa528fbd0f0">Roel Vaessen</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">148</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/744b837f-6993-4ce7-83c2-3221bbac0123">Stephan Scherf</a><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">321</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-de"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/1ab85969-4f0a-476c-8ba6-8423584ca5c0">Thomas Blanke</a><span class="trt-res-sail">GER3366</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">118</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/56a84b3e-be4a-43e8-891f-be13feaaf031">Wessel Miezenbeek</a><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">506</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-be"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/e213328d-2a75-46d3-b1a9-026817a7efb2">Willem Gilissen</a><span class="trt-res-sail">1445</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib">122</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/b327b2d0-c1b0-4d6b-8365-a54796f11a90">Yfke van der Meer</a><span class="trt-res-sail">NED252</span><div class="trt-res-riderclass">Fin Adults women</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−131.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">786.0</td></tr><tr><td class="trt-res-rank">93</td><!--!-->
+                                    <td class="trt-res-bib">51</td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/fdada9f8-2ffd-4a5f-8760-673879020ab3">Jonathan Klok</a><span class="trt-res-sail">NED204</span><div class="trt-res-riderclass">Fin Youth (13-17) long course</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">787.0</td></tr><tr><td class="trt-res-rank">94*</td><!--!-->
+                                    <td class="trt-res-bib"></td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/403d7c85-259c-4779-8f33-8b33ce79f84d">Geert Beek van</a><span class="trt-res-sail">NED525</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">792.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib"></td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/2910fcde-08e0-4ffc-8e3e-1a5f1f917abc">Maksym Shytikov</a><span class="trt-res-sail">NED507</span><div class="trt-res-riderclass">Fin Profleet</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">792.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib"></td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/eb0f25ae-bed3-4270-9b8e-bef28b445abc">Marc Fokkinga</a><span class="trt-res-sail">NED2411</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">792.0</td></tr><tr><td class="trt-res-rank"></td><!--!-->
+                                    <td class="trt-res-bib"></td><!--!-->
+                                    <td class="trt-res-flag"><span class="fi fi-nl"></span></td><!--!-->
+                                    <td class="trt-res-name"><a class="trt-res-namelink" href="https://therealtrip.nl/en/result/359/-201/785604cb-2063-412b-b164-55e80096a60e">Nico Wierstra</a><span class="trt-res-sail">NED81</span><div class="trt-res-riderclass">Fin Master</div></td><!--!-->
+                                    <td class="trt-res-num">7</td><!--!-->
+                                    <td class="trt-res-num trt-res-disc">−132.0</td><!--!-->
+                                    <td class="trt-res-num trt-res-net">792.0</td></tr></tbody></table></div></div></section><!--!-->
+
+<!--!--><style>
+    .trt-res-eventtitle {
+        font-size:1.5rem; font-weight:800; letter-spacing:.01em; margin:0 0 1rem;
+        color:var(--theme-primary,#008C67); text-transform:uppercase;
+    }
+    /* Class picker as selectable cards */
+    .trt-res-classes { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.2rem; }
+    .trt-res-class {
+        border:1px solid var(--trt-border); background:var(--trt-surface,#fff); color:var(--trt-body);
+        border-radius:10px; padding:.55rem 1rem; font-size:.9rem; font-weight:700; cursor:pointer;
+        transition:all .12s ease; white-space:nowrap;
+    }
+    .trt-res-class:hover { border-color:var(--theme-primary,#008C67); color:var(--theme-primary,#008C67); }
+    .trt-res-class.is-active {
+        background:var(--theme-primary,#008C67); border-color:var(--theme-primary,#008C67); color:#fff;
+        box-shadow:0 3px 10px rgba(0,140,103,.3);
+    }
+    /* Special-prize (AWARD) class tabs → orange, distinct from the green race classes. */
+    .trt-res-class.is-award { border-color:#e0821e; color:#e0821e; }
+    .trt-res-class.is-award:hover { border-color:#c26e15; color:#c26e15; }
+    .trt-res-class.is-award.is-active {
+        background:#e0821e; border-color:#e0821e; color:#fff;
+        box-shadow:0 3px 10px rgba(224,130,30,.3);
+    }
+    /* Event overall per competitiongroup ("baan") → blue, distinct from green + orange. */
+    .trt-res-class.is-overall { border-color:#2f6fed; color:#2f6fed; }
+    .trt-res-class.is-overall:hover { border-color:#1d4ed8; color:#1d4ed8; }
+    .trt-res-class.is-overall.is-active {
+        background:#2f6fed; border-color:#2f6fed; color:#fff;
+        box-shadow:0 3px 10px rgba(47,111,237,.3);
+    }
+    .trt-res-prelim { display:inline-block; margin-bottom:.8rem; font-size:.72rem; font-weight:800; text-transform:uppercase;
+        letter-spacing:.05em; color:#b45309; background:#fef3c7; border-radius:6px; padding:.2rem .6rem; }
+    .trt-res-tablewrap { overflow-x:auto; border:1px solid var(--trt-border); border-radius:12px; background:var(--trt-surface,#fff); }
+    .trt-res-table { width:100%; border-collapse:collapse; font-size:.92rem; }
+    .trt-res-table th { text-align:left; font-size:.7rem; text-transform:uppercase; letter-spacing:.04em;
+        color:var(--trt-muted); font-weight:700; padding:.6rem .7rem; border-bottom:2px solid var(--trt-border); white-space:nowrap; }
+    .trt-res-table td { padding:.5rem .7rem; border-bottom:1px solid var(--trt-border); white-space:nowrap; }
+    .trt-res-table tr:last-child td { border-bottom:none; }
+    .trt-res-table tbody tr:nth-child(even) { background:rgba(0,0,0,.02); }
+    .trt-res-rank { width:3.2rem; font-weight:800; color:var(--theme-primary); font-variant-numeric:tabular-nums; }
+    .trt-res-bib { font-variant-numeric:tabular-nums; color:var(--trt-body); }
+    .trt-res-flag { width:1.6rem; text-align:center; }
+    .trt-res-flag .fi { border-radius:3px; }
+    .trt-res-name { width:100%; font-weight:600; white-space:normal; }
+    .trt-res-namelink { color:inherit; text-decoration:none; border-bottom:1px dotted var(--trt-muted); }
+    .trt-res-namelink:hover { color:var(--theme-primary,#008C67); border-bottom-color:var(--theme-primary,#008C67); }
+    .trt-res-sail { margin-left:.4rem; font-weight:400; font-size:.82em; color:var(--trt-muted); }
+    .trt-res-riderclass { margin-top:.1rem; font-weight:600; font-size:.72rem; color:var(--trt-muted); }
+    .trt-res-num { text-align:right; font-variant-numeric:tabular-nums; color:var(--trt-muted); }
+    .trt-res-disc { color:#b91c1c; }
+    .trt-res-net { color:var(--trt-body); font-weight:800; }
+    .trt-res-award { text-align:right; font-weight:800; color:var(--theme-primary,#008C67); white-space:normal; }
+    .trt-award-photo { margin-top:1rem; }
+    .trt-award-photo img {
+        max-width:100%; max-height:520px; border-radius:12px; display:block;
+        border:1px solid var(--trt-border); box-shadow:0 4px 14px rgba(0,0,0,.08);
+    }
+
+    /* Class bar + detailed toggle. Toggle stays pinned top-right, even when classes wrap. */
+    .trt-res-classbar { display:flex; align-items:flex-start; gap:1rem; flex-wrap:nowrap; margin-bottom:1.2rem; }
+    .trt-res-classbar .trt-res-classes { flex:1 1 auto; margin-bottom:0; }
+    /* Amber tint → visually a mode switch, distinct from the green class chips. */
+    .trt-res-toggle {
+        flex:0 0 auto; margin-left:auto; align-self:flex-start;
+        border:1px solid #d1a03a; background:transparent; color:#d1a03a;
+        border-radius:10px; padding:.5rem 1rem; font-size:.85rem; font-weight:700; cursor:pointer; white-space:nowrap;
+    }
+    .trt-res-toggle:hover { background:rgba(209,160,58,.12); }
+    .trt-res-toggle.is-on { background:#d1a03a; color:#1a1a1a; border-color:#d1a03a; }
+
+    /* Detailed per-race matrix. Breaks out of the ~960px container to use the screen
+       width (capped, centered); wider content still scrolls horizontally. */
+    .trt-resd-wrap {
+        overflow-x:auto; border:1px solid var(--trt-border); border-radius:12px; background:var(--trt-surface,#fff);
+        width:min(94vw,1700px); margin-left:50%; transform:translateX(-50%);
+    }
+    .trt-resd { border-collapse:collapse; font-size:.86rem; width:100%; }
+    .trt-resd th, .trt-resd td { padding:.45rem .5rem; border-bottom:1px solid var(--trt-border); white-space:nowrap; text-align:right; }
+    /* Race columns are tighter so more of them fit before scrolling. */
+    .trt-resd-race, .trt-resd-cell { padding-left:.35rem; padding-right:.35rem; }
+    .trt-resd tbody tr:last-child td { border-bottom:none; }
+    .trt-resd tbody tr:nth-child(even) { background:rgba(0,0,0,.02); }
+    .trt-resd-head th { font-size:.68rem; text-transform:uppercase; letter-spacing:.03em; color:var(--trt-muted); font-weight:700; border-bottom:2px solid var(--trt-border); }
+    .trt-resd-rank, .trt-resd-bib { text-align:right; font-variant-numeric:tabular-nums; }
+    .trt-resd-rank { font-weight:800; color:var(--theme-primary); }
+    /* Name left-aligned (override the table-wide right default). */
+    .trt-resd th.trt-resd-name, .trt-resd td.trt-resd-name { text-align:left; font-weight:600; }
+    .trt-resd-race { text-align:right; }
+    .trt-resd-num { text-align:right; font-variant-numeric:tabular-nums; color:var(--trt-muted); }
+    /* Date bar spanning the race columns — quiet grouping cue, not a loud fill. */
+    .trt-resd-daterow th { border-bottom:1px solid var(--trt-border); padding:.28rem .55rem; }
+    .trt-resd-lead { border:none !important; }
+    .trt-resd-datebar {
+        text-align:center; font-size:.66rem; font-weight:700; letter-spacing:.04em;
+        color:var(--trt-muted); background:rgba(0,0,0,.03);
+        border-bottom:2px solid rgba(0,140,103,.35) !important;
+    }
+    /* NETTO stays the most prominent column. */
+    .trt-resd th.trt-res-net, .trt-resd td.trt-res-net {
+        color:var(--theme-primary,#008C67); font-weight:800;
+        background:rgba(0,140,103,.06); border-left:1px solid var(--trt-border);
+    }
+    .trt-resd td.trt-res-net { font-size:1.02em; }
+    .trt-resd-cell { font-variant-numeric:tabular-nums; color:var(--trt-body); }
+    .trt-resd-cell.is-disc { text-decoration:line-through; opacity:.5; }
+    .trt-resd-rc { color:#b91c1c; font-weight:700; }
+    .trt-resd-none { color:var(--trt-muted); opacity:.5; }
+</style></main><!--!-->
+
+    <footer class="trt-footer"><div class="trt-footer__social"><a href="https://www.tiktok.com/@therealtrip_26" target="_blank" rel="noopener"><img src="./Results — The Real Trip_files/social-tiktok-green.png" width="24" height="24" alt="TikTok" style="display:block;border:0;"></a><a href="https://www.instagram.com/therealtripsurf" target="_blank" rel="noopener"><img src="./Results — The Real Trip_files/social-instagram-green.png" width="24" height="24" alt="Instagram" style="display:block;border:0;"></a><a href="https://www.facebook.com/TheRealTrip" target="_blank" rel="noopener"><img src="./Results — The Real Trip_files/social-facebook-green.png" width="24" height="24" alt="Facebook" style="display:block;border:0;"></a><a href="https://www.youtube.com/@TheRealTripSurf" target="_blank" rel="noopener"><img src="./Results — The Real Trip_files/social-youtube-green.png" width="24" height="24" alt="YouTube" style="display:block;border:0;"></a><a href="https://www.flickr.com/photos/therealtrip" target="_blank" rel="noopener"><img src="./Results — The Real Trip_files/social-flickr-green.png" width="24" height="24" alt="Flickr" style="display:block;border:0;"></a></div><!--!-->
+        <div><!--!-->
+            © 2026<!--!--> The Real Trip &nbsp;·&nbsp;
+            <!--!--><a href="mailto:info@therealtrip.nl">info@therealtrip.nl</a>&nbsp;·&nbsp;
+            <a href="https://therealtrip.nl/en/privacy">Privacy</a><!--!-->&nbsp;·&nbsp;
+            powered by <!--!--><a href="https://connectropy.net/">Connectropy bv</a></div></footer></div><!--!-->
+        <!--!-->
+    </app>
+
+    <div id="blazor-error-ui">
+        Er is iets misgegaan.
+        <a href="https://therealtrip.nl/">Herladen</a>
+        <a class="dismiss">✕</a>
+    </div>
+
+    <!-- Shown while the server is briefly unavailable (e.g. a deploy). We wait for it to
+         come back and reload automatically, so visitors never see the raw IIS 503. -->
+    <div id="trt-reconnect-overlay">
+        <div class="trt-reconnect-box">
+            <div class="trt-reconnect-spinner"></div>
+            <div class="trt-reconnect-title">Even geduld…</div>
+            <div class="trt-reconnect-sub">De site wordt bijgewerkt. Je wordt automatisch teruggezet.</div>
+        </div>
+    </div>
+    <style>
+        #trt-reconnect-overlay { display:none; position:fixed; inset:0; z-index:2000;
+            background:rgba(8,20,16,.92); color:#fff; align-items:center; justify-content:center; text-align:center; }
+        #trt-reconnect-overlay.is-on { display:flex; }
+        .trt-reconnect-box { max-width:340px; padding:1.5rem; }
+        .trt-reconnect-spinner { width:44px; height:44px; margin:0 auto 1rem; border-radius:50%;
+            border:4px solid rgba(255,255,255,.25); border-top-color:#3D8867; animation:trtSpin 1s linear infinite; }
+        .trt-reconnect-title { font-size:1.15rem; font-weight:800; margin-bottom:.35rem; }
+        .trt-reconnect-sub { font-size:.9rem; opacity:.8; }
+        @keyframes trtSpin { to { transform:rotate(360deg); } }
+    </style>
+
+    <script src="./Results — The Real Trip_files/leaflet.min.js.download"></script>
+    <script src="./Results — The Real Trip_files/leaflet.markercluster.js.download"></script>
+    <script src="./Results — The Real Trip_files/public-map.js.download"></script>
+    <script src="./Results — The Real Trip_files/html2canvas.min.js.download"></script>
+    <script>
+        // Return the index of the first LANDSCAPE image (naturalWidth > naturalHeight),
+        // or -1 when none. Used to auto-pick the card photo.
+        window.trtFirstLandscape = function (urls) {
+            return new Promise(function (resolve) {
+                if (!urls || !urls.length) { resolve(-1); return; }
+                var land = new Array(urls.length).fill(false), done = 0;
+                function finish() { for (var i = 0; i < land.length; i++) { if (land[i]) { resolve(i); return; } } resolve(-1); }
+                urls.forEach(function (u, idx) {
+                    var im = new Image();
+                    im.onload = function () { land[idx] = im.naturalWidth > im.naturalHeight; if (++done === urls.length) finish(); };
+                    im.onerror = function () { if (++done === urls.length) finish(); };
+                    im.src = u;
+                });
+            });
+        };
+        // Rasterise the off-screen results card and share it as a PNG file (native share on
+        // mobile → WhatsApp/Instagram/etc.), falling back to a download on desktop.
+        async function trtCardBlob(elementId) {
+            var el = document.getElementById(elementId);
+            if (!el || typeof html2canvas === 'undefined') return null;
+            var canvas = await html2canvas(el, { scale: 2, useCORS: true, backgroundColor: '#0E3B2E', logging: false });
+            return await new Promise(function (resolve) { canvas.toBlob(function (b) { resolve(b); }, 'image/jpeg', 0.9); });
+        }
+        function trtDownloadBlob(blob, filename) {
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a'); a.href = url; a.download = filename;
+            document.body.appendChild(a); a.click(); a.remove();
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+        }
+        // Share via the native OS sheet (mobile), falling back to a download when files aren't shareable.
+        window.trtShareCard = async function (elementId, filename) {
+            var blob = await trtCardBlob(elementId); if (!blob) return;
+            var file = new File([blob], filename, { type: 'image/jpeg' });
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                try { await navigator.share({ files: [file] }); return; } catch (e) { }
+            }
+            trtDownloadBlob(blob, filename);
+        };
+        // Always download the image.
+        window.trtDownloadCard = async function (elementId, filename) {
+            var blob = await trtCardBlob(elementId); if (!blob) return;
+            trtDownloadBlob(blob, filename);
+        };
+    </script>
+    <script src="./Results — The Real Trip_files/blazor.server.js.download" autostart="false"></script>
+    <script>
+        // Blazor Server keeps a live SignalR circuit per visitor. On mobile the browser
+        // freezes background tabs, so the socket drops and — once the server has discarded
+        // the circuit — reconnecting can't resume. Instead of leaving the user with dead
+        // links, we retry a few times and then do a full page reload to get a fresh circuit.
+        (function () {
+            var connected = true;
+            var looping = false;
+            var waiting = false;
+
+            // Poll the health endpoint until the server is back, THEN reload — so a deploy
+            // (app-pool recycle → IIS 503) is invisible: visitors see a friendly overlay and
+            // are put back on a fresh page the moment the site is up again, never the raw 503.
+            async function waitForServerThenReload() {
+                if (waiting) return;
+                waiting = true;
+                var ov = document.getElementById('trt-reconnect-overlay');
+                if (ov) ov.classList.add('is-on');
+                for (;;) {
+                    try {
+                        var r = await fetch('/health?_=' + Date.now(), { cache: 'no-store' });
+                        if (r && r.ok) { location.reload(); return; }
+                    } catch (e) { /* server still down — keep waiting */ }
+                    await new Promise(function (r) { setTimeout(r, 1500); });
+                }
+            }
+
+            async function reconnectLoop() {
+                if (looping) return;
+                looping = true;
+                for (var i = 0; i < 8; i++) {
+                    await new Promise(function (r) { setTimeout(r, 2000); });
+                    var ok = false;
+                    try { ok = await Blazor.reconnect(); } catch (e) { ok = false; }
+                    if (ok === true) { connected = true; looping = false; return; }   // resumed
+                    if (ok === false) break;                                           // circuit gone
+                }
+                looping = false;
+                waitForServerThenReload();   // wait for the server, then fresh circuit
+            }
+
+            var reconnectionHandler = {
+                onConnectionDown: function () { connected = false; reconnectLoop(); },
+                onConnectionUp: function () { connected = true; looping = false; }
+            };
+
+            // Coming back to a frozen tab (mobile): if we're down, try to recover immediately.
+            document.addEventListener("visibilitychange", function () {
+                if (document.visibilityState === "visible" && !connected) reconnectLoop();
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+                Blazor.start({
+                    reconnectionHandler: reconnectionHandler,
+                    reconnectionOptions: { maxRetries: 8, retryIntervalMilliseconds: 2000 }
+                });
+            });
+        })();
+    </script>
+
+    <!-- Cookie-consent banner. Drives Google Consent Mode v2; hidden once a choice is stored. -->
+    <div id="trt-consent" style="position: fixed; left: 1rem; right: 1rem; bottom: 1rem; z-index: 2000; max-width: 640px; margin: 0px auto; background: rgb(14, 59, 46); color: rgb(255, 255, 255); border-radius: 12px; padding: 1rem 1.15rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 24px; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center;">
+        <span id="trt-consent-msg" style="flex:1;min-width:220px;font-size:.9rem;line-height:1.4;">We use cookies for analytics and marketing. Choose what you allow.</span>
+        <button id="trt-consent-reject" type="button" style="background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5);font-weight:700;
+                       border-radius:9px;padding:.5rem 1rem;cursor:pointer;">Reject</button>
+        <button id="trt-consent-accept" type="button" style="background:#e07b00;color:#fff;border:0;font-weight:800;border-radius:9px;
+                       padding:.5rem 1.15rem;cursor:pointer;">Accept</button>
+        <a id="trt-consent-link" style="flex-basis:100%;color:#cbe8dd;font-size:.8rem;text-decoration:underline;" href="https://therealtrip.nl/en/privacy">Privacy &amp; cookie statement</a>
+    </div>
+    <script>
+        (function () {
+            var el = document.getElementById('trt-consent');
+            // Localise from the URL's first path segment (nl default).
+            var seg = (location.pathname.split('/')[1] || '').toLowerCase();
+            var lang = seg === 'en' ? 'en' : seg === 'de' ? 'de' : 'nl';
+            var txt = {
+                nl: { m: 'We gebruiken cookies voor statistieken en marketing. Kies zelf wat je toestaat.', a: 'Accepteren', r: 'Weigeren', p: 'Privacy- en cookieverklaring', u: '/privacy' },
+                en: { m: 'We use cookies for analytics and marketing. Choose what you allow.', a: 'Accept', r: 'Reject', p: 'Privacy & cookie statement', u: '/en/privacy' },
+                de: { m: 'Wir nutzen Cookies für Statistik und Marketing. Wähle, was du erlaubst.', a: 'Akzeptieren', r: 'Ablehnen', p: 'Datenschutz- und Cookie-Erklärung', u: '/de/datenschutz' }
+            }[lang];
+            document.getElementById('trt-consent-msg').textContent = txt.m;
+            document.getElementById('trt-consent-accept').textContent = txt.a;
+            document.getElementById('trt-consent-reject').textContent = txt.r;
+            var lnk = document.getElementById('trt-consent-link');
+            lnk.textContent = txt.p; lnk.href = txt.u;
+            var stored = null;
+            try { stored = localStorage.getItem('trt-consent'); } catch (e) { }
+            if (!stored) el.style.display = 'flex';
+            function choose(v) {
+                try { localStorage.setItem('trt-consent', v); } catch (e) { }
+                gtag('consent', 'update', {
+                    ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v
+                });
+                dataLayer.push({ event: v === 'granted' ? 'consent_accept' : 'consent_reject' });
+                el.style.display = 'none';
+            }
+            document.getElementById('trt-consent-accept').addEventListener('click', function () { choose('granted'); });
+            document.getElementById('trt-consent-reject').addEventListener('click', function () { choose('denied'); });
+        })();
+    </script>
+
+
+</body></html>

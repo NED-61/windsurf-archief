@@ -1,0 +1,434 @@
+{
+ "schema_version": 1,
+ "id": "nk-2021-slalom-heren",
+ "event": {
+  "name": "NK Slalom 2021",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2021,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": "men",
+  "class": "Heren",
+  "windtulip_regatta": "NK Slalom 2021"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 2,
+  "discards": [
+   0
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/152/total_results/",
+  "type": "web",
+  "file": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-152-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "15 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [0]; rangschikking oplopend op netto; 2 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort.",
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC of DNF in alle heats en finales tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jordy-vonk",
+   "sail": "NED-69",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    0.0,
+    0.0
+   ],
+   "discarded": [],
+   "total": 0.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED-191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    4.0,
+    2.0
+   ],
+   "discarded": [],
+   "total": 6.0,
+   "net": 6.0
+  },
+  {
+   "rank": 3,
+   "person": "ennio-dal-pont",
+   "sail": "ITA-465",
+   "name": "Ennio Dal Pont",
+   "nationality": "ITA",
+   "division": "open men",
+   "points": [
+    2.0,
+    4.0
+   ],
+   "discarded": [],
+   "total": 6.0,
+   "net": 6.0
+  },
+  {
+   "rank": 4,
+   "person": "jakob-kooij",
+   "sail": "NED-99",
+   "name": "Jakob Kooij",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    5.0,
+    3.0
+   ],
+   "discarded": [],
+   "total": 8.0,
+   "net": 8.0
+  },
+  {
+   "rank": 5,
+   "person": "thomas-van-den-heuvel",
+   "sail": "NED-246",
+   "name": "Thomas van den Heuvel",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    3.0,
+    8.0
+   ],
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 6,
+   "person": "martijn-van-noord",
+   "sail": "NED-703",
+   "name": "Martijn van Noord",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    6.0,
+    7.0
+   ],
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 7,
+   "person": "adri-keet",
+   "sail": "NED-34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    10.0,
+    5.0
+   ],
+   "discarded": [],
+   "total": 15.0,
+   "net": 15.0
+  },
+  {
+   "rank": 8,
+   "person": "bas-mulder",
+   "sail": "NED-92",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    11.0,
+    6.0
+   ],
+   "discarded": [],
+   "total": 17.0,
+   "net": 17.0
+  },
+  {
+   "rank": 9,
+   "person": "pieter-eliens",
+   "sail": "NED-538",
+   "name": "Peter Eliens",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    8.0,
+    9.0
+   ],
+   "discarded": [],
+   "total": 17.0,
+   "net": 17.0
+  },
+  {
+   "rank": 10,
+   "person": "remco-hoekstra",
+   "sail": "NED-267",
+   "name": "Remco Hoekstra",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    7.0,
+    11.0
+   ],
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 11,
+   "person": "aart-jan-van-zadelhoff",
+   "sail": "NED-416",
+   "name": "Aart-Jan van Zadelhof",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    9.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 19.0,
+   "net": 19.0
+  },
+  {
+   "rank": 12,
+   "person": "peter-mulder",
+   "sail": "NED-95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    12.0,
+    15.0
+   ],
+   "discarded": [],
+   "total": 27.0,
+   "net": 27.0
+  },
+  {
+   "rank": 13,
+   "person": null,
+   "sail": "NED-100",
+   "name": "Marc de Jong",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    15.0,
+    15.0
+   ],
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0,
+   "counted": false
+  },
+  {
+   "rank": 13,
+   "person": null,
+   "sail": "NED-199",
+   "name": "Vincent Jansen",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    15.0,
+    15.0
+   ],
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0,
+   "counted": false
+  },
+  {
+   "rank": 13,
+   "person": null,
+   "sail": "NED-101",
+   "name": "David van den Toorn",
+   "nationality": "NED",
+   "division": "open men",
+   "points": [
+    15.0,
+    15.0
+   ],
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0,
+   "counted": false
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/152/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 4,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 5,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 6,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 7,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 8,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 9,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 10,
+       "person": "adri-keet"
+      },
+      {
+       "rank": 11,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 12,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 15,
+       "person": null,
+       "remark": "DNF",
+       "name": "David van den Toorn"
+      },
+      {
+       "rank": 15,
+       "person": null,
+       "remark": "DNF",
+       "name": "Vincent Jansen"
+      },
+      {
+       "rank": 15,
+       "person": null,
+       "remark": "DNF",
+       "name": "Marc de Jong"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/152/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 4,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 5,
+       "person": "adri-keet"
+      },
+      {
+       "rank": 6,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 7,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 8,
+       "person": "thomas-van-den-heuvel"
+      },
+      {
+       "rank": 9,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 10,
+       "person": "aart-jan-van-zadelhoff"
+      },
+      {
+       "rank": 11,
+       "person": "remco-hoekstra"
+      },
+      {
+       "rank": 15,
+       "person": null,
+       "remark": "DNF",
+       "name": "David van den Toorn"
+      },
+      {
+       "rank": 15,
+       "person": "peter-mulder",
+       "remark": "DNF"
+      },
+      {
+       "rank": 15,
+       "person": null,
+       "remark": "DNF",
+       "name": "Vincent Jansen"
+      },
+      {
+       "rank": 15,
+       "person": null,
+       "remark": "DNF",
+       "name": "Marc de Jong"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

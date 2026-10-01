@@ -1,0 +1,1180 @@
+{
+ "schema_version": 1,
+ "id": "nk-2017-slalom-dames",
+ "event": {
+  "name": "NK Slalom 2017",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2017,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": "women",
+  "class": "NK Slalom 2017 - Vrouwen",
+  "windtulip_regatta": "NK 2017"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 20,
+  "discards": [
+   3
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.7; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/14/total_results/",
+  "type": "web",
+  "file": "archive/nl/2017/nk-slalom-2017/bronnen/windtulip-14-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "7 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [3]; rangschikking oplopend op netto; 20 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.7): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "esther-de-geus",
+   "sail": "Ned 16",
+   "name": "Esther de Geus",
+   "nationality": null,
+   "division": null,
+   "points": [
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    2.0,
+    0.7,
+    0.7,
+    0.7,
+    7.0,
+    3.0,
+    0.7,
+    7.0,
+    0.7,
+    0.7,
+    0.7,
+    2.0,
+    0.7,
+    0.7,
+    3.0,
+    0.7
+   ],
+   "discarded": [
+    9,
+    12,
+    19
+   ],
+   "total": 33.8,
+   "net": 16.8
+  },
+  {
+   "rank": 2,
+   "person": "andrea-vanhoorne",
+   "sail": "Bel 26",
+   "name": "Andrea Vanhoorne",
+   "nationality": null,
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    3.0,
+    0.7,
+    2.0,
+    2.0,
+    3.0,
+    0.7,
+    2.0,
+    3.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0,
+    0.7,
+    2.0,
+    3.0,
+    0.7,
+    2.0
+   ],
+   "discarded": [
+    14,
+    15,
+    18
+   ],
+   "total": 41.8,
+   "net": 32.8
+  },
+  {
+   "rank": 3,
+   "person": "nimet-tulumen",
+   "sail": "Tur 753",
+   "name": "Nimet Tulumen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    3.0,
+    3.0,
+    4.0,
+    2.0,
+    2.0,
+    0.7,
+    2.0,
+    0.7,
+    2.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    2.0,
+    2.0,
+    3.0
+   ],
+   "discarded": [
+    7,
+    17,
+    20
+   ],
+   "total": 47.4,
+   "net": 37.4
+  },
+  {
+   "rank": 4,
+   "person": "iris-gimpel",
+   "sail": "Ned 7",
+   "name": "Iris Gimpel",
+   "nationality": null,
+   "division": null,
+   "points": [
+    5.0,
+    7.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    7.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    7.0
+   ],
+   "discarded": [
+    2,
+    14,
+    20
+   ],
+   "total": 90.0,
+   "net": 69.0
+  },
+  {
+   "rank": 5,
+   "person": "fabienne-hoogendam",
+   "sail": "NED-223",
+   "name": "Fabienne Hoogendam",
+   "nationality": null,
+   "division": null,
+   "points": [
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    3.0,
+    7.0,
+    5.0,
+    3.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ],
+   "discarded": [
+    18,
+    19,
+    20
+   ],
+   "total": 130.0,
+   "net": 109.0
+  },
+  {
+   "rank": 6,
+   "person": "romy-anne-reenders",
+   "sail": "Ned 190",
+   "name": "Romy-Anne Reenders",
+   "nationality": null,
+   "division": null,
+   "points": [
+    4.0,
+    7.0,
+    4.0,
+    5.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ],
+   "discarded": [
+    18,
+    19,
+    20
+   ],
+   "total": 132.0,
+   "net": 111.0
+  },
+  {
+   "rank": 7,
+   "person": "femke-van-der-veen",
+   "sail": "Ned 2251",
+   "name": "Femke van der Veen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    6.0,
+    4.0,
+    6.0,
+    6.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+   ],
+   "discarded": [
+    18,
+    19,
+    20
+   ],
+   "total": 134.0,
+   "net": 113.0
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/14/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 4,
+       "person": "romy-anne-reenders"
+      },
+      {
+       "rank": 5,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 6,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/14/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 4,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "iris-gimpel",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/14/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 4,
+       "person": "romy-anne-reenders"
+      },
+      {
+       "rank": 5,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 6,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "url": "https://windtulip.nl/home/results_dashboard/14/4/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 5,
+       "person": "romy-anne-reenders"
+      },
+      {
+       "rank": 6,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "url": "https://windtulip.nl/home/results_dashboard/14/5/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 2,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "url": "https://windtulip.nl/home/results_dashboard/14/6/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "url": "https://windtulip.nl/home/results_dashboard/14/7/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 4,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "url": "https://windtulip.nl/home/results_dashboard/14/8/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "url": "https://windtulip.nl/home/results_dashboard/14/9/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "esther-de-geus",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "url": "https://windtulip.nl/home/results_dashboard/14/10/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "url": "https://windtulip.nl/home/results_dashboard/14/11/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 5,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "url": "https://windtulip.nl/home/results_dashboard/14/12/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "esther-de-geus",
+       "remark": "OCS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "url": "https://windtulip.nl/home/results_dashboard/14/13/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "url": "https://windtulip.nl/home/results_dashboard/14/14/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "iris-gimpel",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "url": "https://windtulip.nl/home/results_dashboard/14/15/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "url": "https://windtulip.nl/home/results_dashboard/14/16/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 2,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "url": "https://windtulip.nl/home/results_dashboard/14/17/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "url": "https://windtulip.nl/home/results_dashboard/14/18/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "url": "https://windtulip.nl/home/results_dashboard/14/19/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 2,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 3,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 4,
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "url": "https://windtulip.nl/home/results_dashboard/14/20/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "nimet-tulumen"
+      },
+      {
+       "rank": 7,
+       "person": "romy-anne-reenders",
+       "remark": "DNC"
+      },
+      {
+       "rank": 7,
+       "person": "fabienne-hoogendam",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "femke-van-der-veen",
+       "remark": "DNS"
+      },
+      {
+       "rank": 7,
+       "person": "iris-gimpel",
+       "remark": "DNS"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

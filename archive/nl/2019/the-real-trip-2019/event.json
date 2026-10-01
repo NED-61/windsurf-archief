@@ -1,0 +1,39 @@
+{
+ "event_slug": "the-real-trip-2019",
+ "scope": "nl",
+ "name": "The Real Trip 2019",
+ "series": "The Real Trip",
+ "year": 2019,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": "Makkum",
+ "discipline": "long_distance",
+ "classes": [
+  "the-real-trip-2019-long-distance-youth-15-17-jongens",
+  "the-real-trip-2019-long-distance-youth-15-17-meisjes",
+  "the-real-trip-2019-long-distance-pro-fleet-heren",
+  "the-real-trip-2019-long-distance-masters-heren",
+  "the-real-trip-2019-long-distance-senioren-dames",
+  "the-real-trip-2019-long-distance-masters-dames",
+  "the-real-trip-2019-short-course-kids-14-jongens-a",
+  "the-real-trip-2019-short-course-kids-14-meisjes-a",
+  "the-real-trip-2019-long-distance-senioren-heren",
+  "the-real-trip-2019-short-course-kids-14-jongens-b",
+  "the-real-trip-2019-short-course-kids-14-meisjes-b",
+  "the-real-trip-2019-long-distance-pro-fleet-dames"
+ ],
+ "metadata_sources": [
+  {
+   "name": "PSR-live via de Wayback Machine (eventid 1023)",
+   "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=51",
+   "used_for": "uitslagen per klasse; datum van de editie staat niet in de bron"
+  }
+ ],
+ "notes": [
+  "The Real Trip is een long-distance funrace in Makkum (sinds 1995, volgens therealtrip.nl). Per fleet worden meerdere races gevaren en per categorie geklasseerd; kids varen hun eigen races op een korte baan.",
+  "Datum van de editie niet gevonden in de bronnen; niet ingevuld.",
+  "Fleets en categorieën: zie per uitslag event.fleet, event.equipment en event.class."
+ ]
+}

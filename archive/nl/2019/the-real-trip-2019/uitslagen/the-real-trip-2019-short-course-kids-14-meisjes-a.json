@@ -1,0 +1,121 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2019-short-course-kids-14-meisjes-a",
+ "event": {
+  "name": "The Real Trip 2019",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2019,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Makkum",
+  "discipline": "short_course",
+  "gender": "women",
+  "class": "Kids -14 meisjes A",
+  "class_label_published": "KIDS -14 YEARS GIRLS A",
+  "fleet": "Kids groep A",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "K01",
+   "K02",
+   "K03",
+   "K04",
+   "K05",
+   "K06",
+   "K07",
+   "K08",
+   "K09",
+   "K10",
+   "K11"
+  ],
+  "discards": 2,
+  "scoring_system": "Low Point: punten = plaats in de race",
+  "fleet": "Kids groep A"
+ },
+ "source": {
+  "name": "PSR-live: THE REAL TRIP 2019 // KIDS -14 YEARS GIRLS A",
+  "publisher": "PSR-live (admin.psr.nl), via de Wayback Machine",
+  "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=50",
+  "file": "archive/nl/2019/the-real-trip-2019/bronnen/psr-1023-class50-wayback-20191113195637.html",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "Telerik PivotGrid uit de html gelezen (rijkoppen met rowspan voor gedeelde plaatsen)",
+  "metadata_sources": [
+   {
+    "name": "PSR-live via de Wayback Machine (eventid 1023)",
+    "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=51",
+    "used_for": "uitslagen per klasse; datum van de editie staat niet in de bron"
+   }
+  ],
+  "verified": "2 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: PSR-live, klasse 50 van eventid 1023, gearchiveerd door de Wayback Machine op 13 november 2019. De PSR-pagina toont punten zonder statuscode.",
+  "PSR toont de weglatingen als kolommen WAIVED1 en WAIVED2 met de weggelaten punten, niet bij welke race ze horen; ze staan per rider in discard_points.",
+  "Pagina opgehaald als ruwe Wayback-kopie (id_) via de ingebouwde browser."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "bibi-heusinkveld",
+   "sail": null,
+   "bib": "202",
+   "name": "Bibi Heusinkveld",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    1.0,
+    2.0,
+    2.0,
+    2.0,
+    1.0
+   ],
+   "discard_points": [
+    2.0,
+    2.0
+   ],
+   "total": 16.0,
+   "net": 12.0,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "lisa-ponsteen",
+   "sail": null,
+   "bib": "2",
+   "name": "Lisa Ponsteen",
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    1.0,
+    1.0,
+    2.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0
+   ],
+   "discard_points": [
+    2.0,
+    2.0
+   ],
+   "total": 17.0,
+   "net": 13.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

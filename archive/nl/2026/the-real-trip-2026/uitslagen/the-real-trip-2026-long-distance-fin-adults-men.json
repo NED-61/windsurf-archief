@@ -1,0 +1,876 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2026-long-distance-fin-adults-men",
+ "event": {
+  "name": "The Real Trip 2026",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-09-18",
+  "location": "Makkum (strand bij De Holle Poarte)",
+  "discipline": "long_distance",
+  "gender": "men",
+  "class": "Fin Adults men",
+  "class_label_published": "Fin Adults men",
+  "fleet": "Long course",
+  "equipment": "fin"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "A2",
+   "A4",
+   "A5",
+   "A6",
+   "A7",
+   "A8",
+   "A9"
+  ],
+  "discards": 1,
+  "scoring_system": "Low Point, winnaar 0.7; DNS = aantal deelnemers + 1 (28)",
+  "fleet": "Long course"
+ },
+ "source": {
+  "name": "The Real Trip: Results",
+  "url": "https://therealtrip.nl/en/results",
+  "file": "archive/nl/2026/the-real-trip-2026/bronnen/therealtrip-2026-results-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "klasse-tabbladen en rider-detailpagina's vastgelegd via de ingebouwde browser (json.gz met de ruwe html)",
+  "metadata_sources": [
+   {
+    "name": "The Real Trip: Info",
+    "url": "https://therealtrip.nl/info",
+    "used_for": "18 t/m 20 september 2026, Makkum strand bij De Holle Poarte; long distance races met Rabbit Start, kids races in de baai; sinds 1995"
+   }
+  ],
+  "verified": "tabblad en detailpagina's: discard en netto gelijk, som racepunten = totaal, gemarkeerde weglatingen = discard; 27 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: therealtrip.nl/en/results, vastgelegd op 2026-10-01: het tabblad per categorie en de detailpagina van elke rider.",
+  "Punten per race uit de detailpagina's; plaats, weglating en netto uit het tabblad (beide gecontroleerd).",
+  "Puntentelling zoals waargenomen: winnaar van een race 0.7, daarna de plaats; DNS = aantal deelnemers + 1 (28).",
+  "Een * achter de plaats is zo gepubliceerd (gelijke netto). Rijen zonder plaats delen de plaats van de rij erboven."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jeffrey-van-hoe",
+   "sail": "BEL6",
+   "bib": "24",
+   "name": "Jeffrey van Hoe",
+   "nationality": "BE",
+   "division": null,
+   "points": [
+    2.0,
+    0.7,
+    0.7,
+    0.7,
+    3.0,
+    2.0,
+    0.7
+   ],
+   "race_remarks": null,
+   "discarded": [
+    5
+   ],
+   "total": 9.8,
+   "net": 6.8,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "jens-salomons",
+   "sail": null,
+   "bib": "318",
+   "name": "Jens Salomons",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    5.0,
+    4.0,
+    3.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": null,
+   "discarded": [
+    1
+   ],
+   "total": 22.0,
+   "net": 17.0,
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "stijn-beks",
+   "sail": "NED343",
+   "bib": "124",
+   "name": "Stijn Beks",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    3.0,
+    5.0,
+    4.0,
+    6.0,
+    6.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": null,
+   "discarded": [
+    5
+   ],
+   "total": 33.0,
+   "net": 27.0,
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "boy-van-der-veer",
+   "sail": null,
+   "bib": "139",
+   "name": "Boy van der Veer",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    4.0,
+    6.0,
+    6.0,
+    7.0,
+    5.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": null,
+   "discarded": [
+    4
+   ],
+   "total": 38.0,
+   "net": 31.0,
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "tycho-nomden",
+   "sail": null,
+   "bib": "314",
+   "name": "Tycho Nomden",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    3.0,
+    28.0,
+    4.0,
+    0.7,
+    0.7,
+    2.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A5": "DNS"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 66.4,
+   "net": 38.4,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "wessel-douma",
+   "sail": null,
+   "bib": "126",
+   "name": "Wessel Douma",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    0.7,
+    2.0,
+    2.0,
+    3.0,
+    4.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 67.7,
+   "net": 39.7,
+   "remark": null
+  },
+  {
+   "rank": 7,
+   "person": "haijo-switters",
+   "sail": null,
+   "bib": "325",
+   "name": "Haijo Switters",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    10.0,
+    11.0,
+    28.0,
+    9.0,
+    10.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {
+    "A5": "DNS"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 84.0,
+   "net": 56.0,
+   "remark": null
+  },
+  {
+   "rank": 8,
+   "person": "joannes-van-soest",
+   "sail": null,
+   "bib": "161",
+   "name": "Joannes van Soest",
+   "nationality": "PL",
+   "division": null,
+   "points": [
+    9.0,
+    10.0,
+    8.0,
+    11.0,
+    11.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 105.0,
+   "net": 77.0,
+   "remark": null
+  },
+  {
+   "rank": 9,
+   "person": "dyon-cools",
+   "sail": null,
+   "bib": "26",
+   "name": "Dyon Cools",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    8.0,
+    12.0,
+    28.0,
+    5.0,
+    9.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A5": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 118.0,
+   "net": 90.0,
+   "remark": null
+  },
+  {
+   "rank": 10,
+   "person": "bart-waardijk",
+   "sail": null,
+   "bib": "304",
+   "name": "Bart Waardijk",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    8.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 134.0,
+   "net": 106.0,
+   "remark": null
+  },
+  {
+   "rank": 11,
+   "person": "sebastiaan-mulder",
+   "sail": null,
+   "bib": "169",
+   "name": "Sebastiaan Mulder",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    13.0,
+    7.0,
+    5.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 137.0,
+   "net": 109.0,
+   "remark": null
+  },
+  {
+   "rank": 12,
+   "person": "stefan-zielstra",
+   "sail": null,
+   "bib": "28",
+   "name": "Stefan Zielstra",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    11.0,
+    28.0,
+    28.0,
+    8.0,
+    7.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A4": "DNS",
+    "A5": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 138.0,
+   "net": 110.0,
+   "remark": null
+  },
+  {
+   "rank": 13,
+   "person": "wybe-tibma",
+   "sail": null,
+   "bib": "327",
+   "name": "Wybe Tibma",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    16.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS"
+   },
+   "discarded": [
+    5
+   ],
+   "total": 139.0,
+   "net": 111.0,
+   "remark": null
+  },
+  {
+   "rank": 14,
+   "person": "ingmar-van-groningen",
+   "sail": null,
+   "bib": "133",
+   "name": "Ingmar van Groningen",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    15.0,
+    9.0,
+    7.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 143.0,
+   "net": 115.0,
+   "remark": null
+  },
+  {
+   "rank": 15,
+   "person": "jochem-van-bergeijk",
+   "sail": "NED1225",
+   "bib": "104",
+   "name": "Jochem van Bergeijk",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    7.0,
+    28.0,
+    28.0,
+    10.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A4": "DNS",
+    "A5": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 157.0,
+   "net": 129.0,
+   "remark": null,
+   "rank_published": "15*"
+  },
+  {
+   "rank": 16,
+   "person": "jolt-bekema",
+   "sail": null,
+   "bib": "170",
+   "name": "Jolt Bekema",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    8.0,
+    9.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 157.0,
+   "net": 129.0,
+   "remark": null,
+   "rank_published": "16*"
+  },
+  {
+   "rank": 17,
+   "person": "marco-vermoen",
+   "sail": null,
+   "bib": "35",
+   "name": "Marco Vermoen",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    6.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 174.0,
+   "net": 146.0,
+   "remark": null
+  },
+  {
+   "rank": 18,
+   "person": "menno-van-den-berg",
+   "sail": null,
+   "bib": "137",
+   "name": "Menno van den Berg",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    12.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 180.0,
+   "net": 152.0,
+   "remark": null
+  },
+  {
+   "rank": 19,
+   "person": "michael-breit",
+   "sail": null,
+   "bib": "106",
+   "name": "Michael Breit",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    14.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 182.0,
+   "net": 154.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "berj-khassab",
+   "sail": null,
+   "bib": "7",
+   "name": "Berj Khassab",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null,
+   "rank_published": "20*"
+  },
+  {
+   "rank": 20,
+   "person": "koen-zweekhorst",
+   "sail": null,
+   "bib": "315",
+   "name": "Koen Zweekhorst",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "laurens-legtenberg",
+   "sail": null,
+   "bib": "305",
+   "name": "Laurens Legtenberg",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "maurits-van-tinteren",
+   "sail": "NED183",
+   "bib": "117",
+   "name": "Maurits van Tinteren",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "michiel-de-zeeuw",
+   "sail": null,
+   "bib": "23",
+   "name": "Michiel de Zeeuw",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "niels-meima",
+   "sail": null,
+   "bib": "134",
+   "name": "Niels Meima",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "rene-simons",
+   "sail": "NED3003",
+   "bib": "109",
+   "name": "René Simons",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null
+  },
+  {
+   "rank": 20,
+   "person": "robert-moosdorf",
+   "sail": null,
+   "bib": "142",
+   "name": "Robert Moosdorf",
+   "nationality": "NL",
+   "division": null,
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "A2": "DNS",
+    "A4": "DNS",
+    "A5": "DNS",
+    "A6": "DNS",
+    "A7": "DNS",
+    "A8": "DNS",
+    "A9": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 196.0,
+   "net": 168.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

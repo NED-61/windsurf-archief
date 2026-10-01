@@ -1,0 +1,150 @@
+{
+ "schema_version": 1,
+ "id": "gpa-2025-long-distance-windsurfer-lt-kona-one",
+ "event": {
+  "name": "Grote Prijs van Aalsmeer 2025",
+  "scope": "nl",
+  "series": "Grote Prijs van Aalsmeer",
+  "organizer": "Wind Surf Club Aalsmeer (WSCA)",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-10-05",
+  "location": "Westeinderplassen, Aalsmeer (Surfeiland)",
+  "discipline": "long_distance",
+  "gender": "open",
+  "class": "Windsurfer LT / Kona One",
+  "class_label_published": "Windsurfer LT/Kona One"
+ },
+ "format": {
+  "type": "long_distance",
+  "ranking": "rondes aflopend, daarna tijd oplopend (één overall-lijst over alle klassen)",
+  "time_basis": "gepubliceerde notitie: 'Time is gemeten vanaf opening finishlijn' (niet omgerekend naar totale tijd)",
+  "rank_basis": "afgeleid: plaats binnen de klasse volgens de volgorde van de gepubliceerde overall-lijst; gepubliceerde overall-plaats staat in overall_rank"
+ },
+ "source": {
+  "name": "GPA (gpa = grote prijs van aalsmeer)-2025-overall-uitslag.pdf",
+  "url": null,
+  "file": "archive/nl/2025/gpa-2025/bronnen/GPA (gpa = grote prijs van aalsmeer)-2025-overall-uitslag.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-01",
+  "method": "pdfplumber: woordposities per kolom (de pdf bevat geen tabelranden); regels die over twee regels lopen samengevoegd",
+  "metadata_sources": [
+   {
+    "name": "WSCA: Wedstrijdregels GPA 2025",
+    "url": "https://www.wsca.nl/wp-content/uploads/2025/09/Wedstrijdregels-GPA-2025-20250914-Final.pdf",
+    "used_for": "datum (zondag 5 oktober 2025), duur 2u30 plus rondje afmaken, finishlijn opent 2u30 na start, klassen"
+   },
+   {
+    "name": "WSCA: De Grote Prijs van Aalsmeer 2025",
+    "url": "https://www.wsca.nl/de-grote-prijs-van-aalsmeer-2025-een-spectaculaire-race-op-de-westeinder/",
+    "used_for": "82 deelnemers, locatie Westeinderplassen/Surfeiland; artikel gepubliceerd 2025-10-10 met 'afgelopen zondag'"
+   },
+   {
+    "name": "WSCA: Grote Prijs Aalsmeer",
+    "url": "https://www.wsca.nl/grote-prijs-aalsmeer/",
+    "used_for": "organisator WSCA, gehouden sinds 1993, formaat '2,5 uur plus een ronde', rangschikking op rondes en bij gelijk aantal op tijd laatste ronde"
+   }
+  ],
+  "verified": "overall-lijst: 51 regels, plaatsen 1..51 aaneengesloten, volgorde klopt met rondes en tijd; 6 entries (6 gefinisht, 0 DNF); plaatsen aaneengesloten 1..6; geen dubbele namen; volgorde klopt met rondes (aflopend) en tijd (oplopend)"
+ },
+ "coverage": "partial",
+ "notes": [
+  "Klasseplaats is afgeleid uit de gepubliceerde overall-lijst; de bron geeft alleen een overall-plaats (veld overall_rank).",
+  "Coverage partial: de PDF bevat 51 regels, terwijl WSCA 82 deelnemers meldt. Geen DNF/DNS-regels gepubliceerd; de ontbrekende deelnemers (waarschijnlijk niet-gefinishten) staan niet in deze bron.",
+  "Geen geslacht gepubliceerd; zeilnummer ontbreekt, de bron geeft een startnummer (bib)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "overall_rank": 34,
+   "person": "albert-meppelink",
+   "sail": null,
+   "bib": "181",
+   "name": "Albert Meppelink",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 4,
+   "time": "0:11:25",
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "overall_rank": 35,
+   "person": "e-van-der-wiel",
+   "sail": null,
+   "bib": "157",
+   "name": "E. Van Der Wiel",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 4,
+   "time": "0:17:57",
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "overall_rank": 36,
+   "person": "ron-hartog",
+   "sail": null,
+   "bib": "120",
+   "name": "Ron Hartog",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 4,
+   "time": "0:21:30",
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "overall_rank": 37,
+   "person": "paul-meester",
+   "sail": null,
+   "bib": "110",
+   "name": "Paul Meester",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 4,
+   "time": "0:21:42",
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "overall_rank": 44,
+   "person": "erwin-coster",
+   "sail": null,
+   "bib": "184",
+   "name": "Erwin Coster",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 3,
+   "time": "0:40:03",
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "overall_rank": 46,
+   "person": "jeff-haspels",
+   "sail": null,
+   "bib": "186",
+   "name": "Jeff Haspels",
+   "gender": null,
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "0:28:43",
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

@@ -1,0 +1,730 @@
+{
+ "schema_version": 1,
+ "id": "nk-2020-slalom-jeugd",
+ "event": {
+  "name": "NK Slalom 2020",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2020,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Jeugd",
+  "windtulip_regatta": "NK 2020"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 3,
+  "discards": [
+   0
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/133/total_results/",
+  "type": "web",
+  "file": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-133-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "14 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [0]; rangschikking oplopend op netto; 3 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC of DNF in alle heats en finales tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "discarded": [],
+   "total": 0.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "jelle-van-der-veen",
+   "sail": "NED-225",
+   "name": "Jelle van de Veen",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    5.0,
+    2.0,
+    3.0
+   ],
+   "discarded": [],
+   "total": 10.0,
+   "net": 10.0
+  },
+  {
+   "rank": 3,
+   "person": "floris-wondergem",
+   "sail": "NED-97",
+   "name": "Floris Wondergem",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    2.0,
+    3.0,
+    5.0
+   ],
+   "discarded": [],
+   "total": 10.0,
+   "net": 10.0
+  },
+  {
+   "rank": 4,
+   "person": "koen-hessels",
+   "sail": "NED-881",
+   "name": "Koen Hessels",
+   "nationality": "NED",
+   "division": "U17",
+   "points": [
+    3.0,
+    4.0,
+    4.0
+   ],
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 5,
+   "person": "stijn-de-bruin",
+   "sail": "NED-522",
+   "name": "Stijn de Bruin",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    4.0,
+    6.0,
+    2.0
+   ],
+   "discarded": [],
+   "total": 12.0,
+   "net": 12.0
+  },
+  {
+   "rank": 6,
+   "person": "mac-koeleman",
+   "sail": "NED-283",
+   "name": "Mac Koeleman",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    6.0,
+    5.0,
+    6.0
+   ],
+   "discarded": [],
+   "total": 17.0,
+   "net": 17.0
+  },
+  {
+   "rank": 7,
+   "person": "bjorn-droop",
+   "sail": "NED-220",
+   "name": "Bjorn Droop",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    9.0,
+    7.0,
+    7.0
+   ],
+   "discarded": [],
+   "total": 23.0,
+   "net": 23.0
+  },
+  {
+   "rank": 8,
+   "person": "brendan-lorho",
+   "sail": "FRA-113",
+   "name": "Brendan Lorho",
+   "nationality": "FRA",
+   "division": "U17",
+   "points": [
+    7.0,
+    8.0,
+    9.0
+   ],
+   "discarded": [],
+   "total": 24.0,
+   "net": 24.0
+  },
+  {
+   "rank": 9,
+   "person": "sem-stroosma",
+   "sail": "NED-450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    11.0,
+    9.0,
+    8.0
+   ],
+   "discarded": [],
+   "total": 28.0,
+   "net": 28.0
+  },
+  {
+   "rank": 10,
+   "person": "hugo-schortinghuis",
+   "sail": "NED-154",
+   "name": "Hugo Schortinghuis",
+   "nationality": "NED",
+   "division": "U17",
+   "points": [
+    8.0,
+    10.0,
+    14.0
+   ],
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 11,
+   "person": "bob-van-de-burgt",
+   "sail": "NED-737",
+   "name": "Bob van de Burgt",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    10.0,
+    12.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 12,
+   "person": "toon-gaarthuis",
+   "sail": "ARU-1",
+   "name": "Toon Gaarthuis",
+   "nationality": "ARU",
+   "division": "U15",
+   "points": [
+    12.0,
+    11.0,
+    14.0
+   ],
+   "discarded": [],
+   "total": 37.0,
+   "net": 37.0
+  },
+  {
+   "rank": 13,
+   "person": "luc-buse",
+   "sail": "NED-0",
+   "name": "Luc Bus",
+   "nationality": "NED",
+   "division": "Jeugd",
+   "points": [
+    13.0,
+    13.0,
+    14.0
+   ],
+   "discarded": [],
+   "total": 40.0,
+   "net": 40.0
+  },
+  {
+   "rank": 14,
+   "person": null,
+   "sail": "NED-1100x",
+   "name": "Matt de Jong",
+   "nationality": "NED",
+   "division": "U15",
+   "points": [
+    14.0,
+    14.0,
+    14.0
+   ],
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0,
+   "counted": false
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/133/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "floris-wondergem"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 5,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 6,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 7,
+       "person": "toon-gaarthuis"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "stijn-de-bruin"
+      },
+      {
+       "rank": 2,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 4,
+       "person": "hugo-schortinghuis"
+      },
+      {
+       "rank": 5,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 6,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 7,
+       "person": null,
+       "remark": "DNF",
+       "name": "Matt de Jong"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "floris-wondergem"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "stijn-de-bruin"
+      },
+      {
+       "rank": 5,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 6,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 7,
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 8,
+       "person": "hugo-schortinghuis",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 2,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 3,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "person": "toon-gaarthuis"
+      },
+      {
+       "rank": 5,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 6,
+       "person": null,
+       "remark": "DNF",
+       "name": "Matt de Jong"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/133/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "stijn-de-bruin"
+      },
+      {
+       "rank": 2,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 3,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 4,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "hugo-schortinghuis"
+      },
+      {
+       "rank": 6,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 7,
+       "person": "toon-gaarthuis",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 2,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 3,
+       "person": "floris-wondergem"
+      },
+      {
+       "rank": 4,
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 5,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 6,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 7,
+       "person": null,
+       "remark": "DNF",
+       "name": "Matt de Jong"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "floris-wondergem"
+      },
+      {
+       "rank": 4,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 5,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 6,
+       "person": "stijn-de-bruin"
+      },
+      {
+       "rank": 7,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 8,
+       "person": "brendan-lorho"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 2,
+       "person": "hugo-schortinghuis"
+      },
+      {
+       "rank": 3,
+       "person": "toon-gaarthuis"
+      },
+      {
+       "rank": 4,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 5,
+       "person": "luc-buse"
+      },
+      {
+       "rank": 6,
+       "person": null,
+       "remark": "DNF",
+       "name": "Matt de Jong"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/133/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 4,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 5,
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 6,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 7,
+       "person": "luc-buse",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "floris-wondergem"
+      },
+      {
+       "rank": 2,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "person": "stijn-de-bruin"
+      },
+      {
+       "rank": 4,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 7,
+       "person": null,
+       "remark": "DNF",
+       "name": "Matt de Jong"
+      },
+      {
+       "rank": 7,
+       "person": "hugo-schortinghuis",
+       "remark": "DNF"
+      },
+      {
+       "rank": 7,
+       "person": "toon-gaarthuis",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "stijn-de-bruin"
+      },
+      {
+       "rank": 3,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 5,
+       "person": "floris-wondergem"
+      },
+      {
+       "rank": 6,
+       "person": "mac-koeleman"
+      },
+      {
+       "rank": 7,
+       "person": "bjorn-droop"
+      },
+      {
+       "rank": 8,
+       "person": "sem-stroosma"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "unstarted",
+     "results": [
+      {
+       "rank": 1,
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 2,
+       "person": "bob-van-de-burgt"
+      },
+      {
+       "rank": 6,
+       "person": null,
+       "remark": "DNF",
+       "name": "Matt de Jong"
+      },
+      {
+       "rank": 6,
+       "person": "hugo-schortinghuis",
+       "remark": "DNF"
+      },
+      {
+       "rank": 6,
+       "person": "toon-gaarthuis",
+       "remark": "DNF"
+      },
+      {
+       "rank": 6,
+       "person": "luc-buse",
+       "remark": "DNF"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

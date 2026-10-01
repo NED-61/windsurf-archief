@@ -1,0 +1,18 @@
+{
+ "event_slug": "nk-course-2018",
+ "scope": "nl",
+ "name": "NK Course 2018",
+ "series": "NK Course",
+ "year": 2018,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "classes": [],
+ "notes": [
+  "Metadata uit de bulklevering (inbox/bulk/2018/NK Course); niet geverifieerd tegen een officiële bron.",
+  "Bulkmap 2018: mapnamen 'NK Course' en 'NK Slalom' kloppen met de media (foto's foil-courseracen, video slalom); de Info.txt-bestanden waren tussen de twee mappen verwisseld en zijn op inhoud toegewezen.",
+  "Info.txt: 'Hele jaar 2018'; geen losse datum of locatie bekend. Geen uitslag in het archief (alleen foto's)."
+ ]
+}

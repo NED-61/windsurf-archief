@@ -1,0 +1,145 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-2019-long-distance-senioren-dames",
+ "event": {
+  "name": "The Real Trip 2019",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 2019,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Makkum",
+  "discipline": "long_distance",
+  "gender": "women",
+  "class": "Senioren dames",
+  "class_label_published": "SENIORS WOMEN",
+  "fleet": "Long distance",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "A01"
+  ],
+  "discards": 0,
+  "scoring_system": "Low Point: punten = plaats in de race",
+  "fleet": "Long distance"
+ },
+ "source": {
+  "name": "PSR-live: THE REAL TRIP 2019 // SENIORS WOMEN",
+  "publisher": "PSR-live (admin.psr.nl), via de Wayback Machine",
+  "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=54",
+  "file": "archive/nl/2019/the-real-trip-2019/bronnen/Uitslagen4.html",
+  "type": "web",
+  "retrieved": "2026-10-01",
+  "method": "Telerik PivotGrid uit de html gelezen (rijkoppen met rowspan voor gedeelde plaatsen)",
+  "metadata_sources": [
+   {
+    "name": "PSR-live via de Wayback Machine (eventid 1023)",
+    "url": "https://web.archive.org/web/2019/https://admin.psr.nl/live/eventclassresults.aspx?eventid=1023&eventclassid=51",
+    "used_for": "uitslagen per klasse; datum van de editie staat niet in de bron"
+   }
+  ],
+  "verified": "6 entries; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Bron: PSR-live, klasse 54 van eventid 1023, gearchiveerd door de Wayback Machine op 13 november 2019. De PSR-pagina toont punten zonder statuscode.",
+  "1 rider(s) kregen 7 punten (aantal deelnemers + 1) zonder statuscode in de bron; vermoedelijk niet gestart of niet gefinisht. Plaats en punten zoals gepubliceerd.",
+  "Pagina door de gebruiker opgeslagen uit de Wayback Machine (inclusief werkbalk van archive.org)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "romy-anne-reenders",
+   "sail": null,
+   "bib": "42",
+   "name": "Romy-anne Reenders",
+   "division": null,
+   "points": [
+    1.0
+   ],
+   "discard_points": null,
+   "total": 1.0,
+   "net": 1.0,
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "iris-gimpel",
+   "sail": null,
+   "bib": "75",
+   "name": "Iris Gimpel",
+   "division": null,
+   "points": [
+    2.0
+   ],
+   "discard_points": null,
+   "total": 2.0,
+   "net": 2.0,
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "femke-van-der-veen",
+   "sail": null,
+   "bib": "510",
+   "name": "Femke van der Veen",
+   "division": null,
+   "points": [
+    3.0
+   ],
+   "discard_points": null,
+   "total": 3.0,
+   "net": 3.0,
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "famke-de-wit",
+   "sail": null,
+   "bib": "51",
+   "name": "Famke de Wit",
+   "division": null,
+   "points": [
+    4.0
+   ],
+   "discard_points": null,
+   "total": 4.0,
+   "net": 4.0,
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "janny-huitema",
+   "sail": null,
+   "bib": "503",
+   "name": "Janny Huitema",
+   "division": null,
+   "points": [
+    5.0
+   ],
+   "discard_points": null,
+   "total": 5.0,
+   "net": 5.0,
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "jenna-boonstra",
+   "sail": null,
+   "bib": "4",
+   "name": "Jenna Boonstra",
+   "division": null,
+   "points": [
+    7.0
+   ],
+   "discard_points": null,
+   "total": 7.0,
+   "net": 7.0,
+   "remark": null
+  }
+ ],
+ "detail": {}
+}

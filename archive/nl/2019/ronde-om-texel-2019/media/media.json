@@ -1,0 +1,70 @@
+{
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "local-only/nl/2019/ronde-om-texel-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (12).jpeg",
+   "type": "foto",
+   "sha256": "a70b161fb993d181945cf21fad2f7ee4b81dabbad6d7da50e7d0905e1c422ff9",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/ronde-om-texel-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (13).jpeg",
+   "type": "foto",
+   "sha256": "e555e5cdf4aa4ba802a96f9d5c705e5883ad9fe24d5c6ea3d94a9ed2ae2d2011",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/ronde-om-texel-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (14).jpeg",
+   "type": "foto",
+   "sha256": "dc0e694d01ff9f486912625b5465cc189ef8127428379344f520cdcedbe60e02",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/ronde-om-texel-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (15).jpeg",
+   "type": "foto",
+   "sha256": "bbd252cc54d70ae1288c754131fc2cbaa6b7d033dea543895b048fd57f245bac",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/ronde-om-texel-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (16).jpeg",
+   "type": "foto",
+   "sha256": "1df5d6ce994ae9372599126c0b7db4c5b5bd479de54f4618de3e181b85fe4715",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  }
+ ]
+}

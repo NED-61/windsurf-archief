@@ -1,0 +1,20 @@
+{
+ "event_slug": "nk-slalom-2022",
+ "scope": "nl",
+ "name": "NK Slalom 2022",
+ "series": "NK Slalom",
+ "year": 2022,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "classes": [
+  "nk-2022-slalom-heren",
+  "nk-2022-slalom-dames",
+  "nk-2022-slalom-jeugd"
+ ],
+ "notes": [
+  "Uitslagen uit het Windtulip Results Archive."
+ ]
+}

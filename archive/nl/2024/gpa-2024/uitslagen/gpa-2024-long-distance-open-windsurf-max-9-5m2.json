@@ -1,0 +1,221 @@
+{
+ "schema_version": 1,
+ "id": "gpa-2024-long-distance-open-windsurf-max-9-5m2",
+ "event": {
+  "name": "Grote Prijs van Aalsmeer 2024",
+  "scope": "nl",
+  "series": "Grote Prijs van Aalsmeer",
+  "organizer": "Wind Surf Club Aalsmeer (WSCA)",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2024-10-06",
+  "location": "Westeinderplassen, Aalsmeer",
+  "discipline": "long_distance",
+  "gender": "open",
+  "class": "Open windsurf tot max 9,5 m²",
+  "class_label_published": "Open windsurf tot max 9,5m2"
+ },
+ "format": {
+  "type": "long_distance",
+  "ranking": "rondes aflopend, daarna tijd oplopend",
+  "time_basis": "gepubliceerde tijd (Tijd) bij de laatst voltooide ronde; alle tijden zijn >= 2:30:00",
+  "rank_basis": "gepubliceerd per klasse"
+ },
+ "source": {
+  "name": "GPA-2024-overall-uitslag.pdf",
+  "url": null,
+  "file": "archive/nl/2024/gpa-2024/bronnen/GPA-2024-overall-uitslag.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-01",
+  "method": "pdfplumber: tabellen per klasse; plaatsnummers staan links buiten de tabel en zijn apart uitgelezen (tekst-pdf, gemaakt met Excel)",
+  "metadata_sources": [
+   {
+    "name": "Webscorer: Grote Prijs van Aalsmeer 2024",
+    "url": "https://www.webscorer.com/racealldetails?raceid=368597&lang=nl&topn=3",
+    "used_for": "datum (zondag 6 oktober 2024), organisator, aantal deelnemers (109); locatie op Webscorer: Kudelstaart"
+   },
+   {
+    "name": "WSCA: Grote Prijs Aalsmeer",
+    "url": "https://www.wsca.nl/grote-prijs-aalsmeer/",
+    "used_for": "organisator WSCA, gehouden sinds 1993, formaat '2,5 uur plus een ronde', rangschikking op rondes en bij gelijk aantal op tijd laatste ronde"
+   }
+  ],
+  "verified": "12 entries (10 gefinisht, 2 DNF); plaatsen aaneengesloten 1..10; geen dubbele namen; volgorde klopt met rondes (aflopend) en tijd (oplopend)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "DNF-regels staan in de bron onderaan de klasse zonder plaats, tijd en rondes (als 'dnf'); bewaard als remark 'DNF'."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "andre-korver",
+   "sail": null,
+   "bib": null,
+   "name": "André Korver",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 5,
+   "time": "3:04:49",
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "rob-tiddens",
+   "sail": null,
+   "bib": null,
+   "name": "Rob Tiddens",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 5,
+   "time": "3:05:29",
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "bas-brull",
+   "sail": null,
+   "bib": null,
+   "name": "Bas Brull",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 4,
+   "time": "2:44:49",
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "mikk-hillebrand",
+   "sail": null,
+   "bib": null,
+   "name": "Mikk Hillebrand",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 4,
+   "time": "3:10:49",
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "noortje-braam",
+   "sail": null,
+   "bib": null,
+   "name": "Noortje Braam",
+   "gender": "female",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "2:30:35",
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "j-wandscheer",
+   "sail": null,
+   "bib": null,
+   "name": "J. Wandscheer",
+   "gender": "female",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "2:34:56",
+   "remark": null
+  },
+  {
+   "rank": 7,
+   "person": "wouter-van-aalst",
+   "sail": null,
+   "bib": null,
+   "name": "Wouter Van Aalst",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "2:36:17",
+   "remark": null
+  },
+  {
+   "rank": 8,
+   "person": "kim-bavinck",
+   "sail": null,
+   "bib": null,
+   "name": "Kim Bavinck",
+   "gender": "female",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "2:58:27",
+   "remark": null
+  },
+  {
+   "rank": 9,
+   "person": "maarten-bavinck",
+   "sail": null,
+   "bib": null,
+   "name": "Maarten Bavinck",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "3:27:29",
+   "remark": null
+  },
+  {
+   "rank": 10,
+   "person": "lilou-bavinck",
+   "sail": null,
+   "bib": null,
+   "name": "Lilou Bavinck",
+   "gender": "female",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "3:30:29",
+   "remark": null
+  },
+  {
+   "rank": null,
+   "person": "patricia-kiele",
+   "sail": null,
+   "bib": null,
+   "name": "Patricia Kiele",
+   "gender": "female",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": null,
+   "time": null,
+   "remark": "DNF"
+  },
+  {
+   "rank": null,
+   "person": "hamodi-dishly",
+   "sail": null,
+   "bib": null,
+   "name": "Hamodi Dishly",
+   "gender": "male",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": null,
+   "time": null,
+   "remark": "DNF"
+  }
+ ],
+ "detail": {}
+}

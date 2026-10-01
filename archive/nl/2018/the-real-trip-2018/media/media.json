@@ -1,0 +1,31 @@
+{
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "local-only/nl/2018/the-real-trip-2018/media/foto/WhatsApp Image 2024-02-25 at 18.49.18 (1).jpeg",
+   "type": "foto",
+   "sha256": "b760757a20d7fbfefe5f67edf7249e931fd0c2d621f2e8203d76d7a3aa843f85",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2018/the-real-trip-2018/media/foto/WhatsApp Image 2024-02-25 at 18.49.18.jpeg",
+   "type": "foto",
+   "sha256": "4f372dd6cdfff7d4da9f83dd91adae8f68b3149af4515d6f196c4c4f721d627e",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  }
+ ]
+}

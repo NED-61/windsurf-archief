@@ -165,14 +165,15 @@ def main(src):
     # people.json bijwerken (nooit stil samenvoegen: bestaande id's blijven staan)
     (ROOT / "data").mkdir(exist_ok=True)
     pf = ROOT / "data/people.json"
-    people = {p["id"]: p for p in json.loads(pf.read_text())["people"]} if pf.exists() else {}
+    pdoc = json.loads(pf.read_text(encoding="utf-8")) if pf.exists() else {"schema_version": 1, "people": [], "not_same": [], "pending": []}
+    people = {p["id"]: p for p in pdoc["people"]}
     for k, r in reg.items():
         p = people.setdefault(r["person"], {"id": r["person"], "name": r["name"], "aliases": [], "appearances": []})
         if r["name"] != p["name"] and r["name"] not in p["aliases"]: p["aliases"].append(r["name"])
         a = {"event": event_id, "name": r["name"], "sail": r["sail"], "division": r["division"]}
         if a not in p["appearances"]: p["appearances"].append(a)
-    pf.write_text(json.dumps({"schema_version": 1, "people": sorted(people.values(), key=lambda p: p["id"])},
-                             ensure_ascii=False, indent=1), encoding="utf-8")
+    pdoc["people"] = sorted(people.values(), key=lambda p: p["id"])   # overige velden (not_same, pending) blijven staan
+    pf.write_text(json.dumps(pdoc, ensure_ascii=False, indent=1), encoding="utf-8")
 
     print(f"{event_id}: {len(entries)} riders, {n_elim} eliminaties, {sum(len(g['results']) for e in elims for g in e['groups'])} resultaatregels")
     for w in warnings: print("WAARSCHUWING:", w)

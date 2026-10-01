@@ -1,0 +1,351 @@
+{
+ "schema_version": 1,
+ "id": "nk-2019-stop1-slalom-dames",
+ "event": {
+  "name": "NK Slalom 2019 - stop 1",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2019,
+  "stop_number": 1,
+  "stops_known": 2,
+  "date": "2019-05-04",
+  "location": "Stavoren (naast de Marina haven)",
+  "discipline": "slalom",
+  "gender": "women",
+  "class": "NK Windsurf Slalom 2019 - Vrouwen",
+  "windtulip_regatta": "NK Windsurf Slalom 2019"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 6,
+  "discards": [
+   1
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.7; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/79/total_results/",
+  "type": "web",
+  "file": "archive/nl/2019/nk-slalom-2019-stop1/bronnen/windtulip-79-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "5 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [1]; rangschikking oplopend op netto; 6 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.7): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; aangevuld uit andere bron (zie event.json).",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "esther-de-geus",
+   "sail": "NED-16",
+   "name": "Esther de Geus",
+   "nationality": "Dutch",
+   "division": "Open Women",
+   "points": [
+    0.7,
+    0.7,
+    3.0,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 6.5,
+   "net": 3.5
+  },
+  {
+   "rank": 2,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL-26",
+   "name": "Andrea Vanhoorne",
+   "nationality": "Belgian",
+   "division": "Open Women",
+   "points": [
+    2.0,
+    2.0,
+    0.7,
+    3.0,
+    2.0,
+    2.0
+   ],
+   "discarded": [
+    4
+   ],
+   "total": 11.7,
+   "net": 8.7
+  },
+  {
+   "rank": 3,
+   "person": "fabienne-hoogendam",
+   "sail": "NED-223",
+   "name": "Fabiënne Hoogendam",
+   "nationality": "Dutch",
+   "division": "Open Youth",
+   "points": [
+    3.0,
+    3.0,
+    2.0,
+    2.0,
+    3.0,
+    4.0
+   ],
+   "discarded": [
+    6
+   ],
+   "total": 17.0,
+   "net": 13.0
+  },
+  {
+   "rank": 4,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke van der Veen",
+   "nationality": "Dutch",
+   "division": "Open Youth",
+   "points": [
+    5.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 25.0,
+   "net": 20.0
+  },
+  {
+   "rank": 5,
+   "person": "ashley-veenstra",
+   "sail": "NED-700",
+   "name": "Ashley Veenstra",
+   "nationality": "Dutch",
+   "division": "Open Youth",
+   "points": [
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "discarded": [
+    6
+   ],
+   "total": 28.0,
+   "net": 23.0
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/79/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "ashley-veenstra"
+      },
+      {
+       "rank": 5,
+       "person": "femke-van-der-veen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/79/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "ashley-veenstra"
+      },
+      {
+       "rank": 5,
+       "person": "femke-van-der-veen",
+       "remark": "OCS"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://windtulip.nl/home/results_dashboard/79/3/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 4,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "ashley-veenstra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "url": "https://windtulip.nl/home/results_dashboard/79/4/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 3,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 4,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "ashley-veenstra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "url": "https://windtulip.nl/home/results_dashboard/79/5/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 4,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "person": "ashley-veenstra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "url": "https://windtulip.nl/home/results_dashboard/79/6/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "esther-de-geus"
+      },
+      {
+       "rank": 2,
+       "person": "andrea-vanhoorne"
+      },
+      {
+       "rank": 3,
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "person": "fabienne-hoogendam"
+      },
+      {
+       "rank": 5,
+       "person": "ashley-veenstra",
+       "remark": "OCS"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

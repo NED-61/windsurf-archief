@@ -5,13 +5,14 @@
  "series": "NK Slalom",
  "year": 2017,
  "stop_number": null,
- "stops_known": null,
+ "stops_known": 2,
  "date": null,
  "location": null,
  "classes": [
-  "nk-2017-slalom-heren"
+  "nk-2017-slalom-heren",
+  "nk-2017-slalom-dames"
  ],
  "notes": [
-  "scope nl: NK = Nederlands georganiseerd kampioenschap"
+  "scope nl: NK = Nederlands georganiseerd kampioenschap EINDSTAND"
  ]
 }

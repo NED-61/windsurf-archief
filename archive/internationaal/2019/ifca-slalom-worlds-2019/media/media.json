@@ -1,0 +1,83 @@
+{
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "local-only/internationaal/2019/ifca-slalom-worlds-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (1).jpeg",
+   "type": "foto",
+   "sha256": "6722b88c820488d313a5bf8501d07aa29b1392e726a8c2437a36ccfcd40fae07",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2019/ifca-slalom-worlds-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (2).jpeg",
+   "type": "foto",
+   "sha256": "e17c3da37343d66367ddc663f210a03c59c0975daf700570e1d39d4dc0ab2dce",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2019/ifca-slalom-worlds-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (3).jpeg",
+   "type": "foto",
+   "sha256": "76c1d7f5bd354361ee1ccd2a215adc00ea2f1380324c1acda31bb4bd2451065b",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2019/ifca-slalom-worlds-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (4).jpeg",
+   "type": "foto",
+   "sha256": "b034770386abfe6640285b5e656701d53eff0e48b0e797f554fd0e8171b46dc5",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2019/ifca-slalom-worlds-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (5).jpeg",
+   "type": "foto",
+   "sha256": "b4ede4d64a8f3bcfaa5a30aa99285613e49e779bed1a5a15b648a0fe552ae52e",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2019/ifca-slalom-worlds-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (6).jpeg",
+   "type": "foto",
+   "sha256": "3230093514ee49dda25d1fb7310b4c1dea9f89002ae0bda1d3b6d25a450dab64",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  }
+ ]
+}

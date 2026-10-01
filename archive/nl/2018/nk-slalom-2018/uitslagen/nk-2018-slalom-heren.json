@@ -1,0 +1,647 @@
+{
+ "schema_version": 1,
+ "id": "nk-2018-slalom-heren",
+ "event": {
+  "name": "NK Slalom 2018",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2018,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": "men",
+  "class": "Men",
+  "windtulip_regatta": "NK 2018"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 2,
+  "discards": [
+   0
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.7; B- en volgende finales tellen door na het aantal rijen van de vorige finale; RDG = toegekende punten uit remark",
+  "eliminations_without_points": []
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/70/total_results/",
+  "type": "web",
+  "file": "archive/nl/2018/nk-slalom-2018/bronnen/windtulip-70-total_results.page-data.json",
+  "retrieved": "2026-10-01",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaaluitslag en eliminaties uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "verified": "17 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [0]; rangschikking oplopend op netto; 2 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.7): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Datum en locatie staan niet op Windtulip; niet ingevuld.",
+  "Namen zoals gepubliceerd, met dubbele spaties ingekort."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "ingmar-daldorf",
+   "sail": "191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    2.0,
+    0.7
+   ],
+   "discarded": [],
+   "total": 2.7,
+   "net": 2.7
+  },
+  {
+   "rank": 2,
+   "person": "jordy-vonk",
+   "sail": "69",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    0.7,
+    2.0
+   ],
+   "discarded": [],
+   "total": 2.7,
+   "net": 2.7
+  },
+  {
+   "rank": 3,
+   "person": "luuc-van-opzeeland",
+   "sail": "55",
+   "name": "Luuc van Opzeeland",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    3.0,
+    4.0
+   ],
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "ennio-dal-pont",
+   "sail": "46",
+   "name": "Ennio Dal Pont",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    5.0,
+    3.0
+   ],
+   "discarded": [],
+   "total": 8.0,
+   "net": 8.0
+  },
+  {
+   "rank": 5,
+   "person": "pieter-eliens",
+   "sail": "538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    4.0,
+    7.0
+   ],
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 6,
+   "person": "adri-keet",
+   "sail": "34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    6.0,
+    5.0
+   ],
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 7,
+   "person": "jakob-kooij",
+   "sail": "99",
+   "name": "Jakob Kooij",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    8.0,
+    6.0
+   ],
+   "discarded": [],
+   "total": 14.0,
+   "net": 14.0
+  },
+  {
+   "rank": 8,
+   "person": "martijn-van-noord",
+   "sail": "703",
+   "name": "Martijn van Noord",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    7.0,
+    11.0
+   ],
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 9,
+   "person": "peter-mulder",
+   "sail": "95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    10.0,
+    8.0
+   ],
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 10,
+   "person": "max-baaijen",
+   "sail": "61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    9.0,
+    9.0
+   ],
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 11,
+   "person": "sem-stroosma",
+   "sail": "450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    11.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 21.0,
+   "net": 21.0
+  },
+  {
+   "rank": 12,
+   "person": "koen-hessels",
+   "sail": "881",
+   "name": "Koen Hessels",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    13.0,
+    12.0
+   ],
+   "discarded": [],
+   "total": 25.0,
+   "net": 25.0
+  },
+  {
+   "rank": 13,
+   "person": "bas-mulder",
+   "sail": "92",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    12.0,
+    13.0
+   ],
+   "discarded": [],
+   "total": 25.0,
+   "net": 25.0
+  },
+  {
+   "rank": 14,
+   "person": "jelle-van-der-veen",
+   "sail": "225",
+   "name": "Jelle Van der Veen",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    15.0,
+    14.0
+   ],
+   "discarded": [],
+   "total": 29.0,
+   "net": 29.0
+  },
+  {
+   "rank": 15,
+   "person": "marc-de-jong",
+   "sail": "100",
+   "name": "Marc de Jong",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    14.0,
+    17.0
+   ],
+   "discarded": [],
+   "total": 31.0,
+   "net": 31.0
+  },
+  {
+   "rank": 16,
+   "person": "luca-reenders",
+   "sail": "269",
+   "name": "Luca Reenders",
+   "nationality": "NED",
+   "division": "jeugd",
+   "points": [
+    16.0,
+    17.0
+   ],
+   "discarded": [],
+   "total": 33.0,
+   "net": 33.0
+  },
+  {
+   "rank": 17,
+   "person": "david-van-den-toorn",
+   "sail": "x1",
+   "name": "David van den Toorn",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    17.0,
+    17.0
+   ],
+   "discarded": [],
+   "total": 34.0,
+   "net": 34.0
+  }
+ ],
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://windtulip.nl/home/results_dashboard/70/1/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "adri-keet"
+      },
+      {
+       "rank": 4,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 5,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "person": "marc-de-jong"
+      },
+      {
+       "rank": 8,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 9,
+       "person": "luca-reenders",
+       "remark": "DNF"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 2,
+       "person": "luuc-van-opzeeland"
+      },
+      {
+       "rank": 3,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 4,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 5,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 7,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 8,
+       "person": "david-van-den-toorn"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "person": "luuc-van-opzeeland"
+      },
+      {
+       "rank": 4,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 5,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 6,
+       "person": "adri-keet"
+      },
+      {
+       "rank": 7,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 8,
+       "person": "jakob-kooij"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 3,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 5,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 6,
+       "person": "marc-de-jong"
+      },
+      {
+       "rank": 7,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 8,
+       "person": "luca-reenders"
+      },
+      {
+       "rank": 9,
+       "person": "david-van-den-toorn"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://windtulip.nl/home/results_dashboard/70/2/",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 2,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 3,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 4,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 5,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 6,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 7,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 8,
+       "person": "david-van-den-toorn"
+      },
+      {
+       "rank": 9,
+       "person": "luca-reenders",
+       "remark": "DNS"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "luuc-van-opzeeland"
+      },
+      {
+       "rank": 3,
+       "person": "adri-keet"
+      },
+      {
+       "rank": 4,
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 5,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 6,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 7,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 8,
+       "person": "marc-de-jong",
+       "remark": "OCS"
+      }
+     ]
+    },
+    {
+     "name": "A Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "person": "jordy-vonk"
+      },
+      {
+       "rank": 3,
+       "person": "ennio-dal-pont"
+      },
+      {
+       "rank": 4,
+       "person": "luuc-van-opzeeland"
+      },
+      {
+       "rank": 5,
+       "person": "adri-keet"
+      },
+      {
+       "rank": 6,
+       "person": "jakob-kooij"
+      },
+      {
+       "rank": 7,
+       "person": "pieter-eliens"
+      },
+      {
+       "rank": 8,
+       "person": "peter-mulder"
+      }
+     ]
+    },
+    {
+     "name": "B Final",
+     "type": "final",
+     "status": "complete",
+     "results": [
+      {
+       "rank": 1,
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 2,
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "person": "martijn-van-noord"
+      },
+      {
+       "rank": 4,
+       "person": "koen-hessels"
+      },
+      {
+       "rank": 5,
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 6,
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 9,
+       "person": "david-van-den-toorn",
+       "remark": "DNS"
+      },
+      {
+       "rank": 9,
+       "person": "luca-reenders",
+       "remark": "DNS"
+      },
+      {
+       "rank": 9,
+       "person": "marc-de-jong",
+       "remark": "DNS"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "detail": {}
+}

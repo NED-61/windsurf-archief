@@ -1,0 +1,109 @@
+{
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/foto/29366316438_df5f3e25bc_o.jpg",
+   "type": "foto",
+   "sha256": "9545550256e7c2614e0cd2406732cfb3a45657ab3ee3707204ba4c9a532fa206",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/foto/41422790800_c7d4c12f32_o.jpg",
+   "type": "foto",
+   "sha256": "185e8bc59cf5ba4aca2d0c41437f40e332fdb8afe5d08bf57f9ddef11c0bbeb5",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/foto/42314629795_003b322913_o.jpg",
+   "type": "foto",
+   "sha256": "eac87d8ba2da682c11612b5c6bff09f922dbf68be1dcd378cf5d70f3ea894c00",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/foto/42328578155_af73d6959a_o.jpg",
+   "type": "foto",
+   "sha256": "18cc1991fa388de96b72d1fda168cb221aed7d0de8efcc055e3b519489d79c3e",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/foto/42518761284_c0530ae62b_o.jpg",
+   "type": "foto",
+   "sha256": "88ebb55b16648ea685f22d8f388bad4b2c393aa76f6ca7d920084a12754d7670",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/video/RRD ONE HOUR CLASSIC 2018 - DAY 1 - CS Torbole.mp4",
+   "type": "video",
+   "sha256": "b41cf2df71d9501c16d26a1487289b23767eadbe7df15eaa3b57cf85ed028dc2",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/video/RRD One Hour Classic 2018 - DAY 2-CS Torbole.mp4",
+   "type": "video",
+   "sha256": "c131812fdb0aebf04543241a378828b3af6778d1b8816aecaa52cc652e6486fd",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/internationaal/2018/one-hour-classic-2018/media/video/RRD One Hour Classic 2018 - RECORD DAY - CS Torbole.mp4",
+   "type": "video",
+   "sha256": "18e5da648fbb26072aad8066f7f3cd53746837454be6e95281c0f7863cbee5f4",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  }
+ ]
+}

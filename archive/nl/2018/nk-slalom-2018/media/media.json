@@ -1,0 +1,18 @@
+{
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "local-only/nl/2018/nk-slalom-2018/media/video/GA5cmBilCquZ9SgBADa3YUaYF_IlbmdjAAAF.mp4",
+   "type": "video",
+   "sha256": "925d3897dd31ad6a42097d9693dba404d71c71834d69db4a0ab6e9a54dbeca45",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  }
+ ]
+}

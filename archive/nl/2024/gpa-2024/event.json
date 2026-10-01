@@ -1,0 +1,42 @@
+{
+ "event_slug": "gpa-2024",
+ "scope": "nl",
+ "name": "Grote Prijs van Aalsmeer 2024",
+ "short_name": "GPA 2024",
+ "series": "Grote Prijs van Aalsmeer",
+ "organizer": "Wind Surf Club Aalsmeer (WSCA)",
+ "year": 2024,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2024-10-06",
+ "location": "Westeinderplassen, Aalsmeer",
+ "discipline": "long_distance",
+ "participants_reported": 109,
+ "classes": [
+  "gpa-2024-long-distance-iq-foil",
+  "gpa-2024-long-distance-windsurfer-lt-kona-one",
+  "gpa-2024-long-distance-open-windsurf-max-9-5m2",
+  "gpa-2024-long-distance-wing",
+  "gpa-2024-long-distance-windfoil-max-9-5m2",
+  "gpa-2024-long-distance-raceboard-max-9-5m2",
+  "gpa-2024-long-distance-rookies"
+ ],
+ "metadata_sources": [
+  {
+   "name": "Webscorer: Grote Prijs van Aalsmeer 2024",
+   "url": "https://www.webscorer.com/racealldetails?raceid=368597&lang=nl&topn=3",
+   "used_for": "datum (zondag 6 oktober 2024), organisator, aantal deelnemers (109); locatie op Webscorer: Kudelstaart"
+  },
+  {
+   "name": "WSCA: Grote Prijs Aalsmeer",
+   "url": "https://www.wsca.nl/grote-prijs-aalsmeer/",
+   "used_for": "organisator WSCA, gehouden sinds 1993, formaat '2,5 uur plus een ronde', rangschikking op rondes en bij gelijk aantal op tijd laatste ronde"
+  }
+ ],
+ "notes": [
+  "GPA = Grote Prijs van Aalsmeer, jaarlijks door Wind Surf Club Aalsmeer georganiseerd sinds 1993 (bron: WSCA). Scope nl: Nederlandse organisator en locatie.",
+  "Formaat volgens de wedstrijdregels 2025: wedstrijdduur 2u30 plus het rondje afmaken; de finishlijn opent 2u30 na start.",
+  "Bron heet 'overall uitslag' maar bevat een uitslag per klasse; er is geen overall-ranglijst over klassen heen.",
+  "Webscorer meldt 109 deelnemers; de PDF bevat 110 regels (inclusief 20 DNF-regels). Het verschil van 1 is niet verklaard; de Webscorer-uitslag zelf is nog niet als bronbestand binnen en niet naast deze uitslag gelegd."
+ ]
+}

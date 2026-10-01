@@ -1,0 +1,32 @@
+{
+ "event_slug": "nk-slalom-2019-stop2",
+ "scope": "nl",
+ "name": "NK Slalom 2019 - stop 2 (finale)",
+ "series": "NK Slalom",
+ "year": 2019,
+ "stop_number": 2,
+ "stops_known": 2,
+ "date": "2019-09-21",
+ "date_end": "2019-09-22",
+ "location": "Almere (Marina Muiderzand / IJmeerdijk)",
+ "classes": [
+  "nk-2019-stop2-slalom-heren",
+  "nk-2019-stop2-slalom-dames",
+  "nk-2019-stop2-slalom-jeugd"
+ ],
+ "notes": [
+  "Uitslagen uit het Windtulip Results Archive."
+ ],
+ "metadata_sources": [
+  {
+   "name": "windsurfing.nl: Wedstrijddata NK Slalom 2019",
+   "url": "https://www.windsurfing.nl/index.php/windsurf-evenementen-kalender/item/5975-wedstrijddata-nk-slalom-2019",
+   "used_for": "2 stops: 4 & 5 mei Stavoren, 21 & 22 september Almere"
+  },
+  {
+   "name": "Ridersguide: Uitslag Nederlands Kampioenschap Windsurf Slalom",
+   "url": "https://ridersguide.nl/uitslag-nederlands-kampioenschap-windsurf-slalom/",
+   "used_for": "21-22 september 2019 Almere, finale van het NK; kampioenen De Geus (dames), Daldorf (heren), Kooij (jeugd)"
+  }
+ ]
+}

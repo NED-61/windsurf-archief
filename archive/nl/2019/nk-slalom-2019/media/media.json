@@ -1,0 +1,109 @@
+{
+ "schema_version": 1,
+ "files": [
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/59418064_1241192372716604_4015726788909989888_n.jpg",
+   "type": "foto",
+   "sha256": "d88708b19c89431d16eeb4996f4c1478f61a4a484be69eefd4f02af467bc0019",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/WhatsApp Image 2024-02-25 at 18.59.41 (1).jpeg",
+   "type": "foto",
+   "sha256": "63d6628cad4c8bfcb485921dccfc5c1528d86e17e1c52207a21c4e056548be8c",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/WhatsApp Image 2024-02-25 at 18.59.41.jpeg",
+   "type": "foto",
+   "sha256": "e67b9c1c3ef2e3d4b795026e864a9bc4933e2e40974b4396435f5c1a4c991a13",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (10).jpeg",
+   "type": "foto",
+   "sha256": "3c7d4759b28b78ea2498193948dbc2aebf53b0f5b2c5b60ae2c433ade3b400ca",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (11).jpeg",
+   "type": "foto",
+   "sha256": "22353c2d3c2636b2ed5c7a192417f05a0a548ccf62dcd4e2e93abdb2fcc70c9d",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (7).jpeg",
+   "type": "foto",
+   "sha256": "a6430231add2f339b7a2b1f49df74b21a30031e0f84fd9fadee33ecaa571cdd4",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (8).jpeg",
+   "type": "foto",
+   "sha256": "866e53c442c8931562a4635c3830268e6b693e2bb38c5e3661ea630281b7de63",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  },
+  {
+   "file": "local-only/nl/2019/nk-slalom-2019/media/foto/WhatsApp Image 2024-02-25 at 19.07.59 (9).jpeg",
+   "type": "foto",
+   "sha256": "bde3a3b4e41f634863e5305114cd37e4a44f0c85414ab0f7aa92f8069ee97240",
+   "caption": null,
+   "credit": null,
+   "rights": null,
+   "source_url": null,
+   "people": [],
+   "classes": [],
+   "in_repo": false,
+   "reason": "rechten onbekend: bestand blijft buiten git (local-only/)"
+  }
+ ]
+}
