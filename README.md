@@ -19,9 +19,19 @@ tools/                                   importers en controlescripts
 ```
 `<evenement>` = `{reeks}-{jaar}` of `{reeks}-{jaar}-stop{n}`, bijvoorbeeld `nk-slalom-2017`. `<id>` = `{reeks}-{jaar}[-stop{n}]-{discipline}-{klasse}`.
 
+## Media (foto's en video's)
+Horen bij een evenement: `archive/<scope>/<jaar>/<evenement>/media/foto|video/`, met manifest `media/media.json` (bijschrift, maker, rechten, bron-URL, bijbehorende uitslagen). Regels:
+- Zonder bekende rechten of toestemming, of groter dan 95 MB, gaat een bestand **niet in git**: het blijft lokaal in `local-only/` (staat in `.gitignore`) en alleen de manifestregel gaat mee. Let op: `local-only/` wordt dus niet door GitHub geback-upt; maak daar zelf een kopie van.
+- Geen namen bij foto's van minderjarigen zonder expliciete toestemming (`people` blijft leeg tenzij zeker en toegestaan).
+- Grote video's: Git LFS of extern hosten (keuze nog te maken bij de eerste grote video).
+
+## Backlog
+`data/backlog/windtulip-index.txt` bevat de 173 bekende Windtulip-dashboards (ID 3 t/m 243, categorie afgeleid uit de titel). `python3 tools/archive.py backlog-import` zet ze als `wacht` in de registry (scope nl of internationaal); `INDEX.md` toont de aantallen. Fase 1 is Nederland: alleen scope `nl` wordt omgezet naar JSON.
+
 ## Gereedschap
 - `python3 tools/archive.py inbox`: wat is nieuw in de inbox
-- `python3 tools/archive.py register ... --event archive/<jaar>/<evenement>`: bron registreren; het bestand wordt uit de inbox naar `bronnen/` verplaatst en met hash vastgelegd (status verwerkt, gedeeltelijk, wacht, onleesbaar, overgeslagen)
+- `python3 tools/archive.py register ... --event archive/<scope>/<jaar>/<evenement>`: bron registreren (ook `--scope`, `--channel`, `--kind`; bij media `--caption --credit --rights --source-url`); het bestand wordt uit de inbox naar `bronnen/` (of `media/`) verplaatst en met hash vastgelegd (status verwerkt, gedeeltelijk, wacht, onleesbaar, overgeslagen)
+- `python3 tools/archive.py backlog-import`: Windtulip-index als openstaand in de registry zetten
 - `python3 tools/archive.py verify`: controleert dat elk geregistreerd origineel er nog is en niet gewijzigd is; meldt bronnen waarvan alleen een link of transcriptie bestaat
 - `python3 tools/archive.py index`: INDEX.md opnieuw genereren
 - `python3 tools/build_elimination.py <transcriptie>`: eliminatie-uitslag bouwen en controleren

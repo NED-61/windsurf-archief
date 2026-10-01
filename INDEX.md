@@ -10,7 +10,6 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 ## Openstaand
 
-- **wacht**: NK Slalom 2017 - Vrouwen (Windtulip dashboard 14) (zusterdashboard van 13, nog niet opgehaald)
 - **gedeeltelijk**: NK Slalom 2017 - Mannen: eliminatie 1 (verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag))
 - **gedeeltelijk**: NK Slalom 2017 - Mannen: eliminatie 2 (verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag))
 - **gedeeltelijk**: NK Slalom 2017 - Mannen: eliminatie 3 (verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag))
@@ -23,4 +22,6 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **gedeeltelijk**: NK Slalom 2017 - Mannen: eliminatie 10 (verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag))
 - **gedeeltelijk**: NK Slalom 2017 - Mannen: eliminatie 11 (verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag))
 
-_Registry: 13 bron(nen), 1 verwerkt._
+**Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 36× nl, totaal 173.
+
+_Registry: 185 bron(nen), 1 verwerkt._

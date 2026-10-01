@@ -1,0 +1,181 @@
+# Windtulip Results Archive: index van alle dashboards (ID <= 243), uit projectdocumenten
+# windtulip-index-0-200.md en windtulip-index-200-400.md (samenvatting via WebFetch, steekproefsgewijs gecontroleerd).
+# Datum en locatie staan niet op Windtulip. Categorie is afgeleid uit de titel, niet geverifieerd:
+#   A = Nederlands (scope nl)   B = internationaal IFCA windsurf   K = waarschijnlijk kite   G = Duitse cup
+#   Y = YOG-kwalificatie (onduidelijk)   W = wingfoil (waarschijnlijk niet relevant)
+# Alle ID's boven 243 gaven 404; 66 ID's tussen 0 en 200 staan niet in de index (16 getest = 404).
+# URL-patroon: https://windtulip.nl/home/results_dashboard/<id>/total_results/
+# id | cat | titel
+3 | B | 2017 IFCA GP - Austria
+5 | B | 2017 IFCA GP - Foil – Race
+13 | A | NK 2017 - NK Slalom 2017 - Mannen
+14 | A | NK 2017 - NK Slalom 2017 - Vrouwen
+15 | B | IFCA Slalom Worlds
+16 | B | IFCA Slalom Women Worlds
+17 | B | IFCA Slalom Men Europeans
+18 | K | IKA Europeans 2017 - Boys
+19 | K | IKA Europeans 2017 - Girls
+20 | K | IKA Europeans 2017 - Open
+21 | B | 2017 IFCA GP - Croatia - Men
+22 | B | 2017 IFCA GP - Mauritius
+24 | B | 2017 IFCA GP - Croatia - Woman
+27 | K | 2017 TT:R Open Weifang - Boys
+28 | K | 2017 TT:R Open Weifang - Woman and Girls
+29 | K | 2017 TT:R Open Weifang - Men
+31 | K | 2017 TT:R Pingtan Open - Boys
+32 | K | 2017 TT:R Open World Championship - Women & Girls
+33 | K | 2017 TT:R Open World Championship - Men
+34 | K | 2017 TT:R Youth World Championships - Boys
+35 | K | 2017 TT:R Youth World Championships - Girls
+37 | Y | 2018 YOG Qualifier NA/Caribbean - BOYS
+38 | Y | 2018 YOG Qualifier NA/Caribbean - GIRLS
+39 | Y | 2018 YOG Qualifier South/Central America - BOYS
+40 | Y | 2018 YOG Qualifier South/Central America - GIRLS
+41 | Y | YOG Qualification Event Marocco - European Boys
+42 | Y | YOG Qualification Event Marocco - European Girls
+43 | Y | YOG Qualification Event Marocco - African Boys
+44 | Y | YOG Qualification Event Marocco - African Girls
+46 | Y | YOG Qualification Event Thailand - Asia Boys
+47 | Y | YOG Qualification Event Thailand - Asia Girls
+48 | Y | YOG Qualification Event Thailand - Oceania Girls & Boys
+50 | K | 2018 TT:R Youth Worlds - Boys
+51 | K | 2018 TT:R Youth Worlds - Girls
+52 | B | IFCA slalom Europeans 2018 - Men
+53 | B | 2018 Y&M Slalom Worlds Torbole - Junior
+54 | B | 2018 Y&M Slalom Worlds Torbole - Youth
+55 | B | 2018 Y&M Slalom Worlds Torbole - Girls
+56 | B | 2018 Y&M Slalom Worlds Torbole - Master
+58 | K | TT:R open slalom worlds - Men
+59 | K | Pump-kite Trophy - Men
+60 | K | TT:R open slalom worlds - Woman
+61 | K | Pump-kite Trophy - Woman
+63 | B | GP Croatia & JYM Europeans - Youth
+64 | B | GP Croatia & JYM Europeans - Men & Master
+65 | B | GP Croatia & JYM Europeans - Women
+66 | B | IFCA Slalom Worlds 2018 - Men
+67 | B | IFCA Slalom Worlds 2018 - Women
+70 | A | NK 2018 - Men
+71 | A | NK 2018 - Woman
+72 | B | 2018 Paracas IFCA SA & PA Slalom Championship - Men + Master + Grand Master
+73 | B | 2018 Paracas IFCA SA & PA Slalom Championship - Junior Men + Women
+78 | A | NK Windsurf Slalom 2019 - Mannen
+79 | A | NK Windsurf Slalom 2019 - Vrouwen
+80 | B | 2019 IFCA ABC Tour - Curacao - YOUTH U21
+81 | B | 2019 IFCA ABC Tour - Curacao - U15+U17
+82 | B | 2019 IFCA ABC Tour - Curacao - Men Open
+83 | B | 2019 IFCA ABC Tour - Curacao - Women
+84 | B | 2019 IFCA ABC Tour - Aruba - YOUTH U21
+85 | B | 2019 IFCA ABC Tour - Aruba - Men Open
+86 | B | 2019 IFCA ABC Tour - Aruba - Women
+87 | B | 2019 IFCA ABC Tour - Aruba - U15+U17
+88 | B | 2019 IFCA ABC Tour - Aruba - U13
+89 | B | 2019 IFCA ABC Tour - Bonaire - YOUTH U21
+90 | B | 2019 IFCA ABC Tour - Bonaire - U17
+91 | B | 2019 IFCA ABC Tour - Bonaire - U15
+92 | B | 2019 IFCA ABC Tour - Bonaire - Women
+93 | B | 2019 IFCA ABC Tour - Bonaire - Master 35+
+95 | B | 2019 IFCA SLALOM WORLDS SYLT
+96 | B | 2019 Y&W SLALOM WORLDS LA TRANCHE - JUNIOR Girls
+97 | B | 2019 Y&W SLALOM WORLDS LA TRANCHE - JUNIOR Boys
+98 | B | 2019 Y&W SLALOM WORLDS LA TRANCHE - YOUTH
+99 | B | 2019 Y&W SLALOM WORLDS LA TRANCHE - WOMEN
+100 | B | 2019 IFCA SLALOM EUROPENS PAROS - MEN
+101 | B | 2019 IFCA SLALOM EUROPENS PAROS - WOMEN
+103 | B | 2019 IFCA JUNIOR, YOUTH & MASTERS SLALOM EUROPEAN CHAMPIONSHIPS - YOUTH
+104 | B | 2019 IFCA JUNIOR, YOUTH & MASTERS SLALOM EUROPEAN CHAMPIONSHIPS - FEMALE YOUTH
+105 | B | 2019 IFCA JUNIOR, YOUTH & MASTERS SLALOM EUROPEAN CHAMPIONSHIPS - JUNIOR
+106 | B | 2019 IFCA JUNIOR, YOUTH & MASTERS SLALOM EUROPEAN CHAMPIONSHIPS - FEMALE JUNIOR
+110 | B | 2019 IFCA JUNIOR, YOUTH & MASTERS SLALOM EUROPEAN CHAMPIONSHIPS - MASTERS
+111 | A | NK Windsurf Slalom 2019 v2 - Heren
+112 | A | NK Windsurf Slalom 2019 v2 - Dames
+113 | A | NK Windsurf Slalom 2019 v2 - Jeugd
+128 | B | 2019 IFCA SLALOM SA BRAZIL - SA WOMEN
+130 | B | 2019 IFCA SLALOM SA BRAZIL - SA MEN
+132 | A | NK 2020 - Heren
+133 | A | NK 2020 - Jeugd
+137 | A | NK 2020 - Dames
+139 | A | NK 2020 - Fun Foil Dames
+140 | A | NK 2020 - Fun Foil Heren
+141 | A | NK 2020 - Fun Foil Jeugd
+146 | B | 2021 IFCA JUNIOR YOUTH SLALOM WORLDS - YOUTH MEN
+147 | B | 2021 IFCA JUNIOR YOUTH SLALOM WORLDS - YOUTH WOMEN
+148 | B | 2021 IFCA JUNIOR YOUTH SLALOM WORLDS - JUNIOR BOY
+149 | B | 2021 IFCA JUNIOR YOUTH SLALOM WORLDS - JUNIOR GIRL
+152 | A | NK Slalom 2021 - Heren
+153 | A | NK Slalom 2021 - Dames
+154 | A | NK Slalom 2021 - Jeugd
+156 | B | THE EXCELON 2021 IFCA SLALOM WORLDS - MEN
+157 | B | THE EXCELON 2021 IFCA SLALOM WORLDS - WOMEN
+160 | B | 2021 PANNONIA IFCA J,Y & M SLALOM EUROPEANS - YOUTH MEN
+161 | B | 2021 PANNONIA IFCA J,Y & M SLALOM EUROPEANS - JUNIOR BOYS
+162 | B | 2021 PANNONIA IFCA J,Y & M SLALOM EUROPEANS - MASTER
+163 | B | 2021 PANNONIA IFCA J,Y & M SLALOM EUROPEANS - GIRLS
+164 | B | 2021 IFCA SLALOM EUROPEAN CHAMPIONSHIPS - MEN
+165 | B | 2021 IFCA SLALOM EUROPEAN CHAMPIONSHIPS - WOMEN
+166 | A | NK Slalom 2021 - FUN Men oktober
+167 | A | NK Slalom 2021 - Fun Women oktober
+168 | A | NK Slalom 2022 - Heren
+170 | A | NK Slalom 2022 - Dames
+171 | A | NK Slalom 2022 - Jeugd
+172 | B | 2022 IFCA South & Pan-American - OPEN
+173 | B | 2022 IFCA South & Pan-American - YOUTH
+174 | B | 2022 IFCA South & Pan-American - JUNIOR
+177 | B | 2022 IFCA JYM SLALOM EUROS - MASTERS
+178 | B | 2022 IFCA JYM SLALOM EUROS - YOUTH MEN
+179 | B | 2022 IFCA JYM SLALOM EUROS - JUNIOR BOYS
+180 | B | 2022 IFCA JYM SLALOM EUROS - JUNIOR + YOUTH GIRLS
+181 | B | MEDICANA 2022 IFCA JYM WORLDS - Girls Junior
+182 | B | MEDICANA 2022 IFCA JYM WORLDS - Girls Youth
+183 | B | MEDICANA 2022 IFCA JYM WORLDS - Masters
+184 | B | MEDICANA 2022 IFCA JYM WORLDS - Boys Junior
+185 | B | MEDICANA 2022 IFCA JYM WORLDS - Boys Youth
+186 | B | 2022 IFCA SLALOM WORLD - MEN
+187 | B | 2022 IFCA SLALOM WORLD - WOMEN
+188 | A | DAM-X 2022 - J | Chicks/Girls/Ladies
+189 | A | DAM-X 2022 - oud I | Masters 35+ (groep 2)
+191 | A | DAM-X 2022 - G | Boys t/m 14
+192 | A | DAM-X 2022 - H | Guys 15 t/m 18
+193 | A | DAM-X 2022 - F | Men 19+
+194 | A | DAM-X 2022 - oud E | Masters 35+ (groep 1)
+195 | A | DAM-X 2022 - K | Profleet Men & Women
+196 | A | DAM-X 2022 - L | Jeugd pro fleet
+199 | A | DAM-X 2022 - E | Masters 35+ (groep A)
+200 | A | DAM-X 2022 - I | Masters 35+ (groep B)
+201 | B | 2023 IFCA Pan-American Open Windsurfing Championships - 19th ProKids Bonaire - Youth + Open
+202 | B | 2023 IFCA Pan-American Open Windsurfing Championships - 19th ProKids Bonaire - Junior Boys
+203 | B | 2023 IFCA Pan-American Open Windsurfing Championships - 19th ProKids Bonaire - Junior Girls
+204 | A | NK Slalom 2023 - Heren
+205 | A | NK Slalom 2023 - Dames
+206 | A | NK Slalom 2023 - Heren jeugd
+209 | B | 2023 IFCA J&Y WORLDS - Youth Men
+211 | B | 2023 IFCA J&Y WORLDS - Junior Boys
+212 | B | 2023 IFCA J&Y WORLDS - Junior Girl
+213 | B | 2023 IFCA J&Y WORLDS - Youth Women
+214 | B | IFCA SLALOM EUROPEANS - Men Fin
+215 | B | IFCA SLALOM EUROPEANS - Men Foil
+216 | B | IFCA SLALOM EUROPEANS - Women Fin
+217 | G | Regatta: Multivan Windsurf Cup St.Peter-Ording - Foil
+218 | G | Regatta: Multivan Windsurf Cup St.Peter-Ording - Fin
+219 | G | Multivan Surf Cup Sylt - Men Foil
+220 | G | Multivan Surf Cup Sylt - Men Fin
+221 | B | Formula Foil European Championship Heiligenhafen - Foil racing
+222 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FIN YOUTH MEN & WOMEN
+223 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FIN JUNIOR BOY
+224 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FIN JUNIOR GIRL
+225 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FIN MASTER
+226 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FOIL YOUTH MEN & WOMEN
+227 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FOIL JUNIOR BOY
+228 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FOIL JUNIOR GIRL
+229 | B | JYM SLALOM EUROPEAN CHAMPIONSHIPS - FOIL MASTER
+230 | B | California Summer Opening Sylt - Foil
+231 | B | California Summer Opening Sylt - Finne
+233 | G | ProAm Windsurf Cup Surendorf - Foil
+234 | G | ProAm Windsurf Cup Surendorf - Finne
+236 | G | ProAm Windsurf Cup Strande - Finne
+237 | G | ProAm Windsurf Cup Strande - Foil
+238 | G | Pro Am Windsurf Cup Wittensee - Foil
+239 | G | Pro Am Windsurf Cup Wittensee - Finne
+240 | W | Pro Am Windsurf Cup Wittensee - Wingfoilen
+241 | G | Pro Am Windsurf Cup Wittensee - Overall
+242 | G | California Windsurf Cup Pelzerhaken - Foil
+243 | G | California Windsurf Cup Pelzerhaken - Finne
