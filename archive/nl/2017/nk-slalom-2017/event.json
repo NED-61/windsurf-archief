@@ -1,0 +1,17 @@
+{
+ "event_slug": "nk-slalom-2017",
+ "scope": "nl",
+ "name": "NK Slalom 2017",
+ "series": "NK Slalom",
+ "year": 2017,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "location": null,
+ "classes": [
+  "nk-2017-slalom-heren"
+ ],
+ "notes": [
+  "scope nl: NK = Nederlands georganiseerd kampioenschap"
+ ]
+}

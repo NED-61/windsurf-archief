@@ -1,0 +1,4 @@
+# Originelen nooit door git laten aanpassen (regeleindes): hash moet gelijk blijven
+archive/**/bronnen/** -text
+archive/**/media/** -text
+inbox/** -text

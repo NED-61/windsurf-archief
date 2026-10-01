@@ -1,0 +1,241 @@
+# Transcriptie van https://windtulip.nl/home/results_dashboard/13/ (NK Slalom 2017 - Mannen)
+# Opgehaald 2026-10-01 via WebFetch (geen ruwe HTML beschikbaar). Handmatig omgezet naar compacte notatie.
+#
+# [registry] sleutel | gepubliceerde zeilnummer | gepubliceerde naam | divisie
+# [totals]   sleutel | 11 eliminatiepunten | totaal | netto   (volgorde = gepubliceerde eindrangschikking, rank na '#')
+# [elim N]   groepregel:  NAAM: tokens
+#   token = [rank:]sleutel[/remark]   (rank weggelaten = positie in de lijst)
+#   @RANK/REMARK zet rank+remark voor alle volgende tokens (voor de staart van niet-gestarte riders)
+
+[meta]
+id | nk-2017-slalom-heren
+scope | nl
+event_slug | nk-slalom-2017
+event_name | NK Slalom 2017
+series | NK Slalom
+year | 2017
+stop_number | -
+discipline | slalom
+gender | men
+class | Heren (divisies Heren, Jeugd, Master)
+source_name | Windtulip Results Archive
+source_url | https://windtulip.nl/home/results_dashboard/13/total_results/
+elim_url_base | https://windtulip.nl/home/results_dashboard/13/
+retrieved | 2026-10-01
+source_file | archive/nl/2017/nk-slalom-2017/bronnen/windtulip-13-total_results.html
+verified_extra | totaaluitslag vergeleken met origineel html (45 rijen: naam, zeilnummer, divisie, punten, totaal, netto): geen afwijkingen
+
+[registry]
+ned69 | Ned 69 | Jordy Vonk | Heren
+aru4 | Aru 4 | Ethan Westera | Heren
+ned2 | Ned 2 | Adriaan van Rijsselberge | Heren
+ned191 | Ned 191 | Ingmar Daldorf | Heren
+ned46 | Ned 46 | Ennio Dal Pont | Jeugd
+ned777 | Ned 777 | Teade de Jong | Heren
+ned34 | Ned 34 | Adri Keet | Heren
+ned99 | Ned 99 | Jakob Kooij | Jeugd
+ned262 | Ned 262 | Coen Swijnenburg | Heren
+ned184 | Ned 184 | Thom vd Sande | Heren
+ned92 | Ned 92 | Bas Mulder | Heren
+ned35 | Ned 35 | Maurits Franken | Jeugd
+ned61 | Ned 61 | Max Baaijen | Jeugd
+ned95 | Ned 95 | Peter Mulder | Heren
+ned207 | Ned 207 | Marco van der Leer | Heren
+ned0 | NED-0 | Pieter Bijl | Heren
+ned189 | Ned 189 | Bart Waardijk | Heren
+cur28 | CUR-28 | Milan Gielingh | Heren
+ned199 | Ned 199 | Vincent Jansen | Master
+ned77 | Ned 77 | Pieter Bartlema | Heren
+ned225 | Ned 225 | Jelle van der Veen | Jeugd
+ned8 | Ned 8 | Dorian van Rijsselberge | Heren
+ned538 | Ned 538 | Pieter Eliens | Heren
+ned169 | Ned 169 | Milan Kuppens | Jeugd
+ger786 | Ger 786 | Rolf Hauf | Master
+per20 | Per 20 | Alessio Botten Samiento | Jeugd
+aru7 | Aru 7 | Mark Tjon | Heren
+ned28 | Ned 28 | Tomas van Zelst | Heren
+ned118 | Ned 118 | Robert de Leeuw | Heren
+ned771 | NED-771 | Peter Marinelli | Master
+ned703 | Ned 703 | Martijn van Noord | Jeugd
+ned127 | Ned 127 | Twan Verseput | Heren
+ned760 | Ned 760 | Erwin van Logchem | Heren
+aru11 | Aru 11 | Maarten Oussoren | Master
+ned177 | Ned 177 | Rolf de Ruiter | Heren
+ned175 | Ned 175 | Fabian van Stijn | Jeugd
+ned247 | Ned 247 | Joost van Vucht | Master
+ned111 | Ned 111 | Jeroen Giesen | Heren
+ned226 | Ned 226 | Arie de Bie | Jeugd
+ned277 | Ned 277 | Bob Rietbergen | Master
+ned222 | Ned 222 | Erik Smeets | Master
+x57 | x57 | Bart Snippert | Heren
+aru9 | Aru 9 | Mack van der Eerenbeemt | Heren
+ned152 | Ned 152 | Joris Bosman | Master
+ned53 | Ned 53 | Anton Geesink | Master
+
+[totals]
+1 | ned69 | 0.7 0.7 2 2 0.7 0.7 2 0.7 2 4 2 | 17.5 | 9.5
+2 | aru4 | 2 3 0.7 3 5 4 0.7 8 6 0.7 0.7 | 33.8 | 14.8
+3 | ned2 | 3 6 4 4 3 2 3 3 3 2 3 | 36 | 22
+4 | ned191 | 8 4 21 0.7 2 5 4 4 0.7 3 4 | 56.4 | 22.4
+5 | ned46 | 4 5 5 5 4 6 9 2 7 9 8 | 64 | 38
+6 | ned777 | 5 7 8 6 6 7 6 11 8 6 5 | 75 | 48
+7 | ned34 | 11 12 11 10 7 10 8 9 12 10 13 | 113 | 76
+8 | ned99 | 16 11 7 7 10 13 12 18 9 11 15 | 129 | 80
+9 | ned262 | 12 9 9 20 9 9 10 12 10 45 22 | 167 | 80
+10 | ned184 | 17 19 16 12 17 11 11 10 11 45 7 | 176 | 95
+11 | ned92 | 13 17 6 9 11 45 17 14 13 14 17 | 176 | 97
+12 | ned35 | 14 13 24 23 12 16 13 15 17 13 11 | 171 | 107
+13 | ned61 | 19 21 25 25 14 15 45 13 15 8 6 | 206 | 111
+14 | ned95 | 45 45 14 22 20 14 16 16 14 12 12 | 230 | 118
+15 | ned207 | 18 20 17 21 16 18 14 7 16 17 16 | 180 | 121
+16 | ned0 | 45 45 45 45 45 3 5 6 4 8 19 | 270 | 135
+17 | ned189 | 22 26 19 14 21 19 45 19 18 16 10 | 229 | 136
+18 | cur28 | 45 45 45 45 8 8 45 5 5 5 20 | 276 | 141
+19 | ned199 | 26 29 28 45 13 21 18 20 20 19 14 | 253 | 151
+20 | ned77 | 45 45 15 13 16 17 7 17 45 45 24 | 289 | 154
+21 | ned225 | 45 22 27 15 45 45 45 45 19 16 9 | 333 | 198
+22 | ned8 | 10 2 3 8 45 45 45 45 45 45 45 | 338 | 203
+23 | ned538 | 8 10 13 20 18 45 45 45 45 45 45 | 339 | 204
+24 | ned169 | 20 16 45 45 22 22 19 45 45 45 21 | 345 | 210
+25 | ger786 | 45 28 45 24 45 20 45 45 45 18 18 | 378 | 243
+26 | per20 | 6 8 45 11 45 45 45 45 45 45 45 | 385 | 250
+27 | aru7 | 15 15 23 20 45 45 45 45 45 45 45 | 388 | 253
+28 | ned28 | 9 14 12 45 45 45 45 45 45 45 45 | 395 | 260
+29 | ned118 | 24 24 20 16 45 45 45 45 45 45 45 | 399 | 264
+30 | ned771 | 45 45 45 45 19 12 16 45 45 45 45 | 407 | 272
+31 | ned703 | 21 25 26 26 45 45 45 45 45 45 45 | 413 | 278
+32 | ned127 | 45 45 10 20 45 45 45 45 45 45 45 | 435 | 300
+33 | ned760 | 25 27 29 45 45 45 45 45 45 45 45 | 441 | 306
+34 | aru11 | 45 18 22 45 45 45 45 45 45 45 45 | 445 | 310
+35 | ned177 | 45 45 18 27 45 45 45 45 45 45 45 | 450 | 315
+36 | ned175 | 45 45 45 45 45 45 45 45 45 45 23 | 473 | 338
+37 | ned247 | 45 23 45 45 45 45 45 45 45 45 45 | 473 | 338
+38 | ned111 | 23 45 45 45 45 45 45 45 45 45 45 | 473 | 338
+39 | ned226 | 45 30 45 45 45 45 45 45 45 45 45 | 480 | 345
+40 | ned277 | 45 45 45 45 45 45 45 45 45 45 45 | 495 | 360
+40 | ned222 | 45 45 45 45 45 45 45 45 45 45 45 | 495 | 360
+40 | x57 | 45 45 45 45 45 45 45 45 45 45 45 | 495 | 360
+40 | aru9 | 45 45 45 45 45 45 45 45 45 45 45 | 495 | 360
+40 | ned152 | 45 45 45 45 45 45 45 45 45 45 45 | 495 | 360
+40 | ned53 | 45 45 45 45 45 45 45 45 45 45 45 | 495 | 360
+
+[elim 1]
+H1: ned191 ned35 ned99
+H2: aru4 ned2 ned46 ned199 ger786 ned175
+H3: ned777 ned34 ned92 ned538 ned184 ned61 ned189 ned225
+H4: ned69 ned262 ned169 ned207 ned28
+H5: aru4 ned2 ned191 ned46 ned99 ned35
+H6: ned69 ned777 ned538 ned34 ned262 ned92
+A: ned69 aru4 ned2 ned46 ned777 per20 8:ned538/OCS 8:ned191/OCS
+B: ned28 ned8 ned34 ned262 ned92 ned35 aru7 ned99
+C: ned184 ned207 ned61 ned169 ned703 ned189 ned111 ned118 ned760 10:ned199/RDG(26.0) @29/DNF ned127 aru11 ned177 ned247 ned226 ned222 ned152 ned277 ned53 x57 aru9 @29/DNC ned0 ned771 cur28 @29/DNS ned77 ned95 @29/DNF ger786 ned225 ned175
+
+[elim 2]
+H1: ned2 ned34 ned35 ned61 ned199 ned189
+H2: aru4 ned538 ned207 ger786 ned225/DNF
+H3: ned777 ned46 ned262 ned169 ned92
+H4: ned191 ned69 ned99 ned28 ned184 ned175
+H5: aru4 ned2 ned538 ned35 ned34/OCS
+H6: ned69 ned191 ned777 ned46 ned28 ned99 ned262 ned169
+A: ned69 ned8 aru4 ned191 ned46 ned2 ned777 per20
+B: ned262 ned538 ned99 ned34 ned35 ned28 aru7 ned169/DNS
+C: ned92 aru11 ned184 ned207 ned61 ned225 ned247 ned118 ned703 ned189 ned760 ger786 ned199 ned226 @29/DNF ned53 ned152 aru9 x57 ned277 ned222 ned111 ned127 ned177 @29/DNC ned0 ned771 cur28 @29/DNS ned175 ned77 ned95
+
+[elim 3]
+H1: ned2 aru4 ned99 ned184 ned28 ned225
+H2: ned538 ned777 ned189
+H3: ned46 ned34 ned77 ned207 ned35 ned61 ger786 ned199 ned191/DNF
+H4: ned69 ned92 ned262 ned95 6:ned169/DNF 6:ned175/DNF
+H5: aru4 ned2 ned777 ned99 ned184 ned189 8:ned28/DNF 8:ned538/OCS
+H6: ned69 ned46 ned92 ned262 ned95 ned34 ned77 ned207/DNS
+A: aru4 ned69 ned8 ned2 ned46 ned92 ned99 ned777 ned262 ned127
+B: ned34 ned28 ned538 ned95 ned77 ned184 ned207 ned177 ned189 ned118
+C: ned191 aru11 aru7 ned35 ned61 ned703 ned225 ned199 ned760 @25/DNF aru9 x57 ned53 ned277 ned152 ned222 ned226 ned247 ned111 per20 @25/DNC ned0 ned771 cur28 @25/DNS ger786 ned169 ned175
+
+[elim 4]
+H1: ned34 ned225 ned189 ned92 ned95 ned175/DNF
+H2: ned69 ned99 ned77
+H3: ned191 ned2 ned46 ned538 7:ned199/DNF 7:ned28/DNF 7:ned169/DNF
+H4: aru4 ned184 ned262 ned777 ned207 ned61 ned35 ger786/DNF
+H5: ned69 ned34 ned99 ned92 ned77 ned189 ned225
+H6: ned2 aru4 ned191 ned46 ned777 ned538 ned184 ned262/DNF
+A: ned191 ned69 aru4 ned2 ned46 ned777 ned99 ned8 ned92 ned34
+B: per20 ned184 ned77 ned189 ned225 ned118 10:ned127/DNF 10:aru7/DNF 10:ned538/DNF 10:ned262/DNF
+C: ned207 ned95 ned35 ger786 ned61 ned703 ned177 @25/DNF ned277 ned760 ned222 ned53 ned226 ned152 x57 ned247 aru11 aru9 ned111 @25/DNC ned0 ned771 cur28 @25/DNS ned199 ned28 ned169 ned175
+
+[elim 5]
+H1: aru4 ned77 cur28 ned777 ned538 ger786
+H2: ned69 ned35 ned262 ned99 ned771 ned169 ned184/OCS
+H3: ned2 ned46 ned61 ned199 ned189 7:ned0/DNF 7:ned225/DNF
+H4: ned191 ned34 ned92 ned207 ned95 7:ned175/DNF 7:ned28/DNF
+H5: ned69 aru4 cur28 ned777 ned262 ned77 ned35 ned99
+H6: ned2 ned191 ned46 ned34 ned61 ned92 ned199 ned207/DNF
+A: ned69 ned191 ned2 ned46 aru4 ned777 ned34 cur28
+B: ned262 ned99 ned92 ned35 ned199 ned61 8:ned207/DNF 8:ned77/OCS
+C: ned184 ned538 ned771 ned95 ned189 ned169 @29/DNC ned152 aru11 x57 aru9 ned222 ned277 per20 ned118 ned760 ned226 ned8 ned53 ned703 ned111 ned247 ned127 aru7 ned177 @29/DNF ned0 ger786 ned28 ned175 ned225
+
+[elim 6]
+H1: ned2 ned777 ned61 ned771 7:ned92/DSQ 7:ned225/DNF 7:ned169/DNF
+H2: ned191 ned0 ned34 ned99 ned538 ned207 ned28/DNF
+H3: aru4 ned46 ned95 ned35 ned189 ned199
+H4: ned69 ned262 cur28 ned184 ned77 7:ned175/DNF 7:ger786/DNF
+H5: ned2 ned191 ned0 ned777 ned99 ned34 ned771 ned61
+H6: ned69 aru4 ned46 cur28 ned262 ned184 ned95 ned35/DNF
+A: ned69 ned2 ned0 aru4 ned191 ned46 ned777 cur28/DNF
+B: ned262 ned34 ned184 ned771 ned99 ned95 ned61 ned35
+C: ned77 ned207 ned189 ger786 ned199 ned169 @29/DNC aru9 ned152 x57 aru11 ned222 per20 ned277 ned118 ned760 ned226 ned8 ned53 ned703 ned247 ned111 ned127 aru7 ned177 @29/DNF ned28 ned175 ned92 ned538 ned225
+
+[elim 7]
+H1: ned46 ned0 ned184 ned95 7:ned189/DNF 7:ned225/DNF 7:ned169/DNF
+H2: ned2 ned34 ned777 ned207 7:ned538/DNF 7:ned61/DNF 7:ned28/DNF
+H3: aru4 ned99 ned191 ned771 6:ned199/DNF 6:ger786/DNF
+H4: ned69 ned77 ned262 ned35 ned92 7:ned175/DNF 7:cur28/DNF
+H5: ned0 ned34 ned2 ned777 ned184 ned95 8:ned207/DNF 8:ned46/DNF
+H6: ned69 aru4 ned191 ned77 ned262 ned35 ned99 ned771/DNF
+A: aru4 ned69 ned2 ned191 ned0 ned777 ned77 ned34
+B: ned46 ned262 ned184 ned99 ned35 ned207 8:ned95/DNF 8:ned771/DNF
+C: ned92 ned199 ned169 @29/DNC ned152 aru9 x57 ned222 ned277 per20 ned118 ned760 ned226 ned53 ned8 aru11 ned703 ned247 ned111 ned127 aru7 ned177 @29/DNF ger786 ned28 ned175 ned189 ned225 ned61 ned538 cur28
+
+[elim 8]
+H1: aru4 cur28 ned191 ned95 ned77 7:ned175/DNF 7:ned99/OCS
+H2: ned2 ned184 ned34 ned61 7:ned189/DNF 7:ned771/DNF 7:ned169/DNF
+H3: ned207 ned777 ned35 ned0 6:ger786/DNF 6:ned28/DNF
+H4: ned69 ned46 ned92 ned262 ned225 ned199 ned538/DNS
+H5: ned191 ned2 aru4 cur28 ned34 ned184 ned61 ned95
+H6: ned69 ned0 ned46 ned207 ned777 ned35 ned92 ned262/DNF
+A: ned69 ned46 ned2 ned191 cur28 ned0 ned207 aru4/DNF
+B: ned34 ned184 ned777 ned262 ned61 ned92 ned35 ned95
+C: ned77 ned99 ned189 ned199 @29/DNF ger786 ned538 ned169 ned771 ned28 ned225 ned175 @29/DNC ned118 ned760 ned226 ned8 ned53 ned703 ned152 aru11 aru9 x57 ned111 ned247 ned277 ned222 per20 aru7 ned127 ned177
+
+[elim 9]
+H1: ned0 ned2 ned777 ned92 ned189 ned169/DNF
+H2: ned46 ned184 ned99 ned207 ned77 ned35
+H3: ned191 cur28 ned262 ned61 ned199 ger786
+H4: ned69 aru4 ned34 ned95 ned225 ned175/DNF
+H5: ned0 ned46 ned777 ned2 ned99 ned184 ned207 ned92
+H6: ned69 ned191 aru4 cur28 ned34 ned61 ned95 ned262
+A: ned191 ned69 ned2 ned0 cur28 aru4 ned46 ned777
+B: ned99 ned262 ned184 ned34 ned92 ned95 ned61 ned207
+C: ned35 ned189 ned225 ned199 @29/DNS ger786 ned169 ned175 ned77 @29/DNC per20 ned118 ned760 ned226 ned8 ned538 ned53 ned152 ned703 aru9 x57 aru11 ned247 ned771 ned111 ned222 ned28 ned277 aru7 ned127 ned177
+
+[elim 10]
+H1: aru4 ned2 ned95 ned225 6:ned169/DNF 6:ned184/DNF
+H2: ned69 ned46 ned189 ned61 6:ned262/DNF 6:ned175/DNF
+H3: ned0 ned34 cur28 ned92 ned199 ger786/DNS
+H4: ned191 ned777 ned99 ned35 6:ned207/DNF 6:ned77/DNF
+H5: ned69 aru4 ned2 ned61 ned46 ned95 8:ned225/DNF 8:ned189/DNF
+H6: ned0 ned777 cur28 ned191 ned92 ned99 ned35 ned34/DNF
+A: aru4 ned2 ned191 ned69 cur28 ned777 8:ned61/OCS 8:ned0/DNS
+B: ned46 ned34 ned99 ned95 ned35 ned92 8:ned225/DNS 8:ned189/DNS
+C: ned207 ger786 ned199 @29/DNS ned184 ned77 ned175 ned262 ned169 @29/DNC per20 ned118 ned760 ned226 ned8 ned538 ned53 ned152 ned703 aru9 x57 aru11 ned247 ned771 ned111 ned222 ned28 ned277 aru7 ned127 ned177
+
+[elim 11]
+H1: ned191 ned99 ned777 ned199 ned92 ned175/OCS
+H2: ned34 ned2 ned225 ned61 ned262 ger786
+H3: ned69 ned95 ned35 ned184 cur28 ned77
+H4: ned46 aru4 ned189 ned207 ned0 ned169/OCS
+H5: ned191 ned777 ned61 ned2 ned34 ned225 ned199 ned99/OCS
+H6: ned69 aru4 ned46 ned184 ned35 ned207 ned95 ned189
+A: aru4 ned69 ned2 ned191 ned777 ned61 ned184 ned46
+B: ned225 ned189 ned35 ned95 ned34 ned199 ned99 ned207/OCS
+C: ned92 ger786 ned0 cur28 ned169 ned262 ned175 ned77 @29/DNC ned277 ned771 ned111 ned127 aru7 ned28 ned152 ned703 x57 ned760 ned222 ned8 ned538 aru9 per20 ned53 ned177 aru11 ned118 ned226 ned247

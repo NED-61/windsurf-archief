@@ -1,0 +1,200 @@
+{
+ "schema_version": 1,
+ "items": [
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/14/total_results/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "wacht",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Vrouwen (Windtulip dashboard 14)",
+   "notes": "zusterdashboard van 13, nog niet opgehaald",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "inbox/windtulip-13-total_results.html",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-01",
+   "sha256": "d8d0ff9b7cee33b2ab114960a89637da268972c333687c49500cfcc48dfdb513",
+   "archived": "archive/nl/2017/nk-slalom-2017/bronnen/windtulip-13-total_results.html",
+   "title": "NK Slalom 2017 - Mannen: totaaluitslag (origineel html, door gebruiker opgeslagen)",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "Origineel van https://windtulip.nl/home/results_dashboard/13/total_results/. Eindtabel (45 rijen: naam, zeilnummer, divisie, 11 eliminatiepunten, totaal, netto) 100% gelijk aan transcriptie. Eliminatiepagina 1-11 nog alleen als transcriptie.",
+   "url": "https://windtulip.nl/home/results_dashboard/13/total_results/",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/1/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 1",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/2/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 2",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/3/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 3",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/4/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 4",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/5/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 5",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/6/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 6",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/7/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 7",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/8/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 8",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/9/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 9",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/10/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 10",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  },
+  {
+   "ref": "https://windtulip.nl/home/results_dashboard/13/11/",
+   "received": "2026-10-01",
+   "type": "web",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-01",
+   "title": "NK Slalom 2017 - Mannen: eliminatie 11",
+   "outputs": [
+    "archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json"
+   ],
+   "notes": "verwerkt uit WebFetch-transcriptie; origineel html nog niet opgeslagen (indirect gecontroleerd via totaaluitslag)",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag"
+  }
+ ]
+}

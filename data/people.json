@@ -1,0 +1,590 @@
+{
+ "schema_version": 1,
+ "people": [
+  {
+   "id": "adri-keet",
+   "name": "Adri Keet",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Adri Keet",
+     "sail": "Ned 34",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "adriaan-van-rijsselberge",
+   "name": "Adriaan van Rijsselberge",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Adriaan van Rijsselberge",
+     "sail": "Ned 2",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "alessio-botten-samiento",
+   "name": "Alessio Botten Samiento",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Alessio Botten Samiento",
+     "sail": "Per 20",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "anton-geesink",
+   "name": "Anton Geesink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Anton Geesink",
+     "sail": "Ned 53",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "arie-de-bie",
+   "name": "Arie de Bie",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Arie de Bie",
+     "sail": "Ned 226",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "bart-snippert",
+   "name": "Bart Snippert",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Bart Snippert",
+     "sail": "x57",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "bart-waardijk",
+   "name": "Bart Waardijk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Bart Waardijk",
+     "sail": "Ned 189",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "bas-mulder",
+   "name": "Bas Mulder",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Bas Mulder",
+     "sail": "Ned 92",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "bob-rietbergen",
+   "name": "Bob Rietbergen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Bob Rietbergen",
+     "sail": "Ned 277",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "coen-swijnenburg",
+   "name": "Coen Swijnenburg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Coen Swijnenburg",
+     "sail": "Ned 262",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "dorian-van-rijsselberge",
+   "name": "Dorian van Rijsselberge",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Dorian van Rijsselberge",
+     "sail": "Ned 8",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "ennio-dal-pont",
+   "name": "Ennio Dal Pont",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Ennio Dal Pont",
+     "sail": "Ned 46",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "erik-smeets",
+   "name": "Erik Smeets",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Erik Smeets",
+     "sail": "Ned 222",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "erwin-van-logchem",
+   "name": "Erwin van Logchem",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Erwin van Logchem",
+     "sail": "Ned 760",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "ethan-westera",
+   "name": "Ethan Westera",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Ethan Westera",
+     "sail": "Aru 4",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "fabian-van-stijn",
+   "name": "Fabian van Stijn",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Fabian van Stijn",
+     "sail": "Ned 175",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "ingmar-daldorf",
+   "name": "Ingmar Daldorf",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Ingmar Daldorf",
+     "sail": "Ned 191",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "jakob-kooij",
+   "name": "Jakob Kooij",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Jakob Kooij",
+     "sail": "Ned 99",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "jelle-van-der-veen",
+   "name": "Jelle van der Veen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Jelle van der Veen",
+     "sail": "Ned 225",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "jeroen-giesen",
+   "name": "Jeroen Giesen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Jeroen Giesen",
+     "sail": "Ned 111",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "joost-van-vucht",
+   "name": "Joost van Vucht",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Joost van Vucht",
+     "sail": "Ned 247",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "jordy-vonk",
+   "name": "Jordy Vonk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Jordy Vonk",
+     "sail": "Ned 69",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "joris-bosman",
+   "name": "Joris Bosman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Joris Bosman",
+     "sail": "Ned 152",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "maarten-oussoren",
+   "name": "Maarten Oussoren",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Maarten Oussoren",
+     "sail": "Aru 11",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "mack-van-der-eerenbeemt",
+   "name": "Mack van der Eerenbeemt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Mack van der Eerenbeemt",
+     "sail": "Aru 9",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "marco-van-der-leer",
+   "name": "Marco van der Leer",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Marco van der Leer",
+     "sail": "Ned 207",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "mark-tjon",
+   "name": "Mark Tjon",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Mark Tjon",
+     "sail": "Aru 7",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "martijn-van-noord",
+   "name": "Martijn van Noord",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Martijn van Noord",
+     "sail": "Ned 703",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "maurits-franken",
+   "name": "Maurits Franken",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Maurits Franken",
+     "sail": "Ned 35",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "max-baaijen",
+   "name": "Max Baaijen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Max Baaijen",
+     "sail": "Ned 61",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "milan-gielingh",
+   "name": "Milan Gielingh",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Milan Gielingh",
+     "sail": "CUR-28",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "milan-kuppens",
+   "name": "Milan Kuppens",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Milan Kuppens",
+     "sail": "Ned 169",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "peter-marinelli",
+   "name": "Peter Marinelli",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Peter Marinelli",
+     "sail": "NED-771",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "peter-mulder",
+   "name": "Peter Mulder",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Peter Mulder",
+     "sail": "Ned 95",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "pieter-bartlema",
+   "name": "Pieter Bartlema",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Pieter Bartlema",
+     "sail": "Ned 77",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "pieter-bijl",
+   "name": "Pieter Bijl",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Pieter Bijl",
+     "sail": "NED-0",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "pieter-eliens",
+   "name": "Pieter Eliens",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Pieter Eliens",
+     "sail": "Ned 538",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "robert-de-leeuw",
+   "name": "Robert de Leeuw",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Robert de Leeuw",
+     "sail": "Ned 118",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "rolf-de-ruiter",
+   "name": "Rolf de Ruiter",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Rolf de Ruiter",
+     "sail": "Ned 177",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "rolf-hauf",
+   "name": "Rolf Hauf",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Rolf Hauf",
+     "sail": "Ger 786",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "teade-de-jong",
+   "name": "Teade de Jong",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Teade de Jong",
+     "sail": "Ned 777",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "thom-vd-sande",
+   "name": "Thom vd Sande",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Thom vd Sande",
+     "sail": "Ned 184",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "tomas-van-zelst",
+   "name": "Tomas van Zelst",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Tomas van Zelst",
+     "sail": "Ned 28",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "twan-verseput",
+   "name": "Twan Verseput",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Twan Verseput",
+     "sail": "Ned 127",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "vincent-jansen",
+   "name": "Vincent Jansen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2017-slalom-heren",
+     "name": "Vincent Jansen",
+     "sail": "Ned 199",
+     "division": "Master"
+    }
+   ]
+  }
+ ]
+}
