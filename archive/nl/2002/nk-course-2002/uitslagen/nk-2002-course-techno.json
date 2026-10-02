@@ -1,0 +1,190 @@
+{
+ "schema_version": 1,
+ "id": "nk-2002-course-techno",
+ "event": {
+  "name": "NK Course 2002",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2002,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Techno",
+  "class_label_published": "Techno Fleet"
+ },
+ "format": {
+  "type": "series_standings",
+  "races_sailed": 18,
+  "discards": 4,
+  "races_to_count": 14,
+  "points_published": "alleen eindpunten (Pts) per rider",
+  "stops": [],
+  "scoring_observed": "lage punten; netto na weglatingen",
+  "no_result_net": 224.0
+ },
+ "source": {
+  "name": "NVW Infoblad maart 2003: Eindstand ONK 2002",
+  "url": null,
+  "file": "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf",
+  "files": [
+   "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf"
+  ],
+  "type": "pdf",
+  "retrieved": "2026-10-02",
+  "pages": [
+   37
+  ],
+  "method": "pdfplumber: tekst-pdf, regels per fleet, uit de losse pagina's 36 en 37 van het Infoblad (met iLovePDF afgesplitst; de tekst is gelijk aan die van het volledige Infoblad, dat vanwege adressen en telefoonnummers buiten git blijft)",
+  "verified": "15 riders in de eindstand; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op punten; geen dubbele namen; alleen de eindpunten zijn gepubliceerd: totaal en weglatingen niet te herrekenen; hoogste score 224.0 = 14 tellende races x (15 riders + 1): 1 rider(s) zonder resultaat in een tellende race"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Techno Fleet - Sailed: 18 Discards: 4' in de 'Eindstand ONK 2002'.",
+  "De bron geeft per rider alleen de eindpunten (Pts), geen punten per race en geen statuscodes. Pts is de netto-score na weglatingen: de hoogste score is precies het aantal tellende races maal (aantal riders + 1).",
+  "De kolom Class (Male, Female, Espoir, Master) staat in division. Een letter achter het zeilnummer (B, D, L) is zo gepubliceerd.",
+  "In de Techno-fleet staan ook riders met Class 'Female'; 'Ilse Hoogeveen' staat in de bron als 'Male'. Niet aangepast.",
+  "Telt niet mee: 1 ingeschreven rider(s) met de hoogst mogelijke eindscore (geen resultaat in een tellende race; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "dorian-van-rijsselberge",
+   "sail": "820",
+   "name": "Dorian v Rijsselberghe",
+   "division": "Male",
+   "total": null,
+   "net": 14.0
+  },
+  {
+   "rank": 2,
+   "person": "stevan-v-broekhoven",
+   "sail": "72",
+   "name": "Stevan v Broekhoven",
+   "division": "Male",
+   "total": null,
+   "net": 40.0
+  },
+  {
+   "rank": 3,
+   "person": "teade-de-jong",
+   "sail": "777",
+   "name": "Teade de Jong",
+   "division": "Male",
+   "total": null,
+   "net": 45.0
+  },
+  {
+   "rank": 4,
+   "person": "dirk-snoek",
+   "sail": "4",
+   "name": "Dirk Snoek",
+   "division": "Male",
+   "total": null,
+   "net": 72.0
+  },
+  {
+   "rank": 5,
+   "person": "julia-snoek",
+   "sail": "172",
+   "name": "Julia Snoek",
+   "division": "Female",
+   "total": null,
+   "net": 96.0
+  },
+  {
+   "rank": 6,
+   "person": "bram-bekaert",
+   "sail": "200",
+   "name": "Bram Bekaert",
+   "division": "Male",
+   "total": null,
+   "net": 156.0
+  },
+  {
+   "rank": 7,
+   "person": "robby-de-wit",
+   "sail": "1",
+   "name": "Robby de Wit",
+   "division": "Male",
+   "total": null,
+   "net": 161.0
+  },
+  {
+   "rank": 8,
+   "person": "ilse-hoogeveen",
+   "sail": "3",
+   "name": "Ilse Hoogeveen",
+   "division": "Male",
+   "total": null,
+   "net": 166.0
+  },
+  {
+   "rank": 9,
+   "person": "martijn-kornman",
+   "sail": "11",
+   "name": "Martijn Kornman",
+   "division": "Male",
+   "total": null,
+   "net": 167.0
+  },
+  {
+   "rank": 10,
+   "person": "martijn-kooiman",
+   "sail": "0",
+   "name": "Martijn Kooiman",
+   "division": "Male",
+   "total": null,
+   "net": 172.0
+  },
+  {
+   "rank": 11,
+   "person": "juul-snoek",
+   "sail": "7000",
+   "name": "Juul Snoek",
+   "division": "Female",
+   "total": null,
+   "net": 179.0
+  },
+  {
+   "rank": 12,
+   "person": "bjorn-vd-meet",
+   "sail": "17",
+   "name": "Bjorn vd Meet",
+   "division": "Male",
+   "total": null,
+   "net": 184.0
+  },
+  {
+   "rank": 13,
+   "person": "eva-van-zoomeren",
+   "sail": "2",
+   "name": "Eva van Zoomeren",
+   "division": "Female",
+   "total": null,
+   "net": 197.0
+  },
+  {
+   "rank": 14,
+   "person": "joost-zweistra",
+   "sail": "7",
+   "name": "Joost Zweistra",
+   "division": "Male",
+   "total": null,
+   "net": 210.0
+  },
+  {
+   "rank": 15,
+   "person": null,
+   "sail": "6",
+   "name": "Thijs Westbroek",
+   "division": "Male",
+   "total": null,
+   "net": 224.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

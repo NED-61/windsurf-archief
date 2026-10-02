@@ -1,0 +1,31 @@
+{
+ "event_slug": "ronde-om-texel-2025",
+ "scope": "nl",
+ "name": "Ronde om Texel 2025",
+ "series": "Ronde om Texel",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2025-06-14",
+ "date_end": null,
+ "location": "Texel",
+ "discipline": "long_distance",
+ "classes": [
+  "ronde-om-texel-2025-long-distance-windsurf"
+ ],
+ "metadata_sources": [
+  {
+   "name": "watersport-tv: Ronde om Texel met uitdagende omstandigheden",
+   "url": "https://www.watersport-tv.nl/nw-31400-7-4631877/nieuws/ronde_om_texel_met_uitdagende_omstandigheden.html",
+   "used_for": "46e editie; bericht van 14 juni 2025 met de top 3 windsurf foil (Boswijk, Havik, Van den Brule); weinig wind, een deel van de foilers haalde de finish niet"
+  },
+  {
+   "name": "Windsurfvereniging Almere Centraal: Ronde om Texel gewonnen",
+   "url": "https://www.almerecentraal.nl/ronde-om-texel-gewonnen",
+   "used_for": "Merlijn Boswijk wint na ruim 4 uur en een kwartier (bericht van 15 juni 2025)"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'Results final - Windsurf long distance'. Datum: het uitslagbericht van watersport-tv is van zaterdag 14 juni 2025; de pdf is op 15 juni 2025 afgedrukt."
+ ]
+}

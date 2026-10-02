@@ -1,0 +1,22 @@
+{
+ "event_slug": "nk-slalom-2024",
+ "scope": "nl",
+ "name": "NK Slalom 2024",
+ "series": "NK Slalom",
+ "year": 2024,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "nk-2024-slalom-fin",
+  "nk-2024-slalom-foil"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uitslag uit twee pdf's 'Overall results: NK Slalom 2024' (Fin en Foil), afgedrukt op 20 oktober 2024 om 17:17 en 17:20. Datum en locatie staan niet in de bron; niet ingevuld.",
+  "De pdf's bevatten alleen de totaaluitslag met punten per eliminatie; heats en finales staan er niet in."
+ ]
+}

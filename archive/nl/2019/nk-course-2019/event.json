@@ -1,0 +1,22 @@
+{
+ "event_slug": "nk-course-2019",
+ "scope": "nl",
+ "name": "NK Course 2019",
+ "series": "NK Course",
+ "year": 2019,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2019-course-shortboard",
+  "nk-2019-course-raceboard"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Alleen de TUSSENSTAND van 16 juni 2019 is in het archief (Sailwave-pdf's van 16 juni 2019). De eindstand van het NK 2019 ontbreekt; data en locaties staan niet in de bron."
+ ],
+ "name_published": "Nederlands Kampioenschap Raceboard en Shortboard 2019"
+}

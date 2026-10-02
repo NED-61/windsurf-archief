@@ -1,0 +1,646 @@
+{
+ "schema_version": 1,
+ "id": "nk-2024-slalom-fin",
+ "event": {
+  "name": "NK Slalom 2024",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Fin (Open & Youth)",
+  "class_label_published": "NK Slalom 2024 - Fin (Open & Youth)",
+  "equipment": "fin"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 3,
+  "discards": [
+   1
+  ],
+  "heats_published": false,
+  "scoring_observed": "punten per eliminatie, winnaar = 0.0; hoogste score 32 = aantal riders (geen resultaat in die eliminatie; de bron toont geen statuscodes)",
+  "eliminations_without_points": [],
+  "divisions_published": {
+   "Senior (Men/Women)": "Senior (Men/Women)",
+   "Master": "Master over de age of 40 (born in or before 1983)",
+   "Youth U21": "Youth U21 (born in or after 2004)",
+   "Grandmaster": "Grandmaster over the age of 50 (born in or before 1973)",
+   "Junior U17": "Junior U17 (born in or after 2008)",
+   "Junior U13": "Junior U13 (born in or after 2012)",
+   "Junior U15": "Junior U15 (born in or after 2010)"
+  },
+  "no_result_points": 32.0
+ },
+ "source": {
+  "name": "Overallresults-NK-Slalom-2024-Fin-Open-Youth-20-10-2024-17_17.pdf",
+  "url": null,
+  "file": "archive/nl/2024/nk-slalom-2024/bronnen/Overallresults-NK-Slalom-2024-Fin-Open-Youth-20-10-2024-17_17.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-02",
+  "method": "pdfplumber: tabelcellen; weglatingen uit de tekstkleur (grijs) van de eliminatiepunten",
+  "verified": "32 riders in de totaaluitslag; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglating (grijs in de pdf); precies één weglating per rider, steeds de hoogste score; geen dubbele namen; hoogste score per eliminatie is 32 = aantal riders; 5 rider(s) met die score in alle eliminaties; heats en finales niet in de bron: punten per eliminatie niet uit finaleposities afgeleid"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Overall results: NK Slalom 2024 - Fin (Open & Youth)', afgedrukt op 20-10-2024 17:17. Datum en locatie staan niet in de bron; niet ingevuld.",
+  "Alleen de totaaluitslag: de bron bevat de punten per eliminatie (El.1 t/m El.3), totaal en netto, maar geen heats en finales.",
+  "De weggelaten score is in de pdf grijs gedrukt; dat is als discarded overgenomen.",
+  "Divisie zoals gepubliceerd, zonder de toelichting met geboortejaren; de volledige omschrijvingen staan één keer in format.divisions_published.",
+  "Namen zoals gepubliceerd (ook 'Thijs hanemaaijer', 'Brendan LORHO'). Bij een zeilnummercel met twee delen (bijvoorbeeld '223 / NED-92') staat het deel met landcode in sail en de volledige cel in sail_published.",
+  "Telt niet mee: 5 ingeschreven rider(s) met in elke eliminatie de hoogste score (geen resultaat; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "ingmar-daldorf",
+   "sail": "NED-191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    2.0,
+    0.0,
+    0.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 2.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "NED0-2",
+   "name": "Adriaan van Rijsselberghe",
+   "nationality": "NED",
+   "division": "Master",
+   "points": [
+    0.0,
+    2.0,
+    4.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 6.0,
+   "net": 2.0
+  },
+  {
+   "rank": 3,
+   "person": "brendan-lorho",
+   "sail": "FRA-113",
+   "name": "Brendan LORHO",
+   "nationality": "FRA",
+   "division": "Youth U21",
+   "points": [
+    3.0,
+    3.0,
+    2.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 8.0,
+   "net": 5.0
+  },
+  {
+   "rank": 4,
+   "person": "cyril-evrard",
+   "sail": "BEL-250",
+   "name": "Cyril Evrard",
+   "nationality": "BEL",
+   "division": "Senior (Men/Women)",
+   "points": [
+    6.0,
+    4.0,
+    5.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 15.0,
+   "net": 9.0
+  },
+  {
+   "rank": 5,
+   "person": "jelle-van-der-veen",
+   "sail": "11",
+   "name": "Jelle van der Veen",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    9.0,
+    6.0,
+    3.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 18.0,
+   "net": 9.0
+  },
+  {
+   "rank": 6,
+   "person": "thijs-hanemaaijer",
+   "sail": "NED-107",
+   "name": "Thijs hanemaaijer",
+   "nationality": "NED",
+   "division": "Youth U21",
+   "points": [
+    4.0,
+    7.0,
+    6.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 17.0,
+   "net": 10.0
+  },
+  {
+   "rank": 7,
+   "person": "sem-stroosma",
+   "sail": "NED-450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    7.0,
+    5.0,
+    8.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 20.0,
+   "net": 12.0
+  },
+  {
+   "rank": 8,
+   "person": "geert-beek-van",
+   "sail": "NED-525",
+   "name": "Geert van Beek",
+   "nationality": "NED",
+   "division": "Grandmaster",
+   "points": [
+    13.0,
+    8.0,
+    7.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 28.0,
+   "net": 15.0
+  },
+  {
+   "rank": 9,
+   "person": "bas-mulder",
+   "sail": "NED-92",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    5.0,
+    12.0,
+    14.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 31.0,
+   "net": 17.0,
+   "sail_published": "223 / NED-92"
+  },
+  {
+   "rank": 10,
+   "person": "max-shytikov",
+   "sail": "NED-507",
+   "name": "Max Shytikov",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    11.0,
+    9.0,
+    12.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 32.0,
+   "net": 20.0
+  },
+  {
+   "rank": 11,
+   "person": "diederik-leemans",
+   "sail": "NED-301",
+   "name": "Diederik Leemans",
+   "nationality": "NED",
+   "division": "Youth U21",
+   "points": [
+    10.0,
+    10.0,
+    13.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 33.0,
+   "net": 20.0
+  },
+  {
+   "rank": 12,
+   "person": "bendix-engemann",
+   "sail": "GER-1703",
+   "name": "Bendix Engemann",
+   "nationality": "GER",
+   "division": "Senior (Men/Women)",
+   "points": [
+    14.0,
+    13.0,
+    9.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 36.0,
+   "net": 22.0
+  },
+  {
+   "rank": 13,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED-259",
+   "name": "Bart Van Den Bogaart",
+   "nationality": "NED",
+   "division": "Youth U21",
+   "points": [
+    8.0,
+    15.0,
+    18.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 41.0,
+   "net": 23.0
+  },
+  {
+   "rank": 14,
+   "person": "peter-mulder",
+   "sail": "NED-95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    32.0,
+    14.0,
+    11.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 57.0,
+   "net": 25.0
+  },
+  {
+   "rank": 15,
+   "person": "milo-zaal",
+   "sail": "NED-303",
+   "name": "Milo Zaal",
+   "nationality": "NED",
+   "division": "Junior U17",
+   "points": [
+    16.0,
+    11.0,
+    17.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 44.0,
+   "net": 27.0
+  },
+  {
+   "rank": 16,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    17.0,
+    18.0,
+    10.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 45.0,
+   "net": 27.0
+  },
+  {
+   "rank": 17,
+   "person": "erwin-van-logchem",
+   "sail": "NED-760",
+   "name": "Erwin van Logchem",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    12.0,
+    32.0,
+    16.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 60.0,
+   "net": 28.0
+  },
+  {
+   "rank": 18,
+   "person": "jan-wim-becker",
+   "sail": "GER-876",
+   "name": "Jan Wim Becker",
+   "nationality": "GER",
+   "division": "Youth U21",
+   "points": [
+    15.0,
+    17.0,
+    15.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 47.0,
+   "net": 30.0
+  },
+  {
+   "rank": 19,
+   "person": "sebastiaan-penninga",
+   "sail": "NED-617",
+   "name": "Sebastiaan Penninga",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    20.0,
+    16.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 68.0,
+   "net": 36.0,
+   "sail_published": "111 / NED-617"
+  },
+  {
+   "rank": 20,
+   "person": "iris-gimpel",
+   "sail": "NED-567",
+   "name": "Iris Gimpel",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    21.0,
+    20.0,
+    19.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 60.0,
+   "net": 39.0
+  },
+  {
+   "rank": 21,
+   "person": "mikk-hillebrand",
+   "sail": "NED-330",
+   "name": "Mikk Hillebrand",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    18.0,
+    21.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 71.0,
+   "net": 39.0,
+   "sail_published": "XX / NED-330"
+  },
+  {
+   "rank": 22,
+   "person": "fos-cooper",
+   "sail": "NED-400",
+   "name": "Fos Cooper",
+   "nationality": "NED",
+   "division": "Junior U17",
+   "points": [
+    32.0,
+    19.0,
+    20.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 71.0,
+   "net": 39.0
+  },
+  {
+   "rank": 23,
+   "person": "melvin-jansen",
+   "sail": "NED-404",
+   "name": "Melvin Jansen",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    19.0,
+    22.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "total": 73.0,
+   "net": 41.0
+  },
+  {
+   "rank": 24,
+   "person": "mathijs-bronkhorst",
+   "sail": "NED-550",
+   "name": "Mathijs Bronkhorst",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    22.0,
+    24.0,
+    21.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 67.0,
+   "net": 43.0
+  },
+  {
+   "rank": 25,
+   "person": "marijn-schouten",
+   "sail": "NED-160",
+   "name": "Marijn Schouten",
+   "nationality": "NED",
+   "division": "Junior U13",
+   "points": [
+    32.0,
+    23.0,
+    22.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 77.0,
+   "net": 45.0
+  },
+  {
+   "rank": 26,
+   "person": "merijn-kegel",
+   "sail": "NED-511",
+   "name": "Merijn Kegel",
+   "nationality": "NED",
+   "division": "Master",
+   "points": [
+    23.0,
+    32.0,
+    32.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 87.0,
+   "net": 55.0
+  },
+  {
+   "rank": 27,
+   "person": "sara-de-kimpe",
+   "sail": "NED-170",
+   "name": "Sara de Kimpe",
+   "nationality": "NED",
+   "division": "Youth U21",
+   "points": [
+    24.0,
+    32.0,
+    32.0
+   ],
+   "discarded": [
+    2
+   ],
+   "total": 88.0,
+   "net": 56.0,
+   "sail_published": "M / NED-170"
+  },
+  {
+   "rank": 28,
+   "person": null,
+   "sail": "Ned 352",
+   "name": "Hidde Van der meer",
+   "nationality": "NED",
+   "division": "Youth U21",
+   "points": [
+    32.0,
+    32.0,
+    32.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 96.0,
+   "net": 64.0,
+   "counted": false
+  },
+  {
+   "rank": 28,
+   "person": null,
+   "sail": "NED-119",
+   "name": "Fianne van den brule",
+   "nationality": "NED",
+   "division": "Senior (Men/Women)",
+   "points": [
+    32.0,
+    32.0,
+    32.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 96.0,
+   "net": 64.0,
+   "counted": false
+  },
+  {
+   "rank": 28,
+   "person": null,
+   "sail": "NED-399",
+   "name": "Ron Cooper",
+   "nationality": "NED",
+   "division": "Grandmaster",
+   "points": [
+    32.0,
+    32.0,
+    32.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 96.0,
+   "net": 64.0,
+   "counted": false
+  },
+  {
+   "rank": 28,
+   "person": null,
+   "sail": "2011",
+   "name": "Neill chardet",
+   "nationality": "NED",
+   "division": "Junior U15",
+   "points": [
+    32.0,
+    32.0,
+    32.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 96.0,
+   "net": 64.0,
+   "counted": false
+  },
+  {
+   "rank": 28,
+   "person": null,
+   "sail": "NED-1969",
+   "name": "Raymond Weijt",
+   "nationality": "NED",
+   "division": "Grandmaster",
+   "points": [
+    32.0,
+    32.0,
+    32.0
+   ],
+   "discarded": [
+    1
+   ],
+   "total": 96.0,
+   "net": 64.0,
+   "counted": false
+  }
+ ],
+ "eliminations": [],
+ "detail": {}
+}

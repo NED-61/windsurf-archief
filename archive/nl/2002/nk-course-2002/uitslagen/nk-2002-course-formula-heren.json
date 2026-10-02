@@ -1,0 +1,637 @@
+{
+ "schema_version": 1,
+ "id": "nk-2002-course-formula-heren",
+ "event": {
+  "name": "NK Course 2002",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2002,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": "men",
+  "class": "Formula heren",
+  "class_label_published": "Formula (M) Fleet"
+ },
+ "format": {
+  "type": "series_standings",
+  "races_sailed": 18,
+  "discards": 4,
+  "races_to_count": 14,
+  "points_published": "alleen eindpunten (Pts) per rider",
+  "stops": [],
+  "scoring_observed": "lage punten; netto na weglatingen",
+  "no_result_net": 896.0
+ },
+ "source": {
+  "name": "NVW Infoblad maart 2003: Eindstand ONK 2002",
+  "url": null,
+  "file": "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-36.pdf",
+  "files": [
+   "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-36.pdf",
+   "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf"
+  ],
+  "type": "pdf",
+  "retrieved": "2026-10-02",
+  "pages": [
+   36,
+   37
+  ],
+  "method": "pdfplumber: tekst-pdf, regels per fleet, uit de losse pagina's 36 en 37 van het Infoblad (met iLovePDF afgesplitst; de tekst is gelijk aan die van het volledige Infoblad, dat vanwege adressen en telefoonnummers buiten git blijft)",
+  "verified": "63 riders in de eindstand; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op punten; geen dubbele namen; alleen de eindpunten zijn gepubliceerd: totaal en weglatingen niet te herrekenen; hoogste score 896.0 = 14 tellende races x (63 riders + 1): 15 rider(s) zonder resultaat in een tellende race"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Formula (M) Fleet - Sailed: 18 Discards: 4' in de 'Eindstand ONK 2002'.",
+  "De bron geeft per rider alleen de eindpunten (Pts), geen punten per race en geen statuscodes. Pts is de netto-score na weglatingen: de hoogste score is precies het aantal tellende races maal (aantal riders + 1).",
+  "De kolom Class (Male, Female, Espoir, Master) staat in division. Een letter achter het zeilnummer (B, D, L) is zo gepubliceerd.",
+  "Telt niet mee: 15 ingeschreven rider(s) met de hoogst mogelijke eindscore (geen resultaat in een tellende race; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "ron-ruiter",
+   "sail": "1111",
+   "name": "Ron Ruiter",
+   "division": "Male",
+   "total": null,
+   "net": 26.0
+  },
+  {
+   "rank": 2,
+   "person": "adri-keet",
+   "sail": "34",
+   "name": "Adri keet",
+   "division": "Male",
+   "total": null,
+   "net": 42.0
+  },
+  {
+   "rank": 3,
+   "person": "ramses-landman",
+   "sail": "72",
+   "name": "Ramses Landman",
+   "division": "Male",
+   "total": null,
+   "net": 55.0
+  },
+  {
+   "rank": 4,
+   "person": "dennis-littel",
+   "sail": "334",
+   "name": "Dennis Littel",
+   "division": "Male",
+   "total": null,
+   "net": 68.0
+  },
+  {
+   "rank": 5,
+   "person": "stefan-gideonse",
+   "sail": "119",
+   "name": "Stefan Gideonse",
+   "division": "Male",
+   "total": null,
+   "net": 71.0
+  },
+  {
+   "rank": 6,
+   "person": "jeroen-coppens",
+   "sail": "540",
+   "name": "Jeroen Coppens",
+   "division": "Male",
+   "total": null,
+   "net": 90.0
+  },
+  {
+   "rank": 7,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "82",
+   "name": "Adriaan v Rijsselberghe",
+   "division": "Espoir",
+   "total": null,
+   "net": 120.0
+  },
+  {
+   "rank": 8,
+   "person": "gerrij-ruiter",
+   "sail": "333",
+   "name": "Gerrij Ruiter",
+   "division": "Male",
+   "total": null,
+   "net": 135.0
+  },
+  {
+   "rank": 9,
+   "person": "alex-noordegraaf",
+   "sail": "76",
+   "name": "Alex Noordegraaf",
+   "division": "Male",
+   "total": null,
+   "net": 176.0
+  },
+  {
+   "rank": 10,
+   "person": "alexander-verhage",
+   "sail": "675",
+   "name": "Alexander Verhage",
+   "division": "Male",
+   "total": null,
+   "net": 185.0
+  },
+  {
+   "rank": 11,
+   "person": "remco-bakker",
+   "sail": "857",
+   "name": "Remco Bakker",
+   "division": "Male",
+   "total": null,
+   "net": 191.0
+  },
+  {
+   "rank": 12,
+   "person": "marc-de-jong",
+   "sail": "103",
+   "name": "Marc de Jong",
+   "division": "Male",
+   "total": null,
+   "net": 196.0
+  },
+  {
+   "rank": 13,
+   "person": "jesper-vestertrom",
+   "sail": "111 D",
+   "name": "Jesper Vestertrom",
+   "division": "Male",
+   "total": null,
+   "net": 236.0
+  },
+  {
+   "rank": 14,
+   "person": "sander-vd-vlis",
+   "sail": "389",
+   "name": "Sander vd Vlis",
+   "division": "Espoir",
+   "total": null,
+   "net": 245.0
+  },
+  {
+   "rank": 15,
+   "person": "pieter-eliens",
+   "sail": "538",
+   "name": "Pieter Eliens",
+   "division": "Male",
+   "total": null,
+   "net": 252.0
+  },
+  {
+   "rank": 16,
+   "person": "jurgen-piessens",
+   "sail": "594",
+   "name": "Jurgen Piessens",
+   "division": "Male",
+   "total": null,
+   "net": 252.0
+  },
+  {
+   "rank": 17,
+   "person": "leendert-van-gaalen",
+   "sail": "338",
+   "name": "Leendert van Gaalen",
+   "division": "Espoir",
+   "total": null,
+   "net": 255.0
+  },
+  {
+   "rank": 18,
+   "person": "ben-vd-steen",
+   "sail": "57",
+   "name": "Ben vd Steen",
+   "division": "Male",
+   "total": null,
+   "net": 257.0
+  },
+  {
+   "rank": 19,
+   "person": "christiaan-s-hungronje",
+   "sail": "443",
+   "name": "Christiaan S Hungronje",
+   "division": "Espoir",
+   "total": null,
+   "net": 269.0
+  },
+  {
+   "rank": 20,
+   "person": "markus-bouman",
+   "sail": "666",
+   "name": "Markus Bouman",
+   "division": "Espoir",
+   "total": null,
+   "net": 276.0
+  },
+  {
+   "rank": 21,
+   "person": "roy-van-koolwijk",
+   "sail": "97",
+   "name": "Roy van Koolwijk",
+   "division": "Male",
+   "total": null,
+   "net": 282.0
+  },
+  {
+   "rank": 22,
+   "person": "taco-faber",
+   "sail": "198",
+   "name": "Taco Faber",
+   "division": "Male",
+   "total": null,
+   "net": 284.0
+  },
+  {
+   "rank": 23,
+   "person": "robert-jan-van-velzen",
+   "sail": "240",
+   "name": "Robert-jan van Velzen",
+   "division": "Male",
+   "total": null,
+   "net": 319.0
+  },
+  {
+   "rank": 24,
+   "person": "evert-monsma",
+   "sail": "332",
+   "name": "Evert Monsma",
+   "division": "Espoir",
+   "total": null,
+   "net": 329.0
+  },
+  {
+   "rank": 25,
+   "person": "arne-marijn-elzes",
+   "sail": "330",
+   "name": "Arne Marijn Elzes",
+   "division": "Espoir",
+   "total": null,
+   "net": 368.0
+  },
+  {
+   "rank": 26,
+   "person": "anne-cnossen",
+   "sail": "665",
+   "name": "Anne Cnossen",
+   "division": "Espoir",
+   "total": null,
+   "net": 379.0
+  },
+  {
+   "rank": 27,
+   "person": "gregory-maes",
+   "sail": "312",
+   "name": "Gregory Maes",
+   "division": "Male",
+   "total": null,
+   "net": 388.0
+  },
+  {
+   "rank": 28,
+   "person": "renee-glasz",
+   "sail": "123",
+   "name": "Renee Glasz",
+   "division": "Male",
+   "total": null,
+   "net": 396.0
+  },
+  {
+   "rank": 29,
+   "person": "lieuwe-faber",
+   "sail": "498",
+   "name": "Lieuwe Faber",
+   "division": "Male",
+   "total": null,
+   "net": 408.0
+  },
+  {
+   "rank": 30,
+   "person": "douwe-jan-monsma",
+   "sail": "495",
+   "name": "Douwe Jan Monsma",
+   "division": "Espoir",
+   "total": null,
+   "net": 421.0
+  },
+  {
+   "rank": 31,
+   "person": "rene-dannenberg",
+   "sail": "80",
+   "name": "Rene Dannenberg",
+   "division": "Male",
+   "total": null,
+   "net": 441.0
+  },
+  {
+   "rank": 32,
+   "person": "tom-schenlimck",
+   "sail": "11",
+   "name": "Tom Schenlimck",
+   "division": "Male",
+   "total": null,
+   "net": 474.0
+  },
+  {
+   "rank": 33,
+   "person": "peter-heida",
+   "sail": "900",
+   "name": "Peter Heida",
+   "division": "Male",
+   "total": null,
+   "net": 478.0
+  },
+  {
+   "rank": 34,
+   "person": "wilko-dijkstra",
+   "sail": "315",
+   "name": "Wilko Dijkstra",
+   "division": "Male",
+   "total": null,
+   "net": 508.0
+  },
+  {
+   "rank": 35,
+   "person": "jaques-vd-hout",
+   "sail": "73",
+   "name": "Jaques vd Hout",
+   "division": "Male",
+   "total": null,
+   "net": 602.0
+  },
+  {
+   "rank": 36,
+   "person": "ronald-vd-poel",
+   "sail": "218",
+   "name": "Ronald vd Poel",
+   "division": "Male",
+   "total": null,
+   "net": 636.0
+  },
+  {
+   "rank": 37,
+   "person": "martin-hengst",
+   "sail": "4289",
+   "name": "Martin Hengst",
+   "division": "Male",
+   "total": null,
+   "net": 649.0
+  },
+  {
+   "rank": 38,
+   "person": "richard-konstapel",
+   "sail": "115",
+   "name": "Richard Konstapel",
+   "division": "Male",
+   "total": null,
+   "net": 656.0
+  },
+  {
+   "rank": 39,
+   "person": "edwin-de-koning",
+   "sail": "53",
+   "name": "Edwin Koning",
+   "division": "Male",
+   "total": null,
+   "net": 659.0
+  },
+  {
+   "rank": 40,
+   "person": "bob-rietbergen",
+   "sail": "727",
+   "name": "Bob Rietbergen",
+   "division": "Male",
+   "total": null,
+   "net": 674.0
+  },
+  {
+   "rank": 41,
+   "person": "robin-van-baarle",
+   "sail": "74",
+   "name": "Robin van Baarle",
+   "division": "Male",
+   "total": null,
+   "net": 688.0
+  },
+  {
+   "rank": 42,
+   "person": "marco-kraaijenzank",
+   "sail": "105",
+   "name": "Marco Kraaijenzank",
+   "division": "Espoir",
+   "total": null,
+   "net": 745.0
+  },
+  {
+   "rank": 43,
+   "person": "rick-roering",
+   "sail": "419",
+   "name": "Rick Roering",
+   "division": "Male",
+   "total": null,
+   "net": 763.0
+  },
+  {
+   "rank": 44,
+   "person": "marco-boone",
+   "sail": "1119",
+   "name": "Marco Boone",
+   "division": "Male",
+   "total": null,
+   "net": 766.0
+  },
+  {
+   "rank": 45,
+   "person": "lloyd-vd-velden",
+   "sail": "558",
+   "name": "Lloyd vd Velden",
+   "division": "Master",
+   "total": null,
+   "net": 776.0
+  },
+  {
+   "rank": 46,
+   "person": "dylan-de-jong",
+   "sail": "178",
+   "name": "Dylan de Jong",
+   "division": "Male",
+   "total": null,
+   "net": 779.0
+  },
+  {
+   "rank": 47,
+   "person": "wolfgang-verlaeckt",
+   "sail": "91",
+   "name": "Wolfgang Verlaeckt",
+   "division": "Espoir",
+   "total": null,
+   "net": 800.0
+  },
+  {
+   "rank": 48,
+   "person": "herman-vd-berg",
+   "sail": "971",
+   "name": "Herman vd Berg",
+   "division": "Male",
+   "total": null,
+   "net": 802.0
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "482",
+   "name": "Bas Lacroix",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "441",
+   "name": "Gerard Rotteveel",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "111 B",
+   "name": "Stijn de Pauw",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "144",
+   "name": "Patrick de Cauwer",
+   "division": "Master",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "52 B",
+   "name": "Patrick v Hoof",
+   "division": "Master",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "504",
+   "name": "Sven Akerboom",
+   "division": "Espoir",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "79",
+   "name": "Thorvald Verlaeckt",
+   "division": "Espoir",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "126",
+   "name": "Robby Herman",
+   "division": "Espoir",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "146 B",
+   "name": "Jean Marc De Bruyn",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "12",
+   "name": "Koen Sonck",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "87",
+   "name": "Emanuel Geeroms",
+   "division": "Espoir",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "73",
+   "name": "Bart vd Voorde",
+   "division": "Espoir",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "153",
+   "name": "Bart Branders",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "529",
+   "name": "Roger van Tongeren",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  },
+  {
+   "rank": 49,
+   "person": null,
+   "sail": "456",
+   "name": "Ramon Schoenmaker",
+   "division": "Male",
+   "total": null,
+   "net": 896.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

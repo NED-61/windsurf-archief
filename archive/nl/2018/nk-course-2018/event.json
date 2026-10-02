@@ -9,10 +9,16 @@
  "date": null,
  "date_end": null,
  "location": null,
- "classes": [],
+ "classes": [
+  "nk-2018-course-shortboard"
+ ],
  "notes": [
   "Metadata uit de bulklevering (inbox/bulk/2018/NK Course); niet geverifieerd tegen een officiële bron.",
   "Bulkmap 2018: mapnamen 'NK Course' en 'NK Slalom' kloppen met de media (foto's foil-courseracen, video slalom); de Info.txt-bestanden waren tussen de twee mappen verwisseld en zijn op inhoud toegewezen.",
-  "Info.txt: 'Hele jaar 2018'; geen losse datum of locatie bekend. Geen uitslag in het archief (alleen foto's)."
- ]
+  "Info.txt: 'Hele jaar 2018'; geen losse datum of locatie bekend.",
+  "Uitslag gepubliceerd als 'NEDERLANDSKAMPIOENSHAP SHORTBOARD 2018 - Overall klassement' (Sailwave, pdf van 31 oktober 2018): 12 races over meerdere wedstrijddagen. Data en locaties van de wedstrijddagen staan niet in de bron."
+ ],
+ "discipline": "course_race",
+ "metadata_sources": [],
+ "name_published": "Nederlands Kampioenschap Shortboard 2018"
 }

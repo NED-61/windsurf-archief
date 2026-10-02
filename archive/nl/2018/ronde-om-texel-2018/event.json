@@ -9,9 +9,26 @@
  "date": "2018-06-16",
  "date_end": null,
  "location": "Texel",
- "classes": [],
+ "classes": [
+  "ronde-om-texel-2018-long-distance-windsurf"
+ ],
  "notes": [
   "Metadata uit Info.txt van de eigen verzameling van de repo-eigenaar (niet geverifieerd tegen een officiële bron).",
-  "Info.txt noemt dit 'Ronde van Texel'; de reeks heet in 2019 'Ronde om Texel'. Datum volgens Info.txt, niet geverifieerd."
- ]
+  "Info.txt noemt dit 'Ronde van Texel'; de reeks heet in 2019 'Ronde om Texel'. Datum volgens Info.txt, niet geverifieerd.",
+  "Gepubliceerd als 'Uitslag NK Long Distance windsurfen' (open Nederlands kampioenschap long distance). Datum 16 juni 2018 volgens de Info.txt uit de eigen verzameling; het Clubracer-artikel van 19 juni 2018 noemt alleen 'zaterdag'."
+ ],
+ "discipline": "long_distance",
+ "metadata_sources": [
+  {
+   "name": "roundtexel.com: Uitslag NK Long Distance windsurfen (Wayback Machine)",
+   "url": "https://web.archive.org/web/20190826002258/https://roundtexel.com/uitslag-nk-long-distance-windsurfen/",
+   "used_for": "uitslag; de pagina noemt zelf geen jaar"
+  },
+  {
+   "name": "Clubracer: Ronde om Texel 2018",
+   "url": "https://www.clubracer.be/2018/6/19/ronde-om-texel-2018-mooi-en-sportief-schouwspel-300-boten",
+   "used_for": "41e editie op zaterdag; 'Texel Dutch Open Championship Long Distance Windsurfing' gewonnen door Kiran Badloe in 02:42:00, voor Dorian van Rijsselberghe en Casper Bouman: bevestigt dat deze uitslag de editie 2018 is"
+  }
+ ],
+ "title": "NK Long Distance windsurfen"
 }

@@ -1,0 +1,100 @@
+{
+ "schema_version": 1,
+ "id": "nk-2002-course-formula-dames",
+ "event": {
+  "name": "NK Course 2002",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2002,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": "women",
+  "class": "Formula dames",
+  "class_label_published": "Formula (F) Fleet"
+ },
+ "format": {
+  "type": "series_standings",
+  "races_sailed": 13,
+  "discards": 3,
+  "races_to_count": 10,
+  "points_published": "alleen eindpunten (Pts) per rider",
+  "stops": [],
+  "scoring_observed": "lage punten; netto na weglatingen",
+  "no_result_net": 60.0
+ },
+ "source": {
+  "name": "NVW Infoblad maart 2003: Eindstand ONK 2002",
+  "url": null,
+  "file": "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf",
+  "files": [
+   "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf"
+  ],
+  "type": "pdf",
+  "retrieved": "2026-10-02",
+  "pages": [
+   37
+  ],
+  "method": "pdfplumber: tekst-pdf, regels per fleet, uit de losse pagina's 36 en 37 van het Infoblad (met iLovePDF afgesplitst; de tekst is gelijk aan die van het volledige Infoblad, dat vanwege adressen en telefoonnummers buiten git blijft)",
+  "verified": "5 riders in de eindstand; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op punten; geen dubbele namen; alleen de eindpunten zijn gepubliceerd: totaal en weglatingen niet te herrekenen; hoogste score 60.0 = 10 tellende races x (5 riders + 1): 2 rider(s) zonder resultaat in een tellende race"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Formula (F) Fleet - Sailed: 13 Discards: 3' in de 'Eindstand ONK 2002'.",
+  "De bron geeft per rider alleen de eindpunten (Pts), geen punten per race en geen statuscodes. Pts is de netto-score na weglatingen: de hoogste score is precies het aantal tellende races maal (aantal riders + 1).",
+  "De kolom Class (Male, Female, Espoir, Master) staat in division. Een letter achter het zeilnummer (B, D, L) is zo gepubliceerd.",
+  "Telt niet mee: 2 ingeschreven rider(s) met de hoogst mogelijke eindscore (geen resultaat in een tellende race; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "cindy-koopman",
+   "sail": "166",
+   "name": "Cindy Koopman",
+   "division": "Female",
+   "total": null,
+   "net": 10.0
+  },
+  {
+   "rank": 2,
+   "person": "wendy-littel",
+   "sail": "3341",
+   "name": "Wendy Littel",
+   "division": "Female",
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 3,
+   "person": "marieke-vd-vlis",
+   "sail": "381",
+   "name": "Marieke vd Vlis",
+   "division": "Female",
+   "total": null,
+   "net": 40.0
+  },
+  {
+   "rank": 4,
+   "person": null,
+   "sail": "160",
+   "name": "Bonnet Damienne",
+   "division": "Female",
+   "total": null,
+   "net": 60.0,
+   "counted": false
+  },
+  {
+   "rank": 4,
+   "person": null,
+   "sail": "405",
+   "name": "Corinne Piquer",
+   "division": "Female",
+   "total": null,
+   "net": 60.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

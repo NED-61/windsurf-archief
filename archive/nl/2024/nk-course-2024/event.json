@@ -1,0 +1,33 @@
+{
+ "event_slug": "nk-course-2024",
+ "scope": "nl",
+ "name": "NK Course 2024",
+ "series": "NK Course",
+ "year": 2024,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": "2024-09-29",
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2024-course-formula-foil"
+ ],
+ "metadata_sources": [
+  {
+   "name": "manage2sail: WSH ODC Windsurfing DIV2/FOIL/OPEN 2024",
+   "url": "https://www.manage2sail.com/en-be/event/WSHODCDIV2FOILOPEN2024",
+   "used_for": "evenement van 28 en 29 september 2024"
+  },
+  {
+   "name": "WaterSportvereniging Heeg: Division 2 Open Dutch Championship 2024",
+   "url": "https://wsheeg.nl/div2-odc-2024/",
+   "used_for": "WSH = WaterSportvereniging Heeg; ODC op 28 en 29 september 2024 op het Heegermeer"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'WSH ODC Windsurfing DIV2/FOIL/OPEN 2024 - Formula Windsurfing Foil Division - Final Overall Results' (manage2sail, 29 september 2024). ODC = Open Dutch Championship.",
+  "De eindstand telt 23 races met codes HO01-HO12 en HE01-HE11. Het evenement bij WSH (Heeg, Heegermeer) was op 28 en 29 september 2024; waar en wanneer de HO-races zijn gevaren staat niet in de bron. Daarom is geen begindatum en locatie ingevuld."
+ ],
+ "name_published": "WSH ODC Windsurfing DIV2/FOIL/OPEN 2024 - Formula Windsurfing Foil Division"
+}

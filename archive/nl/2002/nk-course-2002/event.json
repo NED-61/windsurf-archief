@@ -1,0 +1,27 @@
+{
+ "event_slug": "nk-course-2002",
+ "scope": "nl",
+ "name": "NK Course 2002",
+ "series": "NK Course",
+ "year": 2002,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2002-course-formula-heren",
+  "nk-2002-course-formula-dames",
+  "nk-2002-course-aloha",
+  "nk-2002-course-techno",
+  "nk-2002-course-longboard"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Gepubliceerd als 'Eindstand ONK 2002' in het NVW Infoblad van maart 2003 (Nederlandse Vereniging van Wedstrijdsurfers), pagina 36-37. ONK = Open Nederlands Kampioenschap.",
+  "Eindstand over het hele seizoen (per fleet het aantal gevaren races en weglatingen); de losse wedstrijddagen, data en locaties van 2002 staan niet in de bron.",
+  "In het archief onder de reeks 'NK Course' gezet (courseracen: Formula, Aloha, Techno, Longboard), net als de NK's shortboard/raceboard van latere jaren."
+ ],
+ "name_published": "Eindstand ONK 2002"
+}

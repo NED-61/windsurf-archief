@@ -1,0 +1,60 @@
+{
+ "schema_version": 1,
+ "id": "nk-2002-course-aloha",
+ "event": {
+  "name": "NK Course 2002",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2002,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Aloha",
+  "class_label_published": "Aloha Fleet"
+ },
+ "format": {
+  "type": "series_standings",
+  "races_sailed": 4,
+  "discards": 0,
+  "races_to_count": 4,
+  "points_published": "alleen eindpunten (Pts) per rider",
+  "stops": [],
+  "scoring_observed": "lage punten; netto na weglatingen"
+ },
+ "source": {
+  "name": "NVW Infoblad maart 2003: Eindstand ONK 2002",
+  "url": null,
+  "file": "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf",
+  "files": [
+   "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf"
+  ],
+  "type": "pdf",
+  "retrieved": "2026-10-02",
+  "pages": [
+   37
+  ],
+  "method": "pdfplumber: tekst-pdf, regels per fleet, uit de losse pagina's 36 en 37 van het Infoblad (met iLovePDF afgesplitst; de tekst is gelijk aan die van het volledige Infoblad, dat vanwege adressen en telefoonnummers buiten git blijft)",
+  "verified": "1 riders in de eindstand; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op punten; geen dubbele namen; alleen de eindpunten zijn gepubliceerd: totaal en weglatingen niet te herrekenen; hoogste score 4.0 (maximum bij geen enkel resultaat zou 8.0 zijn)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Aloha Fleet - Sailed: 4 Discards: 0' in de 'Eindstand ONK 2002'.",
+  "De bron geeft per rider alleen de eindpunten (Pts), geen punten per race en geen statuscodes; aangenomen dat Pts de netto-score na weglatingen is (zoals in de andere fleets van deze eindstand).",
+  "De kolom Class (Male, Female, Espoir, Master) staat in division. Een letter achter het zeilnummer (B, D, L) is zo gepubliceerd."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "sebastiaan-grasstek",
+   "sail": "179",
+   "name": "Sebastiaan Grasstek",
+   "division": "Male",
+   "total": null,
+   "net": 4.0
+  }
+ ],
+ "detail": {}
+}

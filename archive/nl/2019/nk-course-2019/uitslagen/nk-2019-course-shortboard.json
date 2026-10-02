@@ -1,0 +1,951 @@
+{
+ "schema_version": 1,
+ "id": "nk-2019-course-shortboard",
+ "event": {
+  "name": "NK Course 2019",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2019,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Shortboard",
+  "class_label_published": "NK Shortboard tussenstand 16 juni - Overall"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8"
+  ],
+  "discards": 2,
+  "races_to_count": 6,
+  "scoring_system": "Appendix A (Sailwave)",
+  "code_points": 30.0,
+  "code_points_basis": "afgeleid uit de gepubliceerde totalen: elke code (DNC, DNS, OCS) telt 30 punten (aantal inschrijvingen + 1); de bron toont bij een code geen punten"
+ },
+ "source": {
+  "name": "ONK-shortboard-16-juni.pdf",
+  "url": null,
+  "file": "archive/nl/2019/nk-course-2019/bronnen/ONK-shortboard-16-juni.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-02",
+  "method": "pdfplumber: woordposities (tekst-pdf van een Sailwave-export via Excel); racecellen van rechts naar links gelezen, tekstkolommen op de dichtstbijzijnde kolomkop",
+  "metadata_sources": [],
+  "verified": "29 riders (bron: Entries 29); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten (code zonder punten = 30): gelijk; geen dubbele namen"
+ },
+ "coverage": "partial",
+ "provisional": true,
+ "provisional_note": "Tussenstand na de wedstrijden van 16 juni 2019, niet de einduitslag van het NK 2019. De eindstand staat niet in het archief.",
+ "notes": [
+  "Tussenstand na de wedstrijden van 16 juni 2019, niet de einduitslag van het NK 2019. De eindstand staat niet in het archief.",
+  "Gepubliceerd als 'NK Shortboard tussenstand 16 juni - Overall'.",
+  "Bij een code (DNC, DNS, OCS) toont de bron geen punten: in points staat dan null en de code in race_remarks. De waarde per code is afgeleid uit de totalen (format.code_points) en alleen voor de controle gebruikt.",
+  "De kolommen Class (Men, Women, Youth (U20)) en Division (Master, GM, U17, Female) staan in division en subdivision. In de kolom 'Club' staat in de bron het materiaal (Foil of Formula); dat staat hier in equipment.",
+  "Zoals gepubliceerd: Martijn van Geemen en Max Castelein hebben allebei NED 111.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC of DNF in alle races tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "huig-jan-tak",
+   "sail": "NED 465",
+   "name": "Huig-Jan Tak",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    4.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    5.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 20.0,
+   "net": 11.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    1.0,
+    2.0,
+    2.0,
+    2.0,
+    6.0,
+    3.0,
+    3.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    8
+   ],
+   "total": 26.0,
+   "net": 13.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 3,
+   "person": "luc-schmitz",
+   "sail": "NED 115",
+   "name": "Luc Schmitz",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "subdivision": "U17",
+   "points": [
+    2.0,
+    4.0,
+    5.0,
+    6.0,
+    4.0,
+    8.0,
+    10.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 44.0,
+   "net": 26.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 4,
+   "person": "dennis-littel",
+   "sail": "NED 13",
+   "name": "Denis Littel",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    9.0,
+    11.0,
+    3.0,
+    4.0,
+    3.0,
+    10.0,
+    7.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 50.0,
+   "net": 29.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 5,
+   "person": "floris-franken",
+   "sail": "NED 35",
+   "name": "Floris Franken",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "subdivision": null,
+   "points": [
+    8.0,
+    6.0,
+    4.0,
+    3.0,
+    5.0,
+    6.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    7
+   ],
+   "total": 48.0,
+   "net": 32.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 6,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "Master",
+   "points": [
+    7.0,
+    3.0,
+    6.0,
+    null,
+    null,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R4": "DNS",
+    "R5": "DNS"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 96.0,
+   "net": 36.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 7,
+   "person": "marco-boone",
+   "sail": "NED 103",
+   "name": "Marco Boone",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "GM",
+   "points": [
+    5.0,
+    10.0,
+    9.0,
+    8.0,
+    8.0,
+    9.0,
+    11.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    7
+   ],
+   "total": 66.0,
+   "net": 45.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 8,
+   "person": "martijn-van-geemen",
+   "sail": "NED 111",
+   "name": "Martijn van Geemen",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "Master",
+   "points": [
+    6.0,
+    9.0,
+    13.0,
+    11.0,
+    13.0,
+    7.0,
+    4.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 72.0,
+   "net": 46.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 9,
+   "person": "adri-keet",
+   "sail": "NED 34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "Master",
+   "points": [
+    3.0,
+    5.0,
+    7.0,
+    5.0,
+    7.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 117.0,
+   "net": 57.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 10,
+   "person": "jakob-kooij",
+   "sail": "NED 99",
+   "name": "Jakob Kooij",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    12.0,
+    7.0,
+    10.0,
+    10.0,
+    12.0,
+    null,
+    null,
+    12.0
+   ],
+   "race_remarks": {
+    "R6": "DNS",
+    "R7": "DNS"
+   },
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 123.0,
+   "net": 63.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 11,
+   "person": "esther-de-geus",
+   "sail": "NED 16",
+   "name": "Esther de Geus",
+   "nationality": "NED",
+   "division": "Women",
+   "subdivision": null,
+   "points": [
+    11.0,
+    12.0,
+    11.0,
+    9.0,
+    14.0,
+    13.0,
+    12.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    8
+   ],
+   "total": 98.0,
+   "net": 68.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 12,
+   "person": "aart-jan-van-zadelhoff",
+   "sail": "NED 416",
+   "name": "Aart-Jan Zadelhof",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "GM",
+   "points": [
+    13.0,
+    null,
+    12.0,
+    12.0,
+    10.0,
+    11.0,
+    null,
+    11.0
+   ],
+   "race_remarks": {
+    "R2": "DNS",
+    "R7": "OCS"
+   },
+   "discarded": [
+    2,
+    7
+   ],
+   "total": 129.0,
+   "net": 69.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 13,
+   "person": "marco-van-der-leer",
+   "sail": "NED 207",
+   "name": "Marco van Leer",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    15.0,
+    14.0,
+    14.0,
+    13.0,
+    1.0,
+    17.0,
+    13.0,
+    null
+   ],
+   "race_remarks": {
+    "R8": "DNS"
+   },
+   "discarded": [
+    6,
+    8
+   ],
+   "total": 117.0,
+   "net": 70.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 14,
+   "person": "max-castelein",
+   "sail": "NED 111",
+   "name": "Max Castelein",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "subdivision": "U17",
+   "points": [
+    10.0,
+    8.0,
+    8.0,
+    7.0,
+    9.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 132.0,
+   "net": 72.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 15,
+   "person": "marc-de-jong",
+   "sail": "NED 100",
+   "name": "Marc de Jong",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "Master",
+   "points": [
+    17.0,
+    16.0,
+    15.0,
+    14.0,
+    11.0,
+    15.0,
+    17.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    7
+   ],
+   "total": 118.0,
+   "net": 84.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 16,
+   "person": "hidde-boon",
+   "sail": "NED 126",
+   "name": "Hidde Boon",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "subdivision": "U17",
+   "points": [
+    14.0,
+    13.0,
+    null,
+    15.0,
+    15.0,
+    null,
+    15.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R3": "DNS",
+    "R6": "DNS"
+   },
+   "discarded": [
+    3,
+    6
+   ],
+   "total": 150.0,
+   "net": 90.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 17,
+   "person": "koen-hessels",
+   "sail": "NED 881",
+   "name": "Koen Hessels",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "subdivision": "U17",
+   "points": [
+    16.0,
+    17.0,
+    16.0,
+    16.0,
+    16.0,
+    14.0,
+    16.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 126.0,
+   "net": 93.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 18,
+   "person": "luuc-van-opzeeland",
+   "sail": "NED 55",
+   "name": "Luuk van Opzeeland",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 153.0,
+   "net": 93.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 19,
+   "person": "stevan-v-broekhoven",
+   "sail": "BEL 72",
+   "name": "Steven v Broekhoven",
+   "nationality": "BEL",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    2.0,
+    5.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 159.0,
+   "net": 99.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 20,
+   "person": "john-munten",
+   "sail": "NED 30",
+   "name": "John Munten",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "GM",
+   "points": [
+    19.0,
+    18.0,
+    null,
+    null,
+    null,
+    18.0,
+    18.0,
+    20.0
+   ],
+   "race_remarks": {
+    "R3": "DNS",
+    "R4": "DNS",
+    "R5": "DNS"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 183.0,
+   "net": 123.0,
+   "equipment": "Formula"
+  },
+  {
+   "rank": 21,
+   "person": "max-baaijen",
+   "sail": "NED 61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    12.0,
+    9.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 185.0,
+   "net": 125.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 22,
+   "person": "dennis-de-pauw",
+   "sail": "BEL 19",
+   "name": "Dennis de Pauw",
+   "nationality": "BEL",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    16.0,
+    14.0,
+    17.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 197.0,
+   "net": 137.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 23,
+   "person": "marco-baaijen",
+   "sail": "NED 461",
+   "name": "Marco Baaijen",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "GM",
+   "points": [
+    20.0,
+    null,
+    17.0,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R2": "DNS",
+    "R4": "DNS",
+    "R5": "DNS",
+    "R6": "DNS",
+    "R7": "DNS",
+    "R8": "DNS"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 217.0,
+   "net": 157.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 24,
+   "person": "fabienne-hoogendam",
+   "sail": "NED 223",
+   "name": "Fabien Hoogendam",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "subdivision": "Female",
+   "points": [
+    18.0,
+    19.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNS",
+    "R4": "DNS",
+    "R5": "DNS",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 217.0,
+   "net": 157.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 25,
+   "person": "vincent-jansen",
+   "sail": "NED 199",
+   "name": "Vincent Jansen",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "GM",
+   "points": [
+    null,
+    15.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNS",
+    "R3": "DNS",
+    "R4": "DNS",
+    "R5": "DNS",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 225.0,
+   "net": 165.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 26,
+   "person": "martijn-van-noord",
+   "sail": "NED 703",
+   "name": "Martijn v Noord",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    19.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNS",
+    "R7": "DNS"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 229.0,
+   "net": 169.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 27,
+   "person": null,
+   "sail": "NED 88",
+   "name": "Mike Hessels",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "GM",
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 240.0,
+   "net": 180.0,
+   "equipment": "Foil",
+   "counted": false
+  },
+  {
+   "rank": 27,
+   "person": "fabian-van-stijn",
+   "sail": "NED 175",
+   "name": "Fabian van Stijn",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNS",
+    "R7": "DNS",
+    "R8": "DNS"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 240.0,
+   "net": 180.0,
+   "equipment": "Foil"
+  },
+  {
+   "rank": 27,
+   "person": "bas-mulder",
+   "sail": "NED 92",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNS",
+    "R7": "DNS",
+    "R8": "DNS"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 240.0,
+   "net": 180.0,
+   "equipment": "Foil"
+  }
+ ],
+ "detail": {}
+}

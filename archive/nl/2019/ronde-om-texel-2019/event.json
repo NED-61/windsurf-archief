@@ -9,9 +9,26 @@
  "date": "2019-06-22",
  "date_end": null,
  "location": "Texel",
- "classes": [],
+ "classes": [
+  "ronde-om-texel-2019-long-distance-windsurf"
+ ],
  "notes": [
   "Metadata uit Info.txt van de eigen verzameling van de repo-eigenaar (niet geverifieerd tegen een officiële bron).",
-  "Datum volgens Info.txt, niet geverifieerd."
- ]
+  "Datum volgens Info.txt, niet geverifieerd.",
+  "De opgeslagen pagina heet 'Uitslagen windsurfers' en noemt geen jaar; het jaar 2019 volgt uit de top 3 (Ridersguide, 22 juni 2019) en de datum van de Wayback-kopie (21 november 2019)."
+ ],
+ "discipline": "long_distance",
+ "metadata_sources": [
+  {
+   "name": "roundtexel.com: Uitslagen windsurfers (Wayback Machine)",
+   "url": "https://web.archive.org/web/20191121205031/https://roundtexel.com/uitslagen-windsurfers/",
+   "used_for": "uitslag; de pagina noemt zelf geen jaar"
+  },
+  {
+   "name": "Ridersguide: Waves Invitational Grand Prix afgesloten met open NK marathon windsurfen",
+   "url": "https://ridersguide.nl/fransman-goyard-aan-de-leiding/",
+   "used_for": "zaterdag 22 juni 2019, open NK marathon windsurfen (Ronde om Texel): 1 Thomas Goyard, 2 Nicolas Goyard, 3 Dorian van Rijsselberghe: bevestigt dat deze uitslag de editie 2019 is"
+  }
+ ],
+ "title": "Open NK marathon windsurfen"
 }

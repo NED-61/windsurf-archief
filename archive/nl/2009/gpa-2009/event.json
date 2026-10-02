@@ -1,0 +1,32 @@
+{
+ "event_slug": "gpa-2009",
+ "scope": "nl",
+ "name": "Grote Prijs van Aalsmeer 2009",
+ "series": "Grote Prijs van Aalsmeer",
+ "year": 2009,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2009-10-04",
+ "date_end": null,
+ "location": "Westeinderplassen, Aalsmeer",
+ "discipline": "long_distance",
+ "classes": [
+  "gpa-2009-long-distance-fw",
+  "gpa-2009-long-distance-rsx",
+  "gpa-2009-long-distance-bic-techno",
+  "gpa-2009-long-distance-rookie"
+ ],
+ "metadata_sources": [
+  {
+   "name": "WSCA: Grote Prijs Aalsmeer",
+   "url": "https://www.wsca.nl/grote-prijs-aalsmeer/",
+   "used_for": "organisator WSCA, Westeinderplassen; de datum van de editie 2009 staat daar niet"
+  }
+ ],
+ "notes": [
+  "Bestandsnaam 'GPA_2009_uitslag.pdf'; de pdf zelf noemt geen wedstrijdnaam of datum. Dat dit de Grote Prijs van Aalsmeer 2009 is, volgt alleen uit de bestandsnaam.",
+  "Datum 4 oktober 2009 is afgeleid, niet uit een gepubliceerde bron: volgens de repo-eigenaar is de GPA altijd op de eerste zondag van oktober (klopt met 2024 en 2025). De pdf is aangemaakt op 26 november 2009."
+ ],
+ "short_name": "GPA 2009",
+ "organizer": "Wind Surf Club Aalsmeer (WSCA)"
+}

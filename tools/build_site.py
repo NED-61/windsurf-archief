@@ -18,7 +18,8 @@ REPO_URL = "https://github.com/NED-61/windsurf-archief"
 MONTHS = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
 PARTICLES = {"van", "de", "der", "den", "het", "t", "ter", "ten", "te", "vd", "v", "d", "in", "op", "la", "le", "du", "da", "di", "dal", "del", "von"}
 REMARKS = {"DNF": "niet gefinisht", "DNS": "niet gestart", "DNC": "niet aan de start", "DSQ": "gediskwalificeerd",
-           "OCS": "valse start", "RDG": "verhaal toegekend", "BFD": "valse start (zwarte vlag)"}
+           "OCS": "valse start", "RDG": "verhaal toegekend", "BFD": "valse start (zwarte vlag)", "UFD": "valse start (U-vlag)",
+           "RET": "teruggetrokken"}
 
 
 def esc(s):
@@ -137,14 +138,15 @@ def build_appearances(P, events, results, aggregate=False):
             done.add(pid)
             apps[pid].append({"rid": r["id"], "ev": ev, "r": r, "rank": x.get("rank"), "n": n, "sail": x.get("sail"),
                               "division": x.get("division"), "name": x.get("name"), "remark": entry_status(x),
-                              "net": x.get("net"), "laps": x.get("laps"), "time": x.get("time"), "agg": bool(r.get("aggregate"))})
+                              "net": x.get("net"), "laps": x.get("laps"), "time": x.get("time"), "agg": bool(r.get("aggregate")),
+                              "prov": bool(r.get("provisional"))})
     for pid in apps:
         apps[pid].sort(key=lambda a: (a["ev"]["sortdate"], a["ev"]["name"], a["rid"]))
     return apps
 
 
 # ---------------------------------------------------------------- layout
-CSS_VERSION = "4"
+CSS_VERSION = "5"
 
 
 def page(title, body, depth, active=None, description=None, extra_js=""):
@@ -248,11 +250,29 @@ def result_table_elim(P, r, pre):
     cap = "Punten per eliminatie; weggelaten scores tussen haakjes. Laagste netto wint." if has_disc else \
           "Punten per eliminatie; laagste netto wint. Weglatingen zijn in deze bron niet gemarkeerd."
     nc = len(r["entries"]) - n_counted(r)
-    if nc: cap += f" Grijs: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} met alleen DNC of DNF; {'die telt' if nc == 1 else 'die tellen'} niet mee als deelnemer."
+    if nc: cap += f" Grijs: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)}; {'die telt' if nc == 1 else 'die tellen'} niet mee als deelnemer."
+    if r["format"].get("heats_published") is False: cap += " De heats en finales staan niet in de bron."
     return f"""<div class="tbl-wrap"><table class="res">
 <caption>{cap}</caption>
 <thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th><th scope="col">Zeilnr.</th><th scope="col">Divisie</th>{head}<th scope="col" class="num">Totaal</th><th scope="col" class="num">Netto</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>"""
+
+
+EQUIP = {"foil": "foil", "fin": "vin"}
+
+
+def division_text(x):
+    """Divisie zoals gepubliceerd; M/V valt weg als er al een M/V-kolom is."""
+    d = x.get("division")
+    if d in ("Male", "Female") and x.get("gender"): d = None
+    return " · ".join(t for t in (d, x.get("subdivision")) if t)
+
+
+def nc_basis(r):
+    f = r["format"]
+    if f["type"] == "series_standings": return "zonder resultaat in een tellende race"
+    if f["type"] == "elimination" and f.get("no_result_points") is not None and not r.get("eliminations"): return "zonder resultaat in alle eliminaties"
+    return "met alleen DNC of DNF"
 
 
 def result_table_ld(P, r, pre):
@@ -260,22 +280,55 @@ def result_table_ld(P, r, pre):
     has_bib = any(x.get("bib") for x in ents)
     has_ov = any(x.get("overall_rank") for x in ents)
     has_g = any(x.get("gender") for x in ents)
+    has_sail = any(x.get("sail") for x in ents)
+    has_div = any(division_text(x) for x in ents)
+    has_eq = any(x.get("equipment") and EQUIP.get(x["equipment"], x["equipment"]).lower() != (x.get("division") or "").lower() for x in ents)
+    has_laps = any(x.get("laps") is not None for x in ents)
+    has_fc = any(x.get("finish_clock") for x in ents)
     rows = []
     for x in ents:
         flag = f' <span class="flag" title="{esc(x["flag"])}">*</span>' if x.get("flag") else ""
         win = ' class="win"' if x.get("rank") == 1 else ""
         rows.append(f'<tr{win}>{rank_cell(x.get("rank"), x.get("remark"))}'
                     f'<th scope="row" class="nm">{rider_link(P, x.get("person"), x.get("name"), pre)}{flag}</th>'
+                    + (f'<td>{sail_html(x.get("sail"))}</td>' if has_sail else "")
                     + (f'<td class="num">{esc(x.get("bib") or "")}</td>' if has_bib else "")
                     + (f'<td>{"V" if x.get("gender") == "female" else ("M" if x.get("gender") == "male" else "")}</td>' if has_g else "")
-                    + f'<td class="num">{esc(x.get("laps") if x.get("laps") is not None else "–")}</td>'
-                    f'<td class="num">{esc(x.get("time") or "–")}</td>'
+                    + (f'<td class="div">{esc(division_text(x))}</td>' if has_div else "")
+                    + (f'<td class="div">{esc(EQUIP.get(x.get("equipment"), x.get("equipment") or ""))}</td>' if has_eq else "")
+                    + (f'<td class="num">{esc(x.get("laps") if x.get("laps") is not None else "–")}</td>' if has_laps else "")
+                    + f'<td class="num">{esc(x.get("time") or "–")}</td>'
+                    + (f'<td class="num">{esc(x.get("finish_clock") or "")}</td>' if has_fc else "")
                     + (f'<td class="num">{esc(x.get("overall_rank") or "")}</td>' if has_ov else "")
                     + f'<td>{remark_html(x.get("remark"))}</td></tr>')
     tb = r["format"].get("time_basis")
+    rk = "Gerangschikt op aantal rondes, daarna op tijd." if has_laps else f'Rangschikking: {esc(r["format"].get("ranking") or "op tijd")}.'
     return f"""<div class="tbl-wrap"><table class="res">
-<caption>Gerangschikt op aantal rondes, daarna op tijd.{(' Tijd: ' + esc(tb) + '.') if tb else ''}</caption>
-<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">M/V</th>' if has_g else ''}<th scope="col" class="num">Rondes</th><th scope="col" class="num">Tijd</th>{'<th scope="col" class="num">Overall</th>' if has_ov else ''}<th scope="col">Opmerking</th></tr></thead>
+<caption>{rk}{(' Tijd: ' + esc(tb) + '.') if tb else ''}</caption>
+<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">M/V</th>' if has_g else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{'<th scope="col" class="num">Rondes</th>' if has_laps else ''}<th scope="col" class="num">Tijd</th>{'<th scope="col" class="num">Finish</th>' if has_fc else ''}{'<th scope="col" class="num">Overall</th>' if has_ov else ''}<th scope="col">Opmerking</th></tr></thead>
+<tbody>{''.join(rows)}</tbody></table></div>"""
+
+
+def result_table_series(P, r, pre):
+    """Reeksklassement met alleen eindpunten per rider."""
+    ents = r["entries"]
+    f = r["format"]
+    has_tot = any(x.get("total") is not None for x in ents)
+    rows = []
+    for x in ents:
+        win = ' class="win"' if x.get("rank") == 1 else (' class="nc"' if not counted(x) else "")
+        rows.append(f'<tr{win}>{rank_cell(x.get("rank"))}'
+                    f'<th scope="row" class="nm">{rider_link(P, x.get("person"), x.get("name"), pre)}</th>'
+                    f'<td>{sail_html(x.get("sail"))}</td><td class="div">{esc(division_text(x))}</td>'
+                    + (f'<td class="num">{fmt_pts(x.get("total"))}</td>' if has_tot else "") + f'<td class="num tot">{fmt_pts(x.get("net"))}</td></tr>')
+    cap = "Eindstand over het seizoen; laagste score wint."
+    if f.get("races_sailed") is not None:
+        cap += f' {f["races_sailed"]} races gevaren, {f.get("discards", 0)} weglatingen. De punten per race staan niet in de bron.'
+    nc = len(ents) - n_counted(r)
+    if nc: cap += f" Grijs: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)}; {'die telt' if nc == 1 else 'die tellen'} niet mee als deelnemer."
+    return f"""<div class="tbl-wrap"><table class="res">
+<caption>{cap}</caption>
+<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th><th scope="col">Zeilnr.</th><th scope="col">Divisie</th>{'<th scope="col" class="num">Totaal</th>' if has_tot else ''}<th scope="col" class="num">Punten</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>"""
 
 
@@ -285,6 +338,8 @@ def result_table_fleet(P, r, pre):
     has_sail = any(x.get("sail") for x in ents)
     has_bib = any(x.get("bib") for x in ents)
     has_cat = any(x.get("category") for x in ents)
+    has_div = any(division_text(x) for x in ents)
+    has_eq = any(x.get("equipment") for x in ents)
     has_dp = any(x.get("discard_points") for x in ents) and not any(x.get("discarded") for x in ents)
     has_pts = any(x.get("points") for x in ents)
     has_tot = any(x.get("total") is not None for x in ents)
@@ -305,19 +360,24 @@ def result_table_fleet(P, r, pre):
         rc = rank_cell(x.get("rank"), x.get("remark"))
         if "*" in str(x.get("rank_published") or "") and x.get("rank") is not None:
             rc = rc.replace(f'<span>{x["rank"]}</span>', f'<span>{x["rank"]}*</span>')
-        win = ' class="win"' if x.get("rank") == 1 else ""
+        win = ' class="win"' if x.get("rank") == 1 else (' class="nc"' if not counted(x) else "")
         rows.append(f'<tr{win}>{rc}'
                     f'<th scope="row" class="nm">{rider_link(P, x.get("person"), x.get("name"), pre)}{flag}</th>'
                     + (f'<td>{sail_html(x.get("sail"))}</td>' if has_sail else "")
                     + (f'<td class="num">{esc(x.get("bib") or "")}</td>' if has_bib else "")
                     + (f'<td class="div">{esc(x.get("category") or "")}</td>' if has_cat else "")
+                    + (f'<td class="div">{esc(division_text(x))}</td>' if has_div else "")
+                    + (f'<td class="div">{esc(x.get("equipment") or "")}</td>' if has_eq else "")
                     + "".join(cells)
                     + (f'<td class="num">{esc(", ".join(fmt_pts(v) for v in (x.get("discard_points") or [])))}</td>' if has_dp else "")
                     + (f'<td class="num">{fmt_pts(x.get("total"))}</td>' if has_tot else "") + f'<td class="num tot stick">{fmt_pts(x.get("net"))}</td></tr>')
     sc = r["format"].get("scoring_system")
     cap = ("Punten per race; laagste netto wint." if has_pts else "Punten per race zijn voor dit klassement niet gepubliceerd; laagste netto wint.") + (" Weggelaten scores tussen haakjes." if any(x.get("discarded") for x in ents) else "")           + (f" Puntentelling: {esc(sc)}." if sc else "") + (" Een * achter de plaats is zo gepubliceerd." if any("*" in str(x.get("rank_published") or "") for x in ents) else "")
+    if r["format"].get("code_points") is not None: cap += f' Bij een code zonder punten telt de bron {fmt_pts(r["format"]["code_points"])} punten.'
+    nc = len(ents) - n_counted(r)
+    if nc: cap += f" Grijs: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)}; {'die telt' if nc == 1 else 'die tellen'} niet mee als deelnemer."
     return f"""<div class="tbl-wrap"><table class="res fleet">
-<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">Categorie</th>' if has_cat else ''}{head}{'<th scope="col" class="num">Weggelaten</th>' if has_dp else ''}{'<th scope="col" class="num">Totaal</th>' if has_tot else ''}<th scope="col" class="num stick">Netto</th></tr></thead>
+<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">Categorie</th>' if has_cat else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{head}{'<th scope="col" class="num">Weggelaten</th>' if has_dp else ''}{'<th scope="col" class="num">Totaal</th>' if has_tot else ''}<th scope="col" class="num stick">Netto</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>
 <p class="tbl-cap">{cap}</p>"""
 
@@ -385,15 +445,18 @@ def result_page(P, r, ev):
     notes = [n for n in r.get("notes", []) if "dubbele spaties" not in n]
     cov = r.get("coverage")
     warn = '<p class="note warn">Deze uitslag is niet compleet: de bron bevat niet alle deelnemers.</p>' if cov == "partial" else ""
+    if r.get("provisional"):
+        warn = f'<p class="note warn">{esc(r.get("provisional_note") or "Dit is een tussenstand, niet de einduitslag.")}</p>'
     ft = r["format"]["type"]
     table = result_table_elim(P, r, pre) if ft == "elimination" else (
         result_table_ld(P, r, pre) if ft == "long_distance" else (
-        result_table_fleet(P, r, pre) if ft == "fleet_racing" else "<p>Dit formaat wordt nog niet getoond.</p>"))
+        result_table_fleet(P, r, pre) if ft == "fleet_racing" else (
+        result_table_series(P, r, pre) if ft == "series_standings" else "<p>Dit formaat wordt nog niet getoond.</p>")))
     siblings = [x for x in ev["results"] if x["id"] != r["id"]]
     sib = ("<p class='sibs'>Andere klassen: " + ", ".join(f'<a href="{esc(x["id"])}.html">{esc(class_label(x))}</a>' for x in siblings) + "</p>") if siblings else ""
     body = f"""{crumbs([("wedstrijden.html", "Wedstrijden"), (f"wedstrijd/{ev['slug']}.html", ev["name"]), (None, class_label(r))], 1)}
 <header class="ph">
-  <h1>{esc(class_label(r))}</h1>
+  <h1>{esc(class_label(r))}{' (tussenstand)' if r.get('provisional') else ''}</h1>
   <p class="lede"><a href="../wedstrijd/{esc(ev['slug'])}.html">{esc(ev['name'])}</a>. {event_meta_line(ev)}. {n_counted(r)} deelnemers. {fleet_line(r)}</p>
 {('<p class="aka">Gepubliceerd als: ' + esc(published_class(r)) + '</p>') if published_class(r) else ''}
 </header>
@@ -411,8 +474,9 @@ def podium_html(P, r, pre):
     rows = []
     for x in r["entries"][:3]:
         if x.get("rank") is None: continue
-        val = fmt_pts(x.get("net")) + " netto" if r["format"]["type"] in ("elimination", "fleet_racing") else \
-            (f'{x.get("laps")} rondes' if x.get("laps") is not None else "")
+        val = fmt_pts(x.get("net")) + " netto" if r["format"]["type"] in ("elimination", "fleet_racing") else (
+            fmt_pts(x.get("net")) + " punten" if r["format"]["type"] == "series_standings" else
+            (f'{x.get("laps")} rondes' if x.get("laps") is not None else (x.get("time") or "")))
         rows.append(f'<li><span class="pos{" p1" if x["rank"] == 1 else ""}">{x["rank"]}</span>'
                     f'<span class="who">{rider_link(P, x.get("person"), x.get("name"), pre)}</span><span class="val">{esc(val)}</span></li>')
     return "<ol class='podium'>" + "".join(rows) + "</ol>"
@@ -429,9 +493,9 @@ def event_page(P, ev, events):
             cur = r["event"].get("fleet")
             cls.append(f'<h2 class="fleet-h">Fleet: {esc(cur or "overig")}</h2>')
         cls.append(f"""<section class="cls">
-  <h2><a href="../uitslag/{esc(r['id'])}.html">{esc(class_label(r))}</a></h2>
+  <h2><a href="../uitslag/{esc(r['id'])}.html">{esc(class_label(r))}</a>{' <small class="muted">tussenstand</small>' if r.get('provisional') else ''}</h2>
   {podium_html(P, r, pre)}
-  <p class="more"><a href="../uitslag/{esc(r['id'])}.html">Volledige uitslag, {n_counted(r)} deelnemers</a>{' (onvolledig)' if r.get('coverage') == 'partial' else ''}</p>
+  <p class="more"><a href="../uitslag/{esc(r['id'])}.html">{'Volledige tussenstand' if r.get('provisional') else 'Volledige uitslag'}, {n_counted(r)} deelnemers</a>{' (onvolledig)' if r.get('coverage') == 'partial' and not r.get('provisional') else ''}</p>
 </section>""")
     other = sorted([e for e in events.values() if e["series"] == ev["series"] and e["slug"] != ev["slug"]], key=lambda e: e["sortdate"])
     oth = ("<p class='sibs'>Andere edities: " + ", ".join(f'<a href="{esc(e["slug"])}.html">{esc(e["name"])}</a>' for e in other) + "</p>") if other else ""
@@ -469,7 +533,7 @@ def events_page(events):
 
 
 def best_of(apps):
-    ranked = [a for a in apps if a["rank"]]
+    ranked = [a for a in apps if a["rank"] and not a.get("prov")]
     if not ranked: return None
     return min(ranked, key=lambda a: (a["rank"], a["n"]))
 
@@ -506,7 +570,7 @@ def riders_page(P, apps):
 def rider_page(P, pid, a, results, agg=()):
     p = P[pid]
     pre = "../"
-    starts = len(a); wins = sum(1 for x in a if x["rank"] == 1); pods = sum(1 for x in a if x["rank"] and x["rank"] <= 3)
+    starts = len(a); wins = sum(1 for x in a if x["rank"] == 1 and not x["prov"]); pods = sum(1 for x in a if x["rank"] and x["rank"] <= 3 and not x["prov"])
     years = sorted({x["ev"]["year"] for x in a})
     sails = defaultdict(set)
     for x in a:
@@ -523,13 +587,15 @@ def rider_page(P, pid, a, results, agg=()):
         if r["format"]["type"] in ("elimination", "fleet_racing"):
             val = f'{fmt_pts(x["net"])} netto'
         elif r["format"]["type"] == "long_distance":
-            val = (f'{x["laps"]} rondes, {x["time"]}' if x["laps"] is not None else "")
+            val = (f'{x["laps"]} rondes, {x["time"]}' if x["laps"] is not None else (x["time"] or ""))
+        elif r["format"]["type"] == "series_standings":
+            val = f'{fmt_pts(x["net"])} punten'
         else:
             val = ""
         pl = f'<span class="pl{" p1" if x["rank"] == 1 else ""}">{x["rank"]}</span> <span class="of">van {x["n"]}</span>' if x["rank"] else \
              f'<span class="pl">{remark_html(x["remark"]) or "–"}</span>'
         rows.append(f'<tr><td class="num">{x["ev"]["year"]}</td><th scope="row"><a href="../wedstrijd/{esc(x["ev"]["slug"])}.html">{esc(x["ev"]["name"])}</a></th>'
-                    f'<td><a href="../uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>{" <small class=muted>(telt niet als extra start)</small>" if x["agg"] else ""}</td><td class="plc">{pl}</td>'
+                    f'<td><a href="../uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>{" <small class=muted>(telt niet als extra start)</small>" if x["agg"] else ""}{" <small class=muted>(tussenstand)</small>" if x["prov"] else ""}</td><td class="plc">{pl}</td>'
                     f'<td>{sail_html(x["sail"])}</td><td class="div">{esc(x["division"] or "")}</td><td class="num val">{esc(val)}</td></tr>')
     summary = f'{starts} {"start" if starts == 1 else "starts"} van {years[0]}{" tot en met " + str(years[-1]) if years[-1] != years[0] else ""}'
     if wins: summary += f', {wins}× winnaar'
@@ -586,6 +652,7 @@ def stats_page(P, events, results, apps):
     win_rows = []
     for e in sorted(events.values(), key=lambda e: e["sortdate"], reverse=True):
         for r in e["results"]:
+            if r.get("provisional"): continue          # een tussenstand heeft geen winnaar
             w = [x for x in r["entries"] if x.get("rank") == 1]
             names = " en ".join(rider_link(P, x.get("person"), x.get("name"), "") for x in w) or "–"
             win_rows.append(f'<tr><td class="num">{e["year"]}</td><td><a href="wedstrijd/{esc(e["slug"])}.html">{esc(e["name"])}</a></td>'
@@ -601,8 +668,8 @@ def stats_page(P, events, results, apps):
         return ("<ol class='rank'>" + "".join(f'<li><a href="rider/{esc(pid)}.html">{esc(P[pid]["name"])}</a><span class="num">{v}</span></li>'
                                              for pid, v in rows) + "</ol>")
     starts = top(lambda a: len(a), 10, "starts")
-    wins = top(lambda a: sum(1 for x in a if x["rank"] == 1), 8, "overwinningen")
-    pods = top(lambda a: sum(1 for x in a if x["rank"] and x["rank"] <= 3), 8, "podiums")
+    wins = top(lambda a: sum(1 for x in a if x["rank"] == 1 and not x["prov"]), 8, "overwinningen")
+    pods = top(lambda a: sum(1 for x in a if x["rank"] and x["rank"] <= 3 and not x["prov"]), 8, "podiums")
     body = f"""<header class="ph"><h1>Statistieken</h1>
 <p class="lede">Telt alleen wat in het archief staat: {len(results)} uitslagen van {len(events)} wedstrijden, {len(apps)} riders. Oudere en ontbrekende uitslagen komen er nog bij.</p></header>
 
@@ -673,7 +740,7 @@ def home_page(P, events, results, apps):
     latest = []
     for e in evs[:4]:
         cls = "".join(f'<li><a href="uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>'
-                      f'<span>{rider_link(P, r["entries"][0].get("person"), r["entries"][0].get("name"), "")}</span></li>' for r in e["results"][:4])
+                      f'<span>{rider_link(P, r["entries"][0].get("person"), r["entries"][0].get("name"), "")}{" (tussenstand)" if r.get("provisional") else ""}</span></li>' for r in e["results"][:4])
         more = f'<li class="more"><a href="wedstrijd/{esc(e["slug"])}.html">alle {len(e["results"])} klassen</a></li>' if len(e["results"]) > 4 else ""
         latest.append(f"""<article class="ev-card">
   <h3><a href="wedstrijd/{esc(e['slug'])}.html">{esc(e['name'])}</a></h3>
@@ -712,7 +779,7 @@ def write_js_data(out, P, events, results, apps):
     duel = {"p": {pid: P[pid]["name"] for pid in apps if pid in P},
             "u": {r["id"]: {"t": f'{events[r["_event"]]["name"]}, {class_label(r)}', "y": events[r["_event"]]["year"], "d": events[r["_event"]]["sortdate"],
                             "n": n_counted(r),
-                            "e": {x["person"]: x.get("rank") for x in r["entries"] if x.get("person")}} for r in results.values() if not r.get("aggregate")}}
+                            "e": {x["person"]: x.get("rank") for x in r["entries"] if x.get("person")}} for r in results.values() if not r.get("aggregate") and not r.get("provisional")}}
     (out / "assets/duel-data.js").write_text("window.DUEL=" + json.dumps(duel, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
 
 

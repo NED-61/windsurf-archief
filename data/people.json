@@ -2,13 +2,50 @@
  "schema_version": 1,
  "people": [
   {
+   "id": "aaron-mcintosh",
+   "name": "Aaron McIntosh",
+   "aliases": [
+    "Aaron Mc Intosh"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Aaron McIntosh",
+     "sail": "NZL1",
+     "division": null,
+     "bib": "734"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Aaron Mc Intosh",
+     "sail": "NZL121",
+     "division": null,
+     "bib": "704",
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Aaron Mc Intosh",
+      "Aaron McIntosh"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-02",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Aaron Mc Intosh' (aaron-mc-intosh) samengevoegd"
+    }
+   ]
+  },
+  {
    "id": "aart-jan-van-zadelhoff",
    "name": "Aart-Jan Van Zadelhoff",
    "aliases": [
     "Aart Jan Van Zadelhoff",
     "Aart-Jan van Zadelhoff",
     "Aart-Jan Zadelhoff",
-    "Aart-Jan van Zadelhof"
+    "Aart-Jan van Zadelhof",
+    "Aart-Jan Zadelhof",
+    "Aart-Jan van ZADELHOFF"
    ],
    "appearances": [
     {
@@ -60,6 +97,43 @@
      "division": null,
      "bib": "199",
      "match": "bevestigd"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Aart-Jan van Zadelhoff",
+     "sail": "NED416",
+     "division": null,
+     "bib": "720",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Aart-Jan Zadelhof",
+     "sail": "NED 416",
+     "division": "Men",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Aart-Jan van Zadelhoff",
+     "sail": "NED 416",
+     "division": null,
+     "bib": "732",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Aart-Jan Zadelhof",
+     "sail": "NED 416",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Aart-Jan van ZADELHOFF",
+     "sail": "NED 416",
+     "division": null,
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -94,7 +168,10 @@
   {
    "id": "adri-keet",
    "name": "Adri Keet",
-   "aliases": [],
+   "aliases": [
+    "Adri keet",
+    "Adri KEET"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -181,6 +258,58 @@
      "division": null,
      "bib": "309",
      "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Adri keet",
+     "sail": "34",
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Adri Keet",
+     "sail": "34",
+     "division": null,
+     "bib": "721",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Adri Keet",
+     "sail": "NED 34",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Adri Keet",
+     "sail": null,
+     "division": null,
+     "bib": "709",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Adri Keet",
+     "sail": "NED 34",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Adri Keet",
+     "sail": "NED 34",
+     "division": "Male",
+     "bib": "g78",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Adri KEET",
+     "sail": "NED 34",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -188,7 +317,9 @@
    "id": "adriaan-van-rijsselberge",
    "name": "Adriaan van Rijsselberge",
    "aliases": [
-    "Adriaan van Rijsselberghe"
+    "Adriaan van Rijsselberghe",
+    "Adriaan v Rijsselberghe",
+    "Adriaan Van Rijsselberghe"
    ],
    "appearances": [
     {
@@ -209,6 +340,59 @@
      "name": "Adriaan van Rijsselberghe",
      "sail": "NED-2",
      "division": "Open Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Adriaan v Rijsselberghe",
+     "sail": "82",
+     "division": "Espoir",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Adriaan van Rijsselberghe",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Adriaan Van Rijsselberghe",
+     "sail": "NED2",
+     "division": null,
+     "bib": "701",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Adriaan van Rijsselberghe",
+     "sail": "NED2",
+     "division": null,
+     "bib": "702",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Adriaan van Rijsselberghe",
+     "sail": "Ned2",
+     "division": "Male",
+     "bib": "g2",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Adriaan van Rijsselberghe",
+     "sail": "NED0-2",
+     "division": "Master",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Adriaan van Rijsselberghe",
+     "sail": "Ned2",
+     "division": "Foil",
+     "bib": "23",
      "match": "naam"
     }
    ]
@@ -251,6 +435,19 @@
      "name": "Alessio Botten Samiento",
      "sail": "Per 20",
      "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "alex-noordegraaf",
+   "name": "Alex Noordegraaf",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Alex Noordegraaf",
+     "sail": "76",
+     "division": "Male"
     }
    ]
   },
@@ -305,6 +502,19 @@
    ]
   },
   {
+   "id": "alexander-verhage",
+   "name": "Alexander Verhage",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Alexander Verhage",
+     "sail": "675",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "amado-vrieswijk",
    "name": "Amado Vrieswijk",
    "aliases": [],
@@ -314,6 +524,13 @@
      "name": "Amado Vrieswijk",
      "sail": "NB-20",
      "division": "Senior"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Amado Vrieswijk",
+     "sail": null,
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -467,6 +684,20 @@
    ]
   },
   {
+   "id": "andy-hart",
+   "name": "Andy Hart",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Andy Hart",
+     "sail": "GBR213",
+     "division": "Male",
+     "bib": "g34"
+    }
+   ]
+  },
+  {
    "id": "angela-slingerland",
    "name": "Angela Slingerland",
    "aliases": [],
@@ -483,13 +714,35 @@
   {
    "id": "anna-korevaar",
    "name": "Anna Korevaar",
-   "aliases": [],
+   "aliases": [
+    "Anna KOREVAAR"
+   ],
    "appearances": [
     {
      "event": "nk-2023-slalom-dames",
      "name": "Anna Korevaar",
      "sail": "NED-157",
      "division": "U13"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Anna KOREVAAR",
+     "sail": "NED 157",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "anne-cnossen",
+   "name": "Anne Cnossen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Anne Cnossen",
+     "sail": "665",
+     "division": "Espoir"
     }
    ]
   },
@@ -557,6 +810,28 @@
      "sail": null,
      "division": null,
      "bib": "503",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "antonio-cozzolino",
+   "name": "Antonio Cozzolino",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Antonio Cozzolino",
+     "sail": "NZL8",
+     "division": null,
+     "bib": "735"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Antonio Cozzolino",
+     "sail": "NZL1",
+     "division": null,
+     "bib": "705",
      "match": "naam"
     }
    ]
@@ -665,6 +940,19 @@
    ]
   },
   {
+   "id": "arne-marijn-elzes",
+   "name": "Arne Marijn Elzes",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Arne Marijn Elzes",
+     "sail": "330",
+     "division": "Espoir"
+    }
+   ]
+  },
+  {
    "id": "arnold-agema",
    "name": "Arnold Agema",
    "aliases": [],
@@ -759,6 +1047,13 @@
      "sail": "NED-135",
      "division": "U21",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Arthur Dunnewind",
+     "sail": "NEN-135",
+     "division": "Youth U21",
+     "match": "naam"
     }
    ]
   },
@@ -819,6 +1114,32 @@
    ]
   },
   {
+   "id": "baaijen",
+   "name": "Baaijen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Baaijen",
+     "sail": "1128",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "badbe",
+   "name": "Badbe",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Badbe",
+     "sail": "194",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
    "id": "bart-branders",
    "name": "Bart Branders",
    "aliases": [],
@@ -829,6 +1150,28 @@
      "sail": null,
      "division": null,
      "bib": "522"
+    }
+   ]
+  },
+  {
+   "id": "bart-goemans",
+   "name": "Bart Goemans",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Bart Goemans",
+     "sail": "8",
+     "division": "Male",
+     "bib": "g28"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Bart Goemans",
+     "sail": "8",
+     "division": "Vin",
+     "bib": "21",
+     "match": "naam"
     }
    ]
   },
@@ -847,11 +1190,36 @@
    ]
   },
   {
+   "id": "bart-kramer",
+   "name": "Bart Kramer",
+   "aliases": [
+    "Bert Kamer"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Bart Kramer",
+     "sail": "505",
+     "division": null,
+     "bib": "725"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Bert Kamer",
+     "sail": "NED 505",
+     "division": "Men",
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
    "id": "bart-van-den-bogaart",
    "name": "Bart van den Bogaart",
    "aliases": [
     "Bart Van den Bogaart",
-    "Bart Vd Bogaart"
+    "Bart Vd Bogaart",
+    "Bart BOGAART",
+    "Bart Van Den Bogaart"
    ],
    "appearances": [
     {
@@ -874,6 +1242,27 @@
      "sail": null,
      "division": null,
      "match": "bevestigd"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Bart BOGAART",
+     "sail": "NED 259",
+     "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Bart Van Den Bogaart",
+     "sail": "NED-259",
+     "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Bart Van Den Bogaart",
+     "sail": "NED-259",
+     "division": "Youth U21",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -944,6 +1333,26 @@
      "division": null,
      "bib": "304",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Bart Waardijk",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "bartlema",
+   "name": "Bartlema",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Bartlema",
+     "sail": "113",
+     "division": null
     }
    ]
   },
@@ -989,6 +1398,13 @@
      "sail": null,
      "division": null,
      "bib": "142",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Bas Brull",
+     "sail": "NED No",
+     "division": "Men",
      "match": "naam"
     }
    ]
@@ -1118,6 +1534,93 @@
      "division": null,
      "bib": "535",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Bas Mulder",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Bas Mulder",
+     "sail": "NED92",
+     "division": null,
+     "bib": "706",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Bas Mulder",
+     "sail": "NED-92",
+     "division": null,
+     "bib": "707",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Bas Mulder",
+     "sail": "NED 92",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Bas Mulder",
+     "sail": "NED 92",
+     "division": "Male",
+     "bib": "g67",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Bas Mulder",
+     "sail": "NED-92",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Bas Mulder",
+     "sail": "NED-92",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Bas Mulder",
+     "sail": "NED 92",
+     "division": "Foil",
+     "bib": "22",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "bas-van-der-velden",
+   "name": "Bas van der Velden",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Bas van der Velden",
+     "sail": "NED 266",
+     "division": null,
+     "bib": "717"
+    }
+   ]
+  },
+  {
+   "id": "ben-vd-steen",
+   "name": "Ben vd Steen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Ben vd Steen",
+     "sail": "57",
+     "division": "Male"
     }
    ]
   },
@@ -1146,6 +1649,13 @@
      "sail": "G1703/107",
      "division": null,
      "bib": "167",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Bendix Engemann",
+     "sail": "GER-1703",
+     "division": "Senior (Men/Women)",
      "match": "naam"
     }
    ]
@@ -1247,6 +1757,13 @@
      "sail": null,
      "division": null,
      "bib": "371",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Bjarne van der Weg",
+     "sail": "NED-2024",
+     "division": "Youth U21",
      "match": "naam"
     }
    ]
@@ -1358,6 +1875,19 @@
    ]
   },
   {
+   "id": "bjorn-vd-meet",
+   "name": "Bjorn vd Meet",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Bjorn vd Meet",
+     "sail": "17",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "bo-anton-de-vrije",
    "name": "Bo Anton de Vrije",
    "aliases": [],
@@ -1382,6 +1912,13 @@
      "sail": null,
      "division": null,
      "bib": "331",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Bob Rietbergen",
+     "sail": "727",
+     "division": "Male",
      "match": "naam"
     }
    ]
@@ -1489,9 +2026,24 @@
    ]
   },
   {
+   "id": "bram-bekaert",
+   "name": "Bram Bekaert",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Bram Bekaert",
+     "sail": "200",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "brendan-lorho",
    "name": "Brendan Lorho",
-   "aliases": [],
+   "aliases": [
+    "Brendan LORHO"
+   ],
    "appearances": [
     {
      "event": "nk-2019-stop2-slalom-jeugd",
@@ -1527,6 +2079,33 @@
      "division": null,
      "bib": "17",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Brendan LORHO",
+     "sail": "FRA-113",
+     "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Brendan LORHO",
+     "sail": "FRA-113",
+     "division": "Youth U21",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "brendon-lotho",
+   "name": "Brendon Lotho",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Brendon Lotho",
+     "sail": "FRA 413",
+     "division": "Youth (U20)"
     }
    ]
   },
@@ -1611,6 +2190,37 @@
    ]
   },
   {
+   "id": "casper-bouman",
+   "name": "Casper Bouman",
+   "aliases": [
+    "casper bouman"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Casper Bouman",
+     "sail": "52",
+     "division": "Male"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "casper bouman",
+     "sail": "NED52",
+     "division": null,
+     "bib": "732",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Casper Bouman",
+     "sail": "NED52",
+     "division": null,
+     "bib": "708",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "casper-van-schaardenburg",
    "name": "Casper Van Schaardenburg",
    "aliases": [],
@@ -1625,10 +2235,24 @@
    ]
   },
   {
+   "id": "cats",
+   "name": "Cats",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Cats",
+     "sail": "710",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "cedric-walhof",
    "name": "Cedric Walhof",
    "aliases": [
-    "Cédric Walhof"
+    "Cédric Walhof",
+    "Cédric WALHOF"
    ],
    "appearances": [
     {
@@ -1658,6 +2282,13 @@
      "sail": null,
      "division": null,
      "bib": "51",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Cédric WALHOF",
+     "sail": "NED 388",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -1705,6 +2336,41 @@
    ]
   },
   {
+   "id": "chris-le-masurier",
+   "name": "Chris Le Masurier",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Chris Le Masurier",
+     "sail": "JER777",
+     "division": "Male",
+     "bib": "g8"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Chris Le Masurier",
+     "sail": "JER 777",
+     "division": "Vin",
+     "bib": "18",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "christiaan-s-hungronje",
+   "name": "Christiaan S Hungronje",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Christiaan S Hungronje",
+     "sail": "443",
+     "division": "Espoir"
+    }
+   ]
+  },
+  {
    "id": "christoph-deus",
    "name": "Christoph Deus",
    "aliases": [],
@@ -1735,10 +2401,24 @@
    ]
   },
   {
+   "id": "cindy-koopman",
+   "name": "Cindy Koopman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-dames",
+     "name": "Cindy Koopman",
+     "sail": "166",
+     "division": "Female"
+    }
+   ]
+  },
+  {
    "id": "cobus-van-der-stel",
    "name": "Cobus Van Der Stel",
    "aliases": [
-    "Cobus van der Stel"
+    "Cobus van der Stel",
+    "Cobus van der stel"
    ],
    "appearances": [
     {
@@ -1753,6 +2433,13 @@
      "sail": null,
      "division": null,
      "bib": "537",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Cobus van der stel",
+     "sail": "818",
+     "division": "Master",
      "match": "naam"
     }
    ]
@@ -1819,6 +2506,20 @@
      "division": null,
      "bib": "164",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Cyril Evrard",
+     "sail": "BEL-250",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Cyril Evrard",
+     "sail": "BEL-250",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
     }
    ]
   },
@@ -1854,6 +2555,20 @@
      "division": null,
      "bib": "172",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "daniel-van-akkeren",
+   "name": "Daniel van Akkeren",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Daniel van Akkeren",
+     "sail": "NED….",
+     "division": null,
+     "bib": "730"
     }
    ]
   },
@@ -1911,6 +2626,32 @@
    ]
   },
   {
+   "id": "de-jonge",
+   "name": "De Jonge",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "De Jonge",
+     "sail": "787",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "de-muyer",
+   "name": "De Muyer",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rsx",
+     "name": "De Muyer",
+     "sail": "64",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "dennis-de-pauw",
    "name": "Dennis de Pauw",
    "aliases": [],
@@ -1941,13 +2682,38 @@
      "sail": "BEL-19",
      "division": "men",
      "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Dennis de Pauw",
+     "sail": "BEL 19",
+     "division": "Men",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "dennis-helmig",
+   "name": "Dennis Helmig",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Dennis Helmig",
+     "sail": "NED 1234",
+     "division": null,
+     "bib": "722"
     }
    ]
   },
   {
    "id": "dennis-littel",
    "name": "Dennis Littel",
-   "aliases": [],
+   "aliases": [
+    "Dennis Litte l",
+    "Denis Littel",
+    "Dennis"
+   ],
    "appearances": [
     {
      "event": "nk-2019-stop1-slalom-heren",
@@ -1986,6 +2752,59 @@
      "division": null,
      "bib": "334",
      "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Dennis Littel",
+     "sail": "334",
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Dennis Littel",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Dennis Littel",
+     "sail": "NED13",
+     "division": null,
+     "bib": "702",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Dennis Litte l",
+     "sail": "NED-13",
+     "division": null,
+     "bib": "710",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Denis Littel",
+     "sail": "NED 13",
+     "division": "Men",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Dennis Littel",
+     "sail": "NED13",
+     "division": "Male",
+     "bib": "g39",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Dennis",
+     "sail": "NED13",
+     "division": "Foil",
+     "bib": "26",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -2013,6 +2832,20 @@
      "sail": null,
      "division": null,
      "bib": "811",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Diederik Leemans",
+     "sail": "NED-301",
+     "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Diederik Leemans",
+     "sail": "NED-301",
+     "division": "Youth U21",
      "match": "naam"
     }
    ]
@@ -2064,6 +2897,19 @@
      "division": null,
      "bib": "27",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "dirk-snoek",
+   "name": "Dirk Snoek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Dirk Snoek",
+     "sail": "4",
+     "division": "Male"
     }
    ]
   },
@@ -2126,15 +2972,77 @@
    ]
   },
   {
+   "id": "doppenberg",
+   "name": "Doppenberg",
+   "aliases": [
+    "DOPPENBERG"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "DOPPENBERG",
+     "sail": "51",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "dorian-van-rijsselberge",
    "name": "Dorian van Rijsselberge",
-   "aliases": [],
+   "aliases": [
+    "Dorian v Rijsselberghe",
+    "Dorian van Rijsselberghe",
+    "Dorian Van Rijsselberghe"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
      "name": "Dorian van Rijsselberge",
      "sail": "Ned 8",
      "division": "Heren"
+    },
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Dorian v Rijsselberghe",
+     "sail": "820",
+     "division": "Male",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Dorian van Rijsselberghe",
+     "sail": null,
+     "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Dorian Van Rijsselberghe",
+     "sail": "NED8",
+     "division": null,
+     "bib": "733",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Dorian van Rijsselberghe",
+     "sail": "NED8",
+     "division": null,
+     "bib": "701",
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
+   "id": "douwe-jan-monsma",
+   "name": "Douwe Jan Monsma",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Douwe Jan Monsma",
+     "sail": "495",
+     "division": "Espoir"
     }
    ]
   },
@@ -2156,6 +3064,13 @@
      "sail": null,
      "division": null,
      "bib": "328",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Dylan de Jong",
+     "sail": "178",
+     "division": "Male",
      "match": "naam"
     }
    ]
@@ -2192,7 +3107,9 @@
   {
    "id": "e-van-der-wiel",
    "name": "E. Van Der Wiel",
-   "aliases": [],
+   "aliases": [
+    "E. van der Wiel"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-raceboard-max-9-5m2",
@@ -2207,6 +3124,14 @@
      "division": null,
      "bib": "157",
      "match": "bevestigd"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "E. van der Wiel",
+     "sail": "765",
+     "division": "Vin",
+     "bib": "76",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -2267,7 +3192,10 @@
   {
    "id": "edwin-de-koning",
    "name": "Edwin de koning",
-   "aliases": [],
+   "aliases": [
+    "Edwin de Koning",
+    "Edwin Koning"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2019-long-distance-masters-heren",
@@ -2275,6 +3203,20 @@
      "sail": null,
      "division": null,
      "bib": "341"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Edwin de Koning",
+     "sail": "53",
+     "division": "Master",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Edwin Koning",
+     "sail": "53",
+     "division": "Male",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -2368,7 +3310,9 @@
   {
    "id": "ennio-dal-pont",
    "name": "Ennio Dal Pont",
-   "aliases": [],
+   "aliases": [
+    "Ennio Dalponte"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -2424,6 +3368,20 @@
      "sail": "ITA-465",
      "division": "Senior",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Ennio Dal Pont",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Ennio Dalponte",
+     "sail": "NED 46",
+     "division": "Youth (U20)",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -2460,6 +3418,22 @@
      "division": null,
      "bib": "322",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "eric-van-meenen",
+   "name": "Eric van Meenen",
+   "aliases": [
+    "eric van meenen"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "eric van meenen",
+     "sail": "NED-963",
+     "division": "Foil",
+     "bib": "11"
     }
    ]
   },
@@ -2581,13 +3555,35 @@
      "sail": "NED-760",
      "division": "Open Men",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Erwin van Logchem",
+     "sail": "NED-760",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "esmee-hartrveld",
+   "name": "Esmee Hartrveld",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Esmee Hartrveld",
+     "sail": "II",
+     "division": null
     }
    ]
   },
   {
    "id": "esther-de-geus",
    "name": "Esther de Geus",
-   "aliases": [],
+   "aliases": [
+    "Ester de Geus"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-dames",
@@ -2623,6 +3619,35 @@
      "division": null,
      "bib": "32",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Esther de Geus",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Esther de Geus",
+     "sail": "NED 16",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Ester de Geus",
+     "sail": "NED 16",
+     "division": null,
+     "bib": "731",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Esther de Geus",
+     "sail": "NED 16",
+     "division": "Women",
+     "match": "naam"
     }
    ]
   },
@@ -2654,6 +3679,19 @@
    ]
   },
   {
+   "id": "eva-van-zoomeren",
+   "name": "Eva van Zoomeren",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Eva van Zoomeren",
+     "sail": "2",
+     "division": "Female"
+    }
+   ]
+  },
+  {
    "id": "evert-jongeneel",
    "name": "Evert Jongeneel",
    "aliases": [],
@@ -2663,6 +3701,19 @@
      "name": "Evert Jongeneel",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "evert-monsma",
+   "name": "Evert Monsma",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Evert Monsma",
+     "sail": "332",
+     "division": "Espoir"
     }
    ]
   },
@@ -2692,6 +3743,29 @@
      "sail": null,
      "division": null,
      "bib": "308",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "ewoud-van-den-berg",
+   "name": "Ewoud van den Berg",
+   "aliases": [
+    "Ewoud Van den Berg"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Ewoud van den Berg",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Ewoud Van den Berg",
+     "sail": "188",
+     "division": null,
+     "bib": "703",
      "match": "naam"
     }
    ]
@@ -2744,6 +3818,28 @@
      "name": "Fabian van Stijn",
      "sail": "Ned 175",
      "division": "Jeugd"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Fabian van Stijn",
+     "sail": "175",
+     "division": null,
+     "bib": "728",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Fabian van Stijn",
+     "sail": "NED 175",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Fabian van Stijn",
+     "sail": "NED 175",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -2753,7 +3849,9 @@
    "aliases": [
     "Fabiënne Hoogendam",
     "Fabiene Hogendam",
-    "Fabinne Hoogendam"
+    "Fabinne Hoogendam",
+    "Fabien Hoogendam",
+    "Fabienne"
    ],
    "appearances": [
     {
@@ -2840,6 +3938,36 @@
      "division": null,
      "bib": "43",
      "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Fabien Hoogendam",
+     "sail": "NED 223",
+     "division": "Youth (U20)",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Fabien Hoogendam",
+     "sail": "NED 223",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Fabienne",
+     "sail": "NED 223",
+     "division": "Female",
+     "bib": "g16",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Fabiënne Hoogendam",
+     "sail": "NED223",
+     "division": "Vin",
+     "bib": "17",
+     "match": "naam"
     }
    ]
   },
@@ -2868,6 +3996,29 @@
      "sail": null,
      "division": null,
      "bib": "237"
+    }
+   ]
+  },
+  {
+   "id": "femke-van-der-valk",
+   "name": "Femke van der Valk",
+   "aliases": [
+    "Vd valk"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Femke van der Valk",
+     "sail": "NED 19",
+     "division": null,
+     "bib": "735"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Vd valk",
+     "sail": "19",
+     "division": null,
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -2963,6 +4114,20 @@
      "division": null,
      "bib": "834",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Femke van der Veen",
+     "sail": "NED-2251",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Femke van der Veen",
+     "sail": "NED-2251",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
     }
    ]
   },
@@ -2985,7 +4150,9 @@
    "aliases": [
     "Fianne van den Brule",
     "Fianne de Brule",
-    "Fianne Van den Brule"
+    "Fianne Van den Brule",
+    "Fianne van den BRULE",
+    "Fianne van den brule"
    ],
    "appearances": [
     {
@@ -3022,6 +4189,36 @@
      "sail": null,
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Fianne van den Brule",
+     "sail": "NED 119",
+     "division": "Female",
+     "bib": "g1",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Fianne van den BRULE",
+     "sail": "NED 119",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Fianne van den brule",
+     "sail": "NED-119",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Fianne van den brule",
+     "sail": "Ned 119",
+     "division": "Foil",
+     "bib": "1",
+     "match": "naam"
     }
    ]
   },
@@ -3030,7 +4227,8 @@
    "name": "Finn Brull",
    "aliases": [
     "Finn Brüll",
-    "Finn Brul"
+    "Finn Brul",
+    "Finn BRÜLL"
    ],
    "appearances": [
     {
@@ -3083,6 +4281,40 @@
      "division": null,
      "bib": "24",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Finn BRÜLL",
+     "sail": "NED 731",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "floris-franken",
+   "name": "Floris Franken",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Floris Franken",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Floris Franken",
+     "sail": "NED 35",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Floris Franken",
+     "sail": "NED 35",
+     "division": "Youth (U20)",
+     "match": "naam"
     }
    ]
   },
@@ -3126,6 +4358,14 @@
      "division": null,
      "bib": "219",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Floris Visscher",
+     "sail": "101",
+     "division": null,
+     "bib": "707",
+     "match": "naam"
     }
    ]
   },
@@ -3159,6 +4399,13 @@
      "name": "Fos Cooper",
      "sail": "NED-400",
      "division": "U17"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Fos Cooper",
+     "sail": "NED-400",
+     "division": "Junior U17",
+     "match": "naam"
     }
    ]
   },
@@ -3205,6 +4452,28 @@
    ]
   },
   {
+   "id": "frank-heida",
+   "name": "Frank Heida",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Frank Heida",
+     "sail": "17",
+     "division": null,
+     "bib": "731"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Frank Heida",
+     "sail": "FRL-800",
+     "division": "Male",
+     "bib": "g60",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "frank-zoethout",
    "name": "Frank Zoethout",
    "aliases": [],
@@ -3219,9 +4488,24 @@
    ]
   },
   {
+   "id": "fransen",
+   "name": "Fransen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Fransen",
+     "sail": "Paars zeil",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "freerk-blom",
    "name": "Freerk Blom",
-   "aliases": [],
+   "aliases": [
+    "Freerk BLOM"
+   ],
    "appearances": [
     {
      "event": "nk-2022-slalom-jeugd",
@@ -3243,6 +4527,21 @@
      "sail": null,
      "division": null,
      "bib": "132",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Freerk Blom",
+     "sail": "NED25",
+     "division": "Male",
+     "bib": "g48",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Freerk BLOM",
+     "sail": "NED 25",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -3330,7 +4629,9 @@
   {
    "id": "geert-beek-van",
    "name": "Geert Beek van",
-   "aliases": [],
+   "aliases": [
+    "Geert van Beek"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2026-long-distance-fin-master",
@@ -3344,6 +4645,13 @@
      "sail": "NED525",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Geert van Beek",
+     "sail": "NED-525",
+     "division": "Grandmaster",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -3357,6 +4665,19 @@
      "name": "Geert-Jan Worst",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "gerrij-ruiter",
+   "name": "Gerrij Ruiter",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Gerrij Ruiter",
+     "sail": "333",
+     "division": "Male"
     }
    ]
   },
@@ -3425,6 +4746,19 @@
    ]
   },
   {
+   "id": "gijsen",
+   "name": "Gijsen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Gijsen",
+     "sail": "888",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "giny-cnossen",
    "name": "Giny Cnossen",
    "aliases": [],
@@ -3434,6 +4768,19 @@
      "name": "Giny Cnossen",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "gregory-maes",
+   "name": "Gregory Maes",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Gregory Maes",
+     "sail": "312",
+     "division": "Male"
     }
    ]
   },
@@ -3484,7 +4831,9 @@
   {
    "id": "haldun-atar",
    "name": "Haldun Atar",
-   "aliases": [],
+   "aliases": [
+    "Haldun"
+   ],
    "appearances": [
     {
      "event": "nk-2023-slalom-heren",
@@ -3499,6 +4848,13 @@
      "sail": null,
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Haldun",
+     "sail": "7777",
+     "division": "Senior (Men/Women)",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -3553,6 +4909,40 @@
      "sail": null,
      "division": null,
      "bib": "228"
+    }
+   ]
+  },
+  {
+   "id": "hardholt",
+   "name": "Hardholt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Hardholt",
+     "sail": "401",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "harold-elfring",
+   "name": "Harold Elfring",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Harold Elfring",
+     "sail": "2891",
+     "division": null,
+     "bib": "734"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Harold Elfring",
+     "sail": "NED 2891",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -3643,9 +5033,24 @@
    ]
   },
   {
+   "id": "herman-vd-berg",
+   "name": "Herman vd Berg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Herman vd Berg",
+     "sail": "971",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "hidde-boon",
    "name": "Hidde Boon",
-   "aliases": [],
+   "aliases": [
+    "Hidde BOON"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2023-long-distance-foil-men-18-up-to-40",
@@ -3653,6 +5058,36 @@
      "sail": null,
      "division": null,
      "bib": "111"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Hidde Boon",
+     "sail": "NED 126",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Hidde Boon",
+     "sail": "NED-126",
+     "division": "Male",
+     "bib": "g58",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Hidde BOON",
+     "sail": "NED 126",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Hidde Boon",
+     "sail": "NED 126",
+     "division": "Foil",
+     "bib": "12",
+     "match": "naam"
     }
    ]
   },
@@ -3673,7 +5108,10 @@
   {
    "id": "hidde-van-der-meer",
    "name": "Hidde van der Meer",
-   "aliases": [],
+   "aliases": [
+    "Hidde vd Meer",
+    "Hidde Van der meer"
+   ],
    "appearances": [
     {
      "event": "nk-2019-stop2-slalom-jeugd",
@@ -3709,6 +5147,20 @@
      "sail": null,
      "division": null,
      "bib": "130",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Hidde vd Meer",
+     "sail": "NED 352",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Hidde Van der meer",
+     "sail": "NED-352",
+     "division": "Youth U21",
      "match": "naam"
     }
    ]
@@ -3766,7 +5218,8 @@
    "id": "huig-jan-tak",
    "name": "Huig Jan Tak",
    "aliases": [
-    "Huig-Jan Tabak"
+    "Huig-Jan Tabak",
+    "Huig-Jan Tak"
    ],
    "appearances": [
     {
@@ -3789,6 +5242,28 @@
      "division": null,
      "bib": "164",
      "match": "bevestigd"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Huig-Jan Tak",
+     "sail": "NED 465",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Huig-Jan Tak",
+     "sail": "NED 465",
+     "division": null,
+     "bib": "728",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Huig-Jan Tak",
+     "sail": "NED 465",
+     "division": "Men",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -3840,6 +5315,19 @@
    ]
   },
   {
+   "id": "ilse-hoogeveen",
+   "name": "Ilse Hoogeveen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Ilse Hoogeveen",
+     "sail": "3",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "imky-de-bruine",
    "name": "Imky de Bruine",
    "aliases": [],
@@ -3850,6 +5338,19 @@
      "sail": null,
      "division": null,
      "bib": "41"
+    }
+   ]
+  },
+  {
+   "id": "immen",
+   "name": "Immen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Immen",
+     "sail": "X-III",
+     "division": null
     }
    ]
   },
@@ -3943,6 +5444,42 @@
      "sail": null,
      "division": null,
      "bib": "374",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Ingmar Daldorf",
+     "sail": "NED 191",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Ingmar Daldorf",
+     "sail": "NED-191",
+     "division": null,
+     "bib": "712",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Ingmar Daldorf",
+     "sail": "NED 191",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Ingmar Daldorf",
+     "sail": "NED-191",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Ingmar Daldorf",
+     "sail": "NED-191",
+     "division": "Senior (Men/Women)",
      "match": "naam"
     }
    ]
@@ -4046,6 +5583,13 @@
      "division": null,
      "bib": "45",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Iris Gimpel",
+     "sail": "NED-567",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
     }
    ]
   },
@@ -4060,6 +5604,19 @@
      "sail": null,
      "division": null,
      "bib": "3"
+    }
+   ]
+  },
+  {
+   "id": "iris-van-riel",
+   "name": "Iris van Riel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Iris van Riel",
+     "sail": "446",
+     "division": "Female"
     }
    ]
   },
@@ -4114,7 +5671,9 @@
   {
    "id": "jakob-kooij",
    "name": "Jakob Kooij",
-   "aliases": [],
+   "aliases": [
+    "Jacob Kooij"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -4215,6 +5774,59 @@
      "division": null,
      "bib": "173",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Jakob Kooij",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Jakob Kooij",
+     "sail": "NED99",
+     "division": null,
+     "bib": "722",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Jakob Kooij",
+     "sail": "NED 99",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Jacob Kooij",
+     "sail": "NED-99",
+     "division": null,
+     "bib": "706",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Jakob Kooij",
+     "sail": "NED 99",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Jakob Kooij",
+     "sail": "NED-99",
+     "division": "Male",
+     "bib": "g22",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Jakob Kooij",
+     "sail": "NED99",
+     "division": "Foil",
+     "bib": "16",
+     "match": "naam"
     }
    ]
   },
@@ -4271,6 +5883,19 @@
      "division": null,
      "bib": "121",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jan-orsatti",
+   "name": "Jan Orsatti",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Jan Orsatti",
+     "sail": null,
+     "division": null
     }
    ]
   },
@@ -4341,6 +5966,13 @@
      "sail": null,
      "division": null,
      "bib": "136"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Jan Versteegen",
+     "sail": "X",
+     "division": "Grandmaster",
+     "match": "naam"
     }
    ]
   },
@@ -4363,6 +5995,33 @@
      "division": null,
      "bib": "8",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Jan Wim Becker",
+     "sail": "GER-876",
+     "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Jan Wim Becker",
+     "sail": "GER-876",
+     "division": "Youth U21",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jan-witteveen",
+   "name": "Jan Witteveen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Jan Witteveen",
+     "sail": null,
+     "division": null
     }
    ]
   },
@@ -4403,9 +6062,25 @@
    ]
   },
   {
+   "id": "jaques-vd-hout",
+   "name": "Jaques vd Hout",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Jaques vd Hout",
+     "sail": "73",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "jari-de-keijzer",
    "name": "Jari De Keijzer",
-   "aliases": [],
+   "aliases": [
+    "Jari de KEIJZER",
+    "Jari de Keijzer"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-iq-foil",
@@ -4420,6 +6095,20 @@
      "division": null,
      "bib": "101",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Jari de KEIJZER",
+     "sail": "NED 116",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Jari de Keijzer",
+     "sail": "NED-604",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
     }
    ]
   },
@@ -4433,6 +6122,28 @@
      "name": "Jason Duiveman",
      "sail": "FRA-873",
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "jasper-den-haan",
+   "name": "Jasper den Haan",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Jasper den Haan",
+     "sail": "xxxx",
+     "division": "Male",
+     "bib": "g50"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Jasper den Haan",
+     "sail": "XXXX",
+     "division": "Foil",
+     "bib": "28",
+     "match": "naam"
     }
    ]
   },
@@ -4534,7 +6245,8 @@
    "name": "Jelle van der Veen",
    "aliases": [
     "Jelle Van der Veen",
-    "Jelle van de Veen"
+    "Jelle van de Veen",
+    "Jelle vd Veen"
    ],
    "appearances": [
     {
@@ -4613,6 +6325,40 @@
      "division": null,
      "bib": "509",
      "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Jelle vd Veen",
+     "sail": "NED 225",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Jelle van der Veen",
+     "sail": "11",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Jelle van der Veen",
+     "sail": "11",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jelle-vermeulen",
+   "name": "Jelle Vermeulen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Jelle Vermeulen",
+     "sail": "253",
+     "division": "Male"
     }
    ]
   },
@@ -4710,6 +6456,33 @@
    ]
   },
   {
+   "id": "jeroen-coppens",
+   "name": "Jeroen Coppens",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Jeroen Coppens",
+     "sail": "540",
+     "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "jeroen-de-geus",
+   "name": "Jeroen de Geus",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Jeroen de Geus",
+     "sail": "25",
+     "division": null,
+     "bib": "724"
+    }
+   ]
+  },
+  {
    "id": "jeroen-de-roo",
    "name": "Jeroen de Roo",
    "aliases": [],
@@ -4777,6 +6550,19 @@
    ]
   },
   {
+   "id": "jesper-vestertrom",
+   "name": "Jesper Vestertrom",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Jesper Vestertrom",
+     "sail": "111 D",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "jill-de-leeuw",
    "name": "Jill de Leeuw",
    "aliases": [],
@@ -4787,6 +6573,19 @@
      "sail": null,
      "division": null,
      "bib": "066"
+    }
+   ]
+  },
+  {
+   "id": "jissink",
+   "name": "Jissink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Jissink",
+     "sail": "42",
+     "division": null
     }
    ]
   },
@@ -4879,7 +6678,9 @@
   {
    "id": "joep-havik",
    "name": "Joep Havik",
-   "aliases": [],
+   "aliases": [
+    "Joep HAVIK"
+   ],
    "appearances": [
     {
      "event": "nk-2022-slalom-jeugd",
@@ -4901,6 +6702,29 @@
      "sail": null,
      "division": null,
      "bib": "112",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Joep Havik",
+     "sail": "NED 231",
+     "division": "Male",
+     "bib": "g7",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Joep HAVIK",
+     "sail": "NED 231",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Joep Havik",
+     "sail": "NED - 231",
+     "division": "Foil",
+     "bib": "19",
      "match": "naam"
     }
    ]
@@ -4945,6 +6769,19 @@
      "division": null,
      "bib": "31",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "joeri-van-dijk",
+   "name": "Joeri van Dijk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Joeri van Dijk",
+     "sail": "77",
+     "division": "Male"
     }
    ]
   },
@@ -5001,6 +6838,28 @@
    ]
   },
   {
+   "id": "johan-vd-lippe",
+   "name": "Van der Lippe",
+   "aliases": [
+    "Johan vd Lippe"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Johan vd Lippe",
+     "sail": "828",
+     "division": "Male"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Van der Lippe",
+     "sail": "828",
+     "division": null,
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
    "id": "john-john-vanderick",
    "name": "John John Vanderick",
    "aliases": [],
@@ -5016,7 +6875,9 @@
   {
    "id": "john-munten",
    "name": "John Munten",
-   "aliases": [],
+   "aliases": [
+    "John MUNTEN"
+   ],
    "appearances": [
     {
      "event": "nk-2019-stop2-slalom-heren",
@@ -5044,6 +6905,20 @@
      "sail": null,
      "division": null,
      "bib": "533",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "John Munten",
+     "sail": "NED 30",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "John MUNTEN",
+     "sail": "NED 30",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -5172,6 +7047,26 @@
    ]
   },
   {
+   "id": "joost-vink",
+   "name": "Joost Vink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Joost Vink",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Joost Vink",
+     "sail": "NED 148",
+     "division": "Youth (U20)",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "joost-weijden",
    "name": "Joost Weijden",
    "aliases": [],
@@ -5181,6 +7076,19 @@
      "name": "Joost Weijden",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "joost-zweistra",
+   "name": "Joost Zweistra",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Joost Zweistra",
+     "sail": "7",
+     "division": "Male"
     }
    ]
   },
@@ -5276,6 +7184,19 @@
    ]
   },
   {
+   "id": "joris-van-essen",
+   "name": "Joris van Essen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Joris van Essen",
+     "sail": "1111",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "jorn-kooystra",
    "name": "Jorn Kooystra",
    "aliases": [],
@@ -5286,6 +7207,32 @@
      "sail": null,
      "division": null,
      "bib": "55"
+    }
+   ]
+  },
+  {
+   "id": "jort-min",
+   "name": "Jort Min",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Jort Min",
+     "sail": "707",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "jos-lanyman",
+   "name": "Jos Lanyman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Jos Lanyman",
+     "sail": "NED 143",
+     "division": "Men"
     }
    ]
   },
@@ -5308,6 +7255,19 @@
      "division": null,
      "bib": "25",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "julia-snoek",
+   "name": "Julia Snoek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Julia Snoek",
+     "sail": "172",
+     "division": "Female"
     }
    ]
   },
@@ -5347,6 +7307,19 @@
    ]
   },
   {
+   "id": "jurgen-piessens",
+   "name": "Jurgen Piessens",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Jurgen Piessens",
+     "sail": "594",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "jurrien-wind",
    "name": "Jurriën Wind",
    "aliases": [],
@@ -5379,6 +7352,19 @@
      "sail": null,
      "division": null,
      "bib": "818"
+    }
+   ]
+  },
+  {
+   "id": "juul-snoek",
+   "name": "Juul Snoek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Juul Snoek",
+     "sail": "7000",
+     "division": "Female"
     }
    ]
   },
@@ -5436,7 +7422,8 @@
    "name": "Kas De Wolf",
    "aliases": [
     "Kas de Wolf",
-    "Kas De wolf"
+    "Kas De wolf",
+    "Kas de WOLF"
    ],
    "appearances": [
     {
@@ -5496,6 +7483,34 @@
      "division": null,
      "bib": "356",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Kas de Wolf",
+     "sail": "39",
+     "division": "Male",
+     "bib": "g44",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Kas de WOLF",
+     "sail": "NED 39",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "kater",
+   "name": "Kater",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Kater",
+     "sail": "322",
+     "division": "Jeugd"
     }
    ]
   },
@@ -5509,6 +7524,53 @@
      "name": "Kees Both",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "kelvin-douwalder",
+   "name": "Kelvin Douwalder",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Kelvin Douwalder",
+     "sail": null,
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "kentrop",
+   "name": "Kentrop",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rsx",
+     "name": "Kentrop",
+     "sail": "429",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "kester-den-nieuwenboer",
+   "name": "Kester den Nieuwenboer",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Kester den Nieuwenboer",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Kester den Nieuwenboer",
+     "sail": "7",
+     "division": null,
+     "bib": "718",
+     "match": "naam"
     }
    ]
   },
@@ -5527,6 +7589,19 @@
    ]
   },
   {
+   "id": "kienter",
+   "name": "Kienter",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Kienter",
+     "sail": "130",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "kim-bavinck",
    "name": "Kim Bavinck",
    "aliases": [],
@@ -5536,6 +7611,43 @@
      "name": "Kim Bavinck",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "kiran-badloe",
+   "name": "Kiran Badloe",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Kiran Badloe",
+     "sail": "NED9",
+     "division": null,
+     "bib": "716"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Kiran Badloe",
+     "sail": "NED 9",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Kiran Badloe",
+     "sail": "NED9",
+     "division": null,
+     "bib": "703",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Kiran Badloe",
+     "sail": "NED9",
+     "division": "Foil",
+     "bib": "37",
+     "match": "naam"
     }
    ]
   },
@@ -5659,6 +7771,20 @@
      "division": null,
      "bib": "201",
      "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Koen Hessels",
+     "sail": "NED 881",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Koen Hessels",
+     "sail": "NED 881",
+     "division": "Youth (U20)",
+     "match": "naam"
     }
    ]
   },
@@ -5681,6 +7807,19 @@
      "division": null,
      "bib": "315",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "konstapel",
+   "name": "Konstapel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Konstapel",
+     "sail": "18",
+     "division": "Master"
     }
    ]
   },
@@ -5826,6 +7965,35 @@
    ]
   },
   {
+   "id": "leendert-van-gaalen",
+   "name": "Leendert van Gaalen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Leendert van Gaalen",
+     "sail": "338",
+     "division": "Espoir"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Leendert van Gaalen",
+     "sail": "X",
+     "division": null,
+     "bib": "714",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Leendert van Gaalen",
+     "sail": "NED 7",
+     "division": null,
+     "bib": "736",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "lennart-cnossen",
    "name": "Lennart Cnossen",
    "aliases": [],
@@ -5917,6 +8085,19 @@
    ]
   },
   {
+   "id": "lieuwe-faber",
+   "name": "Lieuwe Faber",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Lieuwe Faber",
+     "sail": "498",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "lilou-bavinck",
    "name": "Lilou Bavinck",
    "aliases": [],
@@ -5980,6 +8161,19 @@
    ]
   },
   {
+   "id": "little",
+   "name": "Little",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Little",
+     "sail": "13",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "lizet-tschin",
    "name": "Lizet Tschin",
    "aliases": [],
@@ -5989,6 +8183,19 @@
      "name": "Lizet Tschin",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "lloyd-vd-velden",
+   "name": "Lloyd vd Velden",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Lloyd vd Velden",
+     "sail": "558",
+     "division": "Master"
     }
    ]
   },
@@ -6049,7 +8256,8 @@
    "name": "Luc Buse",
    "aliases": [
     "Luc Busé",
-    "Luc Bus"
+    "Luc Bus",
+    "Luc BUSE"
    ],
    "appearances": [
     {
@@ -6101,6 +8309,21 @@
      "division": null,
      "bib": "100",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Luc Busé",
+     "sail": "NED333",
+     "division": "Male",
+     "bib": "g56",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Luc BUSE",
+     "sail": "NED 333",
+     "division": null,
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -6131,6 +8354,33 @@
    ]
   },
   {
+   "id": "luc-schmitz",
+   "name": "Luc Schmitz",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Luc Schmitz",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Luc Schmitz",
+     "sail": "NED 115",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Luc Schmitz",
+     "sail": "NED 115",
+     "division": "Youth (U20)",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "luca-reenders",
    "name": "Luca Reenders",
    "aliases": [],
@@ -6152,9 +8402,45 @@
    ]
   },
   {
+   "id": "lucien-vdelst",
+   "name": "Lucien v.Delst",
+   "aliases": [
+    "Lucien v Dest"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Lucien v.Delst",
+     "sail": "NED 6",
+     "division": null,
+     "bib": "739"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Lucien v Dest",
+     "sail": "NED 10",
+     "division": "Men",
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Lucien v Dest",
+      "Lucien v.Delst"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-02",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Lucien v Dest' (lucien-v-dest) samengevoegd"
+    }
+   ]
+  },
+  {
    "id": "luuc-van-opzeeland",
    "name": "Luuc van Opzeeland",
-   "aliases": [],
+   "aliases": [
+    "Luuk van Opzeeland"
+   ],
    "appearances": [
     {
      "event": "nk-2018-slalom-heren",
@@ -6189,6 +8475,28 @@
      "sail": null,
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Luuk van Opzeeland",
+     "sail": "NED 55",
+     "division": "Youth (U20)",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Luuc van Opzeeland",
+     "sail": "NED-55",
+     "division": null,
+     "bib": "711",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Luuk van Opzeeland",
+     "sail": "NED 55",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -6215,6 +8523,28 @@
      "name": "Maarten Bavinck",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "maarten-midden",
+   "name": "Maarten Midden",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Maarten Midden",
+     "sail": "121",
+     "division": null,
+     "bib": "710"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Maarten Midden",
+     "sail": "NED 216",
+     "division": null,
+     "bib": "727",
+     "match": "naam"
     }
    ]
   },
@@ -6349,6 +8679,26 @@
      "division": null,
      "bib": "69",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Mac Koeleman",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "maikel-houtkamp",
+   "name": "Maikel Houtkamp",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Maikel Houtkamp",
+     "sail": "895",
+     "division": "Male"
     }
    ]
   },
@@ -6382,7 +8732,9 @@
    "id": "marc-de-jong",
    "name": "Marc de Jong",
    "aliases": [
-    "Marc De Jong"
+    "Marc De Jong",
+    "marc de jong",
+    "Marc de JONG"
    ],
    "appearances": [
     {
@@ -6418,6 +8770,57 @@
      "sail": null,
      "division": null,
      "bib": "155",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Marc de Jong",
+     "sail": "103",
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Marc de Jong",
+     "sail": "103",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "marc de jong",
+     "sail": "NED100",
+     "division": null,
+     "bib": "723",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Marc de Jong",
+     "sail": "NED 100",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Marc de Jong",
+     "sail": "NED 100",
+     "division": null,
+     "bib": "723",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Marc de Jong",
+     "sail": "NED 100",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Marc de JONG",
+     "sail": "NED 10",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -6548,6 +8951,70 @@
      "division": null,
      "bib": "128",
      "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Marco Baaijen",
+     "sail": "NED 461",
+     "division": "Men",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "marco-boone",
+   "name": "Marco Boone",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Marco Boone",
+     "sail": "1119",
+     "division": "Male"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Marco Boone",
+     "sail": "NED 103",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Marco Boone",
+     "sail": "NED 103",
+     "division": null,
+     "bib": "724",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Marco Boone",
+     "sail": "NED 103",
+     "division": "Men",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "marco-kraaijenzank",
+   "name": "Marco Kraaijenzank",
+   "aliases": [
+    "Marco Kraayenzank"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Marco Kraaijenzank",
+     "sail": "105",
+     "division": "Espoir"
+    },
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Marco Kraayenzank",
+     "sail": "105L",
+     "division": "Male",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -6591,7 +9058,9 @@
    "id": "marco-van-der-leer",
    "name": "Marco van der Leer",
    "aliases": [
-    "Marco Van Der Leer"
+    "Marco Van Der Leer",
+    "Van der Leer",
+    "Marco van Leer"
    ],
    "appearances": [
     {
@@ -6622,6 +9091,27 @@
      "division": null,
      "bib": "132",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Van der Leer",
+     "sail": "207",
+     "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Marco van der Leer",
+     "sail": "NED 538",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Marco van Leer",
+     "sail": "NED 207",
+     "division": "Men",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -6691,6 +9181,32 @@
    ]
   },
   {
+   "id": "marga-stalman",
+   "name": "Marga Stalman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Marga Stalman",
+     "sail": "27",
+     "division": "Female"
+    }
+   ]
+  },
+  {
+   "id": "marieke-vd-vlis",
+   "name": "Marieke vd Vlis",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-dames",
+     "name": "Marieke vd Vlis",
+     "sail": "381",
+     "division": "Female"
+    }
+   ]
+  },
+  {
    "id": "mariette-labots",
    "name": "Mariette Labots",
    "aliases": [],
@@ -6704,9 +9220,24 @@
    ]
   },
   {
+   "id": "marijn-hoenderdaal",
+   "name": "Marijn Hoenderdaal",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Marijn Hoenderdaal",
+     "sail": null,
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "marijn-schouten",
    "name": "Marijn Schouten",
-   "aliases": [],
+   "aliases": [
+    "Marijn SCHOUTEN"
+   ],
    "appearances": [
     {
      "event": "nk-2023-slalom-heren-jeugd",
@@ -6753,6 +9284,27 @@
      "division": null,
      "bib": "803",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Marijn SCHOUTEN",
+     "sail": "NED 160",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Marijn Schouten",
+     "sail": "NED-160",
+     "division": "Junior U13",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Marijn Schouten",
+     "sail": "NED-160",
+     "division": "Junior U13",
+     "match": "naam"
     }
    ]
   },
@@ -6795,7 +9347,9 @@
   {
    "id": "mark-immenga",
    "name": "Mark Immenga",
-   "aliases": [],
+   "aliases": [
+    "Mark IMMENGA"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2019-long-distance-youth-15-17-jongens",
@@ -6810,6 +9364,29 @@
      "sail": null,
      "division": null,
      "bib": "067",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Mark Immenga",
+     "sail": "NED 353",
+     "division": "Male",
+     "bib": "g9",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Mark IMMENGA",
+     "sail": "NED 353",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Mark Immenga",
+     "sail": "NED 353",
+     "division": "Foil",
+     "bib": "35",
      "match": "naam"
     }
    ]
@@ -6851,6 +9428,19 @@
      "name": "Mark Tjon",
      "sail": "Aru 7",
      "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "markus-bouman",
+   "name": "Markus Bouman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Markus Bouman",
+     "sail": "666",
+     "division": "Espoir"
     }
    ]
   },
@@ -6909,6 +9499,46 @@
    ]
   },
   {
+   "id": "martijn-heijstek",
+   "name": "Martijn Heijstek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Martijn Heijstek",
+     "sail": "3141",
+     "division": "Male",
+     "bib": "g55"
+    }
+   ]
+  },
+  {
+   "id": "martijn-kooiman",
+   "name": "Martijn Kooiman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Martijn Kooiman",
+     "sail": "0",
+     "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "martijn-kornman",
+   "name": "Martijn Kornman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Martijn Kornman",
+     "sail": "11",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "martijn-mobach",
    "name": "Martijn Mobach",
    "aliases": [],
@@ -6934,7 +9564,8 @@
    "id": "martijn-van-geemen",
    "name": "Martijn Van Geemen",
    "aliases": [
-    "Martijn van Geemen"
+    "Martijn van Geemen",
+    "Martijn van GEEMEN"
    ],
    "appearances": [
     {
@@ -6958,13 +9589,75 @@
      "division": null,
      "bib": "126",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Martijn van Geemen",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Martijn van Geemen",
+     "sail": "XX",
+     "division": null,
+     "bib": "719",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Martijn van Geemen",
+     "sail": "NED X",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Martijn van Geemen",
+     "sail": "NED 11",
+     "division": null,
+     "bib": "733",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Martijn van Geemen",
+     "sail": "NED 111",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Martijn van Geemen",
+     "sail": "NED31",
+     "division": "Male",
+     "bib": "g51",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Martijn van GEEMEN",
+     "sail": "NED 31",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Martijn van Geemen",
+     "sail": "NED31",
+     "division": "Foil",
+     "bib": "40",
+     "match": "naam"
     }
    ]
   },
   {
    "id": "martijn-van-noord",
    "name": "Martijn van Noord",
-   "aliases": [],
+   "aliases": [
+    "Martijn v Noord"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -7028,6 +9721,13 @@
      "division": null,
      "bib": "335",
      "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Martijn v Noord",
+     "sail": "NED 703",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -7062,6 +9762,33 @@
    ]
   },
   {
+   "id": "martin-hengst",
+   "name": "Martin Hengst",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Martin Hengst",
+     "sail": "4289",
+     "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "martin-lloyd-evans",
+   "name": "Martin Lloyd Evans",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Martin Lloyd Evans",
+     "sail": "GBR2659",
+     "division": "Vin",
+     "bib": "38"
+    }
+   ]
+  },
+  {
    "id": "martin-roos",
    "name": "Martin Roos",
    "aliases": [],
@@ -7092,11 +9819,26 @@
    ]
   },
   {
+   "id": "mathijs-bronkhorst",
+   "name": "Mathijs Bronkhorst",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Mathijs Bronkhorst",
+     "sail": "NED-550",
+     "division": "Senior (Men/Women)"
+    }
+   ]
+  },
+  {
    "id": "matt-de-jong",
    "name": "Matt De Jong",
    "aliases": [
     "Matt de Jong",
-    "Matt De jong"
+    "Matt De jong",
+    "Matt de JONG",
+    "Matt de jong"
    ],
    "appearances": [
     {
@@ -7155,6 +9897,27 @@
      "division": null,
      "bib": "18",
      "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Matt de Jong",
+     "sail": "NED 115",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Matt de JONG",
+     "sail": "NED 100",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Matt de jong",
+     "sail": "NED-6",
+     "division": "Youth U21",
+     "match": "naam"
     }
    ]
   },
@@ -7168,6 +9931,13 @@
      "name": "Matthijs Pos",
      "sail": "NED-318",
      "division": "U21"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Matthijs Pos",
+     "sail": "NED-318",
+     "division": "Youth U21",
+     "match": "naam"
     }
    ]
   },
@@ -7219,13 +9989,22 @@
      "division": null,
      "bib": "370",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Matthijs van der Weg",
+     "sail": "NED-2023",
+     "division": "Grandmaster",
+     "match": "naam"
     }
    ]
   },
   {
    "id": "matthijs-van-t-hoff",
    "name": "Matthijs Van ‘T Hoff",
-   "aliases": [],
+   "aliases": [
+    "Matthijs van t Hoff"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-wing",
@@ -7239,6 +10018,13 @@
      "sail": null,
      "division": null,
      "bib": "196",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Matthijs van t Hoff",
+     "sail": "NED 216",
+     "division": "Men",
      "match": "naam"
     }
    ]
@@ -7258,6 +10044,28 @@
    ]
   },
   {
+   "id": "maurice-van-grasstek",
+   "name": "Maurice van Grasstek",
+   "aliases": [
+    "Maurice Grasstek"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Maurice van Grasstek",
+     "sail": "279",
+     "division": null
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Maurice Grasstek",
+     "sail": "NED 279",
+     "division": "Men",
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
    "id": "maurits-franken",
    "name": "Maurits Franken",
    "aliases": [],
@@ -7267,6 +10075,21 @@
      "name": "Maurits Franken",
      "sail": "Ned 35",
      "division": "Jeugd"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Maurits Franken",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Maurits Franken",
+     "sail": "35",
+     "division": null,
+     "bib": "730",
+     "match": "naam"
     }
    ]
   },
@@ -7309,7 +10132,11 @@
   {
    "id": "max-baaijen",
    "name": "Max Baaijen",
-   "aliases": [],
+   "aliases": [
+    "Mwx Baaijen",
+    "Max BAAIJEN",
+    "max baaijen"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -7418,6 +10245,99 @@
      "division": null,
      "bib": "310",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Max Baaijen",
+     "sail": "61",
+     "division": null,
+     "bib": "717",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Max Baaijen",
+     "sail": "NED 61",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Mwx Baaijen",
+     "sail": "NED 61",
+     "division": null,
+     "bib": "721",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Max Baaijen",
+     "sail": "NED 61",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Max Baaijen",
+     "sail": "NED-61",
+     "division": "Male",
+     "bib": "g53",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Max BAAIJEN",
+     "sail": "NED 61",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "max baaijen",
+     "sail": "NED-61",
+     "division": "Vin",
+     "bib": "27",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "max-castelein",
+   "name": "Max Castelein",
+   "aliases": [
+    "Max Castelijn"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Max Castelein",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Max Castelijn",
+     "sail": "NED 1306",
+     "division": "Youth (U20)",
+     "match": "bevestigd"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Max Castelein",
+     "sail": "NED 111",
+     "division": "Youth (U20)",
+     "match": "naam"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Max Castelein",
+      "Max Castelijn"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-02",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Max Castelijn' (max-castelijn) samengevoegd"
     }
    ]
   },
@@ -7455,6 +10375,13 @@
      "sail": "NED507",
      "division": null,
      "match": "bevestigd"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Max Shytikov",
+     "sail": "NED-507",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -7480,6 +10407,19 @@
      "sail": null,
      "division": null,
      "bib": "22"
+    }
+   ]
+  },
+  {
+   "id": "meily",
+   "name": "Meily",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Meily",
+     "sail": "484",
+     "division": null
     }
    ]
   },
@@ -7516,6 +10456,26 @@
      "division": null,
      "bib": "9",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Melvin Jansen",
+     "sail": "NED-404",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "melvin-rademaker",
+   "name": "Melvin Rademaker",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Melvin Rademaker",
+     "sail": "500",
+     "division": "Jeugd"
     }
    ]
   },
@@ -7595,6 +10555,13 @@
      "division": null,
      "bib": "317",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Merijn Kegel",
+     "sail": "NED-511",
+     "division": "Master",
+     "match": "naam"
     }
    ]
   },
@@ -7623,7 +10590,9 @@
   {
    "id": "merlijn-boswijk",
    "name": "Merlijn Boswijk",
-   "aliases": [],
+   "aliases": [
+    "Merlijn BOSWIJK"
+   ],
    "appearances": [
     {
      "event": "nk-2022-slalom-jeugd",
@@ -7652,6 +10621,29 @@
      "sail": null,
      "division": null,
      "bib": "115",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Merlijn Boswijk",
+     "sail": "NED 244",
+     "division": "Male",
+     "bib": "g3",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Merlijn BOSWIJK",
+     "sail": "NED 244",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Merlijn Boswijk",
+     "sail": "NED-244",
+     "division": "Foil",
+     "bib": "15",
      "match": "naam"
     }
    ]
@@ -7689,6 +10681,19 @@
      "sail": null,
      "division": null,
      "bib": "165"
+    }
+   ]
+  },
+  {
+   "id": "michel-ferket",
+   "name": "Michel Ferket",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Michel Ferket",
+     "sail": "NED 696",
+     "division": "Men"
     }
    ]
   },
@@ -7786,7 +10791,9 @@
   {
    "id": "mika-boone",
    "name": "Mika Boone",
-   "aliases": [],
+   "aliases": [
+    "Mika BOONE"
+   ],
    "appearances": [
     {
      "event": "nk-2021-slalom-jeugd",
@@ -7830,6 +10837,13 @@
      "sail": null,
      "division": null,
      "bib": "505",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Mika BOONE",
+     "sail": "NED 134",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -7906,6 +10920,13 @@
      "name": "Mikk Hillebrand",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Mikk Hillebrand",
+     "sail": "NED-330",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
     }
    ]
   },
@@ -7960,7 +10981,9 @@
   {
    "id": "milo-zaal",
    "name": "Milo Zaal",
-   "aliases": [],
+   "aliases": [
+    "Milo ZAAL"
+   ],
    "appearances": [
     {
      "event": "nk-2022-slalom-jeugd",
@@ -7990,6 +11013,27 @@
      "division": null,
      "bib": "160",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Milo ZAAL",
+     "sail": "NED 303",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Milo Zaal",
+     "sail": "NED-303",
+     "division": "Junior U17",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Milo Zaal",
+     "sail": "NED-303",
+     "division": "Junior U17",
+     "match": "naam"
     }
    ]
   },
@@ -8008,15 +11052,47 @@
    ]
   },
   {
-   "id": "neil-chardet",
-   "name": "Neil Chardet",
-   "aliases": [],
+   "id": "neill-chardet",
+   "name": "Neill Chardet",
+   "aliases": [
+    "Neil Chardet",
+    "Neill CHARDET",
+    "Neill chardet"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-iq-foil",
      "name": "Neil Chardet",
      "sail": null,
-     "division": null
+     "division": null,
+     "match": "bevestigd"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Neill CHARDET",
+     "sail": "NED 2011",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Neill chardet",
+     "sail": "2011",
+     "division": "Junior U15",
+     "match": "naam"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Neil Chardet",
+      "Neill CHARDET",
+      "Neill Chardet",
+      "Neill chardet"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-02",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Neil Chardet' (neil-chardet) samengevoegd"
     }
    ]
   },
@@ -8101,7 +11177,9 @@
   {
    "id": "nico-wierstra",
    "name": "Nico Wierstra",
-   "aliases": [],
+   "aliases": [
+    "Wierstra"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2026-long-distance-fin-master",
@@ -8115,6 +11193,27 @@
      "sail": "NED81",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Wierstra",
+     "sail": "81",
+     "division": "Master",
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
+   "id": "nicolas-goyard",
+   "name": "Nicolas Goyard",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Nicolas Goyard",
+     "sail": "FRA465",
+     "division": null,
+     "bib": "716"
     }
    ]
   },
@@ -8202,6 +11301,19 @@
    ]
   },
   {
+   "id": "nikki-van-riel",
+   "name": "Nikki van Riel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Nikki van Riel",
+     "sail": "43",
+     "division": "Female"
+    }
+   ]
+  },
+  {
    "id": "nils-duindam",
    "name": "Nils Duindam",
    "aliases": [],
@@ -8225,6 +11337,13 @@
      "name": "Nimet Tulumen",
      "sail": "Tur 753",
      "division": null
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Nimet Tulumen",
+     "sail": null,
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -8333,6 +11452,19 @@
    ]
   },
   {
+   "id": "patrick-de-cauwer",
+   "name": "Patrick de Cauwer",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Patrick de Cauwer",
+     "sail": "B144",
+     "division": "Master"
+    }
+   ]
+  },
+  {
    "id": "patrick-van-hoof",
    "name": "Patrick van Hoof",
    "aliases": [],
@@ -8371,6 +11503,26 @@
      "sail": null,
      "division": null,
      "bib": "110"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Paul Meester",
+     "sail": "NED 5",
+     "division": "Men",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "paul-motshagen",
+   "name": "Paul Motshagen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Paul Motshagen",
+     "sail": "873",
+     "division": "Male"
     }
    ]
   },
@@ -8405,15 +11557,73 @@
    ]
   },
   {
+   "id": "paul-v-noord",
+   "name": "Paul v Noord",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Paul v Noord",
+     "sail": "NED 90",
+     "division": "Men"
+    }
+   ]
+  },
+  {
+   "id": "paul-van-de-beek",
+   "name": "Paul van de Beek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Paul van de Beek",
+     "sail": null,
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "paul-van-der-sluijs",
    "name": "Paul Van Der Sluijs",
-   "aliases": [],
+   "aliases": [
+    "Paul van der Sluijs"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-windsurfer-lt-kona-one",
      "name": "Paul Van Der Sluijs",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Paul van der Sluijs",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Paul van der Sluijs",
+     "sail": "1314",
+     "division": null,
+     "bib": "709",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Paul van der Sluijs",
+     "sail": "NED 1314",
+     "division": null,
+     "bib": "719",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Paul van der Sluijs",
+     "sail": "NED 131",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -8428,6 +11638,49 @@
      "sail": null,
      "division": null,
      "bib": "359"
+    }
+   ]
+  },
+  {
+   "id": "peter-bot",
+   "name": "Peter Bot",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Peter Bot",
+     "sail": "X-II",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "peter-dannenburg",
+   "name": "Peter Dannenburg",
+   "aliases": [
+    "Peter Danenburg"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Peter Dannenburg",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Peter Dannenburg",
+     "sail": "NED48",
+     "division": null,
+     "bib": "713",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Peter Danenburg",
+     "sail": "NED 48",
+     "division": "Men",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -8457,6 +11710,27 @@
      "sail": null,
      "division": null,
      "bib": "10",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "peter-heida",
+   "name": "Peter Heida",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Peter Heida",
+     "sail": "900",
+     "division": "Male"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Peter Heida",
+     "sail": "FRL-900",
+     "division": "Male",
+     "bib": "g29",
      "match": "naam"
     }
    ]
@@ -8510,6 +11784,19 @@
      "division": null,
      "bib": "165",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "peter-ludwich",
+   "name": "Peter Ludwich",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Peter Ludwich",
+     "sail": "B59",
+     "division": "Master"
     }
    ]
   },
@@ -8680,6 +11967,59 @@
      "division": null,
      "bib": "303",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Peter Mulder",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Peter Mulder",
+     "sail": "95",
+     "division": null,
+     "bib": "708",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Peter Mulder",
+     "sail": "NED 95",
+     "division": null,
+     "bib": "726",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Peter Mulder",
+     "sail": "Ned 95",
+     "division": "Male",
+     "bib": "g45",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Peter Mulder",
+     "sail": "NED-95",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Peter Mulder",
+     "sail": "NED-95",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Peter Mulder",
+     "sail": "Ned95",
+     "division": "Foil",
+     "bib": "14",
+     "match": "naam"
     }
    ]
   },
@@ -8713,7 +12053,9 @@
   {
    "id": "peyton-dits",
    "name": "Peyton Dits",
-   "aliases": [],
+   "aliases": [
+    "Peyton DITS"
+   ],
    "appearances": [
     {
      "event": "nk-2022-slalom-jeugd",
@@ -8742,6 +12084,20 @@
      "sail": null,
      "division": null,
      "bib": "123",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Peyton DITS",
+     "sail": "NED 241",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Peyton Dits",
+     "sail": "NED-241",
+     "division": "Junior U17",
      "match": "naam"
     }
    ]
@@ -8806,13 +12162,30 @@
   {
    "id": "pieter-bijl",
    "name": "Pieter Bijl",
-   "aliases": [],
+   "aliases": [
+    "pieter Bijl"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
      "name": "Pieter Bijl",
      "sail": "NED-0",
      "division": "Heren"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "pieter Bijl",
+     "sail": "NED0",
+     "division": null,
+     "bib": "715",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Pieter Bijl",
+     "sail": "NED 0",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -8834,7 +12207,8 @@
    "id": "pieter-eliens",
    "name": "Pieter Eliens",
    "aliases": [
-    "Peter Eliens"
+    "Peter Eliens",
+    "Eliens"
    ],
    "appearances": [
     {
@@ -8936,6 +12310,73 @@
      "division": null,
      "bib": "172",
      "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Pieter Eliens",
+     "sail": "538",
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Eliens",
+     "sail": "538",
+     "division": "Master",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Pieter Eliens",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Pieter Eliens",
+     "sail": "NED538",
+     "division": null,
+     "bib": "711",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Pieter Eliens",
+     "sail": "NED 538",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Pieter Eliens",
+     "sail": "NED 135",
+     "division": null,
+     "bib": "725",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Pieter Eliens",
+     "sail": "NED 538",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Pieter Eliens",
+     "sail": "Ned538",
+     "division": "Male",
+     "bib": "r30",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Pieter Eliens",
+     "sail": "NED538",
+     "division": "Foil",
+     "bib": "24",
+     "match": "naam"
     }
    ]
   },
@@ -8950,6 +12391,47 @@
      "sail": null,
      "division": null,
      "bib": "108"
+    }
+   ]
+  },
+  {
+   "id": "priscilla-houtkamp",
+   "name": "Priscilla Houtkamp",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Priscilla Houtkamp",
+     "sail": "204",
+     "division": "Female"
+    }
+   ]
+  },
+  {
+   "id": "quinten-walhof",
+   "name": "Quinten Walhof",
+   "aliases": [
+    "Quinten WALHOF"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Quinten WALHOF",
+     "sail": "NED 383",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "ramses-landman",
+   "name": "Ramses Landman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Ramses Landman",
+     "sail": "72",
+     "division": "Male"
     }
    ]
   },
@@ -8980,13 +12462,53 @@
      "division": null,
      "bib": "116",
      "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Remco Bakker",
+     "sail": "857",
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Remco Bakker",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Remco Bakker",
+     "sail": "15",
+     "division": null,
+     "bib": "729",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Remco Bakker",
+     "sail": "NED 15",
+     "division": null,
+     "bib": "737",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Remco Bakker",
+     "sail": "Ned15",
+     "division": "Male",
+     "bib": "g31",
+     "match": "naam"
     }
    ]
   },
   {
    "id": "remco-hoekstra",
    "name": "Remco Hoekstra",
-   "aliases": [],
+   "aliases": [
+    "Remko Hoekstra"
+   ],
    "appearances": [
     {
      "event": "nk-2019-stop2-slalom-heren",
@@ -9028,6 +12550,14 @@
      "sail": "NED-267",
      "division": "Grandmaster",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Remko Hoekstra",
+     "sail": "NED 267",
+     "division": null,
+     "bib": "720",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -9048,13 +12578,88 @@
   {
    "id": "remko-streep",
    "name": "Remko Streep",
-   "aliases": [],
+   "aliases": [
+    "Remco Streep"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-raceboard-max-9-5m2",
      "name": "Remko Streep",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Remko Streep",
+     "sail": "NED609",
+     "division": null,
+     "bib": "705",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Remko Streep",
+     "sail": "NED 609",
+     "division": null,
+     "bib": "718",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Remko Streep",
+     "sail": "NED 609",
+     "division": "Male",
+     "bib": "g10",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Remko Streep",
+     "sail": "NED 609",
+     "division": "Vin",
+     "bib": "39",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Remco Streep",
+     "sail": null,
+     "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Remco Streep",
+     "sail": "NED 609",
+     "division": "Men",
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
+   "id": "rene-dannenberg",
+   "name": "Rene Dannenberg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Rene Dannenberg",
+     "sail": "80",
+     "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "rene-de-geus",
+   "name": "Rene de Geus",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Rene de Geus",
+     "sail": "203",
+     "division": null,
+     "bib": "727"
     }
    ]
   },
@@ -9117,6 +12722,19 @@
    ]
   },
   {
+   "id": "renee-glasz",
+   "name": "Renee Glasz",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Renee Glasz",
+     "sail": "123",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "renee-vonk",
    "name": "Renee Vonk",
    "aliases": [],
@@ -9141,6 +12759,19 @@
      "sail": null,
      "division": null,
      "bib": "36"
+    }
+   ]
+  },
+  {
+   "id": "renske-molenwijk",
+   "name": "Renske Molenwijk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Renske Molenwijk",
+     "sail": "874",
+     "division": "Female"
     }
    ]
   },
@@ -9186,6 +12817,19 @@
    ]
   },
   {
+   "id": "richard-konstapel",
+   "name": "Richard Konstapel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Richard Konstapel",
+     "sail": "115",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "rick-oostendorp",
    "name": "Rick Oostendorp",
    "aliases": [],
@@ -9195,6 +12839,32 @@
      "name": "Rick Oostendorp",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "rick-roering",
+   "name": "Rick Roering",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Rick Roering",
+     "sail": "419",
+     "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "rick-schiolten",
+   "name": "Rick Schiolten",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Rick Schiolten",
+     "sail": "T-7",
+     "division": "Jeugd"
     }
    ]
   },
@@ -9315,6 +12985,19 @@
    ]
   },
   {
+   "id": "robby-de-wit",
+   "name": "Robby de Wit",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Robby de Wit",
+     "sail": "1",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "robert-baas",
    "name": "Robert Baas",
    "aliases": [],
@@ -9364,6 +13047,28 @@
    ]
   },
   {
+   "id": "robert-jan-van-velzen",
+   "name": "Robert-jan van Velzen",
+   "aliases": [
+    "Van velzen"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Robert-jan van Velzen",
+     "sail": "240",
+     "division": "Male"
+    },
+    {
+     "event": "gpa-2009-long-distance-rsx",
+     "name": "Van velzen",
+     "sail": "240",
+     "division": null,
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
    "id": "robert-moosdorf",
    "name": "Robert Moosdorf",
    "aliases": [],
@@ -9409,6 +13114,13 @@
      "sail": null,
      "division": null,
      "bib": "67"
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Robin Brugman",
+     "sail": "NED 228",
+     "division": "Youth (U20)",
+     "match": "naam"
     }
    ]
   },
@@ -9431,6 +13143,19 @@
      "division": null,
      "bib": "136",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "robin-van-baarle",
+   "name": "Robin van Baarle",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Robin van Baarle",
+     "sail": "74",
+     "division": "Male"
     }
    ]
   },
@@ -9612,6 +13337,32 @@
    ]
   },
   {
+   "id": "ron-ruiter",
+   "name": "Ron Ruiter",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Ron Ruiter",
+     "sail": "1111",
+     "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "ron-vd-berg",
+   "name": "Ron vd Berg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Ron vd Berg",
+     "sail": "NED 11",
+     "division": "Men"
+    }
+   ]
+  },
+  {
    "id": "ron-verburg",
    "name": "Ron Verburg",
    "aliases": [],
@@ -9625,16 +13376,44 @@
    ]
   },
   {
-   "id": "ronald-poel",
-   "name": "Ronald Poel",
-   "aliases": [],
+   "id": "ronald-vd-poel",
+   "name": "Ronald vd Poel",
+   "aliases": [
+    "Ronald Poel"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2019-long-distance-masters-heren",
      "name": "Ronald Poel",
      "sail": null,
      "division": null,
-     "bib": "220"
+     "bib": "220",
+     "match": "bevestigd"
+    },
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Ronald vd Poel",
+     "sail": "218",
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Ronald vd Poel",
+     "sail": "21",
+     "division": "Master",
+     "match": "naam"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Ronald Poel",
+      "Ronald vd Poel"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-02",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Ronald Poel' (ronald-poel) samengevoegd"
     }
    ]
   },
@@ -9648,6 +13427,32 @@
      "name": "Ronald Verriet",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "rotteveel",
+   "name": "Rotteveel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Rotteveel",
+     "sail": "441",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "roy-van-koolwijk",
+   "name": "Roy van Koolwijk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Roy van Koolwijk",
+     "sail": "97",
+     "division": "Male"
     }
    ]
   },
@@ -9751,6 +13556,19 @@
    ]
   },
   {
+   "id": "sam-wennekes",
+   "name": "Sam Wennekes",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Sam Wennekes",
+     "sail": "NED 8",
+     "division": "Youth (U20)"
+    }
+   ]
+  },
+  {
    "id": "sander-dekeyser",
    "name": "Sander Dekeyser",
    "aliases": [],
@@ -9786,6 +13604,19 @@
    ]
   },
   {
+   "id": "sander-vd-vlis",
+   "name": "Sander vd Vlis",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Sander vd Vlis",
+     "sail": "389",
+     "division": "Espoir"
+    }
+   ]
+  },
+  {
    "id": "sandy-bakmeijer",
    "name": "Sandy Bakmeijer",
    "aliases": [],
@@ -9802,7 +13633,8 @@
    "id": "sara-de-kimpe",
    "name": "Sara De Kimpe",
    "aliases": [
-    "Sara de Kimpe"
+    "Sara de Kimpe",
+    "Sara de KIMPE"
    ],
    "appearances": [
     {
@@ -9819,19 +13651,86 @@
      "division": null,
      "bib": "139",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Sara de KIMPE",
+     "sail": "NED 170",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Sara de Kimpe",
+     "sail": "NED-170",
+     "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Sara de Kimpe",
+     "sail": "NED-170",
+     "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Sara de Kimpe",
+     "sail": "NED-170",
+     "division": "Foil",
+     "bib": "2",
+     "match": "naam"
     }
    ]
   },
   {
    "id": "sara-wennekes",
    "name": "Sara Wennekes",
-   "aliases": [],
+   "aliases": [
+    "Sara WENNEKES"
+   ],
    "appearances": [
     {
      "event": "nk-2022-slalom-dames",
      "name": "Sara Wennekes",
      "sail": "NED-33",
      "division": null
+    },
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Sara Wennekes",
+     "sail": "823",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Sara WENNEKES",
+     "sail": "NED 33",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "sebastiaan-grasstek",
+   "name": "Sebastiaan Grasstek",
+   "aliases": [
+    "Sebastiaan vd Grasstek"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2002-course-aloha",
+     "name": "Sebastiaan Grasstek",
+     "sail": "179",
+     "division": "Male"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Sebastiaan vd Grasstek",
+     "sail": "179",
+     "division": null,
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -9884,6 +13783,19 @@
      "division": null,
      "bib": "169",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "sebastiaan-penninga",
+   "name": "Sebastiaan Penninga",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Sebastiaan Penninga",
+     "sail": "NED-617",
+     "division": "Senior (Men/Women)"
     }
    ]
   },
@@ -9984,6 +13896,20 @@
      "division": null,
      "bib": "112",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Sem Stroosma",
+     "sail": "NED-450",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Sem Stroosma",
+     "sail": "NED-450",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
     }
    ]
   },
@@ -10006,6 +13932,19 @@
      "division": null,
      "bib": "36",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "sherwin-ghogli",
+   "name": "Sherwin Ghogli",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Sherwin Ghogli",
+     "sail": "X-III",
+     "division": "Jeugd"
     }
    ]
   },
@@ -10048,6 +13987,44 @@
      "sail": null,
      "division": null,
      "bib": "162"
+    }
+   ]
+  },
+  {
+   "id": "sil-hoekstra",
+   "name": "Sil Hoekstra",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Sil Hoekstra",
+     "sail": "NED11",
+     "division": null,
+     "bib": "714"
+    }
+   ]
+  },
+  {
+   "id": "simon-te-velde",
+   "name": "Simon te Velde",
+   "aliases": [
+    "Simon Te Velde"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Simon te Velde",
+     "sail": "281",
+     "division": null,
+     "bib": "712"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Simon Te Velde",
+     "sail": "NED 281",
+     "division": null,
+     "bib": "729",
+     "match": "naam"
     }
    ]
   },
@@ -10167,6 +14144,19 @@
    ]
   },
   {
+   "id": "snip",
+   "name": "Snip",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Snip",
+     "sail": "689",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "stan-vd-vegt",
    "name": "Stan vd Vegt",
    "aliases": [],
@@ -10177,6 +14167,19 @@
      "sail": null,
      "division": null,
      "bib": "801"
+    }
+   ]
+  },
+  {
+   "id": "stefan-gideonse",
+   "name": "Stefan Gideonse",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Stefan Gideonse",
+     "sail": "119",
+     "division": "Male"
     }
    ]
   },
@@ -10212,6 +14215,19 @@
      "name": "Stefan Van Der Zwaard",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "stefan-van-paasen",
+   "name": "Stefan van Paasen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-longboard",
+     "name": "Stefan van Paasen",
+     "sail": "56",
+     "division": "Male"
     }
    ]
   },
@@ -10308,6 +14324,28 @@
    ]
   },
   {
+   "id": "stevan-v-broekhoven",
+   "name": "Stevan v Broekhoven",
+   "aliases": [
+    "Steven v Broekhoven"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Stevan v Broekhoven",
+     "sail": "72",
+     "division": "Male"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Steven v Broekhoven",
+     "sail": "BEL 72",
+     "division": "Men",
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
    "id": "steven-ijzer",
    "name": "Steven Ijzer",
    "aliases": [],
@@ -10323,7 +14361,9 @@
   {
    "id": "stijn-beks",
    "name": "Stijn Beks",
-   "aliases": [],
+   "aliases": [
+    "Stijn BEKS"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2023-long-distance-foil-pro-fleet-men",
@@ -10346,6 +14386,29 @@
      "sail": "NED343",
      "division": null,
      "bib": "124",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Stijn Beks",
+     "sail": "NED343",
+     "division": "Male",
+     "bib": "g41",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Stijn BEKS",
+     "sail": "NED 343",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Stijn Beks",
+     "sail": "NED343",
+     "division": "Foil",
+     "bib": "30",
      "match": "naam"
     }
    ]
@@ -10395,6 +14458,21 @@
    ]
   },
   {
+   "id": "storm-nicolai",
+   "name": "Storm Nicolai",
+   "aliases": [
+    "Storm NICOLAI"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Storm NICOLAI",
+     "sail": "NB 2008",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "suus-boone",
    "name": "Suus Boone",
    "aliases": [],
@@ -10437,6 +14515,19 @@
    ]
   },
   {
+   "id": "taco-faber",
+   "name": "Taco Faber",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Taco Faber",
+     "sail": "198",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "taty-frans",
    "name": "Taty Frans",
    "aliases": [],
@@ -10453,7 +14544,9 @@
   {
    "id": "teade-de-jong",
    "name": "Teade de Jong",
-   "aliases": [],
+   "aliases": [
+    "De Jong"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -10468,6 +14561,20 @@
      "division": null,
      "bib": "117",
      "match": "naam"
+    },
+    {
+     "event": "nk-2002-course-techno",
+     "name": "Teade de Jong",
+     "sail": "777",
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "De Jong",
+     "sail": "777",
+     "division": "Jeugd",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -10542,6 +14649,21 @@
    ]
   },
   {
+   "id": "thibault-dijksterhuis",
+   "name": "Thibault Dijksterhuis",
+   "aliases": [
+    "Thibault DIJKSTERHUIS"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Thibault DIJKSTERHUIS",
+     "sail": "NED 556",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "thibbes-dijksterhuis",
    "name": "Thibbes Dijksterhuis",
    "aliases": [],
@@ -10565,7 +14687,9 @@
   {
    "id": "thijs-dijkstra",
    "name": "Thijs Dijkstra",
-   "aliases": [],
+   "aliases": [
+    "Thijs DIJKSTRA"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-iq-foil",
@@ -10580,13 +14704,29 @@
      "division": null,
      "bib": "16",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Thijs DIJKSTRA",
+     "sail": "NEDH 5",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Thijs Dijkstra",
+     "sail": "NED-297",
+     "division": "Junior U15",
+     "match": "naam"
     }
    ]
   },
   {
    "id": "thijs-hanemaaijer",
    "name": "Thijs Hanemaaijer",
-   "aliases": [],
+   "aliases": [
+    "Thijs hanemaaijer"
+   ],
    "appearances": [
     {
      "event": "nk-2021-slalom-jeugd",
@@ -10621,6 +14761,20 @@
      "sail": null,
      "division": null,
      "bib": "133",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-fin",
+     "name": "Thijs hanemaaijer",
+     "sail": "NED-107",
+     "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Thijs hanemaaijer",
+     "sail": "NED-107",
+     "division": "Youth U21",
      "match": "naam"
     }
    ]
@@ -10679,6 +14833,67 @@
      "division": null,
      "bib": "321",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "thomas-broucke",
+   "name": "Thomas Broucke",
+   "aliases": [
+    "Thoma Brucke"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Thomas Broucke",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Thoma Brucke",
+     "sail": "BEL 39",
+     "division": "Youth (U20)",
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Thoma Brucke",
+      "Thomas Broucke"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-02",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Thoma Brucke' (thoma-brucke) samengevoegd"
+    }
+   ]
+  },
+  {
+   "id": "thomas-goyard",
+   "name": "Thomas Goyard",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Thomas Goyard",
+     "sail": "FRA3",
+     "division": null,
+     "bib": "715"
+    }
+   ]
+  },
+  {
+   "id": "thomas-kruse",
+   "name": "Thomas Kruse",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Thomas Kruse",
+     "sail": "342",
+     "division": "Foil",
+     "bib": "29"
     }
    ]
   },
@@ -10760,6 +14975,37 @@
    ]
   },
   {
+   "id": "thomas-van-der-sluijs",
+   "name": "Thomas van der Sluijs",
+   "aliases": [
+    "Thomas vd Sluijs",
+    "Thomas v.d.Sluis"
+   ],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Thomas van der Sluijs",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Thomas vd Sluijs",
+     "sail": "NED 1314",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Thomas v.d.Sluis",
+     "sail": "1314",
+     "division": null,
+     "bib": "738",
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
    "id": "tijs-bonekamp",
    "name": "Tijs Bonekamp",
    "aliases": [],
@@ -10796,6 +15042,33 @@
      "name": "Tim Janssen",
      "sail": "NED-159",
      "division": "Senior"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Tim Janssen",
+     "sail": "NED-159",
+     "division": "Senior (Men/Women)",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "tim-smits",
+   "name": "Tim Smits",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Tim Smits",
+     "sail": null,
+     "division": null
+    },
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "Tim Smits",
+     "sail": "NED 841",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -10848,9 +15121,24 @@
    ]
   },
   {
+   "id": "tom-schenlimck",
+   "name": "Tom Schenlimck",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Tom Schenlimck",
+     "sail": "11",
+     "division": "Male"
+    }
+   ]
+  },
+  {
    "id": "tomas-van-zelst",
    "name": "Tomas van Zelst",
-   "aliases": [],
+   "aliases": [
+    "Thomas van Zelst"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -10871,6 +15159,24 @@
      "sail": "NED-28",
      "division": "Open Men",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Thomas van Zelst",
+     "sail": null,
+     "division": null,
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Thomas van Zelst",
+      "Tomas van Zelst"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-02",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Thomas van Zelst' (thomas-van-zelst) samengevoegd"
     }
    ]
   },
@@ -10947,6 +15253,21 @@
      "division": null,
      "bib": "190",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Twan Verseput",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Twan Verseput",
+     "sail": "NED127",
+     "division": null,
+     "bib": "726",
+     "match": "naam"
     }
    ]
   },
@@ -10973,6 +15294,153 @@
    ]
   },
   {
+   "id": "van-citeren",
+   "name": "Van Citeren",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Van Citeren",
+     "sail": "170",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "van-de-hoorn",
+   "name": "Van de Hoorn",
+   "aliases": [
+    "VAN DE hOORN"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "VAN DE hOORN",
+     "sail": "149",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "van-hilten",
+   "name": "Van Hilten",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Van Hilten",
+     "sail": "509",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "van-hoof",
+   "name": "Van Hoof",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Van Hoof",
+     "sail": "B52",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "van-riemsdijk",
+   "name": "Van Riemsdijk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Van Riemsdijk",
+     "sail": "x-6",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "van-santen",
+   "name": "Van Santen",
+   "aliases": [
+    "Van santen"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rsx",
+     "name": "Van santen",
+     "sail": "52",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "van-t-hoff",
+   "name": "Van 't Hoff",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-bic-techno",
+     "name": "Van 't Hoff",
+     "sail": "X-1",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "van-zelst",
+   "name": "Van Zelst",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Van Zelst",
+     "sail": "822",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "vd-hoorn",
+   "name": "Vd Hoorn",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Vd Hoorn",
+     "sail": "147",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "vermeulen",
+   "name": "Vermeulen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rsx",
+     "name": "Vermeulen",
+     "sail": "33",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "versluis",
+   "name": "Versluis",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Versluis",
+     "sail": "T-I",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
    "id": "vigo-gerritsen",
    "name": "Vigo Gerritsen",
    "aliases": [],
@@ -10989,7 +15457,9 @@
   {
    "id": "vincent-jansen",
    "name": "Vincent Jansen",
-   "aliases": [],
+   "aliases": [
+    "Vincent Janssen"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -11053,6 +15523,110 @@
      "division": null,
      "bib": "344",
      "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2017-long-distance-windsurf",
+     "name": "Vincent Jansen",
+     "sail": null,
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2018-long-distance-windsurf",
+     "name": "Vincent Jansen",
+     "sail": "NED199",
+     "division": null,
+     "bib": "704",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2018-course-shortboard",
+     "name": "Vincent Jansen",
+     "sail": "NED 199",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2019-long-distance-windsurf",
+     "name": "Vincent Janssen",
+     "sail": "NED-199",
+     "division": null,
+     "bib": "713",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2019-course-shortboard",
+     "name": "Vincent Jansen",
+     "sail": "NED 199",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Vincent Jansen",
+     "sail": "NED199",
+     "division": "Male",
+     "bib": "g49",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2024-slalom-foil",
+     "name": "Vincent Jansen",
+     "sail": "NED-199",
+     "division": "Grandmaster",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "vonk",
+   "name": "Vonk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Vonk",
+     "sail": "600",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "vonk-2",
+   "name": "Vonk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Vonk",
+     "sail": "688",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "vpthoms",
+   "name": "V.P.Thoms",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2019-course-raceboard",
+     "name": "V.P.Thoms",
+     "sail": "NED 86",
+     "division": "Men"
+    }
+   ]
+  },
+  {
+   "id": "wendy-littel",
+   "name": "Wendy Littel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-dames",
+     "name": "Wendy Littel",
+     "sail": "3341",
+     "division": "Female"
     }
    ]
   },
@@ -11082,6 +15656,27 @@
      "sail": null,
      "division": null,
      "bib": "126",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "wessel-holleman",
+   "name": "Wessel Holleman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "ronde-om-texel-2024-long-distance-windsurf",
+     "name": "Wessel Holleman",
+     "sail": "NED2022",
+     "division": "Male"
+    },
+    {
+     "event": "ronde-om-texel-2025-long-distance-windsurf",
+     "name": "Wessel Holleman",
+     "sail": "NED-2022",
+     "division": "Vin",
+     "bib": "20",
      "match": "naam"
     }
    ]
@@ -11118,6 +15713,19 @@
      "name": "Wessel Waiboer",
      "sail": "NED-156",
      "division": "U21"
+    }
+   ]
+  },
+  {
+   "id": "wilko-dijkstra",
+   "name": "Wilko Dijkstra",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Wilko Dijkstra",
+     "sail": "315",
+     "division": "Male"
     }
    ]
   },
@@ -11208,6 +15816,19 @@
      "name": "Wing Chun Chui",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "wolfgang-verlaeckt",
+   "name": "Wolfgang Verlaeckt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2002-course-formula-heren",
+     "name": "Wolfgang Verlaeckt",
+     "sail": "91",
+     "division": "Espoir"
     }
    ]
   },
@@ -11314,7 +15935,9 @@
   {
    "id": "yannick-walhof",
    "name": "Yannick Walhof",
-   "aliases": [],
+   "aliases": [
+    "Yannick WALHOF"
+   ],
    "appearances": [
     {
      "event": "nk-2023-slalom-heren-jeugd",
@@ -11330,6 +15953,13 @@
      "division": null,
      "bib": "180",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Yannick WALHOF",
+     "sail": "NED 338",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -11337,7 +15967,8 @@
    "id": "yfke-van-der-meer",
    "name": "Yfke Van Der Meer",
    "aliases": [
-    "Yfke van der Meer"
+    "Yfke van der Meer",
+    "Yfke van der MEER"
    ],
    "appearances": [
     {
@@ -11377,6 +16008,13 @@
      "division": null,
      "bib": "122",
      "match": "naam"
+    },
+    {
+     "event": "nk-2024-course-formula-foil",
+     "name": "Yfke van der MEER",
+     "sail": "NED 252",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -11404,6 +16042,19 @@
      "name": "Yva Spekman",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "zandvliet",
+   "name": "Zandvliet",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-rookie",
+     "name": "Zandvliet",
+     "sail": "LZ-1",
+     "division": "Jeugd"
     }
    ]
   },

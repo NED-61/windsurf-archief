@@ -2,29 +2,54 @@
 
 _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken._
 
+## nl / 2002
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| NK Course 2002 | Aloha | series_standings | 1 | Sebastiaan Grasstek | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-aloha.json |
+| NK Course 2002 | Formula dames | series_standings | 5 | Cindy Koopman | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-formula-dames.json |
+| NK Course 2002 | Formula heren | series_standings | 63 | Ron Ruiter | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-formula-heren.json |
+| NK Course 2002 | Longboard | series_standings | 14 | Marga Stalman | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-longboard.json |
+| NK Course 2002 | Techno | series_standings | 15 | Dorian v Rijsselberghe | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-techno.json |
+
+## nl / 2009
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| Grote Prijs van Aalsmeer 2009 | BIC Techno | long_distance | 10 | Jort Min | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-bic-techno.json |
+| Grote Prijs van Aalsmeer 2009 | Formula Windsurfing (FW) | long_distance | 34 | DOPPENBERG | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-fw.json |
+| Grote Prijs van Aalsmeer 2009 | RS:X | long_distance | 5 | Van santen | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rsx.json |
+| Grote Prijs van Aalsmeer 2009 | Rookie | long_distance | 8 | Versluis | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rookie.json |
+
 ## nl / 2017
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
 | NK Slalom 2017 | Heren (divisies Heren, Jeugd, Master) | elimination | 45 | Jordy Vonk | complete | gecontroleerd | archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json |
 | NK Slalom 2017 | NK Slalom 2017 - Vrouwen | elimination | 7 | Esther de Geus | complete | gecontroleerd | archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-dames.json |
+| Ronde om Texel 2017 | Windsurf | long_distance | 36 | Dennis Littel | complete | gecontroleerd | archive/nl/2017/ronde-om-texel-2017/uitslagen/ronde-om-texel-2017-long-distance-windsurf.json |
 
 ## nl / 2018
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| NK Course 2018 | Shortboard | fleet_racing | 41 | Luuk van Opzeeland | complete | gecontroleerd | archive/nl/2018/nk-course-2018/uitslagen/nk-2018-course-shortboard.json |
 | NK Slalom 2018 | Men | elimination | 17 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2018/nk-slalom-2018/uitslagen/nk-2018-slalom-heren.json |
 | NK Slalom 2018 | Woman | elimination | 6 | Esther de Geus | complete | gecontroleerd | archive/nl/2018/nk-slalom-2018/uitslagen/nk-2018-slalom-dames.json |
+| Ronde om Texel 2018 | Windsurf | long_distance | 35 | Kiran Badloe | complete | gecontroleerd | archive/nl/2018/ronde-om-texel-2018/uitslagen/ronde-om-texel-2018-long-distance-windsurf.json |
 
 ## nl / 2019
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| NK Course 2019 | Raceboard | fleet_racing | 20 | Paul van der Sluijs | partial | gecontroleerd | archive/nl/2019/nk-course-2019/uitslagen/nk-2019-course-raceboard.json |
+| NK Course 2019 | Shortboard | fleet_racing | 29 | Huig-Jan Tak | partial | gecontroleerd | archive/nl/2019/nk-course-2019/uitslagen/nk-2019-course-shortboard.json |
 | NK Slalom 2019 - stop 1 | NK Windsurf Slalom 2019 - Mannen | elimination | 34 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop1/uitslagen/nk-2019-stop1-slalom-heren.json |
 | NK Slalom 2019 - stop 1 | NK Windsurf Slalom 2019 - Vrouwen | elimination | 5 | Esther de Geus | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop1/uitslagen/nk-2019-stop1-slalom-dames.json |
 | NK Slalom 2019 - stop 2 (finale) | Dames | elimination | 6 | Esther de Geus | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-dames.json |
 | NK Slalom 2019 - stop 2 (finale) | Heren | elimination | 32 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-heren.json |
 | NK Slalom 2019 - stop 2 (finale) | Jeugd | elimination | 19 | Jakob Kooij | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-jeugd.json |
+| Ronde om Texel 2019 | Windsurf | long_distance | 39 | Thomas Goyard | complete | gecontroleerd | archive/nl/2019/ronde-om-texel-2019/uitslagen/ronde-om-texel-2019-long-distance-windsurf.json |
 | The Real Trip 2019 | Kids -14 jongens A | fleet_racing | 13 | Skip Brull | complete | gecontroleerd | archive/nl/2019/the-real-trip-2019/uitslagen/the-real-trip-2019-short-course-kids-14-jongens-a.json |
 | The Real Trip 2019 | Kids -14 jongens B | fleet_racing | 6 | Finn Brull | complete | gecontroleerd | archive/nl/2019/the-real-trip-2019/uitslagen/the-real-trip-2019-short-course-kids-14-jongens-b.json |
 | The Real Trip 2019 | Kids -14 meisjes A | fleet_racing | 2 | Bibi Heusinkveld | complete | gecontroleerd | archive/nl/2019/the-real-trip-2019/uitslagen/the-real-trip-2019-short-course-kids-14-meisjes-a.json |
@@ -94,6 +119,10 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2024 | Windfoil tot max 9,5 m² | long_distance | 30 | Freerk Blom | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-windfoil-max-9-5m2.json |
 | Grote Prijs van Aalsmeer 2024 | Windsurfer LT / Kona One | long_distance | 22 | Peter Schie | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-windsurfer-lt-kona-one.json |
 | Grote Prijs van Aalsmeer 2024 | Wing | long_distance | 8 | Adri Keet | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-wing.json |
+| NK Course 2024 | Formula Foil | fleet_racing | 34 | Freerk BLOM | complete | gecontroleerd | archive/nl/2024/nk-course-2024/uitslagen/nk-2024-course-formula-foil.json |
+| NK Slalom 2024 | Fin (Open & Youth) | elimination | 32 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-fin.json |
+| NK Slalom 2024 | Foil (Open & Youth) | elimination | 30 | Sem Stroosma | complete | gecontroleerd | archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-foil.json |
+| Ronde om Texel 2024 | Windsurf | long_distance | 30 | Max Baaijen | complete | gecontroleerd | archive/nl/2024/ronde-om-texel-2024/uitslagen/ronde-om-texel-2024-long-distance-windsurf.json |
 
 ## nl / 2025
 
@@ -106,6 +135,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2025 | Windfoil tot max 9,5 m² | long_distance | 7 | Kas De Wolf | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-windfoil-max-9-5m2.json |
 | Grote Prijs van Aalsmeer 2025 | Windsurfer LT / Kona One | long_distance | 6 | Albert Meppelink | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-windsurfer-lt-kona-one.json |
 | Grote Prijs van Aalsmeer 2025 | Wing | long_distance | 7 | Matthijs Van ‘T Hoff | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-wing.json |
+| Ronde om Texel 2025 | Windsurf | long_distance | 26 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2025/ronde-om-texel-2025/uitslagen/ronde-om-texel-2025-long-distance-windsurf.json |
 
 ## nl / 2026
 
@@ -193,7 +223,118 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: inbox/los/Uitslagen_files/iconochive.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
 - **overgeslagen**: inbox/los/Uitslagen_files/ruffle.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
 - **overgeslagen**: inbox/los/Uitslagen_files/wombat.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/Teso_logo.svg_.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/Texel_nl-300x169.jpg (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/analytics.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/athena.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/banner-styles.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/barning-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/bootstrap.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/bundle-playback.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/civ-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/comment-reply.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/default_theme.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/font-awesome.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/frontend.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/iconochive.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/imagesloaded.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/instafeed.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/jquery-migrate.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/jquery.fitvids.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/jquery.fullscreen-0.4.1.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/jquery.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/jquery.masonry.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/jquery.mobile.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/masonry.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/nbc-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/paal17-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/ruffle.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/samui.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/slick.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/slick.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/style(1).css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/style(2).css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/style.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/style.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/underscore.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wdi_frontend.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wdi_frontend.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wdi_gallery_box.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wdi_instagram.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wdi_responsive.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wombat.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wp-embed.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Results Round Texel Windsurfing 2017 – Ronde om Texel_files/wp-emoji-release.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/DSC_2775-1024x683.jpeg (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/Teso_logo.svg_.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/analytics.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/athena.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/banner-styles.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/barning-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/bootstrap.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/bundle-playback.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/default_theme.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/font-awesome.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/iconochive.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/imagesloaded.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/instafeed.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/jquery-migrate.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/jquery.fitvids.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/jquery.fullscreen-0.4.1.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/jquery.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/jquery.masonry.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/jquery.mobile.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/masonry.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/nbc-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/paal17-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/ruffle.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/samui.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/scripts.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/slick.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/slick.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/style(1).css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/style(2).css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/style.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/style.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/styles.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/underscore.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/vvv-banner.jpg (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/waves.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wdi_frontend.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wdi_frontend.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wdi_gallery_box.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wdi_instagram.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wdi_responsive.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wombat.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wp-embed.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslag NK Long Distance windsurfen – Ronde om Texel 2018 _files/wp-emoji-release.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/Teso_logo.svg_.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/analytics.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/athena.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/banner-styles.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/barning-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/bundle-playback.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/iconochive.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/nbc-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/paal17-300x89.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/ruffle.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/vvv-banner.jpg (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/waves.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Uitslagen windsurfers – Ronde om Texel_files/wombat.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW.pdf (NVW Infoblad maart 2003: bevat adressen, telefoonnummers en e-mailadressen (colofon, contactpersonen); daarom niet in git maar in local-only/. De uitslagpagina's 36 en 37 staan als losse pdf in bronnen/.)
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-1.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-15.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-18.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-19.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-20.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-21.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-22.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-32.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Infoblad 2003 NVW-35.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
 
 **Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 10× nl, totaal 147.
 
-_Registry: 422 bron(nen), 205 verwerkt._
+_Registry: 547 bron(nen), 219 verwerkt._

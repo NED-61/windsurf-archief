@@ -223,7 +223,7 @@ def link_people(results):
     pd.setdefault("not_same", []); pd.setdefault("pending", [])
     # idempotent: eerdere GPA-import terugdraaien; bevestigingen van de gebruiker blijven staan
     for p in pd["people"]:
-        p["appearances"] = [a for a in p["appearances"] if not a["event"].startswith("gpa-")]
+        p["appearances"] = [a for a in p["appearances"] if not a["event"].startswith(("gpa-2024-", "gpa-2025-"))]   # alleen de eigen edities; GPA 2009 komt uit import_los.py
     pd["people"] = [p for p in pd["people"] if p["appearances"] or p.get("confirmed")]
     pd["pending"] = [r for r in pd["pending"] if r.get("source") != "import_gpa"]
     by_id = {p["id"]: p for p in pd["people"]}

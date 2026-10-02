@@ -1,0 +1,24 @@
+{
+ "event_slug": "ronde-om-texel-2017",
+ "scope": "nl",
+ "name": "Ronde om Texel 2017",
+ "series": "Ronde om Texel",
+ "year": 2017,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2017-06-10",
+ "date_end": null,
+ "location": "Texel",
+ "discipline": "long_distance",
+ "classes": [
+  "ronde-om-texel-2017-long-distance-windsurf"
+ ],
+ "metadata_sources": [
+  {
+   "name": "roundtexel.com: Results Round Texel Windsurfing 2017 (Wayback Machine)",
+   "url": "https://web.archive.org/web/20190221172325/https://roundtexel.com/results-round-texel-windsurfing-2017/",
+   "used_for": "uitslag; de reactie onder het bericht noemt '40st edition Ronde om Texel, June 10, 2017' (reactie van 11 juni 2017)"
+  }
+ ],
+ "notes": []
+}

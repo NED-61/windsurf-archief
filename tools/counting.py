@@ -7,6 +7,9 @@ Geldt voor uitslagen van een NK (event.series begint met "NK"):
   elimination   de rider heeft in alle heats en finales waarin hij voorkomt de status DNC of DNF
   fleet_racing  de rider heeft in elke race de status DNC of DNF
 Een rider met ook maar één gevaren heat of een andere status (DNS, OCS, DSQ, RDG) telt gewoon mee.
+Bronnen zonder statuscodes (afgeleid, staat in de note van de uitslag):
+  elimination zonder heats   format.no_result_points: de rider heeft in elke eliminatie die (hoogste) score
+  series_standings           format.no_result_net: de rider heeft de hoogst mogelijke eindscore
 
 Wat er gebeurt met zo'n regel in de uitslag:
   - de entry blijft staan zoals gepubliceerd (plaats, naam, zeilnummer, punten), met "counted": false
@@ -44,6 +47,14 @@ def uncounted(doc):
     """-> lijst van entries die volgens de regel niet meetellen."""
     if not is_nk(doc): return []
     t = doc["format"]["type"]
+    if t == "series_standings":
+        # reeksklassement met alleen eindpunten: wie het maximum heeft, heeft in geen enkele tellende race een resultaat
+        mx = doc["format"].get("no_result_net")
+        return [e for e in doc["entries"] if mx is not None and e.get("net") == mx]
+    if t == "elimination" and not doc.get("eliminations") and doc["format"].get("no_result_points") is not None:
+        # alleen een totaaluitslag, zonder heats en zonder statuscodes: wie in elke eliminatie de hoogste score heeft
+        mx = doc["format"]["no_result_points"]
+        return [e for e in doc["entries"] if e.get("points") and all(p == mx for p in e["points"])]
     if t == "elimination":
         seen = defaultdict(list)
         for e in doc.get("eliminations") or []:
@@ -58,6 +69,16 @@ def uncounted(doc):
             if races and e.get("points") is not None and all(code(rem.get(c)) in CODES for c in races): out.append(e)
         return out
     return []
+
+
+def basis(doc):
+    """Waarop de regel in deze uitslag berust (tekst voor de note)."""
+    f = doc["format"]
+    if f["type"] == "series_standings":
+        return "met de hoogst mogelijke eindscore (geen resultaat in een tellende race; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid)"
+    if f["type"] == "elimination" and not doc.get("eliminations") and f.get("no_result_points") is not None:
+        return "met in elke eliminatie de hoogste score (geen resultaat; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid)"
+    return "met alleen DNC of DNF in " + ("alle heats en finales" if f["type"] == "elimination" else "alle races")
 
 
 def apply(dry=False, quiet=False):
@@ -86,8 +107,7 @@ def apply(dry=False, quiet=False):
                 e["counted"] = False; changed = True
         notes = [n for n in doc.get("notes", []) if not n.startswith(NOTE)]
         if unc:
-            notes.append(f"{NOTE} {len(unc)} ingeschreven rider(s) met alleen DNC of DNF in "
-                         + ("alle heats en finales" if doc["format"]["type"] == "elimination" else "alle races")
+            notes.append(f"{NOTE} {len(unc)} ingeschreven rider(s) " + basis(doc)
                          + " tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider.")
             report[doc["id"]] = [e["name"] for e in unc]
         if notes != doc.get("notes", []):

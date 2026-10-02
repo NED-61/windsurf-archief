@@ -1,0 +1,180 @@
+{
+ "schema_version": 1,
+ "id": "nk-2002-course-longboard",
+ "event": {
+  "name": "NK Course 2002",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2002,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Longboard",
+  "class_label_published": "Longboard Fleet"
+ },
+ "format": {
+  "type": "series_standings",
+  "races_sailed": 5,
+  "discards": 1,
+  "races_to_count": 4,
+  "points_published": "alleen eindpunten (Pts) per rider",
+  "stops": [],
+  "scoring_observed": "lage punten; netto na weglatingen",
+  "no_result_net": 60.0
+ },
+ "source": {
+  "name": "NVW Infoblad maart 2003: Eindstand ONK 2002",
+  "url": null,
+  "file": "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf",
+  "files": [
+   "archive/nl/2002/nk-course-2002/bronnen/Infoblad 2003 NVW-37.pdf"
+  ],
+  "type": "pdf",
+  "retrieved": "2026-10-02",
+  "pages": [
+   37
+  ],
+  "method": "pdfplumber: tekst-pdf, regels per fleet, uit de losse pagina's 36 en 37 van het Infoblad (met iLovePDF afgesplitst; de tekst is gelijk aan die van het volledige Infoblad, dat vanwege adressen en telefoonnummers buiten git blijft)",
+  "verified": "14 riders in de eindstand; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op punten; geen dubbele namen; alleen de eindpunten zijn gepubliceerd: totaal en weglatingen niet te herrekenen; hoogste score 60.0 = 4 tellende races x (14 riders + 1): 1 rider(s) zonder resultaat in een tellende race"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Longboard Fleet - Sailed: 5 Discards: 1' in de 'Eindstand ONK 2002'.",
+  "De bron geeft per rider alleen de eindpunten (Pts), geen punten per race en geen statuscodes. Pts is de netto-score na weglatingen: de hoogste score is precies het aantal tellende races maal (aantal riders + 1).",
+  "De kolom Class (Male, Female, Espoir, Master) staat in division. Een letter achter het zeilnummer (B, D, L) is zo gepubliceerd.",
+  "Telt niet mee: 1 ingeschreven rider(s) met de hoogst mogelijke eindscore (geen resultaat in een tellende race; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "marga-stalman",
+   "sail": "27",
+   "name": "Marga Stalman",
+   "division": "Female",
+   "total": null,
+   "net": 14.0
+  },
+  {
+   "rank": 2,
+   "person": "iris-van-riel",
+   "sail": "446",
+   "name": "Iris van Riel",
+   "division": "Female",
+   "total": null,
+   "net": 16.0
+  },
+  {
+   "rank": 3,
+   "person": "johan-vd-lippe",
+   "sail": "828",
+   "name": "Johan vd Lippe",
+   "division": "Male",
+   "total": null,
+   "net": 16.0
+  },
+  {
+   "rank": 4,
+   "person": "joeri-van-dijk",
+   "sail": "77",
+   "name": "Joeri van Dijk",
+   "division": "Male",
+   "total": null,
+   "net": 18.0
+  },
+  {
+   "rank": 5,
+   "person": "casper-bouman",
+   "sail": "52",
+   "name": "Casper Bouman",
+   "division": "Male",
+   "total": null,
+   "net": 21.0
+  },
+  {
+   "rank": 6,
+   "person": "priscilla-houtkamp",
+   "sail": "204",
+   "name": "Priscilla Houtkamp",
+   "division": "Female",
+   "total": null,
+   "net": 22.0
+  },
+  {
+   "rank": 7,
+   "person": "nikki-van-riel",
+   "sail": "43",
+   "name": "Nikki van Riel",
+   "division": "Female",
+   "total": null,
+   "net": 23.0
+  },
+  {
+   "rank": 8,
+   "person": "stefan-van-paasen",
+   "sail": "56",
+   "name": "Stefan van Paasen",
+   "division": "Male",
+   "total": null,
+   "net": 34.0
+  },
+  {
+   "rank": 9,
+   "person": "marco-kraaijenzank",
+   "sail": "105L",
+   "name": "Marco Kraayenzank",
+   "division": "Male",
+   "total": null,
+   "net": 46.0
+  },
+  {
+   "rank": 10,
+   "person": "jelle-vermeulen",
+   "sail": "253",
+   "name": "Jelle Vermeulen",
+   "division": "Male",
+   "total": null,
+   "net": 48.0
+  },
+  {
+   "rank": 11,
+   "person": "renske-molenwijk",
+   "sail": "874",
+   "name": "Renske Molenwijk",
+   "division": "Female",
+   "total": null,
+   "net": 50.0
+  },
+  {
+   "rank": 12,
+   "person": "maikel-houtkamp",
+   "sail": "895",
+   "name": "Maikel Houtkamp",
+   "division": "Male",
+   "total": null,
+   "net": 53.0
+  },
+  {
+   "rank": 13,
+   "person": "paul-motshagen",
+   "sail": "873",
+   "name": "Paul Motshagen",
+   "division": "Male",
+   "total": null,
+   "net": 54.0
+  },
+  {
+   "rank": 14,
+   "person": null,
+   "sail": "527",
+   "name": "Marlies Scheepers",
+   "division": "Female",
+   "total": null,
+   "net": 60.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

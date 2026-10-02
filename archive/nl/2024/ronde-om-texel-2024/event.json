@@ -1,0 +1,27 @@
+{
+ "event_slug": "ronde-om-texel-2024",
+ "scope": "nl",
+ "name": "Ronde om Texel 2024",
+ "series": "Ronde om Texel",
+ "year": 2024,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2024-06-08",
+ "date_end": null,
+ "location": "Texel (start bij Paal 17)",
+ "discipline": "long_distance",
+ "classes": [
+  "ronde-om-texel-2024-long-distance-windsurf"
+ ],
+ "metadata_sources": [
+  {
+   "name": "BootAanBoot: Ronde om Texel breidt tijdens 45e editie uit met WK en EK titel",
+   "url": "https://bootaanboot.nl/2024/02/ronde-om-texel-breidt-tijdens-45e-editie-uit-met-wk-en-ek-titel-60764",
+   "used_for": "45e editie, 5 t/m 8 juni 2024; de Ronde om Texel zelf op zaterdag 8 juni 2024; start op het strand bij Paal 17 (vooraankondiging van februari 2024)"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'Total Round Texel 2024 - ONK Marathon Windsurf'. Datum volgens de vooraankondiging (zaterdag 8 juni 2024); de pdf is aangemaakt op maandag 10 juni 2024."
+ ],
+ "title": "ONK Marathon Windsurf"
+}
