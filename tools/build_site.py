@@ -7,7 +7,7 @@ Leest alleen archive/**/uitslagen/*.json, archive/**/event.json en data/people.j
 registry) en schrijft losse HTML-pagina's met relatieve links, zodat de map overal gehost kan worden (domein-root of submap).
 Opmaak: stijl C "Rustig" (systeemletter, dunne lijnen, één linkkleur); de site doet geen verzoeken naar andere domeinen.
 """
-import argparse, datetime, html, json, re, shutil, unicodedata
+import argparse, datetime, hashlib, html, json, re, shutil, unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -152,7 +152,7 @@ def build_appearances(P, events, results, aggregate=False):
 
 
 # ---------------------------------------------------------------- layout
-CSS_VERSION = "5"
+CSS_VERSION = "5"      # wordt in main() vervangen door een hash van de inhoud (zie asset_version): browsers bewaren .js en .css een week
 
 
 def page(title, body, depth, active=None, description=None, extra_js=""):
@@ -790,7 +790,20 @@ def write_js_data(out, P, events, results, apps):
     (out / "assets/duel-data.js").write_text("window.DUEL=" + json.dumps(duel, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
 
 
+def asset_version():
+    """Korte hash van alles waar de site uit gebouwd wordt (uitslagen, evenementen, people.json, css en js). Staat als ?v=... achter
+    elke verwijzing naar assets/: de server laat browsers .js en .css een week bewaren, dus zonder een nieuwe versie bij nieuwe
+    data blijven zoeken en de onderlinge vergelijking de oude gegevens tonen."""
+    h = hashlib.sha256()
+    files = sorted((ROOT / "archive").glob("*/*/*/uitslagen/*.json")) + sorted((ROOT / "archive").glob("*/*/*/event.json"))
+    for f in files + [ROOT / "data/people.json", ASSETS / "site.css", ASSETS / "site.js", Path(__file__)]:
+        h.update(str(f.relative_to(ROOT)).encode()); h.update(f.read_bytes())
+    return h.hexdigest()[:10]
+
+
 def main():
+    global CSS_VERSION
+    CSS_VERSION = asset_version()
     ap = argparse.ArgumentParser(); ap.add_argument("--out", default="site"); a = ap.parse_args()
     out = (ROOT / a.out).resolve()
     if out.exists(): shutil.rmtree(out)
