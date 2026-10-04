@@ -1,0 +1,19 @@
+{
+ "event_slug": "wk-formula-2000",
+ "scope": "internationaal",
+ "name": "WK Formula Windsurfing 2000 (Pattaya)",
+ "series": "WK Formula Windsurfing",
+ "year": 2000,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": "Pattaya (Thailand)",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Bestand 'uitslag pattaya.xls' (20 december 2000, 125 riders, 11 races) noemt zelf geen wedstrijdnaam. Dat dit het WK Formula 2000 is, is afgeleid: de erelijst van Adri Keet noemt '2000 Formula Worlds: 11' en hij staat in dit bestand elfde. Bron bewaard, nog niet omgezet (fase 2)."
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "event_slug": "slalom-xl-2010-1023",
+ "scope": "nl",
+ "name": "Slalom XL Almere, 23 oktober 2010",
+ "series": "Slalom XL",
+ "year": 2010,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2010-10-23",
+ "date_end": null,
+ "location": "Almere",
+ "discipline": "slalom",
+ "classes": [
+  "slalom-xl-2010-1023-slalom-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Eén wedstrijddag uit de reeks Slalom XL in Almere; het volgnummer binnen de reeks is niet bekend (datum in de mapnaam).",
+  "Organisator afgeleid uit de voettekst van de uitslag ('Slalom XL - 23 okt 2010 - www.almerecentraal.nl')."
+ ],
+ "short_name": "Slalom XL 23 okt 2010",
+ "organizer": "Windsurfvereniging Almere Centraal",
+ "name_published": "Slalom XL - 23 okt 2010"
+}

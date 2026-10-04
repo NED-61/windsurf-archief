@@ -1,0 +1,25 @@
+{
+ "event_slug": "bredene-1998",
+ "scope": "internationaal",
+ "name": "Bredene 1998",
+ "series": null,
+ "year": 1998,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "1998-08-09",
+ "date_end": null,
+ "location": "Bredene (België)",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "Kalender89.doc (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "8/9 augustus 1998: België Bredene"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Belgische wedstrijd ('4 course races bredene 9/8/98', 32 riders): scope internationaal, bron bewaard, nog niet omgezet (fase 2)."
+ ]
+}

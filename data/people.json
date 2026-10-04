@@ -310,6 +310,41 @@
      "sail": "NED 34",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Adri Keet",
+     "sail": "H 34",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Adri Keet",
+     "sail": "H 34",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Adri Keet",
+     "sail": "NED-34",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Adri Keet",
+     "sail": "NED 34",
+     "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Adri Keet",
+     "sail": "NED-34",
+     "division": "Master",
+     "match": "naam"
     }
    ]
   },
@@ -393,6 +428,27 @@
      "sail": "Ned2",
      "division": "Foil",
      "bib": "23",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Adriaan van Rijsselberghe",
+     "sail": "NED-82",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Adriaan v Rijsselberghe",
+     "sail": "NED 2",
+     "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Adriaan van Rijsselberghe",
+     "sail": "NED-2",
+     "division": "Heren",
      "match": "naam"
     }
    ]
@@ -480,6 +536,19 @@
    ]
   },
   {
+   "id": "alexander-hoekstra",
+   "name": "Alexander Hoekstra",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Alexander Hoekstra",
+     "sail": "NED-777",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "alexander-mulder",
    "name": "Alexander Mulder",
    "aliases": [],
@@ -510,7 +579,29 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Alexander Verhage",
      "sail": "675",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Alexander Verhage",
+     "sail": "H 675",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Alexander Verhage",
+     "sail": "NED-675",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Alexander Verhage",
+     "sail": "NED-75",
+     "division": "Master",
+     "match": "naam"
     }
    ]
   },
@@ -742,7 +833,15 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Anne Cnossen",
      "sail": "665",
-     "division": "Espoir"
+     "division": "Espoir",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Anne Cnossen",
+     "sail": "NED-665",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -763,6 +862,19 @@
      "sail": "NED-133",
      "division": "women onder 21",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "anthony-vroman",
+   "name": "Anthony Vroman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Anthony Vroman",
+     "sail": "B 28",
+     "division": "Heren"
     }
    ]
   },
@@ -948,7 +1060,15 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Arne Marijn Elzes",
      "sail": "330",
-     "division": "Espoir"
+     "division": "Espoir",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Arne Marijn Elzes",
+     "sail": "NED-330",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -1110,6 +1230,19 @@
      "sail": null,
      "division": null,
      "bib": "98"
+    }
+   ]
+  },
+  {
+   "id": "aukje-meppelink",
+   "name": "Aukje Meppelink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-dames",
+     "name": "Aukje Meppelink",
+     "sail": "NED-65",
+     "division": null
     }
    ]
   },
@@ -1340,19 +1473,6 @@
      "sail": null,
      "division": null,
      "match": "naam"
-    }
-   ]
-  },
-  {
-   "id": "bartlema",
-   "name": "Bartlema",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Bartlema",
-     "sail": "113",
-     "division": null
     }
    ]
   },
@@ -1594,6 +1714,13 @@
      "division": "Foil",
      "bib": "22",
      "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Bas Mulder",
+     "sail": "82",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -1612,15 +1739,52 @@
    ]
   },
   {
+   "id": "ben-van-der-schaaf",
+   "name": "Ben van der Schaaf",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Ben van der Schaaf",
+     "sail": "NED-453",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "ben-vd-steen",
    "name": "Ben vd Steen",
-   "aliases": [],
+   "aliases": [
+    "Ben van der Steen"
+   ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Ben vd Steen",
      "sail": "57",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Ben van der Steen",
+     "sail": "H 57",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Ben van der Steen",
+     "sail": "H 57",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Ben van der Steen",
+     "sail": "NED-57",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -1678,6 +1842,26 @@
      "sail": null,
      "division": null,
      "bib": "7",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "bert-den-boer",
+   "name": "Bert den Boer",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Bert den Boer",
+     "sail": "H 140",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Bert den Boer",
+     "sail": "H 140",
+     "division": "Heren",
      "match": "naam"
     }
    ]
@@ -2200,7 +2384,8 @@
      "event": "nk-2002-course-longboard",
      "name": "Casper Bouman",
      "sail": "52",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
     },
     {
      "event": "ronde-om-texel-2018-long-distance-windsurf",
@@ -2216,6 +2401,13 @@
      "sail": "NED52",
      "division": null,
      "bib": "708",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Casper Bouman",
+     "sail": "NED-52",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -2308,6 +2500,19 @@
    ]
   },
   {
+   "id": "checco-bresser",
+   "name": "Checco Bresser",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Checco Bresser",
+     "sail": "H 268",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
    "id": "chris-crash",
    "name": "Chris Crash",
    "aliases": [],
@@ -2371,6 +2576,48 @@
    ]
   },
   {
+   "id": "christiaan-snouck-hurgonje",
+   "name": "Christiaan Snouck Hurgonje",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Christiaan Snouck Hurgonje",
+     "sail": "NED-443",
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "christian-sandee",
+   "name": "Christian Sandee",
+   "aliases": [
+    "Christiaan Sandee"
+   ],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Christian Sandee",
+     "sail": "H 161",
+     "division": "Jeugd"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Christian Sandee",
+     "sail": "H 161",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Christiaan Sandee",
+     "sail": "NED-161",
+     "division": null,
+     "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
    "id": "christoph-deus",
    "name": "Christoph Deus",
    "aliases": [],
@@ -2409,7 +2656,29 @@
      "event": "nk-2002-course-formula-dames",
      "name": "Cindy Koopman",
      "sail": "166",
-     "division": "Female"
+     "division": "Female",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-dames",
+     "name": "Cindy Koopman",
+     "sail": "NED-166",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Cindy Koopman",
+     "sail": "NED-166",
+     "division": "Dames",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Cindy Koopman",
+     "sail": "Hesje Geel",
+     "division": "Dames",
+     "match": "naam"
     }
    ]
   },
@@ -2441,6 +2710,26 @@
      "sail": "818",
      "division": "Master",
      "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Cobus van der Stel",
+     "sail": "NED-818",
+     "division": "Master",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "coen-hendriks",
+   "name": "Coen Hendriks",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Coen Hendriks",
+     "sail": "NED-71",
+     "division": "Jeugd"
     }
    ]
   },
@@ -2453,6 +2742,26 @@
      "event": "nk-2017-slalom-heren",
      "name": "Coen Swijnenburg",
      "sail": "Ned 262",
+     "division": "Heren"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Coen Swijnenburg",
+     "sail": "NED-262",
+     "division": "Jeugd",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "collin-ansink",
+   "name": "Collin Ansink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Collin Ansink",
+     "sail": "H 99",
      "division": "Heren"
     }
    ]
@@ -2559,6 +2868,33 @@
    ]
   },
   {
+   "id": "daan-spackler",
+   "name": "Daan Spackler",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Daan Spackler",
+     "sail": "H 534",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Daan Spackler",
+     "sail": "H 534",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Daan Spackler",
+     "sail": "NED-534",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "daniel-van-akkeren",
    "name": "Daniel van Akkeren",
    "aliases": [],
@@ -2569,6 +2905,29 @@
      "sail": "NED….",
      "division": null,
      "bib": "730"
+    }
+   ]
+  },
+  {
+   "id": "danny-kater",
+   "name": "Danny Kater",
+   "aliases": [
+    "Kater"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Kater",
+     "sail": "322",
+     "division": "Jeugd",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Danny Kater",
+     "sail": "NED-322",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -2805,6 +3164,20 @@
      "division": "Foil",
      "bib": "26",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Dennis Littel",
+     "sail": "NED-334",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Dennis Littel",
+     "sail": "NED 13",
+     "division": "men",
+     "match": "naam"
     }
    ]
   },
@@ -2866,6 +3239,27 @@
      "name": "Dirk Doppenberg",
      "sail": "NED-51",
      "division": "Open Men",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Dirk Doppenberg",
+     "sail": "NED 51",
+     "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Dirk Doppenberg",
+     "sail": "NED-51",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Dirk Doppenberg",
+     "sail": "NED-51",
+     "division": "Heren",
      "match": "naam"
     }
    ]
@@ -3221,6 +3615,19 @@
    ]
   },
   {
+   "id": "edwin-junge",
+   "name": "Edwin Junge",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Edwin Junge",
+     "sail": "H 3",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
    "id": "edwin-komdeur",
    "name": "Edwin Komdeur",
    "aliases": [],
@@ -3247,6 +3654,32 @@
      "division": null,
      "bib": "301",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "edwy-zoonekynd",
+   "name": "Edwy Zoonekynd",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Edwy Zoonekynd",
+     "sail": "F 1",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "eelco-van-der-wind",
+   "name": "Eelco van der Wind",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Eelco van der Wind",
+     "sail": "H 226",
+     "division": "Heren"
     }
    ]
   },
@@ -3438,6 +3871,19 @@
    ]
   },
   {
+   "id": "eric-wellink",
+   "name": "Eric Wellink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Eric Wellink",
+     "sail": "W-1",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
    "id": "erik-de-vries",
    "name": "Erik de Vries",
    "aliases": [],
@@ -3456,6 +3902,19 @@
      "division": null,
      "bib": "178",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "erik-hoogerwerf",
+   "name": "Erik Hoogerwerf",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Erik Hoogerwerf",
+     "sail": "H 418",
+     "division": "Heren"
     }
    ]
   },
@@ -3506,6 +3965,19 @@
      "division": null,
      "bib": "122",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "erna-driessen",
+   "name": "Erna Driessen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Erna Driessen",
+     "sail": "H 27",
+     "division": "Dames"
     }
    ]
   },
@@ -3648,6 +4120,13 @@
      "sail": "NED 16",
      "division": "Women",
      "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Esther de Geus",
+     "sail": "NED-172",
+     "division": "Dames",
+     "match": "naam"
     }
    ]
   },
@@ -3714,6 +4193,19 @@
      "name": "Evert Monsma",
      "sail": "332",
      "division": "Espoir"
+    }
+   ]
+  },
+  {
+   "id": "evert-piessens",
+   "name": "Evert Piessens",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Evert Piessens",
+     "sail": "NED-595",
+     "division": null
     }
    ]
   },
@@ -4461,7 +4953,8 @@
      "name": "Frank Heida",
      "sail": "17",
      "division": null,
-     "bib": "731"
+     "bib": "731",
+     "match": "naam"
     },
     {
      "event": "ronde-om-texel-2024-long-distance-windsurf",
@@ -4469,6 +4962,27 @@
      "sail": "FRL-800",
      "division": "Male",
      "bib": "g60",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Frank Heida",
+     "sail": "H 800",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Frank Heida",
+     "sail": "X1",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Frank Heida",
+     "sail": "NED-800",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -4669,15 +5183,52 @@
    ]
   },
   {
+   "id": "gerard-nakken",
+   "name": "Gerard Nakken",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Gerard Nakken",
+     "sail": "NED-301",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "gerrij-ruiter",
    "name": "Gerrij Ruiter",
-   "aliases": [],
+   "aliases": [
+    "Gerry Ruiter"
+   ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Gerrij Ruiter",
      "sail": "333",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Gerry Ruiter",
+     "sail": "H 333",
+     "division": "Heren",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Gerry Ruiter",
+     "sail": "H 333",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Gerry Ruiter",
+     "sail": "NED-333",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -4700,6 +5251,19 @@
      "division": null,
      "bib": "114",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "gertjan-van-dijk",
+   "name": "Gertjan van Dijk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Gertjan van Dijk",
+     "sail": "H 627",
+     "division": "Heren"
     }
    ]
   },
@@ -4780,7 +5344,41 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Gregory Maes",
      "sail": "312",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Gregory Maes",
+     "sail": "NED-312",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "guido-hommel",
+   "name": "Guido Hommel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Guido Hommel",
+     "sail": "11",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "guido-trampe",
+   "name": "Guido Trampe",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Guido Trampe",
+     "sail": "NED-326",
+     "division": "Master"
     }
    ]
   },
@@ -4885,6 +5483,71 @@
    ]
   },
   {
+   "id": "hans-knipscheer",
+   "name": "Hans Knipscheer",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Hans Knipscheer",
+     "sail": "H 17",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "hans-mooren",
+   "name": "Hans Mooren",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Hans Mooren",
+     "sail": "H 340",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "hans-schouten",
+   "name": "Hans Schouten",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Hans Schouten",
+     "sail": "7",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "hans-v-d-steen",
+   "name": "Hans v/d Steen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Hans v/d Steen",
+     "sail": "H 57/i",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "hans-v-d-veen",
+   "name": "Hans v/d Veen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Hans v/d Veen",
+     "sail": "H 596",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
    "id": "harald-lamberts",
    "name": "Harald Lamberts",
    "aliases": [],
@@ -4943,6 +5606,19 @@
      "sail": "NED 2891",
      "division": "Men",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "henk-van-ginkel",
+   "name": "Henk van Ginkel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Henk van Ginkel",
+     "sail": "H 307",
+     "division": "Heren"
     }
    ]
   },
@@ -5481,6 +6157,13 @@
      "sail": "NED-191",
      "division": "Senior (Men/Women)",
      "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Ingmar Daldorf",
+     "sail": "NED-191",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -5525,6 +6208,19 @@
      "division": null,
      "bib": "133",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "ingo-binder",
+   "name": "Ingo Binder",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Ingo Binder",
+     "sail": "G-523",
+     "division": null
     }
    ]
   },
@@ -5831,6 +6527,42 @@
    ]
   },
   {
+   "id": "jakob-snip",
+   "name": "Jakob Snip",
+   "aliases": [
+    "Snip"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Snip",
+     "sail": "689",
+     "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Jakob Snip",
+     "sail": "NED 689",
+     "division": "men",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jan-boudestein",
+   "name": "Jan Boudestein",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Jan Boudestein",
+     "sail": "NED-229",
+     "division": "Master"
+    }
+   ]
+  },
+  {
    "id": "jan-de-muyer",
    "name": "Jan De Muyer",
    "aliases": [
@@ -5924,6 +6656,26 @@
      "sail": null,
      "division": null,
      "bib": "101"
+    }
+   ]
+  },
+  {
+   "id": "jan-ten-kate",
+   "name": "Jan ten Kate",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Jan ten Kate",
+     "sail": "H 287",
+     "division": "Jeugd"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Jan ten Kate",
+     "sail": "H 287",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -6064,13 +6816,38 @@
   {
    "id": "jaques-vd-hout",
    "name": "Jaques vd Hout",
-   "aliases": [],
+   "aliases": [
+    "Jacques van der Hout",
+    "Jaques van der Hout"
+   ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Jaques vd Hout",
      "sail": "73",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Jacques van der Hout",
+     "sail": "H 73",
+     "division": "Heren",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Jacques van der Hout",
+     "sail": "H 73",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Jaques van der Hout",
+     "sail": "NED-73",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -6456,6 +7233,26 @@
    ]
   },
   {
+   "id": "jeroen-boelema",
+   "name": "Jeroen Boelema",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Jeroen Boelema",
+     "sail": "H 30",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Jeroen Boelema",
+     "sail": "H 30",
+     "division": "Heren",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "jeroen-coppens",
    "name": "Jeroen Coppens",
    "aliases": [],
@@ -6464,7 +7261,29 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Jeroen Coppens",
      "sail": "540",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Jeroen Coppens",
+     "sail": "H 540",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Jeroen Coppens",
+     "sail": "H 540",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Jeroen Coppens",
+     "sail": "NED-540",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -6523,6 +7342,19 @@
    ]
   },
   {
+   "id": "jeroen-sins",
+   "name": "Jeroen Sins",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Jeroen Sins",
+     "sail": "X",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
    "id": "jeroen-snelderwaard",
    "name": "Jeroen Snelderwaard",
    "aliases": [],
@@ -6573,6 +7405,19 @@
      "sail": null,
      "division": null,
      "bib": "066"
+    }
+   ]
+  },
+  {
+   "id": "jimte-jepma",
+   "name": "Jimte Jepma",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Jimte Jepma",
+     "sail": "H 118",
+     "division": "Heren"
     }
    ]
   },
@@ -6671,6 +7516,26 @@
      "sail": "NED1225",
      "division": null,
      "bib": "104",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "joep-clasquin",
+   "name": "Joep Clasquin",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Joep Clasquin",
+     "sail": "NED 509",
+     "division": "youth U20"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Joep Clasquin",
+     "sail": "NED-509",
+     "division": "Heren",
      "match": "naam"
     }
    ]
@@ -6781,7 +7646,15 @@
      "event": "nk-2002-course-longboard",
      "name": "Joeri van Dijk",
      "sail": "77",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Joeri van Dijk",
+     "sail": "NED-77",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -6820,6 +7693,19 @@
      "division": null,
      "bib": "164",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "johan-creten",
+   "name": "Johan Creten",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Johan Creten",
+     "sail": "B 3",
+     "division": "Heren"
     }
    ]
   },
@@ -6919,6 +7805,13 @@
      "name": "John MUNTEN",
      "sail": "NED 30",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "John Munten",
+     "sail": "NED 180",
+     "division": "men",
      "match": "naam"
     }
    ]
@@ -7095,7 +7988,9 @@
   {
    "id": "jordy-vonk",
    "name": "Jordy Vonk",
-   "aliases": [],
+   "aliases": [
+    "Vonk"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
@@ -7165,6 +8060,54 @@
      "sail": null,
      "division": null,
      "bib": "354",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Vonk",
+     "sail": "600",
+     "division": "Jeugd",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Jordy Vonk",
+     "sail": "NED 600",
+     "division": "youth U20",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Jordy Vonk",
+     "sail": "NED-600",
+     "division": "Jeugd",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Jordy Vonk",
+     "sail": "NED-600",
+     "division": "Jeugd",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "joris-bosman",
+   "name": "Joris Bosman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Joris Bosman",
+     "sail": "NED-152",
+     "division": "Heren"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Joris Bosman",
+     "sail": "NED-152",
+     "division": "Heren",
      "match": "naam"
     }
    ]
@@ -7502,15 +8445,15 @@
    ]
   },
   {
-   "id": "kater",
-   "name": "Kater",
+   "id": "kay-van-berlo",
+   "name": "Kay van Berlo",
    "aliases": [],
    "appearances": [
     {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Kater",
-     "sail": "322",
-     "division": "Jeugd"
+     "event": "nk-2008-course-overall",
+     "name": "Kay van Berlo",
+     "sail": "NED 212",
+     "division": "youth U20"
     }
    ]
   },
@@ -7575,6 +8518,19 @@
    ]
   },
   {
+   "id": "kevin-mevissen",
+   "name": "Kevin Mevissen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Kevin Mevissen",
+     "sail": "NED-79",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "kian-van-grasstek",
    "name": "Kian Van Grasstek",
    "aliases": [],
@@ -7624,7 +8580,8 @@
      "name": "Kiran Badloe",
      "sail": "NED9",
      "division": null,
-     "bib": "716"
+     "bib": "716",
+     "match": "naam"
     },
     {
      "event": "nk-2018-course-shortboard",
@@ -7647,6 +8604,13 @@
      "sail": "NED9",
      "division": "Foil",
      "bib": "37",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Kiran Badloe",
+     "sail": "NED-194",
+     "division": "Jeugd",
      "match": "naam"
     }
    ]
@@ -7682,6 +8646,52 @@
      "event": "gpa-2024-long-distance-windsurfer-lt-kona-one",
      "name": "KJ Van De Kamp",
      "sail": null,
+     "division": null
+    }
+   ]
+  },
+  {
+   "id": "klaas-jissink",
+   "name": "Klaas Jissink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Klaas Jissink",
+     "sail": "NED-42",
+     "division": "Heren"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Klaas Jissink",
+     "sail": "NED-42",
+     "division": "Heren",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "klaas-sybrand-jissink",
+   "name": "Klaas Sybrand Jissink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Klaas Sybrand Jissink",
+     "sail": "NED 42",
+     "division": "men"
+    }
+   ]
+  },
+  {
+   "id": "ko-de-visser",
+   "name": "Ko de Visser",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Ko de Visser",
+     "sail": "NED-252",
      "division": null
     }
    ]
@@ -7846,6 +8856,32 @@
    ]
   },
   {
+   "id": "kristina-scheffe",
+   "name": "Kristina Scheffe",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Kristina Scheffe",
+     "sail": "NED-511",
+     "division": "Dames"
+    }
+   ]
+  },
+  {
+   "id": "kuno-mooren",
+   "name": "Kuno Mooren",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Kuno Mooren",
+     "sail": "H 348",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
    "id": "lars-dijkstra",
    "name": "Lars Dijkstra",
    "aliases": [],
@@ -7965,6 +9001,19 @@
    ]
   },
   {
+   "id": "laurent-desaever",
+   "name": "Laurent Desaever",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Laurent Desaever",
+     "sail": "B 18",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
    "id": "leendert-van-gaalen",
    "name": "Leendert van Gaalen",
    "aliases": [],
@@ -7973,7 +9022,8 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Leendert van Gaalen",
      "sail": "338",
-     "division": "Espoir"
+     "division": "Espoir",
+     "match": "naam"
     },
     {
      "event": "ronde-om-texel-2018-long-distance-windsurf",
@@ -7989,6 +9039,20 @@
      "sail": "NED 7",
      "division": null,
      "bib": "736",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Leendert van Gaalen",
+     "sail": "NED-338",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Leendert van Gaalen",
+     "sail": "NED 338",
+     "division": "men",
      "match": "naam"
     }
    ]
@@ -8050,6 +9114,19 @@
    ]
   },
   {
+   "id": "leon-row",
+   "name": "Leon Row",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Leon Row",
+     "sail": "NED-244",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
    "id": "leverne-van-wanum",
    "name": "Leverne Van Wanum",
    "aliases": [],
@@ -8094,6 +9171,19 @@
      "name": "Lieuwe Faber",
      "sail": "498",
      "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "lilian-de-geus",
+   "name": "Lilian de Geus",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Lilian de Geus",
+     "sail": "3",
+     "division": "Dames"
     }
    ]
   },
@@ -8527,6 +9617,19 @@
    ]
   },
   {
+   "id": "maarten-hak",
+   "name": "Maarten Hak",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Maarten Hak",
+     "sail": "NED-351",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "maarten-midden",
    "name": "Maarten Midden",
    "aliases": [],
@@ -8734,7 +9837,8 @@
    "aliases": [
     "Marc De Jong",
     "marc de jong",
-    "Marc de JONG"
+    "Marc de JONG",
+    "Mark de Jong"
    ],
    "appearances": [
     {
@@ -8822,13 +9926,43 @@
      "sail": "NED 10",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Marc de Jong",
+     "sail": "H 103",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Marc de Jong",
+     "sail": "NED-103",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Marc de Jong",
+     "sail": "NED 103",
+     "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Mark de Jong",
+     "sail": "NED-103",
+     "division": "Heren",
+     "match": "naam+zeilnummer"
     }
    ]
   },
   {
    "id": "marc-fokkinga",
    "name": "Marc Fokkinga",
-   "aliases": [],
+   "aliases": [
+    "Marc Foklienga"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2026-long-distance-fin-master",
@@ -8842,6 +9976,13 @@
      "sail": "NED2411",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Marc Foklienga",
+     "sail": "NED-2411",
+     "division": "Heren",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -8856,6 +9997,32 @@
      "sail": null,
      "division": null,
      "bib": "500"
+    }
+   ]
+  },
+  {
+   "id": "marc-rutgers",
+   "name": "Marc Rutgers",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Marc Rutgers",
+     "sail": "NED-191",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "marc-v-santen",
+   "name": "Marc v Santen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Marc v Santen",
+     "sail": "NED 211",
+     "division": "youth U20"
     }
    ]
   },
@@ -8878,6 +10045,19 @@
      "division": null,
      "bib": "313",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "marcel-frings",
+   "name": "Marcel Frings",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Marcel Frings",
+     "sail": "G-4004",
+     "division": null
     }
    ]
   },
@@ -8907,6 +10087,39 @@
      "sail": null,
      "division": null,
      "bib": "300",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "marcel-van-asten",
+   "name": "Marcel van Asten",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Marcel van Asten",
+     "sail": "H 91",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "marcel-vd-zwart",
+   "name": "Marcel v.d. Zwart",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Marcel v.d. Zwart",
+     "sail": "H 6",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Marcel v.d. Zwart",
+     "sail": "H 6",
+     "division": "Heren",
      "match": "naam"
     }
    ]
@@ -8970,7 +10183,8 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Marco Boone",
      "sail": "1119",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
     },
     {
      "event": "nk-2018-course-shortboard",
@@ -8993,6 +10207,20 @@
      "sail": "NED 103",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Marco Boone",
+     "sail": "NED-1119",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Marco Boone",
+     "sail": "1",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -9000,20 +10228,29 @@
    "id": "marco-kraaijenzank",
    "name": "Marco Kraaijenzank",
    "aliases": [
-    "Marco Kraayenzank"
+    "Marco Kraayenzank",
+    "Marko Kraayenzank"
    ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Marco Kraaijenzank",
      "sail": "105",
-     "division": "Espoir"
+     "division": "Espoir",
+     "match": "naam"
     },
     {
      "event": "nk-2002-course-longboard",
      "name": "Marco Kraayenzank",
      "sail": "105L",
      "division": "Male",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Marko Kraayenzank",
+     "sail": "NED-105",
+     "division": null,
      "match": "naam+zeilnummer"
     }
    ]
@@ -9060,7 +10297,8 @@
    "aliases": [
     "Marco Van Der Leer",
     "Van der Leer",
-    "Marco van Leer"
+    "Marco van Leer",
+    "Marco vd Leer"
    ],
    "appearances": [
     {
@@ -9112,6 +10350,20 @@
      "sail": "NED 207",
      "division": "Men",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Marco vd Leer",
+     "sail": "NED 207",
+     "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Marco van der Leer",
+     "sail": "NED-207",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -9345,6 +10597,19 @@
    ]
   },
   {
+   "id": "mark-bruinsma",
+   "name": "Mark Bruinsma",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Mark Bruinsma",
+     "sail": "H 674",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
    "id": "mark-immenga",
    "name": "Mark Immenga",
    "aliases": [
@@ -9392,6 +10657,19 @@
    ]
   },
   {
+   "id": "mark-jansen",
+   "name": "Mark Jansen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Mark Jansen",
+     "sail": "NED 38",
+     "division": "youth U20"
+    }
+   ]
+  },
+  {
    "id": "mark-palmer",
    "name": "Mark Palmer",
    "aliases": [],
@@ -9419,6 +10697,32 @@
    ]
   },
   {
+   "id": "mark-staal",
+   "name": "Mark Staal",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Mark Staal",
+     "sail": "2",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "mark-thoms",
+   "name": "Mark Thoms",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Mark Thoms",
+     "sail": "H 85",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
    "id": "mark-tjon",
    "name": "Mark Tjon",
    "aliases": [],
@@ -9440,7 +10744,35 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Markus Bouman",
      "sail": "666",
-     "division": "Espoir"
+     "division": "Espoir",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Markus Bouman",
+     "sail": "NED-666",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Markus Bouman",
+     "sail": "NED 6",
+     "division": "men",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "marlies-schepers",
+   "name": "Marlies Schepers",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-dames",
+     "name": "Marlies Schepers",
+     "sail": "NED-38",
+     "division": null
     }
    ]
   },
@@ -9556,6 +10888,63 @@
      "sail": null,
      "division": null,
      "bib": "323",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "martijn-van-citteren",
+   "name": "Martijn van Citteren",
+   "aliases": [
+    "Van Citeren"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Van Citeren",
+     "sail": "170",
+     "division": "Jeugd",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Martijn van Citteren",
+     "sail": "NED 170",
+     "division": "youth U20",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Martijn van Citteren",
+     "sail": "NED-170",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Martijn van Citteren",
+     "sail": "NED-170",
+     "division": "Heren",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "martijn-van-deth",
+   "name": "Martijn van Deth",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Martijn van Deth",
+     "sail": "H 46",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Martijn van Deth",
+     "sail": "H 46",
+     "division": "Heren",
      "match": "naam"
     }
    ]
@@ -10003,7 +11392,9 @@
    "id": "matthijs-van-t-hoff",
    "name": "Matthijs Van ‘T Hoff",
    "aliases": [
-    "Matthijs van t Hoff"
+    "Matthijs van t Hoff",
+    "Matthijs van't Hoff",
+    "Matthijs van 't Hoff"
    ],
    "appearances": [
     {
@@ -10025,6 +11416,20 @@
      "name": "Matthijs van t Hoff",
      "sail": "NED 216",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Matthijs van't Hoff",
+     "sail": "NED-216",
+     "division": "Jeugd",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Matthijs van 't Hoff",
+     "sail": "NED-216",
+     "division": "Jeugd",
      "match": "naam"
     }
    ]
@@ -10775,6 +12180,19 @@
    ]
   },
   {
+   "id": "michiel-rijkaert",
+   "name": "Michiel Rijkaert",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Michiel Rijkaert",
+     "sail": "NED 220",
+     "division": "men"
+    }
+   ]
+  },
+  {
    "id": "mies-dijksterhuis",
    "name": "Mies Dijksterhuis",
    "aliases": [],
@@ -10785,6 +12203,19 @@
      "sail": null,
      "division": null,
      "bib": "81"
+    }
+   ]
+  },
+  {
+   "id": "miguel-agerkop",
+   "name": "Miguel Agerkop",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Miguel Agerkop",
+     "sail": "747",
+     "division": "Master"
     }
    ]
   },
@@ -11052,6 +12483,19 @@
    ]
   },
   {
+   "id": "monique-dijs",
+   "name": "Monique Dijs",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-dames",
+     "name": "Monique Dijs",
+     "sail": "NED-94",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "neill-chardet",
    "name": "Neill Chardet",
    "aliases": [
@@ -11097,6 +12541,19 @@
    ]
   },
   {
+   "id": "nick-de-ruyter",
+   "name": "Nick de Ruyter",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Nick de Ruyter",
+     "sail": "NED 183",
+     "division": "youth U20"
+    }
+   ]
+  },
+  {
    "id": "nick-glaettli",
    "name": "Nick Glaettli",
    "aliases": [
@@ -11136,6 +12593,29 @@
      "by": "gebruiker",
      "date": "2026-10-01",
      "note": "zelfde persoon (bevestigd in gesprek); juiste schrijfwijze onbekend"
+    }
+   ]
+  },
+  {
+   "id": "nick-hoorn",
+   "name": "Nick Hoorn",
+   "aliases": [
+    "Vd Hoorn"
+   ],
+   "appearances": [
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Vd Hoorn",
+     "sail": "147",
+     "division": "Jeugd",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Nick Hoorn",
+     "sail": "NED-147",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -11200,6 +12680,20 @@
      "sail": "81",
      "division": "Master",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Nico Wierstra",
+     "sail": "NED-81",
+     "division": "Master",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Nico Wierstra",
+     "sail": "NED-81",
+     "division": "Master",
+     "match": "naam"
     }
    ]
   },
@@ -11301,6 +12795,26 @@
    ]
   },
   {
+   "id": "nikaj-droop",
+   "name": "Nikaj Droop",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Nikaj Droop",
+     "sail": "NED-647",
+     "division": "Master"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Nikaj Droop",
+     "sail": "H-647",
+     "division": "Master",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "nikki-van-riel",
    "name": "Nikki van Riel",
    "aliases": [],
@@ -11309,7 +12823,15 @@
      "event": "nk-2002-course-longboard",
      "name": "Nikki van Riel",
      "sail": "43",
-     "division": "Female"
+     "division": "Female",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Nikki van Riel",
+     "sail": "4",
+     "division": "Dames",
+     "match": "naam"
     }
    ]
   },
@@ -11412,6 +12934,26 @@
    ]
   },
   {
+   "id": "paco-freens",
+   "name": "Paco Freens",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Paco Freens",
+     "sail": "H 63",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Paco Freens",
+     "sail": "H 63",
+     "division": "Heren",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "patric-roelandts",
    "name": "Patric Roelandts",
    "aliases": [],
@@ -11461,6 +13003,19 @@
      "name": "Patrick de Cauwer",
      "sail": "B144",
      "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "patrick-kerkhof",
+   "name": "Patrick Kerkhof",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Patrick Kerkhof",
+     "sail": "H 501",
+     "division": "Heren"
     }
    ]
   },
@@ -11523,6 +13078,19 @@
      "name": "Paul Motshagen",
      "sail": "873",
      "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "paul-overloop",
+   "name": "Paul Overloop",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Paul Overloop",
+     "sail": "B 155",
+     "division": "Heren"
     }
    ]
   },
@@ -11723,7 +13291,8 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Peter Heida",
      "sail": "900",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
     },
     {
      "event": "ronde-om-texel-2024-long-distance-windsurf",
@@ -11731,6 +13300,34 @@
      "sail": "FRL-900",
      "division": "Male",
      "bib": "g29",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Peter Heida",
+     "sail": "H 900",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Peter Heida",
+     "sail": "H 900",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Peter Heida",
+     "sail": "NED-900",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Peter Heida",
+     "sail": "H-17",
+     "division": "Master",
      "match": "naam"
     }
    ]
@@ -12149,13 +13746,43 @@
   {
    "id": "pieter-bartlema",
    "name": "Pieter Bartlema",
-   "aliases": [],
+   "aliases": [
+    "Bartlema"
+   ],
    "appearances": [
     {
      "event": "nk-2017-slalom-heren",
      "name": "Pieter Bartlema",
      "sail": "Ned 77",
      "division": "Heren"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Bartlema",
+     "sail": "113",
+     "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Pieter Bartlema",
+     "sail": "NED 113",
+     "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Pieter Bartlema",
+     "sail": "NED-113",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Pieter Bartlema",
+     "sail": "0",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -12186,6 +13813,20 @@
      "sail": "NED 0",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Pieter Bijl",
+     "sail": "H 280",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Pieter Bijl",
+     "sail": "NED-280",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -12200,6 +13841,13 @@
      "sail": null,
      "division": null,
      "bib": "191"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Pieter Buis",
+     "sail": "NED-136",
+     "division": "Master",
+     "match": "naam"
     }
    ]
   },
@@ -12208,7 +13856,8 @@
    "name": "Pieter Eliens",
    "aliases": [
     "Peter Eliens",
-    "Eliens"
+    "Eliens",
+    "Pieter Eliëns"
    ],
    "appearances": [
     {
@@ -12377,6 +14026,34 @@
      "division": "Foil",
      "bib": "24",
      "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Pieter Eliens",
+     "sail": "NED-538",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Pieter Eliens",
+     "sail": "NED 538",
+     "division": "master",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Pieter Eliens",
+     "sail": "NED-538",
+     "division": "Master",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Pieter Eliëns",
+     "sail": "NED-538",
+     "division": "Master",
+     "match": "naam"
     }
    ]
   },
@@ -12408,6 +14085,19 @@
    ]
   },
   {
+   "id": "pytrik-arendz",
+   "name": "Pytrik Arendz",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Pytrik Arendz",
+     "sail": "NED-602",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
    "id": "quinten-walhof",
    "name": "Quinten Walhof",
    "aliases": [
@@ -12423,6 +14113,59 @@
    ]
   },
   {
+   "id": "r-konstapel",
+   "name": "R. Konstapel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "R. Konstapel",
+     "sail": "NED-18",
+     "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "ramon-schoenmaker",
+   "name": "Ramon Schoenmaker",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Ramon Schoenmaker",
+     "sail": "H 456",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Ramon Schoenmaker",
+     "sail": "H 456",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Ramon Schoenmaker",
+     "sail": "NED-456",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "ramon-stolk",
+   "name": "Ramon Stolk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Ramon Stolk",
+     "sail": "1",
+     "division": "Jeugd"
+    }
+   ]
+  },
+  {
    "id": "ramses-landman",
    "name": "Ramses Landman",
    "aliases": [],
@@ -12431,7 +14174,56 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Ramses Landman",
      "sail": "72",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Ramses Landman",
+     "sail": "H 72",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Ramses Landman",
+     "sail": "H 72",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Ramses Landman",
+     "sail": "NED-72",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "reinder-de-vries",
+   "name": "Reinder de Vries",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Reinder de Vries",
+     "sail": "H 711",
+     "division": "Jeugd"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Reinder de Vries",
+     "sail": "H 711",
+     "division": "Jeugd",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Reinder de Vries",
+     "sail": "NED-711",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -12500,6 +14292,13 @@
      "division": "Male",
      "bib": "g31",
      "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Remco Bakker",
+     "sail": "NED-857",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -12558,6 +14357,39 @@
      "division": null,
      "bib": "720",
      "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
+   "id": "remco-onder-de-linden",
+   "name": "Remco Onder de Linden",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Remco Onder de Linden",
+     "sail": "H 395",
+     "division": "Heren"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Remco Onder de Linden",
+     "sail": "NED-395",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "remco-witte",
+   "name": "Remco Witte",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Remco Witte",
+     "sail": "H-561",
+     "division": "Heren"
     }
    ]
   },
@@ -12724,20 +14556,47 @@
   {
    "id": "renee-glasz",
    "name": "Renee Glasz",
-   "aliases": [],
+   "aliases": [
+    "Rene Glasz",
+    "René Glasz"
+   ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Renee Glasz",
      "sail": "123",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Rene Glasz",
+     "sail": "H 123",
+     "division": "Heren",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "René Glasz",
+     "sail": "NED-123",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Rene Glasz",
+     "sail": "NED 123",
+     "division": "men",
+     "match": "naam"
     }
    ]
   },
   {
    "id": "renee-vonk",
    "name": "Renee Vonk",
-   "aliases": [],
+   "aliases": [
+    "Vonk"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2019-long-distance-masters-heren",
@@ -12745,6 +14604,27 @@
      "sail": null,
      "division": null,
      "bib": "197"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Vonk",
+     "sail": "688",
+     "division": "Master",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Renee Vonk",
+     "sail": "NED-688",
+     "division": "Master",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Renee Vonk",
+     "sail": "NED-688",
+     "division": "Master",
+     "match": "naam"
     }
    ]
   },
@@ -12825,7 +14705,29 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Richard Konstapel",
      "sail": "115",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Richard Konstapel",
+     "sail": "H 115",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Richard Konstapel",
+     "sail": "NED-115",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Richard Konstapel",
+     "sail": "NED 18",
+     "division": "master",
+     "match": "naam"
     }
    ]
   },
@@ -13043,6 +14945,13 @@
      "sail": "NED-118",
      "division": "Open Men",
      "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Robert de Leeuw",
+     "sail": "NED-118",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -13050,20 +14959,37 @@
    "id": "robert-jan-van-velzen",
    "name": "Robert-jan van Velzen",
    "aliases": [
-    "Van velzen"
+    "Van velzen",
+    "Robert-Jan van Velzen",
+    "Robbert-Jan van Velzen"
    ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Robert-jan van Velzen",
      "sail": "240",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
     },
     {
      "event": "gpa-2009-long-distance-rsx",
      "name": "Van velzen",
      "sail": "240",
      "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Robert-Jan van Velzen",
+     "sail": "NED-240",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Robbert-Jan van Velzen",
+     "sail": "NED 240",
+     "division": "men",
      "match": "naam+zeilnummer"
     }
    ]
@@ -13100,6 +15026,19 @@
      "name": "Robert Ten Dam",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "robin-arbeider",
+   "name": "Robin Arbeider",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Robin Arbeider",
+     "sail": "H 524",
+     "division": "Heren"
     }
    ]
   },
@@ -13174,6 +15113,19 @@
    ]
   },
   {
+   "id": "robin-vonk",
+   "name": "Robin Vonk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Robin Vonk",
+     "sail": "NED-361",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "robin-wernsen",
    "name": "Robin Wernsen",
    "aliases": [],
@@ -13206,6 +15158,19 @@
      "division": null,
      "bib": "163",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "roger-van-tongeren",
+   "name": "Roger van Tongeren",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Roger van Tongeren",
+     "sail": "NED-838",
+     "division": null
     }
    ]
   },
@@ -13345,7 +15310,29 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Ron Ruiter",
      "sail": "1111",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Ron Ruiter",
+     "sail": "H 1111",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Ron Ruiter",
+     "sail": "H 1111",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Ron Ruiter",
+     "sail": "NED-1111",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -13372,6 +15359,33 @@
      "name": "Ron Verburg",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "ronald-de-jong",
+   "name": "Ronald de Jong",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Ronald de Jong",
+     "sail": "H 29",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Ronald de Jong",
+     "sail": "H 29",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Ronald de Jong",
+     "sail": "NED-29",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -13452,7 +15466,22 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Roy van Koolwijk",
      "sail": "97",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Roy van Koolwijk",
+     "sail": "NED-97",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Roy van Koolwijk",
+     "sail": "NED 97",
+     "division": "men",
+     "match": "naam"
     }
    ]
   },
@@ -13564,7 +15593,30 @@
      "event": "nk-2018-course-shortboard",
      "name": "Sam Wennekes",
      "sail": "NED 8",
-     "division": "Youth (U20)"
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Sam Wennekes",
+     "sail": "NED-823",
+     "division": "Jeugd",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "sander-bouwman",
+   "name": "Sander Bouwman",
+   "aliases": [
+    "Sander bouwman"
+   ],
+   "appearances": [
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Sander bouwman",
+     "sail": "H 325",
+     "division": "Jeugd"
     }
    ]
   },
@@ -13606,13 +15658,23 @@
   {
    "id": "sander-vd-vlis",
    "name": "Sander vd Vlis",
-   "aliases": [],
+   "aliases": [
+    "Sander van der Vlis"
+   ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Sander vd Vlis",
      "sail": "389",
-     "division": "Espoir"
+     "division": "Espoir",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-jeugd",
+     "name": "Sander van der Vlis",
+     "sail": "NED-389",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -13708,6 +15770,13 @@
      "name": "Sara WENNEKES",
      "sail": "NED 33",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Sara Wennekes",
+     "sail": "NED-203",
+     "division": "Dames",
      "match": "naam"
     }
    ]
@@ -14144,19 +16213,6 @@
    ]
   },
   {
-   "id": "snip",
-   "name": "Snip",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Snip",
-     "sail": "689",
-     "division": null
-    }
-   ]
-  },
-  {
    "id": "stan-vd-vegt",
    "name": "Stan vd Vegt",
    "aliases": [],
@@ -14179,7 +16235,22 @@
      "event": "nk-2002-course-formula-heren",
      "name": "Stefan Gideonse",
      "sail": "119",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Stefan Gideonse",
+     "sail": "H 119",
+     "division": "Heren",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Stefan Gideonse",
+     "sail": "NED-119",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -14324,6 +16395,19 @@
    ]
   },
   {
+   "id": "stephan-van-den-berg",
+   "name": "Stephan van den Berg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Stephan van den Berg",
+     "sail": "NED-1",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "stevan-v-broekhoven",
    "name": "Stevan v Broekhoven",
    "aliases": [
@@ -14342,6 +16426,19 @@
      "sail": "BEL 72",
      "division": "Men",
      "match": "naam+zeilnummer"
+    }
+   ]
+  },
+  {
+   "id": "steven-bodher",
+   "name": "Steven Bodher",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Steven Bodher",
+     "sail": "USA 4",
+     "division": "men"
     }
    ]
   },
@@ -14454,6 +16551,32 @@
      "division": null,
      "bib": "18",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "stijn-de-pauw",
+   "name": "Stijn de Pauw",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Stijn de Pauw",
+     "sail": "B 252",
+     "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "stijn-willems",
+   "name": "Stijn Willems",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Stijn Willems",
+     "sail": "NED-270",
+     "division": null
     }
    ]
   },
@@ -14575,6 +16698,20 @@
      "sail": "777",
      "division": "Jeugd",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Teade de Jong",
+     "sail": "NED 777",
+     "division": "youth U20",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Teade de Jong",
+     "sail": "NED-777",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -15100,6 +17237,19 @@
    ]
   },
   {
+   "id": "timo-de-jong",
+   "name": "Timo de Jong",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Timo de Jong",
+     "sail": "NED-682",
+     "division": "Master"
+    }
+   ]
+  },
+  {
    "id": "tom-jansen",
    "name": "Tom Jansen",
    "aliases": [],
@@ -15166,6 +17316,27 @@
      "sail": null,
      "division": null,
      "match": "bevestigd"
+    },
+    {
+     "event": "nk-2008-course-overall",
+     "name": "Tomas van Zelst",
+     "sail": "NED 228",
+     "division": "youth U20",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Tomas van Zelst",
+     "sail": "NED-228",
+     "division": "Jeugd",
+     "match": "naam"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Tomas van Zelst",
+     "sail": "NED-228",
+     "division": "Jeugd",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -15294,19 +17465,6 @@
    ]
   },
   {
-   "id": "van-citeren",
-   "name": "Van Citeren",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Van Citeren",
-     "sail": "170",
-     "division": "Jeugd"
-    }
-   ]
-  },
-  {
    "id": "van-de-hoorn",
    "name": "Van de Hoorn",
    "aliases": [
@@ -15402,19 +17560,6 @@
    ]
   },
   {
-   "id": "vd-hoorn",
-   "name": "Vd Hoorn",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Vd Hoorn",
-     "sail": "147",
-     "division": "Jeugd"
-    }
-   ]
-  },
-  {
    "id": "vermeulen",
    "name": "Vermeulen",
    "aliases": [],
@@ -15437,6 +17582,19 @@
      "name": "Versluis",
      "sail": "T-I",
      "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "victor-van-der-blom",
+   "name": "Victor van der Blom",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Victor van der Blom",
+     "sail": "H 437",
+     "division": "Heren"
     }
    ]
   },
@@ -15579,32 +17737,6 @@
    ]
   },
   {
-   "id": "vonk",
-   "name": "Vonk",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Vonk",
-     "sail": "600",
-     "division": "Jeugd"
-    }
-   ]
-  },
-  {
-   "id": "vonk-2",
-   "name": "Vonk",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Vonk",
-     "sail": "688",
-     "division": "Master"
-    }
-   ]
-  },
-  {
    "id": "vpthoms",
    "name": "V.P.Thoms",
    "aliases": [],
@@ -15618,6 +17750,26 @@
    ]
   },
   {
+   "id": "walter-vd-knaap",
+   "name": "Walter v.d. Knaap",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-1998-funboard-overall",
+     "name": "Walter v.d. Knaap",
+     "sail": "H 42",
+     "division": "Heren"
+    },
+    {
+     "event": "holland-surfpool-1999-stop1-race-overall",
+     "name": "Walter v.d. Knaap",
+     "sail": "H 42",
+     "division": "Heren",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "wendy-littel",
    "name": "Wendy Littel",
    "aliases": [],
@@ -15626,7 +17778,15 @@
      "event": "nk-2002-course-formula-dames",
      "name": "Wendy Littel",
      "sail": "3341",
-     "division": "Female"
+     "division": "Female",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-dames",
+     "name": "Wendy Littel",
+     "sail": "NED-3",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -15719,13 +17879,23 @@
   {
    "id": "wilko-dijkstra",
    "name": "Wilko Dijkstra",
-   "aliases": [],
+   "aliases": [
+    "Wilco Dijkstra"
+   ],
    "appearances": [
     {
      "event": "nk-2002-course-formula-heren",
      "name": "Wilko Dijkstra",
      "sail": "315",
-     "division": "Male"
+     "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2000-course-race-heren",
+     "name": "Wilco Dijkstra",
+     "sail": "NED-315",
+     "division": null,
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -15740,6 +17910,13 @@
      "sail": null,
      "division": null,
      "bib": "95"
+    },
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Willem Boonstra",
+     "sail": "NED-302",
+     "division": "Heren",
+     "match": "naam"
     }
    ]
   },
@@ -15871,6 +18048,19 @@
      "division": null,
      "bib": "165",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "wouter-verhulst",
+   "name": "Wouter Verhulst",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2009-1003-slalom-overall",
+     "name": "Wouter Verhulst",
+     "sail": "NED-800",
+     "division": "Heren"
     }
    ]
   },
@@ -16033,6 +18223,19 @@
    ]
   },
   {
+   "id": "yuri-palmkoeck",
+   "name": "Yuri Palmkoeck",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "slalom-xl-2010-1023-slalom-overall",
+     "name": "Yuri Palmkoeck",
+     "sail": "NED-737",
+     "division": "Master"
+    }
+   ]
+  },
+  {
    "id": "yva-spekman",
    "name": "Yva Spekman",
    "aliases": [],
@@ -16142,5 +18345,96 @@
    "date": "2026-10-01"
   }
  ],
- "pending": []
+ "pending": [
+  {
+   "people": [
+    "christiaan-s-hungronje",
+    "christiaan-snouck-hurgonje"
+   ],
+   "similarity": 0.83,
+   "source": "import_keet",
+   "reason": "'Christiaan Snouck Hurgonje' en 'Christiaan S Hungronje': zelfde zeilnummer en een naam die erop lijkt"
+  },
+  {
+   "people": [
+    "dirk-doppenberg",
+    "doppenberg"
+   ],
+   "similarity": 0.8,
+   "source": "import_keet",
+   "reason": "'Dirk Doppenberg' en 'Doppenberg': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
+  },
+  {
+   "people": [
+    "jissink",
+    "klaas-jissink"
+   ],
+   "similarity": 0.7,
+   "source": "import_keet",
+   "reason": "'Klaas Jissink' en 'Jissink': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
+  },
+  {
+   "people": [
+    "klaas-jissink",
+    "klaas-sybrand-jissink"
+   ],
+   "similarity": 0.76,
+   "source": "import_keet",
+   "reason": "'Klaas Jissink' en 'Klaas Sybrand Jissink': zelfde achternaam en zelfde zeilnummer, de naam verschilt"
+  },
+  {
+   "people": [
+    "jissink",
+    "klaas-sybrand-jissink"
+   ],
+   "similarity": 0.5,
+   "source": "import_keet",
+   "reason": "'Klaas Sybrand Jissink' en 'Jissink': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
+  },
+  {
+   "people": [
+    "marco-boone",
+    "mika-marco-boone"
+   ],
+   "similarity": 0.81,
+   "source": "import_keet",
+   "reason": "'Marco Boone' en 'Mika Marco Boone': zelfde achternaam en zelfde zeilnummer, de naam verschilt"
+  },
+  {
+   "people": [
+    "nick-hoorn",
+    "nick-van-der-hoorn"
+   ],
+   "similarity": 1.0,
+   "source": "import_keet",
+   "reason": "'Nick Hoorn' en 'Nick Van Der Hoorn': zelfde naam op een tussenvoegsel na, zonder gelijk zeilnummer"
+  },
+  {
+   "people": [
+    "konstapel",
+    "r-konstapel"
+   ],
+   "similarity": 0.9,
+   "source": "import_keet",
+   "reason": "'R. Konstapel' en 'Konstapel': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
+  },
+  {
+   "people": [
+    "r-konstapel",
+    "richard-konstapel"
+   ],
+   "similarity": 0.79,
+   "source": "import_keet",
+   "reason": "'R. Konstapel' en 'Richard Konstapel': zelfde achternaam en zelfde zeilnummer, alleen een voorletter"
+  },
+  {
+   "people": [
+    "konstapel",
+    "richard-konstapel"
+   ],
+   "similarity": 0.69,
+   "source": "import_keet",
+   "reason": "'Richard Konstapel' en 'Konstapel': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
+  }
+ ]
 }

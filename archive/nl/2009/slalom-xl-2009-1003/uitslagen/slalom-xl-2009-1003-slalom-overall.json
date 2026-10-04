@@ -1,0 +1,951 @@
+{
+ "schema_version": 1,
+ "id": "slalom-xl-2009-1003-slalom-overall",
+ "event": {
+  "name": "Slalom XL Almere, 3 oktober 2009",
+  "scope": "nl",
+  "series": "Slalom XL",
+  "year": 2009,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2009-10-03",
+  "location": "Almere",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "SlalomXL 3 oktober 2009, Almere"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "punten = plaats; DNF en PMS = 36 punten (35 riders + 1), zoals gepubliceerd ('D.N.F./P.M.S.=36')"
+ },
+ "source": {
+  "name": "RACE-03102009metAftrek_rev.xls",
+  "url": null,
+  "file": "archive/nl/2009/slalom-xl-2009-1003/bronnen/RACE-03102009metAftrek_rev.xls",
+  "type": "xlsx",
+  "retrieved": "2026-10-03",
+  "method": "xlrd: werkblad 'totaal' (eindstand) en de werkbladen 'print Race 1-6' (plaats of DNF per race)",
+  "metadata_sources": [
+   {
+    "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+    "url": null,
+    "used_for": "kolom 'Almere (SLXL op zaterdag)': SLXL op 25 april, 16 mei (vervallen), 6 juni, 26 september en 3 oktober 2009"
+   }
+  ],
+  "verified": "35 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; netto herrekend uit de racepunten: AFWIJKING: Esther de Geus som min weglatingen 128 != netto 129; Leon Row som min weglatingen 137 != netto 138; geen dubbele namen; racebladen 1-6 (van de wedstrijddag, vóór de herziening) vergeleken met de eindstand: 3 verschil(len): Esther de Geus R3: raceblad 20, eindstand 21; Leon Row R3: raceblad 21, eindstand 22; Remco Witte R3: raceblad DNF, eindstand 19; 102 keer DNF overgenomen uit de racebladen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'SlalomXL 3 oktober 2009, Almere': 6 races in één vloot (heren, dames, jeugd en masters samen), 1 weglating. Dit is de herziene eindstand van 6 oktober 2009 (bestand 'RACE-03102009metAftrek_rev.xls', laatst bewerkt door Adri Keet).",
+  "De kolom Klasse (H, D, J, M) is uitgeschreven als Heren, Dames, Jeugd, Master. De stand per klasse staat alleen in de versie van de wedstrijddag ('-final'), van vóór de herziening; die is niet omgezet.",
+  "Weggelaten scores staan in de bron tussen haakjes. Bij een rider zonder haakjes (de weglating is dan een 36) staat de weggelaten score in discard_points. Het totaal vóór aftrek is niet gepubliceerd; 'Totaal' in de bron is de netto-score.",
+  "DNF per race komt uit de racebladen ('print Race 1-6') in hetzelfde bestand; PMS uit de eindstand. Een DNF op het raceblad kan ook 'niet gestart' betekenen: de bron maakt dat onderscheid niet.",
+  "Gedeelde plaatsen zoals gepubliceerd (5, 12 en 31), met in de bron de toelichting Teade de Jong: 'best discard'; Martijn van Citteren: 'best result'.",
+  "Vijf riders hebben in alle races 36 punten (niet gefinisht of niet gestart); buiten NK's blijven die meetellen als ingeschreven deelnemer.",
+  "Afwijking in de bron: bij Esther de Geus en Leon Row is de gepubliceerde netto-score 1 punt hoger dan de som van de racepunten (bij de herziening is hun plaats in race 3 met 1 verhoogd, het totaal met 2). Zoals gepubliceerd overgenomen; de plaats in de eindstand verandert er niet door.",
+  "De racebladen in het bestand zijn niet bijgewerkt bij de herziening; ze wijken in race 3 af van de eindstand: Esther de Geus R3: raceblad 20, eindstand 21; Leon Row R3: raceblad 21, eindstand 22; Remco Witte R3: raceblad DNF, eindstand 19.",
+  "Gewijzigd ten opzichte van de stand van de wedstrijddag (3 oktober): Remco Witte: R3 36 -> 19; Esther de Geus: R3 20 -> 21; Leon Row: R3 21 -> 22. Verder zijn namen aangevuld ('Adrie' -> 'Adri Keet', 'Leon' -> 'Leon Row', 'Kristina' -> 'Kristina Scheffe', 'Mark Stad' -> 'Mark Staal') en zeilnummers ingekort ('NED-103, 52, 13' -> 'NED-103')."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "peter-heida",
+   "sail": "H-17",
+   "name": "Peter Heida",
+   "division": "Master",
+   "points": [
+    1.0,
+    13.0,
+    2.0,
+    2.0,
+    1.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 8.0,
+   "discarded": [
+    2
+   ]
+  },
+  {
+   "rank": 2,
+   "person": "dirk-doppenberg",
+   "sail": "NED-51",
+   "name": "Dirk Doppenberg",
+   "division": "Heren",
+   "points": [
+    4.0,
+    2.0,
+    1.0,
+    1.0,
+    5.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 9.0,
+   "discarded": [
+    5
+   ]
+  },
+  {
+   "rank": 3,
+   "person": "nikaj-droop",
+   "sail": "NED-647",
+   "name": "Nikaj Droop",
+   "division": "Master",
+   "points": [
+    5.0,
+    5.0,
+    4.0,
+    3.0,
+    2.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 19.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 4,
+   "person": "pieter-bartlema",
+   "sail": "NED-113",
+   "name": "Pieter Bartlema",
+   "division": "Heren",
+   "points": [
+    36.0,
+    7.0,
+    6.0,
+    4.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "total": null,
+   "net": 23.0,
+   "discarded": [
+    1
+   ]
+  },
+  {
+   "rank": 5,
+   "person": "teade-de-jong",
+   "sail": "NED-777",
+   "name": "Teade de Jong",
+   "division": "Heren",
+   "points": [
+    3.0,
+    4.0,
+    11.0,
+    6.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 28.0,
+   "discarded": [
+    3
+   ]
+  },
+  {
+   "rank": 5,
+   "person": "jordy-vonk",
+   "sail": "NED-600",
+   "name": "Jordy Vonk",
+   "division": "Jeugd",
+   "points": [
+    2.0,
+    9.0,
+    7.0,
+    5.0,
+    36.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R5": "PMS"
+   },
+   "total": null,
+   "net": 28.0,
+   "discard_points": [
+    36.0
+   ]
+  },
+  {
+   "rank": 7,
+   "person": "marc-de-jong",
+   "sail": "NED-103",
+   "name": "Mark de Jong",
+   "division": "Heren",
+   "points": [
+    7.0,
+    12.0,
+    8.0,
+    7.0,
+    7.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 41.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 8,
+   "person": "nico-wierstra",
+   "sail": "NED-81",
+   "name": "Nico Wierstra",
+   "division": "Master",
+   "points": [
+    10.0,
+    10.0,
+    10.0,
+    36.0,
+    9.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "total": null,
+   "net": 47.0,
+   "discarded": [
+    4
+   ]
+  },
+  {
+   "rank": 9,
+   "person": "adri-keet",
+   "sail": "NED-34",
+   "name": "Adri Keet",
+   "division": "Master",
+   "points": [
+    36.0,
+    36.0,
+    5.0,
+    11.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF"
+   },
+   "total": null,
+   "net": 60.0,
+   "discarded": [
+    1
+   ]
+  },
+  {
+   "rank": 10,
+   "person": "renee-vonk",
+   "sail": "NED-688",
+   "name": "Renee Vonk",
+   "division": "Master",
+   "points": [
+    20.0,
+    11.0,
+    14.0,
+    12.0,
+    6.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 63.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 11,
+   "person": "cindy-koopman",
+   "sail": "NED-166",
+   "name": "Cindy Koopman",
+   "division": "Dames",
+   "points": [
+    13.0,
+    15.0,
+    13.0,
+    13.0,
+    10.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 64.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 12,
+   "person": "martijn-van-citteren",
+   "sail": "NED-170",
+   "name": "Martijn van Citteren",
+   "division": "Heren",
+   "points": [
+    12.0,
+    8.0,
+    15.0,
+    9.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R5": "PMS",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 80.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 12,
+   "person": "matthijs-van-t-hoff",
+   "sail": "NED-216",
+   "name": "Matthijs van't Hoff",
+   "division": "Jeugd",
+   "points": [
+    18.0,
+    17.0,
+    19.0,
+    15.0,
+    11.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 80.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 14,
+   "person": "tomas-van-zelst",
+   "sail": "NED-228",
+   "name": "Tomas van Zelst",
+   "division": "Jeugd",
+   "points": [
+    14.0,
+    14.0,
+    12.0,
+    8.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R5": "PMS",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 84.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 15,
+   "person": "pieter-eliens",
+   "sail": "NED-538",
+   "name": "Pieter Eliens",
+   "division": "Master",
+   "points": [
+    36.0,
+    1.0,
+    3.0,
+    10.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 86.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 16,
+   "person": "kiran-badloe",
+   "sail": "NED-194",
+   "name": "Kiran Badloe",
+   "division": "Jeugd",
+   "points": [
+    6.0,
+    6.0,
+    9.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 93.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 17,
+   "person": "lilian-de-geus",
+   "sail": "3",
+   "name": "Lilian de Geus",
+   "division": "Dames",
+   "points": [
+    15.0,
+    18.0,
+    18.0,
+    14.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 101.0,
+   "discarded": [
+    5
+   ]
+  },
+  {
+   "rank": 18,
+   "person": "remco-witte",
+   "sail": "H-561",
+   "name": "Remco Witte",
+   "division": "Heren",
+   "points": [
+    9.0,
+    21.0,
+    19.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 121.0,
+   "discard_points": [
+    36.0
+   ]
+  },
+  {
+   "rank": 19,
+   "person": "marco-boone",
+   "sail": "1",
+   "name": "Marco Boone",
+   "division": "Heren",
+   "points": [
+    11.0,
+    3.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 122.0,
+   "discarded": [
+    3
+   ]
+  },
+  {
+   "rank": 20,
+   "person": "nikki-van-riel",
+   "sail": "4",
+   "name": "Nikki van Riel",
+   "division": "Dames",
+   "points": [
+    17.0,
+    20.0,
+    17.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 126.0,
+   "discarded": [
+    4
+   ]
+  },
+  {
+   "rank": 21,
+   "person": "esther-de-geus",
+   "sail": "NED-172",
+   "name": "Esther de Geus",
+   "division": "Dames",
+   "points": [
+    16.0,
+    19.0,
+    21.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 129.0,
+   "discarded": [
+    6
+   ],
+   "flag": "netto in de bron is 1 punt hoger dan de som van de racepunten"
+  },
+  {
+   "rank": 22,
+   "person": "leon-row",
+   "sail": "NED-244",
+   "name": "Leon Row",
+   "division": "Jeugd",
+   "points": [
+    21.0,
+    22.0,
+    22.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 138.0,
+   "discarded": [
+    6
+   ],
+   "flag": "netto in de bron is 1 punt hoger dan de som van de racepunten"
+  },
+  {
+   "rank": 23,
+   "person": "eric-wellink",
+   "sail": "W-1",
+   "name": "Eric Wellink",
+   "division": "Heren",
+   "points": [
+    36.0,
+    16.0,
+    16.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 140.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 24,
+   "person": "klaas-jissink",
+   "sail": "NED-42",
+   "name": "Klaas Jissink",
+   "division": "Heren",
+   "points": [
+    8.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 152.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 25,
+   "person": "hans-schouten",
+   "sail": "7",
+   "name": "Hans Schouten",
+   "division": "Master",
+   "points": [
+    24.0,
+    23.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 155.0,
+   "discarded": [
+    3
+   ]
+  },
+  {
+   "rank": 26,
+   "person": "wouter-verhulst",
+   "sail": "NED-800",
+   "name": "Wouter Verhulst",
+   "division": "Heren",
+   "points": [
+    19.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 163.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 27,
+   "person": "kristina-scheffe",
+   "sail": "NED-511",
+   "name": "Kristina Scheffe",
+   "division": "Dames",
+   "points": [
+    22.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 166.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 28,
+   "person": "guido-trampe",
+   "sail": "NED-326",
+   "name": "Guido Trampe",
+   "division": "Master",
+   "points": [
+    23.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 167.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 29,
+   "person": "timo-de-jong",
+   "sail": "NED-682",
+   "name": "Timo de Jong",
+   "division": "Master",
+   "points": [
+    36.0,
+    24.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 168.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 30,
+   "person": "jan-boudestein",
+   "sail": "NED-229",
+   "name": "Jan Boudestein",
+   "division": "Master",
+   "points": [
+    25.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 169.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 31,
+   "person": "mark-staal",
+   "sail": "2",
+   "name": "Mark Staal",
+   "division": "Heren",
+   "points": [
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 180.0,
+   "discarded": [
+    1
+   ]
+  },
+  {
+   "rank": 31,
+   "person": "joris-bosman",
+   "sail": "NED-152",
+   "name": "Joris Bosman",
+   "division": "Heren",
+   "points": [
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 180.0,
+   "discarded": [
+    1
+   ]
+  },
+  {
+   "rank": 31,
+   "person": "marc-rutgers",
+   "sail": "NED-191",
+   "name": "Marc Rutgers",
+   "division": "Master",
+   "points": [
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 180.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 31,
+   "person": "marc-fokkinga",
+   "sail": "NED-2411",
+   "name": "Marc Foklienga",
+   "division": "Heren",
+   "points": [
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 180.0,
+   "discarded": [
+    6
+   ]
+  },
+  {
+   "rank": 31,
+   "person": "cobus-van-der-stel",
+   "sail": "NED-818",
+   "name": "Cobus van der Stel",
+   "division": "Master",
+   "points": [
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 180.0,
+   "discarded": [
+    6
+   ]
+  }
+ ],
+ "detail": {
+  "deviations": [
+   {
+    "rider": "Esther de Geus",
+    "field": "net",
+    "published": 129.0,
+    "recomputed": 128.0
+   },
+   {
+    "rider": "Leon Row",
+    "field": "net",
+    "published": 138.0,
+    "recomputed": 137.0
+   }
+  ]
+ }
+}

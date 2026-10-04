@@ -1,0 +1,19 @@
+{
+ "event_slug": "ek-formula-2005",
+ "scope": "internationaal",
+ "name": "EK Formula Windsurfing 2005 (Rhodos)",
+ "series": "EK Formula Windsurfing",
+ "year": 2005,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2005-06-05",
+ "date_end": "2005-06-12",
+ "location": "Ialysos, Rhodos (Griekenland)",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "'2005 Rhodes FW European Championships', heren gold fleet (58) en silver fleet (55). De bron bevat geboortejaren; daarom in local-only/ (niet in git). Nog niet omgezet (fase 2)."
+ ]
+}

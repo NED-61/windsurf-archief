@@ -1,0 +1,771 @@
+{
+ "schema_version": 1,
+ "id": "holland-surfpool-1999-stop1-race-overall",
+ "event": {
+  "name": "Holland Surfpool 1999, wedstrijd 1",
+  "scope": "nl",
+  "series": "Holland Surfpool",
+  "year": 1999,
+  "stop_number": 1,
+  "stops_known": null,
+  "date": null,
+  "location": "Monnickendam",
+  "discipline": null,
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "Holland Surfpool - Monnickendam - Results"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "lage punten: winnaar 0,7 punt, daarna de plaats; DNF, DNS, DSQ, PMS = 32 punten (aantal riders + 1), zoals gepubliceerd"
+ },
+ "source": {
+  "name": "Uitslag HSP1 99.xls",
+  "url": null,
+  "file": "archive/nl/1999/holland-surfpool-1999-stop1/bronnen/Uitslag HSP1 99.xls",
+  "type": "xlsx",
+  "retrieved": "2026-10-03",
+  "method": "xlrd: eerste werkblad, per race de kolommen plaats/code en punten",
+  "metadata_sources": [],
+  "verified": "31 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; AFWIJKING in de bron, plaats 1 met 1 punt in plaats van 0,7 (zo overgenomen): Ramses Landman R3; codes DNF, DNS, DSQ, PMS tellen 32 punten (31 riders + 1)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Uitslag van de eerste wedstrijd van de Holland Surfpool 1999 in Monnickendam: 6 races, 1 weglating. Eén klassement voor heren en jeugd (kolom 'Cat.': h, j; uitgeschreven als Heren en Jeugd).",
+  "De bron geeft per race de plaats of een code (dnf, dns, dsq, pms) en de punten; de codes staan in race_remarks. De aftrek is het slechtste resultaat; welke race dat is staat er niet bij (discard_points).",
+  "Zoals gepubliceerd: 'Hans v/d Steen' met zeilnummer 'H 57/i' (Ben van der Steen heeft 'H 57'); Frank Heida 'X1' en Jeroen Sins 'X' (geen zeilnummer).",
+  "Drie riders hebben in alle zes races dnf; buiten NK's blijven die gewoon meetellen als ingeschreven deelnemer.",
+  "Afwijking in de bron: Ramses Landman R3 heeft plaats 1 met 1 punt, terwijl een eerste plaats elders 0,7 punt geeft (in die race heeft Adri Keet 'pms'). Punten en totaal zijn overgenomen zoals gepubliceerd."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "ramses-landman",
+   "sail": "H 72",
+   "name": "Ramses Landman",
+   "division": "Heren",
+   "points": [
+    32.0,
+    3.0,
+    1.0,
+    2.0,
+    0.7,
+    3.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 41.7,
+   "net": 9.7
+  },
+  {
+   "rank": 2,
+   "person": "martijn-van-deth",
+   "sail": "H 46",
+   "name": "Martijn van Deth",
+   "division": "Heren",
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    4.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    4.0
+   ],
+   "total": 14.0,
+   "net": 10.0
+  },
+  {
+   "rank": 3,
+   "person": "jaques-vd-hout",
+   "sail": "H 73",
+   "name": "Jacques van der Hout",
+   "division": "Heren",
+   "points": [
+    5.0,
+    5.0,
+    5.0,
+    0.7,
+    3.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    5.0
+   ],
+   "total": 23.7,
+   "net": 18.7
+  },
+  {
+   "rank": 4,
+   "person": "adri-keet",
+   "sail": "H 34",
+   "name": "Adri Keet",
+   "division": "Heren",
+   "points": [
+    0.7,
+    0.7,
+    32.0,
+    6.0,
+    9.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R3": "PMS"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 52.4,
+   "net": 20.4
+  },
+  {
+   "rank": 5,
+   "person": "ben-vd-steen",
+   "sail": "H 57",
+   "name": "Ben van der Steen",
+   "division": "Heren",
+   "points": [
+    4.0,
+    4.0,
+    4.0,
+    5.0,
+    6.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    9.0
+   ],
+   "total": 32.0,
+   "net": 23.0
+  },
+  {
+   "rank": 6,
+   "person": "ron-ruiter",
+   "sail": "H 1111",
+   "name": "Ron Ruiter",
+   "division": "Heren",
+   "points": [
+    7.0,
+    7.0,
+    3.0,
+    7.0,
+    5.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    10.0
+   ],
+   "total": 39.0,
+   "net": 29.0
+  },
+  {
+   "rank": 7,
+   "person": "paco-freens",
+   "sail": "H 63",
+   "name": "Paco Freens",
+   "division": "Heren",
+   "points": [
+    6.0,
+    10.0,
+    7.0,
+    3.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    10.0
+   ],
+   "total": 40.0,
+   "net": 30.0
+  },
+  {
+   "rank": 8,
+   "person": "reinder-de-vries",
+   "sail": "H 711",
+   "name": "Reinder de Vries",
+   "division": "Jeugd",
+   "points": [
+    10.0,
+    11.0,
+    11.0,
+    10.0,
+    12.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    12.0
+   ],
+   "total": 60.0,
+   "net": 48.0
+  },
+  {
+   "rank": 9,
+   "person": "bert-den-boer",
+   "sail": "H 140",
+   "name": "Bert den Boer",
+   "division": "Heren",
+   "points": [
+    17.0,
+    6.0,
+    17.0,
+    32.0,
+    8.0,
+    0.7
+   ],
+   "race_remarks": {
+    "R4": "DNS"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 80.7,
+   "net": 48.7
+  },
+  {
+   "rank": 10,
+   "person": "marcel-vd-zwart",
+   "sail": "H 6",
+   "name": "Marcel v.d. Zwart",
+   "division": "Heren",
+   "points": [
+    11.0,
+    9.0,
+    6.0,
+    17.0,
+    15.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    17.0
+   ],
+   "total": 66.0,
+   "net": 49.0
+  },
+  {
+   "rank": 11,
+   "person": "peter-heida",
+   "sail": "H 900",
+   "name": "Peter Heida",
+   "division": "Heren",
+   "points": [
+    12.0,
+    16.0,
+    32.0,
+    8.0,
+    4.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R3": "PMS"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 84.0,
+   "net": 52.0
+  },
+  {
+   "rank": 12,
+   "person": "hans-v-d-veen",
+   "sail": "H 596",
+   "name": "Hans v/d Veen",
+   "division": "Heren",
+   "points": [
+    18.0,
+    8.0,
+    10.0,
+    21.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    21.0
+   ],
+   "total": 79.0,
+   "net": 58.0
+  },
+  {
+   "rank": 13,
+   "person": "ronald-de-jong",
+   "sail": "H 29",
+   "name": "Ronald de Jong",
+   "division": "Heren",
+   "points": [
+    3.0,
+    32.0,
+    8.0,
+    9.0,
+    10.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 94.0,
+   "net": 62.0
+  },
+  {
+   "rank": 14,
+   "person": "jeroen-boelema",
+   "sail": "H 30",
+   "name": "Jeroen Boelema",
+   "division": "Heren",
+   "points": [
+    16.0,
+    14.0,
+    9.0,
+    13.0,
+    18.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    18.0
+   ],
+   "total": 83.0,
+   "net": 65.0
+  },
+  {
+   "rank": 15,
+   "person": "richard-konstapel",
+   "sail": "H 115",
+   "name": "Richard Konstapel",
+   "division": "Heren",
+   "points": [
+    13.0,
+    12.0,
+    13.0,
+    15.0,
+    22.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    22.0
+   ],
+   "total": 92.0,
+   "net": 70.0
+  },
+  {
+   "rank": 16,
+   "person": "jan-ten-kate",
+   "sail": "H 287",
+   "name": "Jan ten Kate",
+   "division": "Heren",
+   "points": [
+    9.0,
+    18.0,
+    15.0,
+    18.0,
+    13.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    18.0
+   ],
+   "total": 89.0,
+   "net": 71.0
+  },
+  {
+   "rank": 17,
+   "person": "christian-sandee",
+   "sail": "H 161",
+   "name": "Christian Sandee",
+   "division": "Heren",
+   "points": [
+    14.0,
+    15.0,
+    18.0,
+    12.0,
+    16.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    18.0
+   ],
+   "total": 90.0,
+   "net": 72.0
+  },
+  {
+   "rank": 18,
+   "person": "frank-heida",
+   "sail": "X1",
+   "name": "Frank Heida",
+   "division": "Heren",
+   "points": [
+    8.0,
+    13.0,
+    14.0,
+    19.0,
+    20.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    20.0
+   ],
+   "total": 93.0,
+   "net": 73.0
+  },
+  {
+   "rank": 19,
+   "person": "walter-vd-knaap",
+   "sail": "H 42",
+   "name": "Walter v.d. Knaap",
+   "division": "Heren",
+   "points": [
+    32.0,
+    17.0,
+    12.0,
+    16.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 105.0,
+   "net": 73.0
+  },
+  {
+   "rank": 20,
+   "person": "gerrij-ruiter",
+   "sail": "H 333",
+   "name": "Gerry Ruiter",
+   "division": "Heren",
+   "points": [
+    32.0,
+    21.0,
+    19.0,
+    11.0,
+    19.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 120.0,
+   "net": 88.0
+  },
+  {
+   "rank": 21,
+   "person": "jimte-jepma",
+   "sail": "H 118",
+   "name": "Jimte Jepma",
+   "division": "Heren",
+   "points": [
+    20.0,
+    20.0,
+    21.0,
+    20.0,
+    17.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    21.0
+   ],
+   "total": 118.0,
+   "net": 97.0
+  },
+  {
+   "rank": 22,
+   "person": "daan-spackler",
+   "sail": "H 534",
+   "name": "Daan Spackler",
+   "division": "Heren",
+   "points": [
+    19.0,
+    19.0,
+    16.0,
+    14.0,
+    32.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 132.0,
+   "net": 100.0
+  },
+  {
+   "rank": 23,
+   "person": "marc-de-jong",
+   "sail": "H 103",
+   "name": "Marc de Jong",
+   "division": "Heren",
+   "points": [
+    32.0,
+    25.0,
+    20.0,
+    22.0,
+    21.0,
+    22.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 142.0,
+   "net": 110.0
+  },
+  {
+   "rank": 24,
+   "person": "sander-bouwman",
+   "sail": "H 325",
+   "name": "Sander bouwman",
+   "division": "Jeugd",
+   "points": [
+    23.0,
+    23.0,
+    23.0,
+    25.0,
+    22.0,
+    21.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    25.0
+   ],
+   "total": 137.0,
+   "net": 112.0
+  },
+  {
+   "rank": 25,
+   "person": "jeroen-coppens",
+   "sail": "H 540",
+   "name": "Jeroen Coppens",
+   "division": "Heren",
+   "points": [
+    22.0,
+    24.0,
+    22.0,
+    26.0,
+    32.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 158.0,
+   "net": 126.0
+  },
+  {
+   "rank": 26,
+   "person": "kuno-mooren",
+   "sail": "H 348",
+   "name": "Kuno Mooren",
+   "division": "Heren",
+   "points": [
+    32.0,
+    22.0,
+    24.0,
+    24.0,
+    24.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 158.0,
+   "net": 126.0
+  },
+  {
+   "rank": 27,
+   "person": "jeroen-sins",
+   "sail": "X",
+   "name": "Jeroen Sins",
+   "division": "Jeugd",
+   "points": [
+    15.0,
+    32.0,
+    25.0,
+    23.0,
+    32.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R5": "DSQ",
+    "R6": "DSQ"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 159.0,
+   "net": 127.0
+  },
+  {
+   "rank": 28,
+   "person": "ramon-schoenmaker",
+   "sail": "H 456",
+   "name": "Ramon Schoenmaker",
+   "division": "Heren",
+   "points": [
+    21.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 181.0,
+   "net": 149.0
+  },
+  {
+   "rank": 29,
+   "person": "robin-arbeider",
+   "sail": "H 524",
+   "name": "Robin Arbeider",
+   "division": "Heren",
+   "points": [
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 192.0,
+   "net": 160.0
+  },
+  {
+   "rank": 30,
+   "person": "hans-v-d-steen",
+   "sail": "H 57/i",
+   "name": "Hans v/d Steen",
+   "division": "Heren",
+   "points": [
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 192.0,
+   "net": 160.0
+  },
+  {
+   "rank": 31,
+   "person": "hans-mooren",
+   "sail": "H 340",
+   "name": "Hans Mooren",
+   "division": "Heren",
+   "points": [
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "discard_points": [
+    32.0
+   ],
+   "total": 192.0,
+   "net": 160.0
+  }
+ ],
+ "detail": {
+  "deviations": [
+   {
+    "rider": "Ramses Landman",
+    "race": "R3",
+    "field": "points",
+    "published": 1.0,
+    "expected_from_place": 0.7
+   }
+  ]
+ }
+}

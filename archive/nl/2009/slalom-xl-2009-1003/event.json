@@ -1,0 +1,31 @@
+{
+ "event_slug": "slalom-xl-2009-1003",
+ "scope": "nl",
+ "name": "Slalom XL Almere, 3 oktober 2009",
+ "series": "Slalom XL",
+ "year": 2009,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2009-10-03",
+ "date_end": null,
+ "location": "Almere",
+ "discipline": "slalom",
+ "classes": [
+  "slalom-xl-2009-1003-slalom-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "kolom 'Almere (SLXL op zaterdag)': SLXL op 25 april, 16 mei (vervallen), 6 juni, 26 september en 3 oktober 2009"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Eén wedstrijddag uit de reeks Slalom XL (SLXL) in Almere. Het volgnummer binnen de reeks is niet bekend; daarom staat de datum (1003) in de mapnaam in plaats van een stopnummer.",
+  "Organisator afgeleid uit de voettekst van de racebladen ('SalomXL - www.almerecentraal.nl')."
+ ],
+ "short_name": "Slalom XL 3 okt 2009",
+ "organizer": "Windsurfvereniging Almere Centraal",
+ "name_published": "SlalomXL 3 oktober 2009, Almere"
+}

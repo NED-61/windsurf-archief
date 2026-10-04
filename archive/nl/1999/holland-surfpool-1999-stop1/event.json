@@ -1,0 +1,23 @@
+{
+ "event_slug": "holland-surfpool-1999-stop1",
+ "scope": "nl",
+ "name": "Holland Surfpool 1999, wedstrijd 1",
+ "series": "Holland Surfpool",
+ "year": 1999,
+ "stop_number": 1,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": "Monnickendam",
+ "discipline": null,
+ "classes": [
+  "holland-surfpool-1999-stop1-race-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Naam en locatie uit de titel van het Excel-bestand ('Holland Surfpool - Monnickendam - Results') en de bestandsnaam 'Uitslag HSP1 99'. Het bestand is op maandag 19 april 1999 aangemaakt; de wedstrijddatum zelf staat er niet in en is niet ingevuld.",
+  "De discipline (course race of slalom) staat niet in de bron."
+ ],
+ "name_published": "Holland Surfpool - Monnickendam - Results"
+}

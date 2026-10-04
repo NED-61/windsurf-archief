@@ -1,0 +1,23 @@
+{
+ "event_slug": "nk-course-2008",
+ "scope": "nl",
+ "name": "NK Course 2008",
+ "series": "NK Course",
+ "year": 2008,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2008-course-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Alleen een stand na 4 races (Sailwave, 'Scoring system: ONK 2008', 32 inschrijvingen). Niet bekend of dit één wedstrijdweekend is of het hele ONK 2008, en ook niet waar en wanneer er gevaren is. Daarom als tussenstand opgenomen.",
+  "De bron is geen origineel: NK2008.xlsx is op 1 oktober 2026 aangemaakt (overgenomen uit een ouder bestand of van een webpagina)."
+ ],
+ "name_published": "ONK 2008"
+}

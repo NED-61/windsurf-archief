@@ -1,0 +1,31 @@
+{
+ "event_slug": "nk-funboard-1998",
+ "scope": "nl",
+ "name": "NK Funboard 1998",
+ "series": "NK Funboard",
+ "year": 1998,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "funboard",
+ "classes": [
+  "nk-1998-funboard-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "Kalender89.doc (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "wedstrijdkalender 1998 (aangemaakt 14 april 1998): Grevelingen 1-3 mei, Katwijk 16/17 mei, Zandvoort 30 mei-1 juni, Noordwijk 6/7 juni, Almere 13 juni, Hargen 4/5 juli, Hoek van Holland 29/30 augustus, Wijk aan Zee 5/6 september, Scheveningen 19/20 september. Welke wedstrijd bij welke races hoort staat niet in de bron."
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Seizoensklassement funboard 1998 van het KNWV ('KNWV - Persberichten'). In het archief onder 'NK Funboard' gezet: AANNAME. Onderbouwing: het is de landelijke KNWV-reeks, en de erelijst van Adri Keet (master_results_06.doc) noemt '1998 Dutch funboard Nationals: 1'; hij staat in deze stand eerste. De bron zelf noemt het woord NK niet.",
+  "Alleen de stand na Zandvoort (26 races, bestand van 10-15 september 1998) is omgezet. Niet bekend of dit de eindstand is: het rekenblad is opgezet voor 35 races en op de kalender stond daarna nog Scheveningen (19/20 september). Daarom als tussenstand opgenomen.",
+  "De losse wedstrijden (welke races op welke locatie en datum) staan niet in de bron. results.xls (18 mei 1998) bevat de uitslag van de eerste twee wedstrijden (7 en 4 races, met codes dsq/dnf); die zijn nog niet als losse stops verwerkt omdat locatie en datum niet in het bestand staan."
+ ],
+ "organizer": "KNWV",
+ "name_published": "KNWV - Persberichten: stand na Zandvoort"
+}

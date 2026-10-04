@@ -45,8 +45,10 @@ def cmd_inbox():
     for f in new: print("  NIEUW", f.relative_to(ROOT), f"({f.stat().st_size // 1024} kB)")
     c = Counter((i["scope"], i["status"]) for i in reg["items"] if i.get("channel") == "index" and i["status"] != "verwerkt")
     if c: print("backlog (Windtulip-index):", ", ".join(f"{s}/{st}: {n}" for (s, st), n in sorted(c.items())))
+    k = Counter(i["year"] for i in reg["items"] if i.get("channel") == "kalender" and i["status"] == "wacht")
+    if k: print("kalender (gepland, geen uitslag):", ", ".join(f"{y}: {n}" for y, n in sorted(k.items())))
     for i in reg["items"]:
-        if i.get("channel") != "index" and i["status"] in ("wacht", "gedeeltelijk", "onleesbaar"):
+        if i.get("channel") not in ("index", "kalender") and i["status"] in ("wacht", "gedeeltelijk", "onleesbaar"):
             print(f"  [{i['status']}] {i.get('title') or i['ref']}" + (f" - {i['notes']}" if i.get("notes") else ""))
 
 def manifest_add(ev_dir, entry):
@@ -163,7 +165,8 @@ def cmd_index():
         out.append("")
     open_items = [i for i in reg["items"] if i["status"] != "verwerkt"]
     backlog = [i for i in open_items if i.get("channel") == "index"]
-    others = [i for i in open_items if i.get("channel") != "index"]
+    others = [i for i in open_items if i.get("channel") not in ("index", "kalender")]
+    cal = sorted((i for i in reg["items"] if i.get("channel") == "kalender"), key=lambda i: (i["date"], i["title"]))
     out += ["## Openstaand", ""]
     out += [f"- **{i['status']}**: {i.get('title') or i['ref']}" + (f" ({i['notes']})" if i.get("notes") else "") for i in others] \
            or ["Niets openstaands buiten de Windtulip-backlog."]
@@ -171,6 +174,18 @@ def cmd_index():
         c = Counter(i["scope"] for i in backlog)
         out += ["", f"**Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): "
                 + ", ".join(f"{n}× {s}" for s, n in sorted(c.items())) + f", totaal {len(backlog)}."]
+    if cal:
+        out += ["", "## Kalender: geplande wedstrijden zonder uitslag", "",
+                "_Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een planning: of een wedstrijd echt gevaren is, staat er niet in._", ""]
+        for y in sorted({i["year"] for i in cal}):
+            crows = [i for i in cal if i["year"] == y]
+            todo = [i for i in crows if i["status"] == "wacht"]
+            out += [f"### {y} ({len(todo)} van {len(crows)} zonder uitslag)", ""]
+            for i in todo:
+                d = i["date"][5:] + (" t/m " + i["date_end"][5:] if i.get("date_end") else "")
+                extra = "; ".join(x for x in (i.get("notes") or "").split("; ") if not x.startswith("gepland volgens de kalender"))
+                out.append(f"- {d}: {i['title']}" + (" (internationaal)" if i["scope"] != "nl" else "") + (f" ({extra})" if extra else ""))
+            out.append("")
     done = len(reg["items"]) - len(open_items)
     out += ["", f"_Registry: {len(reg['items'])} bron(nen), {done} verwerkt._", ""]
     (ROOT / "INDEX.md").write_text("\n".join(out), encoding="utf-8")

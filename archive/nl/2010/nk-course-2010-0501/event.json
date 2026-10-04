@@ -1,0 +1,20 @@
+{
+ "event_slug": "nk-course-2010-0501",
+ "scope": "nl",
+ "name": "NK Course 2010, Grevelingen",
+ "series": "NK Course",
+ "year": 2010,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2010-05-01",
+ "date_end": "2010-05-02",
+ "location": "Grevelingen",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Geen uitslag in het archief. Alleen een verslag van Adri Keet (2010_NK_Grevelingen.doc, 4-7 mei 2010; bewaard in local-only/, niet gepubliceerd): zaterdag twee races, zondag vier races.",
+  "Datum afgeleid: het verslag noemt zaterdag en zondag en is op dinsdag 4 mei 2010 aangemaakt; dus 1 en 2 mei 2010. Het stopnummer staat er niet in (datum in de mapnaam)."
+ ]
+}

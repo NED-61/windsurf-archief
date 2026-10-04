@@ -2,6 +2,26 @@
 
 _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken._
 
+## nl / 1998
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| NK Funboard 1998 | Overall | fleet_racing | 46 | Adri Keet | partial | gecontroleerd | archive/nl/1998/nk-funboard-1998/uitslagen/nk-1998-funboard-overall.json |
+
+## nl / 1999
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| Holland Surfpool 1999, wedstrijd 1 | Overall | fleet_racing | 31 | Ramses Landman | complete | gecontroleerd | archive/nl/1999/holland-surfpool-1999-stop1/uitslagen/holland-surfpool-1999-stop1-race-overall.json |
+
+## nl / 2000
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| NK Course 2000 | Race dames | fleet_racing | 5 | Monique Dijs | complete | gecontroleerd | archive/nl/2000/nk-course-2000/uitslagen/nk-2000-course-race-dames.json |
+| NK Course 2000 | Race heren | fleet_racing | 37 | Ben van der Steen | complete | gecontroleerd | archive/nl/2000/nk-course-2000/uitslagen/nk-2000-course-race-heren.json |
+| NK Course 2000 | Race jeugd | fleet_racing | 15 | Roy van Koolwijk | complete | gecontroleerd | archive/nl/2000/nk-course-2000/uitslagen/nk-2000-course-race-jeugd.json |
+
 ## nl / 2002
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
@@ -12,6 +32,12 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | NK Course 2002 | Longboard | series_standings | 14 | Marga Stalman | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-longboard.json |
 | NK Course 2002 | Techno | series_standings | 15 | Dorian v Rijsselberghe | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-techno.json |
 
+## nl / 2008
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| NK Course 2008 | Overall | fleet_racing | 32 | Dennis Littel | partial | gecontroleerd | archive/nl/2008/nk-course-2008/uitslagen/nk-2008-course-overall.json |
+
 ## nl / 2009
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
@@ -20,6 +46,13 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2009 | Formula Windsurfing (FW) | long_distance | 34 | DOPPENBERG | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-fw.json |
 | Grote Prijs van Aalsmeer 2009 | RS:X | long_distance | 5 | Van santen | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rsx.json |
 | Grote Prijs van Aalsmeer 2009 | Rookie | long_distance | 8 | Versluis | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rookie.json |
+| Slalom XL Almere, 3 oktober 2009 | Overall | fleet_racing | 35 | Peter Heida | complete | gecontroleerd | archive/nl/2009/slalom-xl-2009-1003/uitslagen/slalom-xl-2009-1003-slalom-overall.json |
+
+## nl / 2010
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| Slalom XL Almere, 23 oktober 2010 | Overall | fleet_racing | 34 | Adriaan van Rijsselberghe | complete | gecontroleerd | archive/nl/2010/slalom-xl-2010-1023/uitslagen/slalom-xl-2010-1023-slalom-overall.json |
 
 ## nl / 2017
 
@@ -334,7 +367,166 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: inbox/los/Infoblad 2003 NVW-22.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
 - **overgeslagen**: inbox/los/Infoblad 2003 NVW-32.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
 - **overgeslagen**: inbox/los/Infoblad 2003 NVW-35.pdf (losse pagina uit het NVW Infoblad maart 2003 (afgesplitst met iLovePDF); geen uitslag, bewaard bij het volledige Infoblad; staat in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/standna Hargen.xls (eerdere tussenstand (na Hargen, 23 races, juli 1998); dezelfde racepunten staan in de stand na Zandvoort, zie de controle in de uitslag)
+- **overgeslagen**: inbox/los/standna Hargen35races.xls (werkversie van het rekenblad (opgezet voor 35 races, afgedrukt 11 september 1998); zelfde punten als de stand na Zandvoort)
+- **wacht**: inbox/los/results.xls (uitslag van de eerste twee wedstrijden van 1998 (7 en 4 races, 45 en 40 riders, met codes dsq/dnf); nog niet als losse stops verwerkt: locatie en datum staan niet in het bestand (18 mei 1998))
+- **overgeslagen**: inbox/los/RACE-03102009metAftrek-final.xls (stand per klasse van de wedstrijddag zelf (3 oktober 2009), van vóór de herziening van 6 oktober; niet omgezet, de herziene overall-stand is de uitslag)
+- **overgeslagen**: inbox/los/RACE-03102009metAftrek.xls (overall-stand van de wedstrijddag zelf (3 oktober 2009), van vóór de herziening van 6 oktober; niet omgezet)
+- **overgeslagen**: inbox/los/deelnemers2010.xls (inschrijflijst Slalom XL 2010: bevat e-mailadressen, telefoonnummers en leeftijden van deelnemers; daarom niet in git maar in local-only/)
+- **overgeslagen**: inbox/los/deelnemers2011.xls (inschrijflijst Slalom XL 2011 (geen uitslag): bevat e-mailadressen, telefoonnummers en leeftijden van deelnemers; daarom niet in git maar in local-only/)
+- **overgeslagen**: inbox/los/Texelrace 2001.doc (wedstrijdverslag geschreven door Adri Keet (geen uitslagtabel); tekst van de auteur, publicatie niet afgesproken: daarom in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Scheveningen2009.doc (wedstrijdverslag geschreven door Adri Keet (geen uitslagtabel); tekst van de auteur, publicatie niet afgesproken: daarom in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/2010_NK_Grevelingen.doc (wedstrijdverslag geschreven door Adri Keet (geen uitslagtabel); tekst van de auteur, publicatie niet afgesproken: daarom in local-only/ (niet in git))
+- **overgeslagen**: inbox/los/Texel WK slalom 2009.doc (wedstrijdverslag geschreven door Adri Keet (geen uitslagtabel); tekst van de auteur, publicatie niet afgesproken: daarom in local-only/ (niet in git))
+- **wacht**: inbox/los/bredene-results.xls (internationaal: bron bewaard, nog niet omgezet (fase 2))
+- **wacht**: inbox/los/The Fuertaventura 1998.doc (internationaal: bron bewaard, nog niet omgezet (fase 2); persverslag © SSM Freesports, daarom in local-only/)
+- **wacht**: inbox/los/uitslag pattaya.xls (internationaal: bron bewaard, nog niet omgezet (fase 2))
+- **wacht**: inbox/los/Euro Cup Silvaplana.doc (internationaal: bron bewaard, nog niet omgezet (fase 2); jaar onzeker (2001 of 2002), zie event.json)
+- **wacht**: inbox/los/resultFINALtravermunde0502.doc (internationaal: bron bewaard, nog niet omgezet (fase 2))
+- **wacht**: inbox/los/ECRhodes_FINAL RESULT_MEN_GOLD FLEET.txt (internationaal: bron bewaard, nog niet omgezet (fase 2); bevat geboortejaren, daarom in local-only/)
+- **wacht**: inbox/los/ECRhodes_FINAL RESULT_MEN_SILVER FLEET.txt (internationaal: bron bewaard, nog niet omgezet (fase 2); bevat geboortejaren, daarom in local-only/)
+- **wacht**: inbox/los/BK2008_Grevelingen.xlsx (internationaal: bron bewaard, nog niet omgezet (fase 2); geen origineel (aangemaakt 1 oktober 2026))
+- **overgeslagen**: inbox/los/IFCA 64 4 fleets racing 05.xls (leeg heatschema van de IFCA voor slalom-eliminaties (rekenblad voor de wedstrijdleiding); geen uitslag)
+- **overgeslagen**: inbox/los/IFCA 64 8 fleets racing 04.xls (leeg heatschema van de IFCA voor slalom-eliminaties (rekenblad voor de wedstrijdleiding); geen uitslag)
+- **overgeslagen**: inbox/los/IFCA 80 4 fleets racing 10.xls (leeg heatschema van de IFCA voor slalom-eliminaties (rekenblad voor de wedstrijdleiding); geen uitslag)
+- **overgeslagen**: inbox/los/IFCA 80 8 fleets racing 05.xls (leeg heatschema van de IFCA voor slalom-eliminaties (rekenblad voor de wedstrijdleiding); geen uitslag; bevat een seedinglijst met zeilnummers (Masters, juli 2008), geen resultaten)
+- **overgeslagen**: inbox/los/single elimination.xls (rekenblad met heatverdeling en puntentelling voor een enkele eliminatie; geen uitslag)
+- **overgeslagen**: inbox/los/gouwzee2000.doc (brief van Adri Keet aan het bestuur van de Gouwzee Surfpool (mei 1998); persoonlijke correspondentie, geen uitslag)
+- **overgeslagen**: inbox/los/master_results_06.doc (erelijst van Adri Keet op een IFCA-formulier (2005); geen uitslag. Gebruikt als aanwijzing voor NK Funboard 1998 en WK Formula 2000.)
 
 **Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 10× nl, totaal 147.
 
-_Registry: 547 bron(nen), 219 verwerkt._
+## Kalender: geplande wedstrijden zonder uitslag
+
+_Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een planning: of een wedstrijd echt gevaren is, staat er niet in._
+
+### 1998 (11 van 11 zonder uitslag)
+
+- 05-01 t/m 05-03: Grevelingen (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 05-16 t/m 05-17: Katwijk aan Zee (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 05-30 t/m 06-01: Zandvoort (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren; de 'stand na Zandvoort' is van september 1998)
+- 06-06 t/m 06-07: Noordwijk (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 06-13: Almere (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 07-04 t/m 07-05: Hargen (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 08-29 t/m 08-30: Hoek van Holland (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 09-05 t/m 09-06: Wijk aan Zee (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 09-19 t/m 09-20: Scheveningen (de KNWV-stand 1998 (nk-funboard-1998) bevat de racepunten van het seizoen, maar niet welke races hier zijn gevaren)
+- 09-26: Texel Race
+- 09-27: Gouwzeepool
+
+### 2001 (23 van 23 zonder uitslag)
+
+- 04-07: Gooimeer Funcup
+- 04-15: Tjeukermeer Fries Formula
+- 04-21 t/m 04-22: Almere Surf Magazine Challenge
+- 04-28: Gooimeer Funcup
+- 05-05 t/m 05-06: Northseacup Grevelingen (internationaal) (internationale reeks, gevaren in Nederland)
+- 05-12: Gooimeer Funcup
+- 05-19: Gooimeer Funcup
+- 05-27: Tjeukermeer Fries Formula
+- 06-02 t/m 06-03: Stavoren FW
+- 06-09: Gooimeer Funcup
+- 06-10: Den Helder - De Cocksdorp
+- 06-16 t/m 06-17: IJsselmeerrace Makkum
+- 06-30 t/m 07-01: Oostvoorne FW
+- 07-07 t/m 07-08: Hargen FW
+- 09-08 t/m 09-09: Uitdam ONK FW
+- 09-12 t/m 09-16: Eurocup Holland (internationaal) (internationale reeks, gevaren in Nederland)
+- 09-22: Texelrace (evenement in het archief (zonder uitslag): archive/nl/2001/texelrace-2001; alleen een verslag, geen uitslag)
+- 09-29: Gooimeer Funcup
+- 10-07: Aalsmeer GP (Grote Prijs van Aalsmeer)
+- 10-13: Gooimeer Funcup
+- 10-14: Tjeukermeer FW
+- 10-20: Gooimeer Funcup
+- 10-26 t/m 10-28: Island Race / Finale Gooimeer Funcup
+
+### 2002 (17 van 17 zonder uitslag)
+
+- 03-23 t/m 03-24: GFC + clinics
+- 04-06 t/m 04-07: GFC + clinics
+- 04-20 t/m 04-21: NK Tour Almere (funsport) (waarschijnlijk een stop achter de Eindstand ONK 2002 (nk-course-2002); de stop-uitslag ontbreekt)
+- 05-04 t/m 05-05: North Sea Cup Grevelingen (internationaal) (internationale reeks, gevaren in Nederland)
+- 05-25: GFC
+- 06-08 t/m 06-09: NK Tour Stavoren (waarschijnlijk een stop achter de Eindstand ONK 2002 (nk-course-2002); de stop-uitslag ontbreekt)
+- 06-15: GFC (clinic?)
+- 06-16: Den Helder - De Cocksdorp
+- 06-22: GFC (clinic?)
+- 06-29 t/m 06-30: NK Tour Grevelingen (waarschijnlijk een stop achter de Eindstand ONK 2002 (nk-course-2002); de stop-uitslag ontbreekt)
+- 07-06 t/m 07-07: NK Tour Hargen (waarschijnlijk een stop achter de Eindstand ONK 2002 (nk-course-2002); de stop-uitslag ontbreekt)
+- 08-28 t/m 09-01: Eurocup Lelystad (internationaal) (internationale reeks, gevaren in Nederland; de kalender noemt Eurocup Lelystad twee keer)
+- 09-11 t/m 09-15: Eurocup Lelystad (internationaal) (internationale reeks, gevaren in Nederland; de kalender noemt Eurocup Lelystad twee keer)
+- 09-21 t/m 09-22: NK Tour reserveweekeinde (waarschijnlijk een stop achter de Eindstand ONK 2002 (nk-course-2002); de stop-uitslag ontbreekt)
+- 10-06: Grote Prijs Aalsmeer
+- 10-12 t/m 10-13: NK Tour Almere (finale) (waarschijnlijk een stop achter de Eindstand ONK 2002 (nk-course-2002); de stop-uitslag ontbreekt)
+- 10-19: GFC
+
+### 2007 (49 van 49 zonder uitslag)
+
+- 04-14: Funcup Almere
+- 04-14 t/m 05-06: NK Wave Wijk aan Zee (wachtperiode: vier weekeinden (14-15, 21-22, 28-29 april en 5-6 mei))
+- 04-15: Regio Cup Noord Tjeukemeer
+- 04-21: Funcup Almere
+- 04-22: Regio Cup Midden Medemblik
+- 04-22: Regio Cup Zuid Schotsman
+- 04-29: ZH Leidschendam
+- 05-05: Funcup Almere
+- 05-05 t/m 05-06: King of the Dam Oesterdam
+- 05-06: ZH Reeuwijk
+- 05-12: Funcup Almere
+- 05-12 t/m 05-13: Pro Kids
+- 05-13: Regio Cup Noord Tjeukemeer
+- 05-13: Regio Cup Zuid Schotsman
+- 05-17 t/m 05-20: NK-BK Formula/Slalom Grevelingendam
+- 05-26 t/m 06-24: NK Speed/Freestyle Strand Horst (vier weekeinden (26-27 mei, 2-3, 16-17 en 23-24 juni); in de kalender 'NK Sp/Frtyle tr')
+- 05-28: ZH Almere
+- 06-03: Regio Cup Zuid Schotsman
+- 06-09: Cool Shoe Crossing Brouwersdam
+- 06-17: Regio Cup Noord Tjeukemeer
+- 06-17: ZH Ter Aar
+- 06-24: Regio Cup Midden Medemblik
+- 08-25 t/m 08-26: Mission Brouwersdam
+- 09-01 t/m 09-02: X-tream games Grevelingen
+- 09-06 t/m 09-09: NK Formula/Slalom Almere
+- 09-14 t/m 09-16: SURF Festival Brouwersdam
+- 09-16: Regio Cup Noord Tjeukemeer
+- 09-16: Regio Cup Zuid Schotsman
+- 09-16: ZH Westeinder
+- 09-22 t/m 09-23: Real Trip Makkum
+- 09-23: Regio Cup Zuid Schotsman
+- 09-30: Mastergames Grevelingen
+- 09-30: ZH Zegerplas
+- 10-06: Funcup / Regio Cup Midden Almere
+- 10-06 t/m 10-07: Lago di Amstel Amstelmeer
+- 10-07: Grote Prijs Aalsmeer
+- 10-13 t/m 10-14: NK Techno 293 Vlietlanden
+- 10-14: Regio Cup Noord Tjeukemeer
+- 10-14: Regio Cup Zuid Schotsman
+- 10-17 t/m 10-21: Wave Riderz Vlieland
+- 10-21: Open Delftse Jeugd (in de kalender: 'Open Delfse Jeugd Bo', Delft)
+- 10-21: Regio Cup Midden Aalsmeer
+- 10-27: Funcup Almere
+- 10-27 t/m 11-18: NK backup speed/slalom Almere-Horst-Wijk (reservedata: vier weekeinden (27-28 oktober, 3-4, 10-11 en 17-18 november))
+- 10-28: Regio Cup Noord Tjeukemeer
+- 10-28: ZH (finale) Zegerplas
+- 11-03: Funcup / Regio Cup Midden Almere
+- 11-10: Funcup Almere
+- 11-11: IJspegel / Techno bokaal Ter Aar
+
+### 2009 (13 van 14 zonder uitslag)
+
+- 04-25: SLXL Almere (Slalom XL)
+- 05-02: NK Grevelingen (weekeinde van 2 mei)
+- 05-16: SLXL Almere (Slalom XL) (in de kalender: 'af laten vallen' (vervallen))
+- 05-23: Islandrace (Almere)
+- 05-30 t/m 06-01: NK Scheveningen (evenement in het archief (zonder uitslag): archive/nl/2009/nk-course-2009-stop2; alleen een verslag, geen uitslag)
+- 06-06: SLXL Almere (Slalom XL)
+- 06-08 t/m 06-13: WK Slalom Texel (internationaal) (evenement in het archief (zonder uitslag): archive/internationaal/2009/wk-slalom-2009; alleen een verslag, geen uitslag)
+- 06-20: NK Techno (Almere) (zelfde weekeinde: reservedatum NK Scheveningen)
+- 08-22: Mission
+- 09-05: NK Almere (weekeinde van 5 september)
+- 09-26: SLXL Almere (Slalom XL)
+- 10-10: NK Makkum (weekeinde van 10 oktober)
+- 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
+
+
+_Registry: 699 bron(nen), 231 verwerkt._

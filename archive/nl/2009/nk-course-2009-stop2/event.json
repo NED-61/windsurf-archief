@@ -1,0 +1,26 @@
+{
+ "event_slug": "nk-course-2009-stop2",
+ "scope": "nl",
+ "name": "NK Course 2009, stop 2 (Scheveningen)",
+ "series": "NK Course",
+ "year": 2009,
+ "stop_number": 2,
+ "stops_known": null,
+ "date": "2009-05-30",
+ "date_end": "2009-06-01",
+ "location": "Scheveningen",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "weekeinde van 30 mei 2009: NK Scheveningen (planning)"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Geen uitslag in het archief. Alleen een verslag van Adri Keet (Scheveningen2009.doc, 2-3 juni 2009; bewaard in local-only/, niet gepubliceerd): 'tweede ronde van het NK', zaterdag tot en met maandag (Pinksteren), zeven races gevaren; Adri Keet derde, Dennis en Dirk op plaats 1 en 2 (volgorde staat er niet).",
+  "Data afgeleid: de kalender noemt het weekeinde van 30 mei; het verslag noemt zaterdag, zondag en maandag."
+ ]
+}

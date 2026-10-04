@@ -115,7 +115,7 @@
   },
   {
    "rank": 5,
-   "person": "bartlema",
+   "person": "pieter-bartlema",
    "sail": "113",
    "name": "Bartlema",
    "gender": "male",
@@ -178,7 +178,7 @@
   },
   {
    "rank": 9,
-   "person": "vonk",
+   "person": "jordy-vonk",
    "sail": "600",
    "name": "Vonk",
    "gender": "male",
@@ -226,7 +226,7 @@
   },
   {
    "rank": 12,
-   "person": "vd-hoorn",
+   "person": "nick-hoorn",
    "sail": "147",
    "name": "Vd Hoorn",
    "gender": "male",
@@ -350,7 +350,7 @@
   },
   {
    "rank": 20,
-   "person": "kater",
+   "person": "danny-kater",
    "sail": "322",
    "name": "Kater",
    "gender": "male",
@@ -381,7 +381,7 @@
   },
   {
    "rank": 22,
-   "person": "van-citeren",
+   "person": "martijn-van-citteren",
    "sail": "170",
    "name": "Van Citeren",
    "gender": "male",
@@ -461,7 +461,7 @@
   },
   {
    "rank": null,
-   "person": "vonk-2",
+   "person": "renee-vonk",
    "sail": "688",
    "name": "Vonk",
    "gender": "male",
@@ -540,7 +540,7 @@
   },
   {
    "rank": null,
-   "person": "snip",
+   "person": "jakob-snip",
    "sail": "689",
    "name": "Snip",
    "gender": "male",

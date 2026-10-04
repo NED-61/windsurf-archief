@@ -1,0 +1,40 @@
+# Bouwt de website uit de uitslagen en zet hem op de branch 'website'.
+# Hostinger (hPanel > Advanced > Git) rolt die branch uit in een map onder public_html.
+name: Site bouwen en publiceren
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "archive/**"
+      - "data/people.json"
+      - "tools/build_site.py"
+      - "tools/publish_site.py"
+      - "tools/site_assets/**"
+      - ".github/workflows/site.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site
+  cancel-in-progress: true
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Site bouwen
+        run: python3 tools/build_site.py
+      - name: Publiceren op de branch website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin website:website || echo "branch website bestaat nog niet"
+          python3 tools/publish_site.py -m "Site gebouwd uit ${GITHUB_SHA::7}"
+          git push origin website

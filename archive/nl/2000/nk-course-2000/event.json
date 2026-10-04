@@ -1,0 +1,26 @@
+{
+ "event_slug": "nk-course-2000",
+ "scope": "nl",
+ "name": "NK Course 2000",
+ "series": "NK Course",
+ "year": 2000,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2000-course-race-heren",
+  "nk-2000-course-race-dames",
+  "nk-2000-course-race-jeugd"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Gepubliceerd als 'ONK Race 2000 - Stichting Zuid-Holland Windsurfing - Sponsor: SWA (Alphen a/d Rijn)', eindstand heren, dames en jeugd (Word-document van 1 november 2000). ONK = Open Nederlands Kampioenschap. In het archief onder de reeks 'NK Course' gezet, net als de Eindstand ONK 2002.",
+  "Eindstand over het seizoen met de punten per race; de losse wedstrijddagen, data en locaties staan niet in de bron."
+ ],
+ "organizer": "Stichting Zuid-Holland Windsurfing",
+ "name_published": "ONK Race 2000"
+}

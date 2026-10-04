@@ -1,0 +1,25 @@
+{
+ "event_slug": "texelrace-2001",
+ "scope": "nl",
+ "name": "Texelrace 2001",
+ "series": "Texelrace",
+ "year": 2001,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2001-09-22",
+ "date_end": null,
+ "location": "Texel",
+ "discipline": "long_distance",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "kalender 2001.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "22 september: Texelrace (planning)"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Geen uitslag in het archief. Alleen een verslag van Adri Keet, die schrijft dat hij de Texelrace 2001 won (bewaard in local-only/, niet gepubliceerd). Datum volgens de kalender 2001 (planning), niet bevestigd."
+ ]
+}

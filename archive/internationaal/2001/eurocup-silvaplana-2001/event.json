@@ -1,0 +1,25 @@
+{
+ "event_slug": "eurocup-silvaplana-2001",
+ "scope": "internationaal",
+ "name": "Euro Cup Silvaplana 2001",
+ "series": "Formula Windsurfing Euro Cup",
+ "year": 2001,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2001-08-14",
+ "date_end": "2001-08-17",
+ "location": "Silvaplana (Zwitserland)",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "kalender 2001.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "14/17 augustus: Silvaplana Eurocup"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "TWIJFEL OVER HET JAAR: de kop van het document zegt '14th-17th August 2002', maar het Word-bestand is op 19 augustus 2001 aangemaakt, opgeslagen en afgedrukt, en de kalender 2001 noemt Silvaplana op 14-17 augustus (de kalender 2002: 14-18 augustus). Daarom onder 2001 gezet. Bron bewaard, nog niet omgezet (fase 2)."
+ ]
+}

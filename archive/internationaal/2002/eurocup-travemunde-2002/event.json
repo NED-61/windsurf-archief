@@ -1,0 +1,25 @@
+{
+ "event_slug": "eurocup-travemunde-2002",
+ "scope": "internationaal",
+ "name": "Eurocup Travemünde 2002",
+ "series": "Formula Windsurfing Euro Cup",
+ "year": 2002,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2002-05-08",
+ "date_end": "2002-05-12",
+ "location": "Travemünde (Duitsland)",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "kalender2002.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "8-12 mei: Eurocup Travemunde"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Uitslag Formula Windsurfing, stand 12 mei 2002. Bron bewaard, nog niet omgezet (fase 2)."
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "event_slug": "wk-slalom-2009",
+ "scope": "internationaal",
+ "name": "WK Slalom 2009 (Texel)",
+ "series": "WK Slalom",
+ "year": 2009,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2009-06-08",
+ "date_end": "2009-06-13",
+ "location": "Texel",
+ "discipline": "slalom",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "WK-SL 8-13 juni, Texel (planning)"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
+  "Geen uitslag in het archief. Alleen een verslag van Adri Keet (eindigde als achtste; bewaard in local-only/, niet gepubliceerd). Internationaal kampioenschap, gevaren in Nederland tijdens de Ronde om Texel: scope internationaal."
+ ]
+}
