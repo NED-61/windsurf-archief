@@ -1,0 +1,22 @@
+{
+ "event_slug": "regiocup-zuid-2017-0910",
+ "scope": "nl",
+ "name": "Regiocup Zuid, 10 september 2017",
+ "series": "Regiocup Zuid",
+ "year": 2017,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2017-09-10",
+ "date_end": null,
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-zuid-2017-0910-slalom-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Results 10 sep. 2017 - Regiocupup Zuid 2017' [sic] (www.facebook.com/Regiocupzuid). De locatie staat niet in de bron."
+ ],
+ "short_name": "Regiocup Zuid 10 sept 2017"
+}

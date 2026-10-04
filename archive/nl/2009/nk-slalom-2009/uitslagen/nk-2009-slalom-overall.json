@@ -1,0 +1,1332 @@
+{
+ "schema_version": 1,
+ "id": "nk-2009-slalom-overall",
+ "event": {
+  "name": "NK Slalom 2009",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2009,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "Overall Results NK Slalom 2009"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 4,
+  "discards": [
+   1
+  ],
+  "heats_published": false,
+  "no_result_points": 57.0,
+  "eliminations_without_points": [],
+  "scoring_observed": "punten per eliminatie = plaats, winnaar = 1; 57 = geen resultaat in die eliminatie (aantal riders + 1)"
+ },
+ "source": {
+  "name": "Overall Results NK Slalom 2009.html",
+  "url": "https://web.archive.org/web/20091223055257/http://www.wedstrijdsurfen.nl/wedstrijdsurfen07/wedstrijdsurfen_FE/index.php?dx=100&ax=900&ix=317&tx=1&px=1&xx=1",
+  "file": "archive/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009.html",
+  "type": "web",
+  "retrieved": "2026-10-04",
+  "method": "opgeslagen webpagina (html, windows-1252) gelezen met BeautifulSoup: de uitslagtabel cel voor cel",
+  "metadata_sources": [
+   {
+    "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+    "url": null,
+    "used_for": "NK Grevelingen (weekeinde van 2 mei), NK Scheveningen (30 mei), NK Almere (weekeinde van 5 september), NK Makkum (weekeinde van 10 oktober), reservedata NK Slalom 17 en 24 oktober. Planning, geen bewijs dat er gevaren is."
+   }
+  ],
+  "verified": "56 riders in de totaaluitslag; plaatsen 1 t/m 56 doorlopend; rangschikking oplopend op eindtotaal; totaal = som van de vier eliminaties; eindtotaal = totaal - aftrek; aftrek = de hoogste score; geen dubbele namen; hoogste score per eliminatie is 57 = aantal riders + 1 (geen resultaat in die eliminatie; de bron toont geen statuscodes); gelijke punten binnen een eliminatie (zoals gepubliceerd, niet gecorrigeerd): el. 1: 14 bij Pieter Bartlema en Remco Bakker; el. 1: 36 bij Peter van der Lugt en Leon Row en Pieter Buis en Jan de Jonge en Thomas Brandwijk; el. 2: 17 bij Adri Keet en Richard Konstapel en Kiran Badloe en Alexander Verhage; el. 2: 38 bij Pieter Buis en Jan de Jonge en Thomas Brandwijk; el. 3: 35 bij Jeroen Schuitema en Ruben Langius en Robert Kreisel en Pieter Buis en Jan de Jonge en Thomas Brandwijk; el. 4: 1 bij Richard Konstapel en Vincent Lange; el. 4: 8 bij Marc de Jong en Dennis Müller; el. 4: 15 bij Pieter Eliëns en Martijn van Citteren; el. 4: 17 bij Klaas Jissink en Pieter Bartlema; el. 4: 32 bij Jeroen Schuitema en Leon Row en Pieter Buis en Christian Wnderlich en Kenny de Jager en Ronald van der Poel en Casper Bouma en Kevin Mevissen en Stijn Feiertag en Danny Kater; heats en finales niet in de bron: punten per eliminatie niet uit finaleposities afgeleid"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Overall Results NK Slalom 2009 - Na 4 eleminaties', gepubliceerd 13 oktober 2009. Datum en locatie per eliminatie staan niet in de bron.",
+  "Alleen de totaaluitslag: per rider de punten per eliminatie (el. 1 t/m el.4), totaal, aftrek en eindtotaal; geen heats en finales.",
+  "De bron geeft de aftrek als getal, niet welke eliminatie is weggelaten. discarded wijst de (laatste) eliminatie met die score aan; discard_points is het gepubliceerde getal.",
+  "Gelijke punten binnen een eliminatie staan zo in de bron: el. 1: 14 bij Pieter Bartlema en Remco Bakker; el. 1: 36 bij Peter van der Lugt en Leon Row en Pieter Buis en Jan de Jonge en Thomas Brandwijk; el. 2: 17 bij Adri Keet en Richard Konstapel en Kiran Badloe en Alexander Verhage; el. 2: 38 bij Pieter Buis en Jan de Jonge en Thomas Brandwijk; el. 3: 35 bij Jeroen Schuitema en Ruben Langius en Robert Kreisel en Pieter Buis en Jan de Jonge en Thomas Brandwijk; el. 4: 1 bij Richard Konstapel en Vincent Lange; el. 4: 8 bij Marc de Jong en Dennis Müller; el. 4: 15 bij Pieter Eliëns en Martijn van Citteren; el. 4: 17 bij Klaas Jissink en Pieter Bartlema; el. 4: 32 bij Jeroen Schuitema en Leon Row en Pieter Buis en Christian Wnderlich en Kenny de Jager en Ronald van der Poel en Casper Bouma en Kevin Mevissen en Stijn Feiertag en Danny Kater.",
+  "Namen zoals gepubliceerd ('Taede de Jong', 'Igmar Daldorf', 'Vincent Lange', 'Casper Bouma' met landcode H, 'Christian Wnderlich', 'J. Bosman'). Ruben Langius staat zonder zeilnummer. De landcode staat in de bron in kleine letters (in nationality zo overgenomen, in sail als hoofdletters)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "dennis-littel",
+   "sail": "NED 13",
+   "name": "Dennis Littel",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    9.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    9.0
+   ],
+   "total": 12.0,
+   "net": 3.0
+  },
+  {
+   "rank": 2,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "NED 2",
+   "name": "Adriaan van Rijsselberghe",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    4.0,
+    8.0,
+    2.0,
+    3.0
+   ],
+   "discarded": [
+    2
+   ],
+   "discard_points": [
+    8.0
+   ],
+   "total": 17.0,
+   "net": 9.0
+  },
+  {
+   "rank": 3,
+   "person": "adri-keet",
+   "sail": "NED 34",
+   "name": "Adri Keet",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    2.0,
+    17.0,
+    4.0,
+    4.0
+   ],
+   "discarded": [
+    2
+   ],
+   "discard_points": [
+    17.0
+   ],
+   "total": 27.0,
+   "net": 10.0
+  },
+  {
+   "rank": 4,
+   "person": "markus-bouman",
+   "sail": "NED 6",
+   "name": "Markus Bouman",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    3.0,
+    3.0,
+    5.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 68.0,
+   "net": 11.0
+  },
+  {
+   "rank": 5,
+   "person": "dirk-doppenberg",
+   "sail": "NED 51",
+   "name": "Dirk Doppenberg",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    6.0,
+    2.0,
+    21.0,
+    5.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    21.0
+   ],
+   "total": 34.0,
+   "net": 13.0
+  },
+  {
+   "rank": 6,
+   "person": "klaas-jissink",
+   "sail": "NED 42",
+   "name": "Klaas Jissink",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    11.0,
+    4.0,
+    3.0,
+    17.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    17.0
+   ],
+   "total": 35.0,
+   "net": 18.0
+  },
+  {
+   "rank": 7,
+   "person": "richard-konstapel",
+   "sail": "NED 18",
+   "name": "Richard Konstapel",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    12.0,
+    17.0,
+    8.0,
+    1.0
+   ],
+   "discarded": [
+    2
+   ],
+   "discard_points": [
+    17.0
+   ],
+   "total": 38.0,
+   "net": 21.0
+  },
+  {
+   "rank": 8,
+   "person": "peter-heida",
+   "sail": "NED 17",
+   "name": "Pieter Heida",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    7.0,
+    5.0,
+    11.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 80.0,
+   "net": 23.0
+  },
+  {
+   "rank": 9,
+   "person": "teade-de-jong",
+   "sail": "NED 777",
+   "name": "Taede de Jong",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    8.0,
+    9.0,
+    6.0,
+    12.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    12.0
+   ],
+   "total": 35.0,
+   "net": 23.0
+  },
+  {
+   "rank": 10,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliëns",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    5.0,
+    7.0,
+    12.0,
+    15.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    15.0
+   ],
+   "total": 39.0,
+   "net": 24.0
+  },
+  {
+   "rank": 11,
+   "person": "nikaj-droop",
+   "sail": "NED 647",
+   "name": "Nikaj Droop",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    9.0,
+    6.0,
+    17.0,
+    16.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    17.0
+   ],
+   "total": 48.0,
+   "net": 31.0
+  },
+  {
+   "rank": 12,
+   "person": "kay-van-berlo",
+   "sail": "NED 212",
+   "name": "Kay van Berlo",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    16.0,
+    12.0,
+    14.0,
+    6.0
+   ],
+   "discarded": [
+    1
+   ],
+   "discard_points": [
+    16.0
+   ],
+   "total": 48.0,
+   "net": 32.0
+  },
+  {
+   "rank": 13,
+   "person": "nico-wierstra",
+   "sail": "NED 81",
+   "name": "Nico Wierstra",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    10.0,
+    10.0,
+    26.0,
+    13.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    26.0
+   ],
+   "total": 59.0,
+   "net": 33.0
+  },
+  {
+   "rank": 14,
+   "person": "jordy-vonk",
+   "sail": "NED 600",
+   "name": "Jordy Vonk",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    15.0,
+    15.0,
+    9.0,
+    11.0
+   ],
+   "discarded": [
+    2
+   ],
+   "discard_points": [
+    15.0
+   ],
+   "total": 50.0,
+   "net": 35.0
+  },
+  {
+   "rank": 15,
+   "person": "pieter-bartlema",
+   "sail": "NED 113",
+   "name": "Pieter Bartlema",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    14.0,
+    11.0,
+    10.0,
+    17.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    17.0
+   ],
+   "total": 52.0,
+   "net": 35.0
+  },
+  {
+   "rank": 16,
+   "person": "marc-de-jong",
+   "sail": "NED 103",
+   "name": "Marc de Jong",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    13.0,
+    16.0,
+    18.0,
+    8.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    18.0
+   ],
+   "total": 55.0,
+   "net": 37.0
+  },
+  {
+   "rank": 17,
+   "person": "remco-bakker",
+   "sail": "NED 15",
+   "name": "Remco Bakker",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    14.0,
+    14.0,
+    16.0,
+    23.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    23.0
+   ],
+   "total": 67.0,
+   "net": 44.0
+  },
+  {
+   "rank": 18,
+   "person": "kiran-badloe",
+   "sail": "NED 194",
+   "name": "Kiran Badloe",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    18.0,
+    17.0,
+    15.0,
+    14.0
+   ],
+   "discarded": [
+    1
+   ],
+   "discard_points": [
+    18.0
+   ],
+   "total": 64.0,
+   "net": 46.0
+  },
+  {
+   "rank": 19,
+   "person": "peter-van-der-lugt",
+   "sail": "NED 12",
+   "name": "Peter van der Lugt",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    36.0,
+    13.0,
+    7.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 113.0,
+   "net": 56.0
+  },
+  {
+   "rank": 20,
+   "person": "alexander-verhage",
+   "sail": "NED 75",
+   "name": "Alexander Verhage",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    17.0,
+    17.0,
+    22.0,
+    25.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    25.0
+   ],
+   "total": 81.0,
+   "net": 56.0
+  },
+  {
+   "rank": 21,
+   "person": "marco-kraaijenzank",
+   "sail": "NED 10",
+   "name": "Marco Kraaijenzank",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    21.0,
+    23.0,
+    13.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 114.0,
+   "net": 57.0
+  },
+  {
+   "rank": 22,
+   "person": "dennis-klaaijsen",
+   "sail": "NED 192",
+   "name": "Dennis Klaaijsen",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    19.0,
+    21.0,
+    23.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 120.0,
+   "net": 63.0
+  },
+  {
+   "rank": 23,
+   "person": "joep-clasquin",
+   "sail": "NED 509",
+   "name": "Joep Clasquin",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    26.0,
+    22.0,
+    19.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 124.0,
+   "net": 67.0
+  },
+  {
+   "rank": 24,
+   "person": "martijn-van-citteren",
+   "sail": "NED 170",
+   "name": "Martijn van Citteren",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    35.0,
+    28.0,
+    24.0,
+    15.0
+   ],
+   "discarded": [
+    1
+   ],
+   "discard_points": [
+    35.0
+   ],
+   "total": 102.0,
+   "net": 67.0
+  },
+  {
+   "rank": 25,
+   "person": "marco-van-der-leer",
+   "sail": "NED 207",
+   "name": "Marco van der Leer",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    29.0,
+    27.0,
+    20.0,
+    26.0
+   ],
+   "discarded": [
+    1
+   ],
+   "discard_points": [
+    29.0
+   ],
+   "total": 102.0,
+   "net": 73.0
+  },
+  {
+   "rank": 26,
+   "person": "joris-bosman",
+   "sail": "NED 152",
+   "name": "J. Bosman",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    27.0,
+    24.0,
+    27.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 135.0,
+   "net": 78.0
+  },
+  {
+   "rank": 27,
+   "person": "tomas-van-zelst",
+   "sail": "NED 228",
+   "name": "Tomas van Zelst",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    23.0,
+    26.0,
+    30.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 136.0,
+   "net": 79.0
+  },
+  {
+   "rank": 28,
+   "person": "john-munten",
+   "sail": "NED 180",
+   "name": "John Munten",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    22.0,
+    31.0,
+    28.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 138.0,
+   "net": 81.0
+  },
+  {
+   "rank": 29,
+   "person": "wouter-verhulst",
+   "sail": "NED 800",
+   "name": "Wouter Verhulst",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    31.0,
+    25.0,
+    25.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 138.0,
+   "net": 81.0
+  },
+  {
+   "rank": 30,
+   "person": "frank-heinen",
+   "sail": "NED 363",
+   "name": "Frank Heinen",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    34.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "discarded": [
+    1
+   ],
+   "discard_points": [
+    34.0
+   ],
+   "total": 121.0,
+   "net": 87.0
+  },
+  {
+   "rank": 31,
+   "person": "jeroen-schuitema",
+   "sail": "NED 146",
+   "name": "Jeroen Schuitema",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    25.0,
+    37.0,
+    35.0,
+    32.0
+   ],
+   "discarded": [
+    2
+   ],
+   "discard_points": [
+    37.0
+   ],
+   "total": 129.0,
+   "net": 92.0
+  },
+  {
+   "rank": 32,
+   "person": "ruben-langius",
+   "sail": null,
+   "name": "Ruben Langius",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    28.0,
+    30.0,
+    35.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 150.0,
+   "net": 93.0
+  },
+  {
+   "rank": 33,
+   "person": "robert-kreisel",
+   "sail": "NED 107",
+   "name": "Robert Kreisel",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    24.0,
+    36.0,
+    35.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 152.0,
+   "net": 95.0
+  },
+  {
+   "rank": 34,
+   "person": "matthijs-van-t-hoff",
+   "sail": "NED 216",
+   "name": "Mattijs van 't Hoff",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    33.0,
+    34.0,
+    31.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 155.0,
+   "net": 98.0
+  },
+  {
+   "rank": 35,
+   "person": "leon-row",
+   "sail": "NED 244",
+   "name": "Leon Row",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    36.0,
+    35.0,
+    34.0,
+    32.0
+   ],
+   "discarded": [
+    1
+   ],
+   "discard_points": [
+    36.0
+   ],
+   "total": 137.0,
+   "net": 101.0
+  },
+  {
+   "rank": 36,
+   "person": "pieter-buis",
+   "sail": "NED 136",
+   "name": "Pieter Buis",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    36.0,
+    38.0,
+    35.0,
+    32.0
+   ],
+   "discarded": [
+    2
+   ],
+   "discard_points": [
+    38.0
+   ],
+   "total": 141.0,
+   "net": 103.0
+  },
+  {
+   "rank": 37,
+   "person": "jan-de-jonge",
+   "sail": "NED 787",
+   "name": "Jan de Jonge",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    36.0,
+    38.0,
+    35.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 166.0,
+   "net": 109.0
+  },
+  {
+   "rank": 38,
+   "person": "thomas-brandwijk",
+   "sail": "NED 5091",
+   "name": "Thomas Brandwijk",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    36.0,
+    38.0,
+    35.0,
+    57.0
+   ],
+   "discarded": [
+    4
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 166.0,
+   "net": 109.0
+  },
+  {
+   "rank": 39,
+   "person": "vincent-lange",
+   "sail": "GER 122",
+   "name": "Vincent Lange",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    1.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 172.0,
+   "net": 115.0
+  },
+  {
+   "rank": 40,
+   "person": "josh-angulo",
+   "sail": "CV 1",
+   "name": "Josh Angulo",
+   "nationality": "cv",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    2.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 173.0,
+   "net": 116.0
+  },
+  {
+   "rank": 41,
+   "person": "dorian-van-rijsselberge",
+   "sail": "NED 8",
+   "name": "Dorian van Rijsselberghe",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    7.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 178.0,
+   "net": 121.0
+  },
+  {
+   "rank": 42,
+   "person": "dennis-muller",
+   "sail": "GER 289",
+   "name": "Dennis Müller",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    8.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 179.0,
+   "net": 122.0
+  },
+  {
+   "rank": 43,
+   "person": "helse-wilkens",
+   "sail": "GER 63",
+   "name": "Helse Wilkens",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    21.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 192.0,
+   "net": 135.0
+  },
+  {
+   "rank": 44,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Igmar Daldorf",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    22.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 193.0,
+   "net": 136.0
+  },
+  {
+   "rank": 45,
+   "person": "michael-naumann",
+   "sail": "GER 14",
+   "name": "Michael Naumann",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    24.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 195.0,
+   "net": 138.0
+  },
+  {
+   "rank": 46,
+   "person": "renee-glasz",
+   "sail": "NED 123",
+   "name": "René Glasz",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    27.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 198.0,
+   "net": 141.0
+  },
+  {
+   "rank": 47,
+   "person": "wolfgang-draschner",
+   "sail": "GER 3333",
+   "name": "Wolfgang Draschner",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    28.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 199.0,
+   "net": 142.0
+  },
+  {
+   "rank": 48,
+   "person": "thomas-glaser",
+   "sail": "GER 25",
+   "name": "Thomas Gläser",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    30.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 201.0,
+   "net": 144.0
+  },
+  {
+   "rank": 49,
+   "person": "christian-schlapp",
+   "sail": "GER 1",
+   "name": "Christian Schlapp",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    31.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 202.0,
+   "net": 145.0
+  },
+  {
+   "rank": 50,
+   "person": "christian-wnderlich",
+   "sail": "GER 7",
+   "name": "Christian Wnderlich",
+   "nationality": "ger",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 203.0,
+   "net": 146.0
+  },
+  {
+   "rank": 51,
+   "person": "kenny-de-jager",
+   "sail": "BEL 9",
+   "name": "Kenny de Jager",
+   "nationality": "bel",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 203.0,
+   "net": 146.0
+  },
+  {
+   "rank": 52,
+   "person": "ronald-vd-poel",
+   "sail": "NED 21",
+   "name": "Ronald van der Poel",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 203.0,
+   "net": 146.0
+  },
+  {
+   "rank": 53,
+   "person": "casper-bouma",
+   "sail": "H 24",
+   "name": "Casper Bouma",
+   "nationality": "H",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 203.0,
+   "net": 146.0
+  },
+  {
+   "rank": 54,
+   "person": "kevin-mevissen",
+   "sail": "NED 57",
+   "name": "Kevin Mevissen",
+   "nationality": "ned",
+   "division": "men",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 203.0,
+   "net": 146.0
+  },
+  {
+   "rank": 55,
+   "person": "stijn-feiertag",
+   "sail": "NED 312",
+   "name": "Stijn Feiertag",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 203.0,
+   "net": 146.0
+  },
+  {
+   "rank": 56,
+   "person": "danny-kater",
+   "sail": "NED 322",
+   "name": "Danny Kater",
+   "nationality": "ned",
+   "division": "youth u 20",
+   "points": [
+    57.0,
+    57.0,
+    57.0,
+    32.0
+   ],
+   "discarded": [
+    3
+   ],
+   "discard_points": [
+    57.0
+   ],
+   "total": 203.0,
+   "net": 146.0
+  }
+ ],
+ "detail": {
+  "deviations": [
+   {
+    "field": "points",
+    "note": "el. 1: 14 bij Pieter Bartlema en Remco Bakker"
+   },
+   {
+    "field": "points",
+    "note": "el. 1: 36 bij Peter van der Lugt en Leon Row en Pieter Buis en Jan de Jonge en Thomas Brandwijk"
+   },
+   {
+    "field": "points",
+    "note": "el. 2: 17 bij Adri Keet en Richard Konstapel en Kiran Badloe en Alexander Verhage"
+   },
+   {
+    "field": "points",
+    "note": "el. 2: 38 bij Pieter Buis en Jan de Jonge en Thomas Brandwijk"
+   },
+   {
+    "field": "points",
+    "note": "el. 3: 35 bij Jeroen Schuitema en Ruben Langius en Robert Kreisel en Pieter Buis en Jan de Jonge en Thomas Brandwijk"
+   },
+   {
+    "field": "points",
+    "note": "el. 4: 1 bij Richard Konstapel en Vincent Lange"
+   },
+   {
+    "field": "points",
+    "note": "el. 4: 8 bij Marc de Jong en Dennis Müller"
+   },
+   {
+    "field": "points",
+    "note": "el. 4: 15 bij Pieter Eliëns en Martijn van Citteren"
+   },
+   {
+    "field": "points",
+    "note": "el. 4: 17 bij Klaas Jissink en Pieter Bartlema"
+   },
+   {
+    "field": "points",
+    "note": "el. 4: 32 bij Jeroen Schuitema en Leon Row en Pieter Buis en Christian Wnderlich en Kenny de Jager en Ronald van der Poel en Casper Bouma en Kevin Mevissen en Stijn Feiertag en Danny Kater"
+   }
+  ]
+ },
+ "eliminations": []
+}

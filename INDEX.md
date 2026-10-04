@@ -46,6 +46,8 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2009 | Formula Windsurfing (FW) | long_distance | 34 | DOPPENBERG | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-fw.json |
 | Grote Prijs van Aalsmeer 2009 | RS:X | long_distance | 5 | Van santen | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rsx.json |
 | Grote Prijs van Aalsmeer 2009 | Rookie | long_distance | 8 | Versluis | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rookie.json |
+| NK Course 2009 | Formula, gold fleet | fleet_racing | 43 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-course-2009/uitslagen/nk-2009-course-formula-gold.json |
+| NK Slalom 2009 | Overall | elimination | 56 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-slalom-2009/uitslagen/nk-2009-slalom-overall.json |
 | Slalom XL Almere, 3 oktober 2009 | Overall | fleet_racing | 35 | Peter Heida | complete | gecontroleerd | archive/nl/2009/slalom-xl-2009-1003/uitslagen/slalom-xl-2009-1003-slalom-overall.json |
 
 ## nl / 2010
@@ -54,12 +56,48 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 |---|---|---|---|---|---|---|---|
 | Slalom XL Almere, 23 oktober 2010 | Overall | fleet_racing | 34 | Adriaan van Rijsselberghe | complete | gecontroleerd | archive/nl/2010/slalom-xl-2010-1023/uitslagen/slalom-xl-2010-1023-slalom-overall.json |
 
+## nl / 2013
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| Regiocup Noord, 25-26 mei 2013 | Gold fleet | fleet_racing | 22 | Adriaan van Rijsselberghe | partial | gecontroleerd | archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-gold.json |
+| Regiocup Noord, 25-26 mei 2013 | Gold fleet, dagresultaat 25 mei | fleet_racing | 14 | Adriaan van Rijsselberghe | partial | gecontroleerd | archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-gold-dag1.json |
+| Regiocup Noord, 25-26 mei 2013 | Zilver fleet | fleet_racing | 13 | Andrea Vanhoorne | complete | gecontroleerd | archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-zilver.json |
+| Regiocup Zuid, 28-29 september 2013 | Gold fleet | fleet_racing | 21 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2013/regiocup-zuid-2013-0928/uitslagen/regiocup-zuid-2013-0928-slalom-gold.json |
+| Regiocup Zuid, 28-29 september 2013 | Zilver fleet | fleet_racing | 28 | Steven de Geus | complete | gecontroleerd | archive/nl/2013/regiocup-zuid-2013-0928/uitslagen/regiocup-zuid-2013-0928-slalom-zilver.json |
+| Regiocup Zuid, 8-9 juni 2013 | Gold fleet | fleet_racing | 27 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2013/regiocup-zuid-2013-0608/uitslagen/regiocup-zuid-2013-0608-slalom-gold.json |
+| Regiocup Zuid, 8-9 juni 2013 | Zilver fleet | fleet_racing | 29 | Steven de Geus | complete | gecontroleerd | archive/nl/2013/regiocup-zuid-2013-0608/uitslagen/regiocup-zuid-2013-0608-slalom-zilver.json |
+| Regiocup, 19-20 oktober 2013 | Formula | fleet_racing | 10 | Dirk Doppenberg | complete | gecontroleerd | archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-course-formula.json |
+| Regiocup, 19-20 oktober 2013 | Slalom Gold fleet | fleet_racing | 14 | Jordy Vonk | complete | gecontroleerd | archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-slalom-gold.json |
+| Regiocup, 19-20 oktober 2013 | Slalom Zilver fleet | fleet_racing | 17 | Harco Jan Folkerts | complete | gecontroleerd | archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-slalom-zilver.json |
+| Regiocup, 19-20 oktober 2013 | Young Gun | fleet_racing | 4 | Tim Leutscher | complete | gecontroleerd | archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-young-gun.json |
+
+## nl / 2015
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| Grevelingencup 2015 | Overall | fleet_racing | 40 | Jordy Vonk | complete | gecontroleerd | archive/nl/2015/grevelingencup-2015/uitslagen/grevelingencup-2015-slalom-overall.json |
+| North Sea Cup 2015 | Bic Techno | fleet_racing | 23 | Jim van Someren | complete | gecontroleerd | archive/nl/2015/north-sea-cup-2015/uitslagen/north-sea-cup-2015-course-bic-techno.json |
+| North Sea Cup 2015 | Formula | fleet_racing | 23 | Dennis Littel | complete | gecontroleerd | archive/nl/2015/north-sea-cup-2015/uitslagen/north-sea-cup-2015-course-formula.json |
+| North Sea Cup 2015 | RSX - Raceboard | fleet_racing | 14 | Sam Wennekes | complete | gecontroleerd | archive/nl/2015/north-sea-cup-2015/uitslagen/north-sea-cup-2015-course-rsx-raceboard.json |
+| Regiocup 2015 (slalom) | Overall | fleet_racing | 21 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2015/regiocup-2015/uitslagen/regiocup-2015-slalom-overall.json |
+
+## nl / 2016
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| North Sea Cup 2016 | Bic Techno | fleet_racing | 21 | Thomas Broucke | partial | gecontroleerd | archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-bic-techno.json |
+| North Sea Cup 2016 | Formula | fleet_racing | 13 | Giedrius Liutkus | partial | gecontroleerd | archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-formula.json |
+| North Sea Cup 2016 | Raceboard | fleet_racing | 11 | Huig-Jan Tak | partial | gecontroleerd | archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-raceboard.json |
+
 ## nl / 2017
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
 | NK Slalom 2017 | Heren (divisies Heren, Jeugd, Master) | elimination | 45 | Jordy Vonk | complete | gecontroleerd | archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-heren.json |
 | NK Slalom 2017 | NK Slalom 2017 - Vrouwen | elimination | 7 | Esther de Geus | complete | gecontroleerd | archive/nl/2017/nk-slalom-2017/uitslagen/nk-2017-slalom-dames.json |
+| Regiocup Zuid, 10 september 2017 | Overall | fleet_racing | 31 | Tomas van Zelst | complete | gecontroleerd | archive/nl/2017/regiocup-zuid-2017-0910/uitslagen/regiocup-zuid-2017-0910-slalom-overall.json |
+| Regiocup Zuid, 6-7 mei 2017 | Overall | fleet_racing | 39 | Adriaan van Rijsselberghe | complete | gecontroleerd | archive/nl/2017/regiocup-zuid-2017-0506/uitslagen/regiocup-zuid-2017-0506-slalom-overall.json |
 | Ronde om Texel 2017 | Windsurf | long_distance | 36 | Dennis Littel | complete | gecontroleerd | archive/nl/2017/ronde-om-texel-2017/uitslagen/ronde-om-texel-2017-long-distance-windsurf.json |
 
 ## nl / 2018
@@ -75,6 +113,10 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| Brouwersdam Cup, 1 september 2019 | Foil | fleet_racing | 6 | Aron Etmon | complete | gecontroleerd | archive/nl/2019/brouwersdam-cup-2019-0901/uitslagen/brouwersdam-cup-2019-0901-foil-overall.json |
+| Brouwersdam Cup, 1 september 2019 | Overall | fleet_racing | 13 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2019/brouwersdam-cup-2019-0901/uitslagen/brouwersdam-cup-2019-0901-slalom-overall.json |
+| Brouwersdam Cup, 13-14 juli 2019 | Foil | fleet_racing | 7 | Huig-Jan Tak | partial | gecontroleerd | archive/nl/2019/brouwersdam-cup-2019-0713/uitslagen/brouwersdam-cup-2019-0713-foil-overall.json |
+| Brouwersdam Cup, 13-14 juli 2019 | Overall | fleet_racing | 22 | Twan Verseput | complete | gecontroleerd | archive/nl/2019/brouwersdam-cup-2019-0713/uitslagen/brouwersdam-cup-2019-0713-slalom-overall.json |
 | NK Course 2019 | Raceboard | fleet_racing | 20 | Paul van der Sluijs | partial | gecontroleerd | archive/nl/2019/nk-course-2019/uitslagen/nk-2019-course-raceboard.json |
 | NK Course 2019 | Shortboard | fleet_racing | 29 | Huig-Jan Tak | partial | gecontroleerd | archive/nl/2019/nk-course-2019/uitslagen/nk-2019-course-shortboard.json |
 | NK Slalom 2019 - stop 1 | NK Windsurf Slalom 2019 - Mannen | elimination | 34 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop1/uitslagen/nk-2019-stop1-slalom-heren.json |
@@ -82,6 +124,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | NK Slalom 2019 - stop 2 (finale) | Dames | elimination | 6 | Esther de Geus | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-dames.json |
 | NK Slalom 2019 - stop 2 (finale) | Heren | elimination | 32 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-heren.json |
 | NK Slalom 2019 - stop 2 (finale) | Jeugd | elimination | 19 | Jakob Kooij | complete | gecontroleerd | archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-jeugd.json |
+| Regiocup, 29 september 2019 | Overall | fleet_racing | 31 | Ingmar Daldorf | partial | gecontroleerd | archive/nl/2019/regiocup-2019-0929/uitslagen/regiocup-2019-0929-slalom-overall.json |
 | Ronde om Texel 2019 | Windsurf | long_distance | 39 | Thomas Goyard | complete | gecontroleerd | archive/nl/2019/ronde-om-texel-2019/uitslagen/ronde-om-texel-2019-long-distance-windsurf.json |
 | The Real Trip 2019 | Kids -14 jongens A | fleet_racing | 13 | Skip Brull | complete | gecontroleerd | archive/nl/2019/the-real-trip-2019/uitslagen/the-real-trip-2019-short-course-kids-14-jongens-a.json |
 | The Real Trip 2019 | Kids -14 jongens B | fleet_racing | 6 | Finn Brull | complete | gecontroleerd | archive/nl/2019/the-real-trip-2019/uitslagen/the-real-trip-2019-short-course-kids-14-jongens-b.json |
@@ -101,9 +144,6 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
 | NK Slalom 2020 | Dames | elimination | 5 | Femke van de Veen | complete | gecontroleerd | archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-dames.json |
-| NK Slalom 2020 | Fun Foil Dames | elimination | 5 | Fabienne Hoogendam | complete | gecontroleerd | archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-dames.json |
-| NK Slalom 2020 | Fun Foil Heren | elimination | 20 | Ethan Westera | complete | gecontroleerd | archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-heren.json |
-| NK Slalom 2020 | Fun Foil Jeugd | elimination | 14 | Koen Hessel | complete | gecontroleerd | archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-jeugd.json |
 | NK Slalom 2020 | Heren | elimination | 20 | Jordy Vonk | complete | gecontroleerd | archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-heren.json |
 | NK Slalom 2020 | Jeugd | elimination | 14 | Max Baaijen | complete | gecontroleerd | archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-jeugd.json |
 
@@ -112,10 +152,9 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
 | NK Slalom 2021 | Dames | elimination | 10 | Femke van der Veen | complete | gecontroleerd | archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-dames.json |
-| NK Slalom 2021 | FUN Men oktober | elimination | 29 | Cyril Evrard | complete | gecontroleerd | archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-fun-heren-oktober.json |
-| NK Slalom 2021 | Fun Women oktober | elimination | 9 | Anne Steenbrink | complete | gecontroleerd | archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-fun-dames-oktober.json |
 | NK Slalom 2021 | Heren | elimination | 15 | Jordy Vonk | complete | gecontroleerd | archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-heren.json |
 | NK Slalom 2021 | Jeugd | elimination | 27 | Kas de Wolf | complete | gecontroleerd | archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-jeugd.json |
+| Regiocup, 31 oktober 2021 | Overall | fleet_racing | 34 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2021/regiocup-2021-1031/uitslagen/regiocup-2021-1031-slalom-overall.json |
 
 ## nl / 2022
 
@@ -211,6 +250,11 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **wacht**: inbox/bulk/2018/07 - One Hour Classic/Resultaat/classificaslalom-2018-definitivafinaleok.pdf (internationaal: bron bewaard, nog niet omgezet (fase 1 is Nederland))
 - **wacht**: inbox/bulk/2019/06 - Foil formula worlds/Resultaat/results.pdf (internationaal: bron bewaard, nog niet omgezet (fase 1 is Nederland))
 - **wacht**: inbox/bulk/2019/06 - Slalom Worlds/Resultaat/Overallresults-2019-IFCA-SLALOM-WORLDS-SYLT-10-06-2019-13_26_FINAL.pdf (internationaal: bron bewaard, nog niet omgezet (fase 1 is Nederland))
+- **overgeslagen**: Windtulip 139: page-data (totaal + eliminaties) (fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet)
+- **overgeslagen**: Windtulip 140: page-data (totaal + eliminaties) (fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet)
+- **overgeslagen**: Windtulip 141: page-data (totaal + eliminaties) (fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet)
+- **overgeslagen**: Windtulip 166: page-data (totaal + eliminaties) (fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet)
+- **overgeslagen**: Windtulip 167: page-data (totaal + eliminaties) (fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet)
 - **overgeslagen**: inbox/los/Results — The Real Trip_files/MarkerCluster.Default.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
 - **overgeslagen**: inbox/los/Results — The Real Trip_files/MarkerCluster.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
 - **overgeslagen**: inbox/los/Results — The Real Trip_files/blazor.server.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
@@ -407,8 +451,30 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: inbox/los/single elimination.xls (rekenblad met heatverdeling en puntentelling voor een enkele eliminatie; geen uitslag)
 - **overgeslagen**: inbox/los/gouwzee2000.doc (brief van Adri Keet aan het bestuur van de Gouwzee Surfpool (mei 1998); persoonlijke correspondentie, geen uitslag)
 - **overgeslagen**: inbox/los/master_results_06.doc (erelijst van Adri Keet op een IFCA-formulier (2005); geen uitslag. Gebruikt als aanwijzing voor NK Funboard 1998 en WK Formula 2000.)
+- **overgeslagen**: inbox/los/NK Formula - Eindstand na Makkum - 2009_files/athena.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/NK Formula - Eindstand na Makkum - 2009_files/banner-styles.css (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/NK Formula - Eindstand na Makkum - 2009_files/bundle-playback.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/NK Formula - Eindstand na Makkum - 2009_files/iconochive.css (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/NK Formula - Eindstand na Makkum - 2009_files/ruffle.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/NK Formula - Eindstand na Makkum - 2009_files/wombat.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall Results NK Slalom 2009_files/athena.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall Results NK Slalom 2009_files/banner-styles.css (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall Results NK Slalom 2009_files/bundle-playback.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall Results NK Slalom 2009_files/iconochive.css (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall Results NK Slalom 2009_files/ruffle.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall Results NK Slalom 2009_files/wombat.js.download (paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **gedeeltelijk**: inbox/los/506286637_23982038981428030_2791796573000128466_n.jpg (foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py; alleen de rangschikking, de punten zijn op de foto niet leesbaar)
+- **overgeslagen**: inbox/los/506537507_23982032361428692_406523382215113511_n.jpg (foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; TUSSENSTAND: 'zilver fleet dagresultaat 25 mei 2013' (8 races, 9 inschrijvingen). Niet apart omgezet: die 8 races zijn de eerste 8 van de eindstand van het weekend (vergeleken, zie de uitslag regiocup-noord-2013-0525-slalom-zilver))
+- **wacht**: inbox/los/66789334_2474572072601365_6435730965154234368_n.jpg (foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; blad 'BROUWERSDAM CUP 2019 - Results are final as of 15:08 on July 14, 2019' met de divisies Guys (> 01-01-2002), Ladies/Girls en Men: 11 deelnemers met tallynummers, 10 races. Aparte vloot naast de slalomuitslag van 22 deelnemers. Nog niet omgezet: de gebruiker beslist of deze vloot in het archief hoort)
+- **wacht**: inbox/los/5ca29eac-43c7-4ab7-8c35-8a876caadafa.pdf (manage2sail-pdf, 'Medemblik Regatta 2019 - RS:X Men - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2))
+- **wacht**: inbox/los/b3815443-50c7-4e8f-948e-af7af93c3a4d.pdf (manage2sail-pdf, 'Medemblik Regatta 2019 - RS:X Women - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2))
+- **wacht**: inbox/los/52f0a5e2-09d7-43fa-b795-65b4f01449ff.pdf (manage2sail-pdf, 'Medemblik Regatta 2019 - RS:X 8.5 U19 - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2))
+- **wacht**: inbox/los/f301ea01-a50b-43d7-a517-080ab01f08a9.pdf (manage2sail-pdf, 'Medemblik Regatta 2019 - Windfoil Surfing - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2))
+- **overgeslagen**: inbox/los/NK-windsurfen-Slalom-2019-Heren.pdf (DUBBEL: zelfde uitslag als het Windtulip-dashboard dat al is verwerkt (NK Windsurf Slalom 2019 v2, afgedrukt 22-09-2019). Niet opnieuw omgezet; pdf 'Total results: Heren - NK Windsurf Slalom 2019 v2 - 22-09-2019 12:12': 32 regels met totaal en netto; in dezelfde volgorde gelijk aan de bestaande uitslag uit Windtulip)
+- **overgeslagen**: inbox/los/NK-windsurfen-Slalom-2019-Dames.pdf (DUBBEL: zelfde uitslag als het Windtulip-dashboard dat al is verwerkt (NK Windsurf Slalom 2019 v2, afgedrukt 22-09-2019). Niet opnieuw omgezet; pdf 'Total results: Dames - NK Windsurf Slalom 2019 v2 - 22-09-2019 12:13': 6 regels met totaal en netto; in dezelfde volgorde gelijk aan de bestaande uitslag uit Windtulip)
+- **overgeslagen**: inbox/los/NK-windsurfen-Slalom-2019-Jeugd.pdf (DUBBEL: zelfde uitslag als het Windtulip-dashboard dat al is verwerkt (NK Windsurf Slalom 2019 v2, afgedrukt 22-09-2019). Niet opnieuw omgezet; pdf 'Total results: Jeugd - NK Windsurf Slalom 2019 v2 - 22-09-2019 12:28': 19 regels met totaal en netto; in dezelfde volgorde gelijk aan de bestaande uitslag uit Windtulip)
 
-**Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 10× nl, totaal 147.
+**Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 15× nl, totaal 152.
 
 ## Kalender: geplande wedstrijden zonder uitslag
 
@@ -543,4 +609,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 702 bron(nen), 234 verwerkt._
+_Registry: 754 bron(nen), 254 verwerkt._

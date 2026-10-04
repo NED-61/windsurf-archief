@@ -1,0 +1,480 @@
+{
+ "schema_version": 1,
+ "id": "north-sea-cup-2015-course-formula",
+ "event": {
+  "name": "North Sea Cup 2015",
+  "scope": "nl",
+  "series": "North Sea Cup",
+  "year": 2015,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Formula",
+  "class_label_published": "Formula fleet",
+  "equipment": "formula"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R6",
+   "R7"
+  ],
+  "discards": 0,
+  "races_to_count": 3,
+  "scoring_system": "Appendix A (Sailwave); de punten bij DNF, DNC, OCS en BFD staan in de bron"
+ },
+ "source": {
+  "name": "509415523_24035144852784109_4457451926474028525_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2015/north-sea-cup-2015/bronnen/509415523_24035144852784109_4457451926474028525_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "23 riders (bron: Entries 23); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; per race komt elke plaats één keer voor (of gedeeld met gemiddelde punten)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een foto; 23 riders, 3 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "dennis-littel",
+   "sail": "NED 13",
+   "name": "Dennis Littel",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 3.0,
+   "net": 3.0
+  },
+  {
+   "rank": 2,
+   "person": "arvidas-moliusis",
+   "sail": "LTU 789",
+   "name": "Arvidas Moliusis",
+   "nationality": "LTU",
+   "division": "Men",
+   "points": [
+    5.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 3,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    2.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 14.0,
+   "net": 14.0
+  },
+  {
+   "rank": 4,
+   "person": "giedrius-liutkus",
+   "sail": "LTU 11",
+   "name": "Giedrius Liutkus",
+   "nationality": "LTU",
+   "division": "Men",
+   "points": [
+    9.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 15.0,
+   "net": 15.0
+  },
+  {
+   "rank": 5,
+   "person": "malthe-elholm-jensen",
+   "sail": "DEN 96",
+   "name": "Malthe Elholm Jensen",
+   "nationality": "DEN",
+   "division": "Youth",
+   "points": [
+    3.0,
+    9.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 24.0,
+   "net": 24.0
+  },
+  {
+   "rank": 6,
+   "person": "james-briggs",
+   "sail": "GBR 91",
+   "name": "James Briggs",
+   "nationality": "GBR",
+   "division": "Men",
+   "points": [
+    8.0,
+    10.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 25.0,
+   "net": 25.0
+  },
+  {
+   "rank": 7,
+   "person": "twan-verseput",
+   "sail": "NED 127",
+   "name": "Twan Verseput",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    6.0,
+    11.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 27.0,
+   "net": 27.0
+  },
+  {
+   "rank": 8,
+   "person": "tim-gibson",
+   "sail": "GBR 40",
+   "name": "Tim Gibson",
+   "nationality": "GBR",
+   "division": "Men",
+   "points": [
+    12.0,
+    7.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 27.0,
+   "net": 27.0
+  },
+  {
+   "rank": 9,
+   "person": "arne-debeuf",
+   "sail": "BEL 96",
+   "name": "Arne Debeuf",
+   "nationality": "BEL",
+   "division": "Youth",
+   "points": [
+    14.0,
+    5.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 28.0,
+   "net": 28.0
+  },
+  {
+   "rank": 10,
+   "person": "ennio-dal-pont",
+   "sail": "NED 46",
+   "name": "Ennio Dal Pont",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    13.0,
+    8.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 11,
+   "person": "marc-de-jong",
+   "sail": "NED 100",
+   "name": "Marc de Jong",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    24.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [],
+   "total": 33.0,
+   "net": 33.0
+  },
+  {
+   "rank": 12,
+   "person": "thom-vd-sande",
+   "sail": "NED 184",
+   "name": "Thom van de Sande",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    10.0,
+    12.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 35.0,
+   "net": 35.0
+  },
+  {
+   "rank": 13,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    24.0,
+    24.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF"
+   },
+   "discarded": [],
+   "total": 50.0,
+   "net": 50.0
+  },
+  {
+   "rank": 14,
+   "person": "pieter-bartlema",
+   "sail": "NED 77",
+   "name": "Pieter Bartlema",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    4.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 52.0,
+   "net": 52.0
+  },
+  {
+   "rank": 15,
+   "person": "werner-goebol",
+   "sail": "GER 809",
+   "name": "Werner Goebol",
+   "nationality": "GER",
+   "division": "Men",
+   "points": [
+    7.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 55.0,
+   "net": 55.0
+  },
+  {
+   "rank": 16,
+   "person": "maurits-franken",
+   "sail": "NED 38",
+   "name": "Maurits Franken",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    11.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 59.0,
+   "net": 59.0
+  },
+  {
+   "rank": 17,
+   "person": "maximilian-voss",
+   "sail": "GER 232",
+   "name": "Maximilian Voss",
+   "nationality": "GER",
+   "division": "Youth",
+   "points": [
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  },
+  {
+   "rank": 17,
+   "person": "erik-smeets",
+   "sail": "NED 222",
+   "name": "Erik Smeets",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  },
+  {
+   "rank": 17,
+   "person": "jan-de-jonge",
+   "sail": "NED 787",
+   "name": "Jan de Jonge",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  },
+  {
+   "rank": 17,
+   "person": "nick-de-ruyter",
+   "sail": "NED 183",
+   "name": "Nick de Ruyter",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  },
+  {
+   "rank": 17,
+   "person": "max-baaijen",
+   "sail": "NED 61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  },
+  {
+   "rank": 17,
+   "person": "james-battye",
+   "sail": "GBR 939",
+   "name": "James Battye",
+   "nationality": "GBR",
+   "division": "Youth",
+   "points": [
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  },
+  {
+   "rank": 17,
+   "person": "lars-van-someren",
+   "sail": "NED 800",
+   "name": "Lars van Someren",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "OCS",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  }
+ ],
+ "detail": {}
+}

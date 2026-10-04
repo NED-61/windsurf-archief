@@ -1,0 +1,1132 @@
+{
+ "schema_version": 1,
+ "id": "regiocup-zuid-2013-0928-slalom-zilver",
+ "event": {
+  "name": "Regiocup Zuid, 28-29 september 2013",
+  "scope": "nl",
+  "series": "Regiocup Zuid",
+  "year": 2013,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2013-09-28",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Zilver fleet",
+  "class_label_published": "Regiocup Zuid overall 2013 SLALOM Zilver - Regiocup Zuid 2013 Silver eindstand weekend 28 en 29 september 2013",
+  "fleet": "silver"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R14"
+  ],
+  "discards": 3,
+  "races_to_count": 11,
+  "scoring_system": "Appendix A (Sailwave); de punten bij DNF, DNC, OCS en BFD staan in de bron"
+ },
+ "source": {
+  "name": "506487279_23994699700161958_4714537011018218041_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/506487279_23994699700161958_4714537011018218041_n.jpg",
+  "files": [
+   "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/506487279_23994699700161958_4714537011018218041_n.jpg",
+   "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/506051374_23994699696828625_1164103837983876328_n.jpg"
+  ],
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "28 riders (bron: Entries 28); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; per race komt elke plaats één keer voor (of gedeeld met gemiddelde punten)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een foto; 28 riders, 14 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "steven-de-geus",
+   "sail": "NED 171",
+   "name": "Steven de Geus",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    1.0,
+    2.0,
+    5.0,
+    2.0,
+    3.0,
+    4.0,
+    2.0,
+    1.0,
+    6.0,
+    1.0,
+    3.0,
+    1.0,
+    6.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    9,
+    13
+   ],
+   "total": 39.0,
+   "net": 22.0
+  },
+  {
+   "rank": 2,
+   "person": "william-potigny",
+   "sail": "BEL 56",
+   "name": "William Potigny",
+   "nationality": "BEL",
+   "division": "onder 20",
+   "points": [
+    3.0,
+    1.0,
+    1.0,
+    3.0,
+    1.0,
+    23.0,
+    4.0,
+    2.0,
+    4.0,
+    3.0,
+    2.0,
+    11.0,
+    11.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R6": "BFD"
+   },
+   "discarded": [
+    6,
+    12,
+    13
+   ],
+   "total": 70.0,
+   "net": 25.0
+  },
+  {
+   "rank": 3,
+   "person": "sven-daldorf",
+   "sail": "NED 141",
+   "name": "Sven Daldorf",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    4.0,
+    3.0,
+    7.0,
+    1.0,
+    2.0,
+    1.0,
+    1.0,
+    3.0,
+    2.0,
+    8.0,
+    4.0,
+    5.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    10,
+    14
+   ],
+   "total": 52.0,
+   "net": 31.0
+  },
+  {
+   "rank": 4,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL 26",
+   "name": "Andrea Vanhoorne",
+   "nationality": "BEL",
+   "division": "Dames",
+   "points": [
+    5.0,
+    4.0,
+    4.0,
+    5.0,
+    6.0,
+    6.0,
+    8.0,
+    6.0,
+    5.0,
+    4.0,
+    7.0,
+    3.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    7,
+    11
+   ],
+   "total": 71.0,
+   "net": 50.0
+  },
+  {
+   "rank": 5,
+   "person": "xavier-pauwels",
+   "sail": "BEL 88",
+   "name": "Xavier Pauwels",
+   "nationality": "BEL",
+   "division": "Heren",
+   "points": [
+    10.0,
+    17.0,
+    23.0,
+    23.0,
+    8.0,
+    10.0,
+    9.0,
+    4.0,
+    1.0,
+    2.0,
+    1.0,
+    2.0,
+    1.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    4
+   ],
+   "total": 114.0,
+   "net": 51.0
+  },
+  {
+   "rank": 6,
+   "person": "vincent-valkenaers",
+   "sail": "BEL 62",
+   "name": "Vincent Valkenaers",
+   "nationality": "BEL",
+   "division": "onder 20",
+   "points": [
+    6.0,
+    8.0,
+    3.0,
+    4.0,
+    4.0,
+    2.0,
+    5.0,
+    5.0,
+    3.0,
+    12.0,
+    10.0,
+    10.0,
+    2.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    10,
+    11,
+    14
+   ],
+   "total": 89.0,
+   "net": 52.0
+  },
+  {
+   "rank": 7,
+   "person": "thom-vd-sande",
+   "sail": "NED 1",
+   "name": "Thom van de Sande",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    7.0,
+    9.0,
+    9.0,
+    7.0,
+    11.0,
+    5.0,
+    6.0,
+    13.0,
+    7.0,
+    9.0,
+    5.0,
+    6.0,
+    7.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    5,
+    8
+   ],
+   "total": 110.0,
+   "net": 77.0
+  },
+  {
+   "rank": 8,
+   "person": "damian-holleman",
+   "sail": "NED t1",
+   "name": "Damian Holleman",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    11.0,
+    6.0,
+    23.0,
+    9.0,
+    7.0,
+    23.0,
+    3.0,
+    10.0,
+    9.0,
+    14.0,
+    11.0,
+    9.0,
+    10.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R3": "BFD",
+    "R6": "BFD"
+   },
+   "discarded": [
+    3,
+    6,
+    10
+   ],
+   "total": 152.0,
+   "net": 92.0
+  },
+  {
+   "rank": 9,
+   "person": "florian-verhaegen",
+   "sail": "BEL 125",
+   "name": "Florian Verhaegen",
+   "nationality": "BEL",
+   "division": "onder 20",
+   "points": [
+    2.0,
+    23.0,
+    2.0,
+    8.0,
+    14.0,
+    3.0,
+    12.0,
+    7.0,
+    10.0,
+    17.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R2": "BFD",
+    "R11": "BFD",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    11,
+    12,
+    13
+   ],
+   "total": 214.0,
+   "net": 127.0
+  },
+  {
+   "rank": 10,
+   "person": "nagui-daen",
+   "sail": "BEL 881",
+   "name": "Nagui Daen",
+   "nationality": "BEL",
+   "division": "onder 20",
+   "points": [
+    8.0,
+    5.0,
+    8.0,
+    6.0,
+    5.0,
+    7.0,
+    23.0,
+    23.0,
+    17.0,
+    11.0,
+    14.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R7": "DNF",
+    "R8": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    12,
+    13,
+    14
+   ],
+   "total": 214.0,
+   "net": 127.0
+  },
+  {
+   "rank": 11,
+   "person": "ennio-dal-pont",
+   "sail": null,
+   "name": "Ennio del Pont",
+   "sail_published": "e",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    14.0,
+    13.0,
+    11.0,
+    10.0,
+    12.0,
+    12.0,
+    11.0,
+    8.0,
+    18.0,
+    13.0,
+    15.0,
+    13.0,
+    13.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    9,
+    11
+   ],
+   "total": 175.0,
+   "net": 128.0
+  },
+  {
+   "rank": 12,
+   "person": "morgan-van-cleven",
+   "sail": "BEL 23",
+   "name": "Morgan van Cleven",
+   "nationality": "BEL",
+   "division": "Dames",
+   "points": [
+    9.0,
+    7.0,
+    13.0,
+    11.0,
+    13.0,
+    13.0,
+    15.0,
+    23.0,
+    20.0,
+    29.0,
+    18.0,
+    15.0,
+    16.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R8": "DNF",
+    "R10": "DNF"
+   },
+   "discarded": [
+    8,
+    9,
+    10
+   ],
+   "total": 212.0,
+   "net": 140.0
+  },
+  {
+   "rank": 13,
+   "person": "pieter-tyberghien",
+   "sail": "BEL 54",
+   "name": "Pieter Tyberghien",
+   "nationality": "BEL",
+   "division": "Heren",
+   "points": [
+    19.0,
+    14.0,
+    10.0,
+    15.0,
+    16.0,
+    9.0,
+    7.0,
+    11.0,
+    19.0,
+    18.0,
+    16.0,
+    16.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    9,
+    10
+   ],
+   "total": 198.0,
+   "net": 142.0
+  },
+  {
+   "rank": 14,
+   "person": "yuri-palmkoeck",
+   "sail": "NED 737",
+   "name": "Yuri Palmkoeck",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    23.0,
+    11.0,
+    23.0,
+    13.0,
+    9.0,
+    8.0,
+    10.0,
+    9.0,
+    11.0,
+    16.0,
+    29.0,
+    29.0,
+    18.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R1": "BFD",
+    "R3": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    11,
+    12,
+    14
+   ],
+   "total": 238.0,
+   "net": 151.0
+  },
+  {
+   "rank": 15,
+   "person": "kimberly-vercammen",
+   "sail": "BEL 16",
+   "name": "Kimberly Vercammen",
+   "nationality": "BEL",
+   "division": "Dames",
+   "points": [
+    13.0,
+    12.0,
+    12.0,
+    12.0,
+    15.0,
+    11.0,
+    23.0,
+    23.0,
+    14.0,
+    29.0,
+    17.0,
+    17.0,
+    17.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R7": "DNF",
+    "R8": "DNF",
+    "R10": "DNF"
+   },
+   "discarded": [
+    7,
+    8,
+    10
+   ],
+   "total": 231.0,
+   "net": 156.0
+  },
+  {
+   "rank": 16,
+   "person": "esther-de-geus",
+   "sail": "NED x11",
+   "name": "Esther de Geus",
+   "nationality": "NED",
+   "division": "Dames",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    8.0,
+    5.0,
+    8.0,
+    7.0,
+    9.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 274.0,
+   "net": 187.0
+  },
+  {
+   "rank": 17,
+   "person": "johan-vente",
+   "sail": "NED 5",
+   "name": "Johan Vente",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    13.0,
+    6.0,
+    9.0,
+    12.0,
+    12.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 295.0,
+   "net": 208.0
+  },
+  {
+   "rank": 18,
+   "person": "bart-de-malsche",
+   "sail": "BEL 32",
+   "name": "Bart de Malsche",
+   "nationality": "BEL",
+   "division": "Heren",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    12.0,
+    10.0,
+    6.0,
+    4.0,
+    3.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R14": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 296.0,
+   "net": 209.0
+  },
+  {
+   "rank": 19,
+   "person": "maurits-franken",
+   "sail": "NED ljn50",
+   "name": "Maurits Franken",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    16.0,
+    15.0,
+    12.0,
+    8.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 299.0,
+   "net": 212.0
+  },
+  {
+   "rank": 20,
+   "person": "marco-baaijen",
+   "sail": null,
+   "name": "Marco Baaijen",
+   "sail_published": "z",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    16.0,
+    21.0,
+    23.0,
+    16.0,
+    10.0,
+    15.0,
+    23.0,
+    23.0,
+    29.0,
+    29.0,
+    29.0,
+    14.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R7": "DNF",
+    "R8": "DNF",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    9,
+    10,
+    11
+   ],
+   "total": 306.0,
+   "net": 219.0
+  },
+  {
+   "rank": 21,
+   "person": "maximilian-voss",
+   "sail": "GER 232",
+   "name": "Max Voss",
+   "nationality": "GER",
+   "division": "onder 20",
+   "points": [
+    23.0,
+    15.0,
+    23.0,
+    14.0,
+    17.0,
+    16.0,
+    13.0,
+    14.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R3": "DNF",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    9,
+    10,
+    11
+   ],
+   "total": 309.0,
+   "net": 222.0
+  },
+  {
+   "rank": 22,
+   "person": "luuc-van-opzeeland",
+   "sail": "NED L1",
+   "name": "Luuc van Opzeeland",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    15.0,
+    7.0,
+    13.0,
+    18.0,
+    15.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 313.0,
+   "net": 226.0
+  },
+  {
+   "rank": 23,
+   "person": "kay-pallenberg",
+   "sail": "GER x13",
+   "name": "Kay Pallenberg",
+   "nationality": "GER",
+   "division": "Heren",
+   "points": [
+    17.0,
+    16.0,
+    23.0,
+    17.0,
+    18.0,
+    23.0,
+    14.0,
+    12.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R6": "DNF",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    9,
+    10,
+    11
+   ],
+   "total": 314.0,
+   "net": 227.0
+  },
+  {
+   "rank": 24,
+   "person": "renee-vonk",
+   "sail": "NED 11",
+   "name": "René Vonk",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    12.0,
+    10.0,
+    6.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF",
+    "R7": "DNF",
+    "R8": "DNF",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    9,
+    10,
+    11
+   ],
+   "total": 317.0,
+   "net": 230.0
+  },
+  {
+   "rank": 25,
+   "person": "max-baaijen",
+   "sail": null,
+   "name": "Max Baaijen",
+   "sail_published": "h",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    15.0,
+    18.0,
+    14.0,
+    18.0,
+    23.0,
+    14.0,
+    23.0,
+    23.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R5": "DNF",
+    "R7": "DNF",
+    "R8": "DNF",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    9,
+    10,
+    11
+   ],
+   "total": 322.0,
+   "net": 235.0
+  },
+  {
+   "rank": 26,
+   "person": "lutz-kleist",
+   "sail": null,
+   "name": "Lutz Kleist",
+   "sail_published": "+",
+   "nationality": "GER",
+   "division": "onder 20",
+   "points": [
+    18.0,
+    19.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF",
+    "R7": "DNF",
+    "R8": "DNF",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    9,
+    10,
+    11
+   ],
+   "total": 349.0,
+   "net": 262.0
+  },
+  {
+   "rank": 27,
+   "person": "christian-brunstein",
+   "sail": "NED 576",
+   "name": "Christian Brunstein",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    23.0,
+    20.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    23.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF",
+    "R7": "DNF",
+    "R8": "DNF",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    9,
+    10,
+    11
+   ],
+   "total": 355.0,
+   "net": 268.0
+  },
+  {
+   "rank": 28,
+   "person": "floris-franken",
+   "sail": "NED 9999",
+   "name": "Floris Franken",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNF",
+    "R10": "DNF",
+    "R11": "DNF",
+    "R12": "DNF",
+    "R13": "DNF",
+    "R14": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 406.0,
+   "net": 319.0
+  }
+ ],
+ "detail": {}
+}

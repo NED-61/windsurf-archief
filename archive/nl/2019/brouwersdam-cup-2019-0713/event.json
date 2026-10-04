@@ -1,0 +1,25 @@
+{
+ "event_slug": "brouwersdam-cup-2019-0713",
+ "scope": "nl",
+ "name": "Brouwersdam Cup, 13-14 juli 2019",
+ "series": "Brouwersdam Cup",
+ "year": 2019,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2019-07-13",
+ "date_end": "2019-07-14",
+ "location": "Brouwersdam",
+ "discipline": "slalom",
+ "classes": [
+  "brouwersdam-cup-2019-0713-slalom-overall",
+  "brouwersdam-cup-2019-0713-foil-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Brouwersdam Cup 2019' (Event Date 2019-07-13, 22 deelnemers, 10 races, gepubliceerd zondag 14 juli 2019 15:46) en 'Brouwersdam Cup 2019 Foil' (7 deelnemers, 2 races, gepubliceerd zaterdag 13 juli 15:01). Locatie afgeleid uit de naam.",
+  "Het foilblad is van zaterdagmiddag; of er zondag nog foilraces zijn gevaren staat niet in de bron. Daarom als tussenstand opgenomen.",
+  "Er is een derde blad van 14 juli 2019 ('BROUWERSDAM CUP 2019 - Results are final as of 15:08') met de divisies Guys (> 01-01-2002), Ladies/Girls en Men: 11 deelnemers met tallynummers, grotendeels zonder zeilnummer. Dat is een aparte vloot. Nog niet omgezet: de gebruiker beslist of die vloot in het archief hoort."
+ ],
+ "short_name": "Brouwersdam Cup 13 juli 2019"
+}

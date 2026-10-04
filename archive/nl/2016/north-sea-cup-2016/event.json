@@ -1,0 +1,24 @@
+{
+ "event_slug": "north-sea-cup-2016",
+ "scope": "nl",
+ "name": "North Sea Cup 2016",
+ "series": "North Sea Cup",
+ "year": 2016,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2016-04-23",
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "north-sea-cup-2016-course-formula",
+  "north-sea-cup-2016-course-raceboard",
+  "north-sea-cup-2016-course-bic-techno"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'North Sea Cup 2016 - Results are provisional as of 16:57 on April 23, 2016' (Sailwave): Formula, Raceboard en Bic Techno. TUSSENSTAND: het blad zegt zelf 'provisional' en is van zaterdag 23 april; of er op zondag 24 april nog gevaren is en wat de eindstand is, staat niet in de bron. De locatie staat niet in de bron.",
+  "Scope nl op aanwijzing van de gebruiker (4 oktober 2026)."
+ ]
+}

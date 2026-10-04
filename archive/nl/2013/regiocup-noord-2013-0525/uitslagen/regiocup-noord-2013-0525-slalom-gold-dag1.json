@@ -1,0 +1,402 @@
+{
+ "schema_version": 1,
+ "id": "regiocup-noord-2013-0525-slalom-gold-dag1",
+ "event": {
+  "name": "Regiocup Noord, 25-26 mei 2013",
+  "scope": "nl",
+  "series": "Regiocup Noord",
+  "year": 2013,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2013-05-25",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Gold fleet, dagresultaat 25 mei",
+  "class_label_published": "Regiocup Noord 2013 SLALOM Gold - Regiocup gold fleet dagresultaat 25-05-2013",
+  "fleet": "gold"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7"
+  ],
+  "discards": 1,
+  "races_to_count": 6,
+  "scoring_system": "Appendix A (Sailwave); de punten bij DNF, DNC, OCS en BFD staan in de bron"
+ },
+ "source": {
+  "name": "506312640_23982032438095351_6452318968156623304_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2013/regiocup-noord-2013-0525/bronnen/506312640_23982032438095351_6452318968156623304_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "14 riders (bron: Entries 14); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; per race komt elke plaats één keer voor (of gedeeld met gemiddelde punten)"
+ },
+ "coverage": "partial",
+ "subranking_of": "regiocup-noord-2013-0525-slalom-gold",
+ "provisional": true,
+ "provisional_note": "Dagresultaat van zaterdag 25 mei 2013 (7 races). De eindstand van het weekend (16 races) staat in regiocup-noord-2013-0525-slalom-gold, maar daarvan zijn de punten niet leesbaar.",
+ "notes": [
+  "Overgetikt van een foto; 14 riders, 7 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "NED 2",
+   "name": "Adriaan van Rijsselberghe",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    1.0,
+    5.0,
+    15.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 25.0,
+   "net": 10.0
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    2.0,
+    3.0,
+    1.0,
+    3.0,
+    15.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R5": "BFD"
+   },
+   "discarded": [
+    5
+   ],
+   "total": 28.0,
+   "net": 13.0
+  },
+  {
+   "rank": 3,
+   "person": "nikaj-droop",
+   "sail": "NED 647",
+   "name": "Nikaj Droop",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    3.0,
+    1.0,
+    2.0,
+    4.0,
+    4.0,
+    3.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R7": "DNF"
+   },
+   "discarded": [
+    7
+   ],
+   "total": 32.0,
+   "net": 17.0
+  },
+  {
+   "rank": 4,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    4.0,
+    4.0,
+    3.0,
+    6.0,
+    2.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 28.0,
+   "net": 22.0
+  },
+  {
+   "rank": 5,
+   "person": "klaas-sybrand-jissink",
+   "sail": "NED 42",
+   "name": "Klaas Sybrand Jissink",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    5.0,
+    6.0,
+    15.0,
+    2.0,
+    3.0,
+    6.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R3": "BFD"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 40.0,
+   "net": 25.0
+  },
+  {
+   "rank": 6,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    6.0,
+    2.0,
+    15.0,
+    5.0,
+    6.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 45.0,
+   "net": 30.0
+  },
+  {
+   "rank": 7,
+   "person": "tomas-van-zelst",
+   "sail": "NED 28",
+   "name": "Tomas van Zelst",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    7.0,
+    8.0,
+    4.0,
+    7.0,
+    5.0,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 42.0,
+   "net": 34.0
+  },
+  {
+   "rank": 8,
+   "person": "bram-zijlstra",
+   "sail": "NED 150",
+   "name": "Bram Zijlstra",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    9.0,
+    12.0,
+    6.0,
+    12.0,
+    9.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 64.0,
+   "net": 52.0
+  },
+  {
+   "rank": 9,
+   "person": "wolfgang-draschner",
+   "sail": "GER 3333",
+   "name": "Wolfgang Draschner",
+   "nationality": "GER",
+   "division": "heren",
+   "points": [
+    8.0,
+    10.0,
+    15.0,
+    11.0,
+    8.0,
+    10.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 69.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "twan-verseput",
+   "sail": "NED 127",
+   "name": "Twan Verseput",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    13.0,
+    13.0,
+    7.0,
+    9.0,
+    7.0,
+    11.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 70.0,
+   "net": 57.0
+  },
+  {
+   "rank": 11,
+   "person": "nico-wierstra",
+   "sail": "NED 81",
+   "name": "Nico Wierstra",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    10.0,
+    9.0,
+    5.0,
+    8.0,
+    15.0,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R5": "BFD",
+    "R6": "DNF",
+    "R7": "DNF"
+   },
+   "discarded": [
+    5
+   ],
+   "total": 77.0,
+   "net": 62.0
+  },
+  {
+   "rank": 12,
+   "person": "danny-kater",
+   "sail": null,
+   "name": "Danny Kater",
+   "sail_published": "X",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    12.0,
+    7.0,
+    15.0,
+    10.0,
+    15.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R3": "BFD",
+    "R5": "BFD"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 77.0,
+   "net": 62.0
+  },
+  {
+   "rank": 13,
+   "person": "friedhelm-hagendorn",
+   "sail": "GER 46",
+   "name": "Friedhelm Hagendorn",
+   "nationality": "GER",
+   "division": "heren",
+   "points": [
+    14.0,
+    14.0,
+    8.0,
+    15.0,
+    10.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 85.0,
+   "net": 70.0
+  },
+  {
+   "rank": 14,
+   "person": "bas-mulder",
+   "sail": "NED 82",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "heren",
+   "points": [
+    11.0,
+    11.0,
+    15.0,
+    15.0,
+    15.0,
+    13.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 91.0,
+   "net": 76.0
+  }
+ ],
+ "detail": {}
+}

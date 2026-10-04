@@ -1,0 +1,25 @@
+{
+ "event_slug": "regiocup-noord-2013-0525",
+ "scope": "nl",
+ "name": "Regiocup Noord, 25-26 mei 2013",
+ "series": "Regiocup Noord",
+ "year": 2013,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2013-05-25",
+ "date_end": "2013-05-26",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-noord-2013-0525-slalom-gold-dag1",
+  "regiocup-noord-2013-0525-slalom-zilver",
+  "regiocup-noord-2013-0525-slalom-gold"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Regiocup Noord 2013 SLALOM Gold' en 'regiocup Noord 2013 SLALOM Zilver', eindstand weekend 25 en 26 mei 2013 (Sailwave, afgedrukt 26-5-2013). De locatie staat niet in de bron.",
+  "Van de gold fleet is de foto van de eindstand te onscherp om de punten te lezen: alleen de rangschikking is overgenomen. Het dagresultaat van 25 mei (7 races) is wel leesbaar en staat erbij als tussenstand."
+ ],
+ "short_name": "Regiocup Noord 25 mei 2013"
+}

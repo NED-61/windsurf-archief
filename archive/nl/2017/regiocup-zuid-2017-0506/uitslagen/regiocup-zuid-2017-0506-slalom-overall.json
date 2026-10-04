@@ -1,0 +1,870 @@
+{
+ "schema_version": 1,
+ "id": "regiocup-zuid-2017-0506-slalom-overall",
+ "event": {
+  "name": "Regiocup Zuid, 6-7 mei 2017",
+  "scope": "nl",
+  "series": "Regiocup Zuid",
+  "year": 2017,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2017-05-06",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 1,
+  "races_to_count": 3,
+  "scoring_system": "punten per race over meerdere heats; winnaar 0.7; codes met de punten zoals gepubliceerd"
+ },
+ "source": {
+  "name": "513689637_24106496582315602_7289290210188307867_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2017/regiocup-zuid-2017-0506/bronnen/513689637_24106496582315602_7289290210188307867_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "39 riders (bron: Entries 39); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; gelijke punten binnen een race komen voor (meerdere heats of vloten): niet op unieke plaatsen gecontroleerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een foto; 39 riders, 4 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Het blad heeft geen titel; welke wedstrijd het is komt van de gebruiker (zie event.json).",
+  "Bij een naam met het eigen zeilnummer erachter ('Erwin van Logchem (NED760)') staat dat nummer in sail, de zeilnummerkolom van het blad in sail_published en de volledige cel in name_published."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "NED2",
+   "name": "Adriaan van Rijsselberghe",
+   "division": "men",
+   "points": [
+    0.7,
+    6.0,
+    2.0,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 9.4,
+   "net": 3.4
+  },
+  {
+   "rank": 2,
+   "person": "coen-swijnenburg",
+   "sail": "NED262",
+   "name": "Coen Swijnenburg",
+   "division": "men",
+   "points": [
+    2.0,
+    0.7,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 8.7,
+   "net": 5.7
+  },
+  {
+   "rank": 3,
+   "person": "ennio-dal-pont",
+   "sail": "NED46",
+   "name": "Ennio dal Pont",
+   "division": "men",
+   "points": [
+    4.0,
+    4.0,
+    0.7,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 10.7,
+   "net": 6.7
+  },
+  {
+   "rank": 4,
+   "person": "jakob-kooij",
+   "sail": "NED99",
+   "name": "Jacob Kooij",
+   "division": "men",
+   "points": [
+    3.0,
+    3.0,
+    8.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 18.0,
+   "net": 10.0
+  },
+  {
+   "rank": 5,
+   "person": "marco-van-der-leer",
+   "sail": "NED207",
+   "name": "Marco van der Leer",
+   "division": "men",
+   "points": [
+    8.0,
+    5.0,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 23.0,
+   "net": 15.0
+  },
+  {
+   "rank": 6,
+   "person": "peter-mulder",
+   "sail": "NED95",
+   "name": "Peter Mulder",
+   "division": "men",
+   "points": [
+    5.0,
+    7.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 22.0,
+   "net": 15.0
+  },
+  {
+   "rank": 7,
+   "person": "bas-mulder",
+   "sail": "NED92",
+   "name": "Bas Mulder",
+   "division": "men",
+   "points": [
+    9.0,
+    2.0,
+    6.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 29.0,
+   "net": 17.0
+  },
+  {
+   "rank": 8,
+   "person": "mark-tjon",
+   "sail": "ARU7",
+   "name": "Mark Tjon",
+   "division": "men",
+   "points": [
+    6.0,
+    9.0,
+    7.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 31.0,
+   "net": 22.0
+  },
+  {
+   "rank": 9,
+   "person": "vincent-jansen",
+   "sail": "NED199",
+   "name": "Vincent Jansen",
+   "division": "men",
+   "points": [
+    7.0,
+    11.0,
+    11.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 36.0,
+   "net": 25.0
+  },
+  {
+   "rank": 10,
+   "person": "robin-koeleman",
+   "sail": "NED144",
+   "name": "Robin Koeleman",
+   "division": "men",
+   "points": [
+    11.0,
+    8.0,
+    9.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 38.0,
+   "net": 27.0
+  },
+  {
+   "rank": 11,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL26",
+   "name": "Andrea Vanhoorne",
+   "division": "woman",
+   "points": [
+    10.0,
+    10.0,
+    10.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 38.0,
+   "net": 28.0
+  },
+  {
+   "rank": 12,
+   "person": "vincent-valkenaers",
+   "sail": "BEL62",
+   "name": "Vincent Valkenaers",
+   "division": "men",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 48.0,
+   "net": 36.0
+  },
+  {
+   "rank": 13,
+   "person": "martijn-van-noord",
+   "sail": "NED703",
+   "name": "Martijn van Noord",
+   "division": "men",
+   "points": [
+    14.0,
+    14.0,
+    13.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 57.0,
+   "net": 41.0
+  },
+  {
+   "rank": 14,
+   "person": "max-baaijen",
+   "sail": "NED61",
+   "name": "Max Baaijen",
+   "division": "men",
+   "points": [
+    25.0,
+    13.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 66.0,
+   "net": 41.0
+  },
+  {
+   "rank": 15,
+   "person": "robert-de-leeuw",
+   "sail": "NED118",
+   "name": "Robert de Leeuw",
+   "division": "men",
+   "points": [
+    16.0,
+    25.0,
+    16.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 70.0,
+   "net": 45.0
+  },
+  {
+   "rank": 16,
+   "person": "milan-kuppens",
+   "sail": "NED169",
+   "name": "Milan Kuppens",
+   "division": "men",
+   "points": [
+    15.0,
+    16.0,
+    18.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 64.0,
+   "net": 46.0
+  },
+  {
+   "rank": 17,
+   "person": "bjorn-droop",
+   "sail": "NED220",
+   "name": "Bjorn Droop",
+   "division": "men",
+   "points": [
+    13.0,
+    18.0,
+    20.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 76.0,
+   "net": 51.0
+  },
+  {
+   "rank": 18,
+   "person": "pepijn-den-boer",
+   "sail": "NED276",
+   "name": "Pepijn den Boer",
+   "division": "men",
+   "points": [
+    17.0,
+    17.0,
+    21.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 73.0,
+   "net": 52.0
+  },
+  {
+   "rank": 19,
+   "person": "max-swijnenburg",
+   "sail": null,
+   "name": "Max Swijnenburg",
+   "sail_published": "X",
+   "division": "men",
+   "points": [
+    25.0,
+    15.0,
+    15.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 80.0,
+   "net": 55.0
+  },
+  {
+   "rank": 20,
+   "person": "arnout-den-boer",
+   "sail": "NED1008",
+   "name": "Arnoud den Boer",
+   "division": "men",
+   "points": [
+    19.0,
+    19.0,
+    19.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 74.0,
+   "net": 55.0
+  },
+  {
+   "rank": 21,
+   "person": "sehmi-kost",
+   "sail": null,
+   "name": "Sehmi Kost",
+   "sail_published": "oo",
+   "division": "men",
+   "points": [
+    20.0,
+    25.0,
+    22.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 86.0,
+   "net": 61.0
+  },
+  {
+   "rank": 22,
+   "person": "damian-holleman",
+   "sail": "NED294",
+   "name": "Damian Holleman",
+   "division": "men",
+   "points": [
+    25.0,
+    20.0,
+    17.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 87.0,
+   "net": 62.0
+  },
+  {
+   "rank": 23,
+   "person": "ronald-vd-poel",
+   "sail": "NED21",
+   "name": "Ronald van der Poel",
+   "division": "men",
+   "points": [
+    18.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 93.0,
+   "net": 68.0
+  },
+  {
+   "rank": 24,
+   "person": "peter-marinelli",
+   "sail": "NED771",
+   "name": "Peter Marinelli",
+   "division": "men",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 100.0,
+   "net": 75.0
+  },
+  {
+   "rank": 25,
+   "person": "bart-valke",
+   "sail": null,
+   "name": "Bart Valke",
+   "sail_published": "i",
+   "division": "men",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 100.0,
+   "net": 75.0
+  },
+  {
+   "rank": 26,
+   "person": "joost-van-vucht",
+   "sail": "NED247",
+   "name": "Joost van Vucht",
+   "division": "men",
+   "points": [
+    28.0,
+    26.0,
+    26.0,
+    28.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 108.0,
+   "net": 80.0
+  },
+  {
+   "rank": 27,
+   "person": "dennis-de-pauw",
+   "sail": "BEL19",
+   "name": "Dennis De Pauw",
+   "division": "men",
+   "points": [
+    39.0,
+    27.0,
+    27.0,
+    26.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 119.0,
+   "net": 80.0
+  },
+  {
+   "rank": 28,
+   "person": "erik-smeets",
+   "sail": "NED222",
+   "name": "Erik Smeets",
+   "division": "men",
+   "points": [
+    32.0,
+    39.0,
+    28.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 126.0,
+   "net": 87.0
+  },
+  {
+   "rank": 29,
+   "person": "fabienne-hoogendam",
+   "sail": "NED223",
+   "name": "Fabienne Hoogendam",
+   "division": "woman",
+   "points": [
+    30.0,
+    28.0,
+    31.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 118.0,
+   "net": 87.0
+  },
+  {
+   "rank": 30,
+   "person": "romy-anne-reenders",
+   "sail": "NED190",
+   "name": "Romy Reenders",
+   "division": "woman",
+   "points": [
+    31.0,
+    29.0,
+    30.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 120.0,
+   "net": 89.0
+  },
+  {
+   "rank": 31,
+   "person": "fabian-van-stijn",
+   "sail": "NED34",
+   "name": "Fabian van Stijn",
+   "division": "men",
+   "points": [
+    27.0,
+    39.0,
+    29.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 134.0,
+   "net": 95.0
+  },
+  {
+   "rank": 32,
+   "person": "iris-gimpel",
+   "sail": null,
+   "name": "Iris Gimpel",
+   "sail_published": "---",
+   "division": "woman",
+   "points": [
+    33.0,
+    39.0,
+    32.0,
+    31.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 135.0,
+   "net": 96.0
+  },
+  {
+   "rank": 33,
+   "person": "erwin-van-logchem",
+   "sail": "NED760",
+   "name": "Erwin van Logchem",
+   "name_published": "Erwin van Logchem (NED760)",
+   "sail_published": "NED22",
+   "division": "men",
+   "points": [
+    26.0,
+    39.0,
+    39.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 143.0,
+   "net": 104.0
+  },
+  {
+   "rank": 34,
+   "person": "arie-de-bie",
+   "sail": null,
+   "name": "Arie de Bie",
+   "sail_published": "A",
+   "division": "men",
+   "points": [
+    34.0,
+    39.0,
+    33.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 145.0,
+   "net": 106.0
+  },
+  {
+   "rank": 35,
+   "person": "bob-rietbergen",
+   "sail": "NED277",
+   "name": "Bob Rietbergen",
+   "name_published": "Bob Rietbergen (NED277)",
+   "sail_published": "V",
+   "division": "men",
+   "points": [
+    29.0,
+    39.0,
+    39.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 146.0,
+   "net": 107.0
+  },
+  {
+   "rank": 36,
+   "person": "luca-reenders",
+   "sail": "NED269",
+   "name": "Luca Reenders",
+   "division": "men",
+   "points": [
+    35.0,
+    39.0,
+    39.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 152.0,
+   "net": 113.0
+  },
+  {
+   "rank": 37,
+   "person": "marco-baaijen",
+   "sail": "NED461",
+   "name": "Marco Baaijen",
+   "division": "men",
+   "points": [
+    36.0,
+    39.0,
+    39.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 153.0,
+   "net": 114.0
+  },
+  {
+   "rank": 38,
+   "person": "jeanine-de-ruiter",
+   "sail": "F2",
+   "name": "Jeanine de Ruiter",
+   "division": "woman",
+   "points": [
+    39.0,
+    39.0,
+    39.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 156.0,
+   "net": 117.0
+  },
+  {
+   "rank": 39,
+   "person": "mattia-dal-pont",
+   "sail": "NED161",
+   "name": "Mattia dal Pont",
+   "division": "men",
+   "points": [
+    39.0,
+    39.0,
+    39.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 156.0,
+   "net": 117.0
+  }
+ ],
+ "detail": {}
+}

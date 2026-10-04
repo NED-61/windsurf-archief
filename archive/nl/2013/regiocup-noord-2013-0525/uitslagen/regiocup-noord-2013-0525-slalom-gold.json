@@ -1,0 +1,287 @@
+{
+ "schema_version": 1,
+ "id": "regiocup-noord-2013-0525-slalom-gold",
+ "event": {
+  "name": "Regiocup Noord, 25-26 mei 2013",
+  "scope": "nl",
+  "series": "Regiocup Noord",
+  "year": 2013,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2013-05-25",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Gold fleet",
+  "class_label_published": "Regiocup Noord 2013 SLALOM Gold - Regiocup gold fleet Eindstand weekend 25 en 26 mei 2013",
+  "fleet": "gold"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9",
+   "R10",
+   "R11",
+   "R12",
+   "R13",
+   "R14",
+   "R15",
+   "R16"
+  ],
+  "discards": 4,
+  "races_to_count": 12,
+  "scoring_system": "Appendix A (Sailwave); de punten bij DNF, DNC, OCS en BFD staan in de bron",
+  "points_published": true,
+  "points_transcribed": false
+ },
+ "source": {
+  "name": "506286637_23982038981428030_2791796573000128466_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2013/regiocup-noord-2013-0525/bronnen/506286637_23982038981428030_2791796573000128466_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "plaats, naam, zeilnummer en divisie overgetikt van de foto; de punten zijn niet leesbaar",
+  "metadata_sources": [],
+  "verified": "22 riders (bron: Entries 22); plaatsen 1 t/m 22 doorlopend; geen dubbele namen; punten, totaal en netto NIET overgenomen en dus niet nagerekend (foto 480 x 640 pixels, cijfers niet betrouwbaar leesbaar); alle 14 riders van het dagresultaat van 25 mei staan in deze eindstand"
+ },
+ "coverage": "partial",
+ "coverage_note": "Alleen de rangschikking: de punten per race, het totaal en het netto zijn op de foto niet leesbaar.",
+ "notes": [
+  "Eindstand van het weekend: 'Sailed: 16, Discards: 4, To count: 12, Entries: 22'. De foto is te klein (480 x 640 pixels) om de punten per race, het totaal en het netto betrouwbaar te lezen; die zijn daarom leeg gelaten. Plaats, naam, zeilnummer en divisie zijn wel leesbaar (namen vergeleken met het dagresultaat en met andere uitslagen van 2013).",
+  "De punten van de eerste 7 races staan in het dagresultaat van 25 mei (regiocup-noord-2013-0525-slalom-gold-dag1). Een scherpere foto of het Sailwave-bestand maakt deze uitslag compleet.",
+  "Zeilnummercel 'X' bij Danny Kater staat in sail_published. 'Marc Fokkinga' (2411) op plaats 22 is slecht leesbaar."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "NED 2",
+   "name": "Adriaan van Rijsselberghe",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 3,
+   "person": "klaas-sybrand-jissink",
+   "sail": "NED 42",
+   "name": "Klaas Sybrand Jissink",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 4,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "division": "onder 20",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 5,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 6,
+   "person": "tomas-van-zelst",
+   "sail": "NED 28",
+   "name": "Tomas van Zelst",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 7,
+   "person": "wolfgang-draschner",
+   "sail": "GER 3333",
+   "name": "Wolfgang Draschner",
+   "nationality": "GER",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 8,
+   "person": "danny-kater",
+   "sail": null,
+   "name": "Danny Kater",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null,
+   "sail_published": "X"
+  },
+  {
+   "rank": 9,
+   "person": "nico-wierstra",
+   "sail": "NED 81",
+   "name": "Nico Wierstra",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 10,
+   "person": "bram-zijlstra",
+   "sail": "NED 150",
+   "name": "Bram Zijlstra",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 11,
+   "person": "dirk-doppenberg",
+   "sail": "NED 51",
+   "name": "Dirk Doppenberg",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 12,
+   "person": "twan-verseput",
+   "sail": "NED 127",
+   "name": "Twan Verseput",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 13,
+   "person": "adri-keet",
+   "sail": "NED 34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 14,
+   "person": "nikaj-droop",
+   "sail": "NED 647",
+   "name": "Nikaj Droop",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 15,
+   "person": "bas-mulder",
+   "sail": "NED 82",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 16,
+   "person": "friedhelm-hagendorn",
+   "sail": "GER 46",
+   "name": "Friedhelm Hagendorn",
+   "nationality": "GER",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 17,
+   "person": "sam-wennekes",
+   "sail": "NED 823",
+   "name": "Sam Wennekes",
+   "nationality": "NED",
+   "division": "onder 20",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 18,
+   "person": "john-munten",
+   "sail": "NED 30",
+   "name": "John Munten",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 19,
+   "person": "sven-daldorf",
+   "sail": "NED 141",
+   "name": "Sven Daldorf",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 20,
+   "person": "steven-de-geus",
+   "sail": "NED 171",
+   "name": "Steven de Geus",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 21,
+   "person": "anton-geesink",
+   "sail": "NED 53",
+   "name": "Anton Geesink",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 22,
+   "person": "marc-fokkinga",
+   "sail": "NED 2411",
+   "name": "Marc Fokkinga",
+   "nationality": "NED",
+   "division": "heren",
+   "total": null,
+   "net": null,
+   "flag": "naam slecht leesbaar op de foto"
+  }
+ ],
+ "detail": {}
+}

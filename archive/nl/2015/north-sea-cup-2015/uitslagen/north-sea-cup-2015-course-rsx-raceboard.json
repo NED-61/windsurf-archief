@@ -1,0 +1,393 @@
+{
+ "schema_version": 1,
+ "id": "north-sea-cup-2015-course-rsx-raceboard",
+ "event": {
+  "name": "North Sea Cup 2015",
+  "scope": "nl",
+  "series": "North Sea Cup",
+  "year": 2015,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "RSX - Raceboard",
+  "class_label_published": "RSX - Raceboard"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R8"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "Appendix A (Sailwave); de punten bij DNF, DNC, OCS en BFD staan in de bron"
+ },
+ "source": {
+  "name": "508657095_24035144932784101_2547258961076444722_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2015/north-sea-cup-2015/bronnen/508657095_24035144932784101_2547258961076444722_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "14 riders (bron: Entries 14); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; per race komt elke plaats één keer voor (of gedeeld met gemiddelde punten)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een foto; 14 riders, 6 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "sam-wennekes",
+   "sail": "NED 823",
+   "name": "Sam Wennekes",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    2.0,
+    1.0,
+    1.0,
+    6.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 16.0,
+   "net": 10.0
+  },
+  {
+   "rank": 2,
+   "person": "patric-roelandts",
+   "sail": "BEL 10",
+   "name": "Patric Roelandts",
+   "nationality": "BEL",
+   "division": "Men",
+   "equipment": "Raceboard",
+   "points": [
+    5.0,
+    3.0,
+    6.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 17.0,
+   "net": 11.0
+  },
+  {
+   "rank": 3,
+   "person": "huig-jan-tak",
+   "sail": "NED 465",
+   "name": "Huig-Jan Tak",
+   "nationality": "NED",
+   "division": "Men",
+   "equipment": "RSX",
+   "points": [
+    4.0,
+    2.0,
+    2.0,
+    7.0,
+    14.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R5": "DNF"
+   },
+   "discarded": [
+    5
+   ],
+   "total": 31.0,
+   "net": 17.0
+  },
+  {
+   "rank": 4,
+   "person": "max-van-der-storm",
+   "sail": "NED 116",
+   "name": "Max van der Storm",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    3.0,
+    4.0,
+    5.0,
+    2.0,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 24.0,
+   "net": 18.0
+  },
+  {
+   "rank": 5,
+   "person": "wout-lingier",
+   "sail": "BEL 102",
+   "name": "Wout Lingier",
+   "nationality": "BEL",
+   "division": "Youth",
+   "equipment": "Raceboard",
+   "points": [
+    6.0,
+    5.0,
+    7.0,
+    3.0,
+    2.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 31.0,
+   "net": 23.0
+  },
+  {
+   "rank": 6,
+   "person": "joris-van-essen",
+   "sail": "NED 1111",
+   "name": "Joris van Essen",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    1.0,
+    11.0,
+    3.0,
+    5.0,
+    14.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R5": "DNF"
+   },
+   "discarded": [
+    5
+   ],
+   "total": 41.0,
+   "net": 27.0
+  },
+  {
+   "rank": 7,
+   "person": "ramon-stolk",
+   "sail": "NED 250",
+   "name": "Ramon Stolk",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    8.0,
+    6.0,
+    4.0,
+    10.0,
+    14.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R5": "DNF"
+   },
+   "discarded": [
+    5
+   ],
+   "total": 46.0,
+   "net": 32.0
+  },
+  {
+   "rank": 8,
+   "person": "luuc-van-opzeeland",
+   "sail": "NED 1999",
+   "name": "Luuc van Opzeeland",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    11.0,
+    8.0,
+    10.0,
+    4.0,
+    14.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R5": "OCS"
+   },
+   "discarded": [
+    5
+   ],
+   "total": 52.0,
+   "net": 38.0
+  },
+  {
+   "rank": 9,
+   "person": "mateo-salles",
+   "sail": "MEX 5",
+   "name": "Mateo Salles",
+   "nationality": "MEX",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    9.0,
+    9.0,
+    8.0,
+    11.0,
+    6.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 53.0,
+   "net": 42.0
+  },
+  {
+   "rank": 10,
+   "person": "elias-jonniaux",
+   "sail": "BEL 60",
+   "name": "Elias Jonniaux",
+   "nationality": "BEL",
+   "division": "Youth",
+   "equipment": "Raceboard",
+   "points": [
+    10.0,
+    13.0,
+    12.0,
+    8.0,
+    5.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 57.0,
+   "net": 44.0
+  },
+  {
+   "rank": 11,
+   "person": "sara-wennekes",
+   "sail": "NED 203",
+   "name": "Sara Wennekes",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "girls": true,
+   "points": [
+    7.0,
+    7.0,
+    9.0,
+    9.0,
+    14.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R5": "OCS",
+    "R8": "DNC"
+   },
+   "discarded": [
+    6
+   ],
+   "total": 61.0,
+   "net": 46.0
+  },
+  {
+   "rank": 12,
+   "person": "aimee-vant-hoff",
+   "sail": "NED 218",
+   "name": "Aimée van't Hoff",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "girls": true,
+   "points": [
+    12.0,
+    10.0,
+    11.0,
+    13.0,
+    7.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 64.0,
+   "net": 51.0
+  },
+  {
+   "rank": 13,
+   "person": "ivo-bosscher",
+   "sail": "NED 383",
+   "name": "Ivo Bosscher",
+   "nationality": "NED",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    14.0,
+    12.0,
+    13.0,
+    12.0,
+    8.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 71.0,
+   "net": 57.0
+  },
+  {
+   "rank": 14,
+   "person": "arne-debeuf",
+   "sail": "BEL 96",
+   "name": "Arne Debeuf 1",
+   "nationality": "BEL",
+   "division": "Youth",
+   "equipment": "RSX",
+   "points": [
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 90.0,
+   "net": 75.0
+  }
+ ],
+ "detail": {}
+}

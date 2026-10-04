@@ -1,0 +1,583 @@
+{
+ "schema_version": 1,
+ "id": "north-sea-cup-2015-course-bic-techno",
+ "event": {
+  "name": "North Sea Cup 2015",
+  "scope": "nl",
+  "series": "North Sea Cup",
+  "year": 2015,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Bic Techno",
+  "class_label_published": "Bic Techno fleet",
+  "equipment": "Bic Techno 293"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R8"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "Appendix A (Sailwave); de punten bij DNF, DNC, OCS en BFD staan in de bron"
+ },
+ "source": {
+  "name": "510105362_24035144816117446_2099025753109527442_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2015/north-sea-cup-2015/bronnen/510105362_24035144816117446_2099025753109527442_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "23 riders (bron: Entries 23); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; per race komt elke plaats één keer voor (of gedeeld met gemiddelde punten)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een foto; 23 riders, 6 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jim-van-someren",
+   "sail": "NED 600",
+   "name": "Jim van Someren",
+   "nationality": "NED",
+   "division": "U17",
+   "points": [
+    2.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 7.0,
+   "net": 5.0
+  },
+  {
+   "rank": 2,
+   "person": "thomas-broucke",
+   "sail": "BEL 39",
+   "name": "Thomas Broucke",
+   "nationality": "BEL",
+   "division": "U17",
+   "points": [
+    1.0,
+    2.0,
+    2.0,
+    4.0,
+    2.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 17.0,
+   "net": 11.0
+  },
+  {
+   "rank": 3,
+   "person": "erin-watson",
+   "sail": "GBR 3071",
+   "name": "Erin Watson",
+   "nationality": "GBR",
+   "division": "U17",
+   "girls": true,
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    2.0,
+    3.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 17.0,
+   "net": 13.0
+  },
+  {
+   "rank": 4,
+   "person": "jona-kuhlmann",
+   "sail": "GER 944",
+   "name": "Jona Kuhlmann",
+   "nationality": "GER",
+   "division": "U17",
+   "points": [
+    8.0,
+    4.0,
+    3.0,
+    3.0,
+    7.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 34.0,
+   "net": 25.0
+  },
+  {
+   "rank": 5,
+   "person": "jan-stockmans",
+   "sail": "BEL 98",
+   "name": "Jan Stockmans",
+   "nationality": "BEL",
+   "division": "Open",
+   "points": [
+    6.0,
+    8.0,
+    7.0,
+    6.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 35.0,
+   "net": 27.0
+  },
+  {
+   "rank": 6,
+   "person": "joost-vink",
+   "sail": "NED 148",
+   "name": "Joost Vink",
+   "nationality": "NED",
+   "division": "U15",
+   "points": [
+    7.0,
+    5.0,
+    10.0,
+    5.0,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 39.0,
+   "net": 29.0
+  },
+  {
+   "rank": 7,
+   "person": "islay-watson",
+   "sail": "GBR 3072",
+   "name": "Islay Watson",
+   "nationality": "GBR",
+   "division": "U17",
+   "girls": true,
+   "points": [
+    11.0,
+    7.0,
+    9.0,
+    7.0,
+    10.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 47.0,
+   "net": 36.0
+  },
+  {
+   "rank": 8,
+   "person": "robin-goddyn",
+   "sail": "BEL 106",
+   "name": "Robin Goddyn",
+   "nationality": "BEL",
+   "division": "U17",
+   "points": [
+    4.0,
+    6.0,
+    5.0,
+    13.0,
+    11.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 49.0,
+   "net": 36.0
+  },
+  {
+   "rank": 9,
+   "person": "lore-dildick",
+   "sail": "BEL 50",
+   "name": "Lore Dildick",
+   "nationality": "BEL",
+   "division": "U17",
+   "girls": true,
+   "points": [
+    5.0,
+    9.0,
+    11.0,
+    9.0,
+    6.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 56.0,
+   "net": 40.0
+  },
+  {
+   "rank": 10,
+   "person": "floris-franken",
+   "sail": "NED 9999",
+   "name": "Floris Franken",
+   "nationality": "NED",
+   "division": "U15",
+   "points": [
+    9.0,
+    11.0,
+    8.0,
+    8.0,
+    9.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 60.0,
+   "net": 45.0
+  },
+  {
+   "rank": 11,
+   "person": "finn-hawkins",
+   "sail": "GBR 3116",
+   "name": "Finn Hawkins",
+   "nationality": "GBR",
+   "division": "U15",
+   "points": [
+    16.0,
+    12.0,
+    6.0,
+    10.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 56.0
+  },
+  {
+   "rank": 12,
+   "person": "luc-schmitz",
+   "sail": "NED 115",
+   "name": "Luc Schmitz",
+   "nationality": "NED",
+   "division": "U15",
+   "points": [
+    14.0,
+    16.0,
+    18.0,
+    14.0,
+    8.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 75.0,
+   "net": 57.0
+  },
+  {
+   "rank": 13,
+   "person": "marina-round",
+   "sail": "GBR 224",
+   "name": "Marina Round",
+   "nationality": "GBR",
+   "division": "U17",
+   "girls": true,
+   "points": [
+    13.0,
+    10.0,
+    12.0,
+    11.0,
+    12.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 71.0,
+   "net": 58.0
+  },
+  {
+   "rank": 14,
+   "person": "gilles-vigneron",
+   "sail": "BEL 134",
+   "name": "Gilles Vigneron",
+   "nationality": "BEL",
+   "division": "U15",
+   "points": [
+    15.0,
+    14.0,
+    13.0,
+    12.0,
+    13.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 75.0,
+   "net": 60.0
+  },
+  {
+   "rank": 15,
+   "person": "vic-louagie",
+   "sail": "BEL 55",
+   "name": "Vic Louagie",
+   "nationality": "BEL",
+   "division": "Open",
+   "points": [
+    10.0,
+    13.0,
+    15.0,
+    15.0,
+    15.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 79.0,
+   "net": 64.0
+  },
+  {
+   "rank": 16,
+   "person": "matteo-vaneygen",
+   "sail": "BEL 196",
+   "name": "Matteo Vaneygen",
+   "nationality": "BEL",
+   "division": "U15",
+   "points": [
+    12.0,
+    15.0,
+    17.0,
+    18.0,
+    17.0,
+    21.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 100.0,
+   "net": 79.0
+  },
+  {
+   "rank": 17,
+   "person": "arden-loncke",
+   "sail": "BEL 136",
+   "name": "Arden Loncke",
+   "nationality": "BEL",
+   "division": "Open",
+   "points": [
+    24.0,
+    18.0,
+    14.0,
+    19.0,
+    19.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 106.0,
+   "net": 82.0
+  },
+  {
+   "rank": 18,
+   "person": "thibault-dhaene",
+   "sail": "BEL 333",
+   "name": "Thibault D'haene",
+   "nationality": "BEL",
+   "division": "U17",
+   "points": [
+    18.0,
+    17.0,
+    24.0,
+    16.0,
+    16.0,
+    17.0
+   ],
+   "race_remarks": {
+    "R3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 108.0,
+   "net": 84.0
+  },
+  {
+   "rank": 19,
+   "person": "brent-caroen",
+   "sail": "BEL 110",
+   "name": "Brent Caroen",
+   "nationality": "BEL",
+   "division": "U15",
+   "points": [
+    17.0,
+    19.0,
+    16.0,
+    21.0,
+    20.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 112.0,
+   "net": 91.0
+  },
+  {
+   "rank": 20,
+   "person": "noor-lingier",
+   "sail": "BEL 182",
+   "name": "Noor Lingier",
+   "nationality": "BEL",
+   "division": "U15",
+   "girls": true,
+   "points": [
+    20.0,
+    24.0,
+    20.0,
+    17.0,
+    18.0,
+    22.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 121.0,
+   "net": 97.0
+  },
+  {
+   "rank": 21,
+   "person": "chanel-beuselinck",
+   "sail": "BEL 117",
+   "name": "Chanel Beuselinck",
+   "nationality": "BEL",
+   "division": "U15",
+   "girls": true,
+   "points": [
+    19.0,
+    21.0,
+    24.0,
+    20.0,
+    24.0,
+    20.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R5": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 128.0,
+   "net": 104.0
+  },
+  {
+   "rank": 22,
+   "person": "jan-dhuyvetter",
+   "sail": "BEL 433",
+   "name": "Jan D'Huyvetter",
+   "nationality": "BEL",
+   "division": "U17",
+   "points": [
+    24.0,
+    24.0,
+    19.0,
+    24.0,
+    24.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R4": "DNF",
+    "R5": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 133.0,
+   "net": 109.0
+  },
+  {
+   "rank": 23,
+   "person": "analy-schoots",
+   "sail": "NED 931",
+   "name": "Analy Schoots",
+   "nationality": "NED",
+   "division": "U17",
+   "girls": true,
+   "points": [
+    24.0,
+    20.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 140.0,
+   "net": 116.0
+  }
+ ],
+ "detail": {}
+}

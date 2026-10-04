@@ -1,0 +1,19 @@
+{
+ "event_slug": "medemblik-regatta-2019",
+ "scope": "internationaal",
+ "name": "Medemblik Regatta 2019",
+ "series": "Medemblik Regatta",
+ "year": 2019,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": "2019-05-25",
+ "location": "Medemblik",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026: vier manage2sail-pdf's 'Overall Results as of 25 MAY 2019' (RS:X Men, RS:X Women, RS:X 8.5 U19, Windfoil Surfing).",
+  "Internationale regatta met een internationaal veld, gevaren in Nederland: scope internationaal (keuze van de gebruiker, 4 oktober 2026). Bron bewaard, nog niet omgezet (fase 2). De begindatum staat niet in de bron."
+ ]
+}

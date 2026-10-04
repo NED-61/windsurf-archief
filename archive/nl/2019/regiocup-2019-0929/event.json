@@ -1,0 +1,23 @@
+{
+ "event_slug": "regiocup-2019-0929",
+ "scope": "nl",
+ "name": "Regiocup, 29 september 2019",
+ "series": "Regiocup",
+ "year": 2019,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": "2019-09-29",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-2019-0929-slalom-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van een scherm (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Regiocup' op regiocup.sbez.nl, 'Published: Sun Sep 29 2019 13:24:41' (onderaan: '© 2018, Regiocup Zuid'): 15 races, 31 deelnemers. De wedstrijddatum en locatie staan niet in beeld; 29 september 2019 is de dag van publicatie. Bij 15 races is er waarschijnlijk ook op zaterdag 28 september gevaren, maar dat staat niet in de bron. Discipline slalom is afgeleid uit de reeks.",
+  "Niet bekend of dit de eindstand is: het scherm is van zondag 13:24. Daarom als tussenstand opgenomen."
+ ],
+ "short_name": "Regiocup 29 sept 2019"
+}

@@ -1,0 +1,452 @@
+{
+ "schema_version": 1,
+ "id": "regiocup-2013-1019-slalom-zilver",
+ "event": {
+  "name": "Regiocup, 19-20 oktober 2013",
+  "scope": "nl",
+  "series": "Regiocup",
+  "year": 2013,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2013-10-19",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Slalom Zilver fleet",
+  "class_label_published": "Regiocup Zuid overall 2013 SLALOM Zilver - Regiocup Overall 2013 slalom Silver fleet overall resultaat 19 en 20 oktober 2013",
+  "fleet": "silver"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 1,
+  "races_to_count": 3,
+  "scoring_system": "Appendix A (Sailwave); de punten bij DNF, DNC, OCS en BFD staan in de bron"
+ },
+ "source": {
+  "name": "506775895_23995700430061885_2055693494376972748_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2013/regiocup-2013-1019/bronnen/506775895_23995700430061885_2055693494376972748_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "17 riders (bron: Entries 17); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; per race komt elke plaats één keer voor (of gedeeld met gemiddelde punten)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een foto; 17 riders, 4 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "harco-jan-folkerts",
+   "sail": "NED 121",
+   "name": "Harco Jan Folkerts",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    1.0,
+    4.0,
+    18.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R3": "DNC"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 24.0,
+   "net": 6.0
+  },
+  {
+   "rank": 2,
+   "person": "bas-mulder",
+   "sail": "NED 82",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 8.0,
+   "net": 6.0
+  },
+  {
+   "rank": 3,
+   "person": "steven-de-geus",
+   "sail": "NED 171",
+   "name": "Steven de Geus",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    5.0,
+    1.0,
+    1.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 12.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "sven-daldorf",
+   "sail": "NED 141",
+   "name": "Sven Daldorf",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    7.0,
+    18.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R2": "DNC",
+    "R3": "BFD"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 35.0,
+   "net": 17.0
+  },
+  {
+   "rank": 5,
+   "person": "maurits-franken",
+   "sail": "NED 358",
+   "name": "Maurits Franken",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    6.0,
+    5.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R3": "BFD"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 23.0,
+   "net": 17.0
+  },
+  {
+   "rank": 6,
+   "person": "hauke-daldorf",
+   "sail": "NED 1411",
+   "name": "Hauke Daldorf",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    4.0,
+    18.0,
+    6.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R2": "DNC",
+    "R3": "BFD",
+    "R4": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 36.0,
+   "net": 18.0
+  },
+  {
+   "rank": 7,
+   "person": "jakob-kooij",
+   "sail": "NED 21",
+   "name": "Jakob Kooij",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    8.0,
+    3.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 47.0,
+   "net": 29.0
+  },
+  {
+   "rank": 8,
+   "person": "marijn-bijl",
+   "sail": "NED 281",
+   "name": "Marijn Bijl",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 57.0,
+   "net": 39.0
+  },
+  {
+   "rank": 9,
+   "person": "bram-zijlstra",
+   "sail": "NED 150",
+   "name": "Bram Zijlstra",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    3.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 57.0,
+   "net": 39.0
+  },
+  {
+   "rank": 10,
+   "person": "jeffrey-spits",
+   "sail": "NED 3221",
+   "name": "Jeffrey Spits",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "erwin-dijkema",
+   "sail": null,
+   "name": "Erwin Dijkema",
+   "sail_published": "XX",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "markus-gickler",
+   "sail": "GER 1177",
+   "name": "Markus Gickler",
+   "nationality": "GER",
+   "division": "Heren",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "mark-dingerdis",
+   "sail": "NED XX1",
+   "name": "Mark Dingerdis",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "maximilian-voss",
+   "sail": "GER 3331",
+   "name": "Max Voss",
+   "nationality": "GER",
+   "division": "onder 20",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "pytrik-arendz",
+   "sail": "NED 602",
+   "name": "Pytrik Arendz",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "peter-mulder",
+   "sail": null,
+   "name": "Peter Mulder",
+   "sail_published": "Y",
+   "nationality": "NED",
+   "division": "onder 20",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "lars-van-straten",
+   "sail": "NED 7",
+   "name": "Lars van Straten",
+   "nationality": "NED",
+   "division": "Heren",
+   "points": [
+    18.0,
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 72.0,
+   "net": 54.0
+  }
+ ],
+ "detail": {}
+}

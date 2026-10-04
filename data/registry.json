@@ -1326,16 +1326,13 @@
    "ref": "https://windtulip.nl/home/results_dashboard/139/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "index",
    "kind": "uitslag",
    "title": "Windtulip 139: NK 2020 - Fun Foil Dames",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "outputs": [
-    "archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-dames.json"
-   ],
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
    "sha256": "420b35e8a9713020b1c8353af6ca75bf44010cd58da65d15b634d7ac5f5ab731",
    "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-139-total_results.page-data.json"
   },
@@ -1343,16 +1340,13 @@
    "ref": "https://windtulip.nl/home/results_dashboard/140/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "index",
    "kind": "uitslag",
    "title": "Windtulip 140: NK 2020 - Fun Foil Heren",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "outputs": [
-    "archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-heren.json"
-   ],
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
    "sha256": "0cd865d189e60f3064effaf2db4e74c9c65a2c33434836e02e8fce229e175c2c",
    "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-140-total_results.page-data.json"
   },
@@ -1360,16 +1354,13 @@
    "ref": "https://windtulip.nl/home/results_dashboard/141/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "index",
    "kind": "uitslag",
    "title": "Windtulip 141: NK 2020 - Fun Foil Jeugd",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "outputs": [
-    "archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-jeugd.json"
-   ],
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
    "sha256": "71f2f9a0ca20646193a505c10afb88327e76cfa29772f8f8bbf6c34ea948e9c8",
    "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-141-total_results.page-data.json"
   },
@@ -1572,16 +1563,13 @@
    "ref": "https://windtulip.nl/home/results_dashboard/166/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "index",
    "kind": "uitslag",
    "title": "Windtulip 166: NK Slalom 2021 - FUN Men oktober",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "outputs": [
-    "archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-fun-heren-oktober.json"
-   ],
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
    "sha256": "6dd16eece9a429a658a0e948ca7c6bf3a8a4b6ae9616c15a2dda120aaa2a2948",
    "archived": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-166-total_results.page-data.json"
   },
@@ -1589,16 +1577,13 @@
    "ref": "https://windtulip.nl/home/results_dashboard/167/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "index",
    "kind": "uitslag",
    "title": "Windtulip 167: NK Slalom 2021 - Fun Women oktober",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "outputs": [
-    "archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-fun-dames-oktober.json"
-   ],
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
    "sha256": "91f753c9ac2a80a454c2d4093f87f1069f55c8d225c6ab7f2072fee13db6291b",
    "archived": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-167-total_results.page-data.json"
   },
@@ -4329,52 +4314,43 @@
    "ref": "inbox/los/windtulip-139-total_results.page-data.json",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "420b35e8a9713020b1c8353af6ca75bf44010cd58da65d15b634d7ac5f5ab731",
    "title": "Windtulip 139: page-data (totaal + eliminaties)",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-139-total_results.page-data.json",
-   "outputs": [
-    "archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-dames.json"
-   ]
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
+   "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-139-total_results.page-data.json"
   },
   {
    "ref": "inbox/los/windtulip-140-total_results.page-data.json",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "0cd865d189e60f3064effaf2db4e74c9c65a2c33434836e02e8fce229e175c2c",
    "title": "Windtulip 140: page-data (totaal + eliminaties)",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-140-total_results.page-data.json",
-   "outputs": [
-    "archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-heren.json"
-   ]
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
+   "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-140-total_results.page-data.json"
   },
   {
    "ref": "inbox/los/windtulip-141-total_results.page-data.json",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "71f2f9a0ca20646193a505c10afb88327e76cfa29772f8f8bbf6c34ea948e9c8",
    "title": "Windtulip 141: page-data (totaal + eliminaties)",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-141-total_results.page-data.json",
-   "outputs": [
-    "archive/nl/2020/nk-slalom-2020/uitslagen/nk-2020-slalom-fun-foil-jeugd.json"
-   ]
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
+   "archived": "archive/nl/2020/nk-slalom-2020/bronnen/windtulip-141-total_results.page-data.json"
   },
   {
    "ref": "inbox/los/windtulip-152-total_results.page-data.json",
@@ -4431,35 +4407,29 @@
    "ref": "inbox/los/windtulip-166-total_results.page-data.json",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "6dd16eece9a429a658a0e948ca7c6bf3a8a4b6ae9616c15a2dda120aaa2a2948",
    "title": "Windtulip 166: page-data (totaal + eliminaties)",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "archived": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-166-total_results.page-data.json",
-   "outputs": [
-    "archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-fun-heren-oktober.json"
-   ]
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
+   "archived": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-166-total_results.page-data.json"
   },
   {
    "ref": "inbox/los/windtulip-167-total_results.page-data.json",
    "received": "2026-10-01",
    "type": "web",
-   "status": "verwerkt",
-   "updated": "2026-10-01",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "91f753c9ac2a80a454c2d4093f87f1069f55c8d225c6ab7f2072fee13db6291b",
    "title": "Windtulip 167: page-data (totaal + eliminaties)",
-   "notes": "verwerkt met tools/import_windtulip.py",
-   "archived": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-167-total_results.page-data.json",
-   "outputs": [
-    "archive/nl/2021/nk-slalom-2021/uitslagen/nk-2021-slalom-fun-dames-oktober.json"
-   ]
+   "notes": "fun-klasse: op verzoek van de gebruiker (4 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet",
+   "archived": "archive/nl/2021/nk-slalom-2021/bronnen/windtulip-167-total_results.page-data.json"
   },
   {
    "ref": "inbox/los/windtulip-168-total_results.page-data.json",
@@ -9878,6 +9848,786 @@
    "notes": "manage2sail-rapport 'United4 Medemblik I - Formula Foil - Overall Results'; bestandsnaam zoals aangeleverd; verwerkt met tools/import_lt.py",
    "outputs": [
     "archive/nl/2026/united4-2026-0418/uitslagen/united4-2026-0418-course-formula-foil.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/NK Formula - Eindstand na Makkum - 2009_files/athena.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "665abecfab1ee7f13557ef74a4a92aba5c7474cbe9811c164ff13a3e9df9151e",
+   "archived": "local-only/nl/2009/nk-course-2009/bronnen/NK Formula - Eindstand na Makkum - 2009_files/athena.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/NK Formula - Eindstand na Makkum - 2009_files/banner-styles.css",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "3e2bb12dd78408c9371fb23c028385d4b4319f32951f23025eacad7c3f9b157a",
+   "archived": "local-only/nl/2009/nk-course-2009/bronnen/NK Formula - Eindstand na Makkum - 2009_files/banner-styles.css",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/NK Formula - Eindstand na Makkum - 2009_files/bundle-playback.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "de18d462387f256091d1a7e68626bdca3ef3d9f453526b70985ed49ddb3a9647",
+   "archived": "local-only/nl/2009/nk-course-2009/bronnen/NK Formula - Eindstand na Makkum - 2009_files/bundle-playback.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/NK Formula - Eindstand na Makkum - 2009_files/iconochive.css",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "103585bfb64e2fef8a7c9db5797cc308c484b7b71f7836bd7038132327c08175",
+   "archived": "local-only/nl/2009/nk-course-2009/bronnen/NK Formula - Eindstand na Makkum - 2009_files/iconochive.css",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/NK Formula - Eindstand na Makkum - 2009_files/ruffle.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "7073661b172eb0b4abdac0de7431d86cfe971a6333d0c757e2b341fabdcd2944",
+   "archived": "local-only/nl/2009/nk-course-2009/bronnen/NK Formula - Eindstand na Makkum - 2009_files/ruffle.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/NK Formula - Eindstand na Makkum - 2009_files/wombat.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "9ccad4ebb5861fe1825c03c1debc52d1014a1b006edb66ef66ff8575874b0a20",
+   "archived": "local-only/nl/2009/nk-course-2009/bronnen/NK Formula - Eindstand na Makkum - 2009_files/wombat.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/Overall Results NK Slalom 2009_files/athena.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "665abecfab1ee7f13557ef74a4a92aba5c7474cbe9811c164ff13a3e9df9151e",
+   "archived": "local-only/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009_files/athena.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/Overall Results NK Slalom 2009_files/banner-styles.css",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "3e2bb12dd78408c9371fb23c028385d4b4319f32951f23025eacad7c3f9b157a",
+   "archived": "local-only/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009_files/banner-styles.css",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/Overall Results NK Slalom 2009_files/bundle-playback.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "de18d462387f256091d1a7e68626bdca3ef3d9f453526b70985ed49ddb3a9647",
+   "archived": "local-only/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009_files/bundle-playback.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/Overall Results NK Slalom 2009_files/iconochive.css",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "103585bfb64e2fef8a7c9db5797cc308c484b7b71f7836bd7038132327c08175",
+   "archived": "local-only/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009_files/iconochive.css",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/Overall Results NK Slalom 2009_files/ruffle.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "7073661b172eb0b4abdac0de7431d86cfe971a6333d0c757e2b341fabdcd2944",
+   "archived": "local-only/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009_files/ruffle.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/Overall Results NK Slalom 2009_files/wombat.js.download",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "9ccad4ebb5861fe1825c03c1debc52d1014a1b006edb66ef66ff8575874b0a20",
+   "archived": "local-only/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009_files/wombat.js.download",
+   "notes": "paginabestand (css/js) van een opgeslagen webpagina; bewaard in local-only/, niet in git"
+  },
+  {
+   "ref": "inbox/los/506286637_23982038981428030_2791796573000128466_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "gedeeltelijk",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "25ff4fdc5d48013c80fea528919331410dc72f6d3bb2a1e4b6e2ffc0275bfd92",
+   "archived": "local-only/nl/2013/regiocup-noord-2013-0525/bronnen/506286637_23982038981428030_2791796573000128466_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py; alleen de rangschikking, de punten zijn op de foto niet leesbaar",
+   "outputs": [
+    "archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-gold.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506312640_23982032438095351_6452318968156623304_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "aa05b631b4909e310df9a1f657c0f21e357a53559a073033efa9062db2c9727e",
+   "archived": "local-only/nl/2013/regiocup-noord-2013-0525/bronnen/506312640_23982032438095351_6452318968156623304_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-gold-dag1.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506537507_23982032361428692_406523382215113511_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "70fd924e7bb83de84f09b3c0b81fe4d0224ad3db939225e364cc0f4581070410",
+   "archived": "local-only/nl/2013/regiocup-noord-2013-0525/bronnen/506537507_23982032361428692_406523382215113511_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; TUSSENSTAND: 'zilver fleet dagresultaat 25 mei 2013' (8 races, 9 inschrijvingen). Niet apart omgezet: die 8 races zijn de eerste 8 van de eindstand van het weekend (vergeleken, zie de uitslag regiocup-noord-2013-0525-slalom-zilver)"
+  },
+  {
+   "ref": "inbox/los/506627557_23982038664761395_7800202540559079293_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "e34939282aac02539cd688587fd75de324fc75b3b1fa8f1419a2761bef9584e7",
+   "archived": "local-only/nl/2013/regiocup-noord-2013-0525/bronnen/506627557_23982038664761395_7800202540559079293_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-zilver.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/505440420_23983018261330102_7453053003974782399_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "173ca73499f4dfca449db8ea2280d085195caa6038bd117ece39937e23d46a7f",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0608/bronnen/505440420_23983018261330102_7453053003974782399_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-zuid-2013-0608/uitslagen/regiocup-zuid-2013-0608-slalom-gold.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/505930963_23983018187996776_2513331977470701602_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "40d7d33abbf1dca2d26bafbcb31af1150044e8c7652be6110e4b4d3ad648e422",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0608/bronnen/505930963_23983018187996776_2513331977470701602_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-zuid-2013-0608/uitslagen/regiocup-zuid-2013-0608-slalom-zilver.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506052987_23994699676828627_3279009539918260013_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "ef85316674218f377d334b4047e5aea1ebcd7375f576b0ec09c07091445578a1",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/506052987_23994699676828627_3279009539918260013_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-zuid-2013-0928/uitslagen/regiocup-zuid-2013-0928-slalom-gold.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506415989_23994699713495290_4164782521621156036_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "69967ad9e6347c3add01cb3f31f37ec6af9dc4af059ce0fb2198d473a9d885e1",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/506415989_23994699713495290_4164782521621156036_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-zuid-2013-0928/uitslagen/regiocup-zuid-2013-0928-slalom-gold.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506487279_23994699700161958_4714537011018218041_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "25a3fef7aa5d64525e5927b6a73a5aa08b2010f85f974273a5fc13dcab5e0df9",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/506487279_23994699700161958_4714537011018218041_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-zuid-2013-0928/uitslagen/regiocup-zuid-2013-0928-slalom-zilver.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506051374_23994699696828625_1164103837983876328_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "21af1b00c117126cd4e5799ff24c99e0a1bceaee142609ad7d5e9130f49504f2",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/506051374_23994699696828625_1164103837983876328_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-zuid-2013-0928/uitslagen/regiocup-zuid-2013-0928-slalom-zilver.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506403512_23995700096728585_7586362706236406023_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "5090b09e41f658a055975bbbf4701c1e2680afa6be0767faeef067f6bb4b94b5",
+   "archived": "local-only/nl/2013/regiocup-2013-1019/bronnen/506403512_23995700096728585_7586362706236406023_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-course-formula.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506455485_23995700110061917_3788334229991090138_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "07fdbc1d5bb8535b481a62012f510d5a528a2092280da305145509f76ff41d58",
+   "archived": "local-only/nl/2013/regiocup-2013-1019/bronnen/506455485_23995700110061917_3788334229991090138_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-young-gun.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506775895_23995700430061885_2055693494376972748_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "048544e5fb0906a97575d83d8c9fd877698957c1d0d0d1219542eec10082813a",
+   "archived": "local-only/nl/2013/regiocup-2013-1019/bronnen/506775895_23995700430061885_2055693494376972748_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-slalom-zilver.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/506876247_23995700403395221_703349636405864474_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "402cc69f5c3ab2e9692763937201639782eee56e4bfd4b1a16271fe609f02fbc",
+   "archived": "local-only/nl/2013/regiocup-2013-1019/bronnen/506876247_23995700403395221_703349636405864474_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2013/regiocup-2013-1019/uitslagen/regiocup-2013-1019-slalom-gold.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/508657095_24035144932784101_2547258961076444722_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "7a69c1d1925cbb87a9385f61be769e2928b4829fcb207901e69e08ff30b7179b",
+   "archived": "local-only/nl/2015/north-sea-cup-2015/bronnen/508657095_24035144932784101_2547258961076444722_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2015/north-sea-cup-2015/uitslagen/north-sea-cup-2015-course-rsx-raceboard.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/509415523_24035144852784109_4457451926474028525_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "60949364bd5686e113a50aefbd1c19aea3258c4f1cacebf7a9972c7839986d2d",
+   "archived": "local-only/nl/2015/north-sea-cup-2015/bronnen/509415523_24035144852784109_4457451926474028525_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2015/north-sea-cup-2015/uitslagen/north-sea-cup-2015-course-formula.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/510105362_24035144816117446_2099025753109527442_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "967282be060f7ab58f86d9f4c67a7290694e0d0025d46170c767ad4211d5925d",
+   "archived": "local-only/nl/2015/north-sea-cup-2015/bronnen/510105362_24035144816117446_2099025753109527442_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2015/north-sea-cup-2015/uitslagen/north-sea-cup-2015-course-bic-techno.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/509210379_24069825639316030_7576563773446496861_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "ae89155f8bfd65fde475c12549e45a4848f10f9929eb26271756cd98c992432e",
+   "archived": "local-only/nl/2016/north-sea-cup-2016/bronnen/509210379_24069825639316030_7576563773446496861_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-bic-techno.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/511491185_24069825645982696_7268772415191176651_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "192da5716a4b5c9bfb646a3f032a5f79f8dfe51a5b85a29860e80645f3980103",
+   "archived": "local-only/nl/2016/north-sea-cup-2016/bronnen/511491185_24069825645982696_7268772415191176651_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-bic-techno.json",
+    "archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-formula.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/511966052_24069825442649383_4480718184267614135_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "6f5873cebb55e96cf6c8516e17ea2e77c5d37a4bb9a0044abb03490fc9d436ec",
+   "archived": "local-only/nl/2016/north-sea-cup-2016/bronnen/511966052_24069825442649383_4480718184267614135_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-formula.json",
+    "archive/nl/2016/north-sea-cup-2016/uitslagen/north-sea-cup-2016-course-raceboard.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/509355586_24038608935771034_7613841319658011464_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "262397b3cf46decfff8ef202694e1d8071b6b154c17a3f3f03d3bc63d873d693",
+   "archived": "local-only/nl/2015/regiocup-2015/bronnen/509355586_24038608935771034_7613841319658011464_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2015/regiocup-2015/uitslagen/regiocup-2015-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/502722192_24052027907762470_1858827152439598451_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "7852d1d41252ea629085b735491ccc919cd2147361b07dd6693f830abbf6fa9d",
+   "archived": "local-only/nl/2015/grevelingencup-2015/bronnen/502722192_24052027907762470_1858827152439598451_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2015/grevelingencup-2015/uitslagen/grevelingencup-2015-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/513689637_24106496582315602_7289290210188307867_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "60f15dafea7a7133f9e288f1eb6eaaf3c0a630f73f58c4c7dfc06687301dd862",
+   "archived": "local-only/nl/2017/regiocup-zuid-2017-0506/bronnen/513689637_24106496582315602_7289290210188307867_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2017/regiocup-zuid-2017-0506/uitslagen/regiocup-zuid-2017-0506-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/514476497_24115649841400276_413205338449390602_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "b8adc2366134621cdbb5e3b384f0c7003ab7b01eb28b957064ae73e186af80ad",
+   "archived": "local-only/nl/2017/regiocup-zuid-2017-0910/bronnen/514476497_24115649841400276_413205338449390602_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2017/regiocup-zuid-2017-0910/uitslagen/regiocup-zuid-2017-0910-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/66759167_2474572182601354_675052409482903552_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "2e405f13615ffcf276057f31f797a89d8fa42ad986b39b811c6fb5d94f8bbf23",
+   "archived": "local-only/nl/2019/brouwersdam-cup-2019-0713/bronnen/66759167_2474572182601354_675052409482903552_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2019/brouwersdam-cup-2019-0713/uitslagen/brouwersdam-cup-2019-0713-foil-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/66779452_2474572059268033_4955416090827030528_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "4ce4453e8a1ed053704176530d60b611301c9055f715c7132869e202e109e4fc",
+   "archived": "local-only/nl/2019/brouwersdam-cup-2019-0713/bronnen/66779452_2474572059268033_4955416090827030528_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2019/brouwersdam-cup-2019-0713/uitslagen/brouwersdam-cup-2019-0713-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/66789334_2474572072601365_6435730965154234368_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "wacht",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "e3776c09095336af3c067426c7ba1645d98167973d5d9594cd6e283a0f1ff008",
+   "archived": "local-only/nl/2019/brouwersdam-cup-2019-0713/bronnen/66789334_2474572072601365_6435730965154234368_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; blad 'BROUWERSDAM CUP 2019 - Results are final as of 15:08 on July 14, 2019' met de divisies Guys (> 01-01-2002), Ladies/Girls en Men: 11 deelnemers met tallynummers, 10 races. Aparte vloot naast de slalomuitslag van 22 deelnemers. Nog niet omgezet: de gebruiker beslist of deze vloot in het archief hoort"
+  },
+  {
+   "ref": "inbox/los/69456663_2562610613797510_7476353012139556864_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "b5148764195b9ebd9961237598d01bdc40225d7e5fd549d7682aa69d193fe0d7",
+   "archived": "local-only/nl/2019/brouwersdam-cup-2019-0901/bronnen/69456663_2562610613797510_7476353012139556864_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2019/brouwersdam-cup-2019-0901/uitslagen/brouwersdam-cup-2019-0901-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/69708380_2562610557130849_6196066855120011264_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "3543cc5e2aee1e28569b1277f44d3c4456609b15d0a5db5419d8cd62132325c5",
+   "archived": "local-only/nl/2019/brouwersdam-cup-2019-0901/bronnen/69708380_2562610557130849_6196066855120011264_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2019/brouwersdam-cup-2019-0901/uitslagen/brouwersdam-cup-2019-0901-foil-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/70939949_2616142581777646_2806804013184450560_n.jpg",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "c7bd39eae5cfeed3acfe3c918d1958fde39d0e8f9e636e7c2db7981f9f9828fa",
+   "archived": "local-only/nl/2019/regiocup-2019-0929/bronnen/70939949_2616142581777646_2806804013184450560_n.jpg",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2019/regiocup-2019-0929/uitslagen/regiocup-2019-0929-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/251359569_4674676649257552_4984127790662875904_n (1).jfif",
+   "received": "2026-10-04",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "7de4aaabc9b279dc440bb05d1bc9019a3219c11378bed4a0962c674d2a104be5",
+   "archived": "local-only/nl/2021/regiocup-2021-1031/bronnen/251359569_4674676649257552_4984127790662875904_n (1).jfif",
+   "notes": "foto van een uitslagenblad (Facebook; maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2021/regiocup-2021-1031/uitslagen/regiocup-2021-1031-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/NK Formula - Eindstand na Makkum - 2009.html",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "bea11959b490da5238bcef5fde9d0a759ad0c4cd9ee5251500d8c3a68529b0f6",
+   "archived": "archive/nl/2009/nk-course-2009/bronnen/NK Formula - Eindstand na Makkum - 2009.html",
+   "notes": "opgeslagen pagina (Ctrl+S) van de Wayback Machine: https://web.archive.org/web/20091021213029/http://www.wedstrijdsurfen.nl/wedstrijdsurfen07/wedstrijdsurfen_FE/index.php?dx=100&ax=900&ix=314&tx=1&px=1&xx=1; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2009/nk-course-2009/uitslagen/nk-2009-course-formula-gold.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/Overall Results NK Slalom 2009.html",
+   "received": "2026-10-04",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "3ce6a8b38f1e5ce57370dc5844378d7225e522aa8a28786da10cf43d63f1cb6e",
+   "archived": "archive/nl/2009/nk-slalom-2009/bronnen/Overall Results NK Slalom 2009.html",
+   "notes": "opgeslagen pagina (Ctrl+S) van de Wayback Machine: https://web.archive.org/web/20091223055257/http://www.wedstrijdsurfen.nl/wedstrijdsurfen07/wedstrijdsurfen_FE/index.php?dx=100&ax=900&ix=317&tx=1&px=1&xx=1; verwerkt met tools/import_regio.py",
+   "outputs": [
+    "archive/nl/2009/nk-slalom-2009/uitslagen/nk-2009-slalom-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/5ca29eac-43c7-4ab7-8c35-8a876caadafa.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "wacht",
+   "updated": "2026-10-04",
+   "scope": "internationaal",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "3a3003dcaee8e6a9578d9d843477cf036f029dc23e074bc7bfa99163f9262ebf",
+   "archived": "archive/internationaal/2019/medemblik-regatta-2019/bronnen/5ca29eac-43c7-4ab7-8c35-8a876caadafa.pdf",
+   "notes": "manage2sail-pdf, 'Medemblik Regatta 2019 - RS:X Men - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2)"
+  },
+  {
+   "ref": "inbox/los/b3815443-50c7-4e8f-948e-af7af93c3a4d.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "wacht",
+   "updated": "2026-10-04",
+   "scope": "internationaal",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "45129b060062e2c3f31edb4f84690a0f919af709a940436c0e5a76f7bde39e23",
+   "archived": "archive/internationaal/2019/medemblik-regatta-2019/bronnen/b3815443-50c7-4e8f-948e-af7af93c3a4d.pdf",
+   "notes": "manage2sail-pdf, 'Medemblik Regatta 2019 - RS:X Women - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2)"
+  },
+  {
+   "ref": "inbox/los/52f0a5e2-09d7-43fa-b795-65b4f01449ff.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "wacht",
+   "updated": "2026-10-04",
+   "scope": "internationaal",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "8a688ca90af3176a5405aaddb392f83a3707990b17bd6cc625821f0af6538ddc",
+   "archived": "archive/internationaal/2019/medemblik-regatta-2019/bronnen/52f0a5e2-09d7-43fa-b795-65b4f01449ff.pdf",
+   "notes": "manage2sail-pdf, 'Medemblik Regatta 2019 - RS:X 8.5 U19 - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2)"
+  },
+  {
+   "ref": "inbox/los/f301ea01-a50b-43d7-a517-080ab01f08a9.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "wacht",
+   "updated": "2026-10-04",
+   "scope": "internationaal",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "1e93be0b90a760a40eca63b7f0cf382aeb191381f3fb906df40f966893af9981",
+   "archived": "archive/internationaal/2019/medemblik-regatta-2019/bronnen/f301ea01-a50b-43d7-a517-080ab01f08a9.pdf",
+   "notes": "manage2sail-pdf, 'Medemblik Regatta 2019 - Windfoil Surfing - Overall Results as of 25 MAY 2019'; internationaal: bron bewaard, nog niet omgezet (fase 2)"
+  },
+  {
+   "ref": "inbox/los/NK-windsurfen-Slalom-2019-Heren.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "89d1b96a564587eac2e3a4bd941d36f8c9bb79fca2f3ac3a1ffd626f295e644b",
+   "archived": "archive/nl/2019/nk-slalom-2019-stop2/bronnen/NK-windsurfen-Slalom-2019-Heren.pdf",
+   "notes": "DUBBEL: zelfde uitslag als het Windtulip-dashboard dat al is verwerkt (NK Windsurf Slalom 2019 v2, afgedrukt 22-09-2019). Niet opnieuw omgezet; pdf 'Total results: Heren - NK Windsurf Slalom 2019 v2 - 22-09-2019 12:12': 32 regels met totaal en netto; in dezelfde volgorde gelijk aan de bestaande uitslag uit Windtulip",
+   "outputs": [
+    "archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-heren.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/NK-windsurfen-Slalom-2019-Dames.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "2aa8e82532742fec0c5267cac43f14f387ffc3f87ccbf45bde8bdc79e35dd430",
+   "archived": "archive/nl/2019/nk-slalom-2019-stop2/bronnen/NK-windsurfen-Slalom-2019-Dames.pdf",
+   "notes": "DUBBEL: zelfde uitslag als het Windtulip-dashboard dat al is verwerkt (NK Windsurf Slalom 2019 v2, afgedrukt 22-09-2019). Niet opnieuw omgezet; pdf 'Total results: Dames - NK Windsurf Slalom 2019 v2 - 22-09-2019 12:13': 6 regels met totaal en netto; in dezelfde volgorde gelijk aan de bestaande uitslag uit Windtulip",
+   "outputs": [
+    "archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-dames.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/NK-windsurfen-Slalom-2019-Jeugd.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "e4ad7ef6ba77c3704f3c8efdeb984306801464e31a94ac1453fb58138c35b944",
+   "archived": "archive/nl/2019/nk-slalom-2019-stop2/bronnen/NK-windsurfen-Slalom-2019-Jeugd.pdf",
+   "notes": "DUBBEL: zelfde uitslag als het Windtulip-dashboard dat al is verwerkt (NK Windsurf Slalom 2019 v2, afgedrukt 22-09-2019). Niet opnieuw omgezet; pdf 'Total results: Jeugd - NK Windsurf Slalom 2019 v2 - 22-09-2019 12:28': 19 regels met totaal en netto; in dezelfde volgorde gelijk aan de bestaande uitslag uit Windtulip",
+   "outputs": [
+    "archive/nl/2019/nk-slalom-2019-stop2/uitslagen/nk-2019-stop2-slalom-jeugd.json"
    ]
   }
  ]

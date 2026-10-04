@@ -1,0 +1,23 @@
+{
+ "event_slug": "regiocup-zuid-2013-0608",
+ "scope": "nl",
+ "name": "Regiocup Zuid, 8-9 juni 2013",
+ "series": "Regiocup Zuid",
+ "year": 2013,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2013-06-08",
+ "date_end": "2013-06-09",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-zuid-2013-0608-slalom-gold",
+  "regiocup-zuid-2013-0608-slalom-zilver"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Regiocup Zuid 2013 SLALOM Gold' en 'Regiocup Zuid overall 2013 SLALOM Zilver', eindstand weekend 8 en 9 juni 2013 (Sailwave). De locatie staat niet in de bron."
+ ],
+ "short_name": "Regiocup Zuid 8 juni 2013"
+}

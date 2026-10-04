@@ -1,0 +1,24 @@
+{
+ "event_slug": "brouwersdam-cup-2019-0901",
+ "scope": "nl",
+ "name": "Brouwersdam Cup, 1 september 2019",
+ "series": "Brouwersdam Cup",
+ "year": 2019,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2019-09-01",
+ "date_end": null,
+ "location": "Brouwersdam",
+ "discipline": "slalom",
+ "classes": [
+  "brouwersdam-cup-2019-0901-slalom-overall",
+  "brouwersdam-cup-2019-0901-foil-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'BROUWERSDAM CUP 2019 - Results are final as of 16:40 on September 1, 2019 - Overall' (Sailwave, 6 races, 13 inschrijvingen) en een tweede blad 'final as of 16:26' met onderschrift FOIL (8 races, 6 inschrijvingen). Locatie afgeleid uit de naam.",
+  "Het slalomblad is één klassement waarin riders met 'Profleet' in de kolom Fleet en riders zonder fleet door elkaar staan; op aanwijzing van de gebruiker is de hele lijst opgenomen, met de fleet per rider."
+ ],
+ "short_name": "Brouwersdam Cup 1 sept 2019"
+}

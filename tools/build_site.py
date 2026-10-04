@@ -450,7 +450,7 @@ def result_page(P, r, ev):
     pre = "../"
     notes = [n for n in r.get("notes", []) if "dubbele spaties" not in n]
     cov = r.get("coverage")
-    warn = '<p class="note warn">Deze uitslag is niet compleet: de bron bevat niet alle deelnemers.</p>' if cov == "partial" else ""
+    warn = f'<p class="note warn">{esc(r.get("coverage_note") or "Deze uitslag is niet compleet: de bron bevat niet alle deelnemers.")}</p>' if cov == "partial" else ""
     if r.get("provisional"):
         warn = f'<p class="note warn">{esc(r.get("provisional_note") or "Dit is een tussenstand, niet de einduitslag.")}</p>'
     ft = r["format"]["type"]
@@ -681,7 +681,7 @@ def stats_page(P, events, results, apps):
 
 <section class="block" id="duel">
   <h2>Onderling</h2>
-  <p>Kies twee riders en zie in welke uitslagen ze allebei stonden en wie er voor eindigde.</p>
+  <p>Kies twee riders en zie in welke uitslagen ze allebei stonden en wie er voor eindigde. Tussenstanden tellen mee en staan er als tussenstand bij.</p>
   <div class="duel-form">
     <div><label for="duel-a">Rider 1</label><input id="duel-a" list="duel-list" autocomplete="off" placeholder="Typ een naam"></div>
     <div><label for="duel-b">Rider 2</label><input id="duel-b" list="duel-list" autocomplete="off" placeholder="Typ een naam"></div>
@@ -785,7 +785,8 @@ def write_js_data(out, P, events, results, apps):
     duel = {"p": {pid: P[pid]["name"] for pid in apps if pid in P},
             "u": {r["id"]: {"t": f'{events[r["_event"]]["name"]}, {class_label(r)}', "y": events[r["_event"]]["year"], "d": events[r["_event"]]["sortdate"],
                             "n": n_counted(r),
-                            "e": {x["person"]: x.get("rank") for x in r["entries"] if x.get("person")}} for r in results.values() if not extra_ranking(r) and not r.get("provisional")}}
+                            "e": {x["person"]: x.get("rank") for x in r["entries"] if x.get("person")},
+                            **({"v": 1} if r.get("provisional") else {})} for r in results.values() if not extra_ranking(r)}}      # v = tussenstand: telt mee, met een aanduiding
     (out / "assets/duel-data.js").write_text("window.DUEL=" + json.dumps(duel, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
 
 

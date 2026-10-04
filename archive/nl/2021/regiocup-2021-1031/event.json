@@ -1,0 +1,22 @@
+{
+ "event_slug": "regiocup-2021-1031",
+ "scope": "nl",
+ "name": "Regiocup, 31 oktober 2021",
+ "series": "Regiocup",
+ "year": 2021,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2021-10-31",
+ "date_end": null,
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-2021-1031-slalom-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als afbeelding van de uitslag (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Regiocup 31-10-2021 - Event Date: 2021-10-31, Competitors: 34, Races: 9 (Fleet A: 9, Fleet B: 7), Discards: 3 - Published: Sun Oct 31 2021 15:31:55'. De locatie staat niet in de bron. Discipline slalom is afgeleid uit de reeks."
+ ],
+ "short_name": "Regiocup 31 okt 2021"
+}

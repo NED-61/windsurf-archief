@@ -1,0 +1,162 @@
+{
+ "schema_version": 1,
+ "id": "brouwersdam-cup-2019-0713-foil-overall",
+ "event": {
+  "name": "Brouwersdam Cup, 13-14 juli 2019",
+  "scope": "nl",
+  "series": "Brouwersdam Cup",
+  "year": 2019,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2019-07-13",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Foil",
+  "class_label_published": "Brouwersdam Cup 2019 Foil",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2"
+  ],
+  "discards": 0,
+  "races_to_count": 2,
+  "scoring_system": "punten per race over meerdere heats; winnaar 0.7; codes met de punten zoals gepubliceerd"
+ },
+ "source": {
+  "name": "66759167_2474572182601354_675052409482903552_n.jpg",
+  "url": null,
+  "file": "local-only/nl/2019/brouwersdam-cup-2019-0713/bronnen/66759167_2474572182601354_675052409482903552_n.jpg",
+  "type": "image",
+  "retrieved": "2026-10-04",
+  "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna per rider som, weglatingen en netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "7 riders (bron: Entries 7); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores; per race komt elke plaats één keer voor (of gedeeld met gemiddelde punten)"
+ },
+ "coverage": "partial",
+ "provisional": true,
+ "provisional_note": "Stand van zaterdag 13 juli 2019 15:01 na 2 races. Niet bekend of er zondag nog foilraces zijn gevaren.",
+ "notes": [
+  "Overgetikt van een foto; 7 riders, 2 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "huig-jan-tak",
+   "sail": "NED 465",
+   "name": "Huig-Jan Tak",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 1.4,
+   "net": 1.4
+  },
+  {
+   "rank": 2,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 5.0,
+   "net": 5.0
+  },
+  {
+   "rank": 3,
+   "person": "bas-mulder",
+   "sail": "NED 92",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    4.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 6.0,
+   "net": 6.0
+  },
+  {
+   "rank": 4,
+   "person": "jakob-kooij",
+   "sail": "NED 99",
+   "name": "Jakob Kooij",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 5,
+   "person": "fabienne-hoogendam",
+   "sail": "NED 223",
+   "name": "Fabienne Hoogendam",
+   "nationality": "NED",
+   "division": "Women",
+   "points": [
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 10.0,
+   "net": 10.0
+  },
+  {
+   "rank": 6,
+   "person": "vincent-jansen",
+   "sail": "NED 199",
+   "name": "Vincent Jansen",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    7.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 7,
+   "person": "peter-mulder",
+   "sail": "NED 95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    6.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  }
+ ],
+ "detail": {}
+}

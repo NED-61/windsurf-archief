@@ -1,0 +1,23 @@
+{
+ "event_slug": "regiocup-zuid-2013-0928",
+ "scope": "nl",
+ "name": "Regiocup Zuid, 28-29 september 2013",
+ "series": "Regiocup Zuid",
+ "year": 2013,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2013-09-28",
+ "date_end": "2013-09-29",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-zuid-2013-0928-slalom-gold",
+  "regiocup-zuid-2013-0928-slalom-zilver"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Regiocup Zuid 2013 SLALOM Gold' en 'Regiocup Zuid overall 2013 SLALOM Zilver', eindresultaat weekend 28 en 29 september 2013 (Sailwave). De locatie staat niet in de bron."
+ ],
+ "short_name": "Regiocup Zuid 28 sept 2013"
+}

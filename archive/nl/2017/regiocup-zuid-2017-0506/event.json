@@ -1,0 +1,23 @@
+{
+ "event_slug": "regiocup-zuid-2017-0506",
+ "scope": "nl",
+ "name": "Regiocup Zuid, 6-7 mei 2017",
+ "series": "Regiocup Zuid",
+ "year": 2017,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2017-05-06",
+ "date_end": "2017-05-07",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-zuid-2017-0506-slalom-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als afbeelding van de uitslag (van Facebook); het blad zelf heeft geen titel. Met de hand overgetikt en nagerekend.",
+  "Welke wedstrijd dit is komt van de gebruiker: Regiocup Zuid, Facebook-bericht van 8 mei 2017 ('De uitslagen van afgelopen weekend. Niet alles strak volgens de regels maar dan hebben jullie wel een indruk hoe er onderling gevaren is in de verschillende heats. ...'). Het weekend daarvoor is 6 en 7 mei 2017. De locatie staat niet in de bron.",
+  "Uit hetzelfde bericht: er is in heats gevaren en de punten zijn niet strak volgens de regels; iemand uit heat A met DNF kan boven iemand met goede uitslagen uit heat C staan."
+ ],
+ "short_name": "Regiocup Zuid 6 mei 2017"
+}

@@ -1,0 +1,29 @@
+{
+ "event_slug": "nk-slalom-2009",
+ "scope": "nl",
+ "name": "NK Slalom 2009",
+ "series": "NK Slalom",
+ "year": 2009,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "nk-2009-slalom-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "NK Grevelingen (weekeinde van 2 mei), NK Scheveningen (30 mei), NK Almere (weekeinde van 5 september), NK Makkum (weekeinde van 10 oktober), reservedata NK Slalom 17 en 24 oktober. Planning, geen bewijs dat er gevaren is."
+  }
+ ],
+ "notes": [
+  "Opgeslagen pagina van wedstrijdsurfen.nl (NVW) uit de Wayback Machine (vastlegging 23 december 2009), aangeleverd door de repo-eigenaar op 4 oktober 2026.",
+  "Gepubliceerd als 'Overall Results NK Slalom 2009 - Na 4 eleminaties' [sic], gepubliceerd 13 oktober 2009: 56 riders. Het nieuwsoverzicht op dezelfde pagina noemt 'Eindstanden NK Formula & Slalom 2009' (13 oktober), 'Zondag 11 oktober SLALOM!' en 'Verslag NK slalom Almere' (6 oktober); daaruit volgt dat dit de eindstand is en dat er in Almere en in Makkum (11 oktober) slalom is gevaren. Welke eliminatie waar is gevaren staat niet in de bron."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "Overall Results NK Slalom 2009"
+}

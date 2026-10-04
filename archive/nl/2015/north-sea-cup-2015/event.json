@@ -1,0 +1,25 @@
+{
+ "event_slug": "north-sea-cup-2015",
+ "scope": "nl",
+ "name": "North Sea Cup 2015",
+ "series": "North Sea Cup",
+ "year": 2015,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": "2015-04-19",
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "north-sea-cup-2015-course-formula",
+  "north-sea-cup-2015-course-rsx-raceboard",
+  "north-sea-cup-2015-course-bic-techno"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Northsea cup 2015 - Results are final as of 15:09 on April 19, 2015' (Sailwave): Formula, RSX - Raceboard en Bic Techno. Zondag 19 april 2015 is de laatste dag; de begindatum en de locatie staan niet in de bron.",
+  "Scope nl op aanwijzing van de gebruiker (4 oktober 2026); het veld is internationaal (veel Belgen, Britten, Litouwers)."
+ ],
+ "name_published": "Northsea cup 2015"
+}

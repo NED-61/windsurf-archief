@@ -46,15 +46,15 @@ EV = {  # evenement -> metadata (datum/locatie alleen waar een bron is gevonden;
     "nk-slalom-2023": {"year": 2023, "name": "NK Slalom 2023", "stop": None, "stops_known": None, "date": None, "location": None, "meta_sources": []},
 }
 # id -> (evenement, klasse-slug, gender)
+# De fun-klassen (dashboards 139-141 'NK 2020 - Fun Foil' en 166-167 'NK Slalom 2021 - FUN oktober') staan hier bewust niet meer in:
+# de funwedstrijd hoort niet in het archief (gebruiker, 4 oktober 2026). De bronnen staan nog in bronnen/; zie tools/import_regio.py.
 DASHBOARDS = {
     13: ("nk-slalom-2017", "heren", "men"), 14: ("nk-slalom-2017", "dames", "women"),
     70: ("nk-slalom-2018", "heren", "men"), 71: ("nk-slalom-2018", "dames", "women"),
     78: ("nk-slalom-2019-stop1", "heren", "men"), 79: ("nk-slalom-2019-stop1", "dames", "women"),
     111: ("nk-slalom-2019-stop2", "heren", "men"), 112: ("nk-slalom-2019-stop2", "dames", "women"), 113: ("nk-slalom-2019-stop2", "jeugd", None),
     132: ("nk-slalom-2020", "heren", "men"), 133: ("nk-slalom-2020", "jeugd", None), 137: ("nk-slalom-2020", "dames", "women"),
-    139: ("nk-slalom-2020", "fun-foil-dames", "women"), 140: ("nk-slalom-2020", "fun-foil-heren", "men"), 141: ("nk-slalom-2020", "fun-foil-jeugd", None),
     152: ("nk-slalom-2021", "heren", "men"), 153: ("nk-slalom-2021", "dames", "women"), 154: ("nk-slalom-2021", "jeugd", None),
-    166: ("nk-slalom-2021", "fun-heren-oktober", "men"), 167: ("nk-slalom-2021", "fun-dames-oktober", "women"),
     168: ("nk-slalom-2022", "heren", "men"), 170: ("nk-slalom-2022", "dames", "women"), 171: ("nk-slalom-2022", "jeugd", None),
     204: ("nk-slalom-2023", "heren", "men"), 205: ("nk-slalom-2023", "dames", "women"), 206: ("nk-slalom-2023", "heren-jeugd", "men"),
 }

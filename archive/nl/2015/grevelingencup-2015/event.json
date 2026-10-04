@@ -1,0 +1,21 @@
+{
+ "event_slug": "grevelingencup-2015",
+ "scope": "nl",
+ "name": "Grevelingencup 2015",
+ "series": "Grevelingencup",
+ "year": 2015,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": "Grevelingen",
+ "discipline": "slalom",
+ "classes": [
+  "grevelingencup-2015-slalom-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'SLAMOM Grevelingencup Overall 2015' [sic] (Sailwave): 15 races, 40 inschrijvingen in drie vloten. De datum staat niet in de bron; de locatie is afgeleid uit de naam."
+ ]
+}

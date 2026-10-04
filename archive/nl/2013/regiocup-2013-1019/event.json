@@ -1,0 +1,25 @@
+{
+ "event_slug": "regiocup-2013-1019",
+ "scope": "nl",
+ "name": "Regiocup, 19-20 oktober 2013",
+ "series": "Regiocup",
+ "year": 2013,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2013-10-19",
+ "date_end": "2013-10-20",
+ "location": null,
+ "discipline": null,
+ "classes": [
+  "regiocup-2013-1019-slalom-gold",
+  "regiocup-2013-1019-slalom-zilver",
+  "regiocup-2013-1019-course-formula",
+  "regiocup-2013-1019-young-gun"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Aangeleverd door de repo-eigenaar op 4 oktober 2026 als foto van het uitslagenblad (van Facebook). Met de hand overgetikt en nagerekend.",
+  "Gepubliceerd als 'Regiocup 2013 ... 19 en 20 oktober 2013' (Sailwave, afgedrukt 27-10-13): slalom gold en zilver, formula en young gun. Noord of Zuid staat er niet bij; de kop van het zilverblad zegt 'Regiocup Zuid overall 2013 SLALOM Zilver', maar dat is de kop van het sjabloon dat ook in juni en september is gebruikt. Daarom onder de reeks 'Regiocup' gezet. De locatie staat niet in de bron."
+ ],
+ "short_name": "Regiocup 19 okt 2013"
+}

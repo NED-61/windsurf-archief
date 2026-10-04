@@ -1,0 +1,31 @@
+{
+ "event_slug": "nk-course-2009",
+ "scope": "nl",
+ "name": "NK Course 2009",
+ "series": "NK Course",
+ "year": 2009,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2009-course-formula-gold"
+ ],
+ "metadata_sources": [
+  {
+   "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "NK Grevelingen (weekeinde van 2 mei), NK Scheveningen (30 mei), NK Almere (weekeinde van 5 september), NK Makkum (weekeinde van 10 oktober), reservedata NK Slalom 17 en 24 oktober. Planning, geen bewijs dat er gevaren is."
+  }
+ ],
+ "notes": [
+  "Opgeslagen pagina van wedstrijdsurfen.nl (NVW) uit de Wayback Machine (vastlegging 21 oktober 2009), aangeleverd door de repo-eigenaar op 4 oktober 2026.",
+  "Gepubliceerd als 'NK Formula - Eindstand na Makkum - 2009', gold fleet: 12 races, 3 weglatingen, 43 inschrijvingen. In het archief onder de reeks 'NK Course' gezet, net als de andere NK's courseracen.",
+  "De pagina is niet eenduidig: de titel zegt 'Eindstand na Makkum', maar boven de tabel staat 'Almere 6 september 2009' en onderaan 'gepubliceerd: 7 september 2009'. De tabel telt wel de 43 inschrijvingen van ná Makkum (DNC = 44 punten, en er staan riders in die alleen in Makkum waren ingeschreven) en nog steeds 12 races. Gelezen als: in Makkum (10 oktober) zijn geen Formula-races meer bijgekomen, dus de stand na Almere is de eindstand. Dat is een afleiding; het nieuwsbericht 'Eindstanden NK Formula & Slalom 2009' van 13 oktober 2009 zelf is niet aangeleverd.",
+  "De silver fleet ('nu ook FW Silver Fleet') is niet aangeleverd. Welke races bij welke wedstrijd horen staat niet in de bron."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "NK Formula - Eindstand na Makkum - 2009"
+}
