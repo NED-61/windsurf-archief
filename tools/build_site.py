@@ -114,6 +114,12 @@ def counted(x):
     return x.get("counted") is not False
 
 
+def extra_ranking(r):
+    """True voor een klassement dat niet als extra start telt: over categorieën heen ("aggregate") of een deelklassement
+    van een andere uitslag met dezelfde races ("subranking_of", bijv. een gewichtsklasse binnen de Windsurfer LT Jaarprijs)."""
+    return bool(r.get("aggregate") or r.get("subranking_of"))
+
+
 def n_counted(r):
     return sum(1 for x in r["entries"] if counted(x))
 
@@ -124,11 +130,11 @@ def entry_status(x):
 
 
 def build_appearances(P, events, results, aggregate=False):
-    """Optredens per rider. Klassementen over categorieën heen ("aggregate": true) tellen niet als extra start;
+    """Optredens per rider. Klassementen over categorieën heen ("aggregate": true) en deelklassementen ("subranking_of") tellen niet als extra start;
     met aggregate=True komen alleen die klassementen terug (voor de rider-pagina)."""
     apps = defaultdict(list)
     for r in results.values():
-        if bool(r.get("aggregate")) != aggregate: continue
+        if extra_ranking(r) != aggregate: continue
         ev = events[r["_event"]]
         n = n_counted(r)
         done = set()
@@ -138,7 +144,7 @@ def build_appearances(P, events, results, aggregate=False):
             done.add(pid)
             apps[pid].append({"rid": r["id"], "ev": ev, "r": r, "rank": x.get("rank"), "n": n, "sail": x.get("sail"),
                               "division": x.get("division"), "name": x.get("name"), "remark": entry_status(x),
-                              "net": x.get("net"), "laps": x.get("laps"), "time": x.get("time"), "agg": bool(r.get("aggregate")),
+                              "net": x.get("net"), "laps": x.get("laps"), "time": x.get("time"), "agg": extra_ranking(r),
                               "prov": bool(r.get("provisional"))})
     for pid in apps:
         apps[pid].sort(key=lambda a: (a["ev"]["sortdate"], a["ev"]["name"], a["rid"]))
@@ -779,7 +785,7 @@ def write_js_data(out, P, events, results, apps):
     duel = {"p": {pid: P[pid]["name"] for pid in apps if pid in P},
             "u": {r["id"]: {"t": f'{events[r["_event"]]["name"]}, {class_label(r)}', "y": events[r["_event"]]["year"], "d": events[r["_event"]]["sortdate"],
                             "n": n_counted(r),
-                            "e": {x["person"]: x.get("rank") for x in r["entries"] if x.get("person")}} for r in results.values() if not r.get("aggregate") and not r.get("provisional")}}
+                            "e": {x["person"]: x.get("rank") for x in r["entries"] if x.get("person")}} for r in results.values() if not extra_ranking(r) and not r.get("provisional")}}
     (out / "assets/duel-data.js").write_text("window.DUEL=" + json.dumps(duel, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
 
 

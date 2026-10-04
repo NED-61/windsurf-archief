@@ -1,0 +1,41 @@
+{
+ "event_slug": "windsurfer-lt-jaarprijs-2024",
+ "scope": "nl",
+ "name": "Windsurfer LT Jaarprijs 2024",
+ "series": "Windsurfer LT Jaarprijs",
+ "year": 2024,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "windsurfer-lt-jaarprijs-2024-course-overall",
+  "windsurfer-lt-jaarprijs-2024-course-a",
+  "windsurfer-lt-jaarprijs-2024-course-b",
+  "windsurfer-lt-jaarprijs-2024-course-c",
+  "windsurfer-lt-jaarprijs-2024-course-d",
+  "windsurfer-lt-jaarprijs-2024-course-dames",
+  "windsurfer-lt-jaarprijs-2024-course-jeugd"
+ ],
+ "metadata_sources": [
+  {
+   "name": "Windsurfer LT Nederland: Wedstrijden in Nederland",
+   "url": "https://windsurferclass.nl/informatie/windsurfer-lt-nl-klassewedstrijden/",
+   "used_for": "opzet van de Jaarprijs: een serie van 6 klassewedstrijden; het eindklassement wordt opgemaakt uit alle losse races (idealiter 6 x 5), met 6 aftrekresultaten bij 30 races; naast de overall-uitslag zijn er uitslagen per gewichtsklasse, Jeugd (U25) en Dames. Geraadpleegd op 4 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  },
+  {
+   "name": "Windsurfer LT Nederland: Uitslagen",
+   "url": "https://windsurferclass.nl/uitslagen/",
+   "used_for": "de pdf staat hier als '2024 LT Jaar Klassement - Einduitslag na 6 Races'. De pagina noemt voor 2024 de klassewedstrijden LT Race 1 Almere (14 april), Race 2 Kinselmeer (20 mei), Race 3 Heeg (2 juni), Race 4 Delft (23 juni), Race 5 Kinselmeer (25 augustus) en Race 6 Giesbeek (27 oktober). Geraadpleegd op 4 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  }
+ ],
+ "notes": [
+  "Jaarklassement van de klassenorganisatie Windsurfer LT Nederland over de klassewedstrijden van 2024 (ZW-pdf, afgedrukt op 29 oktober 2024). Geen losse wedstrijd: de races van het hele seizoen staan in één klassement, met 6 weglatingen.",
+  "De pdf bevat hetzelfde klassement zeven keer: overall (74 riders) en daaruit herberekend per gewichtsklasse A, B, C en D, Dames en Jeugd (U25). Het zijn steeds dezelfde 30 races; in een deelklassement zijn de plaatsen per race opnieuw geteld binnen die groep. In het archief telt alleen het overall-klassement als start; de zes deelklassementen staan erbij (subranking_of) en tellen niet als extra start.",
+  "Datum en locatie zijn niet ingevuld: het klassement loopt over een heel seizoen en de bron noemt de wedstrijddagen niet."
+ ],
+ "organizer": "Windsurfer LT Nederland",
+ "name_published": "Windsurfer LT Nederland 2024 - Jaarprijs"
+}

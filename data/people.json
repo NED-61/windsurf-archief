@@ -464,6 +464,34 @@
      "sail": null,
      "division": null,
      "bib": "181"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Albert Meppelink",
+     "sail": "NED 165",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Albert Meppelink",
+     "sail": "NED 165",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Albert Meppelink",
+     "sail": "NED 165",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Albert Meppelink",
+     "sail": "NED 165",
+     "division": "C",
+     "match": "naam"
     }
    ]
   },
@@ -606,6 +634,26 @@
    ]
   },
   {
+   "id": "allessandro-papa",
+   "name": "Allessandro Papa",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Allessandro Papa",
+     "sail": "NED 2223",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Allessandro Papa",
+     "sail": "NED 2223",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "amado-vrieswijk",
    "name": "Amado Vrieswijk",
    "aliases": [],
@@ -628,13 +676,64 @@
   {
    "id": "andre-korver",
    "name": "André Korver",
-   "aliases": [],
+   "aliases": [
+    "Andre Korver",
+    "Andre Kover"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-open-windsurf-max-9-5m2",
      "name": "André Korver",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Andre Korver",
+     "sail": "NED 2811",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Andre Korver",
+     "sail": "NED 2811",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Andre Kover",
+     "sail": "NED 2811",
+     "division": "D",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Andre Kover",
+     "sail": "NED 2811",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "andre-kuperus",
+   "name": "Andre Kuperus",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Andre Kuperus",
+     "sail": "NED 990",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Andre Kuperus",
+     "sail": "NED 990",
+     "division": "C",
+     "match": "naam"
     }
    ]
   },
@@ -651,6 +750,26 @@
      "sail": null,
      "division": null,
      "bib": "124",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "andrea-pangrazi",
+   "name": "Andrea Pangrazi",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Andrea Pangrazi",
+     "sail": "ITA 500",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Andrea Pangrazi",
+     "sail": "ITA 500",
+     "division": "A",
      "match": "naam"
     }
    ]
@@ -803,6 +922,54 @@
    ]
   },
   {
+   "id": "anita-jansen",
+   "name": "Anita Jansen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Anita Jansen",
+     "sail": "NED 1132",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-dames",
+     "name": "Anita Jansen",
+     "sail": "NED 1132",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Anita Jansen",
+     "sail": "NED 1132",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Anita Jansen",
+     "sail": "NED 1132",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Anita Jansen",
+     "sail": "NED 1132",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Anita Jansen",
+     "sail": "NED 1132",
+     "division": "C",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "anna-korevaar",
    "name": "Anna Korevaar",
    "aliases": [
@@ -817,6 +984,13 @@
     },
     {
      "event": "nk-2024-course-formula-foil",
+     "name": "Anna KOREVAAR",
+     "sail": "NED 157",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
      "name": "Anna KOREVAAR",
      "sail": "NED 157",
      "division": null,
@@ -861,6 +1035,26 @@
      "name": "Anne Steenbrink",
      "sail": "NED-133",
      "division": "women onder 21",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "anthony-halma",
+   "name": "Anthony Halma",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Anthony Halma",
+     "sail": "NED 289",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Anthony Halma",
+     "sail": "NED 289",
+     "division": "C",
      "match": "naam"
     }
    ]
@@ -1087,6 +1281,40 @@
    ]
   },
   {
+   "id": "arnold-brinkman",
+   "name": "Arnold Brinkman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Arnold Brinkman",
+     "sail": "NED 872",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Arnold Brinkman",
+     "sail": "NED 872",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Arnold Brinkman",
+     "sail": "NED 1",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Arnold Brinkman",
+     "sail": "NED 1",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "arnold-talsma",
    "name": "Arnold Talsma",
    "aliases": [],
@@ -1304,6 +1532,40 @@
      "sail": "8",
      "division": "Vin",
      "bib": "21",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "bart-grandiek",
+   "name": "Bart Grandiek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Bart Grandiek",
+     "sail": "NED 417",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Bart Grandiek",
+     "sail": "NED 417",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Bart Grandiek",
+     "sail": "NED 417",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Bart Grandiek",
+     "sail": "NED 417",
+     "division": "C",
      "match": "naam"
     }
    ]
@@ -1569,6 +1831,26 @@
      "sail": "18",
      "division": null,
      "bib": "316",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "bas-leijen",
+   "name": "Bas Leijen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Bas Leijen",
+     "sail": "NED 118",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Bas Leijen",
+     "sail": "NED 118",
+     "division": "C",
      "match": "naam"
     }
    ]
@@ -1867,6 +2149,26 @@
    ]
   },
   {
+   "id": "bert-teunissen",
+   "name": "Bert Teunissen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Bert Teunissen",
+     "sail": "NED 531",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Bert Teunissen",
+     "sail": "NED 531",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "bert-willems",
    "name": "Bert Willems",
    "aliases": [],
@@ -1896,7 +2198,9 @@
   {
    "id": "bjarne-de-leeuw",
    "name": "Bjarne de Leeuw",
-   "aliases": [],
+   "aliases": [
+    "Bjarne de LEEUW"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2026-long-distance-fin-youth-13-17-long-course",
@@ -1911,6 +2215,13 @@
      "sail": "NED164",
      "division": null,
      "bib": "128",
+     "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Bjarne de LEEUW",
+     "sail": "NED 164",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -2188,6 +2499,33 @@
    ]
   },
   {
+   "id": "bowien-manuhutu",
+   "name": "Bowien Manuhutu",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Bowien Manuhutu",
+     "sail": "NED 55",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Bowien Manuhutu",
+     "sail": "NED 55",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Bowien Manuhutu",
+     "sail": "NED 55",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "boy-van-der-veer",
    "name": "Boy van der Veer",
    "aliases": [],
@@ -2370,6 +2708,26 @@
      "sail": null,
      "division": null,
      "bib": "70"
+    }
+   ]
+  },
+  {
+   "id": "casparus-vlasblom",
+   "name": "Casparus Vlasblom",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Casparus Vlasblom",
+     "sail": "NED 13",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Casparus Vlasblom",
+     "sail": "NED 13",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -2563,6 +2921,26 @@
    ]
   },
   {
+   "id": "chris-massenberg",
+   "name": "Chris Massenberg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Chris Massenberg",
+     "sail": "NED 1333",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Chris Massenberg",
+     "sail": "NED 1333",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "christiaan-s-hungronje",
    "name": "Christiaan S Hungronje",
    "aliases": [],
@@ -2643,6 +3021,35 @@
      "sail": "GER8",
      "division": null,
      "bib": "330",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "chui-wing-chun",
+   "name": "Chui Wing Chun",
+   "aliases": [
+    "CHUI Wing Chun"
+   ],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "CHUI Wing Chun",
+     "sail": "NED 105",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "CHUI Wing Chun",
+     "sail": "NED 105",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "CHUI Wing Chun",
+     "sail": "NED 105",
+     "division": "A",
      "match": "naam"
     }
    ]
@@ -2895,6 +3302,33 @@
    ]
   },
   {
+   "id": "daniel-roest",
+   "name": "Daniel Roest",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Daniel Roest",
+     "sail": "NED 100",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Daniel Roest",
+     "sail": "NED 100",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Daniel Roest",
+     "sail": "NED 100",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "daniel-van-akkeren",
    "name": "Daniel van Akkeren",
    "aliases": [],
@@ -2954,6 +3388,26 @@
      "name": "Dave Peters",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "davey-van-balen",
+   "name": "Davey van Balen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Davey van Balen",
+     "sail": "NED 79",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Davey van Balen",
+     "sail": "NED 79",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -3182,6 +3636,26 @@
    ]
   },
   {
+   "id": "dick-vos",
+   "name": "Dick Vos",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Dick Vos",
+     "sail": "NED 468",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Dick Vos",
+     "sail": "NED 468",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "diederik-leemans",
    "name": "Diederik Leemans",
    "aliases": [],
@@ -3219,6 +3693,40 @@
      "name": "Diederik Leemans",
      "sail": "NED-301",
      "division": "Youth U21",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "dion-van-laarhoven",
+   "name": "Dion van Laarhoven",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Dion van Laarhoven",
+     "sail": "NED 137",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Dion van Laarhoven",
+     "sail": "NED 137",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Dion van Laarhoven",
+     "sail": "NED 137",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Dion van Laarhoven",
+     "sail": "NED 137",
+     "division": "A",
      "match": "naam"
     }
    ]
@@ -3340,6 +3848,21 @@
      "division": null,
      "bib": "115",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "dirkje-van-der-pol",
+   "name": "Dirkje van der Pol",
+   "aliases": [
+    "Dirkje van der POL"
+   ],
+   "appearances": [
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Dirkje van der POL",
+     "sail": "NED 446",
+     "division": null
     }
    ]
   },
@@ -4009,6 +4532,40 @@
    ]
   },
   {
+   "id": "erwin-van-der-wiel",
+   "name": "Erwin van der Wiel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Erwin van der Wiel",
+     "sail": "NED 765",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Erwin van der Wiel",
+     "sail": "NED 765",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Erwin van der Wiel",
+     "sail": "NED 765",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Erwin van der Wiel",
+     "sail": "NED 765",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "erwin-van-logchem",
    "name": "Erwin van Logchem",
    "aliases": [
@@ -4492,6 +5049,33 @@
    ]
   },
   {
+   "id": "femke-stalman",
+   "name": "Femke Stalman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Femke Stalman",
+     "sail": "NED 488",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Femke Stalman",
+     "sail": "NED 488",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Femke Stalman",
+     "sail": "NED 488",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "femke-van-der-valk",
    "name": "Femke van der Valk",
    "aliases": [
@@ -4720,7 +5304,8 @@
    "aliases": [
     "Finn Brüll",
     "Finn Brul",
-    "Finn BRÜLL"
+    "Finn BRÜLL",
+    "Finn BRULL"
    ],
    "appearances": [
     {
@@ -4778,6 +5363,13 @@
      "event": "nk-2024-course-formula-foil",
      "name": "Finn BRÜLL",
      "sail": "NED 731",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Finn BRULL",
+     "sail": "NED 173",
      "division": null,
      "match": "naam"
     }
@@ -4988,6 +5580,40 @@
    ]
   },
   {
+   "id": "frank-hillenaar",
+   "name": "Frank Hillenaar",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Frank Hillenaar",
+     "sail": "NED 625",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Frank Hillenaar",
+     "sail": "NED 625",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Frank Hillenaar",
+     "sail": "NED 625",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Frank Hillenaar",
+     "sail": "NED 625",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "frank-zoethout",
    "name": "Frank Zoethout",
    "aliases": [],
@@ -5011,6 +5637,40 @@
      "name": "Fransen",
      "sail": "Paars zeil",
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "fred-hastman",
+   "name": "Fred Hastman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Fred Hastman",
+     "sail": "NED 202",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Fred Hastman",
+     "sail": "NED 202",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Fred Hastman",
+     "sail": "NED 202",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Fred Hastman",
+     "sail": "NED 202",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -5332,6 +5992,55 @@
      "name": "Giny Cnossen",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Giny Cnossen",
+     "sail": "NED 1950",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-dames",
+     "name": "Giny Cnossen",
+     "sail": "NED 1950",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Giny Cnossen",
+     "sail": "NED 1950",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Giny Cnossen",
+     "sail": "NED 1950",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Giny Cnossen",
+     "sail": "NED 1611",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Giny Cnossen",
+     "sail": "NED 1611",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Giny Cnossen",
+     "sail": "NED 1611",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -5379,6 +6088,26 @@
      "name": "Guido Trampe",
      "sail": "NED-326",
      "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "guido-willems",
+   "name": "Guido Willems",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Guido Willems",
+     "sail": "NED 216",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Guido Willems",
+     "sail": "NED 216",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -5470,6 +6199,74 @@
    ]
   },
   {
+   "id": "hank-hendrikx",
+   "name": "Hank Hendrikx",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Hank Hendrikx",
+     "sail": "NED 937",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Hank Hendrikx",
+     "sail": "NED 937",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Hank Hendrikx",
+     "sail": "NED 937",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Hank Hendrikx",
+     "sail": "NED 937",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Hank Hendrikx",
+     "sail": "NED 937",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "hannah-van-der-sluijs",
+   "name": "Hannah van der Sluijs",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Hannah van der Sluijs",
+     "sail": "NED 184",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Hannah van der Sluijs",
+     "sail": "NED 184",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Hannah van der Sluijs",
+     "sail": "NED 184",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "hanno-suijten",
    "name": "Hanno Suijten",
    "aliases": [],
@@ -5518,6 +6315,26 @@
      "name": "Hans Schouten",
      "sail": "7",
      "division": "Master"
+    }
+   ]
+  },
+  {
+   "id": "hans-slijkhuis",
+   "name": "Hans Slijkhuis",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Hans Slijkhuis",
+     "sail": "NED 1952",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Hans Slijkhuis",
+     "sail": "NED 1952",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -5605,6 +6422,102 @@
      "name": "Harold Elfring",
      "sail": "NED 2891",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Harold Elfring",
+     "sail": "NED 2891",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Harold Elfring",
+     "sail": "NED 2891",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Harold Elfring",
+     "sail": "NED 2891",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Harold Elfring",
+     "sail": "NED 2891",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "harold-korn",
+   "name": "Harold Korn",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Harold Korn",
+     "sail": "NED 179",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Harold Korn",
+     "sail": "NED 179",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Harold Korn",
+     "sail": "NED 179",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Harold Korn",
+     "sail": "NED 179",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "henk-griffioen",
+   "name": "Henk Griffioen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Henk Griffioen",
+     "sail": "NED 378",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Henk Griffioen",
+     "sail": "NED 378",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Henk Griffioen",
+     "sail": "NED 378",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Henk Griffioen",
+     "sail": "NED 378",
+     "division": "B",
      "match": "naam"
     }
    ]
@@ -5718,6 +6631,42 @@
      "name": "Herman vd Berg",
      "sail": "971",
      "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "hertbert-weynand",
+   "name": "Hertbert Weynand",
+   "aliases": [
+    "Herbert Weynand"
+   ],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Hertbert Weynand",
+     "sail": "GER 97",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Hertbert Weynand",
+     "sail": "GER 97",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Herbert Weynand",
+     "sail": "GER 97",
+     "division": "B",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Herbert Weynand",
+     "sail": "GER 97",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -6031,6 +6980,33 @@
    ]
   },
   {
+   "id": "ingard-borgel",
+   "name": "Ingard Borgel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Ingard Borgel",
+     "sail": "GER 640",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Ingard Borgel",
+     "sail": "GER 640",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Ingard Borgel",
+     "sail": "GER 640",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "ingmar-daldorf",
    "name": "Ingmar Daldorf",
    "aliases": [
@@ -6239,6 +7215,54 @@
    ]
   },
   {
+   "id": "ingrid-van-overbeek",
+   "name": "Ingrid van Overbeek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Ingrid van Overbeek",
+     "sail": "NED 328",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-dames",
+     "name": "Ingrid van Overbeek",
+     "sail": "NED 328",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Ingrid van Overbeek",
+     "sail": "NED 328",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Ingrid van Overbeek",
+     "sail": "NED 328",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Ingrid van Overbeek",
+     "sail": "NED 328",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Ingrid van Overbeek",
+     "sail": "NED 328",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "iris-gimpel",
    "name": "Iris Gimpel",
    "aliases": [],
@@ -6334,6 +7358,42 @@
      "sail": "NED214",
      "division": null,
      "bib": "830",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "iwan-daniels",
+   "name": "Iwan Daniels",
+   "aliases": [
+    "Iwan Daniëls"
+   ],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Iwan Daniels",
+     "sail": "NED 3141",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Iwan Daniels",
+     "sail": "NED 3141",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Iwan Daniëls",
+     "sail": "NED 3141",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Iwan Daniëls",
+     "sail": "NED 3141",
+     "division": "B",
      "match": "naam"
     }
    ]
@@ -6646,6 +7706,26 @@
    ]
   },
   {
+   "id": "jan-reyer-van-de-griendt",
+   "name": "Jan Reyer van de Griendt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Jan Reyer van de Griendt",
+     "sail": "NED 1616",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Jan Reyer van de Griendt",
+     "sail": "NED 1616",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "jan-schockaert",
    "name": "Jan Schockaert",
    "aliases": [],
@@ -6704,6 +7784,26 @@
      "sail": null,
      "division": null,
      "bib": "222"
+    }
+   ]
+  },
+  {
+   "id": "jan-van-schijndel",
+   "name": "Jan van Schijndel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Jan van Schijndel",
+     "sail": "NED 139",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Jan van Schijndel",
+     "sail": "NED 139",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -6795,6 +7895,33 @@
      "sail": null,
      "division": null,
      "bib": "326",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jannet-andries",
+   "name": "Jannet Andries",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Jannet Andries",
+     "sail": "NED 1148",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Jannet Andries",
+     "sail": "NED 1148",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Jannet Andries",
+     "sail": "NED 1148",
+     "division": "A",
      "match": "naam"
     }
    ]
@@ -7013,6 +8140,46 @@
      "sail": "BEL6",
      "division": null,
      "bib": "24",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jelle-de-kruijk",
+   "name": "Jelle de Kruijk",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Jelle de Kruijk",
+     "sail": "NED 2162",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Jelle de Kruijk",
+     "sail": "NED 2162",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jelle-de-roos",
+   "name": "Jelle de Roos",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Jelle de Roos",
+     "sail": "NED 98",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Jelle de Roos",
+     "sail": "NED 98",
+     "division": "C",
      "match": "naam"
     }
    ]
@@ -7342,6 +8509,74 @@
    ]
   },
   {
+   "id": "jeroen-hendrikx",
+   "name": "Jeroen Hendrikx",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Jeroen Hendrikx",
+     "sail": "NED 1199",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Jeroen Hendrikx",
+     "sail": "NED 1199",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Jeroen Hendrikx",
+     "sail": "NED 1199",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Jeroen Hendrikx",
+     "sail": "NED 1199",
+     "division": "C",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jeroen-onck",
+   "name": "Jeroen Onck",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Jeroen Onck",
+     "sail": "NED 145",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Jeroen Onck",
+     "sail": "NED 145",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Jeroen Onck",
+     "sail": "NED 145",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Jeroen Onck",
+     "sail": "NED 145",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "jeroen-sins",
    "name": "Jeroen Sins",
    "aliases": [],
@@ -7391,6 +8626,33 @@
      "name": "Jesper Vestertrom",
      "sail": "111 D",
      "division": "Male"
+    }
+   ]
+  },
+  {
+   "id": "jetske-cnossen",
+   "name": "Jetske Cnossen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Jetske Cnossen",
+     "sail": "NED 1611",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-dames",
+     "name": "Jetske Cnossen",
+     "sail": "NED 1611",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Jetske Cnossen",
+     "sail": "NED 1611",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -7590,6 +8852,13 @@
      "sail": "NED - 231",
      "division": "Foil",
      "bib": "19",
+     "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Joep HAVIK",
+     "sail": "NED 231",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -8263,6 +9532,74 @@
    ]
   },
   {
+   "id": "jurgen-van-laarhoven",
+   "name": "Jurgen van Laarhoven",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Jurgen van Laarhoven",
+     "sail": "NED 138",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Jurgen van Laarhoven",
+     "sail": "NED 138",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Jurgen van Laarhoven",
+     "sail": "NED 138",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Jurgen van Laarhoven",
+     "sail": "NED 138",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jurian-velthuis",
+   "name": "Jurian Velthuis",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Jurian Velthuis",
+     "sail": "NED 663",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Jurian Velthuis",
+     "sail": "NED 663",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Jurian Velthuis",
+     "sail": "NED 663",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Jurian Velthuis",
+     "sail": "NED 663",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "jurrien-wind",
    "name": "Jurriën Wind",
    "aliases": [],
@@ -8458,6 +9795,26 @@
    ]
   },
   {
+   "id": "kazuaki-sanada",
+   "name": "Kazuaki Sanada",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Kazuaki Sanada",
+     "sail": "NED 12891",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Kazuaki Sanada",
+     "sail": "NED 12891",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "kees-both",
    "name": "Kees Both",
    "aliases": [],
@@ -8467,6 +9824,40 @@
      "name": "Kees Both",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "kees-tijsen",
+   "name": "Kees Tijsen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Kees Tijsen",
+     "sail": "NED 1451",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Kees Tijsen",
+     "sail": "NED 1451",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Kees Tijsen",
+     "sail": "NED 1451",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Kees Tijsen",
+     "sail": "NED 1451",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -8799,6 +10190,40 @@
    ]
   },
   {
+   "id": "koen-verhart",
+   "name": "Koen Verhart",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Koen Verhart",
+     "sail": "NED 1",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Koen Verhart",
+     "sail": "NED 1",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Koen Verhart",
+     "sail": "NED 2336",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Koen Verhart",
+     "sail": "NED 2336",
+     "division": "C",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "koen-zweekhorst",
    "name": "Koen Zweekhorst",
    "aliases": [],
@@ -9067,6 +10492,34 @@
      "name": "Lennart Cnossen",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Lennart Cnossen",
+     "sail": "NED 611",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Lennart Cnossen",
+     "sail": "NED 611",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Lennart Cnossen",
+     "sail": "NED 611",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Lennart Cnossen",
+     "sail": "NED 611",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -9127,6 +10580,47 @@
    ]
   },
   {
+   "id": "leroy-wevers",
+   "name": "Leroy Wevers",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Leroy Wevers",
+     "sail": "NED 904",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Leroy Wevers",
+     "sail": "NED 904",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Leroy Wevers",
+     "sail": "NED 904",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Leroy Wevers",
+     "sail": "NED 904",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Leroy Wevers",
+     "sail": "NED 904",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "leverne-van-wanum",
    "name": "Leverne Van Wanum",
    "aliases": [],
@@ -9143,6 +10637,40 @@
      "sail": null,
      "division": null,
      "bib": "151",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "lex-teeuwen",
+   "name": "Lex Teeuwen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Lex Teeuwen",
+     "sail": "NED 144",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Lex Teeuwen",
+     "sail": "NED 144",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Lex Teeuwen",
+     "sail": "NED 144",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Lex Teeuwen",
+     "sail": "NED 144",
+     "division": "D",
      "match": "naam"
     }
    ]
@@ -9495,7 +11023,8 @@
    "id": "lucien-vdelst",
    "name": "Lucien v.Delst",
    "aliases": [
-    "Lucien v Dest"
+    "Lucien v Dest",
+    "Lucien van Delst"
    ],
    "appearances": [
     {
@@ -9511,6 +11040,34 @@
      "sail": "NED 10",
      "division": "Men",
      "match": "bevestigd"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Lucien van Delst",
+     "sail": "NED 67",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Lucien van Delst",
+     "sail": "NED 67",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Lucien van Delst",
+     "sail": "NED 98",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Lucien van Delst",
+     "sail": "NED 98",
+     "division": "D",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -9705,6 +11262,20 @@
      "name": "Maarten Wind",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Maarten Wind",
+     "sail": "NED 2560",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Maarten Wind",
+     "sail": "NED 2560",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -9815,6 +11386,47 @@
      "name": "Malik Hoveling",
      "sail": "ARU-31",
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "manuel-voskamp",
+   "name": "Manuel Voskamp",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Manuel Voskamp",
+     "sail": "NED 494",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Manuel Voskamp",
+     "sail": "NED 494",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Manuel Voskamp",
+     "sail": "NED 494",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Manuel Voskamp",
+     "sail": "NED 494",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Manuel Voskamp",
+     "sail": "NED 494",
+     "division": "C",
+     "match": "naam"
     }
    ]
   },
@@ -9987,6 +11599,40 @@
    ]
   },
   {
+   "id": "marc-lameij",
+   "name": "Marc Lameij",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Marc Lameij",
+     "sail": "NED 767",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Marc Lameij",
+     "sail": "NED 767",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Marc Lameij",
+     "sail": "NED 767",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Marc Lameij",
+     "sail": "NED 767",
+     "division": "C",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "marc-le-comte",
    "name": "Marc le Comte",
    "aliases": [],
@@ -10101,6 +11747,40 @@
      "name": "Marcel van Asten",
      "sail": "H 91",
      "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "marcel-van-der-ploeg",
+   "name": "Marcel van der Ploeg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Marcel van der Ploeg",
+     "sail": "NED 31",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Marcel van der Ploeg",
+     "sail": "NED 31",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Marcel van der Ploeg",
+     "sail": "NED 31",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Marcel van der Ploeg",
+     "sail": "NED 31",
+     "division": "C",
+     "match": "naam"
     }
    ]
   },
@@ -10292,6 +11972,40 @@
    ]
   },
   {
+   "id": "marco-ootes",
+   "name": "Marco Ootes",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Marco Ootes",
+     "sail": "NED 950",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Marco Ootes",
+     "sail": "NED 950",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Marco Ootes",
+     "sail": "NED 950",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Marco Ootes",
+     "sail": "NED 950",
+     "division": "C",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "marco-van-der-leer",
    "name": "Marco van der Leer",
    "aliases": [
@@ -10442,6 +12156,48 @@
      "name": "Marga Stalman",
      "sail": "27",
      "division": "Female"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Marga Stalman",
+     "sail": "NED 27",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-dames",
+     "name": "Marga Stalman",
+     "sail": "NED 27",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Marga Stalman",
+     "sail": "NED 27",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Marga Stalman",
+     "sail": "NED 27",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Marga Stalman",
+     "sail": "NED 27",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Marga Stalman",
+     "sail": "NED 27",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -10557,6 +12313,13 @@
      "sail": "NED-160",
      "division": "Junior U13",
      "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Marijn SCHOUTEN",
+     "sail": "NED 160",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -10593,6 +12356,33 @@
      "sail": null,
      "division": null,
      "bib": "91"
+    }
+   ]
+  },
+  {
+   "id": "marjelle-hendrikx",
+   "name": "Marjelle Hendrikx",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Marjelle Hendrikx",
+     "sail": "NED 501",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Marjelle Hendrikx",
+     "sail": "NED 501",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Marjelle Hendrikx",
+     "sail": "NED 501",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -10827,6 +12617,34 @@
      "name": "Martijn Aarts",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Martijn Aarts",
+     "sail": "NED 408",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Martijn Aarts",
+     "sail": "NED 408",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Martijn Aarts",
+     "sail": "NED 408",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Martijn Aarts",
+     "sail": "NED 408",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -11467,6 +13285,34 @@
      "sail": "NED 279",
      "division": "Men",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Maurice van Grasstek",
+     "sail": "NED 279",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Maurice van Grasstek",
+     "sail": "NED 279",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Maurice van Grasstek",
+     "sail": "NED 279",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Maurice van Grasstek",
+     "sail": "NED 279",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -11703,6 +13549,13 @@
      "division": "Vin",
      "bib": "27",
      "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Max BAAIJEN",
+     "sail": "NED 61",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -11881,6 +13734,40 @@
      "name": "Melvin Rademaker",
      "sail": "500",
      "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "menno-kuiper",
+   "name": "Menno Kuiper",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Menno Kuiper",
+     "sail": "NED 148",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Menno Kuiper",
+     "sail": "NED 148",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Menno Kuiper",
+     "sail": "NED 148",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Menno Kuiper",
+     "sail": "NED 148",
+     "division": "C",
+     "match": "naam"
     }
    ]
   },
@@ -12103,6 +13990,42 @@
    ]
   },
   {
+   "id": "michel-kunkeler",
+   "name": "Michel Kunkeler",
+   "aliases": [
+    "Michel Kunkelar"
+   ],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Michel Kunkeler",
+     "sail": "NED 1578",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Michel Kunkeler",
+     "sail": "NED 1578",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Michel Kunkelar",
+     "sail": "NED 1578",
+     "division": "B",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Michel Kunkelar",
+     "sail": "NED 1578",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "michel-meijer",
    "name": "Michel Meijer",
    "aliases": [],
@@ -12195,7 +14118,9 @@
   {
    "id": "mies-dijksterhuis",
    "name": "Mies Dijksterhuis",
-   "aliases": [],
+   "aliases": [
+    "Mies DIJKSTERHUIS"
+   ],
    "appearances": [
     {
      "event": "gpa-2025-long-distance-iq-foil",
@@ -12203,6 +14128,13 @@
      "sail": null,
      "division": null,
      "bib": "81"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Mies DIJKSTERHUIS",
+     "sail": "NED 582",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -12385,7 +14317,9 @@
   {
    "id": "milan-hoevens",
    "name": "Milan Hoevens",
-   "aliases": [],
+   "aliases": [
+    "Milan HOEVENS"
+   ],
    "appearances": [
     {
      "event": "gpa-2025-long-distance-iq-foil",
@@ -12393,6 +14327,13 @@
      "sail": null,
      "division": null,
      "bib": "21"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Milan HOEVENS",
+     "sail": "NED 477",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -12465,6 +14406,13 @@
      "sail": "NED-303",
      "division": "Junior U17",
      "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Milo ZAAL",
+     "sail": "NED 303",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -12479,6 +14427,21 @@
      "sail": null,
      "division": null,
      "bib": "13"
+    }
+   ]
+  },
+  {
+   "id": "mischa-oosterbaan",
+   "name": "Mischa Oosterbaan",
+   "aliases": [
+    "Mischa OOSTERBAAN"
+   ],
+   "appearances": [
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Mischa OOSTERBAAN",
+     "sail": "NED 486",
+     "division": null
     }
    ]
   },
@@ -12523,6 +14486,13 @@
      "name": "Neill chardet",
      "sail": "2011",
      "division": "Junior U15",
+     "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Neill CHARDET",
+     "sail": "NED 241",
+     "division": null,
      "match": "naam"
     }
    ],
@@ -12620,6 +14590,33 @@
    ]
   },
   {
+   "id": "nick-posthumus",
+   "name": "Nick Posthumus",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Nick Posthumus",
+     "sail": "NED 806",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Nick Posthumus",
+     "sail": "NED 806",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Nick Posthumus",
+     "sail": "NED 806",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "nick-van-der-hoorn",
    "name": "Nick Van Der Hoorn",
    "aliases": [],
@@ -12651,6 +14648,40 @@
      "sail": null,
      "division": null,
      "bib": "541"
+    }
+   ]
+  },
+  {
+   "id": "nico-veenstra",
+   "name": "Nico Veenstra",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Nico Veenstra",
+     "sail": "NED 687",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Nico Veenstra",
+     "sail": "NED 687",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Nico Veenstra",
+     "sail": "NED 687",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Nico Veenstra",
+     "sail": "NED 687",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -12870,6 +14901,33 @@
    ]
   },
   {
+   "id": "nina-boons",
+   "name": "Nina Boons",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Nina Boons",
+     "sail": "AUS 82",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Nina Boons",
+     "sail": "AUS 82",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Nina Boons",
+     "sail": "AUS 82",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "nolan-snel",
    "name": "Nolan Snel",
    "aliases": [],
@@ -12894,6 +14952,26 @@
      "name": "Noortje Braam",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "nor-post",
+   "name": "Nor Post",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Nor Post",
+     "sail": "NED 3068",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Nor Post",
+     "sail": "NED 3068",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -12934,6 +15012,26 @@
    ]
   },
   {
+   "id": "olaf-groene",
+   "name": "Olaf Groene",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Olaf Groene",
+     "sail": "NED 987",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Olaf Groene",
+     "sail": "NED 987",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "paco-freens",
    "name": "Paco Freens",
    "aliases": [],
@@ -12949,6 +15047,54 @@
      "name": "Paco Freens",
      "sail": "H 63",
      "division": "Heren",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "pascal-van-corbach",
+   "name": "Pascal van Corbach",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Pascal van Corbach",
+     "sail": "NED 3826",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-dames",
+     "name": "Pascal van Corbach",
+     "sail": "NED 3826",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Pascal van Corbach",
+     "sail": "NED 3826",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Pascal van Corbach",
+     "sail": "NED 3826",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-dames",
+     "name": "Pascal van Corbach",
+     "sail": "NED 3826",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Pascal van Corbach",
+     "sail": "NED 3826",
+     "division": "B",
      "match": "naam"
     }
    ]
@@ -13191,6 +15337,34 @@
      "name": "Paul van der Sluijs",
      "sail": "NED 131",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Paul van der Sluijs",
+     "sail": "NED 1314",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Paul van der Sluijs",
+     "sail": "NED 1314",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Paul van der Sluijs",
+     "sail": "NED 1314",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Paul van der Sluijs",
+     "sail": "NED 1314",
+     "division": "C",
      "match": "naam"
     }
    ]
@@ -13644,6 +15818,82 @@
      "sail": null,
      "division": null,
      "bib": "174"
+    }
+   ]
+  },
+  {
+   "id": "peter-van-diepen",
+   "name": "Peter van Diepen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Peter van Diepen",
+     "sail": "NED 186",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Peter van Diepen",
+     "sail": "NED 186",
+     "division": "C",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "peter-van-schie",
+   "name": "Peter van Schie",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Peter van Schie",
+     "sail": "NED 92",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Peter van Schie",
+     "sail": "NED 92",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Peter van Schie",
+     "sail": "NED 92",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Peter van Schie",
+     "sail": "NED 92",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "petrus-cornelis-van-diepen",
+   "name": "Petrus Cornelis Van Diepen",
+   "aliases": [
+    "Petrus Cornelis Van diepen"
+   ],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Petrus Cornelis Van diepen",
+     "sail": "NED 186",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Petrus Cornelis Van diepen",
+     "sail": "NED 186",
+     "division": "C",
+     "match": "naam"
     }
    ]
   },
@@ -14303,6 +16553,26 @@
    ]
   },
   {
+   "id": "remco-de-snoo",
+   "name": "Remco de Snoo",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Remco de Snoo",
+     "sail": "NED 501",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Remco de Snoo",
+     "sail": "NED 501",
+     "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "remco-hoekstra",
    "name": "Remco Hoekstra",
    "aliases": [
@@ -14376,6 +16646,26 @@
      "name": "Remco Onder de Linden",
      "sail": "NED-395",
      "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "remco-otten",
+   "name": "Remco Otten",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Remco Otten",
+     "sail": "NED 178",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Remco Otten",
+     "sail": "NED 178",
+     "division": "B",
      "match": "naam"
     }
    ]
@@ -14528,6 +16818,20 @@
      "division": null,
      "bib": "507",
      "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "René Griffioen",
+     "sail": "NED 2223",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "René Griffioen",
+     "sail": "NED 2223",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -14656,6 +16960,26 @@
    ]
   },
   {
+   "id": "reyer-vd-griendt",
+   "name": "Reyer vd Griendt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Reyer vd Griendt",
+     "sail": "NED 1616",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Reyer vd Griendt",
+     "sail": "NED 1616",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "reyn-gaarthuis",
    "name": "Reyn Gaarthuis",
    "aliases": [],
@@ -14771,6 +17095,26 @@
    ]
   },
   {
+   "id": "rinse-ubbink",
+   "name": "Rinse Ubbink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Rinse Ubbink",
+     "sail": "NED 174",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Rinse Ubbink",
+     "sail": "NED 174",
+     "division": "B",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "rob-de-jong",
    "name": "Rob de jong",
    "aliases": [
@@ -14869,6 +17213,34 @@
      "name": "Rob Tiddens",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Rob Tiddens",
+     "sail": "NED 1713",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Rob Tiddens",
+     "sail": "NED 1713",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Rob Tiddens",
+     "sail": "NED 1713",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Rob Tiddens",
+     "sail": "NED 1713",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -14883,6 +17255,40 @@
      "sail": null,
      "division": null,
      "bib": "189"
+    }
+   ]
+  },
+  {
+   "id": "robbert-wijnandts",
+   "name": "Robbert Wijnandts",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Robbert Wijnandts",
+     "sail": "NED 3025",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Robbert Wijnandts",
+     "sail": "NED 3025",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Robbert Wijnandts",
+     "sail": "NED 3025",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Robbert Wijnandts",
+     "sail": "NED 3025",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -15019,13 +17425,43 @@
   {
    "id": "robert-ten-dam",
    "name": "Robert Ten Dam",
-   "aliases": [],
+   "aliases": [
+    "Robert ten Dam"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-raceboard-max-9-5m2",
      "name": "Robert Ten Dam",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Robert ten Dam",
+     "sail": "NED 7771",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Robert ten Dam",
+     "sail": "NED 7771",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Robert Ten Dam",
+     "sail": "NED 7771",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Robert Ten Dam",
+     "sail": "NED 7771",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -15136,6 +17572,40 @@
      "sail": null,
      "division": null,
      "bib": "19"
+    }
+   ]
+  },
+  {
+   "id": "rodin-van-der-zwan",
+   "name": "Rodin van der Zwan",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Rodin van der Zwan",
+     "sail": "NED 2725",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Rodin van der Zwan",
+     "sail": "NED 2725",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Rodin van der Zwan",
+     "sail": "NED 2725",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Rodin van der Zwan",
+     "sail": "NED 2725",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -15298,6 +17768,34 @@
      "sail": null,
      "division": null,
      "bib": "120"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Ron Hartog",
+     "sail": "NED 752",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Ron Hartog",
+     "sail": "NED 752",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Ron Hartog",
+     "sail": "NED 752",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Ron Hartog",
+     "sail": "NED 752",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -15339,13 +17837,44 @@
   {
    "id": "ron-vd-berg",
    "name": "Ron vd Berg",
-   "aliases": [],
+   "aliases": [
+    "Ron van der Berg",
+    "Ron van den Berg"
+   ],
    "appearances": [
     {
      "event": "nk-2019-course-raceboard",
      "name": "Ron vd Berg",
      "sail": "NED 11",
      "division": "Men"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Ron van der Berg",
+     "sail": "NED 1059",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Ron van der Berg",
+     "sail": "NED 1059",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Ron van den Berg",
+     "sail": "NED 1059",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Ron van den Berg",
+     "sail": "NED 1059",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -15585,6 +18114,47 @@
    ]
   },
   {
+   "id": "sam-van-diepen",
+   "name": "Sam van Diepen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Sam van Diepen",
+     "sail": "NED 704",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Sam van Diepen",
+     "sail": "NED 704",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Sam van Diepen",
+     "sail": "NED 704",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Sam van Diepen",
+     "sail": "NED 704",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Sam van Diepen",
+     "sail": "NED 704",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "sam-wennekes",
    "name": "Sam Wennekes",
    "aliases": [],
@@ -15777,6 +18347,40 @@
      "name": "Sara Wennekes",
      "sail": "NED-203",
      "division": "Dames",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "schato-franswa",
+   "name": "Schato Franswa",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Schato Franswa",
+     "sail": "NED 1984",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Schato Franswa",
+     "sail": "NED 1984",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Schato Franswa",
+     "sail": "NED 1984",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Schato Franswa",
+     "sail": "NED 1984",
+     "division": "D",
      "match": "naam"
     }
    ]
@@ -15985,7 +18589,9 @@
   {
    "id": "seppe-wiersema",
    "name": "Seppe Wiersema",
-   "aliases": [],
+   "aliases": [
+    "Seppe WIERSEMA"
+   ],
    "appearances": [
     {
      "event": "the-real-trip-2026-long-distance-fin-youth-13-17-long-course",
@@ -16000,6 +18606,13 @@
      "sail": "NL215",
      "division": null,
      "bib": "36",
+     "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Seppe WIERSEMA",
+     "sail": "NED 388",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -16093,6 +18706,40 @@
      "sail": "NED 281",
      "division": null,
      "bib": "729",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "simon-van-der-sluijs",
+   "name": "Simon van der Sluijs",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Simon van der Sluijs",
+     "sail": "NED 15",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Simon van der Sluijs",
+     "sail": "NED 15",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Simon van der Sluijs",
+     "sail": "NED 15",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Simon van der Sluijs",
+     "sail": "NED 15",
+     "division": "C",
      "match": "naam"
     }
    ]
@@ -16208,6 +18855,27 @@
      "sail": null,
      "division": null,
      "bib": "60",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-b",
+     "name": "Skip Brull",
+     "sail": "NED 6767",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-jeugd",
+     "name": "Skip Brull",
+     "sail": "NED 6767",
+     "division": "B",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Skip Brull",
+     "sail": "NED 6767",
+     "division": "B",
      "match": "naam"
     }
    ]
@@ -16568,6 +19236,26 @@
    ]
   },
   {
+   "id": "stijn-storm-lameij",
+   "name": "Stijn Storm Lameij",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Stijn Storm Lameij",
+     "sail": "NED 67",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Stijn Storm Lameij",
+     "sail": "NED 67",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "stijn-willems",
    "name": "Stijn Willems",
    "aliases": [],
@@ -16855,6 +19543,13 @@
      "sail": "NED-297",
      "division": "Junior U15",
      "match": "naam"
+    },
+    {
+     "event": "united4-2026-0418-course-formula-foil",
+     "name": "Thijs DIJKSTRA",
+     "sail": "NED 297",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -17139,6 +19834,20 @@
      "division": null,
      "bib": "738",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Thomas van der Sluijs",
+     "sail": "NED 78",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Thomas van der Sluijs",
+     "sail": "NED 78",
+     "division": "A",
+     "match": "naam"
     }
    ]
   },
@@ -17219,6 +19928,26 @@
      "name": "Tim Van Den Berg",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "tim-vermaesen",
+   "name": "Tim Vermaesen",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-b",
+     "name": "Tim Vermaesen",
+     "sail": "NED 318",
+     "division": "B"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Tim Vermaesen",
+     "sail": "NED 318",
+     "division": "B",
+     "match": "naam"
     }
    ]
   },
@@ -17352,6 +20081,26 @@
    ]
   },
   {
+   "id": "tony-halma",
+   "name": "Tony Halma",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Tony Halma",
+     "sail": "NED 2",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Tony Halma",
+     "sail": "NED 2",
+     "division": "C",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "toon-gaarthuis",
    "name": "Toon Gaarthuis",
    "aliases": [],
@@ -17375,6 +20124,26 @@
      "sail": null,
      "division": null,
      "bib": "338",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "torsten-seil",
+   "name": "Torsten Seil",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-c",
+     "name": "Torsten Seil",
+     "sail": "GER 156",
+     "division": "C"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Torsten Seil",
+     "sail": "GER 156",
+     "division": "C",
      "match": "naam"
     }
    ]
@@ -17877,6 +20646,40 @@
    ]
   },
   {
+   "id": "wieger-van-brug",
+   "name": "Wieger van Brug",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-a",
+     "name": "Wieger van Brug",
+     "sail": "NED 1999",
+     "division": "A"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Wieger van Brug",
+     "sail": "NED 1999",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-a",
+     "name": "Wieger van Brug",
+     "sail": "NED 1999",
+     "division": "A",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Wieger van Brug",
+     "sail": "NED 1999",
+     "division": "A",
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "wilko-dijkstra",
    "name": "Wilko Dijkstra",
    "aliases": [
@@ -17959,13 +20762,44 @@
   {
    "id": "wim-peter-van-tiggele",
    "name": "Wim-Peter Van Tiggele",
-   "aliases": [],
+   "aliases": [
+    "Wim Peter van Tiggele",
+    "Wim-Peter van Tiggele"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-windsurfer-lt-kona-one",
      "name": "Wim-Peter Van Tiggele",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-d",
+     "name": "Wim Peter van Tiggele",
+     "sail": "NED 447",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2024-course-overall",
+     "name": "Wim Peter van Tiggele",
+     "sail": "NED 447",
+     "division": "D",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-c",
+     "name": "Wim-Peter van Tiggele",
+     "sail": "NED 447",
+     "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Wim-Peter van Tiggele",
+     "sail": "NED 447",
+     "division": "C",
+     "match": "naam"
     }
    ]
   },
@@ -18006,6 +20840,26 @@
      "name": "Wolfgang Verlaeckt",
      "sail": "91",
      "division": "Espoir"
+    }
+   ]
+  },
+  {
+   "id": "wouter-egas",
+   "name": "Wouter Egas",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-d",
+     "name": "Wouter Egas",
+     "sail": "NED 1222",
+     "division": "D"
+    },
+    {
+     "event": "windsurfer-lt-jaarprijs-2025-course-overall",
+     "name": "Wouter Egas",
+     "sail": "NED 1222",
+     "division": "D",
+     "match": "naam"
     }
    ]
   },
@@ -18435,6 +21289,51 @@
    "similarity": 0.69,
    "source": "import_keet",
    "reason": "'Richard Konstapel' en 'Konstapel': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
+  },
+  {
+   "people": [
+    "peter-van-schie",
+    "peter-schie"
+   ],
+   "similarity": 1.0,
+   "source": "import_lt",
+   "reason": "'Peter van Schie' (windsurfer-lt-jaarprijs-2024-course-a) lijkt op 'Peter Schie', zonder gelijk zeilnummer"
+  },
+  {
+   "people": [
+    "anthony-halma",
+    "tony-halma"
+   ],
+   "similarity": 0.87,
+   "source": "import_lt",
+   "reason": "'Anthony Halma' (windsurfer-lt-jaarprijs-2025-course-c) lijkt op 'Tony Halma', zonder gelijk zeilnummer"
+  },
+  {
+   "people": [
+    "e-van-der-wiel",
+    "erwin-van-der-wiel"
+   ],
+   "similarity": 0.88,
+   "source": "import_lt",
+   "reason": "'Erwin van der Wiel' en 'E. Van Der Wiel': zelfde achternaam en zelfde zeilnummer, alleen een voorletter"
+  },
+  {
+   "people": [
+    "jan-reyer-van-de-griendt",
+    "reyer-vd-griendt"
+   ],
+   "similarity": 0.8,
+   "source": "import_lt",
+   "reason": "'Jan Reyer van de Griendt' en 'Reyer vd Griendt': zelfde zeilnummer en een naam die erop lijkt"
+  },
+  {
+   "people": [
+    "peter-van-diepen",
+    "petrus-cornelis-van-diepen"
+   ],
+   "similarity": 0.71,
+   "source": "import_lt",
+   "reason": "'Peter van Diepen' en 'Petrus Cornelis Van Diepen': zelfde achternaam en zelfde zeilnummer, de naam verschilt"
   }
  ]
 }

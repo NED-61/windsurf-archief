@@ -1,0 +1,30 @@
+{
+ "event_slug": "united4-2026-0418",
+ "scope": "nl",
+ "name": "United4 Medemblik I 2026",
+ "series": "United4",
+ "year": 2026,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2026-04-18",
+ "date_end": "2026-04-19",
+ "location": "Medemblik",
+ "discipline": "course_race",
+ "classes": [
+  "united4-2026-0418-course-formula-foil"
+ ],
+ "metadata_sources": [
+  {
+   "name": "manage2sail: United4 Medemblik I",
+   "url": "https://www.manage2sail.com/nl-NL/event/9cec4b5d-e111-43cc-ba0b-83970f9bec66",
+   "used_for": "evenement van 18 en 19 april 2026. Geraadpleegd op 4 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'United4 Medemblik I - Formula Foil - Overall Results' (manage2sail, stand van 19 april 2026 19:34). Locatie Medemblik volgt uit de naam van het evenement.",
+  "United4 is een reeks wedstrijden van United 4 Sailing; het hoeveelste evenement van de reeks dit is staat niet in de bron, daarom staat de datum in de mapnaam en is stop_number leeg.",
+  "Alleen de klasse Formula Foil is aangeleverd; andere klassen van dit evenement staan niet in het archief."
+ ],
+ "organizer": "United 4 Sailing",
+ "name_published": "United4 Medemblik I"
+}

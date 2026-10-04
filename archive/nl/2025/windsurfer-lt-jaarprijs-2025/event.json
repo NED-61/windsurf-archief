@@ -1,0 +1,40 @@
+{
+ "event_slug": "windsurfer-lt-jaarprijs-2025",
+ "scope": "nl",
+ "name": "Windsurfer LT Jaarprijs 2025",
+ "series": "Windsurfer LT Jaarprijs",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "windsurfer-lt-jaarprijs-2025-course-overall",
+  "windsurfer-lt-jaarprijs-2025-course-a",
+  "windsurfer-lt-jaarprijs-2025-course-b",
+  "windsurfer-lt-jaarprijs-2025-course-c",
+  "windsurfer-lt-jaarprijs-2025-course-d",
+  "windsurfer-lt-jaarprijs-2025-course-dames"
+ ],
+ "metadata_sources": [
+  {
+   "name": "Windsurfer LT Nederland: Wedstrijden in Nederland",
+   "url": "https://windsurferclass.nl/informatie/windsurfer-lt-nl-klassewedstrijden/",
+   "used_for": "opzet van de Jaarprijs: een serie van 6 klassewedstrijden; het eindklassement wordt opgemaakt uit alle losse races (idealiter 6 x 5), met 6 aftrekresultaten bij 30 races; naast de overall-uitslag zijn er uitslagen per gewichtsklasse, Jeugd (U25) en Dames. Geraadpleegd op 4 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  },
+  {
+   "name": "Windsurfer LT Nederland: Uitslagen",
+   "url": "https://windsurferclass.nl/uitslagen/",
+   "used_for": "de pdf staat hier als 'Eindstand 2025'. De pagina noemt voor 2025 onder meer LT Race 1 Almere (6 april), Race 2 Giesbeek (11 mei) en Race 3 Paterswolde (9 juni); de overige wedstrijddagen van 2025 zijn niet opgezocht. Geraadpleegd op 4 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  }
+ ],
+ "notes": [
+  "Jaarklassement van de klassenorganisatie Windsurfer LT Nederland over de klassewedstrijden van 2025 (ZW-pdf, afgedrukt op 20 december 2025). De pdf heet 'Jaarprijs-2025-eind-uitslagen' en staat op windsurferclass.nl als 'Eindstand 2025'; de kop in de pdf zelf is 'Zomercompetitie 2025'.",
+  "De pdf bevat hetzelfde klassement zes keer: overall (74 riders) en daaruit herberekend per gewichtsklasse A, B, C en D en Dames. Het zijn steeds dezelfde 26 races; in een deelklassement zijn de plaatsen per race opnieuw geteld binnen die groep. Elke tabel is over twee pagina's verdeeld (races 1-19 en 20-26), vandaar 16 pagina's. In het archief telt alleen het overall-klassement als start; de vijf deelklassementen staan erbij (subranking_of) en tellen niet als extra start.",
+  "Datum en locatie zijn niet ingevuld: het klassement loopt over een heel seizoen en de bron noemt de wedstrijddagen niet."
+ ],
+ "organizer": "Windsurfer LT Nederland",
+ "name_published": "Zomercompetitie 2025"
+}

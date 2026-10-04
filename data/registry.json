@@ -9818,6 +9818,67 @@
    "title": "NK Slalom reservedata",
    "calendar": "data/backlog/kalenders/kalender 2009.xls",
    "notes": "gepland volgens de kalender; reserveweekeinden 17 en 24 oktober"
+  },
+  {
+   "ref": "inbox/los/Windsurfer-LT-Nederland-2024-Jaarprijs-eindstand.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "b6ce374d41444f09b577a2b28e5e4dc0d42fb095bd847c4f8a4a26d3c7934e96",
+   "archived": "local-only/nl/2024/windsurfer-lt-jaarprijs-2024/bronnen/Windsurfer-LT-Nederland-2024-Jaarprijs-eindstand.pdf",
+   "url": "https://windsurferclass.nl/wp-content/uploads/2024/10/Windsurfer-LT-Nederland-2024-Jaarprijs-eindstand.pdf",
+   "notes": "bevat per rider het lichaamsgewicht; daarom niet in git maar in local-only/ (het origineel staat ook op windsurferclass.nl, zie source.url); verwerkt met tools/import_lt.py",
+   "outputs": [
+    "archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-a.json",
+    "archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-b.json",
+    "archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-c.json",
+    "archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-d.json",
+    "archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-dames.json",
+    "archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-jeugd.json",
+    "archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/Jaarprijs-2025-eind-uitslagen.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "3710f8d36cf5401197a5efdc96b30ed12930eaa9a61f745cb191e564886a1168",
+   "archived": "local-only/nl/2025/windsurfer-lt-jaarprijs-2025/bronnen/Jaarprijs-2025-eind-uitslagen.pdf",
+   "url": "https://windsurferclass.nl/wp-content/uploads/2026/03/Jaarprijs-2025-eind-uitslagen.pdf",
+   "notes": "bevat per rider het lichaamsgewicht; daarom niet in git maar in local-only/ (het origineel staat ook op windsurferclass.nl, zie source.url); verwerkt met tools/import_lt.py",
+   "outputs": [
+    "archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-a.json",
+    "archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-b.json",
+    "archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-c.json",
+    "archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-d.json",
+    "archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-dames.json",
+    "archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-overall.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/26ffb4fe-a378-45dc-8b7c-6459e8e46bc4.pdf",
+   "received": "2026-10-04",
+   "type": "pdf",
+   "status": "verwerkt",
+   "updated": "2026-10-04",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "76855bc0e1a7998afce6eaefba9566e8a50a248123721f0b88622163dc899004",
+   "archived": "archive/nl/2026/united4-2026-0418/bronnen/26ffb4fe-a378-45dc-8b7c-6459e8e46bc4.pdf",
+   "notes": "manage2sail-rapport 'United4 Medemblik I - Formula Foil - Overall Results'; bestandsnaam zoals aangeleverd; verwerkt met tools/import_lt.py",
+   "outputs": [
+    "archive/nl/2026/united4-2026-0418/uitslagen/united4-2026-0418-course-formula-foil.json"
+   ]
   }
  ]
 }

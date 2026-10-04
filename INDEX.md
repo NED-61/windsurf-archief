@@ -156,6 +156,13 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | NK Slalom 2024 | Fin (Open & Youth) | elimination | 32 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-fin.json |
 | NK Slalom 2024 | Foil (Open & Youth) | elimination | 30 | Sem Stroosma | complete | gecontroleerd | archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-foil.json |
 | Ronde om Texel 2024 | Windsurf | long_distance | 30 | Max Baaijen | complete | gecontroleerd | archive/nl/2024/ronde-om-texel-2024/uitslagen/ronde-om-texel-2024-long-distance-windsurf.json |
+| Windsurfer LT Jaarprijs 2024 | Dames | fleet_racing | 6 | Pascal van Corbach | complete | gecontroleerd | archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-dames.json |
+| Windsurfer LT Jaarprijs 2024 | Gewichtsklasse A | fleet_racing | 17 | Dion van Laarhoven | complete | gecontroleerd | archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-a.json |
+| Windsurfer LT Jaarprijs 2024 | Gewichtsklasse B | fleet_racing | 18 | Fred Hastman | complete | gecontroleerd | archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-b.json |
+| Windsurfer LT Jaarprijs 2024 | Gewichtsklasse C | fleet_racing | 20 | Marcel van der Ploeg | complete | gecontroleerd | archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-c.json |
+| Windsurfer LT Jaarprijs 2024 | Gewichtsklasse D | fleet_racing | 19 | Robert ten Dam | complete | gecontroleerd | archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-d.json |
+| Windsurfer LT Jaarprijs 2024 | Jeugd (U25) | fleet_racing | 9 | Sam van Diepen | complete | gecontroleerd | archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-jeugd.json |
+| Windsurfer LT Jaarprijs 2024 | Overall | fleet_racing | 74 | Dion van Laarhoven | complete | gecontroleerd | archive/nl/2024/windsurfer-lt-jaarprijs-2024/uitslagen/windsurfer-lt-jaarprijs-2024-course-overall.json |
 
 ## nl / 2025
 
@@ -169,6 +176,12 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2025 | Windsurfer LT / Kona One | long_distance | 6 | Albert Meppelink | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-windsurfer-lt-kona-one.json |
 | Grote Prijs van Aalsmeer 2025 | Wing | long_distance | 7 | Matthijs Van ‘T Hoff | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-wing.json |
 | Ronde om Texel 2025 | Windsurf | long_distance | 26 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2025/ronde-om-texel-2025/uitslagen/ronde-om-texel-2025-long-distance-windsurf.json |
+| Windsurfer LT Jaarprijs 2025 | Dames | fleet_racing | 12 | Pascal van Corbach | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-dames.json |
+| Windsurfer LT Jaarprijs 2025 | Gewichtsklasse A | fleet_racing | 21 | Sam van Diepen | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-a.json |
+| Windsurfer LT Jaarprijs 2025 | Gewichtsklasse B | fleet_racing | 19 | Jurian Velthuis | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-b.json |
+| Windsurfer LT Jaarprijs 2025 | Gewichtsklasse C | fleet_racing | 16 | Marcel van der Ploeg | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-c.json |
+| Windsurfer LT Jaarprijs 2025 | Gewichtsklasse D | fleet_racing | 18 | Erwin van der Wiel | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-d.json |
+| Windsurfer LT Jaarprijs 2025 | Overall | fleet_racing | 74 | Sam van Diepen | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-overall.json |
 
 ## nl / 2026
 
@@ -183,6 +196,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | The Real Trip 2026 | Fin Youth (13-17) short course | fleet_racing | 10 | Ruud Stol | complete | gecontroleerd | archive/nl/2026/the-real-trip-2026/uitslagen/the-real-trip-2026-short-course-fin-youth-13-17-short-course.json |
 | The Real Trip 2026 | LT Adults | fleet_racing | 4 | René Griffioen | complete | gecontroleerd | archive/nl/2026/the-real-trip-2026/uitslagen/the-real-trip-2026-long-distance-lt-adults.json |
 | The Real Trip 2026 | Long course overall | fleet_racing | 130 | Jakob Kooij | complete | gecontroleerd | archive/nl/2026/the-real-trip-2026/uitslagen/the-real-trip-2026-long-distance-long-course-overall.json |
+| United4 Medemblik I 2026 | Formula Foil | fleet_racing | 14 | Finn BRULL | complete | gecontroleerd | archive/nl/2026/united4-2026-0418/uitslagen/united4-2026-0418-course-formula-foil.json |
 
 ## Openstaand
 
@@ -529,4 +543,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 699 bron(nen), 231 verwerkt._
+_Registry: 702 bron(nen), 234 verwerkt._
