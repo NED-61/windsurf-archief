@@ -132,21 +132,23 @@
       var a = pick(A), b = pick(B);
       if (!a || !b) { out.innerHTML = '<p class="muted">' + (A.value || B.value ? "Kies twee namen uit de lijst." : "Nog geen riders gekozen.") + "</p>"; return; }
       if (a === b) { out.innerHTML = '<p class="muted">Kies twee verschillende riders.</p>'; return; }
-      var rows = [], wa = 0, wb = 0;
+      var rows = [], wa = 0, wb = 0, nv = 0;
       Object.keys(D.u).forEach(function (rid) {
         var u = D.u[rid];
         if (!(a in u.e) || !(b in u.e)) return;
         var ra = u.e[a], rb = u.e[b], w = 0;
         if (ra != null && (rb == null || ra < rb)) { wa++; w = 1; } else if (rb != null && (ra == null || rb < ra)) { wb++; w = 2; }
+        if (u.v) nv++;
         rows.push({ rid: rid, u: u, ra: ra, rb: rb, w: w });
       });
       rows.sort(function (x, y) { return x.u.d < y.u.d ? 1 : x.u.d > y.u.d ? -1 : 0; });
       if (!rows.length) { out.innerHTML = "<p>" + esc(D.p[a]) + " en " + esc(D.p[b]) + " stonden nog nooit in dezelfde uitslag.</p>"; return; }
       var h = '<p class="duel-sum"><a href="rider/' + a + '.html">' + esc(D.p[a]) + "</a> <b>" + wa + "</b> – <b>" + wb + '</b> <a href="rider/' + b + '.html">' + esc(D.p[b]) + "</a></p>";
-      h += '<p class="muted">Aantal keer dat de een vóór de ander eindigde, in ' + rows.length + (rows.length === 1 ? " gezamenlijke uitslag." : " gezamenlijke uitslagen.") + "</p>";
+      h += '<p class="muted">Aantal keer dat de een vóór de ander eindigde, in ' + rows.length + (rows.length === 1 ? " gezamenlijke uitslag" : " gezamenlijke uitslagen") +
+        (nv ? ", waarvan " + nv + (nv === 1 ? " tussenstand" : " tussenstanden") + " (geen einduitslag; de volgorde kan nog veranderd zijn)" : "") + ".</p>";
       h += '<div class="tbl-wrap"><table class="list"><thead><tr><th scope="col" class="num">Jaar</th><th scope="col">Uitslag</th><th scope="col" class="num">' + esc(D.p[a]) + '</th><th scope="col" class="num">' + esc(D.p[b]) + "</th></tr></thead><tbody>";
       rows.forEach(function (x) {
-        h += '<tr><td class="num">' + x.u.y + '</td><td><a href="uitslag/' + x.rid + '.html">' + esc(x.u.t) + "</a></td>" +
+        h += '<tr><td class="num">' + x.u.y + '</td><td><a href="uitslag/' + x.rid + '.html">' + esc(x.u.t) + "</a>" + (x.u.v ? ' <small class="muted">(tussenstand)</small>' : "") + "</td>" +
           '<td class="num' + (x.w === 1 ? " tot" : "") + '">' + cell(x.ra) + '</td><td class="num' + (x.w === 2 ? " tot" : "") + '">' + cell(x.rb) + "</td></tr>";
       });
       out.innerHTML = h + "</tbody></table></div>";
