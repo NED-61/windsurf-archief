@@ -1,0 +1,478 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2026-foil-recreational",
+ "event": {
+  "name": "Stonedam Foil Cup 2026",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-04-11",
+  "location": "Schildmeer, Steendam",
+  "discipline": null,
+  "gender": null,
+  "class": "Recreational",
+  "class_label_published": "Windfoil Recreational",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "3",
+   "5",
+   "7",
+   "8",
+   "9",
+   "11",
+   "13",
+   "16"
+  ],
+  "discards": 1,
+  "races_to_count": 8,
+  "scoring_system": "RRS 2025-2028 Appendix A - Lage punten (ZW); elke code (DNC, OCS) = aantal inschrijvingen + 1 (15)",
+  "code_points_published": false,
+  "code_points": 15.0,
+  "code_points_basis": "afgeleid (aantal inschrijvingen + 1) en gecontroleerd tegen de gepubliceerde netto-scores; de bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "Stonedam Foil Cup 2026 - Results.pdf",
+  "url": null,
+  "file": "archive/nl/2026/stonedam-foil-cup-2026/bronnen/Stonedam Foil Cup 2026 - Results.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-05",
+  "method": "pdfplumber: woordposities (tekst-pdf uit ZW via 'Microsoft: Print To PDF'); elke cel toegewezen aan de racekolom met dezelfde rechterkant; weglatingen herkend aan de schuine streep door de cel",
+  "metadata_sources": [
+   {
+    "name": "Surfcenter Experience: Stonedam Foil Cup",
+    "url": "https://surfcenter-experience.com/event/stonedam-foil-cup/",
+    "used_for": "editie 2026: 11 en 12 april, Schildmeer, Roegeweg 1 in Steendam, organisator Zeilvereniging Schildmeer; racen voor wind- en wingfoilers. Geraadpleegd op 5 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+   }
+  ],
+  "verified": "14 riders; 9 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; 1 weglating(en) per rider, steeds de slechtste score(s); netto herrekend uit de racepunten (elke code = 15): gelijk; per race komt elke plaats één keer voor; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Stonedam Foil Cup 2026 - Uitslag: Windfoil Recreational' (ZW Zeilwedstrijden programma 6.01.01.00, afgedrukt 2026-04-12 17:16).",
+  "Weggelaten scores zijn in de bron schuin doorgestreept (1 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "De kolom 'Zeilnr' bevat in deze uitslag kennelijk het startnummer van het evenement (per vloot doorgenummerd, zonder landcode) en niet het eigen zeilnummer: bekende riders staan er met een ander nummer dan in 2023 en 2024. Het staat daarom in bib; sail is leeg.",
+  "De racekolommen heten in de bron 1, 3, 5, 7, 8, 9, 11, 13 en 16: de nummers van de races van Windfoil Pro waarin ook deze vloot voer. Zo overgenomen.",
+  "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
+  "De races 7 en 8 hebben bij elke rider dezelfde uitslag: kennelijk één race die dubbel telt. Waarom staat niet in de bron.",
+  "Laura Moria heeft in alle races dnc. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast: de rider staat als deelnemer in de uitslag."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "seppe-wiersema",
+   "sail": null,
+   "name": "Seppe Wiersema",
+   "bib": "57",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    1.0,
+    1.0,
+    2.0,
+    4.0,
+    3.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 18.0
+  },
+  {
+   "rank": 2,
+   "person": "caren-niezen",
+   "sail": null,
+   "name": "Caren Niezen",
+   "bib": "63",
+   "division": null,
+   "points": [
+    2.0,
+    1.0,
+    1.0,
+    null,
+    null,
+    1.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 26.0
+  },
+  {
+   "rank": 3,
+   "person": "mischa-oosterbaan",
+   "sail": null,
+   "name": "Mischa Oosterbaan",
+   "bib": "64",
+   "division": null,
+   "points": [
+    4.0,
+    8.0,
+    11.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 31.0
+  },
+  {
+   "rank": 4,
+   "person": "harry-immenga",
+   "sail": null,
+   "name": "Harry Immenga",
+   "bib": "61",
+   "division": null,
+   "points": [
+    7.0,
+    7.0,
+    6.0,
+    2.0,
+    2.0,
+    6.0,
+    5.0,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 39.0
+  },
+  {
+   "rank": 5,
+   "person": "bert-beks",
+   "sail": null,
+   "name": "Bert Beks",
+   "bib": "58",
+   "division": null,
+   "points": [
+    1.0,
+    2.0,
+    3.0,
+    null,
+    null,
+    null,
+    10.0,
+    11.0,
+    5.0
+   ],
+   "race_remarks": {
+    "7": "DNC",
+    "8": "DNC",
+    "9": "OCS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 62.0
+  },
+  {
+   "rank": 6,
+   "person": "jack-van-der-laan",
+   "sail": null,
+   "name": "Jack van der Laan",
+   "bib": "65",
+   "division": null,
+   "points": [
+    5.0,
+    6.0,
+    2.0,
+    null,
+    null,
+    4.0,
+    8.0,
+    9.0,
+    null
+   ],
+   "race_remarks": {
+    "7": "DNC",
+    "8": "DNC",
+    "16": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 64.0
+  },
+  {
+   "rank": 7,
+   "person": "dirkje-van-der-pol",
+   "sail": null,
+   "name": "Dirkje van der Pol",
+   "bib": "67",
+   "division": null,
+   "points": [
+    8.0,
+    10.0,
+    7.0,
+    null,
+    null,
+    8.0,
+    7.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 67.0
+  },
+  {
+   "rank": 8,
+   "person": "mieke-de-jong",
+   "sail": null,
+   "name": "Mieke de Jong",
+   "bib": "59",
+   "division": null,
+   "points": [
+    10.0,
+    9.0,
+    10.0,
+    null,
+    null,
+    9.0,
+    9.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 77.0
+  },
+  {
+   "rank": 9,
+   "person": "anne-cnossen",
+   "sail": null,
+   "name": "Anne Cnossen",
+   "bib": "70",
+   "division": null,
+   "points": [
+    null,
+    4.0,
+    null,
+    null,
+    null,
+    null,
+    1.0,
+    1.0,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "5": "DNC",
+    "7": "DNC",
+    "8": "DNC",
+    "9": "OCS",
+    "16": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 81.0
+  },
+  {
+   "rank": 10,
+   "person": "harry-venema",
+   "sail": null,
+   "name": "Harry Venema",
+   "bib": "56",
+   "division": null,
+   "points": [
+    6.0,
+    5.0,
+    5.0,
+    null,
+    null,
+    7.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "7": "DNC",
+    "8": "DNC",
+    "11": "DNC",
+    "13": "DNC",
+    "16": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 83.0
+  },
+  {
+   "rank": 11,
+   "person": "vigo-geerlings",
+   "sail": null,
+   "name": "Vigo Geerlings",
+   "bib": "69",
+   "division": null,
+   "points": [
+    null,
+    null,
+    8.0,
+    null,
+    null,
+    5.0,
+    6.0,
+    5.0,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "3": "DNC",
+    "7": "DNC",
+    "8": "DNC",
+    "16": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 84.0
+  },
+  {
+   "rank": 12,
+   "person": "jill-de-leeuw",
+   "sail": null,
+   "name": "Jill de Leeuw",
+   "bib": "60",
+   "division": null,
+   "points": [
+    11.0,
+    null,
+    null,
+    null,
+    null,
+    10.0,
+    11.0,
+    10.0,
+    null
+   ],
+   "race_remarks": {
+    "3": "DNC",
+    "5": "DNC",
+    "7": "DNC",
+    "8": "DNC",
+    "16": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 102.0
+  },
+  {
+   "rank": 13,
+   "person": "marthe-van-der-meer",
+   "sail": null,
+   "name": "Marthe van der Meer",
+   "bib": "66",
+   "division": null,
+   "points": [
+    9.0,
+    null,
+    9.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "3": "DNC",
+    "7": "DNC",
+    "8": "DNC",
+    "9": "DNC",
+    "11": "DNC",
+    "13": "DNC",
+    "16": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 108.0
+  },
+  {
+   "rank": 14,
+   "person": "laura-moria",
+   "sail": null,
+   "name": "Laura Moria",
+   "bib": "62",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "3": "DNC",
+    "5": "DNC",
+    "7": "DNC",
+    "8": "DNC",
+    "9": "DNC",
+    "11": "DNC",
+    "13": "DNC",
+    "16": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 120.0
+  }
+ ],
+ "detail": {}
+}

@@ -1,0 +1,546 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2024-foil-heren",
+ "event": {
+  "name": "Stonedam Foil Cup 2024",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Schildmeer, Steendam",
+  "discipline": null,
+  "gender": "men",
+  "class": "Heren",
+  "class_label_published": "Windfoil Heren",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "discards": 1,
+  "races_to_count": 7,
+  "scoring_system": "RRS 2021-2024 Appendix A - Lage punten (ZW); elke code (DNC) = aantal inschrijvingen + 1 (18)",
+  "code_points_published": false,
+  "code_points": 18.0,
+  "code_points_basis": "afgeleid (aantal inschrijvingen + 1) en gecontroleerd tegen de gepubliceerde netto-scores; de bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "Foil-Cup-2024-Eindstand-8-wedstrijden-met-aftrek (1).pdf",
+  "url": null,
+  "file": "archive/nl/2024/stonedam-foil-cup-2024/bronnen/Foil-Cup-2024-Eindstand-8-wedstrijden-met-aftrek (1).pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-05",
+  "method": "pdfplumber: woordposities (tekst-pdf uit ZW via 'Microsoft: Print To PDF'); elke cel toegewezen aan de racekolom met dezelfde rechterkant; weglatingen herkend aan de schuine streep door de cel",
+  "metadata_sources": [],
+  "verified": "17 riders; 8 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; 1 weglating(en) per rider, steeds de slechtste score(s); netto herrekend uit de racepunten (elke code = 18): gelijk; per race komt elke plaats één keer voor; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Foil Cup Stonedam 2024 - Zeilvereniging Schildmeer - Uitslag: Windfoil Heren' (ZW Zeilwedstrijden programma 5.03.01.00, afgedrukt 2024-04-21 15:13).",
+  "Weggelaten scores zijn in de bron schuin doorgestreept (1 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "Landcode en zeilnummer zoals gepubliceerd. Een paar lage nummers (NED 1 t/m 5) lijken een invulnummer en geen eigen zeilnummer; dat is niet te controleren.",
+  "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
+  "De races 6 en 7 hebben bij elke rider dezelfde uitslag: kennelijk één race die dubbel telt. Waarom staat niet in de bron.",
+  "Tim Janssen, Martijn Mobach, Matthijs Pos, Sebastiaan de Bruijn hebben in alle races dnc. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast: ze staan als deelnemer in de uitslag."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "skip-brull",
+   "sail": "NED 173",
+   "name": "Skip Brüll",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    1.0,
+    2.0,
+    3.0,
+    3.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 10.0
+  },
+  {
+   "rank": 2,
+   "person": "max-baaijen",
+   "sail": "NED 61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    2.0,
+    1.0,
+    6.0,
+    5.0,
+    3.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 3,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED 259",
+   "name": "Bart van den Bogaart",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    4.0,
+    5.0,
+    9.0,
+    2.0,
+    3.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {
+    "1": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 30.0
+  },
+  {
+   "rank": 4,
+   "person": "stijn-beks",
+   "sail": "NED 343",
+   "name": "Stijn Beks",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    3.0,
+    7.0,
+    8.0,
+    10.0,
+    5.0,
+    4.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 34.0
+  },
+  {
+   "rank": 5,
+   "person": "yannick-walhof",
+   "sail": "NED 338",
+   "name": "Yannick Walhof",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    4.0,
+    8.0,
+    7.0,
+    12.0,
+    7.0,
+    6.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 43.0
+  },
+  {
+   "rank": 6,
+   "person": "mark-immenga",
+   "sail": "NED 353",
+   "name": "Mark Immenga",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    6.0,
+    9.0,
+    9.0,
+    8.0,
+    8.0,
+    5.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 47.0
+  },
+  {
+   "rank": 7,
+   "person": "kas-de-wolf",
+   "sail": "NED 39",
+   "name": "Kas de Wolf",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    5.0,
+    3.0,
+    1.0,
+    1.0,
+    6.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    6
+   ],
+   "total": null,
+   "net": 52.0
+  },
+  {
+   "rank": 8,
+   "person": "freerk-blom",
+   "sail": "NED 25",
+   "name": "Freerk Blom",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    7.0,
+    6.0,
+    2.0,
+    4.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    5
+   ],
+   "total": null,
+   "net": 73.0
+  },
+  {
+   "rank": 9,
+   "person": "kaj-rozeboom",
+   "sail": "NED 155",
+   "name": "Kaj Rozeboom",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    5.0,
+    4.0,
+    7.0,
+    4.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 74.0
+  },
+  {
+   "rank": 10,
+   "person": "richard-chardet",
+   "sail": "NED 111",
+   "name": "Richard Chardet",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    11.0,
+    10.0,
+    13.0,
+    9.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 97.0
+  },
+  {
+   "rank": 11,
+   "person": "sem-stroosma",
+   "sail": "NED 5",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    12.0,
+    2.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 104.0
+  },
+  {
+   "rank": 12,
+   "person": "jelle-van-der-veen",
+   "sail": "NED 225",
+   "name": "Jelle van der Veen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    10.0,
+    null,
+    6.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "3": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 106.0
+  },
+  {
+   "rank": 13,
+   "person": "bjarne-van-der-weg",
+   "sail": "NED 2024",
+   "name": "Bjarne van der Weg",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    11.0,
+    11.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 112.0
+  },
+  {
+   "rank": 14,
+   "person": "tim-janssen",
+   "sail": "NED 2",
+   "name": "Tim Janssen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "3": "DNC",
+    "4": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 126.0
+  },
+  {
+   "rank": 14,
+   "person": "martijn-mobach",
+   "sail": "NED 33",
+   "name": "Martijn Mobach",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "3": "DNC",
+    "4": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 126.0
+  },
+  {
+   "rank": 14,
+   "person": "matthijs-pos",
+   "sail": "NED 318",
+   "name": "Matthijs Pos",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "3": "DNC",
+    "4": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 126.0
+  },
+  {
+   "rank": 14,
+   "person": "sebastiaan-de-bruijn",
+   "sail": "NED 509",
+   "name": "Sebastiaan de Bruijn",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "3": "DNC",
+    "4": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 126.0
+  }
+ ],
+ "detail": {}
+}

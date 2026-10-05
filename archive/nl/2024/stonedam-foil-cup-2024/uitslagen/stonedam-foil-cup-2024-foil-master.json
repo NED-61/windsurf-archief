@@ -1,0 +1,264 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2024-foil-master",
+ "event": {
+  "name": "Stonedam Foil Cup 2024",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Schildmeer, Steendam",
+  "discipline": null,
+  "gender": null,
+  "class": "Master",
+  "class_label_published": "Windfoil Master",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "discards": 1,
+  "races_to_count": 7,
+  "scoring_system": "RRS 2021-2024 Appendix A - Lage punten (ZW); elke code (DNC, DNS) = aantal inschrijvingen + 1 (8)",
+  "code_points_published": false,
+  "code_points": 8.0,
+  "code_points_basis": "afgeleid (aantal inschrijvingen + 1) en gecontroleerd tegen de gepubliceerde netto-scores; de bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "Foil-Cup-2024-Eindstand-8-wedstrijden-met-aftrek (1).pdf",
+  "url": null,
+  "file": "archive/nl/2024/stonedam-foil-cup-2024/bronnen/Foil-Cup-2024-Eindstand-8-wedstrijden-met-aftrek (1).pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-05",
+  "method": "pdfplumber: woordposities (tekst-pdf uit ZW via 'Microsoft: Print To PDF'); elke cel toegewezen aan de racekolom met dezelfde rechterkant; weglatingen herkend aan de schuine streep door de cel",
+  "metadata_sources": [],
+  "verified": "7 riders; 8 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; 1 weglating(en) per rider, steeds de slechtste score(s); netto herrekend uit de racepunten (elke code = 8; gedeelde plaats = gemiddelde van de gedeelde plaatsen): gelijk; 1 gedeelde plaats(en) in een race (zie notes); geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Foil Cup Stonedam 2024 - Zeilvereniging Schildmeer - Uitslag: Windfoil Master' (ZW Zeilwedstrijden programma 5.03.01.00, afgedrukt 2024-04-21 15:13).",
+  "Weggelaten scores zijn in de bron schuin doorgestreept (1 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "Landcode en zeilnummer zoals gepubliceerd. Een paar lage nummers (NED 1 t/m 5) lijken een invulnummer en geen eigen zeilnummer; dat is niet te controleren.",
+  "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
+  "Gedeelde plaats binnen een race: race 1: Martijn van Geemen en Matthijs van der Weg allebei 1. ZW rekent dan het gemiddelde van de gedeelde plaatsen (een half punt meer) en toont het afgeronde getal; de punten staan hier zoals getoond.",
+  "Johan Bulthuis, Robert Reekers hebben in alle races dnc. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast: ze staan als deelnemer in de uitslag."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "martijn-van-geemen",
+   "sail": "NED 31",
+   "name": "Martijn van Geemen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 7.0
+  },
+  {
+   "rank": 2,
+   "person": "bert-beks",
+   "sail": "NED 81",
+   "name": "Bert Beks",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    4.0,
+    2.0,
+    3.0,
+    5.0,
+    4.0,
+    3.0,
+    3.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 21.0
+  },
+  {
+   "rank": 3,
+   "person": "harry-venema",
+   "sail": "NED 1529",
+   "name": "Harry Venema",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0,
+    2.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 23.0
+  },
+  {
+   "rank": 4,
+   "person": "harry-immenga",
+   "sail": "NED 36",
+   "name": "Harry Immenga",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    5.0,
+    3.0,
+    2.0,
+    4.0,
+    null,
+    3.0
+   ],
+   "race_remarks": {
+    "7": "DNS"
+   },
+   "discarded": [
+    7
+   ],
+   "total": null,
+   "net": 23.0
+  },
+  {
+   "rank": 5,
+   "person": "matthijs-van-der-weg",
+   "sail": "NED 2023",
+   "name": "Matthijs van der Weg",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    1.0,
+    null,
+    2.0,
+    2.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "2": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 37.5,
+   "flag": "netto in de bron wijkt af van de som van de getoonde racepunten (gedeelde plaats, zie notes)"
+  },
+  {
+   "rank": 6,
+   "person": "johan-bulthuis",
+   "sail": "NED 2",
+   "name": "Johan Bulthuis",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "3": "DNC",
+    "4": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 56.0
+  },
+  {
+   "rank": 6,
+   "person": "robert-reekers",
+   "sail": "NED 3",
+   "name": "Robert Reekers",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "2": "DNC",
+    "3": "DNC",
+    "4": "DNC",
+    "5": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 56.0
+  }
+ ],
+ "detail": {
+  "deviations": [
+   {
+    "rider": "Matthijs van der Weg",
+    "field": "net",
+    "published": 37.5,
+    "recomputed": 37.0
+   }
+  ]
+ }
+}

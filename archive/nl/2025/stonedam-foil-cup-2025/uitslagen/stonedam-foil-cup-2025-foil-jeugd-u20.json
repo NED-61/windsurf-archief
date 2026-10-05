@@ -1,0 +1,479 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2025-foil-jeugd-u20",
+ "event": {
+  "name": "Stonedam Foil Cup 2025",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Schildmeer, Steendam",
+  "discipline": null,
+  "gender": null,
+  "class": "Jeugd U20",
+  "class_label_published": "Windfoil - Jeugd U20",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "discards": 2,
+  "races_to_count": 9,
+  "scoring_system": "RRS 2025-2029 Appendix A - Lage punten (ZW); elke code (DNC, OCS) = aantal inschrijvingen + 1 (15)",
+  "code_points_published": false,
+  "code_points": 15.0,
+  "code_points_basis": "afgeleid (aantal inschrijvingen + 1) en gecontroleerd tegen de gepubliceerde netto-scores; de bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "Einduitslag-Stonedam-Foil-Cup-2025.pdf",
+  "url": null,
+  "file": "archive/nl/2025/stonedam-foil-cup-2025/bronnen/Einduitslag-Stonedam-Foil-Cup-2025.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-05",
+  "method": "pdfplumber: woordposities (tekst-pdf uit ZW via 'Microsoft: Print To PDF'); elke cel toegewezen aan de racekolom met dezelfde rechterkant; weglatingen herkend aan de schuine streep door de cel",
+  "metadata_sources": [],
+  "verified": "14 riders; 11 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; 2 weglating(en) per rider, steeds de slechtste score(s); netto herrekend uit de racepunten (elke code = 15; gedeelde plaats = gemiddelde van de gedeelde plaatsen): gelijk; 1 gedeelde plaats(en) in een race (zie notes); geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Stonedam Foil Cup 2025 - Uitslag: Windfoil - Jeugd U20' (ZW Zeilwedstrijden programma 6.00.00.00, afgedrukt 2025-04-13 22:51).",
+  "Weggelaten scores zijn in de bron schuin doorgestreept (2 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "De kolom 'Zeilnr' bevat in deze uitslag kennelijk het startnummer van het evenement (per vloot doorgenummerd, zonder landcode) en niet het eigen zeilnummer: bekende riders staan er met een ander nummer dan in 2023 en 2024. Het staat daarom in bib; sail is leeg.",
+  "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
+  "De races 7 en 8 hebben bij elke rider dezelfde uitslag: kennelijk één race die dubbel telt. Waarom staat niet in de bron.",
+  "Gedeelde plaats binnen een race: race 9: Thijs Dijkstra en Milan Hoevens allebei 13. ZW rekent dan het gemiddelde van de gedeelde plaatsen (een half punt meer) en toont het afgeronde getal; de punten staan hier zoals getoond."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "matt-de-jong",
+   "sail": null,
+   "name": "Matt de Jong",
+   "bib": "18",
+   "division": null,
+   "points": [
+    4.0,
+    6.0,
+    1.0,
+    1.0,
+    1.0,
+    4.0,
+    1.0,
+    1.0,
+    1.0,
+    3.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": null,
+   "net": 14.0
+  },
+  {
+   "rank": 2,
+   "person": "merlijn-boswijk",
+   "sail": null,
+   "name": "Merlijn Boswijk",
+   "bib": "1",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    3.0,
+    2.0,
+    2.0,
+    2.0,
+    4.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    9
+   ],
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 3,
+   "person": "peyton-dits",
+   "sail": null,
+   "name": "Peyton Dits",
+   "bib": "16",
+   "division": null,
+   "points": [
+    2.0,
+    4.0,
+    3.0,
+    3.0,
+    4.0,
+    3.0,
+    9.0,
+    9.0,
+    2.0,
+    1.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    7,
+    8
+   ],
+   "total": null,
+   "net": 24.0
+  },
+  {
+   "rank": 4,
+   "person": "milo-zaal",
+   "sail": null,
+   "name": "Milo Zaal",
+   "bib": "38",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    3.0,
+    3.0,
+    6.0,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    9,
+    10
+   ],
+   "total": null,
+   "net": 34.0
+  },
+  {
+   "rank": 5,
+   "person": "mika-boone",
+   "sail": null,
+   "name": "Mika Boone",
+   "bib": "10",
+   "division": null,
+   "points": [
+    8.0,
+    2.0,
+    5.0,
+    12.0,
+    6.0,
+    11.0,
+    5.0,
+    5.0,
+    3.0,
+    4.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6
+   ],
+   "total": null,
+   "net": 47.0
+  },
+  {
+   "rank": 6,
+   "person": "bart-van-den-bogaart",
+   "sail": null,
+   "name": "Bart van der Bogaart",
+   "bib": "27",
+   "division": null,
+   "points": [
+    5.0,
+    9.0,
+    6.0,
+    11.0,
+    2.0,
+    1.0,
+    7.0,
+    7.0,
+    11.0,
+    5.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    9
+   ],
+   "total": null,
+   "net": 50.0
+  },
+  {
+   "rank": 7,
+   "person": "yannick-walhof",
+   "sail": null,
+   "name": "Yannick Walhof",
+   "bib": "15",
+   "division": null,
+   "points": [
+    6.0,
+    5.0,
+    10.0,
+    9.0,
+    12.0,
+    7.0,
+    4.0,
+    4.0,
+    8.0,
+    9.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5
+   ],
+   "total": null,
+   "net": 58.0
+  },
+  {
+   "rank": 8,
+   "person": "yfke-van-der-meer",
+   "sail": null,
+   "name": "Yfke van der Meer",
+   "bib": "17",
+   "division": null,
+   "points": [
+    11.0,
+    12.0,
+    8.0,
+    5.0,
+    7.0,
+    13.0,
+    6.0,
+    6.0,
+    7.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    6
+   ],
+   "total": null,
+   "net": 61.0
+  },
+  {
+   "rank": 9,
+   "person": "cedric-walhof",
+   "sail": null,
+   "name": "Cedric Walhof",
+   "bib": "14",
+   "division": null,
+   "points": [
+    10.0,
+    7.0,
+    7.0,
+    6.0,
+    8.0,
+    6.0,
+    8.0,
+    8.0,
+    5.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    5
+   ],
+   "total": null,
+   "net": 62.0
+  },
+  {
+   "rank": 10,
+   "person": "anna-korevaar",
+   "sail": null,
+   "name": "Anna Korevaar",
+   "bib": "19",
+   "division": null,
+   "points": [
+    7.0,
+    11.0,
+    9.0,
+    7.0,
+    9.0,
+    8.0,
+    10.0,
+    10.0,
+    9.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    7
+   ],
+   "total": null,
+   "net": 79.0
+  },
+  {
+   "rank": 11,
+   "person": "marijn-schouten",
+   "sail": null,
+   "name": "Marijn Schouten",
+   "bib": "21",
+   "division": null,
+   "points": [
+    9.0,
+    10.0,
+    null,
+    8.0,
+    11.0,
+    10.0,
+    12.0,
+    12.0,
+    10.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {
+    "3": "OCS"
+   },
+   "discarded": [
+    3,
+    7
+   ],
+   "total": null,
+   "net": 92.0
+  },
+  {
+   "rank": 12,
+   "person": "neill-chardet",
+   "sail": null,
+   "name": "Neill Chardet",
+   "bib": "3",
+   "division": null,
+   "points": [
+    12.0,
+    8.0,
+    11.0,
+    10.0,
+    10.0,
+    9.0,
+    11.0,
+    11.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    9
+   ],
+   "total": null,
+   "net": 94.0
+  },
+  {
+   "rank": 13,
+   "person": "thijs-dijkstra",
+   "sail": null,
+   "name": "Thijs Dijkstra",
+   "bib": "2",
+   "division": null,
+   "points": [
+    13.0,
+    null,
+    12.0,
+    13.0,
+    13.0,
+    12.0,
+    14.0,
+    14.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {
+    "2": "DNC"
+   },
+   "discarded": [
+    2,
+    7
+   ],
+   "total": null,
+   "net": 116.5,
+   "flag": "netto in de bron wijkt af van de som van de getoonde racepunten (gedeelde plaats, zie notes)"
+  },
+  {
+   "rank": 14,
+   "person": "milan-hoevens",
+   "sail": null,
+   "name": "Milan Hoevens",
+   "bib": "12",
+   "division": null,
+   "points": [
+    14.0,
+    13.0,
+    13.0,
+    14.0,
+    null,
+    14.0,
+    13.0,
+    13.0,
+    13.0,
+    null,
+    14.0
+   ],
+   "race_remarks": {
+    "5": "DNC",
+    "10": "DNC"
+   },
+   "discarded": [
+    5,
+    10
+   ],
+   "total": null,
+   "net": 121.5,
+   "flag": "netto in de bron wijkt af van de som van de getoonde racepunten (gedeelde plaats, zie notes)"
+  }
+ ],
+ "detail": {
+  "deviations": [
+   {
+    "rider": "Thijs Dijkstra",
+    "field": "net",
+    "published": 116.5,
+    "recomputed": 116.0
+   },
+   {
+    "rider": "Milan Hoevens",
+    "field": "net",
+    "published": 121.5,
+    "recomputed": 121.0
+   }
+  ]
+ }
+}

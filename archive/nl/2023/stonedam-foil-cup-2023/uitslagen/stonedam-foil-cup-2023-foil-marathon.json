@@ -1,0 +1,518 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2023-foil-marathon",
+ "event": {
+  "name": "Stonedam Foil Cup 2023",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Schildmeer, Steendam",
+  "discipline": "long_distance",
+  "gender": null,
+  "class": "Marathon",
+  "class_label_published": "Windfoil - Marathon",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1"
+  ],
+  "discards": 0,
+  "races_to_count": 1,
+  "scoring_system": "RRS 2021-2024 Appendix A - Lage punten (ZW)"
+ },
+ "source": {
+  "name": "marathon.jpg",
+  "url": "https://stonedamfoilcup.nl/uitslagen2023/",
+  "file": "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup_files/marathon.jpg",
+  "files": [
+   "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup_files/marathon.jpg",
+   "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup.html"
+  ],
+  "type": "image",
+  "retrieved": "2026-10-05",
+  "method": "overgetikt van de afbeelding van de ZW-tabel op de opgeslagen pagina (weglatingen zijn schuin doorgestreept); daarna per rider de weglating en de netto-score nagerekend tegen de gepubliceerde punten",
+  "metadata_sources": [],
+  "verified": "31 riders; 1 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; netto herrekend uit de racepunten: gelijk; per race komt elke plaats één keer voor; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Uitslag: Windfoil - Marathon' (afbeelding van een ZW-tabel op stonedamfoilcup.nl/uitslagen2023/); 'RRS 2021-2024 Appendix A - Lage punten'.",
+  "De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "Landcode en zeilnummer zoals gepubliceerd. Overgetikt van de afbeelding (1120 pixels breed, goed leesbaar).",
+  "Eén race over Senior en Junior samen (31 riders): de plaats is de finishvolgorde; tijden staan niet in de bron. Vastgelegd als fleet_racing met één race.",
+  "Luc Busé en Haldun Atar (Senior) staan niet in deze lijst; Jelte Vrieling en Quinten Walhof staan alleen hier. De afbeelding eindigt bij regel 31: of de lijst daarmee compleet is, is niet te controleren (er zijn geen codes waaruit het aantal inschrijvingen volgt)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "kas-de-wolf",
+   "sail": "NED 39",
+   "name": "Kas de Wolf",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 1.0
+  },
+  {
+   "rank": 2,
+   "person": "max-baaijen",
+   "sail": "NED 61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 2.0
+  },
+  {
+   "rank": 3,
+   "person": "marco-boone",
+   "sail": "NED 13",
+   "name": "Marco Boone",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 3.0
+  },
+  {
+   "rank": 4,
+   "person": "martijn-van-geemen",
+   "sail": "NED 31",
+   "name": "Martijn van Geemen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 4.0
+  },
+  {
+   "rank": 5,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED 259",
+   "name": "Bart van den Boogaart",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 5.0
+  },
+  {
+   "rank": 6,
+   "person": "matt-de-jong",
+   "sail": "NED 3",
+   "name": "Matt de Jong",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 6.0
+  },
+  {
+   "rank": 7,
+   "person": "peyton-dits",
+   "sail": "NED 241",
+   "name": "Peyton Dits",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 7.0
+  },
+  {
+   "rank": 8,
+   "person": "mika-boone",
+   "sail": "NED 134",
+   "name": "Mika Boone",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 8.0
+  },
+  {
+   "rank": 9,
+   "person": "mark-immenga",
+   "sail": "NED 353",
+   "name": "Mark Immenga",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 9.0
+  },
+  {
+   "rank": 10,
+   "person": "stijn-beks",
+   "sail": "NED 343",
+   "name": "Stijn Beks",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 10.0
+  },
+  {
+   "rank": 11,
+   "person": "merlijn-boswijk",
+   "sail": "NED 244",
+   "name": "Merlijn Boswijk",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 11.0
+  },
+  {
+   "rank": 12,
+   "person": "joep-havik",
+   "sail": "NED 231",
+   "name": "Joep Havik",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 12.0
+  },
+  {
+   "rank": 13,
+   "person": "jelle-van-der-veen",
+   "sail": "NED 225",
+   "name": "Jelle van der Veen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 13.0
+  },
+  {
+   "rank": 14,
+   "person": "femke-van-der-veen",
+   "sail": "NED 2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 14.0
+  },
+  {
+   "rank": 15,
+   "person": "caren-niezen",
+   "sail": "NED 367",
+   "name": "Caren Niezen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 15.0
+  },
+  {
+   "rank": 16,
+   "person": "diederik-leemans",
+   "sail": "NED 301",
+   "name": "Diederik Leemans",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 16.0
+  },
+  {
+   "rank": 17,
+   "person": "milo-zaal",
+   "sail": "NED 90",
+   "name": "Milo Zaal",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 18,
+   "person": "anna-korevaar",
+   "sail": "NED 157",
+   "name": "Anna Korevaar",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 18.0
+  },
+  {
+   "rank": 19,
+   "person": "yannick-walhof",
+   "sail": "NED 1",
+   "name": "Yannick Walhof",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 19.0
+  },
+  {
+   "rank": 20,
+   "person": "sebastiaan-de-bruijn",
+   "sail": "NED 509",
+   "name": "Sebastiaan de Bruijn",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    20.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 20.0
+  },
+  {
+   "rank": 21,
+   "person": "harry-venema",
+   "sail": "NED 1529",
+   "name": "Harry Venema",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    21.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 21.0
+  },
+  {
+   "rank": 22,
+   "person": "youri-honkoop",
+   "sail": "NED 80",
+   "name": "Youri Honkoop",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    22.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 22.0
+  },
+  {
+   "rank": 23,
+   "person": "harry-immenga",
+   "sail": "NED 35",
+   "name": "Harry Immenga",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    23.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 23.0
+  },
+  {
+   "rank": 24,
+   "person": "steff-de-bruijn",
+   "sail": "NED 508",
+   "name": "Steff de Bruijn",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    24.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 24.0
+  },
+  {
+   "rank": 25,
+   "person": "bert-beks",
+   "sail": "NED 81",
+   "name": "Bert Beks",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    25.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 25.0
+  },
+  {
+   "rank": 26,
+   "person": "yfke-van-der-meer",
+   "sail": "NED 8",
+   "name": "Yfke van der Meer",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    26.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 26.0
+  },
+  {
+   "rank": 27,
+   "person": "cedric-walhof",
+   "sail": "NED 111",
+   "name": "Cédric Walhof",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    27.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 27.0
+  },
+  {
+   "rank": 28,
+   "person": "justin-honkoop",
+   "sail": "NED 94",
+   "name": "Justin Honkoop",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    28.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 28.0
+  },
+  {
+   "rank": 29,
+   "person": "jelte-vrieling",
+   "sail": "NED 77",
+   "name": "Jelte Vrieling",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 29.0
+  },
+  {
+   "rank": 30,
+   "person": "quinten-walhof",
+   "sail": "NED 11",
+   "name": "Quinten Walhof",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 30.0
+  },
+  {
+   "rank": 31,
+   "person": "sara-de-kimpe",
+   "sail": "NED 170",
+   "name": "Sara de Kimpe",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    31.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": null,
+   "net": 31.0
+  }
+ ],
+ "detail": {}
+}

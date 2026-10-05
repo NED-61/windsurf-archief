@@ -1,0 +1,164 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2024-foil-dames",
+ "event": {
+  "name": "Stonedam Foil Cup 2024",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Schildmeer, Steendam",
+  "discipline": null,
+  "gender": "women",
+  "class": "Dames",
+  "class_label_published": "Windfoil Dames",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "discards": 1,
+  "races_to_count": 7,
+  "scoring_system": "RRS 2021-2024 Appendix A - Lage punten (ZW); elke code (DNC) = aantal inschrijvingen + 1 (5)",
+  "code_points_published": false,
+  "code_points": 5.0,
+  "code_points_basis": "afgeleid (aantal inschrijvingen + 1) en gecontroleerd tegen de gepubliceerde netto-scores; de bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "Foil-Cup-2024-Eindstand-8-wedstrijden-met-aftrek (1).pdf",
+  "url": null,
+  "file": "archive/nl/2024/stonedam-foil-cup-2024/bronnen/Foil-Cup-2024-Eindstand-8-wedstrijden-met-aftrek (1).pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-05",
+  "method": "pdfplumber: woordposities (tekst-pdf uit ZW via 'Microsoft: Print To PDF'); elke cel toegewezen aan de racekolom met dezelfde rechterkant; weglatingen herkend aan de schuine streep door de cel",
+  "metadata_sources": [],
+  "verified": "4 riders; 8 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; 1 weglating(en) per rider, steeds de slechtste score(s); netto herrekend uit de racepunten (elke code = 5): gelijk; per race komt elke plaats één keer voor; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Foil Cup Stonedam 2024 - Zeilvereniging Schildmeer - Uitslag: Windfoil Dames' (ZW Zeilwedstrijden programma 5.03.01.00, afgedrukt 2024-04-21 15:13).",
+  "Weggelaten scores zijn in de bron schuin doorgestreept (1 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "Landcode en zeilnummer zoals gepubliceerd. Een paar lage nummers (NED 1 t/m 5) lijken een invulnummer en geen eigen zeilnummer; dat is niet te controleren.",
+  "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
+  "De races 2 en 3, 6 en 7, 7 en 8 hebben bij elke rider dezelfde uitslag: kennelijk één race die dubbel telt. Waarom staat niet in de bron."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "zara-rozeboom",
+   "sail": "NED 127",
+   "name": "Zara Rozeboom",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 7.0
+  },
+  {
+   "rank": 2,
+   "person": "yfke-van-der-meer",
+   "sail": "NED 3",
+   "name": "Yfke van der Meer",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    3.0,
+    4.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 3,
+   "person": "femke-van-der-veen",
+   "sail": "NED 2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    2.0,
+    2.0,
+    2.0,
+    3.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNC",
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 24.0
+  },
+  {
+   "rank": 4,
+   "person": "caren-niezen",
+   "sail": "NED 367",
+   "name": "Caren Niezen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    2.0,
+    4.0,
+    4.0,
+    3.0,
+    4.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "6": "DNC",
+    "7": "DNC",
+    "8": "DNC"
+   },
+   "discarded": [
+    6
+   ],
+   "total": null,
+   "net": 27.0
+  }
+ ],
+ "detail": {}
+}

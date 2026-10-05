@@ -359,6 +359,13 @@
      "sail": "NED 34",
      "division": "heren",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Adri Keet",
+     "sail": "NED 34",
+     "division": "master",
+     "match": "naam"
     }
    ]
   },
@@ -506,6 +513,13 @@
      "sail": "NED2",
      "division": "men",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Adriaan v Rijsselberghe",
+     "sail": "NED 2",
+     "division": "senior",
+     "match": "naam"
     }
    ]
   },
@@ -597,6 +611,19 @@
      "name": "Alessio Botten Samiento",
      "sail": "Per 20",
      "division": "Jeugd"
+    }
+   ]
+  },
+  {
+   "id": "alex-hamel",
+   "name": "Alex Hamel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Alex Hamel",
+     "sail": "GER 41",
+     "division": "youth"
     }
    ]
   },
@@ -749,6 +776,13 @@
      "name": "Alexander Verhage",
      "sail": "NED 75",
      "division": "heren",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Alexander Verhage",
+     "sail": "NED 75",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -917,6 +951,19 @@
    ]
   },
   {
+   "id": "andrea-martinex",
+   "name": "Andrea Martinex",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Andrea Martinex",
+     "sail": "ESP 62",
+     "division": null
+    }
+   ]
+  },
+  {
    "id": "andrea-pangrazi",
    "name": "Andrea Pangrazi",
    "aliases": [],
@@ -940,7 +987,8 @@
    "id": "andrea-vanhoorne",
    "name": "Andrea Vanhoorne",
    "aliases": [
-    "Andrea Verhoorne"
+    "Andrea Verhoorne",
+    "Andrea VANHOORNE"
    ],
    "appearances": [
     {
@@ -1046,6 +1094,13 @@
      "name": "Andrea Vanhoorne",
      "sail": "BEL 26",
      "division": "Women",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Andrea VANHOORNE",
+     "sail": "BEL 26",
+     "division": "Youth (U20)",
      "match": "naam"
     }
    ],
@@ -1199,6 +1254,35 @@
      "sail": "NED 157",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Anna Korevaar",
+     "sail": "NED 157",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Anna Korevaar",
+     "sail": "NED 157",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Anna Korevaar",
+     "sail": "NED 157",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Anna Korevaar",
+     "sail": null,
+     "division": null,
+     "bib": "19",
+     "match": "naam"
     }
    ]
   },
@@ -1219,6 +1303,22 @@
      "name": "Anne Cnossen",
      "sail": "665",
      "division": "Espoir",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Anne Cnossen",
+     "sail": null,
+     "division": null,
+     "bib": "8",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Anne Cnossen",
+     "sail": null,
+     "division": null,
+     "bib": "70",
      "match": "naam"
     }
    ]
@@ -1772,13 +1872,30 @@
   {
    "id": "arvidas-moliusis",
    "name": "Arvidas Moliusis",
-   "aliases": [],
+   "aliases": [
+    "Aruydas Moliusis",
+    "Arvydas Moliusis"
+   ],
    "appearances": [
     {
      "event": "north-sea-cup-2015-course-formula",
      "name": "Arvidas Moliusis",
      "sail": "LTU 789",
      "division": "Men"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Aruydas Moliusis",
+     "sail": "LTU 789",
+     "division": "Men",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Arvydas Moliusis",
+     "sail": "LTU 789",
+     "division": "Open",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -2059,7 +2176,9 @@
     "Bart Van den Bogaart",
     "Bart Vd Bogaart",
     "Bart BOGAART",
-    "Bart Van Den Bogaart"
+    "Bart Van Den Bogaart",
+    "Bart van den Boogaart",
+    "Bart van der Bogaart"
    ],
    "appearances": [
     {
@@ -2102,6 +2221,35 @@
      "name": "Bart Van Den Bogaart",
      "sail": "NED-259",
      "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Bart van den Boogaart",
+     "sail": "NED 259",
+     "division": null,
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Bart van den Boogaart",
+     "sail": "NED 259",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Bart van den Bogaart",
+     "sail": "NED 259",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Bart van der Bogaart",
+     "sail": null,
+     "division": null,
+     "bib": "27",
      "match": "naam"
     }
    ],
@@ -2607,6 +2755,21 @@
    ]
   },
   {
+   "id": "benoit-chauvin",
+   "name": "Benoit Chauvin",
+   "aliases": [
+    "Benoit CHAUVIN"
+   ],
+   "appearances": [
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Benoit CHAUVIN",
+     "sail": "FRA 179",
+     "division": "Men"
+    }
+   ]
+  },
+  {
    "id": "berj-khassab",
    "name": "Berj Khassab",
    "aliases": [],
@@ -2624,6 +2787,49 @@
      "sail": null,
      "division": null,
      "bib": "7",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "bert-beks",
+   "name": "Bert Beks",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Bert Beks",
+     "sail": "NED 81",
+     "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Bert Beks",
+     "sail": "NED 81",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-master",
+     "name": "Bert Beks",
+     "sail": "NED 81",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Bert Beks",
+     "sail": null,
+     "division": null,
+     "bib": "4",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Bert Beks",
+     "sail": null,
+     "division": null,
+     "bib": "58",
      "match": "naam"
     }
    ]
@@ -2723,6 +2929,14 @@
      "sail": "NED 164",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Bjarne de Leeuw",
+     "sail": null,
+     "division": null,
+     "bib": "9",
+     "match": "naam"
     }
    ]
   },
@@ -2759,6 +2973,13 @@
      "name": "Bjarne van der Weg",
      "sail": "NED-2024",
      "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Bjarne van der Weg",
+     "sail": "NED 2024",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -3240,6 +3461,43 @@
      "division": null,
      "bib": "149",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Caren Niezen",
+     "sail": "NED 367",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Caren Niezen",
+     "sail": "NED 367",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-dames",
+     "name": "Caren Niezen",
+     "sail": "NED 367",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Caren Niezen",
+     "sail": null,
+     "division": null,
+     "bib": "24",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Caren Niezen",
+     "sail": null,
+     "division": null,
+     "bib": "63",
+     "match": "naam"
     }
    ]
   },
@@ -3362,6 +3620,13 @@
      "division": null,
      "bib": "708",
      "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Casper Bouman",
+     "sail": null,
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -3434,6 +3699,43 @@
      "name": "Cédric WALHOF",
      "sail": "NED 388",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Cédric Walhof",
+     "sail": "NED 111",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Cédric Walhof",
+     "sail": "NED 111",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Cédric Walhof",
+     "sail": "NED 388",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Cedric Walhof",
+     "sail": null,
+     "division": null,
+     "bib": "14",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Cedric Walhof",
+     "sail": null,
+     "division": null,
+     "bib": "29",
      "match": "naam"
     }
    ]
@@ -3931,6 +4233,20 @@
      "sail": "NED 262",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Coen Swijnenburg",
+     "sail": "NED 262",
+     "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Coen Swijnenburg",
+     "sail": "NED 262",
+     "division": "U20",
+     "match": "naam"
     }
    ]
   },
@@ -4059,6 +4375,13 @@
      "sail": "NED 84",
      "division": "onder 20",
      "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Daan Meily",
+     "sail": "NED 211",
+     "division": "Youth (U20)",
+     "match": "naam"
     }
    ]
   },
@@ -4119,6 +4442,28 @@
      "name": "Damian Holleman",
      "sail": "NED294",
      "division": "men",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "daniek-penners",
+   "name": "Daniek Penners",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Daniek Penners",
+     "sail": null,
+     "division": null,
+     "bib": "33"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Daniek Penners",
+     "sail": null,
+     "division": null,
+     "bib": "17",
      "match": "naam"
     }
    ]
@@ -4251,6 +4596,13 @@
      "name": "Dave Coles",
      "sail": "GBR 69",
      "division": "Men"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Dave Coles",
+     "sail": "GBR 4",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -4572,6 +4924,20 @@
      "sail": "NED 13",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Dennis Littel",
+     "sail": "NED 13",
+     "division": "senior",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Dennis Littel",
+     "sail": "NED 13",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -4659,6 +5025,27 @@
      "name": "Diederik Leemans",
      "sail": "NED-301",
      "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Diederik Leemans",
+     "sail": "NED 301",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Diederik Leemans",
+     "sail": "NED 301",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Diederik Leemans",
+     "sail": "NED 301",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -4784,6 +5171,20 @@
      "sail": "NED 51",
      "division": "heren",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Dirk Doppenberg",
+     "sail": "NED 51",
+     "division": "senior",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Dirk Doppenberg",
+     "sail": "NED 51",
+     "division": "Men",
+     "match": "naam"
     }
    ]
   },
@@ -4878,6 +5279,28 @@
      "name": "Dirkje van der POL",
      "sail": "NED 446",
      "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Dirkje van der Pol",
+     "sail": null,
+     "division": null,
+     "bib": "67",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "djoeke-adriaanse",
+   "name": "Djoeke Adriaanse",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Djoeke Adriaanse",
+     "sail": null,
+     "division": null,
+     "bib": "1"
     }
    ]
   },
@@ -5472,6 +5895,13 @@
      "name": "Ennio dal Pont",
      "sail": "NED46",
      "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Ennio Dal Pont",
+     "sail": null,
+     "division": "U20",
      "match": "naam"
     }
    ],
@@ -6512,6 +6942,43 @@
      "sail": "NED 2251",
      "division": "Women",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Femke van der Veen",
+     "sail": "NED 2251",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Femke van der Veen",
+     "sail": "NED 2251",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-dames",
+     "name": "Femke van der Veen",
+     "sail": "NED 2251",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Femke van der Veen",
+     "sail": null,
+     "division": null,
+     "bib": "94",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Femke van der Veen",
+     "sail": null,
+     "division": null,
+     "bib": "27",
+     "match": "naam"
     }
    ]
   },
@@ -6682,6 +7149,13 @@
     {
      "event": "nk-2024-course-formula-foil",
      "name": "Finn BRÜLL",
+     "sail": "NED 731",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Finn Brüll",
      "sail": "NED 731",
      "division": null,
      "match": "naam"
@@ -7126,6 +7600,21 @@
      "sail": "NED 25",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Freerk Blom",
+     "sail": "NED 25",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Freerk Blom",
+     "sail": null,
+     "division": null,
+     "bib": "4",
+     "match": "naam"
     }
    ]
   },
@@ -7337,6 +7826,13 @@
      "name": "Gerrij Ruiter",
      "sail": "333",
      "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Gerry Ruiter",
+     "sail": "NED 333",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -7656,6 +8152,13 @@
      "sail": "7777",
      "division": "Senior (Men/Women)",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Haldun Atar",
+     "sail": "NED 7777",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -7968,6 +8471,92 @@
      "name": "Harold Korn",
      "sail": "NED 179",
      "division": "D",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "harry-immenga",
+   "name": "Harry Immenga",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Harry Immenga",
+     "sail": "NED 35",
+     "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Harry Immenga",
+     "sail": "NED 35",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-master",
+     "name": "Harry Immenga",
+     "sail": "NED 36",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Harry Immenga",
+     "sail": null,
+     "division": null,
+     "bib": "23",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Harry Immenga",
+     "sail": null,
+     "division": null,
+     "bib": "61",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "harry-venema",
+   "name": "Harry Venema",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Harry Venema",
+     "sail": "NED 1529",
+     "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Harry Venema",
+     "sail": "NED 1529",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-master",
+     "name": "Harry Venema",
+     "sail": "NED 1529",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Harry Venema",
+     "sail": null,
+     "division": null,
+     "bib": "22",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Harry Venema",
+     "sail": null,
+     "division": null,
+     "bib": "56",
      "match": "naam"
     }
    ]
@@ -8296,6 +8885,14 @@
      "name": "Hidde Van der meer",
      "sail": "NED-352",
      "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Hidde van der Meer",
+     "sail": null,
+     "division": null,
+     "bib": "25",
      "match": "naam"
     }
    ]
@@ -8789,6 +9386,20 @@
      "sail": "NED 191",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Ingmar Daldorf",
+     "sail": "NED 191",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Ingmar Daldorf",
+     "sail": "NED 191",
+     "division": "Open",
+     "match": "naam"
     }
    ]
   },
@@ -9121,6 +9732,20 @@
    ]
   },
   {
+   "id": "jack-van-der-laan",
+   "name": "Jack van der Laan",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Jack van der Laan",
+     "sail": null,
+     "division": null,
+     "bib": "65"
+    }
+   ]
+  },
+  {
    "id": "jaime-van-den-berg",
    "name": "Jaime Van Den Berg",
    "aliases": [],
@@ -9400,6 +10025,19 @@
    ]
   },
   {
+   "id": "jan-bruggeman",
+   "name": "Jan Bruggeman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Jan Bruggeman",
+     "sail": "BEL 76",
+     "division": "senior"
+    }
+   ]
+  },
+  {
    "id": "jan-de-jonge",
    "name": "Jan de Jonge",
    "aliases": [
@@ -9600,6 +10238,19 @@
    ]
   },
   {
+   "id": "jan-seidel",
+   "name": "Jan Seidel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Jan Seidel",
+     "sail": "GER 987",
+     "division": "Men"
+    }
+   ]
+  },
+  {
    "id": "jan-stockmans",
    "name": "Jan Stockmans",
    "aliases": [],
@@ -9698,6 +10349,19 @@
      "sail": "X",
      "division": "Grandmaster",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "jan-willem-eckhardt",
+   "name": "Jan Willem Eckhardt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Jan Willem Eckhardt",
+     "sail": "NED 110",
+     "division": "senior"
     }
    ]
   },
@@ -10040,6 +10704,13 @@
      "division": null,
      "bib": "24",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Jeffrey van Hoe",
+     "sail": "BEL 6",
+     "division": "youth",
+     "match": "naam"
     }
    ]
   },
@@ -10196,6 +10867,35 @@
      "sail": "NED 225",
      "division": "Youth",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Jelle van der Veen",
+     "sail": "NED 225",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Jelle van der Veen",
+     "sail": "NED 225",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Jelle van der Veen",
+     "sail": "NED 225",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Jelle van der Veen",
+     "sail": null,
+     "division": null,
+     "bib": "5",
+     "match": "naam"
     }
    ]
   },
@@ -10223,6 +10923,19 @@
      "sail": null,
      "division": null,
      "bib": "82"
+    }
+   ]
+  },
+  {
+   "id": "jelte-vrieling",
+   "name": "Jelte Vrieling",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Jelte Vrieling",
+     "sail": "NED 77",
+     "division": null
     }
    ]
   },
@@ -10620,6 +11333,29 @@
      "sail": null,
      "division": null,
      "bib": "066"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-newbies",
+     "name": "Jill de Leeuw",
+     "sail": "NED 95",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Jill de Leeuw",
+     "sail": null,
+     "division": null,
+     "bib": "25",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Jill de Leeuw",
+     "sail": null,
+     "division": null,
+     "bib": "60",
+     "match": "naam"
     }
    ]
   },
@@ -10653,6 +11389,20 @@
      "name": "Jimte Jepma",
      "sail": "H 118",
      "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "jinte-staring",
+   "name": "Jinte Staring",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Jinte Staring",
+     "sail": null,
+     "division": null,
+     "bib": "22"
     }
    ]
   },
@@ -10833,6 +11583,27 @@
      "division": "Foil",
      "bib": "19",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Joep Havik",
+     "sail": "NED 231",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Joep Havik",
+     "sail": "NED 231",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Joep Havik",
+     "sail": "NED 231",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -10954,6 +11725,13 @@
      "sail": null,
      "division": null,
      "bib": "164",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-master",
+     "name": "Johan Bulthuis",
+     "sail": "NED 2",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -11171,6 +11949,28 @@
      "name": "John Munten",
      "sail": "NED 30",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "John MUNTEN",
+     "sail": "NED 30",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "John Munten",
+     "sail": "NED 30",
+     "division": "Open",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "John Munten",
+     "sail": null,
+     "division": null,
+     "bib": "30",
      "match": "naam"
     }
    ]
@@ -11524,6 +12324,13 @@
      "sail": "NED 69",
      "division": "heren",
      "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Jordy Vonk",
+     "sail": "NED 69",
+     "division": "Youth (U20)",
+     "match": "naam"
     }
    ]
   },
@@ -11843,6 +12650,26 @@
    ]
   },
   {
+   "id": "justin-honkoop",
+   "name": "Justin Honkoop",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Justin Honkoop",
+     "sail": "NED 94",
+     "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Justin Honkoop",
+     "sail": "NED 94",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "justin-tettero",
    "name": "Justin Tettero",
    "aliases": [],
@@ -11928,6 +12755,13 @@
      "sail": "NED 322",
      "division": "Youth",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Kaj Rozeboom",
+     "sail": "NED 155",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -12011,6 +12845,27 @@
      "name": "Kas de Wolf",
      "sail": "NED 8123",
      "division": "Youth",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Kas de Wolf",
+     "sail": "NED 39",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Kas de Wolf",
+     "sail": "NED 39",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Kas de Wolf",
+     "sail": "NED 39",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -12138,7 +12993,9 @@
   {
    "id": "kenny-de-jager",
    "name": "Kenny de Jager",
-   "aliases": [],
+   "aliases": [
+    "Kenny DE JAGER"
+   ],
    "appearances": [
     {
      "event": "nk-2009-slalom-overall",
@@ -12158,6 +13015,20 @@
      "name": "Kenny de Jager",
      "sail": "BEL 9",
      "division": "heren",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Kenny DE JAGER",
+     "sail": "BEL 9",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Kenny de Jager",
+     "sail": "BEL 9",
+     "division": "Open",
      "match": "naam"
     }
    ]
@@ -12435,6 +13306,26 @@
      "sail": "NED 42",
      "division": "heren",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Klaas Sybrand Jissink",
+     "sail": "NED 315",
+     "division": "senior",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "klaus-meissgeier",
+   "name": "Klaus Meissgeier",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Klaus Meissgeier",
+     "sail": "GER 771",
+     "division": "master"
     }
    ]
   },
@@ -12548,6 +13439,19 @@
      "sail": "NED 881",
      "division": "Youth",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "koen-sonck",
+   "name": "Koen Sonck",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Koen Sonck",
+     "sail": "BEL 12",
+     "division": "senior"
     }
    ]
   },
@@ -12774,6 +13678,14 @@
      "division": null,
      "bib": "16",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Laura Moria",
+     "sail": null,
+     "division": null,
+     "bib": "62",
+     "match": "naam"
     }
    ]
   },
@@ -12919,6 +13831,13 @@
      "sail": "NED 7",
      "division": null,
      "bib": "736",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Leendert van Gaalen",
+     "sail": "NED 338",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -13340,6 +14259,22 @@
      "division": null,
      "bib": "102",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Lotte van den Toorn",
+     "sail": null,
+     "division": null,
+     "bib": "7",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Lotte van den Toorn",
+     "sail": null,
+     "division": null,
+     "bib": "24",
+     "match": "naam"
     }
    ]
   },
@@ -13401,6 +14336,21 @@
      "name": "Luc BUSE",
      "sail": "NED 333",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Luc Busé",
+     "sail": "NED 333",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Luc Busé",
+     "sail": null,
+     "division": null,
+     "bib": "28",
      "match": "naam"
     }
    ],
@@ -14186,6 +15136,13 @@
      "sail": "NED 100",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Marc de Jong",
+     "sail": "NED 103",
+     "division": "senior",
+     "match": "naam"
     }
    ]
   },
@@ -14526,6 +15483,13 @@
      "sail": "NED461",
      "division": "men",
      "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Marco Baaijen",
+     "sail": null,
+     "division": "Open",
+     "match": "naam"
     }
    ]
   },
@@ -14589,6 +15553,28 @@
      "sail": "NED 103",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Marco Boone",
+     "sail": "NED 13",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Marco Boone",
+     "sail": "NED 13",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Marco Boone",
+     "sail": null,
+     "division": null,
+     "bib": "9",
+     "match": "naam"
     }
    ]
   },
@@ -14642,6 +15628,13 @@
      "sail": "NED 10",
      "division": "heren",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Marco Kraaijenzank",
+     "sail": "NED 10",
+     "division": "Open",
+     "match": "naam"
     }
    ]
   },
@@ -15128,6 +16121,29 @@
      "sail": "NED-160",
      "division": "Junior U13",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Marijn Schouten",
+     "sail": "NED 160",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Marijn Schouten",
+     "sail": null,
+     "division": null,
+     "bib": "21",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Marijn Schouten",
+     "sail": null,
+     "division": null,
+     "bib": "21",
+     "match": "naam"
     }
    ]
   },
@@ -15277,6 +16293,43 @@
      "division": "Foil",
      "bib": "35",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Mark Immenga",
+     "sail": "NED 353",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Mark Immenga",
+     "sail": "NED 353",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Mark Immenga",
+     "sail": "NED 353",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Mark Immenga",
+     "sail": null,
+     "division": null,
+     "bib": "26",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Mark Immenga",
+     "sail": null,
+     "division": null,
+     "bib": "14",
+     "match": "naam"
     }
    ]
   },
@@ -15296,7 +16349,9 @@
   {
    "id": "mark-palmer",
    "name": "Mark Palmer",
-   "aliases": [],
+   "aliases": [
+    "Mark PALMER"
+   ],
    "appearances": [
     {
      "event": "nk-2023-slalom-heren",
@@ -15309,6 +16364,13 @@
      "name": "Mark Palmer",
      "sail": "AUS1234",
      "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Mark PALMER",
+     "sail": null,
+     "division": "Men",
      "match": "naam"
     }
    ]
@@ -15412,6 +16474,13 @@
      "sail": "NED 6",
      "division": "men",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Markus Bouman",
+     "sail": "NED 6",
+     "division": "senior",
+     "match": "naam"
     }
    ]
   },
@@ -15493,6 +16562,14 @@
      "sail": null,
      "division": null,
      "bib": "065"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Marthe van der Meer",
+     "sail": null,
+     "division": null,
+     "bib": "66",
+     "match": "naam"
     }
    ]
   },
@@ -15595,6 +16672,13 @@
      "sail": null,
      "division": null,
      "bib": "323",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Martijn Mobach",
+     "sail": "NED 33",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -15765,6 +16849,27 @@
      "sail": "NED31",
      "division": "Foil",
      "bib": "40",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Martijn van Geemen",
+     "sail": "NED 31",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Martijn van Geemen",
+     "sail": "NED 31",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-master",
+     "name": "Martijn van Geemen",
+     "sail": "NED 31",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -15983,6 +17088,19 @@
    ]
   },
   {
+   "id": "mathijs-kalsbeek",
+   "name": "Mathijs Kalsbeek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Mathijs Kalsbeek",
+     "sail": "NED 8",
+     "division": "youth"
+    }
+   ]
+  },
+  {
    "id": "matt-de-jong",
    "name": "Matt De Jong",
    "aliases": [
@@ -16055,6 +17173,36 @@
      "sail": "NED-6",
      "division": "Youth U21",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Matt de Jong",
+     "sail": "NED 3",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Matt de Jong",
+     "sail": "NED 3",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Matt de Jong",
+     "sail": null,
+     "division": null,
+     "bib": "18",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Matt de Jong",
+     "sail": null,
+     "division": null,
+     "bib": "8",
+     "match": "naam"
     }
    ]
   },
@@ -16107,6 +17255,13 @@
      "name": "Matthijs Pos",
      "sail": "NED-318",
      "division": "Youth U21",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Matthijs Pos",
+     "sail": "NED 318",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -16165,6 +17320,13 @@
      "name": "Matthijs van der Weg",
      "sail": "NED-2023",
      "division": "Grandmaster",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-master",
+     "name": "Matthijs van der Weg",
+     "sail": "NED 2023",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -16641,6 +17803,50 @@
      "sail": "NED 61",
      "division": "Youth",
      "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Max Baaijen",
+     "sail": null,
+     "division": "U20",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Max Baaijen",
+     "sail": "NED 61",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Max Baaijen",
+     "sail": "NED 61",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Max Baaijen",
+     "sail": "NED 61",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Max Baaijen",
+     "sail": null,
+     "division": null,
+     "bib": "13",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Max Baaijen",
+     "sail": null,
+     "division": null,
+     "bib": "2",
+     "match": "naam"
     }
    ]
   },
@@ -16854,6 +18060,13 @@
      "name": "Miximilian Voss",
      "sail": "GER 232",
      "division": "jeugd",
+     "match": "bevestigd"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Max Voss",
+     "sail": "GER 232",
+     "division": "U20",
      "match": "bevestigd"
     }
    ],
@@ -17139,6 +18352,35 @@
      "division": "Foil",
      "bib": "15",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Merlijn Boswijk",
+     "sail": "NED 244",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Merlijn Boswijk",
+     "sail": "NED 244",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Merlijn Boswijk",
+     "sail": "NED 244",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Merlijn Boswijk",
+     "sail": null,
+     "division": null,
+     "bib": "1",
+     "match": "naam"
     }
    ]
   },
@@ -17327,6 +18569,42 @@
      "name": "Michiel Rijkaert",
      "sail": "NED 220",
      "division": "men"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Michiel Rijkaert",
+     "sail": "NED 220",
+     "division": "senior",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "mieke-de-jong",
+   "name": "Mieke de Jong",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2024-foil-newbies",
+     "name": "Mieke de Jong",
+     "sail": "NED 4",
+     "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Mieke de Jong",
+     "sail": null,
+     "division": null,
+     "bib": "11",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Mieke de Jong",
+     "sail": null,
+     "division": null,
+     "bib": "59",
+     "match": "naam"
     }
    ]
   },
@@ -17349,6 +18627,14 @@
      "name": "Mies DIJKSTERHUIS",
      "sail": "NED 582",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Mies Dijksterhuis",
+     "sail": null,
+     "division": null,
+     "bib": "10",
      "match": "naam"
     }
    ]
@@ -17415,6 +18701,28 @@
      "name": "Mika BOONE",
      "sail": "NED 134",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Mika Boone",
+     "sail": "NED 134",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Mika Boone",
+     "sail": "NED 134",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Mika Boone",
+     "sail": null,
+     "division": null,
+     "bib": "10",
      "match": "naam"
     }
    ]
@@ -17549,6 +18857,22 @@
      "sail": "NED 477",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Milan Hoevens",
+     "sail": null,
+     "division": null,
+     "bib": "12",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Milan Hoevens",
+     "sail": null,
+     "division": null,
+     "bib": "13",
+     "match": "naam"
     }
    ]
   },
@@ -17656,6 +18980,48 @@
      "sail": "NED-303",
      "division": "Junior U17",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Milo Zaal",
+     "sail": "NED 90",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Milo Zaal",
+     "sail": "NED 90",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Milo Zaal",
+     "sail": "NED 303",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Milo Zaal",
+     "sail": null,
+     "division": null,
+     "bib": "38",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "mindaugas-kriukelis",
+   "name": "Mindaugas Kriukelis",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Mindaugas Kriukelis",
+     "sail": "LTU 64",
+     "division": "Open"
     }
    ]
   },
@@ -17685,6 +19051,14 @@
      "name": "Mischa OOSTERBAAN",
      "sail": "NED 486",
      "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Mischa Oosterbaan",
+     "sail": null,
+     "division": null,
+     "bib": "64",
+     "match": "naam"
     }
    ]
   },
@@ -17777,6 +19151,29 @@
      "sail": "2011",
      "division": "Junior U15",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Neill Chardet",
+     "sail": "NED 1",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Neill Chardet",
+     "sail": null,
+     "division": null,
+     "bib": "3",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Neill Chardet",
+     "sail": null,
+     "division": null,
+     "bib": "6",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -17817,6 +19214,19 @@
      "sail": "NED 183",
      "division": "Men",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "nick-de-wannemaeker",
+   "name": "Nick de Wannemaeker",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Nick de Wannemaeker",
+     "sail": "BEL 101",
+     "division": "youth"
     }
    ]
   },
@@ -17944,6 +19354,20 @@
      "division": null,
      "bib": "79",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "nico-prien",
+   "name": "Nico Prien",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Nico Prien",
+     "sail": null,
+     "division": null,
+     "bib": "18"
     }
    ]
   },
@@ -18492,6 +19916,19 @@
    ]
   },
   {
+   "id": "pascal-sommers",
+   "name": "Pascal Sommers",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Pascal Sommers",
+     "sail": "BEL 7",
+     "division": "youth"
+    }
+   ]
+  },
+  {
    "id": "pascal-van-corbach",
    "name": "Pascal van Corbach",
    "aliases": [],
@@ -18629,6 +20066,28 @@
      "name": "Patrick Kerkhof",
      "sail": "H 501",
      "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "patrick-schmelzer",
+   "name": "Patrick Schmelzer",
+   "aliases": [
+    "Patrik Schmelzer"
+   ],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Patrick Schmelzer",
+     "sail": "GER 127",
+     "division": "master"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Patrik Schmelzer",
+     "sail": "GER 127",
+     "division": "Men",
+     "match": "naam+zeilnummer"
     }
    ]
   },
@@ -19391,6 +20850,22 @@
      "sail": "NED 95",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Peter Mulder",
+     "sail": null,
+     "division": null,
+     "bib": "29",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Peter Mulder",
+     "sail": null,
+     "division": null,
+     "bib": "81",
+     "match": "naam"
     }
    ]
   },
@@ -19573,6 +21048,48 @@
      "sail": "NED-241",
      "division": "Junior U17",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Peyton Dits",
+     "sail": "NED 241",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Peyton Dits",
+     "sail": "NED 241",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Peyton Dits",
+     "sail": "NED 241",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Peyton Dits",
+     "sail": null,
+     "division": null,
+     "bib": "16",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "pierre-odoux",
+   "name": "Pierre Odoux",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Pierre Odoux",
+     "sail": "FRA 7",
+     "division": "Men"
     }
    ]
   },
@@ -19701,6 +21218,13 @@
      "name": "Pieter Bartlema",
      "sail": "NED 77",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Pieter Bartlema",
+     "sail": "NED 113",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -20050,6 +21574,27 @@
      "sail": "NED538",
      "division": "men",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Pieter Eliens",
+     "sail": "NED 538",
+     "division": "senior",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Pieter Eliens",
+     "sail": "NED 538",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Pieter Eliens",
+     "sail": "NED 538",
+     "division": "Open",
+     "match": "naam"
     }
    ]
   },
@@ -20179,6 +21724,13 @@
      "name": "Quinten WALHOF",
      "sail": "NED 383",
      "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Quinten Walhof",
+     "sail": "NED 11",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -20382,6 +21934,13 @@
      "name": "Remco Bakker",
      "sail": "NED 15",
      "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Remco Bakker",
+     "sail": "NED 15",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -20740,6 +22299,13 @@
      "sail": "NED 123",
      "division": "men",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Rene Glasz",
+     "sail": "NED 123",
+     "division": "senior",
+     "match": "naam"
     }
    ]
   },
@@ -20894,6 +22460,13 @@
      "name": "Richard Chardet",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Richard Chardet",
+     "sail": "NED 111",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -20942,6 +22515,13 @@
      "name": "Richard Konstapel",
      "sail": "NED 18",
      "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Richard Konstapel",
+     "sail": "NED 18",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -21356,6 +22936,13 @@
      "sail": "NED 240",
      "division": "men",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Robert-Jan van Velzen",
+     "sail": "NED 240",
+     "division": "senior",
+     "match": "naam"
     }
    ]
   },
@@ -21398,6 +22985,19 @@
      "division": null,
      "bib": "142",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "robert-reekers",
+   "name": "Robert Reekers",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2024-foil-master",
+     "name": "Robert Reekers",
+     "sail": "NED 3",
+     "division": null
     }
    ]
   },
@@ -21922,6 +23522,13 @@
      "sail": "1111",
      "division": "Male",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Ron Ruiter",
+     "sail": "NED 1111",
+     "division": "master",
+     "match": "naam"
     }
    ]
   },
@@ -22117,6 +23724,13 @@
      "name": "Roy van Koolwijk",
      "sail": "97",
      "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Roy van Koolwijk",
+     "sail": "NED 97",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -22473,6 +24087,20 @@
      "division": "Foil",
      "bib": "2",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Sara de Kimpe",
+     "sail": "NED 170",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Sara de Kimpe",
+     "sail": "NED 170",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -22561,6 +24189,33 @@
    ]
   },
   {
+   "id": "sebastiaan-de-bruijn",
+   "name": "Sebastiaan de Bruijn",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Sebastiaan de Bruijn",
+     "sail": "NED 509",
+     "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Sebastiaan de Bruijn",
+     "sail": "NED 509",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Sebastiaan de Bruijn",
+     "sail": "NED 509",
+     "division": null,
+     "match": "naam"
+    }
+   ]
+  },
+  {
    "id": "sebastiaan-grasstek",
    "name": "Sebastiaan Grasstek",
    "aliases": [
@@ -22644,6 +24299,19 @@
      "name": "Sebastiaan Penninga",
      "sail": "NED-617",
      "division": "Senior (Men/Women)"
+    }
+   ]
+  },
+  {
+   "id": "sebastian-kordel",
+   "name": "Sebastian Kördel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Sebastian Kördel",
+     "sail": "GER 220",
+     "division": "Men"
     }
    ]
   },
@@ -22757,6 +24425,21 @@
      "sail": "NED-450",
      "division": "Senior (Men/Women)",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Sem Stroosma",
+     "sail": "NED 5",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Sem Stroosma",
+     "sail": null,
+     "division": null,
+     "bib": "28",
+     "match": "naam"
     }
    ]
   },
@@ -22787,6 +24470,14 @@
      "name": "Seppe WIERSEMA",
      "sail": "NED 388",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Seppe Wiersema",
+     "sail": null,
+     "division": null,
+     "bib": "57",
      "match": "naam"
     }
    ]
@@ -23052,6 +24743,13 @@
      "sail": "NED 6767",
      "division": "B",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Skip Brüll",
+     "sail": "NED 173",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -23106,6 +24804,13 @@
      "name": "Stefan Gideonse",
      "sail": "119",
      "division": "Male",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Stefan Gideonse",
+     "sail": "NED 119",
+     "division": "senior",
      "match": "naam"
     }
    ]
@@ -23214,6 +24919,27 @@
      "sail": null,
      "division": null,
      "match": "bevestigd"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Steff de Bruijn",
+     "sail": "NED 508",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Steff de Bruijn",
+     "sail": "NED 508",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Steff de Bruijn",
+     "sail": "NED 508",
+     "division": null,
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -23353,6 +25079,19 @@
    ]
   },
   {
+   "id": "steven-karg",
+   "name": "Steven Karg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Steven Karg",
+     "sail": "GER 12",
+     "division": "Men"
+    }
+   ]
+  },
+  {
    "id": "stijn-beks",
    "name": "Stijn Beks",
    "aliases": [
@@ -23403,6 +25142,43 @@
      "sail": "NED343",
      "division": "Foil",
      "bib": "30",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Stijn Beks",
+     "sail": "NED 343",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Stijn Beks",
+     "sail": "NED 343",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Stijn Beks",
+     "sail": "NED 343",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+     "name": "Stijn Beks",
+     "sail": null,
+     "division": null,
+     "bib": "6",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Stijn Beks",
+     "sail": null,
+     "division": null,
+     "bib": "3",
      "match": "naam"
     }
    ]
@@ -23536,6 +25312,14 @@
      "sail": null,
      "division": null,
      "bib": "119"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Suus Boone",
+     "sail": null,
+     "division": null,
+     "bib": "5",
+     "match": "naam"
     }
    ]
   },
@@ -23705,6 +25489,13 @@
      "sail": "NED 777",
      "division": "heren",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Teade de Jong",
+     "sail": "NED 777",
+     "division": "youth",
+     "match": "naam"
     }
    ]
   },
@@ -23820,6 +25611,13 @@
      "division": null,
      "bib": "104",
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-jeugd",
+     "name": "Thibbes Dijksterhuis",
+     "sail": "NED 556",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -23876,6 +25674,22 @@
      "name": "Thijs Dijkstra",
      "sail": "NED-297",
      "division": "Junior U15",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Thijs Dijkstra",
+     "sail": null,
+     "division": null,
+     "bib": "2",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Thijs Dijkstra",
+     "sail": null,
+     "division": null,
+     "bib": "11",
      "match": "naam"
     }
    ]
@@ -23953,6 +25767,19 @@
    ]
   },
   {
+   "id": "thijs-westbroek",
+   "name": "Thijs Westbroek",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Thijs Westbroek",
+     "sail": "NED 666",
+     "division": "youth"
+    }
+   ]
+  },
+  {
    "id": "thom-vd-sande",
    "name": "Thom vd Sande",
    "aliases": [
@@ -23998,6 +25825,13 @@
      "name": "Thom van de Sande",
      "sail": "NED184",
      "division": "men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Thom van de Sande",
+     "sail": "NED 184",
+     "division": "U20",
      "match": "naam"
     }
    ]
@@ -24278,6 +26112,19 @@
    ]
   },
   {
+   "id": "thorvald-verlaeckt",
+   "name": "Thorvald Verlaeckt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Thorvald Verlaeckt",
+     "sail": "BEL 5",
+     "division": "senior"
+    }
+   ]
+  },
+  {
    "id": "tibby-caroen",
    "name": "Tibby Caroen",
    "aliases": [],
@@ -24320,7 +26167,9 @@
   {
    "id": "tim-gibson",
    "name": "Tim Gibson",
-   "aliases": [],
+   "aliases": [
+    "Tim GIBSON"
+   ],
    "appearances": [
     {
      "event": "north-sea-cup-2015-course-formula",
@@ -24333,6 +26182,20 @@
      "name": "Tim Gibson",
      "sail": "GBR 40",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Tim GIBSON",
+     "sail": "GBR 40",
+     "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2014-course-formula",
+     "name": "Tim Gibson",
+     "sail": "GBR 40",
+     "division": "Open",
      "match": "naam"
     }
    ]
@@ -24360,6 +26223,13 @@
      "name": "Tim Janssen",
      "sail": null,
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Tim Janssen",
+     "sail": "NED 2",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -24640,6 +26510,13 @@
      "name": "Tomas van Zelst",
      "sail": "NED 28",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Tomas van Zelst",
+     "sail": "NED 28",
+     "division": "Youth (U20)",
      "match": "naam"
     }
    ],
@@ -25015,6 +26892,20 @@
      "name": "Victor van der Blom",
      "sail": "H 437",
      "division": "Heren"
+    }
+   ]
+  },
+  {
+   "id": "vigo-geerlings",
+   "name": "Vigo Geerlings",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2026-foil-recreational",
+     "name": "Vigo Geerlings",
+     "sail": null,
+     "division": null,
+     "bib": "69"
     }
    ]
   },
@@ -25494,6 +27385,13 @@
      "sail": "315",
      "division": "Male",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Wilko Dijkstra",
+     "sail": "NED 58",
+     "division": "senior",
+     "match": "naam"
     }
    ]
   },
@@ -25598,6 +27496,13 @@
      "sail": "BEL 30",
      "division": "heren",
      "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Wim Claessens",
+     "sail": "BEL 30",
+     "division": "senior",
+     "match": "naam"
     }
    ]
   },
@@ -25675,7 +27580,10 @@
   {
    "id": "wolfgang-draschner",
    "name": "Wolfgang Draschner",
-   "aliases": [],
+   "aliases": [
+    "Wolfgang Dreschner",
+    "Wolfgang DRASCHNER"
+   ],
    "appearances": [
     {
      "event": "nk-2009-slalom-overall",
@@ -25723,6 +27631,20 @@
      "name": "Wolfgang Draschner",
      "sail": "GER 3333",
      "division": "heren",
+     "match": "naam"
+    },
+    {
+     "event": "lowlandcup-2006-course-formula-gold",
+     "name": "Wolfgang Dreschner",
+     "sail": "GER 3333",
+     "division": "senior",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "north-sea-cup-2012-course-formula",
+     "name": "Wolfgang DRASCHNER",
+     "sail": "GER 3333",
+     "division": "Men",
      "match": "naam"
     }
    ]
@@ -25934,6 +27856,43 @@
      "sail": "NED 338",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Yannick Walhof",
+     "sail": "NED 1",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Yannick Walhof",
+     "sail": "NED 1",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-heren",
+     "name": "Yannick Walhof",
+     "sail": "NED 338",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Yannick Walhof",
+     "sail": null,
+     "division": null,
+     "bib": "15",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Yannick Walhof",
+     "sail": null,
+     "division": null,
+     "bib": "30",
+     "match": "naam"
     }
    ]
   },
@@ -25989,6 +27948,43 @@
      "sail": "NED 252",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-junior",
+     "name": "Yfke van der Meer",
+     "sail": "NED 8",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Yfke van der Meer",
+     "sail": "NED 8",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-dames",
+     "name": "Yfke van der Meer",
+     "sail": "NED 3",
+     "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2025-foil-jeugd-u20",
+     "name": "Yfke van der Meer",
+     "sail": null,
+     "division": null,
+     "bib": "17",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2026-foil-pro",
+     "name": "Yfke van der Meer",
+     "sail": null,
+     "division": null,
+     "bib": "26",
+     "match": "naam"
     }
    ]
   },
@@ -26003,6 +27999,26 @@
      "sail": null,
      "division": null,
      "bib": "102"
+    }
+   ]
+  },
+  {
+   "id": "youri-honkoop",
+   "name": "Youri Honkoop",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "stonedam-foil-cup-2023-foil-marathon",
+     "name": "Youri Honkoop",
+     "sail": "NED 80",
+     "division": null
+    },
+    {
+     "event": "stonedam-foil-cup-2023-foil-senior",
+     "name": "Youri Honkoop",
+     "sail": "NED 80",
+     "division": null,
+     "match": "naam"
     }
    ]
   },
@@ -26091,6 +28107,13 @@
      "name": "Zara Rozeboom",
      "sail": "NED 205",
      "division": "Women",
+     "match": "naam"
+    },
+    {
+     "event": "stonedam-foil-cup-2024-foil-dames",
+     "name": "Zara Rozeboom",
+     "sail": "NED 127",
+     "division": null,
      "match": "naam"
     }
    ]
@@ -26305,6 +28328,15 @@
    "similarity": 0.25,
    "source": "import_regio",
    "reason": "'Kai' (NED212, regiocup-zuid-2017-0910-slalom-overall) heeft alleen een voornaam en hetzelfde zeilnummer als 'Kay van Berlo'"
+  },
+  {
+   "people": [
+    "thibault-dijksterhuis",
+    "thibbes-dijksterhuis"
+   ],
+   "similarity": 0.83,
+   "source": "import_foilcup",
+   "reason": "'Thibbes Dijksterhuis' en 'Thibault Dijksterhuis': zelfde achternaam en zelfde zeilnummer, de naam verschilt"
   }
  ]
 }

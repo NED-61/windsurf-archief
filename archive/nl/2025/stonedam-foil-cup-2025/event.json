@@ -1,0 +1,27 @@
+{
+ "event_slug": "stonedam-foil-cup-2025",
+ "scope": "nl",
+ "name": "Stonedam Foil Cup 2025",
+ "series": "Stonedam Foil Cup",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": "2025-04-13",
+ "location": "Schildmeer, Steendam",
+ "discipline": null,
+ "classes": [
+  "stonedam-foil-cup-2025-foil-heren-dames-20plus",
+  "stonedam-foil-cup-2025-foil-jeugd-u20"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Gepubliceerd als 'Stonedam Foil Cup 2025' (ZW Zeilwedstrijden programma 6.00.00.00); de bestandsnaam noemt het de einduitslag.",
+  "Einddatum 13 april 2025: AFGELEID uit de voetregel van de uitslag (afgedrukt 2025-04-13 22:51). De begindatum staat niet in de bron en is niet gevonden.",
+  "Locatie: het Schildmeer bij Steendam ('Stonedam'), bij Zeilvereniging Schildmeer. Voor 2026 staat dat op de evenementpagina van Surfcenter Experience, voor 2024 staat de vereniging in de kop van de uitslag; voor de andere edities volgt het uit de naam van het evenement.",
+  "Het raceformat (course of slalom) staat niet in de bron; discipline is daarom leeg gelaten. Materiaal: windfoil.",
+  "De Wingfoil-tabel(len) in dezelfde bron ('Wingfoil', 9 deelnemers) zijn niet omgezet: wingfoilen is geen windsurfen. De bron blijft bewaard; de keuze staat in tools/import_foilcup.py (WING)."
+ ],
+ "organizer": "Zeilvereniging Schildmeer",
+ "name_published": "Stonedam Foil Cup 2025"
+}

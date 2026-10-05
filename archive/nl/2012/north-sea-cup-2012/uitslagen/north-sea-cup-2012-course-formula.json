@@ -1,0 +1,504 @@
+{
+ "schema_version": 1,
+ "id": "north-sea-cup-2012-course-formula",
+ "event": {
+  "name": "North Sea Cup 2012",
+  "scope": "nl",
+  "series": "North Sea Cup",
+  "year": 2012,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2012-04-28",
+  "location": "Grevelingendam",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Formula",
+  "class_label_published": "Einduitslag Formula Windsurfing Class",
+  "equipment": "formula"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 0,
+  "races_to_count": 4,
+  "scoring_system": "Appendix A Appendix B (Sailwave 2.5), zoals gepubliceerd",
+  "code_points_published": false,
+  "code_points": 24.0,
+  "code_points_basis": "afgeleid uit de gepubliceerde totalen: DNF telt 24 punten (aantal inschrijvingen + 1); de bron toont bij DNF geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "2012_North-Sea-Cup.pdf",
+  "url": "https://www.formulawindsurfing.org/wp-content/uploads/sites/5/2022/05/2012_North-Sea-Cup.pdf",
+  "file": "local-only/nl/2012/north-sea-cup-2012/bronnen/2012_North-Sea-Cup.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-05",
+  "method": "pdfplumber: tekst per regel (tekst-pdf van een Sailwave-export via Excel); elke rij met een vast patroon gelezen",
+  "metadata_sources": [
+   {
+    "name": "International Formula Windsurfing Class: resultatenpagina 2012",
+    "url": "https://www.formulawindsurfing.org/competition/2012-results/",
+    "used_for": "'North Sea Cup -Netherlands', 28-29 April, Netherlands, Grevelingendam; de pdf staat daar als 2012_North-Sea-Cup.pdf. Geraadpleegd op 5 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+   }
+  ],
+  "verified": "23 riders (bron: Entries 23); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; per race komt elke plaats één keer voor"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'North Sea Cup 2012 - WWT en Nederlandse Vereniging van Wedstrijdsurfers - North Sea Cup Grevelingendam - 28 en 29 april 2012 - Einduitslag Formula Windsurfing Class' (Sailwave 2.5).",
+  "Vier races, geen weglatingen. Bij DNF toont de bron geen punten: in points staat dan null en de code in race_remarks.",
+  "De kolom Division (Men, Youth (U20)) staat in division. De kolom 'Y.o.birth' (geboortejaar) is niet overgenomen; om die kolom staat het origineel in local-only/ en niet in git.",
+  "Namen zoals gepubliceerd (bij een aantal riders de achternaam in hoofdletters).",
+  "Een zeilnummercel zonder cijfer staat in sail_published; sail is dan leeg: Casper Bouman 'I', Mark PALMER 'X'."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "dennis-littel",
+   "sail": "NED 13",
+   "name": "Dennis Littel",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    2.0,
+    1.0,
+    1.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 6.0,
+   "net": 6.0
+  },
+  {
+   "rank": 2,
+   "person": "dirk-doppenberg",
+   "sail": "NED 51",
+   "name": "Dirk Doppenberg",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    3.0,
+    5.0,
+    2.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 3,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    6.0,
+    4.0,
+    3.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 24.0,
+   "net": 24.0
+  },
+  {
+   "rank": 4,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    5.0,
+    7.0,
+    11.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 26.0,
+   "net": 26.0
+  },
+  {
+   "rank": 5,
+   "person": "sebastian-kordel",
+   "sail": "GER 220",
+   "name": "Sebastian Kördel",
+   "nationality": "GER",
+   "division": "Men",
+   "points": [
+    1.0,
+    2.0,
+    4.0,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 31.0,
+   "net": 31.0
+  },
+  {
+   "rank": 6,
+   "person": "tomas-van-zelst",
+   "sail": "NED 28",
+   "name": "Tomas van Zelst",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "points": [
+    13.0,
+    8.0,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 7,
+   "person": "dave-coles",
+   "sail": "GBR 4",
+   "name": "Dave Coles",
+   "nationality": "GBR",
+   "division": "Men",
+   "points": [
+    8.0,
+    10.0,
+    9.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 8,
+   "person": "benoit-chauvin",
+   "sail": "FRA 179",
+   "name": "Benoit CHAUVIN",
+   "nationality": "FRA",
+   "division": "Men",
+   "points": [
+    10.0,
+    14.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 39.0,
+   "net": 39.0
+  },
+  {
+   "rank": 9,
+   "person": "jan-seidel",
+   "sail": "GER 987",
+   "name": "Jan Seidel",
+   "nationality": "GER",
+   "division": "Men",
+   "points": [
+    4.0,
+    9.0,
+    17.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0
+  },
+  {
+   "rank": 10,
+   "person": "jordy-vonk",
+   "sail": "NED 69",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "points": [
+    7.0,
+    6.0,
+    5.0,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0
+  },
+  {
+   "rank": 11,
+   "person": "john-munten",
+   "sail": "NED 30",
+   "name": "John MUNTEN",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    12.0,
+    16.0,
+    10.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 44.0,
+   "net": 44.0
+  },
+  {
+   "rank": 12,
+   "person": "tim-gibson",
+   "sail": "GBR 40",
+   "name": "Tim GIBSON",
+   "nationality": "GBR",
+   "division": "Men",
+   "points": [
+    14.0,
+    13.0,
+    12.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 48.0,
+   "net": 48.0
+  },
+  {
+   "rank": 13,
+   "person": "patrick-schmelzer",
+   "sail": "GER 127",
+   "name": "Patrik Schmelzer",
+   "nationality": "GER",
+   "division": "Men",
+   "points": [
+    9.0,
+    19.0,
+    13.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 49.0,
+   "net": 49.0
+  },
+  {
+   "rank": 14,
+   "person": "arvidas-moliusis",
+   "sail": "LTU 789",
+   "name": "Aruydas Moliusis",
+   "nationality": "LTU",
+   "division": "Men",
+   "points": [
+    11.0,
+    12.0,
+    14.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 50.0,
+   "net": 50.0
+  },
+  {
+   "rank": 15,
+   "person": "casper-bouman",
+   "sail": null,
+   "name": "Casper Bouman",
+   "sail_published": "I",
+   "nationality": "NED",
+   "division": "Men",
+   "points": [
+    null,
+    3.0,
+    6.0,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 57.0,
+   "net": 57.0
+  },
+  {
+   "rank": 16,
+   "person": "daan-meily",
+   "sail": "NED 211",
+   "name": "Daan Meily",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "points": [
+    18.0,
+    22.0,
+    16.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 70.0,
+   "net": 70.0
+  },
+  {
+   "rank": 17,
+   "person": "wolfgang-draschner",
+   "sail": "GER 3333",
+   "name": "Wolfgang DRASCHNER",
+   "nationality": "GER",
+   "division": "Men",
+   "points": [
+    15.0,
+    17.0,
+    15.0,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 71.0,
+   "net": 71.0
+  },
+  {
+   "rank": 18,
+   "person": "steven-karg",
+   "sail": "GER 12",
+   "name": "Steven Karg",
+   "nationality": "GER",
+   "division": "Men",
+   "points": [
+    16.0,
+    15.0,
+    18.0,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 73.0,
+   "net": 73.0
+  },
+  {
+   "rank": 19,
+   "person": "kenny-de-jager",
+   "sail": "BEL 9",
+   "name": "Kenny DE JAGER",
+   "nationality": "BEL",
+   "division": "Men",
+   "points": [
+    null,
+    18.0,
+    null,
+    10.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R3": "DNF"
+   },
+   "discarded": [],
+   "total": 76.0,
+   "net": 76.0
+  },
+  {
+   "rank": 20,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "division": "Youth (U20)",
+   "points": [
+    17.0,
+    11.0,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 76.0,
+   "net": 76.0
+  },
+  {
+   "rank": 21,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL 26",
+   "name": "Andrea VANHOORNE",
+   "nationality": "BEL",
+   "division": "Youth (U20)",
+   "points": [
+    20.0,
+    21.0,
+    19.0,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 84.0,
+   "net": 84.0
+  },
+  {
+   "rank": 22,
+   "person": "pierre-odoux",
+   "sail": "FRA 7",
+   "name": "Pierre Odoux",
+   "nationality": "FRA",
+   "division": "Men",
+   "points": [
+    19.0,
+    20.0,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 87.0,
+   "net": 87.0
+  },
+  {
+   "rank": 23,
+   "person": "mark-palmer",
+   "sail": null,
+   "name": "Mark PALMER",
+   "sail_published": "X",
+   "nationality": "GBR",
+   "division": "Men",
+   "points": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 96.0,
+   "net": 96.0
+  }
+ ],
+ "detail": {}
+}

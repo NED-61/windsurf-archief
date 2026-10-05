@@ -1,0 +1,31 @@
+{
+ "event_slug": "lowlandcup-2006",
+ "scope": "nl",
+ "name": "Lowlandcup 2006",
+ "series": "Lowlandcup",
+ "year": 2006,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2006-05-25",
+ "date_end": "2006-05-28",
+ "location": "Grevelingen",
+ "discipline": "course_race",
+ "classes": [
+  "lowlandcup-2006-course-formula-gold"
+ ],
+ "metadata_sources": [
+  {
+   "name": "International Formula Windsurfing Class: resultatenpagina 2006",
+   "url": "https://www.formulawindsurfing.org/competition/2006-results/",
+   "used_for": "'Open Dutch Championship – LOWLANDCUP 2006', 25-28 May, Netherlands, Grevelingen; de pdf staat daar als 2006_Open-Dutch-Ch.pdf. Geraadpleegd op 5 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'Nederlandse Vereniging van Wedstrijdsurfers - Lowlandcup 2006 - Final results' (Sailwave 1.92). De pdf is een afdruk van 27 mei 2022 van www.formulawindsurfing.org/filez/results/060530/Final Lowlandcup.htm en staat op de resultatenpagina 2006 van de internationale Formula Windsurfing-klasse als 'Open Dutch Championship – LOWLANDCUP 2006', 25-28 May, Netherlands, Grevelingen. Datum en locatie komen van die pagina; in de uitslag zelf staan ze niet.",
+  "OPEN VRAAG: de klassensite noemt deze wedstrijd het 'Open Dutch Championship' en het puntensysteem in de bron heet 'ONK'. Of dit het NK Formula 2006 was (of een stop daarvan) is niet geverifieerd. Daarom staat de wedstrijd onder zijn gepubliceerde naam en niet onder de reeks NK Course; de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast (er is ook geen rider zonder resultaat).",
+  "Alleen 'Final results for Fleet = Gold' is aangeleverd; of er nog een andere fleet was staat niet in de bron.",
+  "Scope nl: georganiseerd door de NVW in Nederland; het veld is internationaal (Belgen, Duitsers)."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers",
+ "name_published": "Lowlandcup 2006"
+}

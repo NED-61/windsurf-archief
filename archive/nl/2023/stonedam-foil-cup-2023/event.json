@@ -1,0 +1,27 @@
+{
+ "event_slug": "stonedam-foil-cup-2023",
+ "scope": "nl",
+ "name": "Stonedam Foil Cup 2023",
+ "series": "Stonedam Foil Cup",
+ "year": 2023,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": "Schildmeer, Steendam",
+ "discipline": null,
+ "classes": [
+  "stonedam-foil-cup-2023-foil-senior",
+  "stonedam-foil-cup-2023-foil-junior",
+  "stonedam-foil-cup-2023-foil-marathon"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Opgeslagen pagina https://stonedamfoilcup.nl/uitslagen2023/ ('Bekijk de uitslagen van de eerste editie van de Stonedam Foil Cup hier'). De uitslagen staan op de pagina als drie afbeeldingen van ZW-tabellen: Windfoil - Senior, Windfoil - Junior en Windfoil - Marathon.",
+  "De datum van de editie 2023 staat niet in de bron en is niet gevonden: de sites van het evenement en van de vereniging waren op 5 oktober 2026 niet te raadplegen.",
+  "Locatie: het Schildmeer bij Steendam ('Stonedam'), bij Zeilvereniging Schildmeer. Voor 2026 staat dat op de evenementpagina van Surfcenter Experience, voor 2024 staat de vereniging in de kop van de uitslag; voor de andere edities volgt het uit de naam van het evenement.",
+  "Het raceformat (course of slalom) staat niet in de bron; discipline is daarom leeg gelaten. Materiaal: windfoil."
+ ],
+ "organizer": "Zeilvereniging Schildmeer",
+ "name_published": "STONEDAM FOIL CUP 2023"
+}

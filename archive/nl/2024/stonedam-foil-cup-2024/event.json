@@ -1,0 +1,30 @@
+{
+ "event_slug": "stonedam-foil-cup-2024",
+ "scope": "nl",
+ "name": "Stonedam Foil Cup 2024",
+ "series": "Stonedam Foil Cup",
+ "year": 2024,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": "2024-04-21",
+ "location": "Schildmeer, Steendam",
+ "discipline": null,
+ "classes": [
+  "stonedam-foil-cup-2024-foil-dames",
+  "stonedam-foil-cup-2024-foil-heren",
+  "stonedam-foil-cup-2024-foil-jeugd",
+  "stonedam-foil-cup-2024-foil-master",
+  "stonedam-foil-cup-2024-foil-newbies"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Gepubliceerd als 'Foil Cup Stonedam 2024 - Zeilvereniging Schildmeer' (ZW Zeilwedstrijden programma 5.03.01.00); de bestandsnaam noemt het de eindstand na 8 wedstrijden met aftrek.",
+  "Einddatum 21 april 2024: AFGELEID uit de voetregel van de uitslag (afgedrukt 2024-04-21 15:13). De begindatum staat niet in de bron en is niet gevonden.",
+  "Locatie: het Schildmeer bij Steendam ('Stonedam'), bij Zeilvereniging Schildmeer. Voor 2026 staat dat op de evenementpagina van Surfcenter Experience, voor 2024 staat de vereniging in de kop van de uitslag; voor de andere edities volgt het uit de naam van het evenement.",
+  "Het raceformat (course of slalom) staat niet in de bron; discipline is daarom leeg gelaten. Materiaal: windfoil.",
+  "De Wingfoil-tabel(len) in dezelfde bron ('Wingfoil', 10 deelnemers) zijn niet omgezet: wingfoilen is geen windsurfen. De bron blijft bewaard; de keuze staat in tools/import_foilcup.py (WING)."
+ ],
+ "organizer": "Zeilvereniging Schildmeer",
+ "name_published": "Foil Cup Stonedam 2024"
+}

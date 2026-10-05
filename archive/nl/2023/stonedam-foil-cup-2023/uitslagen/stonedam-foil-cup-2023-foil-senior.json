@@ -1,0 +1,434 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2023-foil-senior",
+ "event": {
+  "name": "Stonedam Foil Cup 2023",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Schildmeer, Steendam",
+  "discipline": null,
+  "gender": null,
+  "class": "Senior",
+  "class_label_published": "Windfoil - Senior",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "RRS 2021-2024 Appendix A - Lage punten (ZW); elke code (DNF) = aantal inschrijvingen + 1 (17)",
+  "code_points_published": false,
+  "code_points": 17.0,
+  "code_points_basis": "afgeleid (aantal inschrijvingen + 1) en gecontroleerd tegen de gepubliceerde netto-scores; de bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "senior.jpg",
+  "url": "https://stonedamfoilcup.nl/uitslagen2023/",
+  "file": "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup_files/senior.jpg",
+  "files": [
+   "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup_files/senior.jpg",
+   "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup.html"
+  ],
+  "type": "image",
+  "retrieved": "2026-10-05",
+  "method": "overgetikt van de afbeelding van de ZW-tabel op de opgeslagen pagina (weglatingen zijn schuin doorgestreept); daarna per rider de weglating en de netto-score nagerekend tegen de gepubliceerde punten",
+  "metadata_sources": [],
+  "verified": "16 riders; 6 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; 1 weglating(en) per rider, steeds de slechtste score(s); netto herrekend uit de racepunten (elke code = 17): gelijk; per race komt elke plaats één keer voor; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Uitslag: Windfoil - Senior' (afbeelding van een ZW-tabel op stonedamfoilcup.nl/uitslagen2023/); 'RRS 2021-2024 Appendix A - Lage punten'.",
+  "Weggelaten scores zijn in de bron schuin doorgestreept (1 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "Landcode en zeilnummer zoals gepubliceerd. Overgetikt van de afbeelding (1120 pixels breed, goed leesbaar).",
+  "Het aantal inschrijvingen (16) volgt ook uit de punten voor dnf (17): de afbeelding toont dus de hele tabel.",
+  "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "max-baaijen",
+   "sail": "NED 61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    4.0,
+    1.0,
+    1.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 8.0
+  },
+  {
+   "rank": 2,
+   "person": "kas-de-wolf",
+   "sail": "NED 39",
+   "name": "Kas de Wolf",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    4.0,
+    4.0,
+    2.0,
+    3.0,
+    2.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 12.0
+  },
+  {
+   "rank": 3,
+   "person": "marco-boone",
+   "sail": "NED 13",
+   "name": "Marco Boone",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    1.0,
+    4.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "martijn-van-geemen",
+   "sail": "NED 31",
+   "name": "Martijn van Geemen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    3.0,
+    5.0,
+    3.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 5,
+   "person": "mark-immenga",
+   "sail": "NED 353",
+   "name": "Mark Immenga",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    6.0,
+    6.0,
+    6.0,
+    7.0,
+    7.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 31.0
+  },
+  {
+   "rank": 6,
+   "person": "stijn-beks",
+   "sail": "NED 343",
+   "name": "Stijn Beks",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    5.0,
+    11.0,
+    7.0,
+    8.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 35.0
+  },
+  {
+   "rank": 7,
+   "person": "femke-van-der-veen",
+   "sail": "NED 2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    9.0,
+    7.0,
+    8.0,
+    6.0,
+    6.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 36.0
+  },
+  {
+   "rank": 8,
+   "person": "jelle-van-der-veen",
+   "sail": "NED 225",
+   "name": "Jelle van der Veen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    2.0,
+    5.0,
+    2.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 43.0
+  },
+  {
+   "rank": 9,
+   "person": "luc-buse",
+   "sail": "NED 333",
+   "name": "Luc Busé",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    7.0,
+    5.0,
+    5.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "4": "DNF",
+    "5": "DNF",
+    "6": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 51.0
+  },
+  {
+   "rank": 10,
+   "person": "harry-immenga",
+   "sail": "NED 35",
+   "name": "Harry Immenga",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    10.0,
+    9.0,
+    10.0,
+    12.0,
+    12.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": null,
+   "net": 53.0
+  },
+  {
+   "rank": 11,
+   "person": "harry-venema",
+   "sail": "NED 1529",
+   "name": "Harry Venema",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    8.0,
+    13.0,
+    10.0,
+    14.0,
+    10.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 55.0
+  },
+  {
+   "rank": 12,
+   "person": "bert-beks",
+   "sail": "NED 81",
+   "name": "Bert Beks",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    13.0,
+    12.0,
+    9.0,
+    11.0,
+    13.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 57.0
+  },
+  {
+   "rank": 13,
+   "person": "haldun-atar",
+   "sail": "NED 7777",
+   "name": "Haldun Atar",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    8.0,
+    null,
+    11.0,
+    null,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {
+    "2": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 58.0
+  },
+  {
+   "rank": 14,
+   "person": "caren-niezen",
+   "sail": "NED 367",
+   "name": "Caren Niezen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    null,
+    null,
+    9.0,
+    9.0,
+    8.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 60.0
+  },
+  {
+   "rank": 15,
+   "person": "youri-honkoop",
+   "sail": "NED 80",
+   "name": "Youri Honkoop",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    11.0,
+    13.0,
+    14.0,
+    13.0,
+    10.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 60.0
+  },
+  {
+   "rank": 16,
+   "person": "sebastiaan-de-bruijn",
+   "sail": "NED 509",
+   "name": "Sebastiaan de Bruijn",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    12.0,
+    10.0,
+    12.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "4": "DNF",
+    "5": "DNF",
+    "6": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 68.0
+  }
+ ],
+ "detail": {}
+}

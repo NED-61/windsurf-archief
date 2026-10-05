@@ -1,0 +1,29 @@
+{
+ "event_slug": "north-sea-cup-2014",
+ "scope": "nl",
+ "name": "North Sea Cup 2014",
+ "series": "North Sea Cup",
+ "year": 2014,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2014-04-05",
+ "date_end": "2014-04-06",
+ "location": "Grevelingendam",
+ "discipline": "course_race",
+ "classes": [
+  "north-sea-cup-2014-course-formula"
+ ],
+ "metadata_sources": [
+  {
+   "name": "International Formula Windsurfing Class: resultatenpagina 2014",
+   "url": "https://www.formulawindsurfing.org/competition/2014-results/",
+   "used_for": "'Netherlands North Sea Cup', 05-06 April, Netherlands, Grevelingendam; de pdf staat daar als 2014_North-Sea-Cup-NED-FW.pdf. Geraadpleegd op 5 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'North Sea Cup - NED - 2014 - Formula - Overall' (Sailwave 2.9.7). Datum en locatie staan niet in de uitslag; ze komen van de resultatenpagina 2014 van de internationale Formula Windsurfing-klasse ('Netherlands North Sea Cup', 05-06 April, Netherlands, Grevelingendam, Level: National (Open)).",
+  "Alleen de Formula-uitslag is aangeleverd; andere klassen van dit evenement staan niet in het archief.",
+  "Scope nl zoals North Sea Cup 2015 (aanwijzing van de gebruiker, 4 oktober 2026)."
+ ],
+ "name_published": "North Sea Cup - NED - 2014"
+}

@@ -1,0 +1,33 @@
+{
+ "event_slug": "stonedam-foil-cup-2026",
+ "scope": "nl",
+ "name": "Stonedam Foil Cup 2026",
+ "series": "Stonedam Foil Cup",
+ "year": 2026,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2026-04-11",
+ "date_end": "2026-04-12",
+ "location": "Schildmeer, Steendam",
+ "discipline": null,
+ "classes": [
+  "stonedam-foil-cup-2026-foil-pro",
+  "stonedam-foil-cup-2026-foil-recreational"
+ ],
+ "metadata_sources": [
+  {
+   "name": "Surfcenter Experience: Stonedam Foil Cup",
+   "url": "https://surfcenter-experience.com/event/stonedam-foil-cup/",
+   "used_for": "editie 2026: 11 en 12 april, Schildmeer, Roegeweg 1 in Steendam, organisator Zeilvereniging Schildmeer; racen voor wind- en wingfoilers. Geraadpleegd op 5 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'Stonedam Foil Cup 2026' (ZW Zeilwedstrijden programma 6.01.01.00, afgedrukt 2026-04-12 17:16). Datum (11 en 12 april 2026) van de evenementpagina van Surfcenter Experience; die past bij de afdrukdatum.",
+  "Locatie: het Schildmeer bij Steendam ('Stonedam'), bij Zeilvereniging Schildmeer. Voor 2026 staat dat op de evenementpagina van Surfcenter Experience, voor 2024 staat de vereniging in de kop van de uitslag; voor de andere edities volgt het uit de naam van het evenement.",
+  "Het raceformat (course of slalom) staat niet in de bron; discipline is daarom leeg gelaten. Materiaal: windfoil.",
+  "De Wingfoil-tabel(len) in dezelfde bron ('Wingfoil Pro', 11 deelnemers, en 'Wingfoil Recreational', 7 deelnemers) zijn niet omgezet: wingfoilen is geen windsurfen. De bron blijft bewaard; de keuze staat in tools/import_foilcup.py (WING).",
+  "De vloot Recreational is wel opgenomen: het is een windfoil-klasse met eigen races (een deel van de racenummers van Pro). Of die onder de regel 'de funwedstrijd hoort niet in het archief' valt beslist de gebruiker."
+ ],
+ "organizer": "Zeilvereniging Schildmeer",
+ "name_published": "Stonedam Foil Cup 2026"
+}

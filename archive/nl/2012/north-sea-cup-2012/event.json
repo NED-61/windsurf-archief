@@ -1,0 +1,30 @@
+{
+ "event_slug": "north-sea-cup-2012",
+ "scope": "nl",
+ "name": "North Sea Cup 2012",
+ "series": "North Sea Cup",
+ "year": 2012,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2012-04-28",
+ "date_end": "2012-04-29",
+ "location": "Grevelingendam",
+ "discipline": "course_race",
+ "classes": [
+  "north-sea-cup-2012-course-formula"
+ ],
+ "metadata_sources": [
+  {
+   "name": "International Formula Windsurfing Class: resultatenpagina 2012",
+   "url": "https://www.formulawindsurfing.org/competition/2012-results/",
+   "used_for": "'North Sea Cup -Netherlands', 28-29 April, Netherlands, Grevelingendam; de pdf staat daar als 2012_North-Sea-Cup.pdf. Geraadpleegd op 5 oktober 2026 via een tekstweergave van de pagina (niet in de browser nagelezen)."
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'North Sea Cup 2012 - WWT en Nederlandse Vereniging van Wedstrijdsurfers - North Sea Cup Grevelingendam - 28 en 29 april 2012 - Einduitslag Formula Windsurfing Class' (Sailwave 2.5). Datum en locatie staan in de bron.",
+  "Alleen de klasse Formula Windsurfing is aangeleverd; andere klassen van dit evenement staan niet in het archief.",
+  "Scope nl zoals North Sea Cup 2015 (aanwijzing van de gebruiker, 4 oktober 2026). De North Sea Cup was een reeks met ook een Britse wedstrijd ('North Sea Cup – UK', Herne Bay, 2-4 juni 2012, volgens de klassensite); het veld is internationaal."
+ ],
+ "organizer": "WWT en Nederlandse Vereniging van Wedstrijdsurfers",
+ "name_published": "North Sea Cup 2012"
+}

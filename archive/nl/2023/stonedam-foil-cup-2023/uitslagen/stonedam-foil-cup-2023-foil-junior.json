@@ -1,0 +1,405 @@
+{
+ "schema_version": 1,
+ "id": "stonedam-foil-cup-2023-foil-junior",
+ "event": {
+  "name": "Stonedam Foil Cup 2023",
+  "scope": "nl",
+  "series": "Stonedam Foil Cup",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Schildmeer, Steendam",
+  "discipline": null,
+  "gender": null,
+  "class": "Junior",
+  "class_label_published": "Windfoil - Junior",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "RRS 2021-2024 Appendix A - Lage punten (ZW); elke code (DNF) = aantal inschrijvingen + 1 (16)",
+  "code_points_published": false,
+  "code_points": 16.0,
+  "code_points_basis": "afgeleid (aantal inschrijvingen + 1) en gecontroleerd tegen de gepubliceerde netto-scores; de bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "zeilvereniging-schildmeer-schildweek-005-1.jpg",
+  "url": "https://stonedamfoilcup.nl/uitslagen2023/",
+  "file": "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup_files/zeilvereniging-schildmeer-schildweek-005-1.jpg",
+  "files": [
+   "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup_files/zeilvereniging-schildmeer-schildweek-005-1.jpg",
+   "archive/nl/2023/stonedam-foil-cup-2023/bronnen/Uitslagen 2023 – Stonedam Foil Cup.html"
+  ],
+  "type": "image",
+  "retrieved": "2026-10-05",
+  "method": "overgetikt van de afbeelding van de ZW-tabel op de opgeslagen pagina (weglatingen zijn schuin doorgestreept); daarna per rider de weglating en de netto-score nagerekend tegen de gepubliceerde punten",
+  "metadata_sources": [],
+  "verified": "15 riders; 6 race(s), elke rij compleet; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; 1 weglating(en) per rider, steeds de slechtste score(s); netto herrekend uit de racepunten (elke code = 16): gelijk; per race komt elke plaats één keer voor; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Uitslag: Windfoil - Junior' (afbeelding van een ZW-tabel op stonedamfoilcup.nl/uitslagen2023/); 'RRS 2021-2024 Appendix A - Lage punten'.",
+  "Weggelaten scores zijn in de bron schuin doorgestreept (1 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
+  "Landcode en zeilnummer zoals gepubliceerd. Overgetikt van de afbeelding (1120 pixels breed, goed leesbaar).",
+  "Het aantal inschrijvingen (15) volgt ook uit de punten voor dnf (16): de afbeelding toont dus de hele tabel.",
+  "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "peyton-dits",
+   "sail": "NED 241",
+   "name": "Peyton Dits",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    3.0,
+    2.0,
+    1.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 9.0
+  },
+  {
+   "rank": 2,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED 259",
+   "name": "Bart van den Boogaart",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    4.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 10.0
+  },
+  {
+   "rank": 3,
+   "person": "matt-de-jong",
+   "sail": "NED 3",
+   "name": "Matt de Jong",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    1.0,
+    5.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5
+   ],
+   "total": null,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "mika-boone",
+   "sail": "NED 134",
+   "name": "Mika Boone",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    5.0,
+    4.0,
+    2.0,
+    3.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5
+   ],
+   "total": null,
+   "net": 18.0
+  },
+  {
+   "rank": 5,
+   "person": "joep-havik",
+   "sail": "NED 231",
+   "name": "Joep Havik",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    4.0,
+    5.0,
+    6.0,
+    6.0,
+    3.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 23.0
+  },
+  {
+   "rank": 6,
+   "person": "merlijn-boswijk",
+   "sail": "NED 244",
+   "name": "Merlijn Boswijk",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    6.0,
+    6.0,
+    5.0,
+    5.0,
+    2.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 24.0
+  },
+  {
+   "rank": 7,
+   "person": "milo-zaal",
+   "sail": "NED 90",
+   "name": "Milo Zaal",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    7.0,
+    8.0,
+    12.0,
+    9.0,
+    9.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": null,
+   "net": 41.0
+  },
+  {
+   "rank": 8,
+   "person": "anna-korevaar",
+   "sail": "NED 157",
+   "name": "Anna Korevaar",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    14.0,
+    10.0,
+    14.0,
+    8.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 46.0
+  },
+  {
+   "rank": 9,
+   "person": "yannick-walhof",
+   "sail": "NED 1",
+   "name": "Yannick Walhof",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    8.0,
+    11.0,
+    7.0,
+    12.0,
+    10.0,
+    null
+   ],
+   "race_remarks": {
+    "6": "DNF"
+   },
+   "discarded": [
+    6
+   ],
+   "total": null,
+   "net": 48.0
+  },
+  {
+   "rank": 10,
+   "person": "diederik-leemans",
+   "sail": "NED 301",
+   "name": "Diederik Leemans",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    13.0,
+    7.0,
+    13.0,
+    7.0,
+    null,
+    9.0
+   ],
+   "race_remarks": {
+    "5": "DNF"
+   },
+   "discarded": [
+    5
+   ],
+   "total": null,
+   "net": 49.0
+  },
+  {
+   "rank": 11,
+   "person": "justin-honkoop",
+   "sail": "NED 94",
+   "name": "Justin Honkoop",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    9.0,
+    null,
+    9.0,
+    13.0,
+    12.0,
+    10.0
+   ],
+   "race_remarks": {
+    "2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 53.0
+  },
+  {
+   "rank": 12,
+   "person": "cedric-walhof",
+   "sail": "NED 111",
+   "name": "Cédric Walhof",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    null,
+    12.0,
+    8.0,
+    10.0,
+    8.0,
+    null
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "6": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": null,
+   "net": 54.0
+  },
+  {
+   "rank": 13,
+   "person": "steff-de-bruijn",
+   "sail": "NED 508",
+   "name": "Steff de Bruijn",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    12.0,
+    9.0,
+    11.0,
+    11.0,
+    11.0,
+    null
+   ],
+   "race_remarks": {
+    "6": "DNF"
+   },
+   "discarded": [
+    6
+   ],
+   "total": null,
+   "net": 54.0
+  },
+  {
+   "rank": 14,
+   "person": "yfke-van-der-meer",
+   "sail": "NED 8",
+   "name": "Yfke van der Meer",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    10.0,
+    13.0,
+    10.0,
+    14.0,
+    13.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": null,
+   "net": 57.0
+  },
+  {
+   "rank": 15,
+   "person": "sara-de-kimpe",
+   "sail": "NED 170",
+   "name": "Sara de Kimpe",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    11.0,
+    null,
+    null,
+    15.0,
+    14.0,
+    12.0
+   ],
+   "race_remarks": {
+    "2": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": null,
+   "net": 68.0
+  }
+ ],
+ "detail": {}
+}
