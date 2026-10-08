@@ -73,7 +73,8 @@
   "Namen zoals gepubliceerd (achternaam in hoofdletters). Geen divisies of leeftijdsklassen in deze bron.",
   "Weglatingen: 'Discard rule: Global: 5,12' (één weglating vanaf 5 races, twee vanaf 12). De weggelaten scores staan in de bron tussen haakjes.",
   "Racecodes HO01-HO12 en HE01-HE11 zoals gepubliceerd; wat de voorvoegsels HO en HE betekenen staat niet in de bron (zie event.json).",
-  "Mark Immenga heeft in HO01 5.6 punten met code RDG (toegekende punten)."
+  "Mark Immenga heeft in HO01 5.6 punten met code RDG (toegekende punten).",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -1560,7 +1561,7 @@
   },
   {
    "rank": 33,
-   "person": "storm-nicolai",
+   "person": null,
    "sail": "NB 2008",
    "name": "Storm NICOLAI",
    "division": null,
@@ -1619,11 +1620,12 @@
     2
    ],
    "total": 805.0,
-   "net": 735.0
+   "net": 735.0,
+   "counted": false
   },
   {
    "rank": 33,
-   "person": "quinten-walhof",
+   "person": null,
    "sail": "NED 383",
    "name": "Quinten WALHOF",
    "division": null,
@@ -1682,7 +1684,8 @@
     2
    ],
    "total": 805.0,
-   "net": 735.0
+   "net": 735.0,
+   "counted": false
   }
  ],
  "detail": {}

@@ -1,0 +1,1053 @@
+{
+ "schema_version": 1,
+ "id": "nk-1999-course-formula",
+ "event": {
+  "name": "NK Formula 1999",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 1999,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "1999-10-10",
+  "location": "Gooimeer",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Formula Windsurfing",
+  "class_label_published": "ONK FW - FORMULA WINDSURFING",
+  "equipment": "formula"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 0,
+  "races_to_count": 4,
+  "scoring_system": "punten = plaats (winnaar 1 punt); RET, DNF, DSQ en ORS = 52 punten (aantal riders + 1). Zoals gepubliceerd: per race de kolommen 'plek' en 'punt'"
+ },
+ "source": {
+  "name": "ONK Formula W 1999.pdf",
+  "url": null,
+  "file": "archive/nl/1999/nk-course-1999-1010/bronnen/ONK Formula W 1999.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-08",
+  "method": "overgetikt van het beeld van de scan (pagina's op 200 en 300 dpi gerenderd en vergroot gelezen; de tekstlaag van de pdf is onbruikbare OCR); daarna per rider de som, de aftrek en het netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "51 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; per race zijn de plaatsen zonder code precies 1 t/m het aantal finishers; elke code (RET, DNF, DSQ, ORS) hoort bij 52 punten (51 riders + 1)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'SURFCLUB GOOIMEER, ONK FW - Date: 10/10/99 - Class: FORMULA WINDSURFING' (uitslagenblad van het wedstrijdprogramma, scan). Vier races gevaren (de kolom voor race 5 is leeg); 'Totall' en 'Totall after Discard' zijn gelijk: geen weglating.",
+  "Eén klassement voor heren en dames: de kolom 'Age cat' (HE, DA) is uitgeschreven als Heren en Dames in division; bij Peter Dannenburg is die cel leeg. De kolom 'Nat' is leeg.",
+  "Namen (in hoofdletters) en zeilnummers zoals gepubliceerd, ook '0097.', '0048F' en 'RENé GLASZ'. Casper Bouman heeft 'X' als zeilnummer (sail_published). De code 'ORS' bij Monique Dijks (R1) staat zo in de bron; vermoedelijk OCS.",
+  "Scan, goed leesbaar. Bij 'JAN RHIJNBEEN' is de eerste letter van de achternaam in de scan niet goed te onderscheiden (F of R); Rhijnbeen volgens de gebruiker (8 oktober 2026).",
+  "Telt niet mee: 11 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adri-keet",
+   "sail": "0034",
+   "name": "ADRI KEET",
+   "division": "Heren",
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 5.0,
+   "net": 5.0
+  },
+  {
+   "rank": 2,
+   "person": "ron-ruiter",
+   "sail": "1111",
+   "name": "RON RUITER",
+   "division": "Heren",
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 3,
+   "person": "ronald-de-jong",
+   "sail": "0029",
+   "name": "RONALD DE JONG",
+   "division": "Heren",
+   "points": [
+    4.0,
+    2.0,
+    5.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 15.0,
+   "net": 15.0
+  },
+  {
+   "rank": 4,
+   "person": "stefan-gideonse",
+   "sail": "0119",
+   "name": "STEFAN GIDEONSE",
+   "division": "Heren",
+   "points": [
+    7.0,
+    5.0,
+    3.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 16.0,
+   "net": 16.0
+  },
+  {
+   "rank": 5,
+   "person": "gerrij-ruiter",
+   "sail": "0333",
+   "name": "GERRY RUITER",
+   "division": "Heren",
+   "points": [
+    6.0,
+    7.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 24.0,
+   "net": 24.0
+  },
+  {
+   "rank": 6,
+   "person": "martijn-van-deth",
+   "sail": "0046",
+   "name": "MARTIJN VAN DETH",
+   "division": "Heren",
+   "points": [
+    5.0,
+    6.0,
+    10.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 28.0,
+   "net": 28.0
+  },
+  {
+   "rank": 7,
+   "person": "roy-van-koolwijk",
+   "sail": "0097.",
+   "name": "ROY VAN KOOLWIJK",
+   "division": "Heren",
+   "points": [
+    8.0,
+    10.0,
+    7.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 34.0,
+   "net": 34.0
+  },
+  {
+   "rank": 8,
+   "person": "joeri-van-dijk",
+   "sail": "0077.",
+   "name": "JOERI VAN DIJK",
+   "division": "Heren",
+   "points": [
+    11.0,
+    16.0,
+    2.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 35.0,
+   "net": 35.0
+  },
+  {
+   "rank": 9,
+   "person": "evert-piessens",
+   "sail": "0595",
+   "name": "EVERT PIESSENS",
+   "division": "Heren",
+   "points": [
+    9.0,
+    22.0,
+    11.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 50.0,
+   "net": 50.0
+  },
+  {
+   "rank": 10,
+   "person": "renee-glasz",
+   "sail": "0123",
+   "name": "RENé GLASZ",
+   "division": "Heren",
+   "points": [
+    16.0,
+    8.0,
+    9.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 52.0,
+   "net": 52.0
+  },
+  {
+   "rank": 11,
+   "person": "jurgen-piessens",
+   "sail": "0594",
+   "name": "JURGEN PIESSENS",
+   "division": "Heren",
+   "points": [
+    14.0,
+    14.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 54.0,
+   "net": 54.0
+  },
+  {
+   "rank": 12,
+   "person": "peter-vd-velde",
+   "sail": "0404",
+   "name": "PETER VD VELDE",
+   "division": "Heren",
+   "points": [
+    15.0,
+    11.0,
+    20.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 58.0,
+   "net": 58.0
+  },
+  {
+   "rank": 13,
+   "person": "alex-noordegraaf",
+   "sail": "0076",
+   "name": "ALEX NOORDERGRAAF",
+   "division": "Heren",
+   "points": [
+    13.0,
+    13.0,
+    16.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 62.0,
+   "net": 62.0
+  },
+  {
+   "rank": 14,
+   "person": "jeroen-coppens",
+   "sail": "0540",
+   "name": "JEROEN COPPENS",
+   "division": "Heren",
+   "points": [
+    10.0,
+    15.0,
+    24.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 65.0,
+   "net": 65.0
+  },
+  {
+   "rank": 15,
+   "person": "maarten-hak",
+   "sail": "0351",
+   "name": "MAARTEN HAK",
+   "division": "Heren",
+   "points": [
+    12.0,
+    17.0,
+    15.0,
+    22.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 66.0,
+   "net": 66.0
+  },
+  {
+   "rank": 16,
+   "person": "lloyd-vd-velden",
+   "sail": "0558",
+   "name": "LLOYD VD VELDE",
+   "division": "Heren",
+   "points": [
+    23.0,
+    20.0,
+    12.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 69.0,
+   "net": 69.0
+  },
+  {
+   "rank": 17,
+   "person": "alexander-hoekstra",
+   "sail": "0777",
+   "name": "ALEXANDER HOEKSTRA",
+   "division": "Heren",
+   "points": [
+    52.0,
+    4.0,
+    8.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R1": "RET"
+   },
+   "discarded": [],
+   "total": 74.0,
+   "net": 74.0
+  },
+  {
+   "rank": 18,
+   "person": "j-brieffies",
+   "sail": "0460",
+   "name": "J. BRIEFFIES",
+   "division": "Heren",
+   "points": [
+    25.0,
+    18.0,
+    17.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 78.0,
+   "net": 78.0
+  },
+  {
+   "rank": 19,
+   "person": "fabian-otto",
+   "sail": "0050",
+   "name": "FABIAN OTTO",
+   "division": "Heren",
+   "points": [
+    18.0,
+    9.0,
+    52.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R3": "DNF"
+   },
+   "discarded": [],
+   "total": 90.0,
+   "net": 90.0
+  },
+  {
+   "rank": 20,
+   "person": "alexander-verhage",
+   "sail": "0675",
+   "name": "ALEXANDER VERHAGE",
+   "division": "Heren",
+   "points": [
+    29.0,
+    24.0,
+    21.0,
+    21.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 95.0,
+   "net": 95.0
+  },
+  {
+   "rank": 21,
+   "person": "marc-de-jong",
+   "sail": "0103",
+   "name": "MARC DE JONG",
+   "division": "Heren",
+   "points": [
+    52.0,
+    12.0,
+    18.0,
+    23.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [],
+   "total": 105.0,
+   "net": 105.0
+  },
+  {
+   "rank": 22,
+   "person": "dennis-littel",
+   "sail": "0334",
+   "name": "DENNIS LITTEL",
+   "division": "Heren",
+   "points": [
+    52.0,
+    19.0,
+    19.0,
+    17.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [],
+   "total": 107.0,
+   "net": 107.0
+  },
+  {
+   "rank": 23,
+   "person": "aukje-meppelink",
+   "sail": "0997",
+   "name": "AUKJE MEPPELINK",
+   "division": "Dames",
+   "points": [
+    31.0,
+    28.0,
+    26.0,
+    26.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 111.0,
+   "net": 111.0
+  },
+  {
+   "rank": 24,
+   "person": "ramon-schoenmaker",
+   "sail": "0456",
+   "name": "RAMON SCHOENMAKER",
+   "division": "Heren",
+   "points": [
+    52.0,
+    23.0,
+    14.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [],
+   "total": 113.0,
+   "net": 113.0
+  },
+  {
+   "rank": 25,
+   "person": "monique-dijs",
+   "sail": "0094.",
+   "name": "MONIQUE DIJKS",
+   "division": "Dames",
+   "points": [
+    52.0,
+    25.0,
+    22.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R1": "ORS"
+   },
+   "discarded": [],
+   "total": 114.0,
+   "net": 114.0
+  },
+  {
+   "rank": 26,
+   "person": "gerard-nakken",
+   "sail": "0301",
+   "name": "GERARD NAKKEN",
+   "division": "Heren",
+   "points": [
+    52.0,
+    21.0,
+    23.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [],
+   "total": 121.0,
+   "net": 121.0
+  },
+  {
+   "rank": 27,
+   "person": "cornelia-vd-schilde",
+   "sail": "0095",
+   "name": "CORNELIA VD SCHILDE",
+   "division": "Dames",
+   "points": [
+    30.0,
+    27.0,
+    25.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 134.0,
+   "net": 134.0
+  },
+  {
+   "rank": 28,
+   "person": "jan-rhijnbeen",
+   "sail": "0121",
+   "name": "JAN RHIJNBEEN",
+   "division": "Heren",
+   "points": [
+    52.0,
+    26.0,
+    52.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R3": "DNF"
+   },
+   "discarded": [],
+   "total": 157.0,
+   "net": 157.0
+  },
+  {
+   "rank": 29,
+   "person": "pieter-bijl",
+   "sail": "0280",
+   "name": "PIETER BIJL",
+   "division": "Heren",
+   "points": [
+    2.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 158.0,
+   "net": 158.0
+  },
+  {
+   "rank": 30,
+   "person": "wendy-littel",
+   "sail": "0335",
+   "name": "WENDY LITTEL",
+   "division": "Dames",
+   "points": [
+    32.0,
+    52.0,
+    27.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 163.0,
+   "net": 163.0
+  },
+  {
+   "rank": 31,
+   "person": "marco-boone",
+   "sail": "1119",
+   "name": "MARCO BOONE",
+   "division": "Heren",
+   "points": [
+    17.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 173.0,
+   "net": 173.0
+  },
+  {
+   "rank": 32,
+   "person": "erik-gerritsen",
+   "sail": "1789",
+   "name": "ERIK GERRITSEN",
+   "division": "Heren",
+   "points": [
+    19.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 175.0,
+   "net": 175.0
+  },
+  {
+   "rank": 33,
+   "person": "reinder-de-vries",
+   "sail": "0711",
+   "name": "REINDER DE VRIES",
+   "division": "Heren",
+   "points": [
+    20.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 176.0,
+   "net": 176.0
+  },
+  {
+   "rank": 34,
+   "person": "victor-van-der-blom",
+   "sail": "0437",
+   "name": "VICTOR VD BLOM",
+   "division": "Heren",
+   "points": [
+    21.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 177.0,
+   "net": 177.0
+  },
+  {
+   "rank": 35,
+   "person": "kevin-mevissen",
+   "sail": "0079.",
+   "name": "KEVIN MEVISSEN",
+   "division": "Heren",
+   "points": [
+    22.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 178.0,
+   "net": 178.0
+  },
+  {
+   "rank": 36,
+   "person": "peter-dannenburg",
+   "sail": "0048F",
+   "name": "PETER DANNENBURG",
+   "division": null,
+   "points": [
+    24.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 180.0,
+   "net": 180.0
+  },
+  {
+   "rank": 37,
+   "person": "sander-bouman",
+   "sail": "0325",
+   "name": "SANDER BOUMAN",
+   "division": "Heren",
+   "points": [
+    26.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 182.0,
+   "net": 182.0
+  },
+  {
+   "rank": 38,
+   "person": "ferry-valentijn",
+   "sail": "0248",
+   "name": "FERRY VALENTIJN",
+   "division": "Heren",
+   "points": [
+    27.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 183.0,
+   "net": 183.0
+  },
+  {
+   "rank": 39,
+   "person": "jan-ten-kate",
+   "sail": "0287",
+   "name": "JAN JACOB TEN KATE",
+   "division": "Heren",
+   "points": [
+    28.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 184.0,
+   "net": 184.0
+  },
+  {
+   "rank": 40,
+   "person": "jaques-vd-hout",
+   "sail": "0073",
+   "name": "JACQUES VD HOUT",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DSQ",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0080F",
+   "name": "RENE DANNENBURG",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0082",
+   "name": "ADRI V RIJSSELBERGHE",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0312",
+   "name": "GREGORY MAES",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0330",
+   "name": "ARNE MARIJN ELZES",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0403",
+   "name": "KAS KASPERS",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0527F",
+   "name": "MARLIES SCHEPERS",
+   "division": "Dames",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0665",
+   "name": "ANNE CNOSSEN",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0781",
+   "name": "MARIEKE SCHOOTS",
+   "division": "Dames",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "0977",
+   "name": "DENNIS KNECHT",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": "2481",
+   "name": "MARJAN DE RON",
+   "division": "Dames",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "person": null,
+   "sail": null,
+   "name": "CASPER BOUMAN",
+   "sail_published": "X",
+   "division": "Heren",
+   "points": [
+    52.0,
+    52.0,
+    52.0,
+    52.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [],
+   "total": 208.0,
+   "net": 208.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

@@ -16,7 +16,6 @@
   "gpa-2024-long-distance-iq-foil",
   "gpa-2024-long-distance-windsurfer-lt-kona-one",
   "gpa-2024-long-distance-open-windsurf-max-9-5m2",
-  "gpa-2024-long-distance-wing",
   "gpa-2024-long-distance-windfoil-max-9-5m2",
   "gpa-2024-long-distance-raceboard-max-9-5m2",
   "gpa-2024-long-distance-rookies"
@@ -37,6 +36,7 @@
   "GPA = Grote Prijs van Aalsmeer, jaarlijks door Wind Surf Club Aalsmeer georganiseerd sinds 1993 (bron: WSCA). Scope nl: Nederlandse organisator en locatie.",
   "Formaat volgens de wedstrijdregels 2025: wedstrijdduur 2u30 plus het rondje afmaken; de finishlijn opent 2u30 na start.",
   "Bron heet 'overall uitslag' maar bevat een uitslag per klasse; er is geen overall-ranglijst over klassen heen.",
-  "Webscorer meldt 109 deelnemers; de PDF bevat 110 regels (inclusief 20 DNF-regels). Het verschil van 1 is niet verklaard; de Webscorer-uitslag zelf is nog niet als bronbestand binnen en niet naast deze uitslag gelegd."
+  "Webscorer meldt 109 deelnemers; de PDF bevat 110 regels (inclusief 20 DNF-regels). Het verschil van 1 is niet verklaard; de Webscorer-uitslag zelf is nog niet als bronbestand binnen en niet naast deze uitslag gelegd.",
+  "De klasse Wing in dezelfde bron is niet opgenomen (uit het archief gehaald op 8 oktober 2026): wingen is geen windsurfen. De bron staat nog in bronnen/."
  ]
 }

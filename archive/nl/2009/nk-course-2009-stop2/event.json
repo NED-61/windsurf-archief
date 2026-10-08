@@ -10,7 +10,9 @@
  "date_end": "2009-06-01",
  "location": "Scheveningen",
  "discipline": "course_race",
- "classes": [],
+ "classes": [
+  "nk-2009-stop2-course-formula-gold"
+ ],
  "metadata_sources": [
   {
    "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
@@ -20,7 +22,10 @@
  ],
  "notes": [
   "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
-  "Geen uitslag in het archief. Alleen een verslag van Adri Keet (Scheveningen2009.doc, 2-3 juni 2009; bewaard in local-only/, niet gepubliceerd): 'tweede ronde van het NK', zaterdag tot en met maandag (Pinksteren), zeven races gevaren; Adri Keet derde, Dennis en Dirk op plaats 1 en 2 (volgorde staat er niet).",
+  "Verslag van Adri Keet (Scheveningen2009.doc, 2-3 juni 2009; bewaard in local-only/, niet gepubliceerd): 'tweede ronde van het NK', zaterdag tot en met maandag (Pinksteren), zeven races gevaren; Adri Keet derde, Dennis en Dirk op plaats 1 en 2 (volgorde staat er niet).",
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Gepubliceerd als 'Uitslag North Sea Regatta 2009 WINDSURFEN Gold Fleet' (Sailwave-tabel; de pagina noemt geen datum). Zeven races, zoals in het verslag van Adri Keet ('tweede ronde van het NK', zaterdag tot en met maandag, Pinksteren).",
   "Data afgeleid: de kalender noemt het weekeinde van 30 mei; het verslag noemt zaterdag, zondag en maandag."
- ]
+ ],
+ "name_published": "Uitslag North Sea Regatta 2009 WINDSURFEN Gold Fleet"
 }

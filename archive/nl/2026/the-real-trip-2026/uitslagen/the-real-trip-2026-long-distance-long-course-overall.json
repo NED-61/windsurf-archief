@@ -56,7 +56,8 @@
   "Klassement over alle long-course-categorieën heen; de categorie van elke rider staat per entry.",
   "Punten per race zijn voor dit klassement niet gepubliceerd: de detailpagina achter een naam in dit tabblad toont de punten in de eigen categorie (voor 126 van de 130 riders gecontroleerd: gelijk aan het categorietabblad). Plaats, weglating en netto komen uit het overall-tabblad; die netto is een eigen overall-telling (weglatingen tot 131 en 132 punten bij 130 deelnemers) en wijkt af van de categorienetto.",
   "Een * achter de plaats is zo gepubliceerd (gelijke netto, volgorde volgens de organisatie). Rijen zonder plaats delen de plaats van de rij erboven.",
-  "Vergeleken met de door de gebruiker opgeslagen pagina: identiek (naam, plaats, netto)."
+  "Vergeleken met de door de gebruiker opgeslagen pagina: identiek (naam, plaats, netto).",
+  "Telt niet mee: 34 ingeschreven rider(s) die in hun eigen categorie-uitslag niet meetellen (alleen DNC, DNF of DNS in alle races) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -1822,7 +1823,7 @@
   },
   {
    "rank": 92,
-   "person": "andreas-hron",
+   "person": null,
    "sail": null,
    "bib": "130",
    "name": "Andreas Hron",
@@ -1838,11 +1839,12 @@
    "net": 786.0,
    "remark": null,
    "rank_published": "92*",
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "anton-dona",
+   "person": null,
    "sail": null,
    "bib": "503",
    "name": "Anton Dona",
@@ -1857,11 +1859,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "LT Adults"
+   "category": "LT Adults",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "bas-kwee",
+   "person": null,
    "sail": "18",
    "bib": "316",
    "name": "Bas Kwee",
@@ -1876,11 +1879,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "LT Adults"
+   "category": "LT Adults",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "berj-khassab",
+   "person": null,
    "sail": null,
    "bib": "7",
    "name": "Berj Khassab",
@@ -1895,11 +1899,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "caren-niezen",
+   "person": null,
    "sail": "NED367",
    "bib": "149",
    "name": "Caren Niezen",
@@ -1914,11 +1919,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults women"
+   "category": "Fin Adults women",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "carolien-de-kort",
+   "person": null,
    "sail": null,
    "bib": "34",
    "name": "Carolien de Kort",
@@ -1933,11 +1939,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults women"
+   "category": "Fin Adults women",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "dirk-wouters",
+   "person": null,
    "sail": null,
    "bib": "115",
    "name": "Dirk Wouters",
@@ -1952,11 +1959,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "edwin-komdeur",
+   "person": null,
    "sail": null,
    "bib": "301",
    "name": "Edwin Komdeur",
@@ -1971,11 +1979,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "fabienne-hoogendam",
+   "person": null,
    "sail": "NED99",
    "bib": "43",
    "name": "Fabiënne Hoogendam",
@@ -1990,11 +1999,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults women"
+   "category": "Fin Adults women",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "floris-stam",
+   "person": null,
    "sail": null,
    "bib": "129",
    "name": "Floris Stam",
@@ -2009,11 +2019,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "friedbert-rogge",
+   "person": null,
    "sail": null,
    "bib": "11",
    "name": "Friedbert Rogge",
@@ -2028,11 +2039,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "jean-paul-krijgsman",
+   "person": null,
    "sail": "NED5325",
    "bib": "319",
    "name": "Jean Paul Krijgsman",
@@ -2047,11 +2059,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "koen-zweekhorst",
+   "person": null,
    "sail": null,
    "bib": "315",
    "name": "Koen Zweekhorst",
@@ -2066,11 +2079,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "kris-gielen",
+   "person": null,
    "sail": null,
    "bib": "108",
    "name": "Kris Gielen",
@@ -2085,11 +2099,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "laura-moria",
+   "person": null,
    "sail": "NED209",
    "bib": "16",
    "name": "Laura Moria",
@@ -2104,11 +2119,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Youth (13-17) long course"
+   "category": "Fin Youth (13-17) long course",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "laurens-legtenberg",
+   "person": null,
    "sail": null,
    "bib": "305",
    "name": "Laurens Legtenberg",
@@ -2123,11 +2139,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "lennart-van-marion",
+   "person": null,
    "sail": "NED17",
    "bib": "29",
    "name": "Lennart van Marion",
@@ -2142,11 +2159,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Youth (13-17) long course"
+   "category": "Fin Youth (13-17) long course",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "maarten-oussoren",
+   "person": null,
    "sail": null,
    "bib": "112",
    "name": "Maarten Oussoren",
@@ -2161,11 +2179,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "marcel-prymka",
+   "person": null,
    "sail": null,
    "bib": "300",
    "name": "Marcel Prymka",
@@ -2180,11 +2199,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "martin-roos",
+   "person": null,
    "sail": null,
    "bib": "502",
    "name": "Martin Roos",
@@ -2199,11 +2219,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "maurits-van-tinteren",
+   "person": null,
    "sail": "NED183",
    "bib": "117",
    "name": "Maurits van Tinteren",
@@ -2218,11 +2239,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "merijn-kegel",
+   "person": null,
    "sail": "NED511",
    "bib": "317",
    "name": "Merijn Kegel",
@@ -2237,11 +2259,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "michiel-de-zeeuw",
+   "person": null,
    "sail": null,
    "bib": "23",
    "name": "Michiel de Zeeuw",
@@ -2256,11 +2279,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "niels-meima",
+   "person": null,
    "sail": null,
    "bib": "134",
    "name": "Niels Meima",
@@ -2275,11 +2299,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "oeds-wiersma",
+   "person": null,
    "sail": null,
    "bib": "501",
    "name": "Oeds Wiersma",
@@ -2294,11 +2319,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "rene-simons",
+   "person": null,
    "sail": "NED3003",
    "bib": "109",
    "name": "René Simons",
@@ -2313,11 +2339,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "robert-moosdorf",
+   "person": null,
    "sail": null,
    "bib": "142",
    "name": "Robert Moosdorf",
@@ -2332,11 +2359,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults men"
+   "category": "Fin Adults men",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "roel-vaessen",
+   "person": null,
    "sail": null,
    "bib": "163",
    "name": "Roel Vaessen",
@@ -2351,11 +2379,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "stephan-scherf",
+   "person": null,
    "sail": null,
    "bib": "148",
    "name": "Stephan Scherf",
@@ -2370,11 +2399,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "thomas-blanke",
+   "person": null,
    "sail": "GER3366",
    "bib": "321",
    "name": "Thomas Blanke",
@@ -2389,11 +2419,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "wessel-miezenbeek",
+   "person": null,
    "sail": null,
    "bib": "118",
    "name": "Wessel Miezenbeek",
@@ -2408,11 +2439,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Youth (13-17) long course"
+   "category": "Fin Youth (13-17) long course",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "willem-gilissen",
+   "person": null,
    "sail": "1445",
    "bib": "506",
    "name": "Willem Gilissen",
@@ -2427,11 +2459,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Master"
+   "category": "Fin Master",
+   "counted": false
   },
   {
    "rank": 92,
-   "person": "yfke-van-der-meer",
+   "person": null,
    "sail": "NED252",
    "bib": "122",
    "name": "Yfke van der Meer",
@@ -2446,11 +2479,12 @@
    ],
    "net": 786.0,
    "remark": null,
-   "category": "Fin Adults women"
+   "category": "Fin Adults women",
+   "counted": false
   },
   {
    "rank": 93,
-   "person": "jonathan-klok",
+   "person": null,
    "sail": "NED204",
    "bib": "51",
    "name": "Jonathan Klok",
@@ -2465,7 +2499,8 @@
    ],
    "net": 787.0,
    "remark": null,
-   "category": "Fin Youth (13-17) long course"
+   "category": "Fin Youth (13-17) long course",
+   "counted": false
   },
   {
    "rank": 94,

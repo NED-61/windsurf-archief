@@ -117,7 +117,8 @@
   "Weggelaten scores zijn in de bron schuin doorgestreept (6 per rider). De kolom 'Punten' is de netto-score; een totaal zonder weglatingen staat niet in de bron.",
   "Codes staan in de bron in kleine letters (dnc, dnf, dns, dsq, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
   "In de naamcel staat achter de naam het lichaamsgewicht; dat is niet overgenomen. De gewichtsklasse (division) is afgeleid uit de deelklassementen A-D in dezelfde pdf.",
-  "Deelklassement van windsurfer-lt-jaarprijs-2024-course-overall: dezelfde races, met de plaatsen per race opnieuw geteld binnen deze groep. Telt in het archief niet als extra start."
+  "Deelklassement van windsurfer-lt-jaarprijs-2024-course-overall: dezelfde races, met de plaatsen per race opnieuw geteld binnen deze groep. Telt in het archief niet als extra start.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -1344,7 +1345,7 @@
   },
   {
    "rank": 20,
-   "person": "tony-halma",
+   "person": null,
    "sail": "NED 2",
    "name": "Tony Halma",
    "nationality": "NED",
@@ -1422,7 +1423,8 @@
     6
    ],
    "total": null,
-   "net": 483.0
+   "net": 483.0,
+   "counted": false
   }
  ],
  "detail": {}

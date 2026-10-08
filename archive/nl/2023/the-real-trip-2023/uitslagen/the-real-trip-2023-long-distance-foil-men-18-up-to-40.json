@@ -46,7 +46,8 @@
  "coverage": "complete",
  "notes": [
   "Bron: PSR-pdf met de vermelding '(no discards)'.",
-  "DNS-riders kregen de punten van de laatste plaats (gedeelde plaats), zoals gepubliceerd."
+  "DNS-riders kregen de punten van de laatste plaats (gedeelde plaats), zoals gepubliceerd.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -179,7 +180,7 @@
   },
   {
    "rank": 9,
-   "person": "pavel-lobodin",
+   "person": null,
    "sail": null,
    "bib": "359",
    "name": "Pavel Lobodin",
@@ -193,7 +194,8 @@
    "discard_points": null,
    "total": 9.0,
    "net": 9.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   }
  ],
  "detail": {}

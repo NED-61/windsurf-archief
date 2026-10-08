@@ -52,7 +52,8 @@
   "Landcode en zeilnummer zoals gepubliceerd. Een paar lage nummers (NED 1 t/m 5) lijken een invulnummer en geen eigen zeilnummer; dat is niet te controleren.",
   "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
   "De races 6 en 7 hebben bij elke rider dezelfde uitslag: kennelijk één race die dubbel telt. Waarom staat niet in de bron.",
-  "Tim Janssen, Martijn Mobach, Matthijs Pos, Sebastiaan de Bruijn hebben in alle races dnc. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast: ze staan als deelnemer in de uitslag."
+  "Tim Janssen, Martijn Mobach, Matthijs Pos, Sebastiaan de Bruijn hebben in alle races dnc.",
+  "Telt niet mee: 4 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -411,7 +412,7 @@
   },
   {
    "rank": 14,
-   "person": "tim-janssen",
+   "person": null,
    "sail": "NED 2",
    "name": "Tim Janssen",
    "nationality": "NED",
@@ -440,11 +441,12 @@
     1
    ],
    "total": null,
-   "net": 126.0
+   "net": 126.0,
+   "counted": false
   },
   {
    "rank": 14,
-   "person": "martijn-mobach",
+   "person": null,
    "sail": "NED 33",
    "name": "Martijn Mobach",
    "nationality": "NED",
@@ -473,11 +475,12 @@
     1
    ],
    "total": null,
-   "net": 126.0
+   "net": 126.0,
+   "counted": false
   },
   {
    "rank": 14,
-   "person": "matthijs-pos",
+   "person": null,
    "sail": "NED 318",
    "name": "Matthijs Pos",
    "nationality": "NED",
@@ -506,11 +509,12 @@
     1
    ],
    "total": null,
-   "net": 126.0
+   "net": 126.0,
+   "counted": false
   },
   {
    "rank": 14,
-   "person": "sebastiaan-de-bruijn",
+   "person": null,
    "sail": "NED 509",
    "name": "Sebastiaan de Bruijn",
    "nationality": "NED",
@@ -539,7 +543,8 @@
     1
    ],
    "total": null,
-   "net": 126.0
+   "net": 126.0,
+   "counted": false
   }
  ],
  "detail": {}

@@ -52,7 +52,8 @@
   "Landcode en zeilnummer zoals gepubliceerd. Een paar lage nummers (NED 1 t/m 5) lijken een invulnummer en geen eigen zeilnummer; dat is niet te controleren.",
   "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
   "Gedeelde plaats binnen een race: race 1: Martijn van Geemen en Matthijs van der Weg allebei 1. ZW rekent dan het gemiddelde van de gedeelde plaatsen (een half punt meer) en toont het afgeronde getal; de punten staan hier zoals getoond.",
-  "Johan Bulthuis, Robert Reekers hebben in alle races dnc. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast: ze staan als deelnemer in de uitslag."
+  "Johan Bulthuis, Robert Reekers hebben in alle races dnc.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -186,7 +187,7 @@
   },
   {
    "rank": 6,
-   "person": "johan-bulthuis",
+   "person": null,
    "sail": "NED 2",
    "name": "Johan Bulthuis",
    "nationality": "NED",
@@ -215,11 +216,12 @@
     1
    ],
    "total": null,
-   "net": 56.0
+   "net": 56.0,
+   "counted": false
   },
   {
    "rank": 6,
-   "person": "robert-reekers",
+   "person": null,
    "sail": "NED 3",
    "name": "Robert Reekers",
    "nationality": "NED",
@@ -248,7 +250,8 @@
     1
    ],
    "total": null,
-   "net": 56.0
+   "net": 56.0,
+   "counted": false
   }
  ],
  "detail": {

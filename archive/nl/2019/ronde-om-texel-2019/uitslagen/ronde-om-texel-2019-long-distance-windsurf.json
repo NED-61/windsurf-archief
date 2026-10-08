@@ -48,7 +48,8 @@
   "Kolommen in de bron: startnr, surfnr, voornaam, achternaam, Ranking, Ronde tijd, Foil. Voor- en achternaam zijn samengevoegd tot één naam, verder zoals gepubliceerd (ook kennelijke typefouten zoals 'Mwx Baaijen' en 'Dennis Litte l').",
   "Tijden staan in de bron met komma's ('2,55,35' = u,mm,ss; '5,37' = u,mm). In time staan ze met dubbele punten, de gepubliceerde notatie in time_published. Niets omgerekend.",
   "equipment 'foil' waar de bron 'ja' vermeldt in de kolom Foil; bij de overige riders is de kolom leeg (niet ingevuld).",
-  "De opgeslagen pagina noemt geen jaar. Dat dit 2019 is, volgt uit het Ridersguide-bericht van 22 juni 2019 (zelfde top 3); zie event.json."
+  "De opgeslagen pagina noemt geen jaar. Dat dit 2019 is, volgt uit het Ridersguide-bericht van 22 juni 2019 (zelfde top 3); zie event.json.",
+  "Telt niet mee: 1 ingeschreven rider(s) met DNS of DNC (niet gestart) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -484,7 +485,7 @@
   },
   {
    "rank": null,
-   "person": "daniel-van-akkeren",
+   "person": null,
    "sail": "NED….",
    "bib": "730",
    "name": "Daniel van Akkeren",
@@ -494,7 +495,8 @@
    "laps": null,
    "time": null,
    "remark": "DNS",
-   "equipment": null
+   "equipment": null,
+   "counted": false
   },
   {
    "rank": null,

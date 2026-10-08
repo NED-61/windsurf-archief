@@ -1,0 +1,24 @@
+{
+ "event_slug": "nk-course-2004-0612",
+ "scope": "nl",
+ "name": "NK Course 2004, Muiderzand",
+ "series": "NK Course",
+ "year": 2004,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2004-06-12",
+ "date_end": "2004-06-13",
+ "location": "Muiderzand",
+ "discipline": "course_race",
+ "classes": [
+  "nk-2004-0612-course-formula"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Uitslag op de homepage van Adri Keet onder de kop 'Muiderzand NK 2004, 12/13 juni' (Markermeer); volgens die pagina vier races op zaterdag en één op zondag. De pagina verwijst voor uitslagen en video naar de NVW (www.wedstrijdsurfen.nl).",
+  "Het stopnummer staat niet in de bron (datum in de mapnaam).",
+  "De pagina bevat ook het wedstrijdverslag van Adri Keet; om die tekst (publicatie niet afgesproken) staat het origineel in local-only/ en niet in git."
+ ],
+ "name_published": "Muiderzand NK 2004, 12/13 juni"
+}

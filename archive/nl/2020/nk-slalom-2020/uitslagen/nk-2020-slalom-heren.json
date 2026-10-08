@@ -37,7 +37,7 @@
  "notes": [
   "Datum en locatie staan niet op Windtulip; niet ingevuld.",
   "Namen zoals gepubliceerd, met dubbele spaties ingekort.",
-  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC of DNF in alle heats en finales tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle heats en finales hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -330,7 +330,7 @@
   },
   {
    "rank": 19,
-   "person": "ethan-westera",
+   "person": null,
    "sail": "ARU-4",
    "name": "Ethan Westera",
    "nationality": "ARU",
@@ -342,7 +342,8 @@
    ],
    "discarded": [],
    "total": 60.0,
-   "net": 60.0
+   "net": 60.0,
+   "counted": false
   },
   {
    "rank": 19,
@@ -531,8 +532,9 @@
       },
       {
        "rank": 11,
-       "person": "ethan-westera",
-       "remark": "DNS"
+       "person": null,
+       "remark": "DNS",
+       "name": "Ethan Westera"
       },
       {
        "rank": 11,
@@ -734,8 +736,9 @@
       },
       {
        "rank": 10,
-       "person": "ethan-westera",
-       "remark": "DNS"
+       "person": null,
+       "remark": "DNS",
+       "name": "Ethan Westera"
       },
       {
        "rank": 10,
@@ -857,8 +860,9 @@
       },
       {
        "rank": 11,
-       "person": "ethan-westera",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Ethan Westera"
       },
       {
        "rank": 11,
@@ -957,8 +961,9 @@
       },
       {
        "rank": 10,
-       "person": "ethan-westera",
-       "remark": "DNF"
+       "person": null,
+       "remark": "DNF",
+       "name": "Ethan Westera"
       },
       {
        "rank": 10,

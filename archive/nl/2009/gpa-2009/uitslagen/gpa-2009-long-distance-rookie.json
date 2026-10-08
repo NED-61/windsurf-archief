@@ -45,7 +45,8 @@
   "Het nummer voor de naam is in de bron een doorlopend regelnummer: ook DNS- en DNF-regels zijn genummerd. Die regels hebben hier geen plaats (rank null); het regelnummer staat in row_published.",
   "Veel riders staan alleen met hun achternaam in de bron (name_form 'alleen achternaam'). Die zijn alleen aan een bestaande rider gekoppeld als ook het zeilnummer gelijk is.",
   "Opmerking 'K' staat zo in de kolom Comments; de betekenis staat niet in de bron (vermoedelijk korte baan).",
-  "Verschillen tussen het klasseblad en het werkblad 'Blad5' in dezelfde pdf (klasseblad aangehouden): 'Peter Bot': tijd geen in het klasseblad, 14:33 in Blad5; 'Immen': tijd geen in het klasseblad, 15:17 in Blad5."
+  "Verschillen tussen het klasseblad en het werkblad 'Blad5' in dezelfde pdf (klasseblad aangehouden): 'Peter Bot': tijd geen in het klasseblad, 14:33 in Blad5; 'Immen': tijd geen in het klasseblad, 15:17 in Blad5.",
+  "Telt niet mee: 2 ingeschreven rider(s) met DNS of DNC (niet gestart) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -81,7 +82,7 @@
   },
   {
    "rank": null,
-   "person": "zandvliet",
+   "person": null,
    "sail": "LZ-1",
    "name": "Zandvliet",
    "gender": "male",
@@ -93,11 +94,12 @@
    "finish_order": null,
    "remark": "DNS",
    "row_published": 3,
-   "name_form": "alleen achternaam"
+   "name_form": "alleen achternaam",
+   "counted": false
   },
   {
    "rank": null,
-   "person": "van-hilten",
+   "person": null,
    "sail": "509",
    "name": "Van Hilten",
    "gender": "male",
@@ -109,7 +111,8 @@
    "finish_order": null,
    "remark": "DNS",
    "row_published": 4,
-   "name_form": "alleen achternaam"
+   "name_form": "alleen achternaam",
+   "counted": false
   },
   {
    "rank": null,

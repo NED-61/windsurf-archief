@@ -52,7 +52,7 @@
   "Bij een code (DNC, DNS, OCS) toont de bron geen punten: in points staat dan null en de code in race_remarks. De waarde per code is afgeleid uit de totalen (format.code_points) en alleen voor de controle gebruikt.",
   "De kolommen Class (Men, Women, Youth (U20)) en Division (Master, GM, U17, Female) staan in division en subdivision. In de kolom 'Club' staat in de bron het materiaal (Foil of Formula); dat staat hier in equipment.",
   "Zoals gepubliceerd: Martijn van Geemen en Max Castelein hebben allebei NED 111.",
-  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC of DNF in alle races tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -876,7 +876,7 @@
   },
   {
    "rank": 27,
-   "person": "fabian-van-stijn",
+   "person": null,
    "sail": "NED 175",
    "name": "Fabian van Stijn",
    "nationality": "NED",
@@ -908,11 +908,12 @@
    ],
    "total": 240.0,
    "net": 180.0,
-   "equipment": "Foil"
+   "equipment": "Foil",
+   "counted": false
   },
   {
    "rank": 27,
-   "person": "bas-mulder",
+   "person": null,
    "sail": "NED 92",
    "name": "Bas Mulder",
    "nationality": "NED",
@@ -944,7 +945,8 @@
    ],
    "total": 240.0,
    "net": 180.0,
-   "equipment": "Foil"
+   "equipment": "Foil",
+   "counted": false
   }
  ],
  "detail": {}

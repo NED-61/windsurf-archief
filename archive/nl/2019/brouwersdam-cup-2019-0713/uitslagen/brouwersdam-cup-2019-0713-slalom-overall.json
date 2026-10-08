@@ -45,7 +45,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 22 riders, 10 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 22 riders, 10 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -658,7 +659,7 @@
   },
   {
    "rank": 21,
-   "person": "arnout-den-boer",
+   "person": null,
    "sail": "NED 1008",
    "name": "Arnout den Boer",
    "nationality": "NED",
@@ -693,11 +694,12 @@
     3
    ],
    "total": 220.0,
-   "net": 154.0
+   "net": 154.0,
+   "counted": false
   },
   {
    "rank": 21,
-   "person": "thomas-regler",
+   "person": null,
    "sail": "GER 2507",
    "name": "Thomas Regler",
    "nationality": "GER",
@@ -732,7 +734,8 @@
     3
    ],
    "total": 220.0,
-   "net": 154.0
+   "net": 154.0,
+   "counted": false
   }
  ],
  "detail": {}

@@ -1,0 +1,25 @@
+{
+ "event_slug": "nk-course-2006",
+ "scope": "nl",
+ "name": "NK Course 2006",
+ "series": "NK Course",
+ "year": 2006,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2006-course-formula"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Stand van het NK Formula 2006 over 21 races (bestand 'NKtotaal2006', door Adri Keet op 1 september 2006 uit Excel opgeslagen). De tabel heeft geen titel en geen plaatskolom.",
+  "TUSSENSTAND: het bestand is van 1 september 2006; niet bekend of er daarna nog voor het NK is gevaren.",
+  "R1 t/m R9 zijn de negen races van de Lowlandcup 2006 (Grevelingen, 25-28 mei; zie lowlandcup-2006): voor alle 35 gemeenschappelijke riders dezelfde uitslagen per race. De Lowlandcup was dus de eerste wedstrijd van dit NK. Waar en wanneer R10-R18 en R19-R21 zijn gevaren staat niet in de bron."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "NKtotaal2006"
+}

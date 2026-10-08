@@ -54,7 +54,8 @@
   "Punten per race uit de detailpagina's; plaats, weglating en netto uit het tabblad (beide gecontroleerd).",
   "Puntentelling zoals waargenomen: winnaar van een race 0.7, daarna de plaats; DNS = aantal deelnemers + 1 (63); DNC = aantal deelnemers + 2 (64).",
   "Een * achter de plaats is zo gepubliceerd (gelijke netto). Rijen zonder plaats delen de plaats van de rij erboven.",
-  "Op de detailpagina van Geert Beek van, Marc Fokkinga, Nico Wierstra staat 'No results yet': geen punten per race gepubliceerd. In het tabblad staan zij onderaan met netto en weglating ter hoogte van DNC in elke race, zonder statuscode; plaats, weglating en netto zoals in het tabblad."
+  "Op de detailpagina van Geert Beek van, Marc Fokkinga, Nico Wierstra staat 'No results yet': geen punten per race gepubliceerd. In het tabblad staan zij onderaan met netto en weglating ter hoogte van DNC in elke race, zonder statuscode; plaats, weglating en netto zoals in het tabblad.",
+  "Telt niet mee: 16 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -1293,7 +1294,7 @@
   },
   {
    "rank": 44,
-   "person": "andreas-hron",
+   "person": null,
    "sail": null,
    "bib": "130",
    "name": "Andreas Hron",
@@ -1323,11 +1324,12 @@
    "total": 441.0,
    "net": 378.0,
    "remark": null,
-   "rank_published": "44*"
+   "rank_published": "44*",
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "dirk-wouters",
+   "person": null,
    "sail": null,
    "bib": "115",
    "name": "Dirk Wouters",
@@ -1356,11 +1358,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "edwin-komdeur",
+   "person": null,
    "sail": null,
    "bib": "301",
    "name": "Edwin Komdeur",
@@ -1389,11 +1392,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "floris-stam",
+   "person": null,
    "sail": null,
    "bib": "129",
    "name": "Floris Stam",
@@ -1422,11 +1426,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "friedbert-rogge",
+   "person": null,
    "sail": null,
    "bib": "11",
    "name": "Friedbert Rogge",
@@ -1455,11 +1460,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "jean-paul-krijgsman",
+   "person": null,
    "sail": "NED5325",
    "bib": "319",
    "name": "Jean Paul Krijgsman",
@@ -1488,11 +1494,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "kris-gielen",
+   "person": null,
    "sail": null,
    "bib": "108",
    "name": "Kris Gielen",
@@ -1521,11 +1528,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "maarten-oussoren",
+   "person": null,
    "sail": null,
    "bib": "112",
    "name": "Maarten Oussoren",
@@ -1554,11 +1562,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "marcel-prymka",
+   "person": null,
    "sail": null,
    "bib": "300",
    "name": "Marcel Prymka",
@@ -1587,11 +1596,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "martin-roos",
+   "person": null,
    "sail": null,
    "bib": "502",
    "name": "Martin Roos",
@@ -1620,11 +1630,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "merijn-kegel",
+   "person": null,
    "sail": "NED511",
    "bib": "317",
    "name": "Merijn Kegel",
@@ -1653,11 +1664,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "oeds-wiersma",
+   "person": null,
    "sail": null,
    "bib": "501",
    "name": "Oeds Wiersma",
@@ -1686,11 +1698,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "roel-vaessen",
+   "person": null,
    "sail": null,
    "bib": "163",
    "name": "Roel Vaessen",
@@ -1719,11 +1732,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "stephan-scherf",
+   "person": null,
    "sail": null,
    "bib": "148",
    "name": "Stephan Scherf",
@@ -1752,11 +1766,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "thomas-blanke",
+   "person": null,
    "sail": "GER3366",
    "bib": "321",
    "name": "Thomas Blanke",
@@ -1785,11 +1800,12 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 44,
-   "person": "willem-gilissen",
+   "person": null,
    "sail": "1445",
    "bib": "506",
    "name": "Willem Gilissen",
@@ -1818,7 +1834,8 @@
    ],
    "total": 441.0,
    "net": 378.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 45,

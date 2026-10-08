@@ -57,7 +57,8 @@
  "notes": [
   "Bron: therealtrip.nl/en/results, vastgelegd op 2026-10-01: het tabblad per categorie en de detailpagina van elke rider.",
   "Punten per race uit de detailpagina's; plaats, weglating en netto uit het tabblad (beide gecontroleerd).",
-  "Puntentelling zoals waargenomen: winnaar van een race 0.7, daarna de plaats; DNS = aantal deelnemers + 1 (9)."
+  "Puntentelling zoals waargenomen: winnaar van een race 0.7, daarna de plaats; DNS = aantal deelnemers + 1 (9).",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -325,7 +326,7 @@
   },
   {
    "rank": 8,
-   "person": "vigo-gerritsen",
+   "person": null,
    "sail": null,
    "bib": "807",
    "name": "Vigo Gerritsen",
@@ -366,7 +367,8 @@
    ],
    "total": 108.0,
    "net": 81.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   }
  ],
  "detail": {}

@@ -1,0 +1,260 @@
+{
+ "schema_version": 1,
+ "id": "nk-1999-course-race-dames",
+ "event": {
+  "name": "NK Race 1999",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 1999,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": "women",
+  "class": "Race dames",
+  "class_label_published": "Dames"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7"
+  ],
+  "discards": 2,
+  "races_to_count": 5,
+  "scoring_system": "lage punten: winnaar 0,7 punt, daarna de plaats; dnf en dsq = 9 punten (aantal riders + 1). Zoals waargenomen; de bron noemt geen systeem",
+  "points_published": "per race de plaats (of een code) en de punten"
+ },
+ "source": {
+  "name": "ONK Race 1999.pdf",
+  "url": null,
+  "file": "archive/nl/1999/nk-course-1999/bronnen/ONK Race 1999.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-08",
+  "method": "overgetikt van het beeld van de scan (pagina's op 200 en 300 dpi gerenderd en vergroot gelezen; de tekstlaag van de pdf is onbruikbare OCR); daarna per rider de som, de aftrek en het netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "8 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: AFWIJKING: Aukje Meppelink: aftrek [1.0, 9.0] is niet gelijk aan de 2 slechtste scores [12.0, 9.0]; geen dubbele namen; elke code (dnf, dsq) hoort bij 9 punten (8 riders + 1); in R1-R4 komt elke plaats één keer voor"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Dames' in 'Open Nederlandse Kampioenschappen Race 1999 - Eindstand' (www.ssn.nl/events/onk_results.htm, afgedrukt 6-5-1999): 'De eindstand na 7 races (2 races aftrek)'.",
+  "De bron geeft per race de plaats (of een code) en de punten; overgenomen zijn de punten, met de code in race_remarks. De kolommen 'aftrek 1' en 'aftrek 2' staan in discard_points; welke races dat zijn staat er niet bij.",
+  "Scan van een afdruk, goed leesbaar. Namen en zeilnummers zoals gepubliceerd (landletter H = Nederland).",
+  "Volgens de bron: 'Bij race 5, 6 en 7 betreft het twee slalomheats per race. Hier zijn alleen de punten vermeld.' Voor R5-R7 staat er dus één getal per race (de som van twee heats, bijv. 1,4 = 0,7 + 0,7).",
+  "Bij Aukje Meppelink (aftrek 1 en 9; slechtste scores 12 en 9) is de aftrek in de bron niet gelijk aan de twee slechtste scores. Totaal, aftrek en netto zijn overgenomen zoals gepubliceerd; het netto klopt met de gepubliceerde aftrek."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "erna-driessen",
+   "sail": "H-134",
+   "name": "Erna Driessen",
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    3.0,
+    0.7,
+    1.4,
+    1.4,
+    1.4
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    3.0,
+    2.0
+   ],
+   "total": 11.9,
+   "net": 6.9
+  },
+  {
+   "rank": 2,
+   "person": "monique-dijs",
+   "sail": "H-94",
+   "name": "Monique Dijs",
+   "division": null,
+   "points": [
+    0.7,
+    0.7,
+    0.7,
+    2.0,
+    4.0,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    5.0,
+    7.0
+   ],
+   "total": 20.1,
+   "net": 8.1
+  },
+  {
+   "rank": 3,
+   "person": "cornelia-vd-schilde",
+   "sail": "H-95",
+   "name": "Cornelia v.d.Schilden",
+   "division": null,
+   "points": [
+    3.0,
+    4.0,
+    2.0,
+    4.0,
+    7.0,
+    5.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    7.0,
+    11.0
+   ],
+   "total": 36.0,
+   "net": 18.0
+  },
+  {
+   "rank": 4,
+   "person": "karin-hoogerwerf",
+   "sail": "H-805",
+   "name": "Karin Hoogerwerf",
+   "division": null,
+   "points": [
+    6.0,
+    5.0,
+    4.0,
+    7.0,
+    9.0,
+    9.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    9.0,
+    9.0
+   ],
+   "total": 48.0,
+   "net": 30.0
+  },
+  {
+   "rank": 5,
+   "person": "aukje-meppelink",
+   "sail": "H-997",
+   "name": "Aukje Meppelink",
+   "division": null,
+   "points": [
+    5.0,
+    3.0,
+    5.0,
+    5.0,
+    12.0,
+    9.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    1.0,
+    9.0
+   ],
+   "total": 45.0,
+   "net": 35.0,
+   "flag": "aftrek in de bron is niet gelijk aan de slechtste scores; zo overgenomen"
+  },
+  {
+   "rank": 6,
+   "person": "anke-keijsers",
+   "sail": "H-78",
+   "name": "Anke Keijsers",
+   "division": null,
+   "points": [
+    4.0,
+    9.0,
+    9.0,
+    3.0,
+    11.0,
+    12.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DSQ"
+   },
+   "discard_points": [
+    12.0,
+    15.0
+   ],
+   "total": 63.0,
+   "net": 36.0
+  },
+  {
+   "rank": 7,
+   "person": "marjan-de-ron",
+   "sail": "H-126",
+   "name": "Marjan de Ron",
+   "division": null,
+   "points": [
+    7.0,
+    6.0,
+    6.0,
+    6.0,
+    15.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    18.0,
+    18.0
+   ],
+   "total": 76.0,
+   "net": 40.0
+  },
+  {
+   "rank": 8,
+   "person": "wendy-littel",
+   "sail": "H-334",
+   "name": "Wendy Littel",
+   "division": null,
+   "points": [
+    9.0,
+    7.0,
+    7.0,
+    8.0,
+    19.0,
+    16.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discard_points": [
+    19.0,
+    18.0
+   ],
+   "total": 84.0,
+   "net": 47.0
+  }
+ ],
+ "detail": {
+  "deviations": [
+   {
+    "rider": "Aukje Meppelink",
+    "field": "discard_points",
+    "published": [
+     1.0,
+     9.0
+    ],
+    "worst_scores": [
+     12.0,
+     9.0
+    ]
+   }
+  ]
+ }
+}

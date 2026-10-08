@@ -6,13 +6,16 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
-| NK Funboard 1998 | Overall | fleet_racing | 46 | Adri Keet | partial | gecontroleerd | archive/nl/1998/nk-funboard-1998/uitslagen/nk-1998-funboard-overall.json |
+| NK Funboard 1998 | Overall | fleet_racing | 46 | Adri Keet | complete | gecontroleerd | archive/nl/1998/nk-funboard-1998/uitslagen/nk-1998-funboard-overall.json |
 
 ## nl / 1999
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
-| Holland Surfpool 1999, wedstrijd 1 | Overall | fleet_racing | 31 | Ramses Landman | complete | gecontroleerd | archive/nl/1999/holland-surfpool-1999-stop1/uitslagen/holland-surfpool-1999-stop1-race-overall.json |
+| NK Formula 1999 | Formula Windsurfing | fleet_racing | 51 | ADRI KEET | complete | gecontroleerd | archive/nl/1999/nk-course-1999-1010/uitslagen/nk-1999-course-formula.json |
+| NK Race 1999 | Race dames | fleet_racing | 8 | Erna Driessen | complete | gecontroleerd | archive/nl/1999/nk-course-1999/uitslagen/nk-1999-course-race-dames.json |
+| NK Race 1999 | Race heren | fleet_racing | 57 | Ramses Landman | complete | gecontroleerd | archive/nl/1999/nk-course-1999/uitslagen/nk-1999-course-race-heren.json |
+| NK Race 1999 | Race jeugd | fleet_racing | 11 | Reinder de Vries | complete | gecontroleerd | archive/nl/1999/nk-course-1999/uitslagen/nk-1999-course-race-jeugd.json |
 
 ## nl / 2000
 
@@ -32,11 +35,32 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | NK Course 2002 | Longboard | series_standings | 14 | Marga Stalman | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-longboard.json |
 | NK Course 2002 | Techno | series_standings | 15 | Dorian v Rijsselberghe | complete | gecontroleerd | archive/nl/2002/nk-course-2002/uitslagen/nk-2002-course-techno.json |
 
+## nl / 2004
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| NK Course 2004, Grevelingen | Formula Windsurfing | fleet_racing | 65 | Ben van der Steen | complete | gecontroleerd | archive/nl/2004/nk-course-2004-0522/uitslagen/nk-2004-0522-course-formula.json |
+| NK Course 2004, Muiderzand | Formula Windsurfing | fleet_racing | 44 | Ben van der Steen | complete | gecontroleerd | archive/nl/2004/nk-course-2004-0612/uitslagen/nk-2004-0612-course-formula.json |
+
+## nl / 2005
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| NK Course 2005 | Formula, gold fleet | fleet_racing | 66 | Dennis Littel | partial | gecontroleerd | archive/nl/2005/nk-course-2005/uitslagen/nk-2005-course-formula-gold.json |
+
 ## nl / 2006
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
 | Lowlandcup 2006 | Formula, gold fleet | fleet_racing | 36 | Dennis Littel | complete | gecontroleerd | archive/nl/2006/lowlandcup-2006/uitslagen/lowlandcup-2006-course-formula-gold.json |
+| NK Course 2006 | Formula | fleet_racing | 46 | Dennis Littel | partial | gecontroleerd | archive/nl/2006/nk-course-2006/uitslagen/nk-2006-course-formula.json |
+
+## nl / 2007
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| NK Course 2007 | Formula | fleet_racing | 53 | Dennis Littel | complete | gecontroleerd | archive/nl/2007/nk-course-2007/uitslagen/nk-2007-course-formula.json |
+| NK Slalom 2007 | Overall | elimination | 36 | Adriaan van Rijselberghe | complete | gecontroleerd | archive/nl/2007/nk-slalom-2007/uitslagen/nk-2007-slalom-overall.json |
 
 ## nl / 2008
 
@@ -53,6 +77,8 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2009 | RS:X | long_distance | 5 | Van santen | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rsx.json |
 | Grote Prijs van Aalsmeer 2009 | Rookie | long_distance | 8 | Versluis | complete | gecontroleerd | archive/nl/2009/gpa-2009/uitslagen/gpa-2009-long-distance-rookie.json |
 | NK Course 2009 | Formula, gold fleet | fleet_racing | 43 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-course-2009/uitslagen/nk-2009-course-formula-gold.json |
+| NK Course 2009, stop 1 (Grevelingendam) | Formula | fleet_racing | 53 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-course-2009-stop1/uitslagen/nk-2009-stop1-course-formula.json |
+| NK Course 2009, stop 2 (Scheveningen) | Formula, gold fleet | fleet_racing | 34 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-course-2009-stop2/uitslagen/nk-2009-stop2-course-formula-gold.json |
 | NK Slalom 2009 | Overall | elimination | 56 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-slalom-2009/uitslagen/nk-2009-slalom-overall.json |
 | Slalom XL Almere, 3 oktober 2009 | Overall | fleet_racing | 35 | Peter Heida | complete | gecontroleerd | archive/nl/2009/slalom-xl-2009-1003/uitslagen/slalom-xl-2009-1003-slalom-overall.json |
 
@@ -211,7 +237,6 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2024 | Rookies (korte baan) | long_distance | 4 | Giny Cnossen | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-rookies.json |
 | Grote Prijs van Aalsmeer 2024 | Windfoil tot max 9,5 m² | long_distance | 30 | Freerk Blom | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-windfoil-max-9-5m2.json |
 | Grote Prijs van Aalsmeer 2024 | Windsurfer LT / Kona One | long_distance | 22 | Peter Schie | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-windsurfer-lt-kona-one.json |
-| Grote Prijs van Aalsmeer 2024 | Wing | long_distance | 8 | Adri Keet | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-wing.json |
 | NK Course 2024 | Formula Foil | fleet_racing | 34 | Freerk BLOM | complete | gecontroleerd | archive/nl/2024/nk-course-2024/uitslagen/nk-2024-course-formula-foil.json |
 | NK Slalom 2024 | Fin (Open & Youth) | elimination | 32 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-fin.json |
 | NK Slalom 2024 | Foil (Open & Youth) | elimination | 30 | Sem Stroosma | complete | gecontroleerd | archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-foil.json |
@@ -239,7 +264,10 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2025 | Rookies (korte baan) | long_distance | 2 | Imky de Bruine | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-rookies.json |
 | Grote Prijs van Aalsmeer 2025 | Windfoil tot max 9,5 m² | long_distance | 7 | Kas De Wolf | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-windfoil-max-9-5m2.json |
 | Grote Prijs van Aalsmeer 2025 | Windsurfer LT / Kona One | long_distance | 6 | Albert Meppelink | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-windsurfer-lt-kona-one.json |
-| Grote Prijs van Aalsmeer 2025 | Wing | long_distance | 7 | Matthijs Van ‘T Hoff | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-wing.json |
+| NK Course 2025 | Division 2, Cat A | fleet_racing | 10 | Lennart CNOSSEN | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-division-2-cat-a.json |
+| NK Course 2025 | Division 2, Cat C | fleet_racing | 8 | Alain CADRE | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-division-2-cat-c.json |
+| NK Course 2025 | Formula Foil | fleet_racing | 26 | Max BAAIJEN | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-formula-foil.json |
+| NK Course 2025 | Raceboard / Windsurfer LT | fleet_racing | 8 | Bas van der VELDEN | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-raceboard-windsurfer-lt.json |
 | Ronde om Texel 2025 | Windsurf | long_distance | 26 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2025/ronde-om-texel-2025/uitslagen/ronde-om-texel-2025-long-distance-windsurf.json |
 | Stonedam Foil Cup 2025 | Heren & Dames 20+ | fleet_racing | 18 | Max Baaijen | complete | gecontroleerd | archive/nl/2025/stonedam-foil-cup-2025/uitslagen/stonedam-foil-cup-2025-foil-heren-dames-20plus.json |
 | Stonedam Foil Cup 2025 | Jeugd U20 | fleet_racing | 14 | Matt de Jong | complete | gecontroleerd | archive/nl/2025/stonedam-foil-cup-2025/uitslagen/stonedam-foil-cup-2025-foil-jeugd-u20.json |
@@ -269,7 +297,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 ## Openstaand
 
-- **gedeeltelijk**: Grote Prijs van Aalsmeer 2025 - overall uitslag (verwerkt met tools/import_gpa.py; metadata aangevuld via web (zie event.json); PDF 51 regels vs 82 deelnemers volgens WSCA)
+- **gedeeltelijk**: Grote Prijs van Aalsmeer 2025 - overall uitslag (verwerkt met tools/import_gpa.py; metadata aangevuld via web (zie event.json); PDF 51 regels vs 82 deelnemers volgens WSCA; de klasse Wing is op 8 oktober 2026 uit het archief gehaald (geen windsurfen))
 - **wacht**: inbox/bulk/2017/06 - Formula Worlds Farra/Resultaat/2017_formula_windsurfing_YM-Worlds.pdf (internationaal: bron bewaard, nog niet omgezet (fase 1 is Nederland))
 - **overgeslagen**: inbox/bulk/2018/03 - Photoshoot Sailloft/WhatsApp Image 2024-02-25 at 18.37.54 (1).jpeg (fotoshoot, geen wedstrijd)
 - **overgeslagen**: inbox/bulk/2018/03 - Photoshoot Sailloft/WhatsApp Image 2024-02-25 at 18.37.54 (2).jpeg (fotoshoot, geen wedstrijd)
@@ -458,6 +486,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: inbox/los/standna Hargen.xls (eerdere tussenstand (na Hargen, 23 races, juli 1998); dezelfde racepunten staan in de stand na Zandvoort, zie de controle in de uitslag)
 - **overgeslagen**: inbox/los/standna Hargen35races.xls (werkversie van het rekenblad (opgezet voor 35 races, afgedrukt 11 september 1998); zelfde punten als de stand na Zandvoort)
 - **wacht**: inbox/los/results.xls (uitslag van de eerste twee wedstrijden van 1998 (7 en 4 races, 45 en 40 riders, met codes dsq/dnf); nog niet als losse stops verwerkt: locatie en datum staan niet in het bestand (18 mei 1998))
+- **overgeslagen**: inbox/los/Uitslag HSP1 99.xls (uitslag van de eerste wedstrijd van de Holland Surfpool 1999 (Monnickendam, 31 riders, 6 races); op 8 oktober 2026 uit het archief gehaald op aanwijzing van Adri Keet (onbelangrijke wedstrijd; vervangen door NK Race 1999 en NK Formula 1999). De bron is bewaard)
 - **overgeslagen**: inbox/los/RACE-03102009metAftrek-final.xls (stand per klasse van de wedstrijddag zelf (3 oktober 2009), van vóór de herziening van 6 oktober; niet omgezet, de herziene overall-stand is de uitslag)
 - **overgeslagen**: inbox/los/RACE-03102009metAftrek.xls (overall-stand van de wedstrijddag zelf (3 oktober 2009), van vóór de herziening van 6 oktober; niet omgezet)
 - **overgeslagen**: inbox/los/deelnemers2010.xls (inschrijflijst Slalom XL 2010: bevat e-mailadressen, telefoonnummers en leeftijden van deelnemers; daarom niet in git maar in local-only/)
@@ -567,6 +596,10 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: inbox/los/Uitslagen 2023 – Stonedam Foil Cup_files/woolentor-widgets.css (paginabestand (css, js of sfeerfoto) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
 - **overgeslagen**: inbox/los/Uitslagen 2023 – Stonedam Foil Cup_files/wp-emoji-release.min.js.download (paginabestand (css, js of sfeerfoto) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
 - **overgeslagen**: inbox/los/Uitslagen 2023 – Stonedam Foil Cup_files/wp-util.min.js.download (paginabestand (css, js of sfeerfoto) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/NK Race 1997.pdf (scan (gedraaid, goed leesbaar) van een afdruk van 21 september 1998 van de KNWV-stand 1998 (46 riders, 26 races). Geen uitslag van 1997: het is dezelfde stand als 'Stand na Zandvoort compleet.xls' (alle totalen en de racepunten van de eerste 13 riders vergeleken: gelijk). Niet opnieuw omgezet)
+- **overgeslagen**: inbox/los/ONK2000_eindstand.htm (html-versie (Word 9) van ONK2000_eindstand.doc, dat al is verwerkt; cel voor cel vergeleken met de uitslagen in het archief (plaats, zeilnummer, naam, punten per race, totaal, netto): heren 37 riders: gelijk, dames 5 riders: gelijk, jeugd 15 riders: gelijk. Bevat per rider de woonplaats; daarom niet in git maar in local-only/)
+- **overgeslagen**: inbox/los/nl_wedstrijden_2000-2008.zip (zip met tien bestanden die ook los zijn aangeleverd (sha256 van alle tien gelijk aan de losse bestanden, soms onder een andere naam). Bevat ONK2000_eindstand.htm (woonplaatsen) en de pagina's met verslagen van Adri Keet; daarom niet in git maar in local-only/)
+- **overgeslagen**: inbox/los/8e21e607-0d2e-485e-9fe2-d3682d43f8a4.pdf (manage2sail-pdf 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - WSH Open Amateur Windsurfer - Overall Results as of 29 SEP 2025'; fun-klasse: op aanwijzing van de gebruiker (8 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet)
 
 **Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 15× nl, totaal 152.
 
@@ -686,13 +719,11 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 11-10: Funcup Almere
 - 11-11: IJspegel / Techno bokaal Ter Aar
 
-### 2009 (13 van 14 zonder uitslag)
+### 2009 (11 van 14 zonder uitslag)
 
 - 04-25: SLXL Almere (Slalom XL)
-- 05-02: NK Grevelingen (weekeinde van 2 mei)
 - 05-16: SLXL Almere (Slalom XL) (in de kalender: 'af laten vallen' (vervallen))
 - 05-23: Islandrace (Almere)
-- 05-30 t/m 06-01: NK Scheveningen (evenement in het archief (zonder uitslag): archive/nl/2009/nk-course-2009-stop2; alleen een verslag, geen uitslag)
 - 06-06: SLXL Almere (Slalom XL)
 - 06-08 t/m 06-13: WK Slalom Texel (internationaal) (evenement in het archief (zonder uitslag): archive/internationaal/2009/wk-slalom-2009; alleen een verslag, geen uitslag)
 - 06-20: NK Techno (Almere) (zelfde weekeinde: reservedatum NK Scheveningen)
@@ -703,4 +734,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 828 bron(nen), 264 verwerkt._
+_Registry: 847 bron(nen), 278 verwerkt._

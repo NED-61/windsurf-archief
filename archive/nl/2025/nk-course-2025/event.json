@@ -1,0 +1,35 @@
+{
+ "event_slug": "nk-course-2025",
+ "scope": "nl",
+ "name": "NK Course 2025",
+ "series": "NK Course",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2025-09-27",
+ "date_end": "2025-09-28",
+ "location": "Heeg",
+ "discipline": "course_race",
+ "classes": [
+  "nk-2025-course-formula-foil",
+  "nk-2025-course-division-2-cat-a",
+  "nk-2025-course-division-2-cat-c",
+  "nk-2025-course-raceboard-windsurfer-lt"
+ ],
+ "metadata_sources": [
+  {
+   "name": "opgave van de repo-eigenaar (deelnemer), 8 oktober 2026",
+   "url": null,
+   "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet); NK-titels: overall, jeugd tot en met 19 en masters"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025' (manage2sail, rapporten van maandag 29 september 2025, 12:46-12:48). ODC = Open Dutch Championship; daarom onder de reeks NK Course, zoals de ODC Formula Foil van 2024.",
+  "NK-titels volgens de gebruiker (8 oktober 2026): overall, jeugd tot en met 19 jaar en masters. De bron geeft geen leeftijd of categorie per rider, dus een aparte jeugd- en mastersuitslag is uit deze uitslagen niet af te leiden; in het archief staat alleen het overall-klassement per klasse.",
+  "Datum (zaterdag 27 en zondag 28 september 2025) volgens de gebruiker, die zelf meedeed; in de bron staat alleen de datum van de rapporten. Locatie AFGELEID uit de organisator: WSH = WaterSportvereniging Heeg (zo vastgesteld bij de editie 2024); de plaats staat niet in de bron.",
+  "Eén enkele wedstrijd (opgave van de gebruiker): anders dan in 2024 zijn er voor deze uitslagen geen races elders gevaren. De bron noemt de uitslagen 'Overall Results'; het zijn dus de einduitslagen.",
+  "'WSH Open Amateur Windsurfer' (5 riders) is een fun-klasse en hoort niet in het archief (opgave van de gebruiker, 8 oktober 2026): niet omgezet, de bron staat in bronnen/."
+ ],
+ "organizer": "WaterSportvereniging Heeg (WSH)",
+ "name_published": "WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025"
+}

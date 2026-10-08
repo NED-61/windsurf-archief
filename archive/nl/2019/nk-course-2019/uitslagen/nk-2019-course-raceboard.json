@@ -54,7 +54,8 @@
   "Tussenstand na de wedstrijden van 16 juni 2019, niet de einduitslag van het NK 2019. De eindstand staat niet in het archief.",
   "Gepubliceerd als 'NEDERLANDSKAMPIOENSHAP RACEBOARD EN SHORTBOARD 2019 - Tussenstand ONK raceboard 16 juni 2019 - Raceboard Class'.",
   "Bij een code (DNC, DNS, OCS) toont de bron geen punten: in points staat dan null en de code in race_remarks. De waarde per code is afgeleid uit de totalen (format.code_points) en alleen voor de controle gebruikt.",
-  "De kolom Class is voor iedereen 'Raceboard'. Division (Men, Youth (U20)) en Sub div (Master, GM, U15, U17) staan in division en subdivision; de kolom Board (Raceboard, RSX, BIC Techno, Windsurfer LT) in equipment."
+  "De kolom Class is voor iedereen 'Raceboard'. Division (Men, Youth (U20)) en Sub div (Master, GM, U15, U17) staan in division en subdivision; de kolom Board (Raceboard, RSX, BIC Techno, Windsurfer LT) in equipment.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -776,7 +777,7 @@
   },
   {
    "rank": 19,
-   "person": "paul-v-noord",
+   "person": null,
    "sail": "NED 90",
    "name": "Paul v Noord",
    "nationality": "NED",
@@ -817,11 +818,12 @@
    ],
    "total": 252.0,
    "net": 189.0,
-   "equipment": "Raceboard"
+   "equipment": "Raceboard",
+   "counted": false
   },
   {
    "rank": 19,
-   "person": "michel-ferket",
+   "person": null,
    "sail": "NED 696",
    "name": "Michel Ferket",
    "nationality": "NED",
@@ -862,7 +864,8 @@
    ],
    "total": 252.0,
    "net": 189.0,
-   "equipment": "Raceboard"
+   "equipment": "Raceboard",
+   "counted": false
   }
  ],
  "detail": {}

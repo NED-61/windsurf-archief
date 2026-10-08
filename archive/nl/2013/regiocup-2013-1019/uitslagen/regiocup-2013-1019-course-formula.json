@@ -40,7 +40,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 10 riders, 4 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 10 riders, 4 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -238,7 +239,7 @@
   },
   {
    "rank": 10,
-   "person": "markus-gickler",
+   "person": null,
    "sail": "GER 1177",
    "name": "Markus Gickler",
    "nationality": "GER",
@@ -259,7 +260,8 @@
     3
    ],
    "total": 42.0,
-   "net": 31.0
+   "net": 31.0,
+   "counted": false
   }
  ],
  "detail": {}

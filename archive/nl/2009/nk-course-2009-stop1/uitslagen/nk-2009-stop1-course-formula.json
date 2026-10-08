@@ -1,0 +1,1361 @@
+{
+ "schema_version": 1,
+ "id": "nk-2009-stop1-course-formula",
+ "event": {
+  "name": "NK Course 2009, stop 1 (Grevelingendam)",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2009,
+  "stop_number": 1,
+  "stops_known": null,
+  "date": "2009-05-02",
+  "location": "Grevelingendam",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Formula",
+  "class_label_published": "Formula Class",
+  "equipment": "formula"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 1,
+  "races_to_count": 3,
+  "scoring_system": "Appendix A (Sailwave), zoals gepubliceerd: 'Sailed:4, Discards:1, To count:3, Entries:53'. De winnaar van een race krijgt 0.7 punt; DNF, DNS, DNC en OCS = 54 punten"
+ },
+ "source": {
+  "name": "NK_Grevelingen_0509.htm",
+  "url": null,
+  "file": "archive/nl/2009/nk-course-2009-stop1/bronnen/NK_Grevelingen_0509.htm",
+  "type": "web",
+  "retrieved": "2026-10-08",
+  "method": "BeautifulSoup: de Sailwave-tabel cel voor cel",
+  "metadata_sources": [
+   {
+    "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+    "url": null,
+    "used_for": "weekeinde van 2 mei 2009: NK Grevelingen (planning)"
+   }
+  ],
+  "verified": "53 riders (bron: Entries 53); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; elke code hoort bij 54 punten (53 inschrijvingen + 1)"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Grevelingendam 2/5 - 3/5 - Results are final as of 17:07 on May 3, 2009 - Formula Class' (Sailwave): vier races, één weglating (tussen haakjes in de bron).",
+  "De kolommen voor R5 t/m R8 zijn leeg (niet gevaren). De kolom Division (men, master, youth U20, open) staat in division, Club in club, Nat in nationality; de kolom Sponsors is niet overgenomen. Het zeilnummer is samengesteld uit Nat en SailNo, behalve waar de landcode al in de cel staat ('BEL 2').",
+  "'K. S. Jissing' (42) op plaats 4 en 'Klaas Sybrand Jissink' (315, alleen DNF en DNC) zijn vermoedelijk dezelfde rider met twee inschrijvingen: in Scheveningen (stop 2) vaart Klaas Sybrand Jissink met 42. Dat staat niet in de bron; de regels zijn zo overgenomen en de tweede telt niet mee.",
+  "Patrick Kleine heeft 'X' als zeilnummer (sail_published).",
+  "Telt niet mee: 14 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "rank_published": "1st",
+   "person": "dennis-littel",
+   "sail": "NED 13",
+   "name": "Dennis Littel",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    0.7,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 2.8,
+   "net": 2.1
+  },
+  {
+   "rank": 2,
+   "rank_published": "2nd",
+   "person": "adri-keet",
+   "sail": "NED 34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "master",
+   "points": [
+    4.0,
+    2.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 11.0,
+   "net": 7.0
+  },
+  {
+   "rank": 3,
+   "rank_published": "3rd",
+   "person": "dirk-doppenberg",
+   "sail": "NED 51",
+   "name": "Dirk Doppenberg",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 12.0,
+   "net": 8.0
+  },
+  {
+   "rank": 4,
+   "rank_published": "4th",
+   "person": "klaas-sybrand-jissink",
+   "sail": "NED 42",
+   "name": "K. S. Jissing",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    8.0,
+    6.0,
+    3.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 71.0,
+   "net": 17.0
+  },
+  {
+   "rank": 5,
+   "rank_published": "5th",
+   "person": "pieter-bartlema",
+   "sail": "NED 113",
+   "name": "Pieter Bartlema",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    54.0,
+    5.0,
+    7.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 71.0,
+   "net": 17.0
+  },
+  {
+   "rank": 6,
+   "rank_published": "6th",
+   "person": "marc-de-jong",
+   "sail": "NED 103",
+   "name": "Marc de Jong",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    9.0,
+    54.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 74.0,
+   "net": 20.0
+  },
+  {
+   "rank": 7,
+   "rank_published": "7th",
+   "person": "marco-kraaijenzank",
+   "sail": "NED 10",
+   "name": "Marco Kraayenzank",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    7.0,
+    7.0,
+    54.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R3": "OCS"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 75.0,
+   "net": 21.0
+  },
+  {
+   "rank": 8,
+   "rank_published": "8th",
+   "person": "koen-sonck",
+   "sail": "BEL 2",
+   "name": "Koen Sonck",
+   "nationality": "BEL",
+   "division": "master",
+   "club": "OBC",
+   "points": [
+    12.0,
+    4.0,
+    6.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R4": "DNS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 76.0,
+   "net": 22.0
+  },
+  {
+   "rank": 9,
+   "rank_published": "9th",
+   "person": "renee-glasz",
+   "sail": "NED 123",
+   "name": "Rene Glasz",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    20.0,
+    10.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 50.0,
+   "net": 30.0
+  },
+  {
+   "rank": 10,
+   "rank_published": "10th",
+   "person": "teade-de-jong",
+   "sail": "NED 777",
+   "name": "Teade de Jong",
+   "nationality": "NED",
+   "division": "youth U20",
+   "points": [
+    13.0,
+    11.0,
+    12.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 44.0,
+   "net": 31.0
+  },
+  {
+   "rank": 11,
+   "rank_published": "11th",
+   "person": "nico-wierstra",
+   "sail": "NED 81",
+   "name": "N. Wierstra",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    5.0,
+    18.0,
+    15.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 50.0,
+   "net": 32.0
+  },
+  {
+   "rank": 12,
+   "rank_published": "12th",
+   "person": "markus-bouman",
+   "sail": "NED 6",
+   "name": "Markus Bouman",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    17.0,
+    54.0,
+    8.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 88.0,
+   "net": 34.0
+  },
+  {
+   "rank": 13,
+   "rank_published": "13th",
+   "person": "patrick-van-hoof",
+   "sail": "BEL 52",
+   "name": "Patrick Van Hoof",
+   "nationality": "BEL",
+   "division": "master",
+   "club": "OBC",
+   "points": [
+    14.0,
+    12.0,
+    9.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R4": "DNS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 89.0,
+   "net": 35.0
+  },
+  {
+   "rank": 14,
+   "rank_published": "14th",
+   "person": "jordy-vonk",
+   "sail": "NED 600",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "division": "youth U20",
+   "points": [
+    11.0,
+    15.0,
+    17.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 54.0,
+   "net": 37.0
+  },
+  {
+   "rank": 15,
+   "rank_published": "15th",
+   "person": "john-munten",
+   "sail": "NED 180",
+   "name": "John Munten",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    15.0,
+    20.0,
+    13.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 63.0,
+   "net": 43.0
+  },
+  {
+   "rank": 16,
+   "rank_published": "16th",
+   "person": "tomas-van-zelst",
+   "sail": "NED 228",
+   "name": "Tomas van Zelst",
+   "nationality": "NED",
+   "division": "youth U20",
+   "points": [
+    54.0,
+    13.0,
+    18.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 99.0,
+   "net": 45.0
+  },
+  {
+   "rank": 17,
+   "rank_published": "17th",
+   "person": "jan-duiker",
+   "sail": "NED 979",
+   "name": "Jan Duiker",
+   "nationality": "NED",
+   "division": "master",
+   "points": [
+    54.0,
+    14.0,
+    19.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 100.0,
+   "net": 46.0
+  },
+  {
+   "rank": 18,
+   "rank_published": "18th",
+   "person": "jeffrey-van-hoe",
+   "sail": "BEL 6",
+   "name": "Jeffrey Van Hoe",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "Windsurfing Deinze",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R4": "DNS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 102.0,
+   "net": 48.0
+  },
+  {
+   "rank": 19,
+   "rank_published": "19th",
+   "person": "christoph-waerzeggers",
+   "sail": "BEL 29",
+   "name": "Chistophe Waerzeggers",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "OBC",
+   "points": [
+    21.0,
+    17.0,
+    11.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R4": "DNS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 103.0,
+   "net": 49.0
+  },
+  {
+   "rank": 20,
+   "rank_published": "20th",
+   "person": "kay-van-berlo",
+   "sail": "NED 212",
+   "name": "Kay van Berlo",
+   "nationality": "NED",
+   "division": "youth U20",
+   "points": [
+    18.0,
+    19.0,
+    14.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 105.0,
+   "net": 51.0
+  },
+  {
+   "rank": 21,
+   "rank_published": "21st",
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    2.0,
+    54.0,
+    54.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 114.0,
+   "net": 60.0
+  },
+  {
+   "rank": 22,
+   "rank_published": "22nd",
+   "person": "peter-van-der-lugt",
+   "sail": "NED 12",
+   "name": "Peter van der Lugt",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    6.0,
+    8.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "OCS",
+    "R4": "OCS"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 122.0,
+   "net": 68.0
+  },
+  {
+   "rank": 23,
+   "rank_published": "23rd",
+   "person": "pascal-sommers",
+   "sail": "BEL 7",
+   "name": "Pascal Somers",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "ZSC Broechem",
+   "points": [
+    10.0,
+    9.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNS"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 127.0,
+   "net": 73.0
+  },
+  {
+   "rank": 24,
+   "rank_published": "24th",
+   "person": "philippe-de-haes",
+   "sail": "BEL 93",
+   "name": "Philippe De Haas",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "ZSC Broechem",
+   "points": [
+    30.0,
+    30.0,
+    20.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R4": "DNS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 134.0,
+   "net": 80.0
+  },
+  {
+   "rank": 25,
+   "rank_published": "25th",
+   "person": "kiran-badloe",
+   "sail": "NED 194",
+   "name": "Kirian Badloe",
+   "nationality": "NED",
+   "division": "youth U20",
+   "points": [
+    19.0,
+    23.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 150.0,
+   "net": 96.0
+  },
+  {
+   "rank": 26,
+   "rank_published": "26th",
+   "person": "robby-hermans",
+   "sail": "BEL 126",
+   "name": "Robby Hermans",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "KWKM",
+   "points": [
+    22.0,
+    21.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNS"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 151.0,
+   "net": 97.0
+  },
+  {
+   "rank": 27,
+   "rank_published": "27th",
+   "person": "nick-de-ruyter",
+   "sail": "NED 183",
+   "name": "Nick de Ruyter",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    23.0,
+    22.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 153.0,
+   "net": 99.0
+  },
+  {
+   "rank": 28,
+   "rank_published": "28th",
+   "person": "yves-grossen",
+   "sail": "BEL 8",
+   "name": "Yves Grossen",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "ZSC Broechem",
+   "points": [
+    25.0,
+    24.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 157.0,
+   "net": 103.0
+  },
+  {
+   "rank": 29,
+   "rank_published": "29th",
+   "person": "wim-claessens",
+   "sail": "BEL 30",
+   "name": "Wim Claessens",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "OBC",
+   "points": [
+    24.0,
+    27.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 159.0,
+   "net": 105.0
+  },
+  {
+   "rank": 30,
+   "rank_published": "30th",
+   "person": "kenny-de-jager",
+   "sail": "BEL 9",
+   "name": "Kenny de Jager",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "OBC",
+   "points": [
+    27.0,
+    29.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNS"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 164.0,
+   "net": 110.0
+  },
+  {
+   "rank": 31,
+   "rank_published": "31st",
+   "person": "jeroen-jacobs",
+   "sail": "NED 121",
+   "name": "Jeroen Jacobs",
+   "nationality": "NED",
+   "division": "master",
+   "points": [
+    29.0,
+    28.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 165.0,
+   "net": 111.0
+  },
+  {
+   "rank": 32,
+   "rank_published": "32nd",
+   "person": "ronald-vd-poel",
+   "sail": "NED 21",
+   "name": "R.L.J. van der Poel",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    32.0,
+    26.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 166.0,
+   "net": 112.0
+  },
+  {
+   "rank": 33,
+   "rank_published": "33rd",
+   "person": "martijn-van-citteren",
+   "sail": "NED 170",
+   "name": "Martijn van Citteren",
+   "nationality": "NED",
+   "division": "youth U20",
+   "points": [
+    54.0,
+    25.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 187.0,
+   "net": 133.0
+  },
+  {
+   "rank": 34,
+   "rank_published": "34th",
+   "person": "marco-van-der-leer",
+   "sail": "NED 207",
+   "name": "Marco vd Leer",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    26.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 188.0,
+   "net": 134.0
+  },
+  {
+   "rank": 35,
+   "rank_published": "35th",
+   "person": "cobus-van-der-stel",
+   "sail": "NED 818",
+   "name": "Cobus vd Stel",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    28.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 190.0,
+   "net": 136.0
+  },
+  {
+   "rank": 36,
+   "rank_published": "36th",
+   "person": "huug-peters",
+   "sail": "NED 193",
+   "name": "Huug Peters",
+   "nationality": "NED",
+   "division": "master",
+   "points": [
+    31.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 193.0,
+   "net": 139.0
+  },
+  {
+   "rank": 37,
+   "rank_published": "37th",
+   "person": "vincent-benoit",
+   "sail": "BEL 53",
+   "name": "Vincent Benoit",
+   "nationality": "BEL",
+   "division": "master",
+   "club": "OBC",
+   "points": [
+    33.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 195.0,
+   "net": 141.0
+  },
+  {
+   "rank": 38,
+   "rank_published": "38th",
+   "person": "maarten-vandevyver",
+   "sail": "BEL 89",
+   "name": "Maarten Vandevyver",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "Windekind",
+   "points": [
+    34.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 196.0,
+   "net": 142.0
+  },
+  {
+   "rank": 39,
+   "rank_published": "39th",
+   "person": "jan-bruggeman",
+   "sail": "BEL 76",
+   "name": "Jan Bruggeman",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "Hazewinkel",
+   "points": [
+    35.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 197.0,
+   "net": 143.0
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 134",
+   "name": "Pieter Buins",
+   "nationality": "NED",
+   "division": "master",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "BEL 19",
+   "name": "Cisse Luyckx",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "KWKM",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "BEL 82",
+   "name": "Tim Cortebeeck",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "Hazewinkel",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNS",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "BEL 3",
+   "name": "Wolfgang Verlaeckt",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "Windekind",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNS",
+    "R2": "DNS",
+    "R3": "DNS",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "BEL 40",
+   "name": "Johan Broucke",
+   "nationality": "BEL",
+   "division": "master",
+   "club": "VVW In - Out",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNS",
+    "R2": "DNS",
+    "R3": "DNS",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "BEL 821",
+   "name": "Jan De Muyer",
+   "nationality": "BEL",
+   "division": "men",
+   "club": "Hazewinkel",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 146",
+   "name": "J. Schuitema",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 33",
+   "name": "Nico Wiersma",
+   "nationality": "NED",
+   "division": "master",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 315",
+   "name": "Klaas Sybrand Jissink",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 218",
+   "name": "Ronald vd Poel",
+   "nationality": "NED",
+   "division": "master",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": null,
+   "name": "Patrick Kleine",
+   "sail_published": "X",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 313",
+   "name": "A. J. Geesink",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 505",
+   "name": "SGS de Bruyn",
+   "nationality": "NED",
+   "division": "men",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  },
+  {
+   "rank": 40,
+   "rank_published": "40th",
+   "person": null,
+   "sail": "NED 145",
+   "name": "Meindert Schuitema",
+   "nationality": "NED",
+   "division": "open",
+   "points": [
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 216.0,
+   "net": 162.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

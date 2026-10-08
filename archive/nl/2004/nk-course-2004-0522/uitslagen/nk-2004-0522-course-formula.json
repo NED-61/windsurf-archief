@@ -1,0 +1,1693 @@
+{
+ "schema_version": 1,
+ "id": "nk-2004-0522-course-formula",
+ "event": {
+  "name": "NK Course 2004, Grevelingen",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2004,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2004-05-22",
+  "location": "Grevelingen",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Formula Windsurfing",
+  "class_label_published": "FW Fleet",
+  "equipment": "formula"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9"
+  ],
+  "discards": 2,
+  "races_to_count": 7,
+  "discards_marked": false,
+  "scoring_system": "Sailwave; lage punten, punten = plaats. DNC telt 66 punten (aantal inschrijvingen + 1); elke andere code (DNF, DNS, OCS, BFD, RAF) telt het aantal riders zonder DNC in die race + 1 (afgeleid)",
+  "code_points_published": false,
+  "code_points": 66.0,
+  "code_points_basis": "afgeleid uit de gepubliceerde netto-scores: DNC telt 66 punten (aantal inschrijvingen + 1); elke andere code (DNF, DNS, OCS, BFD, RAF) telt het aantal riders zonder DNC in die race + 1. De bron toont bij een code geen punten. Alleen voor de controle gebruikt."
+ },
+ "source": {
+  "name": "Grevelingen_0504.htm",
+  "url": null,
+  "file": "local-only/nl/2004/nk-course-2004-0522/bronnen/Grevelingen_0504.htm",
+  "type": "web",
+  "retrieved": "2026-10-08",
+  "method": "BeautifulSoup: de uitslagtabel van de pagina cel voor cel (Grevelingen) of de regels van het tekstblok, velden gescheiden door dubbele spaties (Muiderzand)",
+  "metadata_sources": [],
+  "verified": "65 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; netto herrekend uit de racepunten: gelijk; dubbele namen in de bron: ['jelle vermeulen']; aantal weglatingen (2) en punten bij codes afgeleid: DNC telt 66 punten (aantal inschrijvingen + 1); elke andere code (DNF, DNS, OCS, BFD, RAF) telt het aantal riders zonder DNC in die race + 1; daarmee kloppen alle 65 netto-scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Uitslag van het NK-weekeinde op de Grevelingen van 22 en 23 mei 2004 (Sailwave-tabel op de homepage van Adri Keet): negen races, één vloot.",
+  "De kolom Klasse (FW = Formula Windsurfing, FWY = jeugd, FE = Formula Experience) staat in subdivision, de kolom Groep (Male, Master, Female) in division.",
+  "Zeilnummers zoals gepubliceerd: Belgische riders met een 'B' of 'b' achter het nummer ('8 b', '5 B'), twee met 'vyf10' en 'vyf7'. Ron Ruiter heeft in R1 5.3 punten (zo gepubliceerd; vermoedelijk toegekende punten).",
+  "Jelle Vermeulen staat twee keer in de bron: op plaats 32 met zeilnummer 253 en op plaats 61 met 465 en in alle races DNC.",
+  "De bron geeft alleen het netto (kolom 'Pts'), geen totaal, en markeert niet welke races zijn weggelaten. Het aantal weglatingen (2) en de punten bij een code zijn afgeleid: alleen daarmee kloppen alle gepubliceerde netto-scores.",
+  "Bij een code (DNC, DNF, OCS, RAF) toont de bron geen punten: in points staat dan null en de code in race_remarks.",
+  "Telt niet mee: 5 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "ben-vd-steen",
+   "sail": "57",
+   "name": "Ben van der Steen",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    10.0,
+    3.0,
+    1.0,
+    2.0,
+    2.0,
+    1.0,
+    1.0,
+    5.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 11.0
+  },
+  {
+   "rank": 2,
+   "person": "roy-van-koolwijk",
+   "sail": "97",
+   "name": "Roy van Koolwijk",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    1.0,
+    1.0,
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    null,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R7": "DNC"
+   },
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 3,
+   "person": "ramses-landman",
+   "sail": "72",
+   "name": "Ramses Landman",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    4.0,
+    8.0,
+    7.0,
+    7.0,
+    1.0,
+    7.0,
+    null,
+    1.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R7": "DNC"
+   },
+   "total": null,
+   "net": 30.0
+  },
+  {
+   "rank": 4,
+   "person": "ron-ruiter",
+   "sail": "1111",
+   "name": "Ron Ruiter",
+   "division": "Master",
+   "subdivision": "FW",
+   "points": [
+    5.3,
+    7.0,
+    4.0,
+    5.0,
+    4.0,
+    8.0,
+    2.0,
+    7.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 32.3
+  },
+  {
+   "rank": 5,
+   "person": "adri-keet",
+   "sail": "34",
+   "name": "Adri Keet",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    6.0,
+    12.0,
+    8.0,
+    1.0,
+    null,
+    4.0,
+    3.0,
+    10.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R5": "OCS"
+   },
+   "total": null,
+   "net": 38.0
+  },
+  {
+   "rank": 6,
+   "person": "stefan-gideonse",
+   "sail": "119",
+   "name": "Stefan Gideonse",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    11.0,
+    18.0,
+    2.0,
+    6.0,
+    9.0,
+    3.0,
+    6.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 42.0
+  },
+  {
+   "rank": 7,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "2",
+   "name": "Adriaan van Rijsselberghe",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    2.0,
+    5.0,
+    5.0,
+    9.0,
+    5.0,
+    10.0,
+    11.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 47.0
+  },
+  {
+   "rank": 8,
+   "person": "markus-bouman",
+   "sail": "666",
+   "name": "Markus Bouman",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    8.0,
+    null,
+    11.0,
+    10.0,
+    6.0,
+    13.0,
+    8.0,
+    2.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R2": "DNC"
+   },
+   "total": null,
+   "net": 55.0
+  },
+  {
+   "rank": 9,
+   "person": "dennis-littel",
+   "sail": "13",
+   "name": "Dennis Littel",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    2.0,
+    6.0,
+    23.0,
+    8.0,
+    9.0,
+    4.0,
+    6.0,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 58.0
+  },
+  {
+   "rank": 10,
+   "person": "wilko-dijkstra",
+   "sail": "315",
+   "name": "Wilko Dijkstra",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    5.0,
+    10.0,
+    9.0,
+    8.0,
+    14.0,
+    11.0,
+    12.0,
+    9.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 59.0
+  },
+  {
+   "rank": 11,
+   "person": "gregory-maes",
+   "sail": "8 b",
+   "name": "Gregory Maes",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    17.0,
+    6.0,
+    12.0,
+    4.0,
+    19.0,
+    6.0,
+    10.0,
+    26.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 69.0
+  },
+  {
+   "rank": 12,
+   "person": "renee-glasz",
+   "sail": "123",
+   "name": "René Glasz",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    25.0,
+    17.0,
+    21.0,
+    12.0,
+    7.0,
+    18.0,
+    7.0,
+    18.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 91.0
+  },
+  {
+   "rank": 13,
+   "person": "marco-kraaijenzank",
+   "sail": "10",
+   "name": "Marco Kaaijenzank",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    13.0,
+    9.0,
+    14.0,
+    19.0,
+    16.0,
+    19.0,
+    9.0,
+    27.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 98.0
+  },
+  {
+   "rank": 14,
+   "person": "jeroen-coppens",
+   "sail": "540",
+   "name": "Jeroen Coppens",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    12.0,
+    13.0,
+    15.0,
+    21.0,
+    13.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 113.0
+  },
+  {
+   "rank": 15,
+   "person": "marc-de-jong",
+   "sail": "103",
+   "name": "Marc de Jong",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    16.0,
+    25.0,
+    23.0,
+    14.0,
+    22.0,
+    24.0,
+    17.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 118.0
+  },
+  {
+   "rank": 16,
+   "person": "robert-jan-van-velzen",
+   "sail": "240",
+   "name": "Robbert-jan van Velzen",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    7.0,
+    21.0,
+    18.0,
+    15.0,
+    25.0,
+    28.0,
+    18.0,
+    21.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 119.0
+  },
+  {
+   "rank": 17,
+   "person": "alexander-verhage",
+   "sail": "675",
+   "name": "Alexander Verhage",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    14.0,
+    11.0,
+    29.0,
+    22.0,
+    15.0,
+    26.0,
+    21.0,
+    15.0,
+    22.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 120.0
+  },
+  {
+   "rank": 18,
+   "person": "pieter-eliens",
+   "sail": "538",
+   "name": "Pieter Eliens",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    14.0,
+    null,
+    24.0,
+    18.0,
+    14.0,
+    24.0,
+    23.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R3": "DNC"
+   },
+   "total": null,
+   "net": 132.0
+  },
+  {
+   "rank": 19,
+   "person": "gerrij-ruiter",
+   "sail": "333",
+   "name": "Gerry Ruiter",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    null,
+    null,
+    11.0,
+    12.0,
+    15.0,
+    5.0,
+    16.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC"
+   },
+   "total": null,
+   "net": 134.0
+  },
+  {
+   "rank": 20,
+   "person": "thorvald-verlaeckt",
+   "sail": "5 B",
+   "name": "Thorvald Verlaeckt",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    21.0,
+    23.0,
+    17.0,
+    20.0,
+    20.0,
+    22.0,
+    22.0,
+    12.0,
+    24.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 134.0
+  },
+  {
+   "rank": 21,
+   "person": "patrick-van-hoof",
+   "sail": "52 B",
+   "name": "Patrick van Hoof",
+   "division": "Master",
+   "subdivision": "FW",
+   "points": [
+    18.0,
+    22.0,
+    null,
+    13.0,
+    28.0,
+    25.0,
+    32.0,
+    19.0,
+    17.0
+   ],
+   "race_remarks": {
+    "R3": "DNC"
+   },
+   "total": null,
+   "net": 142.0
+  },
+  {
+   "rank": 22,
+   "person": "koen-sonck",
+   "sail": "12 B",
+   "name": "Koen Sonck",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    20.0,
+    19.0,
+    20.0,
+    25.0,
+    24.0,
+    16.0,
+    23.0,
+    22.0,
+    23.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 143.0
+  },
+  {
+   "rank": 23,
+   "person": "remco-bakker",
+   "sail": "15",
+   "name": "Remco Bakker",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    27.0,
+    19.0,
+    17.0,
+    null,
+    23.0,
+    19.0,
+    24.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R5": "OCS"
+   },
+   "total": null,
+   "net": 145.0
+  },
+  {
+   "rank": 24,
+   "person": "wolfgang-verlaeckt",
+   "sail": "3 B",
+   "name": "Wolfgang Verlaeckt",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    9.0,
+    4.0,
+    13.0,
+    30.0,
+    11.0,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R7": "RAF",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 149.0
+  },
+  {
+   "rank": 25,
+   "person": "dorian-van-rijsselberge",
+   "sail": "82",
+   "name": "Dorian van Rijsselberghe",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    15.0,
+    16.0,
+    22.0,
+    32.0,
+    26.0,
+    29.0,
+    25.0,
+    30.0,
+    21.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 154.0
+  },
+  {
+   "rank": 26,
+   "person": "jurgen-piessens",
+   "sail": "594",
+   "name": "Jurgen Piessens",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    22.0,
+    24.0,
+    24.0,
+    33.0,
+    17.0,
+    27.0,
+    26.0,
+    17.0,
+    26.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 156.0
+  },
+  {
+   "rank": 27,
+   "person": "marcel-veenstra",
+   "sail": "238",
+   "name": "Marcel Veenstra",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    49.0,
+    42.0,
+    38.0,
+    40.0,
+    32.0,
+    5.0,
+    13.0,
+    3.0,
+    33.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 164.0
+  },
+  {
+   "rank": 28,
+   "person": "christoph-waerzeggers",
+   "sail": "29 B",
+   "name": "Christoph Waerzeggers",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    19.0,
+    30.0,
+    28.0,
+    29.0,
+    27.0,
+    33.0,
+    28.0,
+    33.0,
+    28.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 189.0
+  },
+  {
+   "rank": 29,
+   "person": "leendert-van-gaalen",
+   "sail": "338",
+   "name": "Leendert van Gaalen",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    24.0,
+    15.0,
+    16.0,
+    16.0,
+    21.0,
+    34.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 192.0
+  },
+  {
+   "rank": 30,
+   "person": "pascal-sommers",
+   "sail": "9 B",
+   "name": "Pascal Somers",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    null,
+    null,
+    null,
+    18.0,
+    23.0,
+    17.0,
+    31.0,
+    28.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "OCS"
+   },
+   "total": null,
+   "net": 194.0
+  },
+  {
+   "rank": 31,
+   "person": "jan-willem-eckhardt",
+   "sail": "110",
+   "name": "Jan Willem Eckhardt",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    31.0,
+    31.0,
+    26.0,
+    27.0,
+    29.0,
+    37.0,
+    27.0,
+    32.0,
+    27.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 198.0
+  },
+  {
+   "rank": 32,
+   "person": "jelle-vermeulen",
+   "sail": "253",
+   "name": "Jelle Vermeulen",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    27.0,
+    29.0,
+    27.0,
+    31.0,
+    30.0,
+    32.0,
+    29.0,
+    31.0,
+    null
+   ],
+   "race_remarks": {
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 204.0
+  },
+  {
+   "rank": 33,
+   "person": "erwin-marges",
+   "sail": "127",
+   "name": "Erwin Marges",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    45.0,
+    44.0,
+    43.0,
+    37.0,
+    34.0,
+    12.0,
+    16.0,
+    38.0,
+    34.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 214.0
+  },
+  {
+   "rank": 34,
+   "person": "sebastiaan-grasstek",
+   "sail": "179",
+   "name": "Sebastiaan van Grasstek",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    34.0,
+    32.0,
+    33.0,
+    36.0,
+    null,
+    null,
+    14.0,
+    37.0,
+    32.0
+   ],
+   "race_remarks": {
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": null,
+   "net": 218.0
+  },
+  {
+   "rank": 35,
+   "person": "thomas-berghmans",
+   "sail": "32 B",
+   "name": "Thomas Berghmans",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    39.0,
+    35.0,
+    30.0,
+    35.0,
+    38.0,
+    41.0,
+    15.0,
+    35.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 218.0
+  },
+  {
+   "rank": 36,
+   "person": "patrick-de-cauwer",
+   "sail": "144 b",
+   "name": "Patrick de Cauwer",
+   "division": "Master",
+   "subdivision": "FW",
+   "points": [
+    38.0,
+    39.0,
+    35.0,
+    38.0,
+    31.0,
+    39.0,
+    35.0,
+    34.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 240.0
+  },
+  {
+   "rank": 37,
+   "person": "nick-de-wannemaeker",
+   "sail": "101 B",
+   "name": "Nick de Wannemaeker",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    29.0,
+    37.0,
+    39.0,
+    null,
+    35.0,
+    44.0,
+    37.0,
+    36.0,
+    31.0
+   ],
+   "race_remarks": {
+    "R4": "DNC"
+   },
+   "total": null,
+   "net": 244.0
+  },
+  {
+   "rank": 38,
+   "person": "mark-studer",
+   "sail": "246",
+   "name": "Mark Studer",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    50.0,
+    48.0,
+    34.0,
+    41.0,
+    44.0,
+    null,
+    30.0,
+    14.0,
+    44.0
+   ],
+   "race_remarks": {
+    "R6": "DNC"
+   },
+   "total": null,
+   "net": 255.0
+  },
+  {
+   "rank": 39,
+   "person": "cindy-koopman",
+   "sail": "166",
+   "name": "Cindy Koopman",
+   "division": "Female",
+   "subdivision": "FW",
+   "points": [
+    28.0,
+    20.0,
+    25.0,
+    34.0,
+    null,
+    36.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R5": "OCS",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 259.0
+  },
+  {
+   "rank": 40,
+   "person": "thijs-westbroek",
+   "sail": "660",
+   "name": "Thijs Westbroek",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    47.0,
+    52.0,
+    47.0,
+    45.0,
+    null,
+    42.0,
+    40.0,
+    39.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R5": "DNC"
+   },
+   "total": null,
+   "net": 262.0
+  },
+  {
+   "rank": 41,
+   "person": "teade-de-jong",
+   "sail": "777",
+   "name": "Teade de Jong",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    32.0,
+    38.0,
+    42.0,
+    42.0,
+    40.0,
+    null,
+    36.0,
+    40.0,
+    38.0
+   ],
+   "race_remarks": {
+    "R6": "DNC"
+   },
+   "total": null,
+   "net": 266.0
+  },
+  {
+   "rank": 42,
+   "person": "pierre-shutijser",
+   "sail": "230 B",
+   "name": "Pierre Shutijser",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    33.0,
+    49.0,
+    45.0,
+    null,
+    42.0,
+    null,
+    41.0,
+    25.0,
+    37.0
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R6": "DNC"
+   },
+   "total": null,
+   "net": 272.0
+  },
+  {
+   "rank": 43,
+   "person": "jaques-vd-hout",
+   "sail": "73",
+   "name": "Jacques van der Hout",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    3.0,
+    null,
+    10.0,
+    null,
+    10.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R2": "OCS",
+    "R4": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 276.0
+  },
+  {
+   "rank": 44,
+   "person": "corinne-piquer",
+   "sail": "31 B",
+   "name": "Corinne Piquer",
+   "division": "Female",
+   "subdivision": "FE",
+   "points": [
+    23.0,
+    43.0,
+    49.0,
+    51.0,
+    null,
+    46.0,
+    34.0,
+    45.0,
+    41.0
+   ],
+   "race_remarks": {
+    "R5": "DNC"
+   },
+   "total": null,
+   "net": 281.0
+  },
+  {
+   "rank": 45,
+   "person": "sander-vd-vlis",
+   "sail": "389",
+   "name": "Sander van der Vlis",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    37.0,
+    26.0,
+    31.0,
+    26.0,
+    null,
+    30.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R5": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 282.0
+  },
+  {
+   "rank": 46,
+   "person": "jean-marc-de-bruyne",
+   "sail": "146 B",
+   "name": "Jean Marc De Bruyne",
+   "division": "Master",
+   "subdivision": "FW",
+   "points": [
+    44.0,
+    47.0,
+    36.0,
+    44.0,
+    39.0,
+    40.0,
+    43.0,
+    44.0,
+    36.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 282.0
+  },
+  {
+   "rank": 47,
+   "person": "jeffrey-forcez",
+   "sail": "91 B",
+   "name": "Jeffrey Forcez",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    41.0,
+    50.0,
+    44.0,
+    47.0,
+    36.0,
+    null,
+    39.0,
+    42.0,
+    35.0
+   ],
+   "race_remarks": {
+    "R6": "DNC"
+   },
+   "total": null,
+   "net": 284.0
+  },
+  {
+   "rank": 48,
+   "person": "jeffrey-van-hoe",
+   "sail": "6 B",
+   "name": "Jeffrey van Hoe",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    42.0,
+    40.0,
+    41.0,
+    48.0,
+    46.0,
+    null,
+    38.0,
+    41.0,
+    39.0
+   ],
+   "race_remarks": {
+    "R6": "DNC"
+   },
+   "total": null,
+   "net": 287.0
+  },
+  {
+   "rank": 49,
+   "person": "wim-claessens",
+   "sail": "30 b",
+   "name": "Wim Claessens",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    48.0,
+    null,
+    48.0,
+    null,
+    null,
+    21.0,
+    33.0,
+    29.0,
+    43.0
+   ],
+   "race_remarks": {
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC"
+   },
+   "total": null,
+   "net": 288.0
+  },
+  {
+   "rank": 50,
+   "person": "rudy-van-boxelaere",
+   "sail": "41 B",
+   "name": "Rudy van Boxelaere",
+   "division": "Master",
+   "subdivision": "FW",
+   "points": [
+    40.0,
+    null,
+    37.0,
+    50.0,
+    41.0,
+    38.0,
+    null,
+    47.0,
+    42.0
+   ],
+   "race_remarks": {
+    "R2": "DNC",
+    "R7": "DNC"
+   },
+   "total": null,
+   "net": 295.0
+  },
+  {
+   "rank": 51,
+   "person": "rene-dannenberg",
+   "sail": "80",
+   "name": "René Dannenburg",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    33.0,
+    32.0,
+    28.0,
+    null,
+    31.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R5": "DNC",
+    "R7": "RAF",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 303.0
+  },
+  {
+   "rank": 52,
+   "person": "pieter-demeerseman",
+   "sail": "vyf10",
+   "name": "Pieter Demeerseman",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    46.0,
+    45.0,
+    40.0,
+    49.0,
+    43.0,
+    45.0,
+    42.0,
+    43.0,
+    null
+   ],
+   "race_remarks": {
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 304.0
+  },
+  {
+   "rank": 53,
+   "person": "cedric-willems",
+   "sail": "911 b",
+   "name": "Cedric Willems",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    43.0,
+    51.0,
+    46.0,
+    46.0,
+    45.0,
+    null,
+    44.0,
+    46.0,
+    40.0
+   ],
+   "race_remarks": {
+    "R6": "DNC"
+   },
+   "total": null,
+   "net": 310.0
+  },
+  {
+   "rank": 54,
+   "person": "yves-grossen",
+   "sail": "vyf7",
+   "name": "Yves Grossen",
+   "division": "Male",
+   "subdivision": "FE",
+   "points": [
+    35.0,
+    41.0,
+    50.0,
+    43.0,
+    33.0,
+    43.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 311.0
+  },
+  {
+   "rank": 55,
+   "person": "vincent-benoit",
+   "sail": "53 B",
+   "name": "Vincent Benoit",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    30.0,
+    28.0,
+    null,
+    39.0,
+    37.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 332.0
+  },
+  {
+   "rank": 56,
+   "person": "karen-de-keulenear",
+   "sail": "99 B",
+   "name": "Karen de Keulenear",
+   "division": "Female",
+   "subdivision": "FW",
+   "points": [
+    26.0,
+    53.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 409.0
+  },
+  {
+   "rank": 57,
+   "person": "bart-claesen",
+   "sail": "888 B",
+   "name": "Bart Claesen",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    34.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 430.0
+  },
+  {
+   "rank": 58,
+   "person": "marco-van-der-lippe",
+   "sail": "448",
+   "name": "Marco van der Lippe",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    36.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 432.0
+  },
+  {
+   "rank": 59,
+   "person": "petro-ludwich",
+   "sail": "59 B",
+   "name": "Petro Ludwich",
+   "division": "Master",
+   "subdivision": "FW",
+   "points": [
+    36.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 432.0
+  },
+  {
+   "rank": 60,
+   "person": "dirk-snoek",
+   "sail": "150",
+   "name": "Dirk Snoek",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    null,
+    46.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 442.0
+  },
+  {
+   "rank": 61,
+   "person": null,
+   "sail": "112",
+   "name": "Christiaan S. Hurgonje",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 462.0,
+   "counted": false
+  },
+  {
+   "rank": 61,
+   "person": null,
+   "sail": "330",
+   "name": "Arne Marijn Elzes",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 462.0,
+   "counted": false
+  },
+  {
+   "rank": 61,
+   "person": null,
+   "sail": "1234",
+   "name": "Gertjan van Dijk",
+   "division": "Male",
+   "subdivision": "FW",
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 462.0,
+   "counted": false
+  },
+  {
+   "rank": 61,
+   "person": null,
+   "sail": "465",
+   "name": "Jelle Vermeulen",
+   "division": "Male",
+   "subdivision": "FWY",
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 462.0,
+   "counted": false
+  },
+  {
+   "rank": 61,
+   "person": null,
+   "sail": "821",
+   "name": "Maike Maranczyk",
+   "division": "Female",
+   "subdivision": "FW",
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 462.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

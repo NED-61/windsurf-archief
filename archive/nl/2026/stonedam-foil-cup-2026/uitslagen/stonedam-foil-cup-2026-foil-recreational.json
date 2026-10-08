@@ -60,7 +60,8 @@
   "De racekolommen heten in de bron 1, 3, 5, 7, 8, 9, 11, 13 en 16: de nummers van de races van Windfoil Pro waarin ook deze vloot voer. Zo overgenomen.",
   "Codes staan in de bron in kleine letters (dnc, dnf, dns, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
   "De races 7 en 8 hebben bij elke rider dezelfde uitslag: kennelijk één race die dubbel telt. Waarom staat niet in de bron.",
-  "Laura Moria heeft in alle races dnc. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast: de rider staat als deelnemer in de uitslag."
+  "Laura Moria heeft in alle races dnc.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -440,7 +441,7 @@
   },
   {
    "rank": 14,
-   "person": "laura-moria",
+   "person": null,
    "sail": null,
    "name": "Laura Moria",
    "bib": "62",
@@ -471,7 +472,8 @@
     1
    ],
    "total": null,
-   "net": 120.0
+   "net": 120.0,
+   "counted": false
   }
  ],
  "detail": {}

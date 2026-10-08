@@ -1,0 +1,31 @@
+{
+ "event_slug": "nk-course-2009-stop1",
+ "scope": "nl",
+ "name": "NK Course 2009, stop 1 (Grevelingendam)",
+ "series": "NK Course",
+ "year": 2009,
+ "stop_number": 1,
+ "stops_known": null,
+ "date": "2009-05-02",
+ "date_end": "2009-05-03",
+ "location": "Grevelingendam",
+ "discipline": "course_race",
+ "classes": [
+  "nk-2009-stop1-course-formula"
+ ],
+ "metadata_sources": [
+  {
+   "name": "kalender 2009.xls (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "weekeinde van 2 mei 2009: NK Grevelingen (planning)"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Gepubliceerd als 'Grevelingendam 2/5 - 3/5 - Results are final as of 17:07 on May 3, 2009 - Formula Class' (Sailwave). Datum en locatie staan in de bron.",
+  "Stopnummer 1 is AFGELEID: de kalender 2009 noemt 'NK Grevelingen' (weekeinde van 2 mei) als eerste NK-wedstrijd en Adri Keet noemt Scheveningen (30 mei-1 juni) 'de tweede ronde van het NK'.",
+  "Het veld is internationaal (17 Belgische riders)."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "Grevelingendam 2/5 - 3/5, Formula Class"
+}

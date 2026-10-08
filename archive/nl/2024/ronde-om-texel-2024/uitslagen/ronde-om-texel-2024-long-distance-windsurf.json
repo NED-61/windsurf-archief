@@ -44,7 +44,8 @@
   "De kolom 'Sail number' bevat twee delen, bijvoorbeeld 'NED-61 / g53'. Het eerste deel staat in sail; het tweede (g53, r30) staat in bib: vermoedelijk een start- of trackernummer, de betekenis staat niet in de bron. De volledige cel staat in sail_published.",
   "equipment 'fin' waar de bron '(Fin)' achter het zeilnummer zet; bij de overige riders staat niets (niet ingevuld).",
   "Riders zonder tijd staan in de bron allemaal op plaats 24 met DNF of DNS; hier zonder plaats (rank null), de gepubliceerde plaats staat in rank_published.",
-  "'Fabienne' staat zonder achternaam in de bron."
+  "'Fabienne' staat zonder achternaam in de bron.",
+  "Telt niet mee: 2 ingeschreven rider(s) met DNS of DNC (niet gestart) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -512,7 +513,7 @@
   },
   {
    "rank": null,
-   "person": "wessel-holleman",
+   "person": null,
    "sail": "NED2022",
    "bib": null,
    "name": "Wessel Holleman",
@@ -526,7 +527,8 @@
    "gender": "male",
    "equipment": null,
    "sail_published": "NED2022 /",
-   "rank_published": 24
+   "rank_published": 24,
+   "counted": false
   },
   {
    "rank": null,
@@ -548,7 +550,7 @@
   },
   {
    "rank": null,
-   "person": "luc-buse",
+   "person": null,
    "sail": "NED333",
    "bib": "g56",
    "name": "Luc Busé",
@@ -562,7 +564,8 @@
    "gender": "male",
    "equipment": null,
    "sail_published": "NED333 / g56",
-   "rank_published": 24
+   "rank_published": 24,
+   "counted": false
   }
  ],
  "detail": {}

@@ -14,7 +14,6 @@
  "participants_reported": 82,
  "classes": [
   "gpa-2025-long-distance-iq-foil",
-  "gpa-2025-long-distance-wing",
   "gpa-2025-long-distance-windfoil-max-9-5m2",
   "gpa-2025-long-distance-raceboard-max-9-5m2",
   "gpa-2025-long-distance-open-windsurf-max-9-5m2",
@@ -43,6 +42,7 @@
   "Formaat volgens de wedstrijdregels 2025: wedstrijdduur 2u30 plus het rondje afmaken; de finishlijn opent 2u30 na start.",
   "Bron bevat één overall-lijst over alle klassen; per klasse afgeleid, zie notes van de klasse-uitslagen.",
   "De PDF bevat 51 regels, WSCA meldt 82 deelnemers: de uitslag is daarom partial.",
-  "De finishlijn opent 2u30 na start; de PDF-tijden zijn 'gemeten vanaf opening finishlijn'. Dit is niet omgerekend naar totale tijd."
+  "De finishlijn opent 2u30 na start; de PDF-tijden zijn 'gemeten vanaf opening finishlijn'. Dit is niet omgerekend naar totale tijd.",
+  "De klasse Wing in dezelfde bron is niet opgenomen (uit het archief gehaald op 8 oktober 2026): wingen is geen windsurfen. De bron staat nog in bronnen/."
  ]
 }

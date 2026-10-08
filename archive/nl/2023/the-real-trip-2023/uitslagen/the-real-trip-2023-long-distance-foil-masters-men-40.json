@@ -46,7 +46,8 @@
  "coverage": "complete",
  "notes": [
   "Bron: PSR-pdf met de vermelding '(no discards)'.",
-  "DNS-riders kregen de punten van de laatste plaats (gedeelde plaats), zoals gepubliceerd."
+  "DNS-riders kregen de punten van de laatste plaats (gedeelde plaats), zoals gepubliceerd.",
+  "Telt niet mee: 4 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -131,7 +132,7 @@
   },
   {
    "rank": 6,
-   "person": "frank-zoethout",
+   "person": null,
    "sail": null,
    "bib": "344",
    "name": "Frank Zoethout",
@@ -145,11 +146,12 @@
    "discard_points": null,
    "total": 6.0,
    "net": 6.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 6,
-   "person": "joris-de-luij",
+   "person": null,
    "sail": null,
    "bib": "169",
    "name": "Joris de Luij",
@@ -163,11 +165,12 @@
    "discard_points": null,
    "total": 6.0,
    "net": 6.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 6,
-   "person": "matthijs-van-der-weg",
+   "person": null,
    "sail": null,
    "bib": "370",
    "name": "Matthijs van der Weg",
@@ -181,11 +184,12 @@
    "discard_points": null,
    "total": 6.0,
    "net": 6.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 6,
-   "person": "michael-brozio",
+   "person": null,
    "sail": null,
    "bib": "165",
    "name": "Michael Brozio",
@@ -199,7 +203,8 @@
    "discard_points": null,
    "total": 6.0,
    "net": 6.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   }
  ],
  "detail": {}

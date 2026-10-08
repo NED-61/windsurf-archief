@@ -47,7 +47,8 @@
  "provisional": true,
  "provisional_note": "'Results are provisional as of 16:57 on April 23, 2016': stand van zaterdag. De eindstand is niet aangeleverd.",
  "notes": [
-  "Overgetikt van een foto; 21 riders, 5 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 21 riders, 5 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 4 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -451,7 +452,7 @@
   },
   {
    "rank": 18,
-   "person": "tibby-caroen",
+   "person": null,
    "sail": "BEL 120",
    "name": "Tibby Caroen",
    "nationality": "BEL",
@@ -474,11 +475,12 @@
     1
    ],
    "total": 110.0,
-   "net": 88.0
+   "net": 88.0,
+   "counted": false
   },
   {
    "rank": 18,
-   "person": "matt-debo",
+   "person": null,
    "sail": "BEL 151",
    "name": "Matt Debo",
    "nationality": "BEL",
@@ -501,11 +503,12 @@
     1
    ],
    "total": 110.0,
-   "net": 88.0
+   "net": 88.0,
+   "counted": false
   },
   {
    "rank": 18,
-   "person": "jan-dhuyvetter",
+   "person": null,
    "sail": "BEL 433",
    "name": "Jan D'Huyvetter",
    "nationality": "BEL",
@@ -528,11 +531,12 @@
     1
    ],
    "total": 110.0,
-   "net": 88.0
+   "net": 88.0,
+   "counted": false
   },
   {
    "rank": 18,
-   "person": "iza-acx",
+   "person": null,
    "sail": "BEL 64",
    "name": "Iza Acx",
    "nationality": "BEL",
@@ -556,7 +560,8 @@
     1
    ],
    "total": 110.0,
-   "net": 88.0
+   "net": 88.0,
+   "counted": false
   }
  ],
  "detail": {}

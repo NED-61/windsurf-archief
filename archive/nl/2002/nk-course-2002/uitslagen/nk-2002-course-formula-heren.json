@@ -47,7 +47,7 @@
   "Gepubliceerd als 'Formula (M) Fleet - Sailed: 18 Discards: 4' in de 'Eindstand ONK 2002'.",
   "De bron geeft per rider alleen de eindpunten (Pts), geen punten per race en geen statuscodes. Pts is de netto-score na weglatingen: de hoogste score is precies het aantal tellende races maal (aantal riders + 1).",
   "De kolom Class (Male, Female, Espoir, Master) staat in division. Een letter achter het zeilnummer (B, D, L) is zo gepubliceerd.",
-  "Telt niet mee: 15 ingeschreven rider(s) met de hoogst mogelijke eindscore (geen resultaat in een tellende race; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+  "Telt niet mee: 15 ingeschreven rider(s) met de hoogst mogelijke eindscore (geen resultaat in een tellende race; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -214,7 +214,7 @@
   },
   {
    "rank": 19,
-   "person": "christiaan-s-hungronje",
+   "person": "christiaan-snouck-hurgonje",
    "sail": "443",
    "name": "Christiaan S Hungronje",
    "division": "Espoir",

@@ -47,7 +47,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 29 riders, 11 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 29 riders, 11 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 14 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -543,7 +544,7 @@
   },
   {
    "rank": 15,
-   "person": "willem-boonstra",
+   "person": null,
    "sail": "NED 302",
    "name": "Willem Boonstra",
    "nationality": "NED",
@@ -579,11 +580,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "sam-wennekes",
+   "person": null,
    "sail": "NED 823",
    "name": "Sam Wennekes",
    "nationality": "NED",
@@ -619,11 +621,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "nagui-daen",
+   "person": null,
    "sail": "BEL 881",
    "name": "Nagui Daen",
    "nationality": "BEL",
@@ -659,11 +662,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "peter-mulder",
+   "person": null,
    "sail": "NED 73",
    "name": "Peter Mulder",
    "nationality": "NED",
@@ -699,11 +703,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "christian-brunstein",
+   "person": null,
    "sail": "NED 576",
    "name": "Christian Brunstein",
    "nationality": "NED",
@@ -739,11 +744,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "lars-van-straten",
+   "person": null,
    "sail": "NED 72",
    "name": "Lars van Straten",
    "nationality": "NED",
@@ -779,11 +785,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "rick-swijnenburg",
+   "person": null,
    "sail": "NED 2621",
    "name": "Rick Swijnenburg",
    "nationality": "NED",
@@ -819,11 +826,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "coen-hendriks",
+   "person": null,
    "sail": "NED 71",
    "name": "Coen Hendriks",
    "nationality": "NED",
@@ -859,7 +867,8 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
@@ -904,7 +913,7 @@
   },
   {
    "rank": 15,
-   "person": "ennio-dal-pont",
+   "person": null,
    "sail": null,
    "name": "Ennio del Pont",
    "sail_published": "e",
@@ -941,11 +950,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "marco-baaijen",
+   "person": null,
    "sail": null,
    "name": "Marco Baaijen",
    "sail_published": "z",
@@ -982,11 +992,12 @@
     7
    ],
    "total": 300.0,
-   "net": 240.0
+   "net": 240.0,
+   "counted": false
   },
   {
    "rank": 26,
-   "person": "jakob-kooij",
+   "person": null,
    "sail": "NED 21",
    "name": "Jakob Kooij",
    "nationality": "NED",
@@ -1022,11 +1033,12 @@
     2
    ],
    "total": 330.0,
-   "net": 270.0
+   "net": 270.0,
+   "counted": false
   },
   {
    "rank": 26,
-   "person": "renee-vonk",
+   "person": null,
    "sail": "NED 11",
    "name": "René Vonk",
    "nationality": "NED",
@@ -1062,11 +1074,12 @@
     2
    ],
    "total": 330.0,
-   "net": 270.0
+   "net": 270.0,
+   "counted": false
   },
   {
    "rank": 26,
-   "person": "morgan-van-cleven",
+   "person": null,
    "sail": "BEL 23",
    "name": "Morgan van Cleven",
    "nationality": "BEL",
@@ -1102,11 +1115,12 @@
     2
    ],
    "total": 330.0,
-   "net": 270.0
+   "net": 270.0,
+   "counted": false
   },
   {
    "rank": 26,
-   "person": "kimberly-vercammen",
+   "person": null,
    "sail": "BEL 16",
    "name": "Kimberly Vercammen",
    "nationality": "BEL",
@@ -1142,7 +1156,8 @@
     2
    ],
    "total": 330.0,
-   "net": 270.0
+   "net": 270.0,
+   "counted": false
   }
  ],
  "detail": {}

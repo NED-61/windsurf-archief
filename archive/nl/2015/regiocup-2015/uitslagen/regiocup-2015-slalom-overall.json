@@ -45,7 +45,8 @@
  "coverage": "complete",
  "notes": [
   "Overgetikt van een foto; 21 riders, 9 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
-  "Weglatingen staan in de bron als een min-teken voor het getal ('-2') of tussen haakjes met een code ('(10 OCS)')."
+  "Weglatingen staan in de bron als een min-teken voor het getal ('-2') of tussen haakjes met een code ('(10 OCS)').",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -635,7 +636,7 @@
   },
   {
    "rank": 21,
-   "person": "luca-dingerdis",
+   "person": null,
    "sail": null,
    "name": "Luca Dingerdis",
    "sail_published": "X",
@@ -669,7 +670,8 @@
     3
    ],
    "total": 189.0,
-   "net": 126.0
+   "net": 126.0,
+   "counted": false
   }
  ],
  "detail": {}

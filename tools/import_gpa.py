@@ -55,6 +55,11 @@ LABEL_TO_SLUG = {
 }
 
 
+# klassen die niet in het archief horen (opdracht van de gebruiker, 8 oktober 2026): wing is geen windsurfen. De bron blijft bewaard.
+SKIP = {"wing"}
+WING_NOTE = "De klasse Wing in dezelfde bron is niet opgenomen (uit het archief gehaald op 8 oktober 2026): wingen is geen windsurfen. De bron staat nog in bronnen/."
+
+
 def rel(p):
     return str(Path(p).resolve().relative_to(ROOT)).replace("\\", "/")
 
@@ -192,7 +197,7 @@ def event_doc(year, results, extra_notes):
         "classes": [r["id"] for r in results],
         "metadata_sources": m["sources"] + [SERIES_SOURCE],
         "notes": ["GPA = Grote Prijs van Aalsmeer, jaarlijks door Wind Surf Club Aalsmeer georganiseerd sinds 1993 (bron: WSCA). Scope nl: Nederlandse organisator en locatie.",
-                  "Formaat volgens de wedstrijdregels 2025: wedstrijdduur 2u30 plus het rondje afmaken; de finishlijn opent 2u30 na start."] + extra_notes,
+                  "Formaat volgens de wedstrijdregels 2025: wedstrijdduur 2u30 plus het rondje afmaken; de finishlijn opent 2u30 na start."] + extra_notes + [WING_NOTE],
     }
 
 
@@ -326,6 +331,7 @@ def main():
     r24 = []
     for title, c in parse_2024(src).items():
         slug = LABEL_TO_SLUG[title]
+        if slug in SKIP: continue
         entries = build_entries_2024(c["rows"])
         assert len(entries) == c["table_rows"]
         notes = ["DNF-regels staan in de bron onderaan de klasse zonder plaats, tijd en rondes (als 'dnf'); bewaard als remark 'DNF'."]
@@ -355,6 +361,7 @@ def main():
            "rank_basis": "afgeleid: plaats binnen de klasse volgens de volgorde van de gepubliceerde overall-lijst; gepubliceerde overall-plaats staat in overall_rank"}
     r25 = []
     for slug, rs in by_class.items():
+        if slug in SKIP: continue
         entries, repaired = [], []
         for i, r in enumerate(rs, 1):
             name, fixed = fix_mojibake(r["name_raw"])
@@ -387,6 +394,7 @@ def main():
             for r in rs:
                 (d / "uitslagen" / f"{r['id']}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
             (d / "event.json").write_text(json.dumps(event_doc(y, rs, extra), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        sys.path.insert(0, str(ROOT / "tools")); import counting; counting.apply(quiet=True)      # telregel (geldt sinds 8 oktober 2026 voor alle wedstrijden)
     print(json.dumps({"dry_run": DRY, "uitslagen": {r["id"]: r["source"]["verified"] for r in allres}, "koppelen": {
         "nieuwe_personen": len(report["created"]), "gekoppeld_aan_bestaande": report["linked"],
         "open_voorstellen": report["open"]}}, ensure_ascii=False, indent=1))

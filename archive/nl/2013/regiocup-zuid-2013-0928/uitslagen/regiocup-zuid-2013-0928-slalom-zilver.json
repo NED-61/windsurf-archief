@@ -54,7 +54,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 28 riders, 14 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 28 riders, 14 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -1082,7 +1083,7 @@
   },
   {
    "rank": 28,
-   "person": "floris-franken",
+   "person": null,
    "sail": "NED 9999",
    "name": "Floris Franken",
    "nationality": "NED",
@@ -1125,7 +1126,8 @@
     3
    ],
    "total": 406.0,
-   "net": 319.0
+   "net": 319.0,
+   "counted": false
   }
  ],
  "detail": {}

@@ -1,0 +1,30 @@
+{
+ "event_slug": "nk-slalom-2007",
+ "scope": "nl",
+ "name": "NK Slalom 2007",
+ "series": "NK Slalom",
+ "year": 2007,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "nk-2007-slalom-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "kalender 2007.doc (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "NK-BK Formula/Slalom Grevelingendam 17-20 mei 2007, NK Formula/Slalom Almere 6-9 september 2007, NK backup speed/slalom 27 oktober-18 november 2007 (planning)"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Totaaluitslag van het NK Slalom 2007 over twee eliminaties (bestand 'NK_slalom_07l.htm', door Adri Keet op 26 mei 2008 uit Excel opgeslagen). De tabel heeft geen titel.",
+  "Datum en locatie staan niet in de bron. De wedstrijdkalender 2007 noemt 'NK-BK Formula/Slalom Grevelingendam' (17-20 mei) en 'NK Formula/Slalom Almere' (6-9 september), en reservedata in oktober en november; waar de twee eliminaties zijn gevaren is niet bekend."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "NK slalom 07"
+}

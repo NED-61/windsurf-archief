@@ -29,6 +29,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import archive as A
 import import_los as L
 import import_keet as K          # zet ook de H = NED-regel en de schrijfwijze van tussenvoegsels
+import counting
 
 SRC = "import_foilcup"
 L.SRC = SRC; K.SRC = SRC
@@ -59,12 +60,12 @@ def ev(year, name, series, date_, date_end, location, discipline, notes, **kw):
             "discipline": discipline, "meta_sources": kw.pop("meta_sources", []), "notes": notes, **kw}
 
 EVENTS = {
-    "lowlandcup-2006": ev(2006, "Lowlandcup 2006", "Lowlandcup", "2006-05-25", "2006-05-28", "Grevelingen", "course_race",
+    "lowlandcup-2006": ev(2006, "Lowlandcup 2006", "NK Course", "2006-05-25", "2006-05-28", "Grevelingen", "course_race",
         ["Gepubliceerd als 'Nederlandse Vereniging van Wedstrijdsurfers - Lowlandcup 2006 - Final results' (Sailwave 1.92). De pdf is een afdruk van 27 mei 2022 van www.formulawindsurfing.org/filez/results/060530/Final Lowlandcup.htm en staat op de resultatenpagina 2006 van de internationale Formula Windsurfing-klasse als 'Open Dutch Championship – LOWLANDCUP 2006', 25-28 May, Netherlands, Grevelingen. Datum en locatie komen van die pagina; in de uitslag zelf staan ze niet.",
-         "OPEN VRAAG: de klassensite noemt deze wedstrijd het 'Open Dutch Championship' en het puntensysteem in de bron heet 'ONK'. Of dit het NK Formula 2006 was (of een stop daarvan) is niet geverifieerd. Daarom staat de wedstrijd onder zijn gepubliceerde naam en niet onder de reeks NK Course; de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast (er is ook geen rider zonder resultaat).",
+         "De Lowlandcup 2006 was de eerste wedstrijd van het NK Formula 2006: de negen races zijn de races R1 t/m R9 van de stand 'NKtotaal2006' uit het archief van Adri Keet (zie nk-course-2006; voor alle 35 gemeenschappelijke riders dezelfde uitslagen per race, op een verschuiving van één plaats na door een rider die in de gold-fleet-uitslag ontbreekt). Daarom staat de wedstrijd sinds 8 oktober 2026 onder de reeks NK Course (stop 1; AFGELEID uit die vergelijking, de klassensite noemt de wedstrijd het 'Open Dutch Championship' en het puntensysteem in de bron heet 'ONK'). De naam en het id zijn niet gewijzigd.",
          "Alleen 'Final results for Fleet = Gold' is aangeleverd; of er nog een andere fleet was staat niet in de bron.",
          "Scope nl: georganiseerd door de NVW in Nederland; het veld is internationaal (Belgen, Duitsers)."],
-        organizer="Nederlandse Vereniging van Wedstrijdsurfers", name_published="Lowlandcup 2006",
+        organizer="Nederlandse Vereniging van Wedstrijdsurfers", name_published="Lowlandcup 2006", stop_number=1,
         meta_sources=[FW(2006, "'Open Dutch Championship – LOWLANDCUP 2006', 25-28 May, Netherlands, Grevelingen; de pdf staat daar als 2006_Open-Dutch-Ch.pdf.")]),
     "north-sea-cup-2012": ev(2012, "North Sea Cup 2012", "North Sea Cup", "2012-04-28", "2012-04-29", "Grevelingendam", "course_race",
         ["Gepubliceerd als 'North Sea Cup 2012 - WWT en Nederlandse Vereniging van Wedstrijdsurfers - North Sea Cup Grevelingendam - 28 en 29 april 2012 - Einduitslag Formula Windsurfing Class' (Sailwave 2.5). Datum en locatie staan in de bron.",
@@ -96,7 +97,7 @@ EVENTS = {
     "stonedam-foil-cup-2026": ev(2026, "Stonedam Foil Cup 2026", "Stonedam Foil Cup", "2026-04-11", "2026-04-12", "Schildmeer, Steendam", None,
         ["Gepubliceerd als 'Stonedam Foil Cup 2026' (ZW Zeilwedstrijden programma 6.01.01.00, afgedrukt 2026-04-12 17:16). Datum (11 en 12 april 2026) van de evenementpagina van Surfcenter Experience; die past bij de afdrukdatum.",
          SFC_PLACE, SFC_DISC, SFC_WING.format("'Wingfoil Pro', 11 deelnemers, en 'Wingfoil Recreational', 7 deelnemers"),
-         "De vloot Recreational is wel opgenomen: het is een windfoil-klasse met eigen races (een deel van de racenummers van Pro). Of die onder de regel 'de funwedstrijd hoort niet in het archief' valt beslist de gebruiker."],
+         "De vloot Recreational is opgenomen: het is een windfoil-klasse met eigen races (een deel van de racenummers van Pro) en geen fun-klasse (opgave van de gebruiker, 8 oktober 2026)."],
         organizer="Zeilvereniging Schildmeer", name_published="Stonedam Foil Cup 2026", meta_sources=[SCE]),
 }
 
@@ -348,7 +349,7 @@ def extra_checks(entries, races, cp):
 
 def doc(slug, rid, cls, cls_pub, files, entries, fmt, typ, method, checks, notes, disc="event", gender=None, url=None, coverage="complete", **extra):
     e = EVENTS[slug]
-    event = {"name": e["name"], "scope": e["scope"], "series": e["series"], "year": e["year"], "stop_number": None, "stops_known": None,
+    event = {"name": e["name"], "scope": e["scope"], "series": e["series"], "year": e["year"], "stop_number": e.get("stop_number"), "stops_known": None,
              "date": e["date"], "location": e["location"], "discipline": e["discipline"] if disc == "event" else disc, "gender": gender,
              "class": cls, "class_label_published": cls_pub}
     for k in ("fleet", "equipment"):
@@ -441,7 +442,7 @@ def build_nsc_2014():
            "scoring_system": "Appendix A (Sailwave 2.9.7); DNF = 15 punten (aantal inschrijvingen + 1), zoals gepubliceerd"}
     notes = ["Gepubliceerd als 'North Sea Cup - NED - 2014 - Formula - Overall' (Sailwave 2.9.7): 'Sailed: 5, Discards: 1, To count: 4, Entries: 14, Scoring system: Appendix A'.",
              "De kolom division (Open, U20) staat in division; de kolom fleet is bij iedereen 'Formula' en de kolom Girls is bij iedereen leeg.",
-             "Max Baaijen heeft in alle vijf races DNF. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast.",
+             "Max Baaijen heeft in alle vijf races DNF.",
              "Overgetikt van het pdf-beeld; namen en zeilnummers zoals gepubliceerd."] + nodigit_note(entries)
     return [(slug, doc(slug, "north-sea-cup-2014-course-formula", "Formula", "North Sea Cup - NED - 2014 - Formula - Overall", [src], entries, fmt, "pdf", BEELD, checks, notes,
                        url=SOURCES[src.name]["url"], equipment="formula"))]
@@ -565,8 +566,7 @@ def zw_common(entries, races, discards, rrs, notes):
         for e in entries:
             if any(d["rider"] == e["name"] for d in dev): e["flag"] = "netto in de bron wijkt af van de som van de getoonde racepunten (gedeelde plaats, zie notes)"
     none = [e["name"] for e in entries if e["race_remarks"] and len(e["race_remarks"]) == len(races) and set(e["race_remarks"].values()) <= {"DNC", "DNF"}]
-    if none: notes.append(", ".join(none) + (" heeft" if len(none) == 1 else " hebben") + " in alle races dnc. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast: "
-                          + ("de rider staat" if len(none) == 1 else "ze staan") + " als deelnemer in de uitslag.")
+    if none: notes.append(", ".join(none) + (" heeft" if len(none) == 1 else " hebben") + " in alle races dnc.")
     return fmt, checks, ({"deviations": dev} if dev else {})
 
 
@@ -578,7 +578,7 @@ SFC = {  # jaar -> (bestand, [(tabel in de pdf, id-deel, klasse, gender)])
                                                     ("Wingfoil Pro", "wingfoil-pro", "Wingfoil Pro", None), ("Wingfoil Recreational", "wingfoil-recreational", "Wingfoil Recreational", None)]),
 }
 SFC_EXTRA = {
-    "stonedam-foil-cup-2024-foil-newbies": ["Deze klasse heeft 5 races (de andere klassen 8), met een eigen nummering."],
+    "stonedam-foil-cup-2024-foil-newbies": ["Deze klasse heeft 5 races (de andere klassen 8), met een eigen nummering.", "Newbies is geen fun-klasse (opgave van de gebruiker, 8 oktober 2026) en hoort dus in het archief."],
     "stonedam-foil-cup-2026-foil-recreational": ["De racekolommen heten in de bron 1, 3, 5, 7, 8, 9, 11, 13 en 16: de nummers van de races van Windfoil Pro waarin ook deze vloot voer. Zo overgenomen."],
 }
 
@@ -693,7 +693,7 @@ def event_doc(slug, rs):
     f = ev_dir(slug) / "event.json"
     old = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
     notes = [n for n in old.get("notes", []) if n not in e["notes"]] + e["notes"]
-    d = {**old, "event_slug": slug, "scope": e["scope"], "name": e["name"], "series": e["series"], "year": e["year"], "stop_number": None, "stops_known": None,
+    d = {**old, "event_slug": slug, "scope": e["scope"], "name": e["name"], "series": e["series"], "year": e["year"], "stop_number": e.get("stop_number"), "stops_known": None,
          "date": e["date"], "date_end": e["date_end"], "location": e["location"], "discipline": e["discipline"], "classes": [r["id"] for r in rs],
          "metadata_sources": e["meta_sources"], "notes": notes}
     for k in ("organizer", "name_published"):
@@ -708,6 +708,11 @@ def main():
     per_event = {}
     for slug, r in built: per_event.setdefault(slug, []).append(r)
     results = [r for _, r in built]
+    uncounted = {}
+    for r in results:                                   # telregel: wie alleen DNC/DNF heeft telt niet mee en wordt niet gekoppeld
+        unc = counting.uncounted(r)
+        for e in unc: e["counted"] = False
+        if unc: uncounted[r["id"]] = [e["name"] for e in unc]
     counts, log, pend = L.link_people(results, a.dry_run)
     if not a.dry_run:
         for slug, rs in per_event.items():
@@ -726,10 +731,11 @@ def main():
                 note = "verwerkt met tools/import_foilcup.py"
                 if note not in (it.get("notes") or ""): it["notes"] = "; ".join(x for x in (it.get("notes"), note) if x)
         A.save(reg)
+        counting.apply(quiet=True)
     extra = K.extra_proposals(results, a.dry_run)
     print(json.dumps({"dry_run": a.dry_run, "bronnen_verplaatst": moved,
                       "uitslagen": {r["id"]: {"riders": len(r["entries"]), "controle": r["source"]["verified"]} for r in results},
-                      "koppelen": counts, "gekoppeld_op": log, "open_voorstellen": pend + extra}, ensure_ascii=False, indent=1))
+                      "tellen_niet_mee": uncounted, "koppelen": counts, "gekoppeld_op": log, "open_voorstellen": pend + extra}, ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":

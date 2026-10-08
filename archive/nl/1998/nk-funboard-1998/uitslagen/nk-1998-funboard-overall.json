@@ -72,13 +72,11 @@
   ],
   "verified": "46 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; kolommen 'Slechtste resultaat' en 'Aftrek' van de bron kloppen met de racepunten (aftrek = de 5 slechtste); persversie (stand na Zandvoort.xls): 46 riders, zelfde namen: ja; plaatsen gelijk: ja; netto wijkt bij 7 rider(s) af (zie detail.deviations); stand na Hargen (23 races): racepunten R1-R23 gelijk voor 46 van 46 riders"
  },
- "coverage": "partial",
- "provisional": true,
- "provisional_note": "Tussenstand na 26 races (stand na Zandvoort, september 1998). Niet bekend of dit de eindstand van het seizoen is.",
+ "coverage": "complete",
  "notes": [
   "Stand na Zandvoort van het KNWV-funboardseizoen 1998: 26 races, 5 weglatingen. Bestand 'Stand na Zandvoort compleet.xls' (aangemaakt 15 september 1998) met de punten per race; de persversie 'stand na Zandvoort.xls' (10 september 1998, titel 'KNWV - Persberichten') geeft alleen de netto-score, met zeilmerk, plankmerk en sponsors.",
-  "TUSSENSTAND: niet bekend of dit de eindstand is. Het rekenblad is opgezet voor 35 races en op de kalender 1998 stond na deze stand nog Scheveningen (19/20 september).",
-  "De bron geeft geen statuscodes (DNC, DNF, DSQ). 46 punten is 'geen resultaat'; andere hoge scores (bijv. 20 of 35 in een wedstrijd met minder starters) zijn waarschijnlijk DSQ of DNF van die wedstrijd, maar dat staat er niet. De NK-regel (alleen DNC/DNF telt niet mee) is daarom niet toe te passen; alle 46 riders hebben minstens één resultaat.",
+  "Eindstand van het seizoen 1998 (opgave van de gebruiker, 8 oktober 2026); de bron zelf heet 'stand na Zandvoort'. Het rekenblad is opgezet voor 35 races, er zijn er 26 gevaren; een afdruk van 21 september 1998 ('NK Race 1997.pdf') telt dezelfde 26 races.",
+  "De bron geeft geen statuscodes (DNC, DNF, DSQ). 46 punten is 'geen resultaat'; andere hoge scores (bijv. 20 of 35 in een wedstrijd met minder starters) zijn waarschijnlijk DSQ of DNF van die wedstrijd, maar dat staat er niet. De telregel (alleen DNC, DNF of DNS telt niet mee) is daarom niet toe te passen; alle 46 riders hebben minstens één resultaat.",
   "De bron geeft de zeven slechtste resultaten per rider en trekt de vijf slechtste af; welke races dat zijn staat er niet bij (discard_points).",
   "Categorie (kolom 'C': h, j, d) uitgeschreven als Heren, Jeugd, Dames. Zeilnummers met de landletter van toen (H = Nederland, B = België, F = Frankrijk).",
   "Welke races bij welke wedstrijd horen staat niet in de bron. results.xls (18 mei 1998) laat zien dat R1-R7 de eerste wedstrijd en R8-R11 de tweede wedstrijd zijn.",

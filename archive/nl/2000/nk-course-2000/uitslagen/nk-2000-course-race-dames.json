@@ -57,7 +57,7 @@
   "In deze klasse zijn alle 16 kolommen gevuld (16 races); bij de heren en de jeugd zijn R15 en R16 leeg (14 races).",
   "Hoogste racescore 6 = aantal riders + 1: geen resultaat in die race (of een andere straf; de bron geeft geen codes). Gelijke scores bij meerdere riders in één race komen in de bron voor en zijn zo overgenomen.",
   "De kolom Woonplaats is niet overgenomen (privégegevens); om die kolom staat het origineel in local-only/ en niet in git. De kolom Vereniging staat in club.",
-  "De bron geeft geen statuscodes; de NK-regel (alleen DNC/DNF telt niet mee) is daarom niet toe te passen."
+  "De bron geeft geen statuscodes; de telregel (alleen DNC, DNF of DNS telt niet mee) is daarom niet toe te passen."
  ],
  "entries": [
   {

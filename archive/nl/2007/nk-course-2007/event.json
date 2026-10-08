@@ -1,0 +1,31 @@
+{
+ "event_slug": "nk-course-2007",
+ "scope": "nl",
+ "name": "NK Course 2007",
+ "series": "NK Course",
+ "year": 2007,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-2007-course-formula"
+ ],
+ "metadata_sources": [
+  {
+   "name": "kalender 2007.doc (planning uit het archief van Adri Keet)",
+   "url": null,
+   "used_for": "NK-BK Formula/Slalom Grevelingendam 17-20 mei 2007 en NK Formula/Slalom Almere 6-9 september 2007 (planning)"
+  }
+ ],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Eindstand van het NK Formula 2007 over 25 races (bestanden '2007 nk formula.xls' en 'NK07 formula overal.htm', door Adri Keet op 26 mei 2008 opgeslagen; in de zip heten ze '2007.xls' en 'NK07overall.htm'). De tabel heeft geen titel.",
+  "Als eindstand opgenomen: het bestand is van mei 2008, ruim na het seizoen 2007, en heet 'overall'. AANNAME.",
+  "Data en locaties staan niet in de bron. De wedstrijdkalender 2007 noemt 'NK-BK Formula/Slalom Grevelingendam' (17-20 mei) en 'NK Formula/Slalom Almere' (6-9 september); uit de codes volgt een eerste blok R1-R10 (met veel Belgische riders) en een tweede blok R11-R25. Dat past bij die twee wedstrijden, maar een kalender is een planning: niet bevestigd."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "NK07 overall"
+}

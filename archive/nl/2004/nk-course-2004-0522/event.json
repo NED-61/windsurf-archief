@@ -1,0 +1,24 @@
+{
+ "event_slug": "nk-course-2004-0522",
+ "scope": "nl",
+ "name": "NK Course 2004, Grevelingen",
+ "series": "NK Course",
+ "year": 2004,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2004-05-22",
+ "date_end": "2004-05-23",
+ "location": "Grevelingen",
+ "discipline": "course_race",
+ "classes": [
+  "nk-2004-0522-course-formula"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Uitslag op de homepage van Adri Keet onder de kop 'Grevelingen NK 2004, 22/23 mei' ('de eerste wedstrijd van het seizoen'); volgens die pagina vier races op zaterdag en vijf op zondag. De pagina verwijst voor het nieuws naar de NVW (www.wedstrijdsurfen.nl).",
+  "Het stopnummer staat niet in de bron (datum in de mapnaam). Het veld is internationaal: een groot aantal Belgische riders (zeilnummers met 'B').",
+  "De pagina bevat ook het wedstrijdverslag van Adri Keet; om die tekst (publicatie niet afgesproken) staat het origineel in local-only/ en niet in git."
+ ],
+ "name_published": "Grevelingen NK 2004, 22/23 mei"
+}

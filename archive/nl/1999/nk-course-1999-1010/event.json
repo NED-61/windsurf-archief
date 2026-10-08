@@ -1,0 +1,25 @@
+{
+ "event_slug": "nk-course-1999-1010",
+ "scope": "nl",
+ "name": "NK Formula 1999",
+ "series": "NK Course",
+ "year": 1999,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "1999-10-10",
+ "date_end": null,
+ "location": "Gooimeer",
+ "discipline": "course_race",
+ "classes": [
+  "nk-1999-course-formula"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Gepubliceerd als 'SURFCLUB GOOIMEER, ONK FW', Date 10/10/99, Class FORMULA WINDSURFING (scan van het uitslagenblad). FW = Formula Windsurfing; ONK = Open Nederlands Kampioenschap.",
+  "Locatie AFGELEID uit de naam van de organiserende club (Surfclub Gooimeer); de plaats zelf staat niet in de bron.",
+  "Los evenement naast NK Race 1999 (ander kampioenschap, andere datum); daarom de datum in de mapnaam."
+ ],
+ "organizer": "Surfclub Gooimeer",
+ "name_published": "SURFCLUB GOOIMEER, ONK FW"
+}

@@ -369,7 +369,7 @@ def build_united4_2026():
              "De bron noemt de stand 'Overall Results', niet 'Final'. Het rapport is van de avond van de laatste wedstrijddag (het evenement was op 18 en 19 april 2026) en is daarom als einduitslag opgenomen: AANNAME.",
              "Namen zoals gepubliceerd (achternaam in hoofdletters). Geen divisies of leeftijdsklassen in deze bron.",
              "Weglatingen: 'Discard rule: Global: 5' (één weglating vanaf 5 races). De weggelaten score staat in de bron tussen haakjes; codes staan onder de punten.",
-             "Marijn SCHOUTEN en Milan HOEVENS hebben in alle 9 races DNC en delen plaats 13. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast."]
+             "Marijn SCHOUTEN en Milan HOEVENS hebben in alle 9 races DNC en delen plaats 13."]
     codes = [(e["name"], c, e["points"][races.index(c)]) for e in entries for c in e["race_remarks"]]
     bad = [f"{a} {c}" for a, c, p in codes if p != cp]
     nocode = [f"{e['name']} {c}" for e in entries for c, p in zip(races, e["points"]) if p == cp and c not in e["race_remarks"]]
@@ -449,6 +449,7 @@ def main():
                 note = "verwerkt met tools/import_lt.py"
                 if note not in (it.get("notes") or ""): it["notes"] = "; ".join(x for x in (it.get("notes"), note) if x)
         A.save(reg)
+        import counting; counting.apply(quiet=True)      # telregel (geldt sinds 8 oktober 2026 voor alle wedstrijden)
     pend_extra = K.extra_proposals(results, a.dry_run)
     print(json.dumps({"dry_run": a.dry_run, "bronnen_verplaatst": moved,
                       "uitslagen": {r["id"]: {"riders": len(r["entries"]), "controle": r["source"]["verified"]} for r in results},

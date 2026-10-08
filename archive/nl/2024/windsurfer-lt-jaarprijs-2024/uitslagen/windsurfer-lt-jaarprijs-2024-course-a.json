@@ -118,7 +118,8 @@
   "Codes staan in de bron in kleine letters (dnc, dnf, dns, dsq, ocs ...) en zonder punten: in points staat null en de code (in hoofdletters) in race_remarks.",
   "In de naamcel staat achter de naam het lichaamsgewicht; dat is niet overgenomen. De gewichtsklasse (division) is afgeleid uit de deelklassementen A-D in dezelfde pdf.",
   "Deelklassement van windsurfer-lt-jaarprijs-2024-course-overall: dezelfde races, met de plaatsen per race opnieuw geteld binnen deze groep. Telt in het archief niet als extra start.",
-  "Afwijking in de bron, niet gecorrigeerd: bij Davey van Balen en Allessandro Papa is de netto-score een half punt hoger dan de som van de getoonde racepunten. Ze delen een plaats (race 18: Davey van Balen en Allessandro Papa allebei 8); de bron rekent daar kennelijk een half punt bij en toont het afgeronde getal."
+  "Afwijking in de bron, niet gecorrigeerd: bij Davey van Balen en Allessandro Papa is de netto-score een half punt hoger dan de som van de getoonde racepunten. Ze delen een plaats (race 18: Davey van Balen en Allessandro Papa allebei 8); de bron rekent daar kennelijk een half punt bij en toont het afgeronde getal.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -1150,7 +1151,7 @@
   },
   {
    "rank": 17,
-   "person": "andrea-pangrazi",
+   "person": null,
    "sail": "ITA 500",
    "name": "Andrea Pangrazi",
    "nationality": "ITA",
@@ -1228,7 +1229,8 @@
     6
    ],
    "total": null,
-   "net": 412.0
+   "net": 412.0,
+   "counted": false
   }
  ],
  "detail": {

@@ -52,10 +52,11 @@
   "Weggelaten scores staan in de bron tussen haakjes. Bij een rider zonder haakjes (de weglating is dan een 36) staat de weggelaten score in discard_points. Het totaal vóór aftrek is niet gepubliceerd; 'Totaal' in de bron is de netto-score.",
   "DNF per race komt uit de racebladen ('print Race 1-6') in hetzelfde bestand; PMS uit de eindstand. Een DNF op het raceblad kan ook 'niet gestart' betekenen: de bron maakt dat onderscheid niet.",
   "Gedeelde plaatsen zoals gepubliceerd (5, 12 en 31), met in de bron de toelichting Teade de Jong: 'best discard'; Martijn van Citteren: 'best result'.",
-  "Vijf riders hebben in alle races 36 punten (niet gefinisht of niet gestart); buiten NK's blijven die meetellen als ingeschreven deelnemer.",
+  "Vijf riders hebben in alle races 36 punten (niet gefinisht of niet gestart).",
   "Afwijking in de bron: bij Esther de Geus en Leon Row is de gepubliceerde netto-score 1 punt hoger dan de som van de racepunten (bij de herziening is hun plaats in race 3 met 1 verhoogd, het totaal met 2). Zoals gepubliceerd overgenomen; de plaats in de eindstand verandert er niet door.",
   "De racebladen in het bestand zijn niet bijgewerkt bij de herziening; ze wijken in race 3 af van de eindstand: Esther de Geus R3: raceblad 20, eindstand 21; Leon Row R3: raceblad 21, eindstand 22; Remco Witte R3: raceblad DNF, eindstand 19.",
-  "Gewijzigd ten opzichte van de stand van de wedstrijddag (3 oktober): Remco Witte: R3 36 -> 19; Esther de Geus: R3 20 -> 21; Leon Row: R3 21 -> 22. Verder zijn namen aangevuld ('Adrie' -> 'Adri Keet', 'Leon' -> 'Leon Row', 'Kristina' -> 'Kristina Scheffe', 'Mark Stad' -> 'Mark Staal') en zeilnummers ingekort ('NED-103, 52, 13' -> 'NED-103')."
+  "Gewijzigd ten opzichte van de stand van de wedstrijddag (3 oktober): Remco Witte: R3 36 -> 19; Esther de Geus: R3 20 -> 21; Leon Row: R3 21 -> 22. Verder zijn namen aangevuld ('Adrie' -> 'Adri Keet', 'Leon' -> 'Leon Row', 'Kristina' -> 'Kristina Scheffe', 'Mark Stad' -> 'Mark Staal') en zeilnummers ingekort ('NED-103, 52, 13' -> 'NED-103').",
+  "Telt niet mee: 5 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -605,7 +606,7 @@
   },
   {
    "rank": 24,
-   "person": "klaas-jissink",
+   "person": "klaas-sybrand-jissink",
    "sail": "NED-42",
    "name": "Klaas Jissink",
    "division": "Heren",
@@ -793,7 +794,7 @@
   },
   {
    "rank": 31,
-   "person": "mark-staal",
+   "person": null,
    "sail": "2",
    "name": "Mark Staal",
    "division": "Heren",
@@ -817,11 +818,12 @@
    "net": 180.0,
    "discarded": [
     1
-   ]
+   ],
+   "counted": false
   },
   {
    "rank": 31,
-   "person": "joris-bosman",
+   "person": null,
    "sail": "NED-152",
    "name": "Joris Bosman",
    "division": "Heren",
@@ -845,11 +847,12 @@
    "net": 180.0,
    "discarded": [
     1
-   ]
+   ],
+   "counted": false
   },
   {
    "rank": 31,
-   "person": "marc-rutgers",
+   "person": null,
    "sail": "NED-191",
    "name": "Marc Rutgers",
    "division": "Master",
@@ -873,11 +876,12 @@
    "net": 180.0,
    "discarded": [
     6
-   ]
+   ],
+   "counted": false
   },
   {
    "rank": 31,
-   "person": "marc-fokkinga",
+   "person": null,
    "sail": "NED-2411",
    "name": "Marc Foklienga",
    "division": "Heren",
@@ -901,11 +905,12 @@
    "net": 180.0,
    "discarded": [
     6
-   ]
+   ],
+   "counted": false
   },
   {
    "rank": 31,
-   "person": "cobus-van-der-stel",
+   "person": null,
    "sail": "NED-818",
    "name": "Cobus van der Stel",
    "division": "Master",
@@ -929,7 +934,8 @@
    "net": 180.0,
    "discarded": [
     6
-   ]
+   ],
+   "counted": false
   }
  ],
  "detail": {

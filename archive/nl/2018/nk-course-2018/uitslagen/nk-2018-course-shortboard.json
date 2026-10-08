@@ -51,7 +51,7 @@
   "Punten met een code staan in de bron als '42.0 DNC' of '10.0 DNS': de punten staan in points, de code in race_remarks.",
   "Zoals gepubliceerd: Esther de Geus en Lilian de Geus hebben Class 'Men' en Division 'Women'; Floris Franken en Maurits Franken hebben allebei NED 35; Marco van der Leer en Pieter Eliens allebei NED 538; Pieter Bijl en Lilian de Geus 'NED 0'; Martijn van Geemen 'NED X'; Bas Brull 'NED No'.",
   "Het materiaal (foil of formula) staat niet in deze bron.",
-  "Telt niet mee: 13 ingeschreven rider(s) met alleen DNC of DNF in alle races tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+  "Telt niet mee: 15 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -810,7 +810,7 @@
   },
   {
    "rank": 21,
-   "person": "bart-kramer",
+   "person": null,
    "sail": "NED 505",
    "name": "Bert Kamer",
    "nationality": "NED",
@@ -850,7 +850,8 @@
     7
    ],
    "total": 376.0,
-   "net": 250.0
+   "net": 250.0,
+   "counted": false
   },
   {
    "rank": 22,
@@ -976,7 +977,7 @@
   },
   {
    "rank": 25,
-   "person": "bas-brull",
+   "person": null,
    "sail": "NED No",
    "name": "Bas Brull",
    "nationality": "NED",
@@ -1016,7 +1017,8 @@
     3
    ],
    "total": 404.0,
-   "net": 278.0
+   "net": 278.0,
+   "counted": false
   },
   {
    "rank": 26,

@@ -53,7 +53,8 @@
   "Vier races, geen weglatingen. Bij DNF toont de bron geen punten: in points staat dan null en de code in race_remarks.",
   "De kolom Division (Men, Youth (U20)) staat in division. De kolom 'Y.o.birth' (geboortejaar) is niet overgenomen; om die kolom staat het origineel in local-only/ en niet in git.",
   "Namen zoals gepubliceerd (bij een aantal riders de achternaam in hoofdletters).",
-  "Een zeilnummercel zonder cijfer staat in sail_published; sail is dan leeg: Casper Bouman 'I', Mark PALMER 'X'."
+  "Een zeilnummercel zonder cijfer staat in sail_published; sail is dan leeg: Casper Bouman 'I', Mark PALMER 'X'.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -477,7 +478,7 @@
   },
   {
    "rank": 23,
-   "person": "mark-palmer",
+   "person": null,
    "sail": null,
    "name": "Mark PALMER",
    "sail_published": "X",
@@ -497,7 +498,8 @@
    },
    "discarded": [],
    "total": 96.0,
-   "net": 96.0
+   "net": 96.0,
+   "counted": false
   }
  ],
  "detail": {}

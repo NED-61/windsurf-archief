@@ -995,7 +995,11 @@ def link_people(results, dry):
                     if not any(same_sail(sk, s) for s in sails.get(p["id"], ())): continue
                     words = {t for n in [p["name"]] + p["aliases"] for t in name_tokens(n)}
                     if any(difflib.SequenceMatcher(None, tok, w).ratio() >= 0.8 for w in words): cands.add(p["id"])
-                if len(cands) == 1:
+                cpid = conf.get(key)
+                if cpid and cpid in by_id and any(same_sail(sk, s) for s in sails.get(cpid, ())):
+                    # de gebruiker heeft deze deelnaam aan een rider toegewezen (confirmed); geldt alleen bij hetzelfde zeilnummer
+                    pid, why = cpid, "bevestigd"
+                elif len(cands) == 1:
                     pid, why = cands.pop(), "naam+zeilnummer"
                     log["deelnaam"].append(f"'{e['name']}' ({e.get('sail')}, {r['id']}) -> {by_id[pid]['name']}")
             else:

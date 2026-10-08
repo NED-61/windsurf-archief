@@ -1,0 +1,360 @@
+{
+ "schema_version": 1,
+ "id": "nk-1999-course-race-jeugd",
+ "event": {
+  "name": "NK Race 1999",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 1999,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Race jeugd",
+  "class_label_published": "Jeugd"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7"
+  ],
+  "discards": 2,
+  "races_to_count": 5,
+  "scoring_system": "lage punten: winnaar 0,7 punt, daarna de plaats; dnf en dsq = 12 punten (aantal riders + 1). Zoals waargenomen; de bron noemt geen systeem",
+  "points_published": "per race de plaats (of een code) en de punten"
+ },
+ "source": {
+  "name": "ONK Race 1999.pdf",
+  "url": null,
+  "file": "archive/nl/1999/nk-course-1999/bronnen/ONK Race 1999.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-08",
+  "method": "overgetikt van het beeld van de scan (pagina's op 200 en 300 dpi gerenderd en vergroot gelezen; de tekstlaag van de pdf is onbruikbare OCR); daarna per rider de som, de aftrek en het netto nagerekend tegen de gepubliceerde totalen",
+  "metadata_sources": [],
+  "verified": "11 riders; AFWIJKING: plaatsen in de bron niet oplopend bij Remco Bakker (plaats 9), Dennis Littel (plaats 7), Kevin Mevissen (plaats 8); zo overgenomen; rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: AFWIJKING: Reinder de Vries: aftrek [12.0, 3.0] is niet gelijk aan de 2 slechtste scores [12.0, 3.7]; geen dubbele namen; elke code (dnf, dsq) hoort bij 12 punten (11 riders + 1); in R1-R4 komt elke plaats één keer voor"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Jeugd' in 'Open Nederlandse Kampioenschappen Race 1999 - Eindstand' (www.ssn.nl/events/onk_results.htm, afgedrukt 6-5-1999): 'De eindstand na 7 races (2 races aftrek)'.",
+  "De bron geeft per race de plaats (of een code) en de punten; overgenomen zijn de punten, met de code in race_remarks. De kolommen 'aftrek 1' en 'aftrek 2' staan in discard_points; welke races dat zijn staat er niet bij.",
+  "Scan van een afdruk, goed leesbaar. Namen en zeilnummers zoals gepubliceerd (landletter H = Nederland).",
+  "In R5-R7 zijn de punten bij de jeugd sommen van twee heats (2,7; 1,4; 3,7), net als bij de dames; de plaatskolom van de bron toont daar soms een ander getal (R5: plaats '3' bij 2,7 punten). Overgenomen zijn de punten.",
+  "De plaatskolom van de bron loopt niet gelijk met de volgorde van de tabel (die op netto is gesorteerd): Remco Bakker staat op regel 7 met plaats 9, Dennis Littel staat op regel 8 met plaats 7, Kevin Mevissen staat op regel 9 met plaats 8. Plaats zoals gepubliceerd.",
+  "Bij Reinder de Vries (aftrek 12 en 3; slechtste scores 12 en 3.7) is de aftrek in de bron niet gelijk aan de twee slechtste scores. Totaal, aftrek en netto zijn overgenomen zoals gepubliceerd; het netto klopt met de gepubliceerde aftrek."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "reinder-de-vries",
+   "sail": "H-711",
+   "name": "Reinder de Vries",
+   "division": null,
+   "points": [
+    0.7,
+    0.7,
+    12.0,
+    0.7,
+    2.7,
+    1.4,
+    3.7
+   ],
+   "race_remarks": {
+    "R3": "DSQ"
+   },
+   "discard_points": [
+    12.0,
+    3.0
+   ],
+   "total": 21.9,
+   "net": 6.9,
+   "flag": "aftrek in de bron is niet gelijk aan de slechtste scores; zo overgenomen"
+  },
+  {
+   "rank": 2,
+   "person": "joeri-van-dijk",
+   "sail": "H-77",
+   "name": "Joeri van Dijk",
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    0.7,
+    3.0,
+    2.7,
+    14.0,
+    2.7
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    3.0,
+    14.0
+   ],
+   "total": 27.1,
+   "net": 10.1
+  },
+  {
+   "rank": 3,
+   "person": "roy-van-koolwijk",
+   "sail": "H-97",
+   "name": "Roy v. Koolwijk",
+   "division": null,
+   "points": [
+    4.0,
+    4.0,
+    2.0,
+    2.0,
+    12.0,
+    10.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    12.0,
+    10.0
+   ],
+   "total": 43.0,
+   "net": 21.0
+  },
+  {
+   "rank": 4,
+   "person": "sander-bouman",
+   "sail": "H-325",
+   "name": "Sander Bouwman",
+   "division": null,
+   "points": [
+    3.0,
+    5.0,
+    3.0,
+    4.0,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    9.0,
+    9.0
+   ],
+   "total": 42.0,
+   "net": 24.0
+  },
+  {
+   "rank": 5,
+   "person": "jeroen-sins",
+   "sail": "H-X",
+   "name": "Jeroen Sins",
+   "division": null,
+   "points": [
+    5.0,
+    3.0,
+    12.0,
+    5.0,
+    19.0,
+    4.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R3": "DSQ"
+   },
+   "discard_points": [
+    12.0,
+    19.0
+   ],
+   "total": 58.0,
+   "net": 27.0
+  },
+  {
+   "rank": 6,
+   "person": "jan-willem-mulder",
+   "sail": "H-114",
+   "name": "Jan Willem Mulder",
+   "division": null,
+   "points": [
+    12.0,
+    6.0,
+    5.0,
+    6.0,
+    9.0,
+    10.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R1": "DSQ"
+   },
+   "discard_points": [
+    12.0,
+    18.0
+   ],
+   "total": 66.0,
+   "net": 36.0
+  },
+  {
+   "rank": 9,
+   "person": "remco-bakker",
+   "sail": "H-857",
+   "name": "Remco Bakker",
+   "division": null,
+   "points": [
+    8.0,
+    7.0,
+    8.0,
+    12.0,
+    10.0,
+    10.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discard_points": [
+    12.0,
+    10.0
+   ],
+   "total": 63.0,
+   "net": 41.0,
+   "flag": "plaats in de bron wijkt af van de volgorde van de tabel (op netto)"
+  },
+  {
+   "rank": 7,
+   "person": "dennis-littel",
+   "sail": "H-3",
+   "name": "Dennis Littel",
+   "division": null,
+   "points": [
+    6.0,
+    12.0,
+    4.0,
+    9.0,
+    13.0,
+    13.0,
+    17.0
+   ],
+   "race_remarks": {
+    "R2": "DNF"
+   },
+   "discard_points": [
+    13.0,
+    17.0
+   ],
+   "total": 74.0,
+   "net": 44.0,
+   "flag": "plaats in de bron wijkt af van de volgorde van de tabel (op netto)"
+  },
+  {
+   "rank": 8,
+   "person": "kevin-mevissen",
+   "sail": "H-947",
+   "name": "Kevin Mevissen",
+   "division": null,
+   "points": [
+    7.0,
+    8.0,
+    7.0,
+    8.0,
+    16.0,
+    18.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    16.0,
+    18.0
+   ],
+   "total": 79.0,
+   "net": 45.0,
+   "flag": "plaats in de bron wijkt af van de volgorde van de tabel (op netto)"
+  },
+  {
+   "rank": 10,
+   "person": "anne-cnossen",
+   "sail": "H-665",
+   "name": "Anne Cnossen",
+   "division": null,
+   "points": [
+    12.0,
+    10.0,
+    6.0,
+    7.0,
+    20.0,
+    22.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DSQ"
+   },
+   "discard_points": [
+    22.0,
+    24.0
+   ],
+   "total": 101.0,
+   "net": 55.0
+  },
+  {
+   "rank": 11,
+   "person": "casper-bouman",
+   "sail": "H-3251",
+   "name": "Casper Bouwman",
+   "division": null,
+   "points": [
+    12.0,
+    11.0,
+    9.0,
+    10.0,
+    20.0,
+    23.0,
+    24.0
+   ],
+   "race_remarks": {
+    "R1": "DNF"
+   },
+   "discard_points": [
+    23.0,
+    24.0
+   ],
+   "total": 109.0,
+   "net": 62.0
+  }
+ ],
+ "detail": {
+  "deviations": [
+   {
+    "rider": "Remco Bakker",
+    "field": "rank",
+    "published": 9,
+    "position_in_source": 7
+   },
+   {
+    "rider": "Dennis Littel",
+    "field": "rank",
+    "published": 7,
+    "position_in_source": 8
+   },
+   {
+    "rider": "Kevin Mevissen",
+    "field": "rank",
+    "published": 8,
+    "position_in_source": 9
+   },
+   {
+    "rider": "Reinder de Vries",
+    "field": "discard_points",
+    "published": [
+     12.0,
+     3.0
+    ],
+    "worst_scores": [
+     12.0,
+     3.7
+    ]
+   }
+  ]
+ }
+}

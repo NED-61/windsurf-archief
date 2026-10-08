@@ -49,9 +49,10 @@
  "notes": [
   "Gepubliceerd als 'North Sea Cup - NED - 2014 - Formula - Overall' (Sailwave 2.9.7): 'Sailed: 5, Discards: 1, To count: 4, Entries: 14, Scoring system: Appendix A'.",
   "De kolom division (Open, U20) staat in division; de kolom fleet is bij iedereen 'Formula' en de kolom Girls is bij iedereen leeg.",
-  "Max Baaijen heeft in alle vijf races DNF. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast.",
+  "Max Baaijen heeft in alle vijf races DNF.",
   "Overgetikt van het pdf-beeld; namen en zeilnummers zoals gepubliceerd.",
-  "Een zeilnummercel zonder cijfer staat in sail_published; sail is dan leeg: Ennio Dal Pont 'B', Marco Baaijen 'Z', Max Baaijen 'H'."
+  "Een zeilnummercel zonder cijfer staat in sail_published; sail is dan leeg: Ennio Dal Pont 'B', Marco Baaijen 'Z', Max Baaijen 'H'.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -358,7 +359,7 @@
   },
   {
    "rank": 14,
-   "person": "max-baaijen",
+   "person": null,
    "sail": null,
    "name": "Max Baaijen",
    "sail_published": "H",
@@ -382,7 +383,8 @@
     1
    ],
    "total": 75.0,
-   "net": 60.0
+   "net": 60.0,
+   "counted": false
   }
  ],
  "detail": {}

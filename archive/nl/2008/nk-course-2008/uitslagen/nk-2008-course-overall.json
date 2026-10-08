@@ -47,7 +47,7 @@
   "DNC staat in de bron zonder punten: het punt is null en de code staat in race_remarks; voor de controle telt DNC 33 punten. Michiel Rijkaert: DNF in R1 telt 25 punten (afgeleid uit het totaal).",
   "Geen origineel: het Excel-bestand is op 1 oktober 2026 aangemaakt (overgenomen uit een ouder bestand of van een webpagina); overtikfouten zijn niet uit te sluiten. Het materiaal (Formula) staat niet in de bron.",
   "Zoals gepubliceerd: 'Steven Bodher' (USA 4) en 'Klaas Sybrand Jissink'; vier riders delen plaats 29 (alleen DNC).",
-  "Telt niet mee: 4 ingeschreven rider(s) met alleen DNC of DNF in alle races tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+  "Telt niet mee: 4 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {

@@ -611,6 +611,7 @@ def main():
                     it["outputs"] = sorted(set(it.get("outputs") or []) | {f"archive/nl/{r['event']['year']}/{EVENTS[r['event']['year']]['slug']}/uitslagen/{r['id']}.json"})
                     it["notes"] = "verwerkt met tools/import_realtrip.py"
         A.save(reg)
+        import counting; counting.apply(quiet=True)      # telregel (geldt sinds 8 oktober 2026 voor alle wedstrijden)
     print(json.dumps({"dry_run": a.dry_run, "uitslagen": report, "koppelen": counts, "open_voorstellen": pend, "awards": awards}, ensure_ascii=False, indent=1))
 
 

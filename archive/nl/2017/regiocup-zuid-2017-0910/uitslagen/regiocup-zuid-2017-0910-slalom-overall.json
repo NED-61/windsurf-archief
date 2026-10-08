@@ -42,7 +42,8 @@
  "notes": [
   "Overgetikt van een foto; 31 riders, 5 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
   "De kleine cijfers achter de punten op het blad (heat- of vlootnummer per race) zijn niet overgenomen.",
-  "Bij een naam met het eigen zeilnummer erachter ('Erwin van Logchem (NED760)') staat dat nummer in sail, de zeilnummerkolom van het blad in sail_published en de volledige cel in name_published."
+  "Bij een naam met het eigen zeilnummer erachter ('Erwin van Logchem (NED760)') staat dat nummer in sail, de zeilnummerkolom van het blad in sail_published en de volledige cel in name_published.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -87,7 +88,7 @@
   },
   {
    "rank": 3,
-   "person": "kai",
+   "person": "kay-van-berlo",
    "sail": "NED212",
    "name": "Kai",
    "division": "men",
@@ -524,7 +525,7 @@
   },
   {
    "rank": 24,
-   "person": "arnout-den-boer",
+   "person": "arnoud-den-boer",
    "sail": "NED1008",
    "name": "Arnoud den Boer",
    "division": "men",
@@ -677,7 +678,7 @@
   },
   {
    "rank": 31,
-   "person": "joost-van-vucht",
+   "person": null,
    "sail": "NED247",
    "name": "Joost van Vucht",
    "division": "men",
@@ -699,7 +700,8 @@
     5
    ],
    "total": 265.0,
-   "net": 212.0
+   "net": 212.0,
+   "counted": false
   }
  ],
  "detail": {}

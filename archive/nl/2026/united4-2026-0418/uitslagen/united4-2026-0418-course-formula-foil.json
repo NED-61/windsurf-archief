@@ -55,7 +55,8 @@
   "De bron noemt de stand 'Overall Results', niet 'Final'. Het rapport is van de avond van de laatste wedstrijddag (het evenement was op 18 en 19 april 2026) en is daarom als einduitslag opgenomen: AANNAME.",
   "Namen zoals gepubliceerd (achternaam in hoofdletters). Geen divisies of leeftijdsklassen in deze bron.",
   "Weglatingen: 'Discard rule: Global: 5' (één weglating vanaf 5 races). De weggelaten score staat in de bron tussen haakjes; codes staan onder de punten.",
-  "Marijn SCHOUTEN en Milan HOEVENS hebben in alle 9 races DNC en delen plaats 13. Dit is geen NK, dus de NK-regel (alleen DNC/DNF telt niet mee) is niet toegepast."
+  "Marijn SCHOUTEN en Milan HOEVENS hebben in alle 9 races DNC en delen plaats 13.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -363,7 +364,7 @@
   },
   {
    "rank": 13,
-   "person": "marijn-schouten",
+   "person": null,
    "sail": "NED 160",
    "name": "Marijn SCHOUTEN",
    "division": null,
@@ -393,11 +394,12 @@
     1
    ],
    "total": 135.0,
-   "net": 120.0
+   "net": 120.0,
+   "counted": false
   },
   {
    "rank": 13,
-   "person": "milan-hoevens",
+   "person": null,
    "sail": "NED 477",
    "name": "Milan HOEVENS",
    "division": null,
@@ -427,7 +429,8 @@
     1
    ],
    "total": 135.0,
-   "net": 120.0
+   "net": 120.0,
+   "counted": false
   }
  ],
  "detail": {}

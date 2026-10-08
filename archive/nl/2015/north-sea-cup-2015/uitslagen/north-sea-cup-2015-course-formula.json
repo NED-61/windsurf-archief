@@ -39,7 +39,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 23 riders, 3 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 23 riders, 3 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 6 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -330,7 +331,7 @@
   },
   {
    "rank": 17,
-   "person": "maximilian-voss",
+   "person": null,
    "sail": "GER 232",
    "name": "Maximilian Voss",
    "nationality": "GER",
@@ -347,11 +348,12 @@
    },
    "discarded": [],
    "total": 72.0,
-   "net": 72.0
+   "net": 72.0,
+   "counted": false
   },
   {
    "rank": 17,
-   "person": "erik-smeets",
+   "person": null,
    "sail": "NED 222",
    "name": "Erik Smeets",
    "nationality": "NED",
@@ -368,11 +370,12 @@
    },
    "discarded": [],
    "total": 72.0,
-   "net": 72.0
+   "net": 72.0,
+   "counted": false
   },
   {
    "rank": 17,
-   "person": "jan-de-jonge",
+   "person": null,
    "sail": "NED 787",
    "name": "Jan de Jonge",
    "nationality": "NED",
@@ -389,11 +392,12 @@
    },
    "discarded": [],
    "total": 72.0,
-   "net": 72.0
+   "net": 72.0,
+   "counted": false
   },
   {
    "rank": 17,
-   "person": "nick-de-ruyter",
+   "person": null,
    "sail": "NED 183",
    "name": "Nick de Ruyter",
    "nationality": "NED",
@@ -410,11 +414,12 @@
    },
    "discarded": [],
    "total": 72.0,
-   "net": 72.0
+   "net": 72.0,
+   "counted": false
   },
   {
    "rank": 17,
-   "person": "max-baaijen",
+   "person": null,
    "sail": "NED 61",
    "name": "Max Baaijen",
    "nationality": "NED",
@@ -431,11 +436,12 @@
    },
    "discarded": [],
    "total": 72.0,
-   "net": 72.0
+   "net": 72.0,
+   "counted": false
   },
   {
    "rank": 17,
-   "person": "james-battye",
+   "person": null,
    "sail": "GBR 939",
    "name": "James Battye",
    "nationality": "GBR",
@@ -452,7 +458,8 @@
    },
    "discarded": [],
    "total": 72.0,
-   "net": 72.0
+   "net": 72.0,
+   "counted": false
   },
   {
    "rank": 17,

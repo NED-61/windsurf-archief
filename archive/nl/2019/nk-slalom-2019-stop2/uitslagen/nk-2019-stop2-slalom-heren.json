@@ -37,7 +37,7 @@
  "notes": [
   "Datum en locatie staan niet op Windtulip; aangevuld uit andere bron (zie event.json).",
   "Namen zoals gepubliceerd, met dubbele spaties ingekort.",
-  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC of DNF in alle heats en finales tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle heats en finales hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {

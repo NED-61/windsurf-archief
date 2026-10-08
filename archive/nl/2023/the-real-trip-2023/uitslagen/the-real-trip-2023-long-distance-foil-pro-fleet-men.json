@@ -46,7 +46,8 @@
  "coverage": "complete",
  "notes": [
   "Bron: PSR-pdf met de vermelding '(no discards)'.",
-  "DNS-riders kregen de punten van de laatste plaats (gedeelde plaats), zoals gepubliceerd."
+  "DNS-riders kregen de punten van de laatste plaats (gedeelde plaats), zoals gepubliceerd.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -275,7 +276,7 @@
   },
   {
    "rank": 15,
-   "person": "bjarne-van-der-weg",
+   "person": null,
    "sail": null,
    "bib": "371",
    "name": "Bjarne van der Weg",
@@ -289,11 +290,12 @@
    "discard_points": null,
    "total": 15.0,
    "net": 15.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   },
   {
    "rank": 15,
-   "person": "jordy-vonk",
+   "person": null,
    "sail": null,
    "bib": "354",
    "name": "Jordy Vonk",
@@ -307,7 +309,8 @@
    "discard_points": null,
    "total": 15.0,
    "net": 15.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   }
  ],
  "detail": {}

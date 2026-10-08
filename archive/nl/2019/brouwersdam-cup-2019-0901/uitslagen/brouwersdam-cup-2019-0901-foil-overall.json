@@ -44,7 +44,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 6 riders, 8 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 6 riders, 8 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -147,7 +148,7 @@
   },
   {
    "rank": 5,
-   "person": "wesley-bentvelzen",
+   "person": null,
    "sail": null,
    "name": "Wesley Bentvelzen",
    "sail_published": "W",
@@ -177,11 +178,12 @@
     1
    ],
    "total": 56.0,
-   "net": 49.0
+   "net": 49.0,
+   "counted": false
   },
   {
    "rank": 5,
-   "person": "ashley-veenstra",
+   "person": null,
    "sail": "NED 700",
    "name": "Ashley Veenstra",
    "nationality": "NED",
@@ -210,7 +212,8 @@
     1
    ],
    "total": 56.0,
-   "net": 49.0
+   "net": 49.0,
+   "counted": false
   }
  ],
  "detail": {}

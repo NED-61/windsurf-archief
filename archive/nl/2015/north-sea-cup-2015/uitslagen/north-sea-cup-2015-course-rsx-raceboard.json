@@ -41,7 +41,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 14 riders, 6 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 14 riders, 6 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -360,7 +361,7 @@
   },
   {
    "rank": 14,
-   "person": "arne-debeuf",
+   "person": null,
    "sail": "BEL 96",
    "name": "Arne Debeuf 1",
    "nationality": "BEL",
@@ -386,7 +387,8 @@
     1
    ],
    "total": 90.0,
-   "net": 75.0
+   "net": 75.0,
+   "counted": false
   }
  ],
  "detail": {}

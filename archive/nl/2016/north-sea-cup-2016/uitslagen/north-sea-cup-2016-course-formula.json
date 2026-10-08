@@ -47,7 +47,8 @@
  "provisional": true,
  "provisional_note": "'Results are provisional as of 16:57 on April 23, 2016': stand van zaterdag. De eindstand is niet aangeleverd.",
  "notes": [
-  "Overgetikt van een foto; 13 riders, 5 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 13 riders, 5 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -326,7 +327,7 @@
   },
   {
    "rank": 13,
-   "person": "cobus-van-der-stel",
+   "person": null,
    "sail": "NED 818",
    "name": "Cobus van der Stel",
    "nationality": "NED",
@@ -349,7 +350,8 @@
     1
    ],
    "total": 70.0,
-   "net": 56.0
+   "net": 56.0,
+   "counted": false
   }
  ],
  "detail": {}

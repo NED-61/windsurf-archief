@@ -53,7 +53,8 @@
   "Bron: therealtrip.nl/en/results, vastgelegd op 2026-10-01: het tabblad per categorie en de detailpagina van elke rider.",
   "Punten per race uit de detailpagina's; plaats, weglating en netto uit het tabblad (beide gecontroleerd).",
   "Puntentelling zoals waargenomen: winnaar van een race 0.7, daarna de plaats; DNS = aantal deelnemers + 1 (5).",
-  "Een * achter de plaats is zo gepubliceerd (gelijke netto). Rijen zonder plaats delen de plaats van de rij erboven."
+  "Een * achter de plaats is zo gepubliceerd (gelijke netto). Rijen zonder plaats delen de plaats van de rij erboven.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -120,7 +121,7 @@
   },
   {
    "rank": 3,
-   "person": "anton-dona",
+   "person": null,
    "sail": null,
    "bib": "503",
    "name": "Anton Dona",
@@ -150,11 +151,12 @@
    "total": 35.0,
    "net": 30.0,
    "remark": null,
-   "rank_published": "3*"
+   "rank_published": "3*",
+   "counted": false
   },
   {
    "rank": 3,
-   "person": "bas-kwee",
+   "person": null,
    "sail": "18",
    "bib": "316",
    "name": "Bas Kwee",
@@ -183,7 +185,8 @@
    ],
    "total": 35.0,
    "net": 30.0,
-   "remark": null
+   "remark": null,
+   "counted": false
   }
  ],
  "detail": {}

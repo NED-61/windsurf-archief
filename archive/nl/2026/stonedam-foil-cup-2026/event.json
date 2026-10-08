@@ -26,7 +26,7 @@
   "Locatie: het Schildmeer bij Steendam ('Stonedam'), bij Zeilvereniging Schildmeer. Voor 2026 staat dat op de evenementpagina van Surfcenter Experience, voor 2024 staat de vereniging in de kop van de uitslag; voor de andere edities volgt het uit de naam van het evenement.",
   "Het raceformat (course of slalom) staat niet in de bron; discipline is daarom leeg gelaten. Materiaal: windfoil.",
   "De Wingfoil-tabel(len) in dezelfde bron ('Wingfoil Pro', 11 deelnemers, en 'Wingfoil Recreational', 7 deelnemers) zijn niet omgezet: wingfoilen is geen windsurfen. De bron blijft bewaard; de keuze staat in tools/import_foilcup.py (WING).",
-  "De vloot Recreational is wel opgenomen: het is een windfoil-klasse met eigen races (een deel van de racenummers van Pro). Of die onder de regel 'de funwedstrijd hoort niet in het archief' valt beslist de gebruiker."
+  "De vloot Recreational is opgenomen: het is een windfoil-klasse met eigen races (een deel van de racenummers van Pro) en geen fun-klasse (opgave van de gebruiker, 8 oktober 2026)."
  ],
  "organizer": "Zeilvereniging Schildmeer",
  "name_published": "Stonedam Foil Cup 2026"

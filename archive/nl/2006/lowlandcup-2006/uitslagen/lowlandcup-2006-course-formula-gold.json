@@ -4,9 +4,9 @@
  "event": {
   "name": "Lowlandcup 2006",
   "scope": "nl",
-  "series": "Lowlandcup",
+  "series": "NK Course",
   "year": 2006,
-  "stop_number": null,
+  "stop_number": 1,
   "stops_known": null,
   "date": "2006-05-25",
   "location": "Grevelingen",

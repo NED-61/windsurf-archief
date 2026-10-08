@@ -10,14 +10,13 @@
  "date_end": null,
  "location": "Monnickendam",
  "discipline": null,
- "classes": [
-  "holland-surfpool-1999-stop1-race-overall"
- ],
+ "classes": [],
  "metadata_sources": [],
  "notes": [
   "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
   "Naam en locatie uit de titel van het Excel-bestand ('Holland Surfpool - Monnickendam - Results') en de bestandsnaam 'Uitslag HSP1 99'. Het bestand is op maandag 19 april 1999 aangemaakt; de wedstrijddatum zelf staat er niet in en is niet ingevuld.",
-  "De discipline (course race of slalom) staat niet in de bron."
+  "De discipline (course race of slalom) staat niet in de bron.",
+  "UIT HET ARCHIEF GEHAALD op 8 oktober 2026, op aanwijzing van Adri Keet: 'HSP was een eerste stop van een freestyle race toer, maar niemand weet meer wat het voor serie was. Ook geen verdere uitslagen.' De uitslag (31 riders) is vervangen door NK Race 1999 en NK Formula 1999; het bronbestand staat nog in bronnen/. Dit evenement heeft daarom geen uitslag en wordt op de site niet getoond."
  ],
  "name_published": "Holland Surfpool - Monnickendam - Results"
 }

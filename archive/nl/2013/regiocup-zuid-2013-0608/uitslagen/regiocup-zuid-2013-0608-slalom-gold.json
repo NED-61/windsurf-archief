@@ -43,7 +43,8 @@
  },
  "coverage": "complete",
  "notes": [
-  "Overgetikt van een foto; 27 riders, 7 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg."
+  "Overgetikt van een foto; 27 riders, 7 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -690,7 +691,7 @@
   },
   {
    "rank": 26,
-   "person": "oliver-bongartz",
+   "person": null,
    "sail": "GER 59",
    "name": "Oliver Bongartz",
    "nationality": "GER",
@@ -717,11 +718,12 @@
     4
    ],
    "total": 249.0,
-   "net": 204.0
+   "net": 204.0,
+   "counted": false
   },
   {
    "rank": 26,
-   "person": "kenny-de-jager",
+   "person": null,
    "sail": "BEL 9",
    "name": "Kenny de Jager",
    "nationality": "BEL",
@@ -748,7 +750,8 @@
     4
    ],
    "total": 249.0,
-   "net": 204.0
+   "net": 204.0,
+   "counted": false
   }
  ],
  "detail": {}

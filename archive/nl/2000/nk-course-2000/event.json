@@ -19,7 +19,8 @@
  "notes": [
   "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 3 oktober 2026.",
   "Gepubliceerd als 'ONK Race 2000 - Stichting Zuid-Holland Windsurfing - Sponsor: SWA (Alphen a/d Rijn)', eindstand heren, dames en jeugd (Word-document van 1 november 2000). ONK = Open Nederlands Kampioenschap. In het archief onder de reeks 'NK Course' gezet, net als de Eindstand ONK 2002.",
-  "Eindstand over het seizoen met de punten per race; de losse wedstrijddagen, data en locaties staan niet in de bron."
+  "Eindstand over het seizoen met de punten per race; de losse wedstrijddagen, data en locaties staan niet in de bron.",
+  "Extra bron (8 oktober 2026): 'ONK2000_eindstand.htm', de html-versie van het Word-document; cel voor cel vergeleken met de uitslagen in het archief (plaats, zeilnummer, naam, punten per race, totaal, netto): heren 37 riders: gelijk, dames 5 riders: gelijk, jeugd 15 riders: gelijk. Bevat dezelfde woonplaatsen en staat daarom ook in local-only/."
  ],
  "organizer": "Stichting Zuid-Holland Windsurfing",
  "name_published": "ONK Race 2000"

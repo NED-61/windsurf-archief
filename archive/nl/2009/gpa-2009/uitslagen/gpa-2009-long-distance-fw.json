@@ -46,12 +46,13 @@
   "Veel riders staan alleen met hun achternaam in de bron (name_form 'alleen achternaam'). Die zijn alleen aan een bestaande rider gekoppeld als ook het zeilnummer gelijk is.",
   "Opmerking 'K' staat zo in de kolom Comments; de betekenis staat niet in de bron (vermoedelijk korte baan). Riders met K staan in de bron na de overige gefinishte riders, ook als hun finishtijd vroeger is.",
   "De gepubliceerde volgorde wijkt bij gelijke finishtijd (op de minuut) af van het finishvolgnummer: Bartlema (finish 7) voor Konstapel (finish 6); De Jong (finish 9) voor Marc de Jong (finish 8). Niet aangepast.",
-  "Verschillen tussen het klasseblad en het werkblad 'Blad5' in dezelfde pdf (klasseblad aangehouden): 'Cobus van der stel': DNS in het klasseblad, DNF in Blad5; 'Peter Ludwich' staat in Blad5 als 'Ludwich Peters'."
+  "Verschillen tussen het klasseblad en het werkblad 'Blad5' in dezelfde pdf (klasseblad aangehouden): 'Cobus van der stel': DNS in het klasseblad, DNF in Blad5; 'Peter Ludwich' staat in Blad5 als 'Ludwich Peters'.",
+  "Telt niet mee: 3 ingeschreven rider(s) met DNS of DNC (niet gestart) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
    "rank": 1,
-   "person": "doppenberg",
+   "person": "dirk-doppenberg",
    "sail": "51",
    "name": "DOPPENBERG",
    "gender": "male",
@@ -99,7 +100,7 @@
   },
   {
    "rank": 4,
-   "person": "jissink",
+   "person": "klaas-sybrand-jissink",
    "sail": "42",
    "name": "Jissink",
    "gender": "male",
@@ -131,7 +132,7 @@
   },
   {
    "rank": 6,
-   "person": "konstapel",
+   "person": "richard-konstapel",
    "sail": "18",
    "name": "Konstapel",
    "gender": "male",
@@ -210,7 +211,7 @@
   },
   {
    "rank": 11,
-   "person": "van-hoof",
+   "person": "patrick-van-hoof",
    "sail": "B52",
    "name": "Van Hoof",
    "gender": "male",
@@ -226,7 +227,7 @@
   },
   {
    "rank": 12,
-   "person": "nick-hoorn",
+   "person": "nick-van-der-hoorn",
    "sail": "147",
    "name": "Vd Hoorn",
    "gender": "male",
@@ -461,7 +462,7 @@
   },
   {
    "rank": null,
-   "person": "renee-vonk",
+   "person": null,
    "sail": "688",
    "name": "Vonk",
    "gender": "male",
@@ -473,7 +474,8 @@
    "finish_order": null,
    "remark": "DNS",
    "row_published": 27,
-   "name_form": "alleen achternaam"
+   "name_form": "alleen achternaam",
+   "counted": false
   },
   {
    "rank": null,
@@ -509,7 +511,7 @@
   },
   {
    "rank": null,
-   "person": "cobus-van-der-stel",
+   "person": null,
    "sail": "818",
    "name": "Cobus van der stel",
    "gender": "male",
@@ -520,7 +522,8 @@
    "time": null,
    "finish_order": null,
    "remark": "DNS",
-   "row_published": 30
+   "row_published": 30,
+   "counted": false
   },
   {
    "rank": null,
@@ -556,7 +559,7 @@
   },
   {
    "rank": null,
-   "person": "peter-ludwich",
+   "person": null,
    "sail": "B59",
    "name": "Peter Ludwich",
    "gender": "male",
@@ -567,7 +570,8 @@
    "time": null,
    "finish_order": null,
    "remark": "DNS",
-   "row_published": 33
+   "row_published": 33,
+   "counted": false
   },
   {
    "rank": null,

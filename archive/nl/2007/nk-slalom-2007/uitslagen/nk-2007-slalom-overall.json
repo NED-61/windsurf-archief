@@ -1,0 +1,565 @@
+{
+ "schema_version": 1,
+ "id": "nk-2007-slalom-overall",
+ "event": {
+  "name": "NK Slalom 2007",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2007,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "NK slalom 07"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 2,
+  "discards": [],
+  "heats_published": false,
+  "scoring_observed": "punten per eliminatie = plaats (winnaar 1 punt); 37 punten (aantal regels + 1) = geen resultaat in die eliminatie; de bron toont geen statuscodes. In eliminatie 1 hebben vier riders 21 punten en in eliminatie 2 drie riders 21 en vier riders 37: gedeelde scores, zo gepubliceerd",
+  "eliminations_without_points": [],
+  "no_result_points": 37.0
+ },
+ "source": {
+  "name": "NK_slalom_07l.htm",
+  "url": null,
+  "file": "archive/nl/2007/nk-slalom-2007/bronnen/NK_slalom_07l.htm",
+  "type": "web",
+  "retrieved": "2026-10-08",
+  "method": "BeautifulSoup: de tabel van de Excel-export cel voor cel",
+  "metadata_sources": [
+   {
+    "name": "kalender 2007.doc (planning uit het archief van Adri Keet)",
+    "url": null,
+    "used_for": "NK-BK Formula/Slalom Grevelingendam 17-20 mei 2007, NK Formula/Slalom Almere 6-9 september 2007, NK backup speed/slalom 27 oktober-18 november 2007 (planning)"
+   }
+  ],
+  "verified": "36 regels in de totaaluitslag; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op totaal; totaal = som van de twee eliminaties: gelijk; hoogste score per eliminatie is 37 = aantal regels + 1; 5 regel(s) met die score in beide eliminaties; heats en finales niet in de bron: punten per eliminatie niet uit finaleposities afgeleid"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Totaaluitslag van het NK Slalom 2007 over twee eliminaties (Excel-blad van Adri Keet, opgeslagen op 26 mei 2008). De tabel heeft geen titel; de bestandsnaam is 'NK_slalom_07l'.",
+  "Alleen de totaaluitslag: de bron bevat de punten per eliminatie en het totaal, geen heats en finales en geen weglating. Bij gelijk totaal staat de rider met de beste score in de laatste eliminatie boven (plaats 2 en 3), of delen ze de plaats (22, 32).",
+  "Als eindstand opgenomen: het bestand is van mei 2008, ruim na het seizoen 2007. AANNAME.",
+  "Zoals gepubliceerd: twee regels met de naam 'XX' (zeilnummers 1 en 11, zonder resultaat) en 'Peter v/d Lugt' met 'XX' als zeilnummer (sail_published). Sailno zonder landcode.",
+  "Telt niet mee: 5 ingeschreven rider(s) met in elke eliminatie de hoogste score (geen resultaat; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "2",
+   "name": "Adriaan van Rijselberghe",
+   "division": null,
+   "points": [
+    1.0,
+    2.0
+   ],
+   "discarded": [],
+   "total": 3.0,
+   "net": 3.0
+  },
+  {
+   "rank": 2,
+   "person": "dirk-doppenberg",
+   "sail": "51",
+   "name": "Dirk Doppenberg",
+   "division": null,
+   "points": [
+    2.0,
+    6.0
+   ],
+   "discarded": [],
+   "total": 8.0,
+   "net": 8.0
+  },
+  {
+   "rank": 3,
+   "person": "adri-keet",
+   "sail": "34",
+   "name": "Adri Keet",
+   "division": null,
+   "points": [
+    4.0,
+    4.0
+   ],
+   "discarded": [],
+   "total": 8.0,
+   "net": 8.0
+  },
+  {
+   "rank": 4,
+   "person": "pieter-eliens",
+   "sail": "538",
+   "name": "Pieter Eliens",
+   "division": null,
+   "points": [
+    6.0,
+    5.0
+   ],
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 5,
+   "person": "peter-van-der-lugt",
+   "sail": null,
+   "name": "Peter v/d Lugt",
+   "division": null,
+   "sail_published": "XX",
+   "points": [
+    9.0,
+    3.0
+   ],
+   "discarded": [],
+   "total": 12.0,
+   "net": 12.0
+  },
+  {
+   "rank": 6,
+   "person": "pieter-bartlema",
+   "sail": "113",
+   "name": "Pieter Bartlema",
+   "division": null,
+   "points": [
+    8.0,
+    7.0
+   ],
+   "discarded": [],
+   "total": 15.0,
+   "net": 15.0
+  },
+  {
+   "rank": 7,
+   "person": "teade-de-jong",
+   "sail": "777",
+   "name": "Teade de Jong",
+   "division": null,
+   "points": [
+    7.0,
+    13.0
+   ],
+   "discarded": [],
+   "total": 20.0,
+   "net": 20.0
+  },
+  {
+   "rank": 8,
+   "person": "markus-bouman",
+   "sail": "6",
+   "name": "Markus Bouman",
+   "division": null,
+   "points": [
+    12.0,
+    9.0
+   ],
+   "discarded": [],
+   "total": 21.0,
+   "net": 21.0
+  },
+  {
+   "rank": 9,
+   "person": "ron-ruiter",
+   "sail": "111",
+   "name": "Ron Ruiter",
+   "division": null,
+   "points": [
+    21.0,
+    1.0
+   ],
+   "discarded": [],
+   "total": 22.0,
+   "net": 22.0
+  },
+  {
+   "rank": 10,
+   "person": "remco-bakker",
+   "sail": "15",
+   "name": "Remco baker",
+   "division": null,
+   "points": [
+    10.0,
+    12.0
+   ],
+   "discarded": [],
+   "total": 22.0,
+   "net": 22.0
+  },
+  {
+   "rank": 11,
+   "person": "dorian-van-rijsselberge",
+   "sail": "8",
+   "name": "Dorian van Rijselberghe",
+   "division": null,
+   "points": [
+    3.0,
+    21.0
+   ],
+   "discarded": [],
+   "total": 24.0,
+   "net": 24.0
+  },
+  {
+   "rank": 12,
+   "person": "marc-de-jong",
+   "sail": "103",
+   "name": "Marc de Jong",
+   "division": null,
+   "points": [
+    13.0,
+    11.0
+   ],
+   "discarded": [],
+   "total": 24.0,
+   "net": 24.0
+  },
+  {
+   "rank": 13,
+   "person": "alexander-verhage",
+   "sail": "75",
+   "name": "Alexander Verhage",
+   "division": null,
+   "points": [
+    15.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 25.0,
+   "net": 25.0
+  },
+  {
+   "rank": 14,
+   "person": "dennis-littel",
+   "sail": "13",
+   "name": "Dennis Littel",
+   "division": null,
+   "points": [
+    5.0,
+    21.0
+   ],
+   "discarded": [],
+   "total": 26.0,
+   "net": 26.0
+  },
+  {
+   "rank": 15,
+   "person": "klaas-sybrand-jissink",
+   "sail": "315",
+   "name": "Klaas Sybrand Jissink",
+   "division": null,
+   "points": [
+    23.0,
+    8.0
+   ],
+   "discarded": [],
+   "total": 31.0,
+   "net": 31.0
+  },
+  {
+   "rank": 16,
+   "person": "john-munten",
+   "sail": "180",
+   "name": "J. Munten",
+   "division": null,
+   "points": [
+    16.0,
+    17.0
+   ],
+   "discarded": [],
+   "total": 33.0,
+   "net": 33.0
+  },
+  {
+   "rank": 17,
+   "person": "kay-van-berlo",
+   "sail": "212",
+   "name": "Kay van Berlo",
+   "division": null,
+   "points": [
+    22.0,
+    13.0
+   ],
+   "discarded": [],
+   "total": 35.0,
+   "net": 35.0
+  },
+  {
+   "rank": 18,
+   "person": "nico-wierstra",
+   "sail": "133",
+   "name": "Nico Wiersma",
+   "division": null,
+   "points": [
+    14.0,
+    22.0
+   ],
+   "discarded": [],
+   "total": 36.0,
+   "net": 36.0
+  },
+  {
+   "rank": 19,
+   "person": "ynze-wildeboer",
+   "sail": "300",
+   "name": "Ynze Wildeboer",
+   "division": null,
+   "points": [
+    21.0,
+    16.0
+   ],
+   "discarded": [],
+   "total": 37.0,
+   "net": 37.0
+  },
+  {
+   "rank": 20,
+   "person": "nick-de-ruyter",
+   "sail": "183",
+   "name": "Nick de Ruyter",
+   "division": null,
+   "points": [
+    27.0,
+    15.0
+   ],
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0
+  },
+  {
+   "rank": 21,
+   "person": "frank-heinen",
+   "sail": "363",
+   "name": "Frank Heinen",
+   "division": null,
+   "points": [
+    17.0,
+    25.0
+   ],
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0
+  },
+  {
+   "rank": 22,
+   "person": "marco-kraaijenzank",
+   "sail": "10",
+   "name": "Marco Kraaijenzank",
+   "division": null,
+   "points": [
+    21.0,
+    21.0
+   ],
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0
+  },
+  {
+   "rank": 22,
+   "person": "tjitse-spitze",
+   "sail": "141",
+   "name": "Tjitse Spitze",
+   "division": null,
+   "points": [
+    21.0,
+    21.0
+   ],
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0
+  },
+  {
+   "rank": 24,
+   "person": "martijn-van-citteren",
+   "sail": "170",
+   "name": "Martijn van Citteren",
+   "division": null,
+   "points": [
+    24.0,
+    23.0
+   ],
+   "discarded": [],
+   "total": 47.0,
+   "net": 47.0
+  },
+  {
+   "rank": 25,
+   "person": "richard-konstapel",
+   "sail": "18",
+   "name": "Richard Konstapel",
+   "division": null,
+   "points": [
+    11.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 48.0,
+   "net": 48.0
+  },
+  {
+   "rank": 26,
+   "person": "l-van-der-velde",
+   "sail": "558",
+   "name": "L. van der Velde",
+   "division": null,
+   "points": [
+    25.0,
+    24.0
+   ],
+   "discarded": [],
+   "total": 49.0,
+   "net": 49.0
+  },
+  {
+   "rank": 27,
+   "person": "m-pontfoort",
+   "sail": "444",
+   "name": "M. Pontfoort",
+   "division": null,
+   "points": [
+    28.0,
+    26.0
+   ],
+   "discarded": [],
+   "total": 54.0,
+   "net": 54.0
+  },
+  {
+   "rank": 28,
+   "person": "jakob-snip",
+   "sail": "689",
+   "name": "Jakob Snip",
+   "division": null,
+   "points": [
+    29.0,
+    27.0
+   ],
+   "discarded": [],
+   "total": 56.0,
+   "net": 56.0
+  },
+  {
+   "rank": 29,
+   "person": "jordy-vonk",
+   "sail": "600",
+   "name": "Jordy Vonk",
+   "division": null,
+   "points": [
+    26.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 63.0,
+   "net": 63.0
+  },
+  {
+   "rank": 30,
+   "person": "jort-min",
+   "sail": "707",
+   "name": "Jort Min",
+   "division": null,
+   "points": [
+    37.0,
+    28.0
+   ],
+   "discarded": [],
+   "total": 65.0,
+   "net": 65.0
+  },
+  {
+   "rank": 31,
+   "person": "ronald-vd-poel",
+   "sail": "21",
+   "name": "Ronald van de Poel",
+   "division": null,
+   "points": [
+    30.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 67.0,
+   "net": 67.0
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": "1",
+   "name": "XX",
+   "division": null,
+   "points": [
+    37.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 74.0,
+   "net": 74.0,
+   "counted": false
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": "11",
+   "name": "XX",
+   "division": null,
+   "points": [
+    37.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 74.0,
+   "net": 74.0,
+   "counted": false
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": "331",
+   "name": "A. Geesink",
+   "division": null,
+   "points": [
+    37.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 74.0,
+   "net": 74.0,
+   "counted": false
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": "747",
+   "name": "Jurgen Hoitzing",
+   "division": null,
+   "points": [
+    37.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 74.0,
+   "net": 74.0,
+   "counted": false
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": "818",
+   "name": "Cobus vd Stel",
+   "division": null,
+   "points": [
+    37.0,
+    37.0
+   ],
+   "discarded": [],
+   "total": 74.0,
+   "net": 74.0,
+   "counted": false
+  }
+ ],
+ "detail": {},
+ "eliminations": []
+}

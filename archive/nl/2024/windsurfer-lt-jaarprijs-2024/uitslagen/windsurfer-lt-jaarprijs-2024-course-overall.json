@@ -118,7 +118,8 @@
   "In de naamcel staat achter de naam het lichaamsgewicht; dat is niet overgenomen. De gewichtsklasse (division) is afgeleid uit de deelklassementen A-D in dezelfde pdf.",
   "De races zijn doorlopend genummerd over het seizoen. Aan wie er meedeed (dnc-patroon) is te zien dat de races in zes groepen zijn gevaren (1-5, 6-10, 11-15, 16-21, 22-26, 27-30): zes wedstrijddagen. Welke wedstrijddag bij welke groep hoort staat niet in de bron.",
   "De gewichtsklassen, Dames en Jeugd (U25) hebben in de pdf een eigen tabel met dezelfde races, herberekend binnen die groep; die staan als aparte uitslagen in het archief en tellen niet als extra start.",
-  "Afwijking in de bron, niet gecorrigeerd: bij Davey van Balen en Allessandro Papa is de netto-score een half punt hoger dan de som van de getoonde racepunten. Ze delen een plaats (race 18: Davey van Balen en Allessandro Papa allebei 26); de bron rekent daar kennelijk een half punt bij en toont het afgeronde getal."
+  "Afwijking in de bron, niet gecorrigeerd: bij Davey van Balen en Allessandro Papa is de netto-score een half punt hoger dan de som van de getoonde racepunten. Ze delen een plaats (race 18: Davey van Balen en Allessandro Papa allebei 26); de bron rekent daar kennelijk een half punt bij en toont het afgeronde getal.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -2138,7 +2139,7 @@
   },
   {
    "rank": 36,
-   "person": "reyer-vd-griendt",
+   "person": "jan-reyer-van-de-griendt",
    "sail": "NED 1616",
    "name": "Reyer vd Griendt",
    "nationality": "NED",
@@ -4871,7 +4872,7 @@
   },
   {
    "rank": 72,
-   "person": "andrea-pangrazi",
+   "person": null,
    "sail": "ITA 500",
    "name": "Andrea Pangrazi",
    "nationality": "ITA",
@@ -4949,7 +4950,8 @@
     6
    ],
    "total": null,
-   "net": 1660.0
+   "net": 1660.0,
+   "counted": false
   },
   {
    "rank": 73,
@@ -5034,7 +5036,7 @@
   },
   {
    "rank": 74,
-   "person": "tony-halma",
+   "person": null,
    "sail": "NED 2",
    "name": "Tony Halma",
    "nationality": "NED",
@@ -5112,7 +5114,8 @@
     6
    ],
    "total": null,
-   "net": 1692.0
+   "net": 1692.0,
+   "counted": false
   }
  ],
  "detail": {

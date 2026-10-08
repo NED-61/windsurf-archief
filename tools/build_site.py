@@ -110,7 +110,7 @@ def published_class(r):
 
 
 def counted(x):
-    """False voor een regel die volgens een regel van het archief niet meetelt (bijv. NK: alleen DNC/DNF)."""
+    """False voor een regel die niet meetelt (alleen DNC, DNF of DNS: niet meegevaren). Zo'n regel staat niet in de tabel op de site."""
     return x.get("counted") is not False
 
 
@@ -240,6 +240,7 @@ def result_table_elim(P, r, pre):
     head = "".join(f'<th scope="col" class="num" title="Eliminatie {i}">{i}</th>' for i in range(1, n_el + 1))
     rows = []
     for x in r["entries"]:
+        if not counted(x): continue
         disc = set(x.get("discarded") or [])
         notes = x.get("point_notes") or {}
         cells = []
@@ -255,8 +256,9 @@ def result_table_elim(P, r, pre):
                     + "".join(cells) + f'<td class="num">{fmt_pts(x.get("total"))}</td><td class="num tot">{fmt_pts(x.get("net"))}</td></tr>')
     cap = "Punten per eliminatie; weggelaten scores tussen haakjes. Laagste netto wint." if has_disc else \
           "Punten per eliminatie; laagste netto wint. Weglatingen zijn in deze bron niet gemarkeerd."
+    if r["format"].get("discards") == []: cap = "Punten per eliminatie; laagste totaal wint. Deze uitslag heeft geen weglatingen."
     nc = len(r["entries"]) - n_counted(r)
-    if nc: cap += f" Grijs: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)}; {'die telt' if nc == 1 else 'die tellen'} niet mee als deelnemer."
+    if nc: cap += f" Niet in de tabel: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)} ({'heeft' if nc == 1 else 'hebben'} niet meegevaren)."
     if r["format"].get("heats_published") is False: cap += " De heats en finales staan niet in de bron."
     return f"""<div class="tbl-wrap"><table class="res">
 <caption>{cap}</caption>
@@ -278,7 +280,9 @@ def nc_basis(r):
     f = r["format"]
     if f["type"] == "series_standings": return "zonder resultaat in een tellende race"
     if f["type"] == "elimination" and f.get("no_result_points") is not None and not r.get("eliminations"): return "zonder resultaat in alle eliminaties"
-    return "met alleen DNC of DNF"
+    if f["type"] == "long_distance": return "die niet gestart zijn (DNS)"
+    if r.get("aggregate"): return "zonder gevaren race in hun eigen categorie"
+    return "met alleen DNC, DNF of DNS"
 
 
 def result_table_ld(P, r, pre):
@@ -293,6 +297,7 @@ def result_table_ld(P, r, pre):
     has_fc = any(x.get("finish_clock") for x in ents)
     rows = []
     for x in ents:
+        if not counted(x): continue
         flag = f' <span class="flag" title="{esc(x["flag"])}">*</span>' if x.get("flag") else ""
         win = ' class="win"' if x.get("rank") == 1 else ""
         rows.append(f'<tr{win}>{rank_cell(x.get("rank"), x.get("remark"))}'
@@ -309,6 +314,8 @@ def result_table_ld(P, r, pre):
                     + f'<td>{remark_html(x.get("remark"))}</td></tr>')
     tb = r["format"].get("time_basis")
     rk = "Gerangschikt op aantal rondes, daarna op tijd." if has_laps else f'Rangschikking: {esc(r["format"].get("ranking") or "op tijd")}.'
+    nc = len(ents) - n_counted(r)
+    if nc: rk += f" Niet in de tabel: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} die niet gestart {'is' if nc == 1 else 'zijn'} (DNS)."
     return f"""<div class="tbl-wrap"><table class="res">
 <caption>{rk}{(' Tijd: ' + esc(tb) + '.') if tb else ''}</caption>
 <thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">M/V</th>' if has_g else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{'<th scope="col" class="num">Rondes</th>' if has_laps else ''}<th scope="col" class="num">Tijd</th>{'<th scope="col" class="num">Finish</th>' if has_fc else ''}{'<th scope="col" class="num">Overall</th>' if has_ov else ''}<th scope="col">Opmerking</th></tr></thead>
@@ -322,6 +329,7 @@ def result_table_series(P, r, pre):
     has_tot = any(x.get("total") is not None for x in ents)
     rows = []
     for x in ents:
+        if not counted(x): continue
         win = ' class="win"' if x.get("rank") == 1 else (' class="nc"' if not counted(x) else "")
         rows.append(f'<tr{win}>{rank_cell(x.get("rank"))}'
                     f'<th scope="row" class="nm">{rider_link(P, x.get("person"), x.get("name"), pre)}</th>'
@@ -331,7 +339,7 @@ def result_table_series(P, r, pre):
     if f.get("races_sailed") is not None:
         cap += f' {f["races_sailed"]} races gevaren, {f.get("discards", 0)} weglatingen. De punten per race staan niet in de bron.'
     nc = len(ents) - n_counted(r)
-    if nc: cap += f" Grijs: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)}; {'die telt' if nc == 1 else 'die tellen'} niet mee als deelnemer."
+    if nc: cap += f" Niet in de tabel: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)} ({'heeft' if nc == 1 else 'hebben'} niet meegevaren)."
     return f"""<div class="tbl-wrap"><table class="res">
 <caption>{cap}</caption>
 <thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th><th scope="col">Zeilnr.</th><th scope="col">Divisie</th>{'<th scope="col" class="num">Totaal</th>' if has_tot else ''}<th scope="col" class="num">Punten</th></tr></thead>
@@ -352,6 +360,7 @@ def result_table_fleet(P, r, pre):
     head = "".join(f'<th scope="col" class="num" title="Race {esc(c)}">{esc(c)}</th>' for c in races) if has_pts else ""
     rows = []
     for x in ents:
+        if not counted(x): continue
         disc = set(x.get("discarded") or [])
         rem = x.get("race_remarks") or {}
         cells = []
@@ -381,7 +390,7 @@ def result_table_fleet(P, r, pre):
     cap = ("Punten per race; laagste netto wint." if has_pts else "Punten per race zijn voor dit klassement niet gepubliceerd; laagste netto wint.") + (" Weggelaten scores tussen haakjes." if any(x.get("discarded") for x in ents) else "")           + (f" Puntentelling: {esc(sc)}." if sc else "") + (" Een * achter de plaats is zo gepubliceerd." if any("*" in str(x.get("rank_published") or "") for x in ents) else "")
     if r["format"].get("code_points") is not None: cap += f' Bij een code zonder punten telt de bron {fmt_pts(r["format"]["code_points"])} punten.'
     nc = len(ents) - n_counted(r)
-    if nc: cap += f" Grijs: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)}; {'die telt' if nc == 1 else 'die tellen'} niet mee als deelnemer."
+    if nc: cap += f" Niet in de tabel: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)} ({'heeft' if nc == 1 else 'hebben'} niet meegevaren)."
     return f"""<div class="tbl-wrap"><table class="res fleet">
 <thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">Categorie</th>' if has_cat else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{head}{'<th scope="col" class="num">Weggelaten</th>' if has_dp else ''}{'<th scope="col" class="num">Totaal</th>' if has_tot else ''}<th scope="col" class="num stick">Netto</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>

@@ -41,7 +41,8 @@
  "notes": [
   "Overgetikt van een foto; 39 riders, 4 races. Namen en zeilnummers zoals gepubliceerd. Een zeilnummercel zonder cijfer (een letter of streepjes) staat in sail_published; sail is dan leeg.",
   "Het blad heeft geen titel; welke wedstrijd het is komt van de gebruiker (zie event.json).",
-  "Bij een naam met het eigen zeilnummer erachter ('Erwin van Logchem (NED760)') staat dat nummer in sail, de zeilnummerkolom van het blad in sail_published en de volledige cel in name_published."
+  "Bij een naam met het eigen zeilnummer erachter ('Erwin van Logchem (NED760)') staat dat nummer in sail, de zeilnummerkolom van het blad in sail_published en de volledige cel in name_published.",
+  "Telt niet mee: 4 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -422,7 +423,7 @@
   },
   {
    "rank": 20,
-   "person": "arnout-den-boer",
+   "person": "arnoud-den-boer",
    "sail": "NED1008",
    "name": "Arnoud den Boer",
    "division": "men",
@@ -508,7 +509,7 @@
   },
   {
    "rank": 24,
-   "person": "peter-marinelli",
+   "person": null,
    "sail": "NED771",
    "name": "Peter Marinelli",
    "division": "men",
@@ -528,11 +529,12 @@
     4
    ],
    "total": 100.0,
-   "net": 75.0
+   "net": 75.0,
+   "counted": false
   },
   {
    "rank": 25,
-   "person": "bart-valke",
+   "person": null,
    "sail": null,
    "name": "Bart Valke",
    "sail_published": "i",
@@ -553,7 +555,8 @@
     4
    ],
    "total": 100.0,
-   "net": 75.0
+   "net": 75.0,
+   "counted": false
   },
   {
    "rank": 26,
@@ -819,7 +822,7 @@
   },
   {
    "rank": 38,
-   "person": "jeanine-de-ruiter",
+   "person": null,
    "sail": "F2",
    "name": "Jeanine de Ruiter",
    "division": "woman",
@@ -839,11 +842,12 @@
     4
    ],
    "total": 156.0,
-   "net": 117.0
+   "net": 117.0,
+   "counted": false
   },
   {
    "rank": 39,
-   "person": "mattia-dal-pont",
+   "person": null,
    "sail": "NED161",
    "name": "Mattia dal Pont",
    "division": "men",
@@ -863,7 +867,8 @@
     4
    ],
    "total": 156.0,
-   "net": 117.0
+   "net": 117.0,
+   "counted": false
   }
  ],
  "detail": {}

@@ -62,7 +62,7 @@
   "DNC, DNF en OCS staan in de bron zonder punten: het punt is null en de code staat in race_remarks. De kolom Subdivision (men, master, youth U20) staat in division; Fleet (Gold) en Division (Formula) zijn voor iedereen gelijk.",
   "Namen zoals gepubliceerd ('Teade de Jong', 'Marco vd Leer', 'Cobus vd Stel', 'Helse Wilkens', 'Steven Stratfold').",
   "Andere codes dan DNC (punten niet gepubliceerd, afgeleid uit het totaal): John Munten: OCS in R6 = samen 22 punten; Marco Bal: DNF in R5, DNF in R6 = samen 48 punten.",
-  "Telt niet mee: 13 ingeschreven rider(s) met alleen DNC of DNF in alle races tellen niet mee als deelnemer (regel voor NK's). Ze staan nog in de eindrangschikking zoals gepubliceerd, zonder koppeling aan een rider."
+  "Telt niet mee: 13 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {

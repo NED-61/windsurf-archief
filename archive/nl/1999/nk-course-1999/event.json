@@ -1,0 +1,27 @@
+{
+ "event_slug": "nk-course-1999",
+ "scope": "nl",
+ "name": "NK Race 1999",
+ "series": "NK Course",
+ "year": 1999,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "nk-1999-course-race-heren",
+  "nk-1999-course-race-dames",
+  "nk-1999-course-race-jeugd"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uit het archief van Adri Keet (NED-34); aangeleverd door de repo-eigenaar op 8 oktober 2026.",
+  "Gepubliceerd als 'Open Nederlandse Kampioenschappen Race 1999 - Eindstand' op www.ssn.nl/events/onk_results.htm (Stichting Surfpromotion Nederland); de bron is een scan van een afdruk van die pagina van 6 mei 1999. Het ONK Race staat in het archief onder de reeks NK Course.",
+  "Datum en locatie staan niet in de bron. De wedstrijd is vóór 6 mei 1999 gevaren (afdrukdatum).",
+  "Adri Keet (8 oktober 2026): deze uitslag en NK Formula 1999 vervangen de uitslag van Holland Surfpool 1999 wedstrijd 1."
+ ],
+ "organizer": "Stichting Surfpromotion Nederland",
+ "name_published": "Open Nederlandse Kampioenschappen Race 1999"
+}

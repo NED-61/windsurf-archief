@@ -1,0 +1,194 @@
+{
+ "schema_version": 1,
+ "id": "nk-2025-course-division-2-cat-c",
+ "event": {
+  "name": "NK Course 2025",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-09-27",
+  "location": "Heeg",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Division 2, Cat C",
+  "class_label_published": "Open Division 2 Cat C",
+  "equipment": "division 2"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 0,
+  "races_to_count": 4,
+  "discard_rule_published": "Global: 5",
+  "scoring_system": "Low Point (manage2sail); geen codes in deze klasse"
+ },
+ "source": {
+  "name": "ddfd2ca3-ccdd-4027-a7cc-f491473562da.pdf",
+  "url": null,
+  "file": "archive/nl/2025/nk-course-2025/bronnen/ddfd2ca3-ccdd-4027-a7cc-f491473562da.pdf",
+  "type": "pdf",
+  "retrieved": "2026-10-08",
+  "method": "pdfplumber: woordposities; punten en codes toegewezen aan de dichtstbijzijnde racekolom (tekst-pdf van manage2sail)",
+  "metadata_sources": [
+   {
+    "name": "opgave van de repo-eigenaar (deelnemer), 8 oktober 2026",
+    "url": null,
+    "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet); NK-titels: overall, jeugd tot en met 19 en masters"
+   }
+  ],
+  "verified": "8 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; elke code hoort bij 9 punten (8 riders + 1) en elke score van 9 heeft een code"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - Open Division 2 Cat C - Overall Results' (manage2sail; 'As of 29 SEP 2025 At 12:46').",
+  "De bron noemt de stand 'Overall Results', niet 'Final'. Het WSH-weekend (27 en 28 september 2025) was één enkele wedstrijd (opgave van de gebruiker, die zelf meedeed): dit is de einduitslag.",
+  "4 races gevaren (de kop toont meer racekolommen). Weglatingen: 'Discard rule: Global: 5' (één weglating vanaf 5 races); in deze klasse dus geen weglating. Codes staan in de bron onder de punten.",
+  "Namen zoals gepubliceerd (achternaam in hoofdletters). Geen divisies of leeftijdsklassen in deze bron."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "alain-cadre",
+   "sail": "F1131",
+   "name": "Alain CADRE",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 4.0,
+   "net": 4.0
+  },
+  {
+   "rank": 2,
+   "person": "marc-de-barse",
+   "sail": "NED 263",
+   "name": "Marc de BARSE",
+   "division": null,
+   "points": [
+    6.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 12.0,
+   "net": 12.0
+  },
+  {
+   "rank": 3,
+   "person": "peter-wauters",
+   "sail": "BEL 121",
+   "name": "Peter WAUTERS",
+   "division": null,
+   "points": [
+    2.0,
+    3.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 12.0,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "francois-leduey",
+   "sail": "FRA 1841",
+   "name": "Francois LEDUEY",
+   "division": null,
+   "points": [
+    5.0,
+    5.0,
+    5.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 5,
+   "person": "erwin-van-der-wiel",
+   "sail": "NED 765",
+   "name": "Erwin van der WIEL",
+   "division": null,
+   "points": [
+    3.0,
+    4.0,
+    6.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 20.0,
+   "net": 20.0
+  },
+  {
+   "rank": 6,
+   "person": "simon-reynolds",
+   "sail": "GBR 211",
+   "name": "Simon REYNOLDS",
+   "division": null,
+   "points": [
+    7.0,
+    7.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 23.0,
+   "net": 23.0
+  },
+  {
+   "rank": 7,
+   "person": "georges-van-wensveen",
+   "sail": "NED 612",
+   "name": "Georges van WENSVEEN",
+   "division": null,
+   "points": [
+    4.0,
+    6.0,
+    7.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 23.0,
+   "net": 23.0
+  },
+  {
+   "rank": 8,
+   "person": "brian-kasto",
+   "sail": "NED 211",
+   "name": "Brian KASTO",
+   "division": null,
+   "points": [
+    8.0,
+    8.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  }
+ ],
+ "detail": {}
+}

@@ -2,7 +2,7 @@
 """Losse levering van 3 oktober 2026: 38 bestanden uit het archief van Adri Keet (NED-34), aangeleverd door de repo-eigenaar.
 
 Zet om (scope nl):
-- NK Funboard 1998: KNWV-stand na Zandvoort (26 races, tussenstand)
+- NK Funboard 1998: KNWV-stand na Zandvoort (26 races; eindstand volgens de gebruiker, 8 oktober 2026)
 - Holland Surfpool 1999, wedstrijd 1 (Monnickendam)
 - NK Course 2000: ONK Race 2000, eindstand heren, dames en jeugd
 - NK Course 2008: 'ONK 2008', stand na 4 races
@@ -53,15 +53,16 @@ EVENTS = {
         "discipline": "funboard", "name_published": "KNWV - Persberichten: stand na Zandvoort", "organizer": "KNWV",
         "meta_sources": [KAL("Kalender89.doc", "wedstrijdkalender 1998 (aangemaakt 14 april 1998): Grevelingen 1-3 mei, Katwijk 16/17 mei, Zandvoort 30 mei-1 juni, Noordwijk 6/7 juni, Almere 13 juni, Hargen 4/5 juli, Hoek van Holland 29/30 augustus, Wijk aan Zee 5/6 september, Scheveningen 19/20 september. Welke wedstrijd bij welke races hoort staat niet in de bron.")],
         "notes": [HERKOMST,
-                  "Seizoensklassement funboard 1998 van het KNWV ('KNWV - Persberichten'). In het archief onder 'NK Funboard' gezet: AANNAME. Onderbouwing: het is de landelijke KNWV-reeks, en de erelijst van Adri Keet (master_results_06.doc) noemt '1998 Dutch funboard Nationals: 1'; hij staat in deze stand eerste. De bron zelf noemt het woord NK niet.",
-                  "Alleen de stand na Zandvoort (26 races, bestand van 10-15 september 1998) is omgezet. Niet bekend of dit de eindstand is: het rekenblad is opgezet voor 35 races en op de kalender stond daarna nog Scheveningen (19/20 september). Daarom als tussenstand opgenomen.",
+                  "Seizoensklassement funboard 1998 van het KNWV ('KNWV - Persberichten'). In het archief onder 'NK Funboard' gezet; die naam is door de gebruiker bevestigd (8 oktober 2026). Onderbouwing: het is de landelijke KNWV-reeks, en de erelijst van Adri Keet (master_results_06.doc) noemt '1998 Dutch funboard Nationals: 1'; hij staat in deze stand eerste. De bron zelf noemt het woord NK niet.",
+                  "De stand na Zandvoort (26 races, bestand van 10-15 september 1998) is de eindstand van 1998 (opgave van de gebruiker, 8 oktober 2026). Het rekenblad was opgezet voor 35 races en op de kalender stond daarna nog Scheveningen (19/20 september); een afdruk van 21 september 1998 telt nog steeds 26 races.",
                   "De losse wedstrijden (welke races op welke locatie en datum) staan niet in de bron. results.xls (18 mei 1998) bevat de uitslag van de eerste twee wedstrijden (7 en 4 races, met codes dsq/dnf); die zijn nog niet als losse stops verwerkt omdat locatie en datum niet in het bestand staan."]},
     "holland-surfpool-1999-stop1": {"scope": "nl", "year": 1999, "name": "Holland Surfpool 1999, wedstrijd 1", "series": "Holland Surfpool", "stop_number": 1,
         "date": None, "date_end": None, "location": "Monnickendam", "discipline": None, "name_published": "Holland Surfpool - Monnickendam - Results",
         "meta_sources": [],
         "notes": [HERKOMST,
                   "Naam en locatie uit de titel van het Excel-bestand ('Holland Surfpool - Monnickendam - Results') en de bestandsnaam 'Uitslag HSP1 99'. Het bestand is op maandag 19 april 1999 aangemaakt; de wedstrijddatum zelf staat er niet in en is niet ingevuld.",
-                  "De discipline (course race of slalom) staat niet in de bron."]},
+                  "De discipline (course race of slalom) staat niet in de bron.",
+                  "UIT HET ARCHIEF GEHAALD op 8 oktober 2026, op aanwijzing van Adri Keet: 'HSP was een eerste stop van een freestyle race toer, maar niemand weet meer wat het voor serie was. Ook geen verdere uitslagen.' De uitslag (31 riders) is vervangen door NK Race 1999 en NK Formula 1999; het bronbestand staat nog in bronnen/. Dit evenement heeft daarom geen uitslag en wordt op de site niet getoond."]},
     "nk-course-2000": {"scope": "nl", "year": 2000, "name": "NK Course 2000", "series": "NK Course", "date": None, "date_end": None, "location": None,
         "discipline": "course_race", "name_published": "ONK Race 2000", "organizer": "Stichting Zuid-Holland Windsurfing",
         "meta_sources": [],
@@ -96,7 +97,7 @@ EVENTS = {
     "nk-course-2009-stop2": {"scope": "nl", "year": 2009, "name": "NK Course 2009, stop 2 (Scheveningen)", "series": "NK Course", "stop_number": 2,
         "date": "2009-05-30", "date_end": "2009-06-01", "location": "Scheveningen", "discipline": "course_race",
         "meta_sources": [KAL("kalender 2009.xls", "weekeinde van 30 mei 2009: NK Scheveningen (planning)")],
-        "notes": [HERKOMST, "Geen uitslag in het archief. Alleen een verslag van Adri Keet (Scheveningen2009.doc, 2-3 juni 2009; bewaard in local-only/, niet gepubliceerd): 'tweede ronde van het NK', zaterdag tot en met maandag (Pinksteren), zeven races gevaren; Adri Keet derde, Dennis en Dirk op plaats 1 en 2 (volgorde staat er niet).",
+        "notes": [HERKOMST, "Verslag van Adri Keet (Scheveningen2009.doc, 2-3 juni 2009; bewaard in local-only/, niet gepubliceerd): 'tweede ronde van het NK', zaterdag tot en met maandag (Pinksteren), zeven races gevaren; Adri Keet derde, Dennis en Dirk op plaats 1 en 2 (volgorde staat er niet).",
                   "Data afgeleid: de kalender noemt het weekeinde van 30 mei; het verslag noemt zaterdag, zondag en maandag."]},
     "nk-course-2010-0501": {"scope": "nl", "year": 2010, "name": "NK Course 2010, Grevelingen", "series": "NK Course", "date": "2010-05-01", "date_end": "2010-05-02",
         "location": "Grevelingen", "discipline": "course_race",
@@ -142,7 +143,8 @@ SOURCES = {
     "standna Hargen.xls": dict(ev="nk-funboard-1998", type="xlsx", kind="uitslag", status="overgeslagen", notes="eerdere tussenstand (na Hargen, 23 races, juli 1998); dezelfde racepunten staan in de stand na Zandvoort, zie de controle in de uitslag"),
     "standna Hargen35races.xls": dict(ev="nk-funboard-1998", type="xlsx", kind="uitslag", status="overgeslagen", notes="werkversie van het rekenblad (opgezet voor 35 races, afgedrukt 11 september 1998); zelfde punten als de stand na Zandvoort"),
     "results.xls": dict(ev="nk-funboard-1998", type="xlsx", kind="uitslag", status="wacht", notes="uitslag van de eerste twee wedstrijden van 1998 (7 en 4 races, 45 en 40 riders, met codes dsq/dnf); nog niet als losse stops verwerkt: locatie en datum staan niet in het bestand (18 mei 1998)"),
-    "Uitslag HSP1 99.xls": dict(ev="holland-surfpool-1999-stop1", type="xlsx", kind="uitslag", status="wacht", notes=None),
+    "Uitslag HSP1 99.xls": dict(ev="holland-surfpool-1999-stop1", type="xlsx", kind="uitslag", status="overgeslagen",
+        notes="uitslag van de eerste wedstrijd van de Holland Surfpool 1999 (Monnickendam, 31 riders, 6 races); op 8 oktober 2026 uit het archief gehaald op aanwijzing van Adri Keet (onbelangrijke wedstrijd; vervangen door NK Race 1999 en NK Formula 1999). De bron is bewaard"),
     "ONK2000_eindstand.doc": dict(ev="nk-course-2000", type="text", kind="uitslag", status="wacht", private=True, notes="bevat per rider de woonplaats; daarom niet in git maar in local-only/"),
     "NK2008.xlsx": dict(ev="nk-course-2008", type="xlsx", kind="uitslag", status="wacht", notes="geen origineel: aangemaakt op 1 oktober 2026"),
     "RACE-03102009metAftrek_rev.xls": dict(ev="slalom-xl-2009-1003", type="xlsx", kind="uitslag", status="wacht", notes="herziene eindstand (6 oktober 2009, bewerkt door Adri Keet)"),
@@ -224,8 +226,8 @@ CALENDAR = [
     *[(2009, d, None, "SLXL Almere (Slalom XL)", "nl", None, None, K09) for d in ("04-25", "06-06", "09-26")],
     (2009, "05-16", None, "SLXL Almere (Slalom XL)", "nl", None, "in de kalender: 'af laten vallen' (vervallen)", K09),
     (2009, "10-03", None, "SLXL Almere (Slalom XL)", "nl", "slalom-xl-2009-1003", None, K09),
-    (2009, "05-02", None, "NK Grevelingen", "nl", None, "weekeinde van 2 mei", K09), (2009, "05-23", None, "Islandrace (Almere)", "nl", None, None, K09),
-    (2009, "05-30", "06-01", "NK Scheveningen", "nl", "nk-course-2009-stop2", "alleen een verslag, geen uitslag", K09), (2009, "06-20", None, "NK Techno (Almere)", "nl", None, "zelfde weekeinde: reservedatum NK Scheveningen", K09),
+    (2009, "05-02", None, "NK Grevelingen", "nl", "nk-course-2009-stop1", "weekeinde van 2 mei", K09), (2009, "05-23", None, "Islandrace (Almere)", "nl", None, None, K09),
+    (2009, "05-30", "06-01", "NK Scheveningen", "nl", "nk-course-2009-stop2", None, K09), (2009, "06-20", None, "NK Techno (Almere)", "nl", None, "zelfde weekeinde: reservedatum NK Scheveningen", K09),
     (2009, "06-08", "06-13", "WK Slalom Texel", "internationaal", "wk-slalom-2009", "alleen een verslag, geen uitslag", K09), (2009, "08-22", None, "Mission", "nl", None, None, K09),
     (2009, "09-05", None, "NK Almere", "nl", None, "weekeinde van 5 september", K09), (2009, "10-10", None, "NK Makkum", "nl", None, "weekeinde van 10 oktober", K09),
     (2009, "10-17", "10-24", "NK Slalom reservedata", "nl", None, "reserveweekeinden 17 en 24 oktober", K09),
@@ -368,16 +370,15 @@ def build_funboard_1998():
            "scoring_system": f"lage punten: winnaar 0,7 punt, daarna de plaats; geen resultaat in een race = {n} punten (het aantal riders in de stand); gedeelde plaatsen krijgen het gemiddelde (bijv. 15,5). Zoals waargenomen; de bron noemt geen systeem",
            "points_published": "punten per race, zonder statuscodes"}
     notes = ["Stand na Zandvoort van het KNWV-funboardseizoen 1998: 26 races, 5 weglatingen. Bestand 'Stand na Zandvoort compleet.xls' (aangemaakt 15 september 1998) met de punten per race; de persversie 'stand na Zandvoort.xls' (10 september 1998, titel 'KNWV - Persberichten') geeft alleen de netto-score, met zeilmerk, plankmerk en sponsors.",
-             "TUSSENSTAND: niet bekend of dit de eindstand is. Het rekenblad is opgezet voor 35 races en op de kalender 1998 stond na deze stand nog Scheveningen (19/20 september).",
-             f"De bron geeft geen statuscodes (DNC, DNF, DSQ). {n} punten is 'geen resultaat'; andere hoge scores (bijv. 20 of 35 in een wedstrijd met minder starters) zijn waarschijnlijk DSQ of DNF van die wedstrijd, maar dat staat er niet. De NK-regel (alleen DNC/DNF telt niet mee) is daarom niet toe te passen; alle {n} riders hebben minstens één resultaat.",
+             "Eindstand van het seizoen 1998 (opgave van de gebruiker, 8 oktober 2026); de bron zelf heet 'stand na Zandvoort'. Het rekenblad is opgezet voor 35 races, er zijn er 26 gevaren; een afdruk van 21 september 1998 ('NK Race 1997.pdf') telt dezelfde 26 races.",
+             f"De bron geeft geen statuscodes (DNC, DNF, DSQ). {n} punten is 'geen resultaat'; andere hoge scores (bijv. 20 of 35 in een wedstrijd met minder starters) zijn waarschijnlijk DSQ of DNF van die wedstrijd, maar dat staat er niet. De telregel (alleen DNC, DNF of DNS telt niet mee) is daarom niet toe te passen; alle {n} riders hebben minstens één resultaat.",
              "De bron geeft de zeven slechtste resultaten per rider en trekt de vijf slechtste af; welke races dat zijn staat er niet bij (discard_points).",
              "Categorie (kolom 'C': h, j, d) uitgeschreven als Heren, Jeugd, Dames. Zeilnummers met de landletter van toen (H = Nederland, B = België, F = Frankrijk).",
              "Welke races bij welke wedstrijd horen staat niet in de bron. results.xls (18 mei 1998) laat zien dat R1-R7 de eerste wedstrijd en R8-R11 de tweede wedstrijd zijn."]
     if dev: notes.append(f"De persversie rondt bij {len(dev)} rider(s) anders af (gedeelde plaatsen): daar een halve punt meer dan in de volledige versie. De volledige versie is aangehouden.")
     doc = fleet_doc(slug, "nk-1998-funboard-overall", "Overall", "KNWV - stand na Zandvoort (h, j en d in één klassement)", None, entries, fmt, [src, pers],
                     "KNWV-stand na Zandvoort 1998 (Excel)", "xlsx", "xlrd: eerste werkblad, kolommen op positie (Pl., Naam, C, Zeil nr., R1-R26, slechtste resultaten, Totaal, Aftrek, -Aftrek)",
-                    checks, notes, coverage="partial", provisional=True,
-                    provisional_note="Tussenstand na 26 races (stand na Zandvoort, september 1998). Niet bekend of dit de eindstand van het seizoen is.")
+                    checks, notes)
     doc["detail"] = {"deviations": dev}
     return [doc]
 
@@ -466,7 +467,7 @@ def build_course_2000():
                  "In deze klasse zijn alle 16 kolommen gevuld (16 races); bij de heren en de jeugd zijn R15 en R16 leeg (14 races).",
                  f"Hoogste racescore {mx:g} = aantal riders + 1: geen resultaat in die race (of een andere straf; de bron geeft geen codes). Gelijke scores bij meerdere riders in één race komen in de bron voor en zijn zo overgenomen.",
                  "De kolom Woonplaats is niet overgenomen (privégegevens); om die kolom staat het origineel in local-only/ en niet in git. De kolom Vereniging staat in club.",
-                 "De bron geeft geen statuscodes; de NK-regel (alleen DNC/DNF telt niet mee) is daarom niet toe te passen."]
+                 "De bron geeft geen statuscodes; de telregel (alleen DNC, DNF of DNS telt niet mee) is daarom niet toe te passen."]
         out.append(fleet_doc(slug, f"nk-2000-course-race-{cslug}", label, title, gender, entries, fmt, [src], "ONK Race 2000: eindstand (Word-document)", "text",
                              "LibreOffice (doc naar html) en BeautifulSoup: drie tabellen (heren, dames, jeugd), cel voor cel; decimale komma omgezet", checks, notes))
     return out
@@ -592,7 +593,7 @@ def build_slxl_2009():
              "Weggelaten scores staan in de bron tussen haakjes. Bij een rider zonder haakjes (de weglating is dan een 36) staat de weggelaten score in discard_points. Het totaal vóór aftrek is niet gepubliceerd; 'Totaal' in de bron is de netto-score.",
              "DNF per race komt uit de racebladen ('print Race 1-6') in hetzelfde bestand; PMS uit de eindstand. Een DNF op het raceblad kan ook 'niet gestart' betekenen: de bron maakt dat onderscheid niet.",
              "Gedeelde plaatsen zoals gepubliceerd (5, 12 en 31)" + (", met in de bron de toelichting " + "; ".join(remarks_tie) if remarks_tie else "") + ".",
-             "Vijf riders hebben in alle races 36 punten (niet gefinisht of niet gestart); buiten NK's blijven die meetellen als ingeschreven deelnemer."]
+             "Vijf riders hebben in alle races 36 punten (niet gefinisht of niet gestart)."]
     if devs: notes.append("Afwijking in de bron: bij " + " en ".join(d["rider"] for d in devs) + " is de gepubliceerde netto-score 1 punt hoger dan de som van de racepunten (bij de herziening is hun plaats in race 3 met 1 verhoogd, het totaal met 2). Zoals gepubliceerd overgenomen; de plaats in de eindstand verandert er niet door.")
     if mism: notes.append("De racebladen in het bestand zijn niet bijgewerkt bij de herziening; ze wijken in race 3 af van de eindstand: " + "; ".join(mism) + ".")
     if changes: notes.append("Gewijzigd ten opzichte van de stand van de wedstrijddag (3 oktober): " + "; ".join(changes) + ". Verder zijn namen aangevuld ('Adrie' -> 'Adri Keet', 'Leon' -> 'Leon Row', 'Kristina' -> 'Kristina Scheffe', 'Mark Stad' -> 'Mark Staal') en zeilnummers ingekort ('NED-103, 52, 13' -> 'NED-103').")
@@ -650,7 +651,10 @@ def build_slxl_2010():
                       "xlrd: werkblad 'Blad4', de overall-lijst links (kolommen Naam, Zeilnummer, Klasse, Fleet, races 1-3, sub, races 4-6, tot)", checks, notes)]
 
 
-BUILDERS = [("nk-funboard-1998", build_funboard_1998), ("holland-surfpool-1999-stop1", build_hsp_1999), ("nk-course-2000", build_course_2000),
+# Holland Surfpool 1999 is op 8 oktober 2026 uit het archief gehaald (aanwijzing Adri Keet: onbelangrijke wedstrijd, vervangen door NK Race 1999 en
+# NK Formula 1999, zie import_keet2.py). build_hsp_1999 staat er nog, maar wordt niet meer aangeroepen; de bron blijft bewaard.
+DROPPED = {"holland-surfpool-1999-stop1"}
+BUILDERS = [("nk-funboard-1998", build_funboard_1998), ("nk-course-2000", build_course_2000),
             ("nk-course-2008", build_course_2008), ("slalom-xl-2009-1003", build_slxl_2009), ("slalom-xl-2010-1023", build_slxl_2010)]
 
 
@@ -687,6 +691,11 @@ def register_sources(dry):
     return moved
 
 
+def cal_dir(scope, year, slug):
+    """Map van een evenement uit de kalender; het evenement kan van een andere importer zijn (import_keet2.py)."""
+    return ROOT / "archive" / scope / str(year) / slug
+
+
 def register_calendar(dry):
     """Geplande wedstrijden uit de kalenders als registry-regels (channel 'kalender'): wacht = nog geen uitslag in het archief."""
     reg = A.load(); today = str(date.today())
@@ -696,18 +705,19 @@ def register_calendar(dry):
         ref = f"kalender:{year}-{a}:{L.slugify(name)}"
         assert ref not in seen, ref
         seen[ref] = 1
-        has_result = bool(slug) and any((ev_dir(slug) / "uitslagen").glob("*.json")) if slug else False
+        has_result = bool(slug) and any((cal_dir(scope, year, slug) / "uitslagen").glob("*.json")) if slug else False
         it = {"ref": ref, "received": RECEIVED, "type": "kalender", "status": "overgeslagen" if has_result else "wacht", "updated": today, "scope": scope,
               "channel": "kalender", "kind": "uitslag", "source": SRC, "year": year, "date": f"{year}-{a}", "date_end": f"{year}-{b}" if b else None,
               "title": name, "calendar": rel(dest_of(f)),
-              "notes": "; ".join(x for x in (f"uitslag staat in het archief: {rel(ev_dir(slug))}" if has_result else "gepland volgens de kalender",
-                                             f"evenement in het archief (zonder uitslag): {rel(ev_dir(slug))}" if slug and not has_result else None, note) if x)}
+              "notes": "; ".join(x for x in (f"uitslag staat in het archief: {rel(cal_dir(scope, year, slug))}" if has_result else "gepland volgens de kalender",
+                                             f"evenement in het archief (zonder uitslag): {rel(cal_dir(scope, year, slug))}" if slug and not has_result else None, note) if x)}
         reg["items"].append(it)
     if not dry: A.save(reg)
     return len(seen), sum(1 for i in reg["items"] if i.get("channel") == "kalender" and i["status"] == "wacht")
 
 
-RETIRED = ("\x00",)       # begin van eerdere notes van deze importer die niet meer kloppen (bij een herhaalde run weggehaald)
+RETIRED = ("\x00", "Geen uitslag in het archief. Alleen een verslag van Adri Keet (Scheveningen2009.doc",
+           "Seizoensklassement funboard 1998 van het KNWV", "Alleen de stand na Zandvoort (26 races")       # begin van eerdere notes van deze importer die niet meer kloppen (bij een herhaalde run weggehaald)
 
 
 def event_doc(slug, rs):
@@ -717,7 +727,10 @@ def event_doc(slug, rs):
     notes = [n for n in old.get("notes", []) if n not in ev["notes"] and not n.startswith(RETIRED)] + ev["notes"]
     doc = {**old, "event_slug": slug, "scope": ev["scope"], "name": ev["name"], "series": ev["series"], "year": ev["year"],
            "stop_number": ev.get("stop_number"), "stops_known": None, "date": ev["date"], "date_end": ev["date_end"], "location": ev["location"],
-           "discipline": ev["discipline"], "classes": [r["id"] for r in rs], "metadata_sources": ev["meta_sources"], "notes": notes}
+           "discipline": ev["discipline"],
+           # een evenement zonder builder hier kan zijn uitslag van een andere importer hebben (import_keet2.py): die klassen blijven staan
+           "classes": [r["id"] for r in rs] if (slug in dict(BUILDERS) or slug in DROPPED) else old.get("classes", []),
+           "metadata_sources": ev["meta_sources"], "notes": notes}
     for k in ("short_name", "organizer", "name_published"):
         if ev.get(k): doc[k] = ev[k]
     return doc
