@@ -1,0 +1,628 @@
+{
+ "schema_version": 1,
+ "id": "nvw-cup-2025-0913-slalom-groep-1-amateurfleet-fin-1",
+ "event": {
+  "name": "NVW Cup 2025, Brouwersdam",
+  "scope": "nl",
+  "series": "NVW Cup",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-09-13",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Groep 1 - Amateurfleet Fin 1",
+  "class_label_published": "Groep 1 - Amateurfleet Fin 1",
+  "equipment": "fin"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R.1",
+   "R.2",
+   "R.3",
+   "R.4"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF, DNS gescoord als 11 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "ifca_elimination"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/c4f05838",
+  "file": "archive/nl/2025/nvw-cup-2025-0913/bronnen/winterwave-nvw-cup-13-14-september-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'nvw-cup-2-onk-slalom-13-en-14-september' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20250320113802/https://www.wedstrijdsurfen.nl/evenement/nvw-cup-2-onk-slalom-13-en-14-september/",
+    "used_for": "NVW Cup #2 (+ ONK Slalom), 13 en 14 september 2025, slalom (fin en foil) (planning)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+    "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+    "used_for": "13-14 september, Brouwersdam: NVW Cup Slalom Fin en Foil gaat door, geen kwalificatie voor het ONK; een breed toegankelijk weekend met training en wedstrijden voor amateur- en profleet (22 juli 2025)"
+   }
+  ],
+  "verified": "11 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (11x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Groep 1 - Amateurfleet Fin 1 - NVW Cup 13 en 14 september'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Bij een zeilnummercel met meer delen staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published.",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "sebastiaan-reek",
+   "sail": "ned-925",
+   "bib": "179",
+   "sail_published": "179 / ned-925",
+   "name": "Sebastiaan Reek",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    3.0,
+    2.0,
+    8.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 15.0,
+   "net": 7.0
+  },
+  {
+   "rank": 2,
+   "person": "martijn-van-der-pluijm",
+   "sail": null,
+   "bib": "237",
+   "sail_published": "237 /",
+   "name": "Martijn van pluijm",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    11.0,
+    3.0,
+    4.0,
+    0.7
+   ],
+   "race_remarks": {
+    "R.1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 18.7,
+   "net": 7.7
+  },
+  {
+   "rank": 3,
+   "person": "patrick-van-mol",
+   "sail": null,
+   "bib": "223",
+   "sail_published": "223 /",
+   "name": "Patrick Van Mol",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    0.7,
+    11.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R.2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 21.7,
+   "net": 10.7
+  },
+  {
+   "rank": 4,
+   "person": "monica-van-der-pluijm",
+   "sail": null,
+   "bib": "193",
+   "sail_published": "193 /",
+   "name": "Monica van der Pluijm",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    11.0,
+    11.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 27.0,
+   "net": 16.0
+  },
+  {
+   "rank": 5,
+   "person": "dmitriy-kropiventsev",
+   "sail": null,
+   "bib": "197",
+   "sail_published": "197 /",
+   "name": "Dmitriy Kropiventsev",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    2.0,
+    11.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R.2": "DNF"
+   },
+   "discarded": [
+    2
+   ],
+   "total": 27.0,
+   "net": 16.0
+  },
+  {
+   "rank": 6,
+   "person": "sander-van-gelderen",
+   "sail": "Ned-766",
+   "bib": "185",
+   "sail_published": "185 / Ned-766",
+   "name": "Sander van Gelderen",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    11.0,
+    0.7,
+    11.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 27.7,
+   "net": 16.7
+  },
+  {
+   "rank": 7,
+   "person": "iris-gimpel",
+   "sail": "NED 567",
+   "bib": "170",
+   "sail_published": "170 / NED 567",
+   "name": "Iris Gimpel",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    11.0,
+    11.0,
+    0.7,
+    8.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 30.7,
+   "net": 19.7
+  },
+  {
+   "rank": 8,
+   "person": "maarten-vd-bogaart",
+   "sail": "Ned 529",
+   "bib": "240",
+   "sail_published": "240 / Ned 529",
+   "name": "Maarten vd Bogaart",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    11.0,
+    11.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 33.0,
+   "net": 22.0
+  },
+  {
+   "rank": 9,
+   "person": "michiel-schoonwater",
+   "sail": null,
+   "bib": "230",
+   "sail_published": "230 /",
+   "name": "Michiel Schoonwater",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    11.0,
+    11.0,
+    3.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R.1": "DNS",
+    "R.2": "DNS",
+    "R.4": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 36.0,
+   "net": 25.0
+  },
+  {
+   "rank": 10,
+   "person": "arno-hendriks",
+   "sail": null,
+   "bib": "235",
+   "sail_published": "235 /",
+   "name": "Arno Hendriks",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    11.0,
+    11.0,
+    11.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 42.0,
+   "net": 31.0
+  },
+  {
+   "rank": 11,
+   "person": null,
+   "sail": "NED300",
+   "sail_published": "/ NED300",
+   "name": "Arjan Vos",
+   "nationality": "NED",
+   "division": "Amateurfleet Fin",
+   "points": [
+    11.0,
+    11.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 44.0,
+   "net": 33.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R.1",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "patrick-van-mol",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "dmitriy-kropiventsev",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "sebastiaan-reek",
+        "result_published": "3.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Arjan Vos",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "martijn-van-der-pluijm",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "monica-van-der-pluijm",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sander-van-gelderen",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maarten-vd-bogaart",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "iris-gimpel",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arno-hendriks",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "michiel-schoonwater",
+        "result_published": "11",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.2",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "sander-van-gelderen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sebastiaan-reek",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "martijn-van-der-pluijm",
+        "result_published": "3.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Arjan Vos",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "iris-gimpel",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arno-hendriks",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maarten-vd-bogaart",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "monica-van-der-pluijm",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "patrick-van-mol",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "dmitriy-kropiventsev",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "michiel-schoonwater",
+        "result_published": "11",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.3",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "iris-gimpel",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "monica-van-der-pluijm",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "michiel-schoonwater",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "martijn-van-der-pluijm",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "maarten-vd-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "patrick-van-mol",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "dmitriy-kropiventsev",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "sebastiaan-reek",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "sander-van-gelderen",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Arjan Vos",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arno-hendriks",
+        "result_published": "11",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.4",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "martijn-van-der-pluijm",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sebastiaan-reek",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "monica-van-der-pluijm",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "patrick-van-mol",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "sander-van-gelderen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "maarten-vd-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "dmitriy-kropiventsev",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "iris-gimpel",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "arno-hendriks",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "michiel-schoonwater",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Arjan Vos",
+        "result_published": "11",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

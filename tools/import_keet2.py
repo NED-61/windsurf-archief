@@ -11,7 +11,9 @@ Zet om (scope nl):
 - NK Course 2007: 'NK07 overall' (Excel + html-export daarvan), 25 races.
 - NK Slalom 2007: totaaluitslag over twee eliminaties (Excel-export).
 - NK Course 2009 stop 1 (Grevelingendam, 2/3 mei) en stop 2 (Scheveningen, North Sea Regatta), Sailwave.
-- NK Course 2025: 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025' (manage2sail), vier klassen.
+- WSH Windsurf Weekend 2025 (Heeg): 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025' (manage2sail), vier klassen. Stond tot
+  12 oktober 2026 als NK Course 2025 in het archief; volgens de gebruiker was het geen ONK (het ONK Foil Course 2025 was in Medemblik,
+  zie tools/import_winterwave.py).
 
 Geregistreerd zonder nieuwe uitslag:
 - 'NK Race 1997.pdf': een afdruk van 21 september 1998 van de KNWV-stand 1998 die al in het archief staat (nk-funboard-1998).
@@ -132,15 +134,22 @@ EVENTS = {
          "Data afgeleid: de kalender noemt het weekeinde van 30 mei; het verslag noemt zaterdag, zondag en maandag."],
         stop_number=2, name_published="Uitslag North Sea Regatta 2009 WINDSURFEN Gold Fleet",
         meta_sources=[KAL("kalender 2009.xls", "weekeinde van 30 mei 2009: NK Scheveningen (planning)")]),
-    "nk-course-2025": ev(2025, "NK Course 2025", "2025-09-27", "2025-09-28", "Heeg",
-        ["Gepubliceerd als 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025' (manage2sail, rapporten van maandag 29 september 2025, 12:46-12:48). ODC = Open Dutch Championship; daarom onder de reeks NK Course, zoals de ODC Formula Foil van 2024.",
-         "NK-titels volgens de gebruiker (8 oktober 2026): overall, jeugd tot en met 19 jaar en masters. De bron geeft geen leeftijd of categorie per rider, dus een aparte jeugd- en mastersuitslag is uit deze uitslagen niet af te leiden; in het archief staat alleen het overall-klassement per klasse.",
-         "Datum (zaterdag 27 en zondag 28 september 2025) volgens de gebruiker, die zelf meedeed; in de bron staat alleen de datum van de rapporten. Locatie AFGELEID uit de organisator: WSH = WaterSportvereniging Heeg (zo vastgesteld bij de editie 2024); de plaats staat niet in de bron.",
+    "wsh-windsurf-weekend-2025": ev(2025, "WSH Windsurf Weekend 2025", "2025-09-27", "2025-09-28", "Heeg",
+        ["Gepubliceerd als 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025' (manage2sail, rapporten van maandag 29 september 2025, 12:46-12:48).",
+         "Geen NK: volgens de gebruiker (12 oktober 2026) was dit weekend geen ONK; het NK Course 2025 was de ONK Foil Course in Medemblik (19-21 september 2025, zie nk-course-2025). De NVW meldde op 22 juli 2025 dat het course-evenement in Heeg dat jaar geen kwalificatie voor het ONK was (in 2024 was Heeg dat wel). In de NVW-planning van maart 2025 heette het weekend nog 'ONK DIV II en Foil Course' (TBC). Van 8 tot 12 oktober 2026 stond deze wedstrijd in het archief als NK Course 2025 (op grond van 'ODC' in de naam).",
+         "Datum (zaterdag 27 en zondag 28 september 2025) volgens de gebruiker, die zelf meedeed, en de NVW-planning; in de bron staat alleen de datum van de rapporten. Locatie: WSH = WaterSportvereniging Heeg; de NVW-planning noemt It Eilan 64, Heeg.",
          "Eén enkele wedstrijd (opgave van de gebruiker): anders dan in 2024 zijn er voor deze uitslagen geen races elders gevaren. De bron noemt de uitslagen 'Overall Results'; het zijn dus de einduitslagen.",
          WSH_FUN],
-        organizer="WaterSportvereniging Heeg (WSH)", name_published="WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025",
+        series="WSH Windsurf Weekend", organizer="WaterSportvereniging Heeg (WSH)", name_published="WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025",
         meta_sources=[{"name": "opgave van de repo-eigenaar (deelnemer), 8 oktober 2026", "url": None,
-                       "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet); NK-titels: overall, jeugd tot en met 19 en masters"}]),
+                       "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet)"},
+                      {"name": "opgave van de repo-eigenaar, 12 oktober 2026", "url": None, "used_for": "het WSH-weekend in Heeg was geen ONK; het ONK Foil Course 2025 was in Medemblik"},
+                      {"name": "wedstrijdsurfen.nl (NVW): evenementpagina 'tbc-onk-div-ii-en-foil-course-27-28-september-heeg' (Wayback Machine)",
+                       "url": "https://web.archive.org/web/20250320114127/https://www.wedstrijdsurfen.nl/evenement/tbc-onk-div-ii-en-foil-course-27-28-september-heeg/",
+                       "used_for": "TBC: ONK DIV II en Foil Course, 27-28 september 2025, It Eilan 64 Heeg (planning van maart 2025)"},
+                      {"name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws' (Wayback Machine)",
+                       "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+                       "used_for": "Heeg Foil Course en DIV II gaan door, georganiseerd door WS Heeg; het course-evenement is dit jaar geen kwalificatie voor het ONK; vorig jaar was Heeg wel ONK (22 juli 2025)"}]),
 }
 # evenementen van een andere importer waar deze levering alleen een bron aan toevoegt: (map, note)
 ADDED_NOTES = {
@@ -170,12 +179,12 @@ SOURCES = {
         notes="html-versie (Word 9) van ONK2000_eindstand.doc, dat al is verwerkt; {cmp}. Bevat per rider de woonplaats; daarom niet in git maar in local-only/"),
     "nl_wedstrijden_2000-2008.zip": dict(dir=BUNDLE, scope="nl", type="text", status="overgeslagen", kind="overig",
         notes="zip met tien bestanden die ook los zijn aangeleverd (sha256 van alle tien gelijk aan de losse bestanden, soms onder een andere naam). Bevat ONK2000_eindstand.htm (woonplaatsen) en de pagina's met verslagen van Adri Keet; daarom niet in git maar in local-only/"),
-    "7db8abae-2862-4d06-bc5d-0e77dce7d56e.pdf": dict(ev="nk-course-2025", type="pdf", status="verwerkt", notes=M2S.format("Formula Windsurfing Foil Division")),
-    "8e21e607-0d2e-485e-9fe2-d3682d43f8a4.pdf": dict(ev="nk-course-2025", type="pdf", status="overgeslagen",
+    "7db8abae-2862-4d06-bc5d-0e77dce7d56e.pdf": dict(ev="wsh-windsurf-weekend-2025", type="pdf", status="verwerkt", notes=M2S.format("Formula Windsurfing Foil Division")),
+    "8e21e607-0d2e-485e-9fe2-d3682d43f8a4.pdf": dict(ev="wsh-windsurf-weekend-2025", type="pdf", status="overgeslagen",
         notes=M2S.format("WSH Open Amateur Windsurfer") + "; fun-klasse: op aanwijzing van de gebruiker (8 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet"),
-    "95517826-596f-475c-a69b-c4cd8d3d7f99.pdf": dict(ev="nk-course-2025", type="pdf", status="verwerkt", notes=M2S.format("Open Division 2 Cat A")),
-    "d2195101-1da5-4ac4-a5f5-c0dafb4922ae.pdf": dict(ev="nk-course-2025", type="pdf", status="verwerkt", notes=M2S.format("Raceboards/Windsurfer-LT")),
-    "ddfd2ca3-ccdd-4027-a7cc-f491473562da.pdf": dict(ev="nk-course-2025", type="pdf", status="verwerkt", notes=M2S.format("Open Division 2 Cat C")),
+    "95517826-596f-475c-a69b-c4cd8d3d7f99.pdf": dict(ev="wsh-windsurf-weekend-2025", type="pdf", status="verwerkt", notes=M2S.format("Open Division 2 Cat A")),
+    "d2195101-1da5-4ac4-a5f5-c0dafb4922ae.pdf": dict(ev="wsh-windsurf-weekend-2025", type="pdf", status="verwerkt", notes=M2S.format("Raceboards/Windsurfer-LT")),
+    "ddfd2ca3-ccdd-4027-a7cc-f491473562da.pdf": dict(ev="wsh-windsurf-weekend-2025", type="pdf", status="verwerkt", notes=M2S.format("Open Division 2 Cat C")),
 }
 ZIP_NAMES = {"2007.xls": "2007 nk formula.xls", "NK07overall.htm": "NK07 formula overal.htm", "stand_2005_na_medemblik.htm": "stand_2005_na_medemblik formula.htm"}
 
@@ -916,7 +925,7 @@ def build_2009_scheveningen():
                 "BeautifulSoup: de Sailwave-tabel cel voor cel", checks, notes, fleet="gold", equipment="formula", detail={"deviations": dev} if dev else {})]
 
 
-# ---------------------------------------------------------------- NK Course 2025: WSH Windsurf Weekend ODC (manage2sail)
+# ---------------------------------------------------------------- WSH Windsurf Weekend 2025, Heeg (manage2sail); tot 12 oktober 2026 'NK Course 2025'
 M2S_METHOD = "pdfplumber: woordposities; punten en codes toegewezen aan de dichtstbijzijnde racekolom (tekst-pdf van manage2sail)"
 WSH = [  # bestand, titel van de klasse in de bron, id-deel, klasse, materiaal
     ("7db8abae-2862-4d06-bc5d-0e77dce7d56e.pdf", "Formula Windsurfing Foil Division", "formula-foil", "Formula Foil", "foil"),
@@ -971,7 +980,7 @@ def parse_m2s(path):
 
 
 def build_wsh_2025():
-    slug = "nk-course-2025"; out = []
+    slug = "wsh-windsurf-weekend-2025"; out = []
     for fname, title, cslug, label, equip in WSH:
         src = bron(fname)
         entries, races, info = parse_m2s(src)
@@ -1000,7 +1009,7 @@ def build_wsh_2025():
                  "Namen zoals gepubliceerd (achternaam in hoofdletters). Geen divisies of leeftijdsklassen in deze bron."]
         if multi: notes.append("Zeilnummercel met twee delen: het deel met landcode staat in sail, de volledige cel in sail_published: " + ", ".join(multi) + ".")
         if cslug == "formula-foil": notes.append("In 2024 telde de eindstand van de ODC Formula Foil 23 races van twee wedstrijden (HO en HE); in 2025 zijn het alleen de vijf races van het WSH-weekend (opgave van de gebruiker).")
-        out.append(doc(slug, f"nk-2025-course-{cslug}", label, title, [src], entries, fmt, "pdf", M2S_METHOD, checks, notes, equipment=equip,
+        out.append(doc(slug, f"wsh-windsurf-weekend-2025-course-{cslug}", label, title, [src], entries, fmt, "pdf", M2S_METHOD, checks, notes, equipment=equip,
                        detail={"deviations": dev} if dev else {}))
     return out
 
@@ -1008,7 +1017,7 @@ def build_wsh_2025():
 BUILDERS = [("nk-course-1999", build_race_1999), ("nk-course-1999-1010", build_fw_1999), ("nk-course-2004-0522", build_2004_grevelingen),
             ("nk-course-2004-0612", build_2004_muiderzand), ("nk-course-2005", build_2005), ("nk-course-2006", build_2006), ("nk-course-2007", build_2007),
             ("nk-slalom-2007", build_slalom_2007), ("nk-course-2009-stop1", build_2009_grevelingendam), ("nk-course-2009-stop2", build_2009_scheveningen),
-            ("nk-course-2025", build_wsh_2025)]
+            ("wsh-windsurf-weekend-2025", build_wsh_2025)]
 
 
 # ---------------------------------------------------------------- vergelijking met wat al in het archief staat
@@ -1086,7 +1095,7 @@ RETIRE = {  # uitslag-id -> (evenementmap, note voor event.json of None als een 
     "gpa-2024-long-distance-wing": ("archive/nl/2024/gpa-2024", WING, "de klasse Wing is op 8 oktober 2026 uit het archief gehaald (geen windsurfen)"),
     "gpa-2025-long-distance-wing": ("archive/nl/2025/gpa-2025", WING, "de klasse Wing is op 8 oktober 2026 uit het archief gehaald (geen windsurfen)"),
     "holland-surfpool-1999-stop1-race-overall": ("archive/nl/1999/holland-surfpool-1999-stop1", None, None),     # event.json en registry: import_keet.py
-    "nk-2025-course-open-amateur": ("archive/nl/2025/nk-course-2025", None, None),                               # fun-klasse; event.json: deze importer
+    "wsh-windsurf-weekend-2025-course-open-amateur": ("archive/nl/2025/wsh-windsurf-weekend-2025", None, None),   # fun-klasse; event.json: deze importer
 }
 STALE = [(re.compile(r"^De vloot Recreational is wel opgenomen: .*beslist de gebruiker\.$"), ""),          # beantwoord: geen fun-klasse
          (re.compile(r"\s*Dit is geen NK, dus de NK-regel \(alleen DNC/DNF telt niet mee\) is niet toegepast(: [^.]*)?\."), ""),

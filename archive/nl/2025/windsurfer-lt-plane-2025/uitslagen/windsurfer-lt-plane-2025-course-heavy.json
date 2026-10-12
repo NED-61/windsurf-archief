@@ -1,0 +1,348 @@
+{
+ "schema_version": 1,
+ "id": "windsurfer-lt-plane-2025-course-heavy",
+ "event": {
+  "name": "Windsurfer LT 2025, W.S.D. Plané",
+  "scope": "nl",
+  "series": null,
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Heavy",
+  "class_label_published": "Heavy",
+  "equipment": "LT"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R.1",
+   "R.2",
+   "R.3",
+   "R.4",
+   "R.5"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race; geen codes (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 4 eliminations, ",
+  "winterwave_scoring": "ifca_elimination"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/05f72f27",
+  "file": "archive/nl/2025/windsurfer-lt-plane-2025/bronnen/winterwave-plane-windsurfer-lt-2025-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [],
+  "verified": "5 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (5x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Heavy - Windsurfer LT 2025'."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "marcel-van-der-ploeg",
+   "sail": "NED 031",
+   "name": "Marcel van der Ploeg",
+   "name_published": "Marcel van der Ploeg (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Heavy",
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 7.0,
+   "net": 5.0
+  },
+  {
+   "rank": 2,
+   "person": "paul-van-der-sluijs",
+   "sail": "NED 1314",
+   "name": "Paul van der Sluijs",
+   "name_published": "Paul van der Sluijs (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Heavy",
+   "points": [
+    2.0,
+    3.0,
+    2.0,
+    3.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 11.0,
+   "net": 8.0
+  },
+  {
+   "rank": 3,
+   "person": "erwin-van-der-wiel",
+   "sail": "NED 765",
+   "name": "Erwin van der Wiel",
+   "name_published": "Erwin van der Wiel (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Heavy",
+   "points": [
+    3.0,
+    2.0,
+    3.0,
+    1.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 12.0,
+   "net": 9.0
+  },
+  {
+   "rank": 4,
+   "person": "lucien-vdelst",
+   "sail": "NED 067",
+   "name": "Lucien van Delst",
+   "name_published": "Lucien van Delst (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Heavy",
+   "points": [
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 20.0,
+   "net": 16.0
+  },
+  {
+   "rank": 5,
+   "person": "anthony-halma",
+   "sail": "NED 289",
+   "name": "Anthony Halma",
+   "name_published": "Anthony Halma (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Heavy",
+   "points": [
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 25.0,
+   "net": 20.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R.1",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "marcel-van-der-ploeg",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "paul-van-der-sluijs",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "erwin-van-der-wiel",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lucien-vdelst",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "anthony-halma",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.2",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "marcel-van-der-ploeg",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "erwin-van-der-wiel",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "paul-van-der-sluijs",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lucien-vdelst",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "anthony-halma",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.3",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "marcel-van-der-ploeg",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "paul-van-der-sluijs",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "erwin-van-der-wiel",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lucien-vdelst",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "anthony-halma",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.4",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "erwin-van-der-wiel",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marcel-van-der-ploeg",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "paul-van-der-sluijs",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lucien-vdelst",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "anthony-halma",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.5",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "paul-van-der-sluijs",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marcel-van-der-ploeg",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "erwin-van-der-wiel",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lucien-vdelst",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "anthony-halma",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

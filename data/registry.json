@@ -1810,121 +1810,171 @@
    "ref": "https://windtulip.nl/home/results_dashboard/188/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 188: DAM-X 2022 - J | Chicks/Girls/Ladies",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 188 (J | Chicks/Girls/Ladies), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "db4adbb4cee6f00f2d52445d9aa54e47001e1fa9291aac093ef7683057ac4b71",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-188-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-j-chicks-girls-ladies.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/189/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 189: DAM-X 2022 - oud I | Masters 35+ (groep 2)",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 189 (oud I | Masters 35+ (groep 2)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "c4e4c62bdf1c20fc8c4c97e34ca2eea54063e3526b4a428553c9dfb2e2bd9cdd",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-189-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-2.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/191/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 191: DAM-X 2022 - G | Boys t/m 14",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 191 (G | Boys t/m 14), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "3ce88b72ace0a781753dd63a771f811d4dc08a532cdafc42244ff92ee9c7ebe5",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-191-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-g-boys-tm-14.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/192/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 192: DAM-X 2022 - H | Guys 15 t/m 18",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 192 (H | Guys 15 t/m 18), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "b5f0b0d14ddd494f872031566236ddd1d72e677035f7f31173387a4210048172",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-192-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-h-guys-15-tm-18.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/193/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 193: DAM-X 2022 - F | Men 19+",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 193 (F | Men 19+), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "fc028bcc9b06fa210a43c26e5a9166c12c1cb35d901993dcfb44f44ac7c20980",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-193-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-f-men-19.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/194/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 194: DAM-X 2022 - oud E | Masters 35+ (groep 1)",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 194 (oud E | Masters 35+ (groep 1)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "8e2b6151666461328fbfb27e8eb76a3230eab451abb9b21a439f299178e0ec34",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-194-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-1.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/195/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 195: DAM-X 2022 - K | Profleet Men & Women",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 195 (K | Profleet Men & Women), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "2e4c5bab6f4368235247d7308393e1d0cb2edb4fe44eac60bc8b1661207b77d6",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-195-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-k-profleet.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/196/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 196: DAM-X 2022 - L | Jeugd pro fleet",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 196 (L | Jeugd pro fleet), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "7429194546be4167e8e4618029b080f87dd757f2b05f8212cd9de4f9375075c5",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-196-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-l-jeugd-pro-fleet.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/199/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 199: DAM-X 2022 - E | Masters 35+ (groep A)",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 199 (E | Masters 35+ (groep A)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "239b8ee292d16c9de7426f4e4eeaff24cc07835fab163e9a21d356f07ab6ad1c",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-199-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-a.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/200/total_results/",
    "received": "2026-10-01",
    "type": "web",
-   "status": "wacht",
-   "updated": "2026-10-01",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
    "scope": "nl",
-   "channel": "index",
+   "channel": "los",
    "kind": "uitslag",
    "title": "Windtulip 200: DAM-X 2022 - I | Masters 35+ (groep B)",
-   "notes": "categorie A: Nederlands; jaar/datum/locatie onbekend tot verwerking"
+   "notes": "Windtulip-dashboard 200 (I | Masters 35+ (groep B)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "sha256": "0dfcb617a7842682d697ebc9ed9af7520c5a3143a3d8152a1e3042e6ca03b684",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-200-total_results.page-data.json",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-b.json"
+   ]
   },
   {
    "ref": "https://windtulip.nl/home/results_dashboard/201/total_results/",
@@ -6989,7 +7039,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7005,7 +7055,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7142,7 +7192,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7161,7 +7211,7 @@
    "received": "2026-10-02",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7177,7 +7227,7 @@
    "received": "2026-10-02",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7193,7 +7243,7 @@
    "received": "2026-10-02",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7209,7 +7259,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7225,7 +7275,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7241,7 +7291,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7257,7 +7307,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7273,7 +7323,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7289,7 +7339,7 @@
    "received": "2026-10-02",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -7310,7 +7360,7 @@
    "channel": "los",
    "kind": "uitslag",
    "sha256": "9a62fbd482ab9740d00e913400a34bf5f5fe489dc449289f14a96617495f35e6",
-   "notes": "verwerkt met tools/import_los.py",
+   "notes": "verwerkt met tools/import_los.py; sinds 12 oktober 2026 is de uitslag omgezet uit de winterwave-vastlegging (zelfde eindstand, met heats); deze pdf is vergeleken: alle punten, totalen en netto gelijk",
    "archived": "archive/nl/2024/nk-slalom-2024/bronnen/Overallresults-NK-Slalom-2024-Fin-Open-Youth-20-10-2024-17_17.pdf",
    "outputs": [
     "archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-fin.json"
@@ -7326,7 +7376,7 @@
    "channel": "los",
    "kind": "uitslag",
    "sha256": "70fb432a3d25fab17b757939cfa7caab0058955b504c2a3a40176d3e928ac8fe",
-   "notes": "verwerkt met tools/import_los.py",
+   "notes": "verwerkt met tools/import_los.py; sinds 12 oktober 2026 is de uitslag omgezet uit de winterwave-vastlegging (zelfde eindstand, met heats); deze pdf is vergeleken: alle punten, totalen en netto gelijk",
    "archived": "archive/nl/2024/nk-slalom-2024/bronnen/Overallresults-NK-Slalom-2024-Foil-Open-Youth-20-10-2024-17_20.pdf",
    "outputs": [
     "archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-foil.json"
@@ -9696,7 +9746,7 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9714,7 +9764,7 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9730,7 +9780,7 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "overgeslagen",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9743,7 +9793,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9759,7 +9809,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9775,7 +9825,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9791,7 +9841,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9807,7 +9857,7 @@
    "received": "2026-10-08",
    "type": "xlsx",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9823,7 +9873,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9839,7 +9889,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9855,7 +9905,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9871,7 +9921,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9887,7 +9937,7 @@
    "received": "2026-10-08",
    "type": "web",
    "status": "overgeslagen",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
@@ -9900,7 +9950,7 @@
    "received": "2026-10-08",
    "type": "text",
    "status": "overgeslagen",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "overig",
@@ -9913,15 +9963,15 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "8fbff7bdfdbbee293e4363e508edc30db91051a8ace7483c39300a70321e8429",
-   "archived": "archive/nl/2025/nk-course-2025/bronnen/7db8abae-2862-4d06-bc5d-0e77dce7d56e.pdf",
+   "archived": "archive/nl/2025/wsh-windsurf-weekend-2025/bronnen/7db8abae-2862-4d06-bc5d-0e77dce7d56e.pdf",
    "notes": "manage2sail-pdf 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - Formula Windsurfing Foil Division - Overall Results as of 29 SEP 2025'; verwerkt met tools/import_keet2.py",
    "outputs": [
-    "archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-formula-foil.json"
+    "archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-formula-foil.json"
    ]
   },
   {
@@ -9929,12 +9979,12 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "overgeslagen",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "ec2dfed2b8fe9468b848ffc8f7b74fa1010a2afdbf071b91631492993732b6e8",
-   "archived": "archive/nl/2025/nk-course-2025/bronnen/8e21e607-0d2e-485e-9fe2-d3682d43f8a4.pdf",
+   "archived": "archive/nl/2025/wsh-windsurf-weekend-2025/bronnen/8e21e607-0d2e-485e-9fe2-d3682d43f8a4.pdf",
    "notes": "manage2sail-pdf 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - WSH Open Amateur Windsurfer - Overall Results as of 29 SEP 2025'; fun-klasse: op aanwijzing van de gebruiker (8 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet"
   },
   {
@@ -9942,15 +9992,15 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "57e99c9ba990ae16eeba2840a9cbd7ec00702d5150905251574423c8ebe4c289",
-   "archived": "archive/nl/2025/nk-course-2025/bronnen/95517826-596f-475c-a69b-c4cd8d3d7f99.pdf",
+   "archived": "archive/nl/2025/wsh-windsurf-weekend-2025/bronnen/95517826-596f-475c-a69b-c4cd8d3d7f99.pdf",
    "notes": "manage2sail-pdf 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - Open Division 2 Cat A - Overall Results as of 29 SEP 2025'; verwerkt met tools/import_keet2.py",
    "outputs": [
-    "archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-division-2-cat-a.json"
+    "archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-division-2-cat-a.json"
    ]
   },
   {
@@ -9958,15 +10008,15 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "3f47895475122c114012e73b7cb05f6ee0d098576aee67b403feade40fb758d7",
-   "archived": "archive/nl/2025/nk-course-2025/bronnen/d2195101-1da5-4ac4-a5f5-c0dafb4922ae.pdf",
+   "archived": "archive/nl/2025/wsh-windsurf-weekend-2025/bronnen/d2195101-1da5-4ac4-a5f5-c0dafb4922ae.pdf",
    "notes": "manage2sail-pdf 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - Raceboards/Windsurfer-LT - Overall Results as of 29 SEP 2025'; verwerkt met tools/import_keet2.py",
    "outputs": [
-    "archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-raceboard-windsurfer-lt.json"
+    "archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-raceboard-windsurfer-lt.json"
    ]
   },
   {
@@ -9974,15 +10024,15 @@
    "received": "2026-10-08",
    "type": "pdf",
    "status": "verwerkt",
-   "updated": "2026-10-08",
+   "updated": "2026-10-12",
    "scope": "nl",
    "channel": "los",
    "kind": "uitslag",
    "sha256": "1ad327c61ab51116b09d7ac30b05b8c858c36fc19ffed3fedc85d80d88b08fb9",
-   "archived": "archive/nl/2025/nk-course-2025/bronnen/ddfd2ca3-ccdd-4027-a7cc-f491473562da.pdf",
+   "archived": "archive/nl/2025/wsh-windsurf-weekend-2025/bronnen/ddfd2ca3-ccdd-4027-a7cc-f491473562da.pdf",
    "notes": "manage2sail-pdf 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - Open Division 2 Cat C - Overall Results as of 29 SEP 2025'; verwerkt met tools/import_keet2.py",
    "outputs": [
-    "archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-division-2-cat-c.json"
+    "archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-division-2-cat-c.json"
    ]
   },
   {
@@ -11922,6 +11972,452 @@
    "title": "NK Slalom reservedata",
    "calendar": "data/backlog/kalenders/kalender 2009.xls",
    "notes": "gepland volgens de kalender; reserveweekeinden 17 en 24 oktober"
+  },
+  {
+   "ref": "inbox/los/winterwave-damx-2023-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "0aed9e26a557b8bec550a6b165d2823cdbe326aa7fcb3e4d83be6daced3aabc8",
+   "archived": "archive/nl/2023/dam-x-2023/bronnen/winterwave-damx-2023-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-e-profleet-foil-only.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-f-profleet-fin-only.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-g-retired-profleet-fin-only.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-h-youth-profleet-under-20-years-foil-only.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-i-masters-35-years.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-j-men-19-up-to-34-years.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-k-boys-up-to-14-years.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-l-ladies-chicks-en-girls.json",
+    "archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-m-guys-15-up-to-18-years.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-damx-2024-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "2f7e9c47e0fb5851043b9fc9737d38df5e364d1d2b74f32b03a114a6c1851717",
+   "archived": "archive/nl/2024/dam-x-2024/bronnen/winterwave-damx-2024-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-e-profleet-foil.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-f-youth-pro.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-h-retired-pro.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-j-masters.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-k-men-19-34.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-l-boys-up-to-14.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-m-ladies-chicks.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-n-girls.json",
+    "archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-p-guys-15-18.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-damx-2026-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "32cbb93a2973a25936efc89f702c6377913d0e74ccc26dbcf6262561d9e1135d",
+   "archived": "archive/nl/2026/dam-x-2026/bronnen/winterwave-damx-2026-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-boys.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-girls-en-chicks.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-guys.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-ladies.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-masters.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-windsurfer-lt.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-men.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-profleet.json",
+    "archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-youth-pro.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-round-texel-2026-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "1af98ebde40f4e85f4fc110f2329b3574b8a8fe061e31af822910a587c37c6ab",
+   "archived": "archive/nl/2026/ronde-om-texel-2026/bronnen/winterwave-round-texel-2026-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2026/ronde-om-texel-2026/uitslagen/ronde-om-texel-2026-long-distance-windsurf.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-onk-foil-course-2025-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "47c9d2c900751d1436379e328064d45868135ad464e22d7049d7eb2f22b081a7",
+   "archived": "archive/nl/2025/nk-course-2025/bronnen/winterwave-onk-foil-course-2025-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-foil.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-onk-foil-course-2026-hoorn-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "661a44e0bc95f14c0808f754dc481db221449f88eaa1abf7a25f6694d215d2e8",
+   "archived": "archive/nl/2026/nk-course-2026/bronnen/winterwave-onk-foil-course-2026-hoorn-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2026/nk-course-2026/uitslagen/nk-2026-course-foil.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-nk-slalom-2024-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "a8d6edd1d761c012a3dfd55b2b77f38c456134461560f033749022ee47b130cd",
+   "archived": "archive/nl/2024/nk-slalom-2024/bronnen/winterwave-nk-slalom-2024-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-fin.json",
+    "archive/nl/2024/nk-slalom-2024/uitslagen/nk-2024-slalom-foil.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-onk-slalom-2025-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "d83ccb614aebf71377b0940ebf8dea4e1c238fc97c24a1945339cff418e8c925",
+   "archived": "archive/nl/2025/nk-slalom-2025/bronnen/winterwave-onk-slalom-2025-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2025/nk-slalom-2025/uitslagen/nk-2025-slalom-fin.json",
+    "archive/nl/2025/nk-slalom-2025/uitslagen/nk-2025-slalom-foil.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-onk-foil-slalom-2026-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "6b044b95da6d546e4f6c4dc44d2d1d2791161f0b2d9884ca5414c919f62cfd92",
+   "archived": "archive/nl/2026/nk-slalom-2026-0613/bronnen/winterwave-onk-foil-slalom-2026-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2026/nk-slalom-2026-0613/uitslagen/nk-2026-0613-slalom-foil.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-nvw-cup-13-14-september-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "3d82bcb7f384783ada0c4e2c4521a00fd238800840916ab5fdf076b6fe3ff4a2",
+   "archived": "archive/nl/2025/nvw-cup-2025-0913/bronnen/winterwave-nvw-cup-13-14-september-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-1-amateurfleet-fin-1.json",
+    "archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-2-amateurfleet-fin-2.json",
+    "archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-4-profleet-fin-2.json",
+    "archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-5-profleet-foil.json",
+    "archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-zo-groep-4-profleet-foil-2.json",
+    "archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-zo-groep-5-profleet-foil-2.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-plane-windsurfer-lt-2025-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "3e34e89b2ea01d3137381abab4c60e7bf4e48fe397e155a66bfee85c21f120c4",
+   "archived": "archive/nl/2025/windsurfer-lt-plane-2025/bronnen/winterwave-plane-windsurfer-lt-2025-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl via de ingebouwde browser (alle pagina's als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2025/windsurfer-lt-plane-2025/uitslagen/windsurfer-lt-plane-2025-course-heavy.json",
+    "archive/nl/2025/windsurfer-lt-plane-2025/uitslagen/windsurfer-lt-plane-2025-course-light.json",
+    "archive/nl/2025/windsurfer-lt-plane-2025/uitslagen/windsurfer-lt-plane-2025-course-medium.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-nk-course-race-2024-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "f2cdcc5acf28f936451fc4ce85155d89b21f298a7bad86938acec77373e97c63",
+   "archived": "archive/nl/2024/nk-course-2024/bronnen/winterwave-nk-course-race-2024-capture.json.gz",
+   "notes": "tweede bron van een uitslag die al in het archief staat; niet opnieuw omgezet. winterwave 'NK Course Race 2024 - Hoorn' (28 riders, 12 races) vergeleken met HO01-HO12 van de eindstand: 18 riders gelijk (een code is in Hoorn 28 punten, in de eindstand 35), 10 met een ander getal in één of meer races (Merlijn Boswijk: HO10 winterwave 20 / eindstand 19; Thibault antoine Dijksterhuis: HO10 winterwave 22 / eindstand 21; Milo Zaal: HO10 winterwave 21 / eindstand 20; Aart-Jan van Zadelhoff: HO04 winterwave 20 / eindstand 19; Sara de Kimpe: HO04 winterwave 19 / eindstand 18, HO08 winterwave 25 / eindstand 23; John Munten: HO04 winterwave 23 / eindstand 21, HO08 winterwave 24 / eindstand 22, HO11 winterwave 22 / eindstand 21; Cédric Walhof: HO04 winterwave 21 / eindstand 20, HO08 winterwave 26 / eindstand 24, HO09 winterwave 26 / eindstand 24, HO10 winterwave 23 / eindstand 22, HO11 winterwave 21 / eindstand 20, HO12 winterwave 24 / eindstand 23; Marijn Schouten: HO04 winterwave 22 / eindstand 23, HO08 winterwave 22 / eindstand 26, HO09 winterwave 25 / eindstand 26, HO10 winterwave 19 / eindstand 23, HO11 winterwave 20 / eindstand 22, HO12 winterwave 23 / eindstand 24; Neill chardet: HO04 winterwave 18 / eindstand 22, HO08 winterwave 21 / eindstand 25, HO09 winterwave 24 / eindstand 25; Marc de jong: HO08 winterwave 23 / eindstand 21); 6 riders van de eindstand hebben in Hoorn alleen DNC en staan niet in de Hoorn-uitslag"
+  },
+  {
+   "ref": "inbox/los/winterwave-round-texel-2024-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "4e389a7617bc8ff2d466b4744db72696be697deea6cad8148e9d797bfda0a60c",
+   "archived": "archive/nl/2024/ronde-om-texel-2024/bronnen/winterwave-round-texel-2024-capture.json.gz",
+   "notes": "tweede bron van een uitslag die al in het archief staat; niet opnieuw omgezet. winterwave 'Round Texel 2024 - Windsurf' (30 riders, zonder namen (de kolommen 'Boat name' en 'Crew' zijn leeg; vergeleken op de zeilnummercel)) vergeleken met de uitslag in het archief: alle 30 gelijk (plaats en tijd; riders zonder tijd staan op winterwave zonder code)"
+  },
+  {
+   "ref": "inbox/los/winterwave-round-texel-2025-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "b34427b62cb2ee67add2fb2eccf784402868bcfc35537aaf280597549f3b7d77",
+   "archived": "archive/nl/2025/ronde-om-texel-2025/bronnen/winterwave-round-texel-2025-capture.json.gz",
+   "notes": "tweede bron van een uitslag die al in het archief staat; niet opnieuw omgezet. winterwave 'Round Texel 2025 - Windsurf' (26 riders, met namen) vergeleken met de uitslag in het archief: alle 26 gelijk (plaats en tijd; riders zonder tijd staan op winterwave zonder code)"
+  },
+  {
+   "ref": "inbox/los/winterwave-regiocup-dww-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "wacht",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "a113de4986b7654ebf02bfed479a6a57dfd055845bad24ccbc2af482ab7428ae",
+   "notes": "Regiocup 'DWW' op scoring.winterwave.nl: iQfoil Windsurfen (16 riders) en Slalom Windsurfen (21 riders), elk 8 races; daarnaast kite- en wingklassen (niet vastgelegd). Jaar en plaats staan niet in de bron; de divisies hebben dezelfde omschrijvingen als bij NK Slalom 2024 ('Youth U21 ...'). Niet omgezet tot de gebruiker weet welke wedstrijd dit is. De ladders staan op 'Unstarted' terwijl de totaalstand punten heeft."
+  },
+  {
+   "ref": "inbox/los/windtulip-188-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "db4adbb4cee6f00f2d52445d9aa54e47001e1fa9291aac093ef7683057ac4b71",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-188-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 188 (J | Chicks/Girls/Ladies), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-j-chicks-girls-ladies.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-189-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "c4e4c62bdf1c20fc8c4c97e34ca2eea54063e3526b4a428553c9dfb2e2bd9cdd",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-189-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 189 (oud I | Masters 35+ (groep 2)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-2.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-191-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "3ce88b72ace0a781753dd63a771f811d4dc08a532cdafc42244ff92ee9c7ebe5",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-191-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 191 (G | Boys t/m 14), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-g-boys-tm-14.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-192-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "b5f0b0d14ddd494f872031566236ddd1d72e677035f7f31173387a4210048172",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-192-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 192 (H | Guys 15 t/m 18), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-h-guys-15-tm-18.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-193-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "fc028bcc9b06fa210a43c26e5a9166c12c1cb35d901993dcfb44f44ac7c20980",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-193-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 193 (F | Men 19+), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-f-men-19.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-194-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "8e2b6151666461328fbfb27e8eb76a3230eab451abb9b21a439f299178e0ec34",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-194-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 194 (oud E | Masters 35+ (groep 1)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-1.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-195-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "2e4c5bab6f4368235247d7308393e1d0cb2edb4fe44eac60bc8b1661207b77d6",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-195-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 195 (K | Profleet Men & Women), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-k-profleet.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-196-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "7429194546be4167e8e4618029b080f87dd757f2b05f8212cd9de4f9375075c5",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-196-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 196 (L | Jeugd pro fleet), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-l-jeugd-pro-fleet.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-199-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "239b8ee292d16c9de7426f4e4eeaff24cc07835fab163e9a21d356f07ab6ad1c",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-199-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 199 (E | Masters 35+ (groep A)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-a.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/windtulip-200-total_results.page-data.json",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "0dfcb617a7842682d697ebc9ed9af7520c5a3143a3d8152a1e3042e6ca03b684",
+   "archived": "archive/nl/2022/dam-x-2022/bronnen/windtulip-200-total_results.page-data.json",
+   "notes": "Windtulip-dashboard 200 (I | Masters 35+ (groep B)), opgehaald via de ingebouwde browser; verwerkt met tools/import_winterwave.py",
+   "outputs": [
+    "archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-b.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-extra-capture.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "62161155f981cebe46a37fa0a5028d0c5dc3f6a66095bc17091b309fd7301077",
+   "archived": "local-only/leveringen/2026-10-12/winterwave-extra-capture.json.gz",
+   "notes": "de gezamenlijke vastlegging van 12 oktober 2026 (13 evenementen) waaruit de losse winterwave-<evenement>-capture.json.gz zijn gesplitst; de pagina's zijn in die bestanden ongewijzigd (sha256 per pagina). Dubbel, daarom niet in git"
+  },
+  {
+   "ref": "inbox/los/windtulip-damx-2022-bundle.json.gz",
+   "received": "2026-10-12",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-12",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "overig",
+   "sha256": "de0e1ed569e44dc4f176cc3d4c0eee81f659f00667e2cfbbc4e895af7f6bc20d",
+   "archived": "local-only/leveringen/2026-10-12/windtulip-damx-2022-bundle.json.gz",
+   "notes": "bundel (base64) van de tien Windtulip-page-data.json van DAM-X 2022, zoals uit de browser gedownload; de tien bestanden staan los in bronnen/ (sha256 gelijk). Dubbel, daarom niet in git"
   }
  ]
 }

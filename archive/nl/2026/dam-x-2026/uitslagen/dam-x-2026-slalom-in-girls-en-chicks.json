@@ -1,0 +1,1741 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2026-slalom-in-girls-en-chicks",
+ "event": {
+  "name": "DAM-X 2026",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-10-09",
+  "location": "Brouwersdam (Grevelingenmeer)",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "In - Girls en Chicks",
+  "class_label_published": "In - Girls en Chicks",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6",
+   "R. 7",
+   "R. 8",
+   "R. 9",
+   "R. 10",
+   "R. 11",
+   "R. 12"
+  ],
+  "discards": 3,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF gescoord als 15 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/f2589c93",
+  "file": "archive/nl/2026/dam-x-2026/bronnen/winterwave-damx-2026-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "DAM-X Brouwersdam",
+    "url": "https://www.dam-x.com/nl",
+    "used_for": "tiende editie, 9 tot en met 11 oktober 2026"
+   },
+   {
+    "name": "Go-Kids agenda: DAM-X 10th edition",
+    "url": "https://go-kids.nl/zeeland/agenda/dam-x-10th-edition-aan-het-grevelingenmeer-bij-brouwersdam",
+    "used_for": "vrijdag 9 tot en met zondag 11 oktober 2026, Brouwersdam aan het Grevelingenmeer; windsurf- en wingslalom"
+   }
+  ],
+  "verified": "15 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 3 (15x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'In - Girls en Chicks - DAM-X 2026'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "isabelle-westerveld",
+   "sail": null,
+   "bib": "24",
+   "sail_published": "24",
+   "name": "Isabelle Westerveld",
+   "nationality": "NED",
+   "division": "Girls t/m 14",
+   "points": [
+    0.7,
+    5.0,
+    0.7,
+    0.7,
+    0.7,
+    2.0,
+    2.0,
+    6.0,
+    0.7,
+    0.7,
+    0.7,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    8,
+    12
+   ],
+   "total": 24.9,
+   "net": 8.9
+  },
+  {
+   "rank": 2,
+   "person": "silke-de-soete",
+   "sail": null,
+   "bib": "37",
+   "sail_published": "37",
+   "name": "Silke De Soete",
+   "nationality": "BEL",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    5.0,
+    15.0,
+    15.0,
+    2.0,
+    4.0,
+    6.0,
+    3.0,
+    0.7,
+    3.0,
+    2.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    6
+   ],
+   "total": 60.7,
+   "net": 24.7
+  },
+  {
+   "rank": 3,
+   "person": "ina-peene",
+   "sail": null,
+   "bib": "45",
+   "sail_published": "45",
+   "name": "Ina Peene",
+   "nationality": "BEL",
+   "division": "Girls t/m 14",
+   "points": [
+    3.0,
+    0.7,
+    3.0,
+    6.0,
+    5.0,
+    3.0,
+    0.7,
+    5.0,
+    9.0,
+    3.0,
+    5.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5,
+    9
+   ],
+   "total": 45.4,
+   "net": 25.4
+  },
+  {
+   "rank": 4,
+   "person": "charlotte-leene",
+   "sail": null,
+   "bib": "42",
+   "sail_published": "42",
+   "name": "Charlotte Leene",
+   "nationality": "NED",
+   "division": "Girls t/m 14",
+   "points": [
+    4.0,
+    2.0,
+    15.0,
+    3.0,
+    3.0,
+    4.0,
+    11.0,
+    2.0,
+    2.0,
+    6.0,
+    6.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3,
+    7,
+    12
+   ],
+   "total": 69.0,
+   "net": 32.0
+  },
+  {
+   "rank": 5,
+   "person": "elyn-kraaijeveld",
+   "sail": null,
+   "bib": "26",
+   "sail_published": "26",
+   "name": "Elyn Kraaijeveld",
+   "nationality": "NED",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    2.0,
+    6.0,
+    2.0,
+    4.0,
+    2.0,
+    0.7,
+    9.0,
+    9.0,
+    4.0,
+    8.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    7,
+    8,
+    10
+   ],
+   "total": 61.7,
+   "net": 35.7
+  },
+  {
+   "rank": 6,
+   "person": "oona-debusschere",
+   "sail": null,
+   "bib": "41",
+   "sail_published": "41",
+   "name": "Oona Debusschere",
+   "nationality": "BEL",
+   "division": "Girls t/m 14",
+   "points": [
+    6.0,
+    3.0,
+    15.0,
+    7.0,
+    6.0,
+    5.0,
+    5.0,
+    7.0,
+    6.0,
+    7.0,
+    7.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3,
+    4,
+    12
+   ],
+   "total": 82.0,
+   "net": 52.0
+  },
+  {
+   "rank": 7,
+   "person": "lotte-lievens",
+   "sail": null,
+   "bib": "11",
+   "sail_published": "11",
+   "name": "Lotte Lievens",
+   "nationality": "BEL",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    4.0,
+    3.0,
+    5.0,
+    4.0,
+    3.0,
+    0.7
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 109.7,
+   "net": 64.7
+  },
+  {
+   "rank": 8,
+   "person": "maxime-cleeren",
+   "sail": null,
+   "bib": "107",
+   "sail_published": "107",
+   "name": "Maxime Cleeren",
+   "nationality": "BEL",
+   "division": "Girls t/m 14",
+   "points": [
+    7.0,
+    4.0,
+    15.0,
+    9.0,
+    7.0,
+    7.0,
+    8.0,
+    8.0,
+    7.0,
+    10.0,
+    10.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3,
+    10,
+    11
+   ],
+   "total": 101.0,
+   "net": 66.0
+  },
+  {
+   "rank": 9,
+   "person": "julie-debaere",
+   "sail": null,
+   "bib": "43",
+   "sail_published": "43",
+   "name": "Julie Debaere",
+   "nationality": "BEL",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    15.0,
+    15.0,
+    15.0,
+    5.0,
+    15.0,
+    15.0,
+    6.0,
+    10.0,
+    10.0,
+    5.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 119.0,
+   "net": 74.0
+  },
+  {
+   "rank": 10,
+   "person": "billie-lagatie",
+   "sail": null,
+   "bib": "69",
+   "sail_published": "69",
+   "name": "Billie Lagatie",
+   "nationality": "BEL",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    9.0,
+    7.0,
+    15.0,
+    8.0,
+    8.0,
+    8.0,
+    10.0,
+    11.0,
+    11.0,
+    11.0,
+    9.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3,
+    8,
+    9
+   ],
+   "total": 113.0,
+   "net": 76.0
+  },
+  {
+   "rank": 11,
+   "person": "axelle-cleeren",
+   "sail": null,
+   "bib": "108",
+   "sail_published": "108",
+   "name": "Axelle Cleeren",
+   "nationality": "BEL",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    8.0,
+    15.0,
+    15.0,
+    10.0,
+    9.0,
+    15.0,
+    7.0,
+    4.0,
+    8.0,
+    9.0,
+    15.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 6": "DNF",
+    "R. 11": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    6
+   ],
+   "total": 125.0,
+   "net": 80.0
+  },
+  {
+   "rank": 12,
+   "person": "yfke-mureau",
+   "sail": null,
+   "bib": "113",
+   "sail_published": "113",
+   "name": "Yfke Mureau",
+   "nationality": "NED",
+   "division": "Girls t/m 14",
+   "points": [
+    10.0,
+    15.0,
+    15.0,
+    11.0,
+    15.0,
+    15.0,
+    15.0,
+    12.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    5
+   ],
+   "total": 168.0,
+   "net": 123.0
+  },
+  {
+   "rank": 13,
+   "person": "babet-lacluyse",
+   "sail": null,
+   "bib": "19",
+   "sail_published": "19",
+   "name": "Babet Lacluyse",
+   "nationality": "BEL",
+   "division": "Girls t/m 14",
+   "points": [
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    12.0,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 177.0,
+   "net": 132.0
+  },
+  {
+   "rank": 14,
+   "person": null,
+   "sail": null,
+   "bib": "9",
+   "sail_published": "9",
+   "name": "Zoé van de Laar",
+   "nationality": "NED",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 180.0,
+   "net": 135.0,
+   "counted": false
+  },
+  {
+   "rank": 14,
+   "person": null,
+   "sail": null,
+   "bib": "48",
+   "sail_published": "48",
+   "name": "Lola Dekkers",
+   "nationality": "NED",
+   "division": "Chicks 15 t/m 18",
+   "points": [
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 180.0,
+   "net": 135.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "isabelle-westerveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "elyn-kraaijeveld",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ina-peene",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "charlotte-leene",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "silke-de-soete",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "oona-debusschere",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "maxime-cleeren",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "axelle-cleeren",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "billie-lagatie",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "yfke-mureau",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "julie-debaere",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "lotte-lievens",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "ina-peene",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "charlotte-leene",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "oona-debusschere",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "maxime-cleeren",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "isabelle-westerveld",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "elyn-kraaijeveld",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "billie-lagatie",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "silke-de-soete",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "julie-debaere",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "axelle-cleeren",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "lotte-lievens",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "isabelle-westerveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "elyn-kraaijeveld",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ina-peene",
+        "result_published": "3.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "charlotte-leene",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "oona-debusschere",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "silke-de-soete",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "billie-lagatie",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maxime-cleeren",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "julie-debaere",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "axelle-cleeren",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "lotte-lievens",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "isabelle-westerveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "silke-de-soete",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "charlotte-leene",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "elyn-kraaijeveld",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "julie-debaere",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "ina-peene",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "oona-debusschere",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "billie-lagatie",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "maxime-cleeren",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "axelle-cleeren",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "yfke-mureau",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "lotte-lievens",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "isabelle-westerveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "elyn-kraaijeveld",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "charlotte-leene",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "silke-de-soete",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "ina-peene",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "oona-debusschere",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "maxime-cleeren",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "billie-lagatie",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "axelle-cleeren",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "julie-debaere",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "lotte-lievens",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "elyn-kraaijeveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "isabelle-westerveld",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ina-peene",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "charlotte-leene",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "oona-debusschere",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "silke-de-soete",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "maxime-cleeren",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "billie-lagatie",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "julie-debaere",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "axelle-cleeren",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "lotte-lievens",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 7",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "ina-peene",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "isabelle-westerveld",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "silke-de-soete",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lotte-lievens",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "oona-debusschere",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "julie-debaere",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "axelle-cleeren",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "maxime-cleeren",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "elyn-kraaijeveld",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "billie-lagatie",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "charlotte-leene",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 8",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "silke-de-soete",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "charlotte-leene",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "lotte-lievens",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "axelle-cleeren",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "ina-peene",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "isabelle-westerveld",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "oona-debusschere",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "maxime-cleeren",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "elyn-kraaijeveld",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "julie-debaere",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "billie-lagatie",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "yfke-mureau",
+        "result_published": "12.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 9",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "isabelle-westerveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "charlotte-leene",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "silke-de-soete",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "elyn-kraaijeveld",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "lotte-lievens",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "oona-debusschere",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "maxime-cleeren",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "axelle-cleeren",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "ina-peene",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "julie-debaere",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "billie-lagatie",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 10",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "isabelle-westerveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "silke-de-soete",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ina-peene",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lotte-lievens",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "julie-debaere",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "charlotte-leene",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "oona-debusschere",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "elyn-kraaijeveld",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "axelle-cleeren",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "maxime-cleeren",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "billie-lagatie",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "babet-lacluyse",
+        "result_published": "12.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 11",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "isabelle-westerveld",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "silke-de-soete",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "lotte-lievens",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "julie-debaere",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "ina-peene",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "charlotte-leene",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "oona-debusschere",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "elyn-kraaijeveld",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "billie-lagatie",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "maxime-cleeren",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "axelle-cleeren",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 12",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "lotte-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "ina-peene",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "silke-de-soete",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "julie-debaere",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "isabelle-westerveld",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "billie-lagatie",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "elyn-kraaijeveld",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "oona-debusschere",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "maxime-cleeren",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "axelle-cleeren",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "charlotte-leene",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Zoé van de Laar",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-mureau",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "babet-lacluyse",
+        "result_published": "15",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lola Dekkers",
+        "result_published": "15",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

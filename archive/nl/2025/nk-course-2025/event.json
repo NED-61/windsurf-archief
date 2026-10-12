@@ -6,30 +6,40 @@
  "year": 2025,
  "stop_number": null,
  "stops_known": null,
- "date": "2025-09-27",
- "date_end": "2025-09-28",
- "location": "Heeg",
+ "date": "2025-09-19",
+ "date_end": "2025-09-21",
+ "location": "Medemblik (IJsselmeer)",
  "discipline": "course_race",
  "classes": [
-  "nk-2025-course-formula-foil",
-  "nk-2025-course-division-2-cat-a",
-  "nk-2025-course-division-2-cat-c",
-  "nk-2025-course-raceboard-windsurfer-lt"
+  "nk-2025-course-foil"
  ],
  "metadata_sources": [
   {
-   "name": "opgave van de repo-eigenaar (deelnemer), 8 oktober 2026",
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'onk-foil-course-19-21-september-medemblik' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20250320115357/https://www.wedstrijdsurfen.nl/evenement/onk-foil-course-19-21-september-medemblik/",
+   "used_for": "ONK Foil Course, 19-21 september 2025, course race (fin en foil), Vooroever 13 Medemblik (planning)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'onk-course-medemblik-19-21-september'",
+   "url": "https://www.wedstrijdsurfen.nl/nieuws/onk-course-medemblik-19-21-september/",
+   "used_for": "ONK Course Foil 2025, 19-21 september op het IJsselmeer bij Medemblik; kampioenen overall en jeugd Finn Brüll, dames Yfke van der Meer, U13 Marijn Schouten, U15 Neill Chardet, U17 Anna Korevaar, grand master Martijn van Geemen (geraadpleegd op 12 oktober 2026 via een tekstweergave)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+   "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+   "used_for": "update van de NVW-kalender 2025 (22 juli 2025)"
+  },
+  {
+   "name": "opgave van de repo-eigenaar (deelnemer), 12 oktober 2026",
    "url": null,
-   "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet); NK-titels: overall, jeugd tot en met 19 en masters"
+   "used_for": "dit is het ONK; het WSH-weekend in Heeg (27-28 september 2025) was geen ONK"
   }
  ],
  "notes": [
-  "Gepubliceerd als 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025' (manage2sail, rapporten van maandag 29 september 2025, 12:46-12:48). ODC = Open Dutch Championship; daarom onder de reeks NK Course, zoals de ODC Formula Foil van 2024.",
-  "NK-titels volgens de gebruiker (8 oktober 2026): overall, jeugd tot en met 19 jaar en masters. De bron geeft geen leeftijd of categorie per rider, dus een aparte jeugd- en mastersuitslag is uit deze uitslagen niet af te leiden; in het archief staat alleen het overall-klassement per klasse.",
-  "Datum (zaterdag 27 en zondag 28 september 2025) volgens de gebruiker, die zelf meedeed; in de bron staat alleen de datum van de rapporten. Locatie AFGELEID uit de organisator: WSH = WaterSportvereniging Heeg (zo vastgesteld bij de editie 2024); de plaats staat niet in de bron.",
-  "Eén enkele wedstrijd (opgave van de gebruiker): anders dan in 2024 zijn er voor deze uitslagen geen races elders gevaren. De bron noemt de uitslagen 'Overall Results'; het zijn dus de einduitslagen.",
-  "'WSH Open Amateur Windsurfer' (5 riders) is een fun-klasse en hoort niet in het archief (opgave van de gebruiker, 8 oktober 2026): niet omgezet, de bron staat in bronnen/."
+  "Gepubliceerd op scoring.winterwave.nl als evenement 'ONK Foil Course - 19-21 september', klasse 'ONK FOIL 2025'. ONK = Open Nederlands Kampioenschap; daarom onder de reeks NK Course.",
+  "Volgens de gebruiker (12 oktober 2026) is dit het NK Course 2025; het WSH Windsurf Weekend in Heeg was geen ONK (zie wsh-windsurf-weekend-2025). De NVW meldde op 22 juli 2025 dat Medemblik 'een officieel ONK' was en dat het course-evenement in Heeg dat jaar geen kwalificatie voor het ONK was.",
+  "Datum en locatie volgens de NVW (evenementpagina en uitslagbericht)."
  ],
- "organizer": "WaterSportvereniging Heeg (WSH)",
- "name_published": "WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025"
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "ONK Foil Course - 19-21 september"
 }

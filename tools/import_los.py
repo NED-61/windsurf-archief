@@ -11,7 +11,8 @@ Bronnen (eerst uit inbox/los geregistreerd en byte-identiek naar bronnen/ verpla
   NK Course 2018      Sailwave-pdf 'Nederlands Kampioenschap Shortboard 2018, overall klassement' -> fleet_racing
   NK Course 2019      Sailwave-pdf's 'tussenstand 16 juni' shortboard en raceboard (TUSSENSTAND)  -> fleet_racing
   NK Course 2024      manage2sail-pdf 'Formula Windsurfing Foil Division, Final Overall Results'  -> fleet_racing
-  NK Slalom 2024      twee pdf's 'Overall results: NK Slalom 2024' (Fin en Foil), zonder heats    -> elimination
+  NK Slalom 2024      twee pdf's 'Overall results: NK Slalom 2024' (Fin en Foil), zonder heats: alleen nog geregistreerd;
+                      sinds 12 oktober 2026 komt de uitslag (zelfde eindstand, met heats) uit tools/import_winterwave.py
 
 Riders (data/people.json): zelfde volledige naam = zelfde persoon; een afgekort tussenvoegsel (v, vd, v.d.) telt als
 dezelfde naam; andere schrijfwijze + zelfde zeilnummer = zelfde persoon; alleen een achternaam (GPA 2009) wordt
@@ -87,14 +88,19 @@ EVENTS = {
         "discipline": "course_race", "name_published": "Nederlands Kampioenschap Raceboard en Shortboard 2019",
         "meta_sources": [],
         "notes": ["Alleen de TUSSENSTAND van 16 juni 2019 is in het archief (Sailwave-pdf's van 16 juni 2019). De eindstand van het NK 2019 ontbreekt; data en locaties staan niet in de bron."]},
-    "nk-course-2024": {"year": 2024, "name": "NK Course 2024", "series": "NK Course", "date": None, "date_end": "2024-09-29", "location": None,
+    "nk-course-2024": {"year": 2024, "name": "NK Course 2024", "series": "NK Course", "date": "2024-08-31", "date_end": "2024-09-29", "location": "Hoorn en Heeg",
         "discipline": "course_race", "name_published": "WSH ODC Windsurfing DIV2/FOIL/OPEN 2024 - Formula Windsurfing Foil Division",
         "meta_sources": [{"name": "manage2sail: WSH ODC Windsurfing DIV2/FOIL/OPEN 2024", "url": "https://www.manage2sail.com/en-be/event/WSHODCDIV2FOILOPEN2024",
                           "used_for": "evenement van 28 en 29 september 2024"},
                          {"name": "WaterSportvereniging Heeg: Division 2 Open Dutch Championship 2024", "url": "https://wsheeg.nl/div2-odc-2024/",
-                          "used_for": "WSH = WaterSportvereniging Heeg; ODC op 28 en 29 september 2024 op het Heegermeer"}],
+                          "used_for": "WSH = WaterSportvereniging Heeg; ODC op 28 en 29 september 2024 op het Heegermeer"},
+                         {"name": "wedstrijdsurfen.nl (NVW): evenementpagina '31-aug-en-1-sept-2024-nvw-onk-course-1-hoorn' (Wayback Machine)",
+                          "url": "https://web.archive.org/web/20240911224054/https://www.wedstrijdsurfen.nl/evenement/31-aug-en-1-sept-2024-nvw-onk-course-1-hoorn/",
+                          "used_for": "NVW ONK Course #1 Hoorn, 31 augustus en 1 september 2024 (met NOR en SI 'ONK Windsurfing Course 2024')"},
+                         {"name": "scoring.winterwave.nl: NK Course Race 2024 - Hoorn", "url": "https://scoring.winterwave.nl/results/total/0/9107cbad",
+                          "used_for": "de 12 races in Hoorn (vergeleken met HO01-HO12, zie de note in event.json)"}],
         "notes": ["Gepubliceerd als 'WSH ODC Windsurfing DIV2/FOIL/OPEN 2024 - Formula Windsurfing Foil Division - Final Overall Results' (manage2sail, 29 september 2024). ODC = Open Dutch Championship.",
-                  "De eindstand telt 23 races met codes HO01-HO12 en HE01-HE11. Het evenement bij WSH (Heeg, Heegermeer) was op 28 en 29 september 2024; waar en wanneer de HO-races zijn gevaren staat niet in de bron. Daarom is geen begindatum en locatie ingevuld."]},
+                  "De eindstand telt 23 races: HO01-HO12 in Hoorn (NVW ONK Course #1, 31 augustus en 1 september 2024) en HE01-HE11 bij WSH in Heeg (28 en 29 september 2024). Datum = eerste en laatste wedstrijddag. Dat HO Hoorn is, staat niet in de bron zelf: het volgt uit de NVW-planning en uit de Hoorn-uitslag op scoring.winterwave.nl (zelfde races)."]},
     "nk-slalom-2024": {"year": 2024, "name": "NK Slalom 2024", "series": "NK Slalom", "date": None, "date_end": None, "location": None,
         "discipline": "slalom",
         "meta_sources": [],
@@ -428,6 +434,16 @@ def build_gpa_2009():
 
 
 # ---------------------------------------------------------------- Ronde om Texel
+OTHER_SOURCES = {  # tweede bron van dezelfde uitslag (vergeleken in tools/import_winterwave.py, 12 oktober 2026)
+    "ronde-om-texel-2024": [{"name": "scoring.winterwave.nl (Winter-Wave scoring): Round Texel 2024 - ONK Windsurf Marathon", "url": "https://scoring.winterwave.nl/results/total/2/d8ac3e3a",
+                             "file": "archive/nl/2024/ronde-om-texel-2024/bronnen/winterwave-round-texel-2024-capture.json.gz", "retrieved": "2026-10-12",
+                             "compared": "alle 30 riders gelijk (plaats en tijd); winterwave toont geen namen (vergeleken op de zeilnummercel) en geen codes"}],
+    "ronde-om-texel-2025": [{"name": "scoring.winterwave.nl (Winter-Wave scoring): Round Texel 2025 - Windsurf", "url": "https://scoring.winterwave.nl/results/total/2/d56023b1",
+                             "file": "archive/nl/2025/ronde-om-texel-2025/bronnen/winterwave-round-texel-2025-capture.json.gz", "retrieved": "2026-10-12",
+                             "compared": "alle 26 riders gelijk (plaats en tijd); winterwave toont geen codes bij riders zonder tijd"}],
+}
+
+
 def texel_doc(slug, entries, src, url, method, fmt_extra, notes, extra_checks=(), class_pub=None):
     ev = EVENTS[slug]
     fin = [e for e in entries if e["rank"] is not None]
@@ -446,7 +462,8 @@ def texel_doc(slug, entries, src, url, method, fmt_extra, notes, extra_checks=()
                       **({"class_label_published": class_pub} if class_pub else {})},
             "format": {"type": "long_distance", "ranking": "op tijd over één ronde om het eiland", "rank_basis": "gepubliceerd", "laps_published": False, **fmt_extra},
             "source": {"name": src.name, "url": url, "file": rel(src), "type": "web" if src.suffix == ".html" else "pdf", "retrieved": RETRIEVED,
-                       "method": method, "metadata_sources": ev["meta_sources"], "verified": "; ".join(checks)},
+                       "method": method, "metadata_sources": ev["meta_sources"], "verified": "; ".join(checks),
+                       **({"other_sources": OTHER_SOURCES[slug]} if slug in OTHER_SOURCES else {})},
             "coverage": "complete", "notes": notes, "entries": entries, "detail": {}}
 
 
@@ -1116,7 +1133,7 @@ def link_people(results, dry):
 
 
 # ---------------------------------------------------------------- hoofdprogramma
-RETIRED = ("Datum van de editie 2009 niet gevonden",)      # eerdere notes die niet meer kloppen
+RETIRED = ("Datum van de editie 2009 niet gevonden", "De eindstand telt 23 races met codes HO01-HO12 en HE01-HE11.")      # eerdere notes die niet meer kloppen
 
 
 def event_doc(slug, rs):
@@ -1137,7 +1154,9 @@ def event_doc(slug, rs):
 
 BUILDERS = [("nk-course-2002", build_2002), ("gpa-2009", build_gpa_2009), ("ronde-om-texel-2017", build_texel_2017), ("ronde-om-texel-2018", build_texel_2018),
             ("ronde-om-texel-2019", build_texel_2019), ("ronde-om-texel-2024", build_texel_2024), ("ronde-om-texel-2025", build_texel_2025),
-            ("nk-course-2018", build_course_2018), ("nk-course-2019", build_course_2019), ("nk-course-2024", build_course_2024), ("nk-slalom-2024", build_slalom_2024)]
+            ("nk-course-2018", build_course_2018), ("nk-course-2019", build_course_2019), ("nk-course-2024", build_course_2024)]
+# NK Slalom 2024 (build_slalom_2024) staat hier niet meer in: sinds 12 oktober 2026 komt die uitslag uit tools/import_winterwave.py
+# (zelfde eindstand als de pdf's, met heats en codes; keuze van de gebruiker). De pdf's blijven geregistreerd als bron.
 
 
 def main():

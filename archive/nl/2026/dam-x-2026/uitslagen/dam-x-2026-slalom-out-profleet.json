@@ -1,0 +1,2822 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2026-slalom-out-profleet",
+ "event": {
+  "name": "DAM-X 2026",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-10-09",
+  "location": "Brouwersdam (Grevelingenmeer)",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Out - Profleet",
+  "class_label_published": "Out - Profleet",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6",
+   "R. 7",
+   "R. 8",
+   "R. 9",
+   "R. 10",
+   "R. 11",
+   "R. 12"
+  ],
+  "discards": 3,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF, OCS gescoord als 27 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/64b540a3",
+  "file": "archive/nl/2026/dam-x-2026/bronnen/winterwave-damx-2026-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "DAM-X Brouwersdam",
+    "url": "https://www.dam-x.com/nl",
+    "used_for": "tiende editie, 9 tot en met 11 oktober 2026"
+   },
+   {
+    "name": "Go-Kids agenda: DAM-X 10th edition",
+    "url": "https://go-kids.nl/zeeland/agenda/dam-x-10th-edition-aan-het-grevelingenmeer-bij-brouwersdam",
+    "used_for": "vrijdag 9 tot en met zondag 11 oktober 2026, Brouwersdam aan het Grevelingenmeer; windsurf- en wingslalom"
+   }
+  ],
+  "verified": "27 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 3 (27x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Out - Profleet - DAM-X 2026'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Bij een zeilnummercel met meer delen staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "amado-vrieswijk",
+   "sail": "NB-20",
+   "name": "Amado Vrieswijk",
+   "nationality": "NB",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    27.0,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 61.0,
+   "net": 6.3
+  },
+  {
+   "rank": 2,
+   "person": "sem-stroosma",
+   "sail": "NED-450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    0.7,
+    2.0,
+    2.0,
+    3.0,
+    2.0,
+    2.0,
+    10.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    4,
+    7
+   ],
+   "total": 31.7,
+   "net": 16.7
+  },
+  {
+   "rank": 3,
+   "person": "ingmar-daldorf",
+   "sail": "NED-191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    2.0,
+    3.0,
+    4.0,
+    4.0,
+    3.0,
+    4.0,
+    4.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    8,
+    12
+   ],
+   "total": 46.0,
+   "net": 32.0
+  },
+  {
+   "rank": 4,
+   "person": "bob-van-de-burgt",
+   "sail": "NED-737",
+   "name": "Bob van de Burgt",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    8.0,
+    0.7,
+    11.0,
+    2.0,
+    27.0,
+    27.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0,
+    27.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R. 5": "DNF",
+    "R. 6": "OCS",
+    "R. 11": "DNF"
+   },
+   "discarded": [
+    5,
+    6,
+    11
+   ],
+   "total": 116.7,
+   "net": 35.7
+  },
+  {
+   "rank": 5,
+   "person": "taty-frans",
+   "sail": "NB-9",
+   "name": "Taty Frans",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    3.0,
+    12.0,
+    3.0,
+    5.0,
+    4.0,
+    3.0,
+    3.0,
+    4.0,
+    6.0,
+    27.0,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R. 10": "OCS"
+   },
+   "discarded": [
+    2,
+    10,
+    12
+   ],
+   "total": 82.0,
+   "net": 36.0
+  },
+  {
+   "rank": 6,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED-259",
+   "name": "Bart VD Bogaart",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    4.0,
+    5.0,
+    6.0,
+    9.0,
+    9.0,
+    5.0,
+    6.0,
+    5.0,
+    6.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R. 1": "OCS"
+   },
+   "discarded": [
+    1,
+    5,
+    6
+   ],
+   "total": 89.0,
+   "net": 44.0
+  },
+  {
+   "rank": 7,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    5.0,
+    9.0,
+    6.0,
+    8.0,
+    5.0,
+    5.0,
+    6.0,
+    27.0,
+    8.0,
+    5.0,
+    27.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R. 8": "OCS",
+    "R. 11": "DNF"
+   },
+   "discarded": [
+    2,
+    8,
+    11
+   ],
+   "total": 117.0,
+   "net": 54.0
+  },
+  {
+   "rank": 8,
+   "person": "thijs-hanemaaijer",
+   "sail": "NED-107",
+   "name": "Thijs Hanemaaijer",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    4.0,
+    5.0,
+    8.0,
+    7.0,
+    6.0,
+    7.0,
+    27.0,
+    7.0,
+    9.0,
+    10.0,
+    7.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 7": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    7,
+    10,
+    12
+   ],
+   "total": 124.0,
+   "net": 60.0
+  },
+  {
+   "rank": 9,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    6.0,
+    7.0,
+    9.0,
+    7.0,
+    8.0,
+    27.0,
+    9.0,
+    11.0,
+    8.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R. 1": "OCS",
+    "R. 7": "OCS"
+   },
+   "discarded": [
+    1,
+    7,
+    9
+   ],
+   "total": 135.0,
+   "net": 70.0
+  },
+  {
+   "rank": 10,
+   "person": "matthijs-pos",
+   "sail": "NED-318",
+   "name": "Matthijs Pos",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    27.0,
+    27.0,
+    11.0,
+    11.0,
+    27.0,
+    8.0,
+    8.0,
+    7.0,
+    7.0,
+    6.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 6": "OCS"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 175.0,
+   "net": 94.0
+  },
+  {
+   "rank": 11,
+   "person": "bendix-engemann",
+   "sail": "GER-1703",
+   "name": "Bendix Engemann",
+   "nationality": "GER",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    6.0,
+    8.0,
+    20.0,
+    15.0,
+    10.0,
+    21.0,
+    7.0,
+    13.0,
+    12.0,
+    15.0,
+    16.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    6,
+    11
+   ],
+   "total": 156.0,
+   "net": 99.0
+  },
+  {
+   "rank": 12,
+   "person": "yannick-walhof",
+   "sail": "NED-338",
+   "name": "Yannick Walhof",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    11.0,
+    14.0,
+    14.0,
+    17.0,
+    13.0,
+    27.0,
+    11.0,
+    12.0,
+    14.0,
+    9.0,
+    9.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    2,
+    4,
+    6
+   ],
+   "total": 161.0,
+   "net": 103.0
+  },
+  {
+   "rank": 13,
+   "person": "peter-mulder",
+   "sail": "NED-95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    9.0,
+    27.0,
+    10.0,
+    13.0,
+    15.0,
+    10.0,
+    27.0,
+    10.0,
+    17.0,
+    13.0,
+    11.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 7": "DNF"
+   },
+   "discarded": [
+    2,
+    7,
+    9
+   ],
+   "total": 178.0,
+   "net": 107.0
+  },
+  {
+   "rank": 14,
+   "person": "bruno-ghyczy",
+   "sail": "NED-454",
+   "name": "Bruno Ghyczy",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    15.0,
+    10.0,
+    12.0,
+    16.0,
+    12.0,
+    15.0,
+    13.0,
+    11.0,
+    16.0,
+    14.0,
+    10.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    4,
+    9
+   ],
+   "total": 155.0,
+   "net": 108.0
+  },
+  {
+   "rank": 15,
+   "person": "doeke-de-valk",
+   "sail": "NED-535",
+   "name": "Doeke de Valk",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    10.0,
+    7.0,
+    17.0,
+    14.0,
+    18.0,
+    16.0,
+    27.0,
+    14.0,
+    10.0,
+    12.0,
+    12.0,
+    17.0
+   ],
+   "race_remarks": {
+    "R. 7": "DNF"
+   },
+   "discarded": [
+    3,
+    5,
+    7
+   ],
+   "total": 174.0,
+   "net": 112.0
+  },
+  {
+   "rank": 16,
+   "person": "mikk-hillebrand",
+   "sail": "NED-330",
+   "name": "Mikk",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    27.0,
+    13.0,
+    19.0,
+    14.0,
+    18.0,
+    9.0,
+    17.0,
+    15.0,
+    17.0,
+    18.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "OCS"
+   },
+   "discarded": [
+    1,
+    2,
+    4
+   ],
+   "total": 208.0,
+   "net": 135.0
+  },
+  {
+   "rank": 17,
+   "person": "melvin-jansen",
+   "sail": "NED-404",
+   "name": "Melvin Jansen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    14.0,
+    11.0,
+    22.0,
+    18.0,
+    20.0,
+    27.0,
+    27.0,
+    15.0,
+    13.0,
+    16.0,
+    14.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 6": "OCS",
+    "R. 7": "OCS"
+   },
+   "discarded": [
+    3,
+    6,
+    7
+   ],
+   "total": 212.0,
+   "net": 136.0
+  },
+  {
+   "rank": 18,
+   "person": "mathijs-bronkhorst",
+   "sail": "NED-550",
+   "name": "Mathijs Bronkhorst",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    18.0,
+    13.0,
+    21.0,
+    21.0,
+    21.0,
+    12.0,
+    16.0,
+    16.0,
+    20.0,
+    11.0,
+    13.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    4,
+    5
+   ],
+   "total": 202.0,
+   "net": 139.0
+  },
+  {
+   "rank": 19,
+   "person": "daniek-penners",
+   "sail": "NED-528",
+   "name": "Daniek Penners",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    17.0,
+    19.0,
+    25.0,
+    17.0,
+    17.0,
+    15.0,
+    18.0,
+    22.0,
+    18.0,
+    17.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    4,
+    9
+   ],
+   "total": 209.0,
+   "net": 143.0
+  },
+  {
+   "rank": 20,
+   "person": "arnon-dagan",
+   "sail": "NB-20",
+   "sail_published": "NB-20 1",
+   "name": "Arnon Dagan",
+   "nationality": "ISR",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    7.0,
+    27.0,
+    9.0,
+    10.0,
+    8.0,
+    6.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    2,
+    7,
+    8
+   ],
+   "total": 229.0,
+   "net": 148.0
+  },
+  {
+   "rank": 21,
+   "person": "iris-gimpel",
+   "sail": "NED-567",
+   "name": "Iris",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    13.0,
+    15.0,
+    16.0,
+    24.0,
+    22.0,
+    20.0,
+    12.0,
+    21.0,
+    19.0,
+    20.0,
+    15.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5,
+    8
+   ],
+   "total": 216.0,
+   "net": 149.0
+  },
+  {
+   "rank": 22,
+   "person": "moritz-scheuvens",
+   "sail": "GER-84",
+   "name": "Moritz Scheuvens",
+   "nationality": "GER",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    17.0,
+    16.0,
+    18.0,
+    23.0,
+    23.0,
+    19.0,
+    14.0,
+    19.0,
+    21.0,
+    19.0,
+    19.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5,
+    9
+   ],
+   "total": 226.0,
+   "net": 159.0
+  },
+  {
+   "rank": 23,
+   "person": "caren-niezen",
+   "sail": "NED-367",
+   "name": "Caren Niezen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    16.0,
+    18.0,
+    15.0,
+    22.0,
+    24.0,
+    13.0,
+    27.0,
+    20.0,
+    18.0,
+    21.0,
+    20.0,
+    21.0
+   ],
+   "race_remarks": {
+    "R. 7": "DNF"
+   },
+   "discarded": [
+    4,
+    5,
+    7
+   ],
+   "total": 235.0,
+   "net": 162.0
+  },
+  {
+   "rank": 24,
+   "person": "max-shytikov",
+   "sail": "NED-507",
+   "name": "Maksym Shytikov",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    27.0,
+    27.0,
+    12.0,
+    16.0,
+    11.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 282.0,
+   "net": 201.0
+  },
+  {
+   "rank": 25,
+   "person": "louise-van-der-meulen",
+   "sail": "ARU-180",
+   "name": "Louise van der Meulen",
+   "nationality": "ARU",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    27.0,
+    27.0,
+    20.0,
+    19.0,
+    14.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 296.0,
+   "net": 215.0
+  },
+  {
+   "rank": 26,
+   "person": null,
+   "sail": "GER-69",
+   "name": "Mario Kümpel",
+   "nationality": "GER",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 324.0,
+   "net": 243.0,
+   "counted": false
+  },
+  {
+   "rank": 26,
+   "person": null,
+   "sail": null,
+   "bib": "79",
+   "sail_published": "79",
+   "name": "Kevin Mevissen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 324.0,
+   "net": 243.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "sem-stroosma",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "ingmar-daldorf",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "taty-frans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "femke-van-der-veen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bendix-engemann",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "arnon-dagan",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bob-van-de-burgt",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "peter-mulder",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "doeke-de-valk",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "yannick-walhof",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "daniek-penners",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "iris-gimpel",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "melvin-jansen",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "bruno-ghyczy",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "caren-niezen",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "moritz-scheuvens",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "mathijs-bronkhorst",
+        "result_published": "18.0"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "mikk-hillebrand",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "amado-vrieswijk",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bart-van-den-bogaart",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "bob-van-de-burgt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bart-van-den-bogaart",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "thijs-hanemaaijer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-baaijen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "doeke-de-valk",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bendix-engemann",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "femke-van-der-veen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "bruno-ghyczy",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "melvin-jansen",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "taty-frans",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "mathijs-bronkhorst",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yannick-walhof",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "iris-gimpel",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "moritz-scheuvens",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "daniek-penners",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "caren-niezen",
+        "result_published": "18.0"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "mikk-hillebrand",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "arnon-dagan",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "amado-vrieswijk",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "taty-frans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ingmar-daldorf",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "femke-van-der-veen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "thijs-hanemaaijer",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "arnon-dagan",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "bob-van-de-burgt",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "bruno-ghyczy",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "mikk-hillebrand",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yannick-walhof",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "caren-niezen",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "iris-gimpel",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "doeke-de-valk",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "moritz-scheuvens",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "daniek-penners",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "bendix-engemann",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "mathijs-bronkhorst",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "melvin-jansen",
+        "result_published": "22.0"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "sem-stroosma",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ingmar-daldorf",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "taty-frans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "thijs-hanemaaijer",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "femke-van-der-veen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "max-baaijen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "arnon-dagan",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "matthijs-pos",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "max-shytikov",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "peter-mulder",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "doeke-de-valk",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "bendix-engemann",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "bruno-ghyczy",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "yannick-walhof",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "melvin-jansen",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "mikk-hillebrand",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "louise-van-der-meulen",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "mathijs-bronkhorst",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "caren-niezen",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "moritz-scheuvens",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "iris-gimpel",
+        "result_published": "24.0"
+       },
+       {
+        "rank": 25,
+        "person": "daniek-penners",
+        "result_published": "25.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "taty-frans",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "femke-van-der-veen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "thijs-hanemaaijer",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "arnon-dagan",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bart-van-den-bogaart",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "bendix-engemann",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "matthijs-pos",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "bruno-ghyczy",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "yannick-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "mikk-hillebrand",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "peter-mulder",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "max-shytikov",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "daniek-penners",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "doeke-de-valk",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "louise-van-der-meulen",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "melvin-jansen",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "mathijs-bronkhorst",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "iris-gimpel",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "moritz-scheuvens",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "caren-niezen",
+        "result_published": "24.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "taty-frans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ingmar-daldorf",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "femke-van-der-veen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "arnon-dagan",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "thijs-hanemaaijer",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "max-baaijen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bart-van-den-bogaart",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "max-shytikov",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "mathijs-bronkhorst",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "caren-niezen",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "louise-van-der-meulen",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "bruno-ghyczy",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "doeke-de-valk",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "daniek-penners",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "mikk-hillebrand",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "moritz-scheuvens",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "iris-gimpel",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "bendix-engemann",
+        "result_published": "21.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "melvin-jansen",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "yannick-walhof",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 7",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "taty-frans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ingmar-daldorf",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "femke-van-der-veen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bendix-engemann",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "matthijs-pos",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "mikk-hillebrand",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "sem-stroosma",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "yannick-walhof",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "iris-gimpel",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "bruno-ghyczy",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "moritz-scheuvens",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "daniek-penners",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "mathijs-bronkhorst",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": "caren-niezen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thijs-hanemaaijer",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "melvin-jansen",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "arnon-dagan",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "doeke-de-valk",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 8",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "taty-frans",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "ingmar-daldorf",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "thijs-hanemaaijer",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "matthijs-pos",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "max-baaijen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "bruno-ghyczy",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "yannick-walhof",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "bendix-engemann",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "doeke-de-valk",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "melvin-jansen",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "mathijs-bronkhorst",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "mikk-hillebrand",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "daniek-penners",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "moritz-scheuvens",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "caren-niezen",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "iris-gimpel",
+        "result_published": "21.0"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arnon-dagan",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 9",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ingmar-daldorf",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "taty-frans",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "matthijs-pos",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "femke-van-der-veen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "thijs-hanemaaijer",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "doeke-de-valk",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "max-baaijen",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "bendix-engemann",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "melvin-jansen",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yannick-walhof",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "mikk-hillebrand",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "bruno-ghyczy",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "peter-mulder",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "caren-niezen",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "iris-gimpel",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "mathijs-bronkhorst",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "moritz-scheuvens",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "daniek-penners",
+        "result_published": "22.0"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arnon-dagan",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 10",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ingmar-daldorf",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "femke-van-der-veen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "matthijs-pos",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "max-baaijen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "yannick-walhof",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "thijs-hanemaaijer",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "mathijs-bronkhorst",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "doeke-de-valk",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "peter-mulder",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "bruno-ghyczy",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "bendix-engemann",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "melvin-jansen",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "mikk-hillebrand",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "daniek-penners",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "moritz-scheuvens",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "iris-gimpel",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "caren-niezen",
+        "result_published": "21.0"
+       },
+       {
+        "rank": null,
+        "person": "taty-frans",
+        "result_published": "27",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arnon-dagan",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 11",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bart-van-den-bogaart",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ingmar-daldorf",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "taty-frans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "matthijs-pos",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "thijs-hanemaaijer",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "max-baaijen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "yannick-walhof",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "bruno-ghyczy",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "peter-mulder",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "doeke-de-valk",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "mathijs-bronkhorst",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "melvin-jansen",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "iris-gimpel",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "bendix-engemann",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "daniek-penners",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "mikk-hillebrand",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "moritz-scheuvens",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "caren-niezen",
+        "result_published": "20.0"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arnon-dagan",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 12",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bart-van-den-bogaart",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "ingmar-daldorf",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "femke-van-der-veen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "taty-frans",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "max-baaijen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "matthijs-pos",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "yannick-walhof",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "bruno-ghyczy",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "daniek-penners",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "bendix-engemann",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "mikk-hillebrand",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "melvin-jansen",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "peter-mulder",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "doeke-de-valk",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "moritz-scheuvens",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "iris-gimpel",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "mathijs-bronkhorst",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "caren-niezen",
+        "result_published": "21.0"
+       },
+       {
+        "rank": null,
+        "person": "thijs-hanemaaijer",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-shytikov",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mario Kümpel",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arnon-dagan",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "louise-van-der-meulen",
+        "result_published": "27",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Kevin Mevissen",
+        "result_published": "27",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

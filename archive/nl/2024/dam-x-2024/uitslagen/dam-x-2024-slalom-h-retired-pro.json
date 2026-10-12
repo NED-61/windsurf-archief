@@ -1,0 +1,400 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2024-slalom-h-retired-pro",
+ "event": {
+  "name": "DAM-X 2024",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2024-10-11",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "H- Retired Pro",
+  "class_label_published": "H- Retired Pro",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF gescoord als 9 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/8f76b00b",
+  "file": "archive/nl/2024/dam-x-2024/bronnen/winterwave-damx-2024-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X with slalom, freestyle and wing slalom - register now",
+    "url": "https://www.surf-magazin.de/en/wingsurfing/scene-and-events/brouwersdam-dam-x-with-slalom-freestyle-and-wing-slalom-register-now/",
+    "used_for": "achtste DAM-X, vrijdag 11 tot en met zondag 13 oktober (bericht van 20 juni 2024)"
+   }
+  ],
+  "verified": "9 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (9x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'H- Retired Pro - DAM-X 2024'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "peter-van-der-lugt",
+   "sail": null,
+   "bib": "11",
+   "sail_published": "11",
+   "name": "Peter van der Lugt",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 0.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "geert-beek-van",
+   "sail": "NED-525",
+   "name": "Geert Van Beek",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    3.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 9.0,
+   "net": 5.0
+  },
+  {
+   "rank": 3,
+   "person": "nigel-hart",
+   "sail": "NB-65",
+   "name": "Nigel Hart",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    2.0,
+    5.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 10.0,
+   "net": 5.0
+  },
+  {
+   "rank": 4,
+   "person": "mac-koeleman",
+   "sail": "NED-283",
+   "name": "Mac Koeleman",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    5.0,
+    4.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 11.0,
+   "net": 6.0
+  },
+  {
+   "rank": 5,
+   "person": "max-shytikov",
+   "sail": "NED-507",
+   "name": "Max Shytikov",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    4.0,
+    3.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 12.0,
+   "net": 7.0
+  },
+  {
+   "rank": 6,
+   "person": "bas-brull",
+   "sail": "NED-1731",
+   "name": "Bas Brull",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    6.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 18.0,
+   "net": 12.0
+  },
+  {
+   "rank": 7,
+   "person": "iris-gimpel",
+   "sail": "NED-567",
+   "name": "Iris Gimpel",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    8.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 22.0,
+   "net": 14.0
+  },
+  {
+   "rank": 8,
+   "person": "bibi-wijnschenk",
+   "sail": "NB-1",
+   "name": "Bibi Wijnschenk",
+   "nationality": "NB",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    7.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 23.0,
+   "net": 15.0
+  },
+  {
+   "rank": 9,
+   "person": "jan-willem-vermeulen",
+   "sail": null,
+   "sail_published": "G",
+   "name": "Jan Willem Vermeulen",
+   "nationality": "NED",
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    9.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 27.0,
+   "net": 18.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peter-van-der-lugt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "nigel-hart",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "geert-beek-van",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "max-shytikov",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "mac-koeleman",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bas-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bibi-wijnschenk",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "iris-gimpel",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jan-willem-vermeulen",
+        "result_published": "9.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peter-van-der-lugt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "geert-beek-van",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "max-shytikov",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mac-koeleman",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "nigel-hart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bas-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "iris-gimpel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bibi-wijnschenk",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jan-willem-vermeulen",
+        "result_published": "9.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peter-van-der-lugt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "mac-koeleman",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "nigel-hart",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "geert-beek-van",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-shytikov",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bas-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "iris-gimpel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bibi-wijnschenk",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "jan-willem-vermeulen",
+        "result_published": "9",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

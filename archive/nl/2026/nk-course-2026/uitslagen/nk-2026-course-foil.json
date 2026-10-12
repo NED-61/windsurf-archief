@@ -1,0 +1,879 @@
+{
+ "schema_version": 1,
+ "id": "nk-2026-course-foil",
+ "event": {
+  "name": "NK Course 2026",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-09-12",
+  "location": "Hoorn (Stadsstrand)",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Foil",
+  "class_label_published": "Foil",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6",
+   "R. 7",
+   "R. 8",
+   "R. 9",
+   "R. 10",
+   "R. 11",
+   "R. 12"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race; DNF, OCS gescoord als 27 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 5 eliminations, 2 discard after 12 eliminations, ",
+  "winterwave_scoring": "windsurf_full_fleet"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/6/aace2ace",
+  "file": "archive/nl/2026/nk-course-2026/bronnen/winterwave-onk-foil-course-2026-hoorn-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): wedstrijdkalender 2026",
+    "url": "https://www.wedstrijdsurfen.nl/wedstrijden",
+    "used_for": "12-13 september 2026: ONK Foil Course Hoorn, course race, Stadsstrand Hoorn (planning)"
+   }
+  ],
+  "verified": "26 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (26x); geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Foil - 2026 ONK Foil Course - Hoorn'.",
+  "Bij een zeilnummercel met meer delen staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "merlijn-boswijk",
+   "sail": "NED-244",
+   "name": "Merlijn Boswijk",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    2.0,
+    27.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    3.0,
+    1.0,
+    5.0,
+    1.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF"
+   },
+   "discarded": [
+    2,
+    10
+   ],
+   "total": 46.0,
+   "net": 14.0
+  },
+  {
+   "rank": 2,
+   "person": "finn-brull",
+   "sail": "NED-173",
+   "name": "Finn Brüll",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    1.0,
+    1.0,
+    27.0,
+    2.0,
+    3.0,
+    2.0,
+    2.0,
+    1.0,
+    2.0,
+    2.0,
+    3.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 47.0,
+   "net": 17.0
+  },
+  {
+   "rank": 3,
+   "person": "matt-de-jong",
+   "sail": "NED-100",
+   "name": "Matt De jong",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    10.0,
+    4.0,
+    2.0,
+    3.0,
+    2.0,
+    4.0,
+    5.0,
+    5.0,
+    6.0,
+    1.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    9
+   ],
+   "total": 52.0,
+   "net": 36.0
+  },
+  {
+   "rank": 4,
+   "person": "mika-boone",
+   "sail": "NED-134",
+   "name": "Mika Boone",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    8.0,
+    3.0,
+    8.0,
+    5.0,
+    5.0,
+    5.0,
+    10.0,
+    4.0,
+    3.0,
+    3.0,
+    2.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    7
+   ],
+   "total": 63.0,
+   "net": 45.0
+  },
+  {
+   "rank": 5,
+   "person": "milo-zaal",
+   "sail": "NED-303",
+   "name": "Milo Zaal",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    6.0,
+    9.0,
+    6.0,
+    8.0,
+    4.0,
+    3.0,
+    6.0,
+    6.0,
+    4.0,
+    7.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 69.0,
+   "net": 52.0
+  },
+  {
+   "rank": 6,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    7.0,
+    7.0,
+    4.0,
+    7.0,
+    7.0,
+    7.0,
+    4.0,
+    8.0,
+    5.0,
+    9.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    8,
+    10
+   ],
+   "total": 72.0,
+   "net": 55.0
+  },
+  {
+   "rank": 7,
+   "person": "joep-havik",
+   "sail": "NED-231",
+   "name": "Joep Havik",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    5.0,
+    6.0,
+    3.0,
+    6.0,
+    6.0,
+    27.0,
+    3.0,
+    2.0,
+    8.0,
+    4.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 6": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    6,
+    11
+   ],
+   "total": 124.0,
+   "net": 70.0
+  },
+  {
+   "rank": 8,
+   "person": "cedric-walhof",
+   "sail": "NED-388",
+   "name": "Cedric Walhof",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    4.0,
+    8.0,
+    7.0,
+    11.0,
+    8.0,
+    6.0,
+    12.0,
+    7.0,
+    7.0,
+    20.0,
+    7.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    7,
+    10
+   ],
+   "total": 103.0,
+   "net": 71.0
+  },
+  {
+   "rank": 9,
+   "person": "martijn-van-geemen",
+   "sail": "NED-31",
+   "name": "Martijn van Geemen",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    9.0,
+    5.0,
+    9.0,
+    16.0,
+    10.0,
+    11.0,
+    7.0,
+    10.0,
+    13.0,
+    10.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    9
+   ],
+   "total": 118.0,
+   "net": 89.0
+  },
+  {
+   "rank": 10,
+   "person": "milan-hoevens",
+   "sail": "NED-477",
+   "name": "Milan Hoevens",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    22.0,
+    11.0,
+    10.0,
+    9.0,
+    11.0,
+    8.0,
+    9.0,
+    11.0,
+    10.0,
+    15.0,
+    12.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    10
+   ],
+   "total": 138.0,
+   "net": 101.0
+  },
+  {
+   "rank": 11,
+   "person": "bjarne-de-leeuw",
+   "sail": "NED-164",
+   "name": "Bjarne de Leeuw",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    16.0,
+    15.0,
+    22.0,
+    10.0,
+    13.0,
+    9.0,
+    13.0,
+    9.0,
+    17.0,
+    8.0,
+    10.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    9
+   ],
+   "total": 150.0,
+   "net": 111.0
+  },
+  {
+   "rank": 12,
+   "person": "thijs-dijkstra",
+   "sail": "NED-297",
+   "name": "Thijs Dijkstra",
+   "nationality": "NED",
+   "division": "Junior",
+   "points": [
+    15.0,
+    14.0,
+    15.0,
+    19.0,
+    17.0,
+    12.0,
+    8.0,
+    15.0,
+    15.0,
+    11.0,
+    8.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 160.0,
+   "net": 124.0
+  },
+  {
+   "rank": 13,
+   "person": "neill-chardet",
+   "sail": "NED-2011",
+   "name": "Neill chardet",
+   "nationality": "NED",
+   "division": "Junior",
+   "points": [
+    14.0,
+    13.0,
+    14.0,
+    15.0,
+    12.0,
+    14.0,
+    15.0,
+    16.0,
+    9.0,
+    12.0,
+    11.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    8
+   ],
+   "total": 157.0,
+   "net": 126.0
+  },
+  {
+   "rank": 14,
+   "person": "sara-de-kimpe",
+   "sail": "NED-170",
+   "name": "Sara de Kimpe",
+   "nationality": "NED",
+   "division": "Women",
+   "points": [
+    27.0,
+    16.0,
+    12.0,
+    14.0,
+    15.0,
+    10.0,
+    16.0,
+    14.0,
+    12.0,
+    14.0,
+    14.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 179.0,
+   "net": 136.0
+  },
+  {
+   "rank": 15,
+   "person": "anna-korevaar",
+   "sail": "NED-157",
+   "name": "Anna Korevaar",
+   "nationality": "NED",
+   "division": "Junior",
+   "points": [
+    17.0,
+    18.0,
+    16.0,
+    17.0,
+    16.0,
+    13.0,
+    17.0,
+    13.0,
+    16.0,
+    16.0,
+    20.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    11
+   ],
+   "total": 192.0,
+   "net": 154.0
+  },
+  {
+   "rank": 16,
+   "person": "thibault-dijksterhuis",
+   "sail": "NED-556",
+   "name": "Thibbes Dijksterhuis",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    3.0,
+    2.0,
+    5.0,
+    4.0,
+    9.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 212.0,
+   "net": 158.0
+  },
+  {
+   "rank": 17,
+   "person": "marijn-schouten",
+   "sail": "NED-160",
+   "name": "Marijn Schouten",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    21.0,
+    19.0,
+    21.0,
+    21.0,
+    19.0,
+    27.0,
+    11.0,
+    12.0,
+    14.0,
+    19.0,
+    13.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R. 6": "OCS"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 211.0,
+   "net": 163.0
+  },
+  {
+   "rank": 18,
+   "person": "adri-keet",
+   "sail": "NED-34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    13.0,
+    27.0,
+    11.0,
+    18.0,
+    14.0,
+    15.0,
+    27.0,
+    23.0,
+    11.0,
+    6.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 7": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    2,
+    7
+   ],
+   "total": 219.0,
+   "net": 165.0
+  },
+  {
+   "rank": 19,
+   "person": "seppe-wiersema",
+   "sail": "NED-215",
+   "name": "Seppe Wiersema",
+   "nationality": "NED",
+   "division": "Junior",
+   "points": [
+    18.0,
+    17.0,
+    19.0,
+    20.0,
+    18.0,
+    16.0,
+    14.0,
+    22.0,
+    20.0,
+    18.0,
+    15.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    8
+   ],
+   "total": 215.0,
+   "net": 173.0
+  },
+  {
+   "rank": 20,
+   "person": "mies-dijksterhuis",
+   "sail": null,
+   "sail_published": "X",
+   "name": "Mies Dijksterhuis",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    19.0,
+    21.0,
+    18.0,
+    22.0,
+    20.0,
+    17.0,
+    20.0,
+    20.0,
+    18.0,
+    17.0,
+    21.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 230.0,
+   "net": 187.0
+  },
+  {
+   "rank": 21,
+   "person": "dirkje-van-der-pol",
+   "sail": "NED-446",
+   "name": "Dirkje van der Pol",
+   "nationality": "NED",
+   "division": "Junior",
+   "points": [
+    20.0,
+    22.0,
+    20.0,
+    23.0,
+    21.0,
+    18.0,
+    18.0,
+    17.0,
+    23.0,
+    21.0,
+    16.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    9
+   ],
+   "total": 238.0,
+   "net": 192.0
+  },
+  {
+   "rank": 22,
+   "person": "mischa-oosterbaan",
+   "sail": "NED-486",
+   "name": "Mischa Oosterbaan",
+   "nationality": "NED",
+   "division": "Junior",
+   "points": [
+    24.0,
+    20.0,
+    23.0,
+    24.0,
+    22.0,
+    27.0,
+    19.0,
+    19.0,
+    19.0,
+    22.0,
+    18.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 253.0,
+   "net": 202.0
+  },
+  {
+   "rank": 23,
+   "person": "dennis-littel",
+   "sail": "NED-13",
+   "name": "Dennis Littel",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    13.0,
+    12.0,
+    13.0,
+    12.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 266.0,
+   "net": 212.0
+  },
+  {
+   "rank": 24,
+   "person": "pieter-eliens",
+   "sail": "NED-538",
+   "sail_published": "NED-538 / Oma-6",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    11.0,
+    10.0,
+    17.0,
+    13.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0
+   ],
+   "race_remarks": {
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 267.0,
+   "net": 213.0
+  },
+  {
+   "rank": 25,
+   "person": "djoeke-adriaanse",
+   "sail": "NED-490",
+   "name": "Djoeke Adriaanse",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    23.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    21.0,
+    21.0,
+    21.0,
+    13.0,
+    17.0,
+    21.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 272.0,
+   "net": 218.0
+  },
+  {
+   "rank": 26,
+   "person": "vigo-geerlings",
+   "sail": "NED-261",
+   "name": "Vigo Geerlings",
+   "nationality": "NED",
+   "division": "Junior",
+   "points": [
+    27.0,
+    27.0,
+    24.0,
+    27.0,
+    27.0,
+    27.0,
+    22.0,
+    18.0,
+    22.0,
+    23.0,
+    19.0,
+    20.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 283.0,
+   "net": 229.0
+  }
+ ],
+ "detail": {
+  "races": []
+ }
+}

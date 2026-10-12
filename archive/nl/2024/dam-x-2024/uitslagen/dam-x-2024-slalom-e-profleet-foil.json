@@ -1,0 +1,1562 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2024-slalom-e-profleet-foil",
+ "event": {
+  "name": "DAM-X 2024",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2024-10-11",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "E- Profleet FOIL",
+  "class_label_published": "E- Profleet FOIL",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF, OCS gescoord als 12 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race",
+  "heats_per_race": [
+   2
+  ],
+  "heat_scoring_observed": "per heat geklasseerd: elke heat telt vanaf plaats 1 (winnaar 0)"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/ff581fa4",
+  "file": "archive/nl/2024/dam-x-2024/bronnen/winterwave-damx-2024-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X with slalom, freestyle and wing slalom - register now",
+    "url": "https://www.surf-magazin.de/en/wingsurfing/scene-and-events/brouwersdam-dam-x-with-slalom-freestyle-and-wing-slalom-register-now/",
+    "used_for": "achtste DAM-X, vrijdag 11 tot en met zondag 13 oktober (bericht van 20 juni 2024)"
+   }
+  ],
+  "verified": "24 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (24x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'E- Profleet FOIL - DAM-X 2024'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Per ronde is de klasse verdeeld over meer heats; elke heat is apart geklasseerd. De indeling per ronde staat in detail.races.",
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "amado-vrieswijk",
+   "sail": "NB-20",
+   "name": "Amado Vrieswijk",
+   "nationality": "NB",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 0.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "bob-van-de-burgt",
+   "sail": "NED-737",
+   "name": "Bob van de Burgt",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    0.0,
+    0.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 8.0,
+   "net": 4.0
+  },
+  {
+   "rank": 3,
+   "person": "sem-stroosma",
+   "sail": "NED-450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    2.0,
+    2.0,
+    4.0,
+    0.0,
+    0.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 10.0,
+   "net": 4.0
+  },
+  {
+   "rank": 4,
+   "person": "cyril-evrard",
+   "sail": "BEL-250",
+   "name": "Cyril Evrard",
+   "nationality": "BEL",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    2.0,
+    0.0,
+    12.0,
+    2.0,
+    0.0
+   ],
+   "race_remarks": {
+    "R. 1": "OCS",
+    "R. 4": "OCS"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 28.0,
+   "net": 4.0
+  },
+  {
+   "rank": 5,
+   "person": "ingmar-daldorf",
+   "sail": "NED-191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    3.0,
+    3.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 16.0,
+   "net": 10.0
+  },
+  {
+   "rank": 6,
+   "person": "jelle-van-der-veen",
+   "sail": null,
+   "bib": "11",
+   "sail_published": "11",
+   "name": "Jelle van der Veen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    4.0,
+    6.0,
+    5.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 24.0,
+   "net": 13.0
+  },
+  {
+   "rank": 7,
+   "person": "koen-hessels",
+   "sail": "NED-88",
+   "name": "Koen Hessels",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    2.0,
+    8.0,
+    3.0,
+    12.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R. 4": "OCS"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 33.0,
+   "net": 13.0
+  },
+  {
+   "rank": 8,
+   "person": "mark-immenga",
+   "sail": "NED-353",
+   "name": "Mark Immenga",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    5.0,
+    4.0,
+    3.0,
+    4.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 25.0,
+   "net": 15.0
+  },
+  {
+   "rank": 9,
+   "person": "stijn-beks",
+   "sail": "NED-343",
+   "name": "Stijn Beks",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    4.0,
+    4.0,
+    4.0,
+    7.0,
+    12.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 35.0,
+   "net": 16.0
+  },
+  {
+   "rank": 10,
+   "person": "fianne-van-den-brule",
+   "sail": "NED-119",
+   "name": "Fianne Van den Brule",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    3.0,
+    5.0,
+    5.0,
+    6.0,
+    5.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6
+   ],
+   "total": 32.0,
+   "net": 18.0
+  },
+  {
+   "rank": 11,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED-259",
+   "name": "Bart Bogaart",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    3.0,
+    6.0,
+    5.0,
+    6.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R. 1": "OCS"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 39.0,
+   "net": 20.0
+  },
+  {
+   "rank": 12,
+   "person": "tim-janssen",
+   "sail": "NED-159",
+   "name": "Tim Janssen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    7.0,
+    5.0,
+    12.0,
+    12.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF",
+    "R. 4": "OCS"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 46.0,
+   "net": 22.0
+  },
+  {
+   "rank": 13,
+   "person": "bas-mulder",
+   "sail": "NED-92",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    6.0,
+    7.0,
+    6.0,
+    5.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 36.0,
+   "net": 23.0
+  },
+  {
+   "rank": 14,
+   "person": "jan-versteegen",
+   "sail": null,
+   "sail_published": "X",
+   "name": "Jan Versteegen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    5.0,
+    7.0,
+    7.0,
+    4.0,
+    7.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 38.0,
+   "net": 23.0
+  },
+  {
+   "rank": 15,
+   "person": "peter-mulder",
+   "sail": "NED_95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    8.0,
+    10.0,
+    3.0,
+    8.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 50.0,
+   "net": 28.0
+  },
+  {
+   "rank": 16,
+   "person": "matthijs-van-der-weg",
+   "sail": "NED-2023",
+   "name": "Matthijs van der Weg",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    9.0,
+    8.0,
+    12.0,
+    9.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 4": "OCS"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 56.0,
+   "net": 32.0
+  },
+  {
+   "rank": 17,
+   "person": "bendix-engemann",
+   "sail": "GER-1703",
+   "name": "Bendix Engemann",
+   "nationality": "GER",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    10.0,
+    12.0,
+    12.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 60.0,
+   "net": 36.0
+  },
+  {
+   "rank": 18,
+   "person": "daniek-penners",
+   "sail": "NED-528",
+   "name": "Daniek Penners",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    8.0,
+    11.0,
+    9.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 64.0,
+   "net": 40.0
+  },
+  {
+   "rank": 19,
+   "person": "caren-niezen",
+   "sail": "NED-367",
+   "name": "Caren Niezen",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    10.0,
+    7.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 65.0,
+   "net": 41.0
+  },
+  {
+   "rank": 20,
+   "person": "bjorn-droop",
+   "sail": "NED-220",
+   "name": "Bjorn Droop",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    9.0,
+    8.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 65.0,
+   "net": 41.0
+  },
+  {
+   "rank": 21,
+   "person": "maxi-rauchle",
+   "sail": "GER-200",
+   "name": "Maxi Räuchle",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    6.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "OCS",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 66.0,
+   "net": 42.0
+  },
+  {
+   "rank": 22,
+   "person": null,
+   "sail": "NED-69",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 72.0,
+   "net": 48.0,
+   "counted": false
+  },
+  {
+   "rank": 22,
+   "person": null,
+   "sail": "GER-84",
+   "name": "Stephan Koester",
+   "nationality": "GER",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 72.0,
+   "net": 48.0,
+   "counted": false
+  },
+  {
+   "rank": 22,
+   "person": null,
+   "sail": "NB-9",
+   "name": "Taty Frans",
+   "nationality": "NED",
+   "division": "Profleet (Foil or fin only TBA depending on wind)",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 72.0,
+   "net": 48.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "bob-van-de-burgt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "koen-hessels",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "fianne-van-den-brule",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "stijn-beks",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jan-versteegen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": "bart-van-den-bogaart",
+        "result_published": "12",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "bendix-engemann",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "cyril-evrard",
+        "result_published": "12",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stephan Koester",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Taty Frans",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maxi-rauchle",
+        "result_published": "12",
+        "remark": "OCS"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "jelle-van-der-veen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "mark-immenga",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bas-mulder",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "tim-janssen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "daniek-penners",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-droop",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "caren-niezen",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jordy Vonk",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "bob-van-de-burgt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "cyril-evrard",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bart-van-den-bogaart",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "stijn-beks",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "fianne-van-den-brule",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "maxi-rauchle",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jan-versteegen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "koen-hessels",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "matthijs-van-der-weg",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "bendix-engemann",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stephan Koester",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Taty Frans",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mark-immenga",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "tim-janssen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "jelle-van-der-veen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bas-mulder",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "peter-mulder",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bjorn-droop",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "caren-niezen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "daniek-penners",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jordy Vonk",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "cyril-evrard",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "koen-hessels",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "stijn-beks",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "fianne-van-den-brule",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jan-versteegen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "matthijs-van-der-weg",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "bendix-engemann",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stephan Koester",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Taty Frans",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maxi-rauchle",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "ingmar-daldorf",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mark-immenga",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "sem-stroosma",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jelle-van-der-veen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bas-mulder",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "caren-niezen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bjorn-droop",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "daniek-penners",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jordy Vonk",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jelle-van-der-veen",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mark-immenga",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bas-mulder",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "fianne-van-den-brule",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "stijn-beks",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "daniek-penners",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "caren-niezen",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maxi-rauchle",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bendix-engemann",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stephan Koester",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "sem-stroosma",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "ingmar-daldorf",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "peter-mulder",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "jan-versteegen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": "cyril-evrard",
+        "result_published": "12",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "koen-hessels",
+        "result_published": "12",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "12",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-droop",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "12",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jordy Vonk",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Taty Frans",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jelle-van-der-veen",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mark-immenga",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "fianne-van-den-brule",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bas-mulder",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bendix-engemann",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "stijn-beks",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "daniek-penners",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "caren-niezen",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maxi-rauchle",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stephan Koester",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "sem-stroosma",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "cyril-evrard",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "koen-hessels",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "tim-janssen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jan-versteegen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "peter-mulder",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "matthijs-van-der-weg",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-droop",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jordy Vonk",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Taty Frans",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jelle-van-der-veen",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "stijn-beks",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "mark-immenga",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bas-mulder",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bendix-engemann",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "fianne-van-den-brule",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "daniek-penners",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "caren-niezen",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "maxi-rauchle",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stephan Koester",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "cyril-evrard",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "koen-hessels",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "tim-janssen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "matthijs-van-der-weg",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bart-van-den-bogaart",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "jan-versteegen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "peter-mulder",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-droop",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jordy Vonk",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Taty Frans",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

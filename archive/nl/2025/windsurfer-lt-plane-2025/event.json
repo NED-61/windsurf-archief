@@ -1,0 +1,26 @@
+{
+ "event_slug": "windsurfer-lt-plane-2025",
+ "scope": "nl",
+ "name": "Windsurfer LT 2025, W.S.D. Plané",
+ "series": null,
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "windsurfer-lt-plane-2025-course-heavy",
+  "windsurfer-lt-plane-2025-course-light",
+  "windsurfer-lt-plane-2025-course-medium"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl onder de organisatie 'W.S.D. Plané' als 'Windsurfer LT 2025', met drie gewichtsklassen (Heavy, Medium, Light) van elk vijf riders en vijf races.",
+  "Geen deel van de Windsurfer LT Jaarprijs 2025: geen blok races in de jaarprijs met dezelfde riders. Datum en locatie staan niet in de bron. Opgenomen op aanwijzing van de gebruiker (12 oktober 2026).",
+  "De bron zet (M) of (W) achter de naam: dat staat in gender; de naam zonder die aanduiding staat in name, de gepubliceerde naam in name_published."
+ ],
+ "organizer": "W.S.D. Plané",
+ "name_published": "Windsurfer LT 2025"
+}

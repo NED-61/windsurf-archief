@@ -41,7 +41,16 @@
     "used_for": "Merlijn Boswijk wint na ruim 4 uur en een kwartier (bericht van 15 juni 2025)"
    }
   ],
-  "verified": "race time + start (10:45:00) = finish time: 2 afwijking(en), zie notes; 26 deelnemers (14 gefinisht, 12 DNF); plaatsen aaneengesloten 1..14; volgorde klopt met de tijd (oplopend); geen dubbele namen"
+  "verified": "race time + start (10:45:00) = finish time: 2 afwijking(en), zie notes; 26 deelnemers (14 gefinisht, 12 DNF); plaatsen aaneengesloten 1..14; volgorde klopt met de tijd (oplopend); geen dubbele namen",
+  "other_sources": [
+   {
+    "name": "scoring.winterwave.nl (Winter-Wave scoring): Round Texel 2025 - Windsurf",
+    "url": "https://scoring.winterwave.nl/results/total/2/d56023b1",
+    "file": "archive/nl/2025/ronde-om-texel-2025/bronnen/winterwave-round-texel-2025-capture.json.gz",
+    "retrieved": "2026-10-12",
+    "compared": "alle 26 riders gelijk (plaats en tijd); winterwave toont geen codes bij riders zonder tijd"
+   }
+  ]
  },
  "coverage": "complete",
  "notes": [

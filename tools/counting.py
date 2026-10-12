@@ -5,7 +5,8 @@
 
 Geldt sinds 8 oktober 2026 voor alle wedstrijden (eerder alleen voor NK's; opdracht van de gebruiker):
   elimination   de rider heeft in alle heats en finales waarin hij voorkomt de status DNC of DNF
-  fleet_racing  de rider heeft in elke race de status DNC of DNF
+  fleet_racing  de rider heeft in elke race de status DNC, DNF of DNS (een race zonder score en zonder code, waarin de rider niet
+                stond, telt daarbij als geen resultaat; sinds 12 oktober 2026)
   long_distance de rider heeft DNS of DNC (niet gestart). Wie daar DNF heeft is wel gestart en telt mee.
   aggregate     (klassement over categorieën heen, zonder punten per race) wie in zijn eigen categorie-uitslag niet meetelt
 DNS hoort er sinds 8 oktober 2026 bij (opdracht van de gebruiker); in de eerste versie ging de regel alleen over DNC en DNF.
@@ -76,7 +77,12 @@ def uncounted(doc):
         out = []
         for e in doc["entries"]:
             rem = e.get("race_remarks") or {}
-            if races and e.get("points") is not None and all(code(rem.get(c), al) in CODES for c in races): out.append(e)
+            pts = e.get("points")
+            if not races or pts is None: continue
+            # elke race een code (DNC/DNF/DNS), of geen score en geen code: de rider stond niet in die race (sinds 12 oktober 2026;
+            # DAM-X 2023: niet ingedeeld in een heat). Minstens één race moet een code hebben, anders is er niets bekend.
+            ok = all(code(rem.get(c), al) in CODES or (pts[i] is None and not rem.get(c)) for i, c in enumerate(races))
+            if ok and any(code(rem.get(c), al) in CODES for c in races): out.append(e)
         return out
     return []
 

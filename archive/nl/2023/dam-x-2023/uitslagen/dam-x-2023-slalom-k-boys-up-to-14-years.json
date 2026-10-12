@@ -1,0 +1,973 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2023-slalom-k-boys-up-to-14-years",
+ "event": {
+  "name": "DAM-X 2023",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2023-10-06",
+  "location": "Zeil- & Surfcentrum Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "K - Boys up to 14 years",
+  "class_label_published": "K - Boys up to 14 years",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF, OCS gescoord als 16 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "races_without_points": [
+   "R. 6"
+  ],
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/7ef41e97",
+  "file": "archive/nl/2023/dam-x-2023/bronnen/winterwave-damx-2023-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X - Regatta, party and test weekend",
+    "url": "https://www.surf-magazin.de/en/windsurfing/scene-and-events/brouwersdam-dam-x-regatta-party-and-test-weekend/",
+    "used_for": "zevende DAM-X, 6-8 oktober, Zeil- & Surfcentrum Brouwersdam; slalom voor alle niveaus, foil of vin (bericht van 12 september 2023)"
+   }
+  ],
+  "verified": "16 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (16x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'K - Boys up to 14 years - DAM-X 2023'.",
+  "De races R. 6 staan in de kop van de totaalstand zonder punten voor deze klasse (niet gevaren): weggelaten uit races, genoemd in format.races_without_points.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "mika-henning",
+   "sail": null,
+   "bib": "90",
+   "sail_published": "90",
+   "name": "Mika Henning",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    3.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 3.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "marijn-schouten",
+   "sail": null,
+   "bib": "39",
+   "sail_published": "39",
+   "name": "Marijn Schouten",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    0.0,
+    3.0,
+    2.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 15.0,
+   "net": 5.0
+  },
+  {
+   "rank": 3,
+   "person": "gus-van-mol",
+   "sail": null,
+   "bib": "20",
+   "sail_published": "20",
+   "name": "Gus Van Mol",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 13.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "fos-cooper",
+   "sail": null,
+   "bib": "142",
+   "sail_published": "142",
+   "name": "Fos Cooper",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    7.0,
+    6.0,
+    7.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 24.0,
+   "net": 10.0
+  },
+  {
+   "rank": 5,
+   "person": "chiel-crielaard",
+   "sail": null,
+   "bib": "19",
+   "sail_published": "19",
+   "name": "Chiel Crielaard",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    5.0,
+    7.0,
+    9.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 30.0,
+   "net": 14.0
+  },
+  {
+   "rank": 6,
+   "person": "briek-de-visschere",
+   "sail": null,
+   "bib": "38",
+   "sail_published": "38",
+   "name": "Briek De Visschere",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    4.0,
+    16.0,
+    4.0,
+    7.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 47.0,
+   "net": 15.0
+  },
+  {
+   "rank": 7,
+   "person": "sander-vande-casteele",
+   "sail": null,
+   "bib": "10",
+   "sail_published": "10",
+   "name": "Sander Vande Casteele",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    8.0,
+    4.0,
+    5.0,
+    16.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 41.0,
+   "net": 17.0
+  },
+  {
+   "rank": 8,
+   "person": "moritz-scheuvens",
+   "sail": null,
+   "bib": "5",
+   "sail_published": "5",
+   "name": "Moritz Scheuvens",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    12.0,
+    5.0,
+    11.0,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 40.0,
+   "net": 17.0
+  },
+  {
+   "rank": 9,
+   "person": "seppe-vande-casteele",
+   "sail": null,
+   "bib": "9",
+   "sail_published": "9",
+   "name": "Seppe Vande Casteele",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    9.0,
+    16.0,
+    6.0,
+    16.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS",
+    "R. 4": "DNF"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 53.0,
+   "net": 21.0
+  },
+  {
+   "rank": 10,
+   "person": "sebastiaan-klok",
+   "sail": null,
+   "bib": "14",
+   "sail_published": "14",
+   "name": "Sebastiaan Klok",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    6.0,
+    8.0,
+    10.0,
+    9.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 49.0,
+   "net": 23.0
+  },
+  {
+   "rank": 11,
+   "person": "siem-didden",
+   "sail": null,
+   "bib": "11",
+   "sail_published": "11",
+   "name": "Siem Didden",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    11.0,
+    16.0,
+    8.0,
+    8.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 59.0,
+   "net": 27.0
+  },
+  {
+   "rank": 12,
+   "person": "jeff-francois",
+   "sail": null,
+   "bib": "37",
+   "sail_published": "37",
+   "name": "Jeff Francois",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    10.0,
+    16.0,
+    12.0,
+    10.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 64.0,
+   "net": 32.0
+  },
+  {
+   "rank": 13,
+   "person": "matteo-van-tomme",
+   "sail": null,
+   "bib": "8",
+   "sail_published": "8",
+   "name": "Matteo Van Tomme",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    14.0,
+    9.0,
+    13.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 68.0,
+   "net": 36.0
+  },
+  {
+   "rank": 14,
+   "person": "philip-heinemann",
+   "sail": null,
+   "bib": "18",
+   "sail_published": "18",
+   "name": "Philip Heinemann",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    13.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 77.0,
+   "net": 45.0
+  },
+  {
+   "rank": 15,
+   "person": null,
+   "sail": null,
+   "bib": "40",
+   "sail_published": "40",
+   "name": "Bas Van Craeynest",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 80.0,
+   "net": 48.0,
+   "counted": false
+  },
+  {
+   "rank": 15,
+   "person": null,
+   "sail": null,
+   "bib": "13",
+   "sail_published": "13",
+   "name": "Jonathan Klok",
+   "nationality": null,
+   "division": "Boys up to 14 years",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 80.0,
+   "net": 48.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "marijn-schouten",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-henning",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "briek-de-visschere",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "chiel-crielaard",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sebastiaan-klok",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "fos-cooper",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "sander-vande-casteele",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "seppe-vande-casteele",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jeff-francois",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "siem-didden",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "moritz-scheuvens",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "philip-heinemann",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "matteo-van-tomme",
+        "result_published": "14.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bas Van Craeynest",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jonathan Klok",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-henning",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "marijn-schouten",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "sander-vande-casteele",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "moritz-scheuvens",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "fos-cooper",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "chiel-crielaard",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "sebastiaan-klok",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "matteo-van-tomme",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bas Van Craeynest",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "briek-de-visschere",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jonathan Klok",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "philip-heinemann",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-vande-casteele",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "siem-didden",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-henning",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marijn-schouten",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "gus-van-mol",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "briek-de-visschere",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "sander-vande-casteele",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "seppe-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "fos-cooper",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "siem-didden",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "chiel-crielaard",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "sebastiaan-klok",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "moritz-scheuvens",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "jeff-francois",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "matteo-van-tomme",
+        "result_published": "13.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bas Van Craeynest",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jonathan Klok",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "philip-heinemann",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-henning",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fos-cooper",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "gus-van-mol",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "chiel-crielaard",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "moritz-scheuvens",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "marijn-schouten",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "briek-de-visschere",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "siem-didden",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "sebastiaan-klok",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jeff-francois",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bas Van Craeynest",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jonathan Klok",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matteo-van-tomme",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "philip-heinemann",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sander-vande-casteele",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-vande-casteele",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-henning",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fos-cooper",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "gus-van-mol",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "marijn-schouten",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "chiel-crielaard",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "seppe-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "moritz-scheuvens",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "sander-vande-casteele",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bas Van Craeynest",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "briek-de-visschere",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jonathan Klok",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matteo-van-tomme",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "philip-heinemann",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sebastiaan-klok",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "siem-didden",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

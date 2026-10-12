@@ -1,0 +1,26 @@
+{
+ "event_slug": "dam-x-2025",
+ "scope": "nl",
+ "name": "DAM-X 2025",
+ "series": "DAM-X",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2025-10-10",
+ "date_end": "2025-10-12",
+ "location": "Brouwersdam (Ossenhoek, Ouddorp)",
+ "discipline": "slalom",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'dam-x-brouwersdam' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20250320115013/https://www.wedstrijdsurfen.nl/evenement/dam-x-brouwersdam/",
+   "used_for": "DAM-X Brouwersdam, 10 tot en met 12 oktober 2025, slalom (fin en foil), Ossenhoek 20 Ouddorp (planning)"
+  }
+ ],
+ "notes": [
+  "DAM-X telt mee in het archief: een funwedstrijd, maar serieus genoeg om mee te tellen, net als The Real Trip (opgave van de gebruiker, 12 oktober 2026).",
+  "Geen uitslag in het archief: op scoring.winterwave.nl staat 'DAM-X 2025' zonder klassen (12 oktober 2026). Datum volgens de NVW-kalender (planning)."
+ ],
+ "name_published": "DAM-X 2025"
+}

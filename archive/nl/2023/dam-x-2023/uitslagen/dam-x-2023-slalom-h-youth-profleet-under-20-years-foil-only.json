@@ -1,0 +1,1372 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2023-slalom-h-youth-profleet-under-20-years-foil-only",
+ "event": {
+  "name": "DAM-X 2023",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2023-10-06",
+  "location": "Zeil- & Surfcentrum Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "H - Youth Profleet (*Under 20 years, Foil only)",
+  "class_label_published": "H - Youth Profleet (*Under 20 years, Foil only)",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF, OCS gescoord als 22 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/17281fc7",
+  "file": "archive/nl/2023/dam-x-2023/bronnen/winterwave-damx-2023-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X - Regatta, party and test weekend",
+    "url": "https://www.surf-magazin.de/en/windsurfing/scene-and-events/brouwersdam-dam-x-regatta-party-and-test-weekend/",
+    "used_for": "zevende DAM-X, 6-8 oktober, Zeil- & Surfcentrum Brouwersdam; slalom voor alle niveaus, foil of vin (bericht van 12 september 2023)"
+   }
+  ],
+  "verified": "22 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (22x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'H - Youth Profleet (*Under 20 years, Foil only) - DAM-X 2023'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Bij een zeilnummercel met meer delen staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published.",
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "koen-hessels",
+   "sail": "NED-88",
+   "name": "Koen Hessels",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    6
+   ],
+   "total": 7.0,
+   "net": 2.0
+  },
+  {
+   "rank": 2,
+   "person": "thijs-hanemaaijer",
+   "sail": "NED-107",
+   "sail_published": "NED-107 (T)",
+   "name": "Thijs Hanemaaijer",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    4.0,
+    2.0,
+    0.0,
+    2.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 8.0,
+   "net": 2.0
+  },
+  {
+   "rank": 3,
+   "person": "mika-boone",
+   "sail": "NED-134",
+   "name": "Mika Boone",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    7.0,
+    5.0,
+    4.0,
+    3.0,
+    3.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 30.0,
+   "net": 15.0
+  },
+  {
+   "rank": 4,
+   "person": "peyton-dits",
+   "sail": "NED-241",
+   "name": "Peyton Dits",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 28.0,
+   "net": 17.0
+  },
+  {
+   "rank": 5,
+   "person": "bjarne-van-der-weg",
+   "sail": "NED-2024",
+   "name": "Bjarne van der Weg",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    14.0,
+    3.0,
+    3.0,
+    16.0,
+    9.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 47.0,
+   "net": 17.0
+  },
+  {
+   "rank": 6,
+   "person": "thomas-boom",
+   "sail": "FRA-148",
+   "name": "Thomas BOOM",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    22.0,
+    7.0,
+    8.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 49.0,
+   "net": 19.0
+  },
+  {
+   "rank": 7,
+   "person": "merlijn-boswijk",
+   "sail": "NED-244",
+   "name": "Merlijn Boswijk",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    2.0,
+    12.0,
+    13.0,
+    5.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 44.0,
+   "net": 19.0
+  },
+  {
+   "rank": 8,
+   "person": "finn-brull",
+   "sail": "NED-731",
+   "name": "Finn Brull",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    8.0,
+    6.0,
+    6.0,
+    10.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 44.0,
+   "net": 26.0
+  },
+  {
+   "rank": 9,
+   "person": "joep-havik",
+   "sail": "NED-231",
+   "name": "Joep Havik",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    5.0,
+    22.0,
+    9.0,
+    8.0,
+    8.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS"
+   },
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 63.0,
+   "net": 30.0
+  },
+  {
+   "rank": 10,
+   "person": "arthur-dunnewind",
+   "sail": "NED-135",
+   "name": "Arthur Dunnewind",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    12.0,
+    11.0,
+    7.0,
+    7.0,
+    12.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    5
+   ],
+   "total": 59.0,
+   "net": 35.0
+  },
+  {
+   "rank": 11,
+   "person": "yannick-walhof",
+   "sail": "NED-338",
+   "name": "Yannick Walhof",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    6.0,
+    8.0,
+    14.0,
+    11.0,
+    10.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    6
+   ],
+   "total": 67.0,
+   "net": 35.0
+  },
+  {
+   "rank": 12,
+   "person": "steff-de-bruijn",
+   "sail": "NED-508",
+   "name": "Steff de Bruijn",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    11.0,
+    14.0,
+    11.0,
+    9.0,
+    11.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 65.0,
+   "net": 40.0
+  },
+  {
+   "rank": 13,
+   "person": "cedric-walhof",
+   "sail": "NED-388",
+   "name": "Cédric Walhof",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    9.0,
+    9.0,
+    10.0,
+    18.0,
+    15.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6
+   ],
+   "total": 78.0,
+   "net": 43.0
+  },
+  {
+   "rank": 14,
+   "person": "daan-vinck",
+   "sail": "BEL-53",
+   "name": "Daan Vinck",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    10.0,
+    10.0,
+    12.0,
+    12.0,
+    14.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 70.0,
+   "net": 44.0
+  },
+  {
+   "rank": 15,
+   "person": "anna-korevaar",
+   "sail": "NED-157",
+   "name": "Anna Korevaar",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    22.0,
+    13.0,
+    15.0,
+    13.0,
+    13.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 90.0,
+   "net": 53.0
+  },
+  {
+   "rank": 16,
+   "person": "sara-de-kimpe",
+   "sail": "NED-170",
+   "name": "Sara de Kimpe",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    13.0,
+    22.0,
+    16.0,
+    17.0,
+    16.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 99.0,
+   "net": 60.0
+  },
+  {
+   "rank": 17,
+   "person": "thibault-dijksterhuis",
+   "sail": "NED-556",
+   "name": "Thibbes Dijksterhuis",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    15.0,
+    15.0,
+    17.0,
+    15.0,
+    18.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 96.0,
+   "net": 61.0
+  },
+  {
+   "rank": 18,
+   "person": "yfke-van-der-meer",
+   "sail": null,
+   "bib": "4",
+   "sail_published": "4",
+   "name": "Yfke van der meer",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    22.0,
+    22.0,
+    22.0,
+    14.0,
+    17.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 110.0,
+   "net": 66.0
+  },
+  {
+   "rank": 19,
+   "person": "neill-chardet",
+   "sail": null,
+   "sail_published": "XX",
+   "name": "Neill Chardet",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    16.0,
+    16.0,
+    18.0,
+    19.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 107.0,
+   "net": 69.0
+  },
+  {
+   "rank": 20,
+   "person": null,
+   "sail": "ESP-62",
+   "name": "Andrea Martinez",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    22.0,
+    22.0,
+    22.0,
+    22.0,
+    22.0,
+    22.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 132.0,
+   "net": 88.0,
+   "counted": false
+  },
+  {
+   "rank": 20,
+   "person": null,
+   "sail": "NED252",
+   "name": "HG Vissia",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    22.0,
+    22.0,
+    22.0,
+    22.0,
+    22.0,
+    22.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 132.0,
+   "net": 88.0,
+   "counted": false
+  },
+  {
+   "rank": 20,
+   "person": null,
+   "sail": "ESP-363",
+   "name": "Miguel Servera",
+   "nationality": null,
+   "division": "Youth Profleet (*Under 20 years, Foil only)",
+   "points": [
+    22.0,
+    22.0,
+    22.0,
+    22.0,
+    22.0,
+    22.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 132.0,
+   "net": 88.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "koen-hessels",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "merlijn-boswijk",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "peyton-dits",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "joep-havik",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "yannick-walhof",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "mika-boone",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "finn-brull",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "cedric-walhof",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "daan-vinck",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "steff-de-bruijn",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "arthur-dunnewind",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "sara-de-kimpe",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "bjarne-van-der-weg",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "thibault-dijksterhuis",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "neill-chardet",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Andrea Martinez",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "anna-korevaar",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "HG Vissia",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Miguel Servera",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thomas-boom",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-van-der-meer",
+        "result_published": "22",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "koen-hessels",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thijs-hanemaaijer",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "peyton-dits",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "mika-boone",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "finn-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "thomas-boom",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "yannick-walhof",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "cedric-walhof",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "daan-vinck",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "arthur-dunnewind",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "merlijn-boswijk",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "anna-korevaar",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "steff-de-bruijn",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "thibault-dijksterhuis",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "neill-chardet",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Andrea Martinez",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "HG Vissia",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "joep-havik",
+        "result_published": "22",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Miguel Servera",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sara-de-kimpe",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-van-der-meer",
+        "result_published": "22",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "thijs-hanemaaijer",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "koen-hessels",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mika-boone",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "peyton-dits",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "finn-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "arthur-dunnewind",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "thomas-boom",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "joep-havik",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "cedric-walhof",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "steff-de-bruijn",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "daan-vinck",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "merlijn-boswijk",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yannick-walhof",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "anna-korevaar",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "sara-de-kimpe",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "thibault-dijksterhuis",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "neill-chardet",
+        "result_published": "18.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Andrea Martinez",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "HG Vissia",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Miguel Servera",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-van-der-meer",
+        "result_published": "22",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "koen-hessels",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thijs-hanemaaijer",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thomas-boom",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "merlijn-boswijk",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "peyton-dits",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "arthur-dunnewind",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "joep-havik",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "steff-de-bruijn",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "finn-brull",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "yannick-walhof",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "daan-vinck",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "anna-korevaar",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yfke-van-der-meer",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "thibault-dijksterhuis",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "bjarne-van-der-weg",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "sara-de-kimpe",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "cedric-walhof",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "neill-chardet",
+        "result_published": "19.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Andrea Martinez",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "HG Vissia",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Miguel Servera",
+        "result_published": "22",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "thijs-hanemaaijer",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "koen-hessels",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thomas-boom",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "peyton-dits",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "merlijn-boswijk",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "finn-brull",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "joep-havik",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bjarne-van-der-weg",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "yannick-walhof",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "steff-de-bruijn",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "arthur-dunnewind",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "anna-korevaar",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "daan-vinck",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "cedric-walhof",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "sara-de-kimpe",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "yfke-van-der-meer",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "thibault-dijksterhuis",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "neill-chardet",
+        "result_published": "19.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Andrea Martinez",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "HG Vissia",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Miguel Servera",
+        "result_published": "22",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "thijs-hanemaaijer",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bjarne-van-der-weg",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "koen-hessels",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thomas-boom",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "peyton-dits",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "merlijn-boswijk",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "finn-brull",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "mika-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "steff-de-bruijn",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "arthur-dunnewind",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "joep-havik",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "daan-vinck",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "yfke-van-der-meer",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "anna-korevaar",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "sara-de-kimpe",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "thibault-dijksterhuis",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "cedric-walhof",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "yannick-walhof",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "neill-chardet",
+        "result_published": "19.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Andrea Martinez",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "HG Vissia",
+        "result_published": "22",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Miguel Servera",
+        "result_published": "22",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -8,12 +8,12 @@
   "year": 2024,
   "stop_number": null,
   "stops_known": null,
-  "date": null,
-  "location": null,
+  "date": "2024-10-19",
+  "location": "Brouwersdam",
   "discipline": "slalom",
   "gender": null,
   "class": "Fin (Open & Youth)",
-  "class_label_published": "NK Slalom 2024 - Fin (Open & Youth)",
+  "class_label_published": "Fin (Open & Youth)",
   "equipment": "fin"
  },
  "format": {
@@ -22,11 +22,12 @@
   "discards": [
    1
   ],
-  "heats_published": false,
-  "scoring_observed": "punten per eliminatie, winnaar = 0.0; hoogste score 32 = aantal riders (geen resultaat in die eliminatie; de bron toont geen statuscodes)",
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.0; B- en volgende finales tellen door na het aantal rijen van de vorige finale; codes en RDG zoals gepubliceerd",
   "eliminations_without_points": [],
+  "elimination_format_published": [
+   "ifca-elimination-four-first-heats"
+  ],
   "divisions_published": {
-   "Senior (Men/Women)": "Senior (Men/Women)",
    "Master": "Master over de age of 40 (born in or before 1983)",
    "Youth U21": "Youth U21 (born in or after 2004)",
    "Grandmaster": "Grandmaster over the age of 50 (born in or before 1973)",
@@ -34,25 +35,40 @@
    "Junior U13": "Junior U13 (born in or after 2012)",
    "Junior U15": "Junior U15 (born in or after 2010)"
   },
-  "no_result_points": 32.0
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, "
  },
  "source": {
-  "name": "Overallresults-NK-Slalom-2024-Fin-Open-Youth-20-10-2024-17_17.pdf",
-  "url": null,
-  "file": "archive/nl/2024/nk-slalom-2024/bronnen/Overallresults-NK-Slalom-2024-Fin-Open-Youth-20-10-2024-17_17.pdf",
-  "type": "pdf",
-  "retrieved": "2026-10-02",
-  "method": "pdfplumber: tabelcellen; weglatingen uit de tekstkleur (grijs) van de eliminatiepunten",
-  "verified": "32 riders in de totaaluitslag; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglating (grijs in de pdf); precies één weglating per rider, steeds de hoogste score; geen dubbele namen; hoogste score per eliminatie is 32 = aantal riders; 5 rider(s) met die score in alle eliminaties; heats en finales niet in de bron: punten per eliminatie niet uit finaleposities afgeleid"
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/bf40f169",
+  "file": "archive/nl/2024/nk-slalom-2024/bronnen/winterwave-nk-slalom-2024-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina '19-en-20-okt-2024-nvw-onk-slalom-3-brouwersdam' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20240520052352/https://www.wedstrijdsurfen.nl/evenement/19-en-20-okt-2024-nvw-onk-slalom-3-brouwersdam/",
+    "used_for": "NVW ONK Slalom #3 Brouwersdam, 19 en 20 oktober 2024, slalom (fin en foil) (planning)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina '27-en-28-april-2024-nvw-onk-slalom-1-brouwersdam' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20240520065516/https://www.wedstrijdsurfen.nl/evenement/27-en-28-april-2024-nvw-onk-slalom-1-brouwersdam/",
+    "used_for": "NVW ONK Slalom #1 Brouwersdam, 27-28 april 2024: AFGELAST"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'onk-kampioenen-vin-en-foil-slalom-2024'",
+    "url": "https://www.wedstrijdsurfen.nl/nieuws/onk-kampioenen-vin-en-foil-slalom-2024/",
+    "used_for": "ONK Slalom 2024 op 19 en 20 oktober 2024 bij de Brouwersdam, vin en foil; kampioenen vin open Ingmar Daldorf, foil open Sem Stroosma (geraadpleegd op 12 oktober 2026 via een tekstweergave)"
+   }
+  ],
+  "verified": "32 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [1]; rangschikking oplopend op netto; 3 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.0): alle gelijk aan gepubliceerd"
  },
  "coverage": "complete",
  "notes": [
-  "Gepubliceerd als 'Overall results: NK Slalom 2024 - Fin (Open & Youth)', afgedrukt op 20-10-2024 17:17. Datum en locatie staan niet in de bron; niet ingevuld.",
-  "Alleen de totaaluitslag: de bron bevat de punten per eliminatie (El.1 t/m El.3), totaal en netto, maar geen heats en finales.",
-  "De weggelaten score is in de pdf grijs gedrukt; dat is als discarded overgenomen.",
-  "Divisie zoals gepubliceerd, zonder de toelichting met geboortejaren; de volledige omschrijvingen staan één keer in format.divisions_published.",
-  "Namen zoals gepubliceerd (ook 'Thijs hanemaaijer', 'Brendan LORHO'). Bij een zeilnummercel met twee delen (bijvoorbeeld '223 / NED-92') staat het deel met landcode in sail en de volledige cel in sail_published.",
-  "Telt niet mee: 5 ingeschreven rider(s) met in elke eliminatie de hoogste score (geen resultaat; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+  "Gepubliceerd op scoring.winterwave.nl als 'Fin (Open & Youth) - NK Slalom 2024' (totaalstand en per eliminatie de heats en finales).",
+  "Divisie zoals gepubliceerd, zonder de toelichting met leeftijd of geboortejaren; de volledige omschrijvingen staan in format.divisions_published.",
+  "Bij een zeilnummercel met meer delen ('223 / NED-92') staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published.",
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle heats en finales hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
  ],
  "entries": [
   {
@@ -216,6 +232,7 @@
    ],
    "total": 31.0,
    "net": 17.0,
+   "bib": "223",
    "sail_published": "223 / NED-92"
   },
   {
@@ -397,6 +414,7 @@
    ],
    "total": 68.0,
    "net": 36.0,
+   "bib": "111",
    "sail_published": "111 / NED-617"
   },
   {
@@ -547,7 +565,7 @@
   },
   {
    "rank": 28,
-   "person": null,
+   "person": "hidde-van-der-meer",
    "sail": "Ned 352",
    "name": "Hidde Van der meer",
    "nationality": "NED",
@@ -561,8 +579,7 @@
     1
    ],
    "total": 96.0,
-   "net": 64.0,
-   "counted": false
+   "net": 64.0
   },
   {
    "rank": 28,
@@ -585,7 +602,7 @@
   },
   {
    "rank": 28,
-   "person": null,
+   "person": "ron-cooper",
    "sail": "NED-399",
    "name": "Ron Cooper",
    "nationality": "NED",
@@ -599,8 +616,7 @@
     1
    ],
    "total": 96.0,
-   "net": 64.0,
-   "counted": false
+   "net": 64.0
   },
   {
    "rank": 28,
@@ -641,6 +657,1432 @@
    "counted": false
   }
  ],
- "eliminations": [],
- "detail": {}
+ "detail": {},
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://scoring.winterwave.nl/results/ladder/0/bf40f169/1",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "merijn-kegel"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Raymond Weijt"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "erwin-van-logchem"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "marijn-schouten"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "melvin-jansen"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "hidde-van-der-meer"
+      }
+     ]
+    },
+    {
+     "name": "Heat 3",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "sebastiaan-penninga"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Fianne van den brule"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Neill chardet"
+      }
+     ]
+    },
+    {
+     "name": "Heat 4",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "mikk-hillebrand"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "ron-cooper"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "mathijs-bronkhorst"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "fos-cooper"
+      }
+     ]
+    },
+    {
+     "name": "Heat 5",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "erwin-van-logchem"
+      }
+     ]
+    },
+    {
+     "name": "Heat 6",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "bendix-engemann"
+      }
+     ]
+    },
+    {
+     "name": "Heat A",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "bart-van-den-bogaart"
+      }
+     ]
+    },
+    {
+     "name": "Heat B",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "erwin-van-logchem"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "milo-zaal"
+      }
+     ]
+    },
+    {
+     "name": "Heat C",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "mikk-hillebrand"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "melvin-jansen"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "sebastiaan-penninga"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "mathijs-bronkhorst"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "merijn-kegel"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "marijn-schouten"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "ron-cooper"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "fos-cooper"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Raymond Weijt"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Fianne van den brule"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Neill chardet"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://scoring.winterwave.nl/results/ladder/0/bf40f169/2",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "mathijs-bronkhorst"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "melvin-jansen"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Fianne van den brule"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "ron-cooper"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "mikk-hillebrand"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "merijn-kegel"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "marijn-schouten"
+      }
+     ]
+    },
+    {
+     "name": "Heat 3",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "sebastiaan-penninga"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "erwin-van-logchem"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "fos-cooper"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "hidde-van-der-meer"
+      }
+     ]
+    },
+    {
+     "name": "Heat 4",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Raymond Weijt"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Neill chardet"
+      }
+     ]
+    },
+    {
+     "name": "Heat 5",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "peter-mulder"
+      }
+     ]
+    },
+    {
+     "name": "Heat 6",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "sebastiaan-penninga"
+      }
+     ]
+    },
+    {
+     "name": "Heat A",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "geert-beek-van"
+      }
+     ]
+    },
+    {
+     "name": "Heat B",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "sebastiaan-penninga"
+      }
+     ]
+    },
+    {
+     "name": "Heat C",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "fos-cooper"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "mikk-hillebrand"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "melvin-jansen"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "marijn-schouten"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "mathijs-bronkhorst"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "erwin-van-logchem"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Fianne van den brule"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "ron-cooper"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "merijn-kegel"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "sara-de-kimpe"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Raymond Weijt"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Neill chardet"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "url": "https://scoring.winterwave.nl/results/ladder/0/bf40f169/3",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "erwin-van-logchem"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "fos-cooper"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "melvin-jansen"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "sara-de-kimpe"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "marijn-schouten"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Fianne van den brule"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "merijn-kegel"
+      }
+     ]
+    },
+    {
+     "name": "Heat 3",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "mikk-hillebrand"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "ron-cooper"
+      }
+     ]
+    },
+    {
+     "name": "Heat 4",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "mathijs-bronkhorst"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "sebastiaan-penninga"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Raymond Weijt"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": null,
+       "name": "Neill chardet"
+      }
+     ]
+    },
+    {
+     "name": "Heat 5",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "erwin-van-logchem"
+      }
+     ]
+    },
+    {
+     "name": "Heat 6",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "bas-mulder"
+      }
+     ]
+    },
+    {
+     "name": "Heat A",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "ingmar-daldorf"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "brendan-lorho"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "jelle-van-der-veen"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "adriaan-van-rijsselberge"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "geert-beek-van"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "sem-stroosma"
+      }
+     ]
+    },
+    {
+     "name": "Heat B",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "max-shytikov"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "bas-mulder"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "jan-wim-becker"
+      },
+      {
+       "rank": 8,
+       "remark": "DNF",
+       "person": "erwin-van-logchem"
+      }
+     ]
+    },
+    {
+     "name": "Heat C",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "milo-zaal"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "iris-gimpel"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "fos-cooper"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "mathijs-bronkhorst"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "marijn-schouten"
+      },
+      {
+       "rank": 16,
+       "remark": "NSC",
+       "person": "mikk-hillebrand"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "hidde-van-der-meer"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "ron-cooper"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Fianne van den brule"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "sebastiaan-penninga"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Raymond Weijt"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": null,
+       "name": "Neill chardet"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "merijn-kegel"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "melvin-jansen"
+      },
+      {
+       "rank": 16,
+       "remark": "DNF",
+       "person": "sara-de-kimpe"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

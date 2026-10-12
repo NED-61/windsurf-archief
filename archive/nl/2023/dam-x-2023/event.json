@@ -1,0 +1,35 @@
+{
+ "event_slug": "dam-x-2023",
+ "scope": "nl",
+ "name": "DAM-X 2023",
+ "series": "DAM-X",
+ "year": 2023,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2023-10-06",
+ "date_end": "2023-10-08",
+ "location": "Zeil- & Surfcentrum Brouwersdam",
+ "discipline": "slalom",
+ "classes": [
+  "dam-x-2023-slalom-e-profleet-foil-only",
+  "dam-x-2023-slalom-f-profleet-fin-only",
+  "dam-x-2023-slalom-g-retired-profleet-fin-only",
+  "dam-x-2023-slalom-h-youth-profleet-under-20-years-foil-only",
+  "dam-x-2023-slalom-i-masters-35-years",
+  "dam-x-2023-slalom-j-men-19-up-to-34-years",
+  "dam-x-2023-slalom-k-boys-up-to-14-years",
+  "dam-x-2023-slalom-l-ladies-chicks-en-girls",
+  "dam-x-2023-slalom-m-guys-15-up-to-18-years"
+ ],
+ "metadata_sources": [
+  {
+   "name": "surf-magazin.de: Brouwersdam DAM-X - Regatta, party and test weekend",
+   "url": "https://www.surf-magazin.de/en/windsurfing/scene-and-events/brouwersdam-dam-x-regatta-party-and-test-weekend/",
+   "used_for": "zevende DAM-X, 6-8 oktober, Zeil- & Surfcentrum Brouwersdam; slalom voor alle niveaus, foil of vin (bericht van 12 september 2023)"
+  }
+ ],
+ "notes": [
+  "DAM-X telt mee in het archief: een funwedstrijd, maar serieus genoeg om mee te tellen, net als The Real Trip (opgave van de gebruiker, 12 oktober 2026)."
+ ],
+ "name_published": "DAM-X 2023"
+}

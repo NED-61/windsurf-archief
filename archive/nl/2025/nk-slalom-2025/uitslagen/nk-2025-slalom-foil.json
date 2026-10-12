@@ -1,0 +1,851 @@
+{
+ "schema_version": 1,
+ "id": "nk-2025-slalom-foil",
+ "event": {
+  "name": "NK Slalom 2025",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-11-01",
+  "location": "Brouwersdam (binnenzijde, Ouddorp)",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Foil",
+  "class_label_published": "Foil",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "elimination",
+  "eliminations": 2,
+  "discards": [
+   0
+  ],
+  "scoring_observed": "punten = positie in de eliminatie, winnaar = 0.7; B- en volgende finales tellen door na het aantal rijen van de vorige finale; codes en RDG zoals gepubliceerd",
+  "eliminations_without_points": [],
+  "elimination_format_published": [
+   "ifca-elimination-half-fleet"
+  ],
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, "
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/c093e317",
+  "file": "archive/nl/2025/nk-slalom-2025/bronnen/winterwave-onk-slalom-2025-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'onk-slalom-1-en-2-november' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20250320112309/https://www.wedstrijdsurfen.nl/evenement/onk-slalom-1-en-2-november/",
+    "used_for": "ONK Slalom, 1 en 2 november 2025, slalom (fin en foil), Brouwersdam binnenzijde Ouddorp (planning)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+    "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+    "used_for": "update van de NVW-kalender 2025 (22 juli 2025)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'onk-kampioenen-slalom-fin-en-foil-2025'",
+    "url": "https://www.wedstrijdsurfen.nl/nieuws/onk-kampioenen-slalom-fin-en-foil-2025/",
+    "used_for": "twee wedstrijddagen bij de Brouwersdam (bericht van 7 november 2025); alleen het overall-klassement is gehuldigd, want een officiële ONK-titel vraagt minimaal 15 deelnemers (geraadpleegd op 12 oktober 2026 via een tekstweergave)"
+   }
+  ],
+  "verified": "20 riders in de totaaluitslag; totaal = som eliminatiepunten; netto = totaal - gemarkeerde weglatingen; weglatingen per rider: [0]; rangschikking oplopend op netto; 2 eliminatie(s) gevaren; punten per eliminatie afgeleid uit de finales (winnaar = 0.7): alle gelijk aan gepubliceerd"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Foil - ONK Slalom 2025 (fin & foil)' (totaalstand en per eliminatie de heats en finales).",
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle heats en finales hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "amado-vrieswijk",
+   "sail": "NB-20",
+   "name": "Amado Vrieswijk",
+   "nationality": "NB",
+   "division": "Overall",
+   "points": [
+    0.7,
+    0.7
+   ],
+   "discarded": [],
+   "total": 1.4,
+   "net": 1.4
+  },
+  {
+   "rank": 2,
+   "person": "sem-stroosma",
+   "sail": "NED-450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    2.0,
+    2.0
+   ],
+   "discarded": [],
+   "total": 4.0,
+   "net": 4.0
+  },
+  {
+   "rank": 3,
+   "person": "thijs-hanemaaijer",
+   "sail": "NED-107",
+   "name": "Thijs hanemaaijer",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    4.0,
+    3.0
+   ],
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max baaijen",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    5.0,
+    6.0
+   ],
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 5,
+   "person": "matthijs-pos",
+   "sail": "NED-318",
+   "name": "Matthijs Pos",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    3.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 6,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": "Women",
+   "points": [
+    8.0,
+    5.0
+   ],
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 7,
+   "person": "diederik-leemans",
+   "sail": "NED-301",
+   "name": "Diederik",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    6.0,
+    7.0
+   ],
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 8,
+   "person": "bjarne-van-der-weg",
+   "sail": "NED-2024",
+   "name": "Bjarne van der Weg",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    11.0,
+    4.0
+   ],
+   "discarded": [],
+   "total": 15.0,
+   "net": 15.0
+  },
+  {
+   "rank": 9,
+   "person": "tim-janssen",
+   "sail": "NED-159",
+   "name": "Tim Janssen",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    7.0,
+    11.0
+   ],
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 10,
+   "person": "cyril-evrard",
+   "sail": "BEL-250",
+   "name": "Cyril",
+   "nationality": "BEL",
+   "division": "Overall",
+   "points": [
+    10.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 20.0,
+   "net": 20.0
+  },
+  {
+   "rank": 11,
+   "person": "mark-immenga",
+   "sail": "NED 353",
+   "name": "Mark Immenga",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    9.0,
+    12.0
+   ],
+   "discarded": [],
+   "total": 21.0,
+   "net": 21.0
+  },
+  {
+   "rank": 12,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED-259",
+   "name": "Bart",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    12.0,
+    10.0
+   ],
+   "discarded": [],
+   "total": 22.0,
+   "net": 22.0
+  },
+  {
+   "rank": 13,
+   "person": "peter-mulder",
+   "sail": "NED-95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    14.0,
+    13.0
+   ],
+   "discarded": [],
+   "total": 27.0,
+   "net": 27.0
+  },
+  {
+   "rank": 14,
+   "person": "jan-versteegen",
+   "sail": "NED-210",
+   "name": "Jan Versteegen",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    15.0,
+    14.0
+   ],
+   "discarded": [],
+   "total": 29.0,
+   "net": 29.0
+  },
+  {
+   "rank": 15,
+   "person": "bendix-engemann",
+   "sail": "GER-1703",
+   "name": "Bendix Engemann",
+   "nationality": "GER",
+   "division": "Overall",
+   "points": [
+    13.0,
+    17.0
+   ],
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0
+  },
+  {
+   "rank": 16,
+   "person": "matthijs-van-der-weg",
+   "sail": "NED-2023",
+   "name": "Matthijs van der Weg",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    17.0,
+    15.0
+   ],
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 17,
+   "person": "daniek-penners",
+   "sail": "NED-528",
+   "name": "Daniek Penners",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    16.0,
+    16.0
+   ],
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 18,
+   "person": null,
+   "sail": "NED-2411",
+   "name": "Marc Fokkinga",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    20.0,
+    20.0
+   ],
+   "discarded": [],
+   "total": 40.0,
+   "net": 40.0,
+   "counted": false
+  },
+  {
+   "rank": 18,
+   "person": null,
+   "sail": "NED-7777",
+   "name": "Haldun atar",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    20.0,
+    20.0
+   ],
+   "discarded": [],
+   "total": 40.0,
+   "net": 40.0,
+   "counted": false
+  },
+  {
+   "rank": 18,
+   "person": null,
+   "sail": "NED-101",
+   "name": "Lotte van den Toorn",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    20.0,
+    20.0
+   ],
+   "discarded": [],
+   "total": 40.0,
+   "net": 40.0,
+   "counted": false
+  }
+ ],
+ "detail": {},
+ "eliminations": [
+  {
+   "n": 1,
+   "url": "https://scoring.winterwave.nl/results/ladder/0/c093e317/1",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "mark-immenga"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "tim-janssen"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "jan-versteegen"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Marc Fokkinga"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": "daniek-penners"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Lotte van den Toorn"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "amado-vrieswijk"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "matthijs-pos"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 9,
+       "rank_published": "9.0",
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Haldun atar"
+      }
+     ]
+    },
+    {
+     "name": "Heat A",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "amado-vrieswijk"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "matthijs-pos"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "tim-janssen"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 9,
+       "rank_published": "9.0",
+       "person": "mark-immenga"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": "cyril-evrard"
+      }
+     ]
+    },
+    {
+     "name": "Heat B",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "jan-versteegen"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "daniek-penners"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Haldun atar"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Marc Fokkinga"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Lotte van den Toorn"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "url": "https://scoring.winterwave.nl/results/ladder/0/c093e317/2",
+   "groups": [
+    {
+     "name": "Heat 1",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "matthijs-pos"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "cyril-evrard"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "tim-janssen"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "jan-versteegen"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 9,
+       "remark": "DNF",
+       "person": null,
+       "name": "Lotte van den Toorn"
+      }
+     ]
+    },
+    {
+     "name": "Heat 2",
+     "type": "heat",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "amado-vrieswijk"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "mark-immenga"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 8,
+       "rank_published": "8.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 11,
+       "remark": "DNF",
+       "person": "daniek-penners"
+      },
+      {
+       "rank": 11,
+       "remark": "DNF",
+       "person": null,
+       "name": "Marc Fokkinga"
+      },
+      {
+       "rank": 11,
+       "remark": "DNF",
+       "person": null,
+       "name": "Haldun atar"
+      }
+     ]
+    },
+    {
+     "name": "Heat A",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "amado-vrieswijk"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "sem-stroosma"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "thijs-hanemaaijer"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "bjarne-van-der-weg"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "femke-van-der-veen"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "max-baaijen"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "diederik-leemans"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": "matthijs-pos"
+      },
+      {
+       "rank": 10,
+       "remark": "OCS",
+       "person": "bart-van-den-bogaart"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": "cyril-evrard"
+      }
+     ]
+    },
+    {
+     "name": "Heat B",
+     "type": "final",
+     "status": "result final",
+     "results": [
+      {
+       "rank": 1,
+       "rank_published": "1.0",
+       "person": "tim-janssen"
+      },
+      {
+       "rank": 2,
+       "rank_published": "2.0",
+       "person": "mark-immenga"
+      },
+      {
+       "rank": 3,
+       "rank_published": "3.0",
+       "person": "peter-mulder"
+      },
+      {
+       "rank": 4,
+       "rank_published": "4.0",
+       "person": "jan-versteegen"
+      },
+      {
+       "rank": 5,
+       "rank_published": "5.0",
+       "person": "matthijs-van-der-weg"
+      },
+      {
+       "rank": 6,
+       "rank_published": "6.0",
+       "person": "daniek-penners"
+      },
+      {
+       "rank": 7,
+       "rank_published": "7.0",
+       "person": "bendix-engemann"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Lotte van den Toorn"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Haldun atar"
+      },
+      {
+       "rank": 10,
+       "remark": "DNF",
+       "person": null,
+       "name": "Marc Fokkinga"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

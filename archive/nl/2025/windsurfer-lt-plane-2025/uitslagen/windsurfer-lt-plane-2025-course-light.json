@@ -1,0 +1,354 @@
+{
+ "schema_version": 1,
+ "id": "windsurfer-lt-plane-2025-course-light",
+ "event": {
+  "name": "Windsurfer LT 2025, W.S.D. Plané",
+  "scope": "nl",
+  "series": null,
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Light",
+  "class_label_published": "Light",
+  "equipment": "LT"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R.1",
+   "R.2",
+   "R.3",
+   "R.4",
+   "R.5"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race; OCS gescoord als 5 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 4 eliminations, ",
+  "winterwave_scoring": "ifca_elimination"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/fd9e2fca",
+  "file": "archive/nl/2025/windsurfer-lt-plane-2025/bronnen/winterwave-plane-windsurfer-lt-2025-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [],
+  "verified": "5 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (5x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Light - Windsurfer LT 2025'."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "peter-van-schie",
+   "sail": "NED 0092",
+   "name": "Peter Van Schie",
+   "name_published": "Peter Van Schie (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Light",
+   "points": [
+    4.0,
+    2.0,
+    2.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 10.0,
+   "net": 6.0
+  },
+  {
+   "rank": 2,
+   "person": "dion-van-laarhoven",
+   "sail": "NED 137",
+   "name": "Dion Van Laarhoven",
+   "name_published": "Dion Van Laarhoven (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Light",
+   "points": [
+    3.0,
+    1.0,
+    1.0,
+    5.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R.4": "OCS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 13.0,
+   "net": 8.0
+  },
+  {
+   "rank": 3,
+   "person": "fred-hastman",
+   "sail": "NED 202",
+   "name": "Fred Hastman",
+   "name_published": "Fred Hastman (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Light",
+   "points": [
+    2.0,
+    5.0,
+    3.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 14.0,
+   "net": 9.0
+  },
+  {
+   "rank": 4,
+   "person": "ron-hartog",
+   "sail": "NED 752",
+   "name": "Ron Hartog",
+   "name_published": "Ron Hartog (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Light",
+   "points": [
+    1.0,
+    4.0,
+    4.0,
+    5.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R.4": "OCS"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 18.0,
+   "net": 13.0
+  },
+  {
+   "rank": 5,
+   "person": "leroy-wevers",
+   "sail": "NED 904",
+   "name": "Leroy Wevers",
+   "name_published": "Leroy Wevers (M)",
+   "gender": "male",
+   "nationality": "NED",
+   "division": "Light",
+   "points": [
+    5.0,
+    3.0,
+    5.0,
+    3.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 21.0,
+   "net": 16.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R.1",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "ron-hartog",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fred-hastman",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "dion-van-laarhoven",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "peter-van-schie",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "leroy-wevers",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.2",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "dion-van-laarhoven",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "peter-van-schie",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ron-hartog",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "fred-hastman",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.3",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "dion-van-laarhoven",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "peter-van-schie",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "fred-hastman",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ron-hartog",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "leroy-wevers",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.4",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peter-van-schie",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fred-hastman",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": null,
+        "person": "dion-van-laarhoven",
+        "result_published": "5",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "ron-hartog",
+        "result_published": "5",
+        "remark": "OCS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.5",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peter-van-schie",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fred-hastman",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "dion-van-laarhoven",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ron-hartog",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "leroy-wevers",
+        "result_published": "5.0"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

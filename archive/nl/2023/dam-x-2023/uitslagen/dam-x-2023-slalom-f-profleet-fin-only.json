@@ -1,0 +1,1168 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2023-slalom-f-profleet-fin-only",
+ "event": {
+  "name": "DAM-X 2023",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2023-10-06",
+  "location": "Zeil- & Surfcentrum Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "F - Profleet (Fin only)",
+  "class_label_published": "F - Profleet (Fin only)",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF gescoord als 19 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/8450f193",
+  "file": "archive/nl/2023/dam-x-2023/bronnen/winterwave-damx-2023-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X - Regatta, party and test weekend",
+    "url": "https://www.surf-magazin.de/en/windsurfing/scene-and-events/brouwersdam-dam-x-regatta-party-and-test-weekend/",
+    "used_for": "zevende DAM-X, 6-8 oktober, Zeil- & Surfcentrum Brouwersdam; slalom voor alle niveaus, foil of vin (bericht van 12 september 2023)"
+   }
+  ],
+  "verified": "19 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (19x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'F - Profleet (Fin only) - DAM-X 2023'.",
+  "Bij een zeilnummercel met meer delen staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "taty-frans",
+   "sail": "NB-9",
+   "name": "Taty Frans",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    2.0,
+    0.0,
+    2.0,
+    0.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 8.0,
+   "net": 4.0
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED-191",
+   "name": "Ingmar Daldorf",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    3.0,
+    3.0,
+    0.0,
+    2.0,
+    3.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 11.0,
+   "net": 5.0
+  },
+  {
+   "rank": 3,
+   "person": "marco-lang",
+   "sail": "AUT-66",
+   "name": "Marco Lang",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    0.0,
+    2.0,
+    3.0,
+    3.0,
+    0.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 11.0,
+   "net": 5.0
+  },
+  {
+   "rank": 4,
+   "person": "floris-wondergem",
+   "sail": "Ned-97",
+   "sail_published": "Ned-97 Zwart zeil",
+   "name": "Floris Wondergem",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    4.0,
+    4.0,
+    4.0,
+    4.0,
+    5.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    5
+   ],
+   "total": 25.0,
+   "net": 16.0
+  },
+  {
+   "rank": 5,
+   "person": "jakob-kooij",
+   "sail": "NED-99",
+   "name": "Jakob Kooij",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    19.0,
+    6.0,
+    5.0,
+    5.0,
+    4.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 46.0,
+   "net": 20.0
+  },
+  {
+   "rank": 6,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max Baaijen",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    8.0,
+    5.0,
+    7.0,
+    6.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 37.0,
+   "net": 22.0
+  },
+  {
+   "rank": 7,
+   "person": "jonathan-bultynck",
+   "sail": "BEL-68",
+   "name": "Jonthan Bultynck",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    9.0,
+    7.0,
+    15.0,
+    7.0,
+    9.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 53.0,
+   "net": 29.0
+  },
+  {
+   "rank": 8,
+   "person": "bjorn-droop",
+   "sail": "NED-220",
+   "name": "Bjorn Droop",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    7.0,
+    11.0,
+    6.0,
+    8.0,
+    10.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 53.0,
+   "net": 31.0
+  },
+  {
+   "rank": 9,
+   "person": "peter-mulder",
+   "sail": "NED-95",
+   "name": "Peter Mulder",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    11.0,
+    10.0,
+    8.0,
+    19.0,
+    7.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 64.0,
+   "net": 34.0
+  },
+  {
+   "rank": 10,
+   "person": "mac-koeleman",
+   "sail": "NED-283",
+   "name": "Mac Koeleman",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    6.0,
+    17.0,
+    10.0,
+    12.0,
+    13.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 66.0,
+   "net": 36.0
+  },
+  {
+   "rank": 11,
+   "person": "jan-wim-becker",
+   "sail": "GER-876",
+   "name": "Jan Becker",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    10.0,
+    9.0,
+    12.0,
+    9.0,
+    11.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 61.0,
+   "net": 38.0
+  },
+  {
+   "rank": 12,
+   "person": "remco-hoekstra",
+   "sail": "NED-267",
+   "name": "Remco Hoekstra",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    12.0,
+    8.0,
+    19.0,
+    13.0,
+    12.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 77.0,
+   "net": 45.0
+  },
+  {
+   "rank": 13,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED-259",
+   "name": "Bart Bogaart",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    13.0,
+    16.0,
+    9.0,
+    10.0,
+    16.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 78.0,
+   "net": 46.0
+  },
+  {
+   "rank": 14,
+   "person": "steffen-bremerich",
+   "sail": "GER-1803",
+   "name": "Steffen Bremerich",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    15.0,
+    13.0,
+    16.0,
+    19.0,
+    8.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 83.0,
+   "net": 48.0
+  },
+  {
+   "rank": 15,
+   "person": "tim-janssen",
+   "sail": "NED-159",
+   "name": "Tim Janssen",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    18.0,
+    18.0,
+    13.0,
+    11.0,
+    14.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 89.0,
+   "net": 53.0
+  },
+  {
+   "rank": 16,
+   "person": "diederik-leemans",
+   "sail": "NED-301",
+   "name": "Diederik Leemans",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    17.0,
+    14.0,
+    11.0,
+    14.0,
+    15.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 87.0,
+   "net": 54.0
+  },
+  {
+   "rank": 17,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL-26",
+   "name": "Andrea Vanhoorne",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    14.0,
+    12.0,
+    14.0,
+    19.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 97.0,
+   "net": 59.0
+  },
+  {
+   "rank": 18,
+   "person": "jordy-vonk",
+   "sail": "NED-69",
+   "name": "Jordy Vonk",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    5.0,
+    19.0,
+    19.0,
+    19.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 100.0,
+   "net": 62.0
+  },
+  {
+   "rank": 19,
+   "person": "john-munten",
+   "sail": "NED-30",
+   "name": "John Munten",
+   "nationality": null,
+   "division": "Profleet (Fin only)",
+   "points": [
+    16.0,
+    15.0,
+    19.0,
+    19.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 107.0,
+   "net": 69.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "marco-lang",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "taty-frans",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "floris-wondergem",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jordy-vonk",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "mac-koeleman",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bjorn-droop",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "max-baaijen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jonathan-bultynck",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jan-wim-becker",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "peter-mulder",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "remco-hoekstra",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "bart-van-den-bogaart",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "andrea-vanhoorne",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "steffen-bremerich",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "john-munten",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "diederik-leemans",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "tim-janssen",
+        "result_published": "18.0"
+       },
+       {
+        "rank": null,
+        "person": "jakob-kooij",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "taty-frans",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marco-lang",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "floris-wondergem",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-baaijen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "jakob-kooij",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jonathan-bultynck",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "remco-hoekstra",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jan-wim-becker",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "bjorn-droop",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "andrea-vanhoorne",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "steffen-bremerich",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "diederik-leemans",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "john-munten",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "bart-van-den-bogaart",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "mac-koeleman",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "tim-janssen",
+        "result_published": "18.0"
+       },
+       {
+        "rank": null,
+        "person": "jordy-vonk",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "ingmar-daldorf",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "taty-frans",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "marco-lang",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "floris-wondergem",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jakob-kooij",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bjorn-droop",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "peter-mulder",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bart-van-den-bogaart",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "mac-koeleman",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "diederik-leemans",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "jan-wim-becker",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "tim-janssen",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "andrea-vanhoorne",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "jonathan-bultynck",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "steffen-bremerich",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": "remco-hoekstra",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jordy-vonk",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "john-munten",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "taty-frans",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "ingmar-daldorf",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "marco-lang",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "floris-wondergem",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jakob-kooij",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-baaijen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jonathan-bultynck",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bjorn-droop",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jan-wim-becker",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "bart-van-den-bogaart",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "tim-janssen",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "mac-koeleman",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "remco-hoekstra",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "diederik-leemans",
+        "result_published": "14.0"
+       },
+       {
+        "rank": null,
+        "person": "steffen-bremerich",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jordy-vonk",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "andrea-vanhoorne",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "john-munten",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "marco-lang",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "taty-frans",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "ingmar-daldorf",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "jakob-kooij",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "floris-wondergem",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-baaijen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "peter-mulder",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "steffen-bremerich",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jonathan-bultynck",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "bjorn-droop",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "jan-wim-becker",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "remco-hoekstra",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "mac-koeleman",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "tim-janssen",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "diederik-leemans",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "bart-van-den-bogaart",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": "jordy-vonk",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "andrea-vanhoorne",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "john-munten",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "ingmar-daldorf",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "taty-frans",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "marco-lang",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "floris-wondergem",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-baaijen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "jonathan-bultynck",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jakob-kooij",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "mac-koeleman",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "peter-mulder",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jan-wim-becker",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "bjorn-droop",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "steffen-bremerich",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "remco-hoekstra",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "bart-van-den-bogaart",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "tim-janssen",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "diederik-leemans",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": "jordy-vonk",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "andrea-vanhoorne",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "john-munten",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

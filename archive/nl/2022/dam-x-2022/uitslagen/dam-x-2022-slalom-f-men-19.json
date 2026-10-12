@@ -1,0 +1,1359 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2022-slalom-f-men-19",
+ "event": {
+  "name": "DAM-X 2022",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": "men",
+  "class": "F | Men 19+",
+  "class_label_published": "F | Men 19+",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.0, tweede 2.0; DNF zoals gepubliceerd",
+  "windtulip_eliminations": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/193/total_results/",
+  "file": "archive/nl/2022/dam-x-2022/bronnen/windtulip-193-total_results.page-data.json",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaalstand en races uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "metadata_sources": [],
+  "verified": "29 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (29x); geen dubbele namen; punten per race vergeleken met de plaats in de race (winnaar 0.0, RDG = toegekende punten): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd in het Windtulip Results Archive als 'F | Men 19+' (regatta 'DAM-X 2022'), dashboard 193. Elke 'eliminatie' is één race met één heat voor de hele klasse.",
+  "Een zeilnummercel met alleen een getal is het startnummer van DAM-X: dat staat in bib, sail is leeg (AANNAME; zeilnummers met landcode staan wel in sail).",
+  "Telt niet mee: 5 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "floris-wondergem",
+   "sail": null,
+   "bib": "191",
+   "sail_published": "191",
+   "name": "Floris Wondergem",
+   "nationality": null,
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 4.0,
+   "net": 2.0
+  },
+  {
+   "rank": 2,
+   "person": "tomas-van-zelst",
+   "sail": null,
+   "bib": "195",
+   "sail_published": "195",
+   "name": "Tomas van Zelst",
+   "nationality": null,
+   "division": null,
+   "points": [
+    5.0,
+    0.0,
+    4.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 11.0,
+   "net": 6.0
+  },
+  {
+   "rank": 3,
+   "person": "dennis-klaaijsen",
+   "sail": null,
+   "bib": "100",
+   "sail_published": "100",
+   "name": "Dennis Klaaijsen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    0.0,
+    8.0,
+    5.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 17.0,
+   "net": 9.0
+  },
+  {
+   "rank": 4,
+   "person": "tom-verhof",
+   "sail": null,
+   "bib": "122",
+   "sail_published": "122",
+   "name": "Tom Verhof",
+   "nationality": null,
+   "division": null,
+   "points": [
+    3.0,
+    4.0,
+    3.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 18.0,
+   "net": 10.0
+  },
+  {
+   "rank": 5,
+   "person": "peter-mulder",
+   "sail": null,
+   "bib": "235",
+   "sail_published": "235",
+   "name": "Peter Mulder",
+   "nationality": null,
+   "division": null,
+   "points": [
+    4.0,
+    3.0,
+    10.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 20.0,
+   "net": 10.0
+  },
+  {
+   "rank": 6,
+   "person": "dyon-cools",
+   "sail": null,
+   "bib": "113",
+   "sail_published": "113",
+   "name": "Dyon Cools",
+   "nationality": null,
+   "division": null,
+   "points": [
+    7.0,
+    5.0,
+    8.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 25.0,
+   "net": 17.0
+  },
+  {
+   "rank": 7,
+   "person": "terence-clappers",
+   "sail": null,
+   "bib": "198",
+   "sail_published": "198",
+   "name": "Terence Clappers",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    10.0,
+    2.0,
+    7.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 48.0,
+   "net": 19.0
+  },
+  {
+   "rank": 8,
+   "person": "david-van-den-toorn",
+   "sail": null,
+   "bib": "79",
+   "sail_published": "79",
+   "name": "David van den Toorn",
+   "nationality": null,
+   "division": null,
+   "points": [
+    8.0,
+    6.0,
+    9.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 33.0,
+   "net": 23.0
+  },
+  {
+   "rank": 9,
+   "person": "tim-janssen",
+   "sail": null,
+   "bib": "123",
+   "sail_published": "123",
+   "name": "Tim Janssen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    6.0,
+    13.0,
+    12.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 37.0,
+   "net": 24.0
+  },
+  {
+   "rank": 10,
+   "person": "erwin-van-logchem",
+   "sail": null,
+   "bib": "114",
+   "sail_published": "114",
+   "name": "Erwin van Logchem",
+   "nationality": null,
+   "division": null,
+   "points": [
+    9.0,
+    12.0,
+    6.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 44.0,
+   "net": 27.0
+  },
+  {
+   "rank": 11,
+   "person": "sander-dekeyser",
+   "sail": null,
+   "bib": "97",
+   "sail_published": "97",
+   "name": "Sander Dekeyser",
+   "nationality": null,
+   "division": null,
+   "points": [
+    10.0,
+    17.0,
+    11.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 47.0,
+   "net": 30.0
+  },
+  {
+   "rank": 12,
+   "person": "stefan-de-jong",
+   "sail": null,
+   "bib": "169",
+   "sail_published": "169",
+   "name": "Stefan Jong",
+   "nationality": null,
+   "division": null,
+   "points": [
+    11.0,
+    9.0,
+    17.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 48.0,
+   "net": 31.0
+  },
+  {
+   "rank": 13,
+   "person": "melvin-jansen",
+   "sail": null,
+   "bib": "124",
+   "sail_published": "124",
+   "name": "Melvin Jansen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    12.0,
+    15.0,
+    19.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 58.0,
+   "net": 39.0
+  },
+  {
+   "rank": 14,
+   "person": "daniek-penners",
+   "sail": null,
+   "bib": "10",
+   "sail_published": "10",
+   "name": "Daniek Penners",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    11.0,
+    13.0,
+    18.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 71.0,
+   "net": 42.0
+  },
+  {
+   "rank": 15,
+   "person": "rico-pakvis",
+   "sail": null,
+   "bib": "117",
+   "sail_published": "117",
+   "name": "Rico Pakvis",
+   "nationality": null,
+   "division": null,
+   "points": [
+    13.0,
+    19.0,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 62.0,
+   "net": 43.0
+  },
+  {
+   "rank": 16,
+   "person": "tim-gerdes",
+   "sail": null,
+   "bib": "86",
+   "sail_published": "86",
+   "name": "Tim Gerdes",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    7.0,
+    7.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 72.0,
+   "net": 43.0
+  },
+  {
+   "rank": 17,
+   "person": "max-burskens",
+   "sail": null,
+   "bib": "200",
+   "sail_published": "200",
+   "name": "Max Burskens",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    16.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 73.0,
+   "net": 44.0
+  },
+  {
+   "rank": 18,
+   "person": "loek-weijt",
+   "sail": null,
+   "bib": "168",
+   "sail_published": "168",
+   "name": "Loek Weijt",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    20.0,
+    18.0,
+    13.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 80.0,
+   "net": 51.0
+  },
+  {
+   "rank": 19,
+   "person": "ruben-dekeyser",
+   "sail": null,
+   "bib": "240",
+   "sail_published": "240",
+   "name": "Ruben Dekeyser",
+   "nationality": null,
+   "division": null,
+   "points": [
+    15.0,
+    23.0,
+    22.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 79.0,
+   "net": 56.0
+  },
+  {
+   "rank": 20,
+   "person": "owen-van-berkel",
+   "sail": null,
+   "bib": "170",
+   "sail_published": "170",
+   "name": "Owen Van Berkel",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    14.0,
+    29.0,
+    16.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 88.0,
+   "net": 59.0
+  },
+  {
+   "rank": 21,
+   "person": "florian-schut",
+   "sail": null,
+   "bib": "196",
+   "sail_published": "196",
+   "name": "Florian Schut",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    22.0,
+    16.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 96.0,
+   "net": 67.0
+  },
+  {
+   "rank": 22,
+   "person": "marcel-ultee",
+   "sail": null,
+   "bib": "218",
+   "sail_published": "218",
+   "name": "Marcel Ultee",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    18.0,
+    20.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 96.0,
+   "net": 67.0
+  },
+  {
+   "rank": 23,
+   "person": "thijs-brinkhof",
+   "sail": null,
+   "bib": "242",
+   "sail_published": "242",
+   "name": "Thijs Brinkhof",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    21.0,
+    21.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 100.0,
+   "net": 71.0
+  },
+  {
+   "rank": 24,
+   "person": "bendix-engemann",
+   "sail": null,
+   "bib": "175",
+   "sail_published": "175",
+   "name": "Bendix Engemann",
+   "nationality": null,
+   "division": null,
+   "points": [
+    14.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 101.0,
+   "net": 72.0
+  },
+  {
+   "rank": 25,
+   "person": null,
+   "sail": null,
+   "bib": "193",
+   "sail_published": "193",
+   "name": "Mathieu Baesen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 116.0,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 25,
+   "person": null,
+   "sail": null,
+   "bib": "142",
+   "sail_published": "142",
+   "name": "Ben Delcoigne",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 116.0,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 25,
+   "person": null,
+   "sail": null,
+   "bib": "223",
+   "sail_published": "223",
+   "name": "Thibault Dhaene",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 116.0,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 25,
+   "person": null,
+   "sail": null,
+   "bib": "201",
+   "sail_published": "201",
+   "name": "Jelmer van der Windt",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 116.0,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 25,
+   "person": null,
+   "sail": null,
+   "bib": "199",
+   "sail_published": "199",
+   "name": "Erik Van Alphen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 116.0,
+   "net": 87.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "1",
+    "url": "https://windtulip.nl/home/results_dashboard/193/1/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "dennis-klaaijsen"
+       },
+       {
+        "rank": 2,
+        "person": "floris-wondergem"
+       },
+       {
+        "rank": 3,
+        "person": "tom-verhof"
+       },
+       {
+        "rank": 4,
+        "person": "peter-mulder"
+       },
+       {
+        "rank": 5,
+        "person": "tomas-van-zelst"
+       },
+       {
+        "rank": 6,
+        "person": "tim-janssen"
+       },
+       {
+        "rank": 7,
+        "person": "dyon-cools"
+       },
+       {
+        "rank": 8,
+        "person": "david-van-den-toorn"
+       },
+       {
+        "rank": 9,
+        "person": "erwin-van-logchem"
+       },
+       {
+        "rank": 10,
+        "person": "sander-dekeyser"
+       },
+       {
+        "rank": 11,
+        "person": "stefan-de-jong"
+       },
+       {
+        "rank": 12,
+        "person": "melvin-jansen"
+       },
+       {
+        "rank": 13,
+        "person": "rico-pakvis"
+       },
+       {
+        "rank": 14,
+        "person": "bendix-engemann"
+       },
+       {
+        "rank": 15,
+        "person": "ruben-dekeyser"
+       },
+       {
+        "rank": null,
+        "person": "tim-gerdes",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "loek-weijt",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "owen-van-berkel",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mathieu Baesen",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "florian-schut",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "terence-clappers",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Erik Van Alphen",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-burskens",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jelmer van der Windt",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marcel-ultee",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Thibault Dhaene",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thijs-brinkhof",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ben Delcoigne",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "daniek-penners",
+        "result_published": "29",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "2",
+    "url": "https://windtulip.nl/home/results_dashboard/193/2/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "tomas-van-zelst"
+       },
+       {
+        "rank": 2,
+        "person": "floris-wondergem"
+       },
+       {
+        "rank": 3,
+        "person": "peter-mulder"
+       },
+       {
+        "rank": 4,
+        "person": "tom-verhof"
+       },
+       {
+        "rank": 5,
+        "person": "dyon-cools"
+       },
+       {
+        "rank": 6,
+        "person": "david-van-den-toorn"
+       },
+       {
+        "rank": 7,
+        "person": "tim-gerdes"
+       },
+       {
+        "rank": 8,
+        "person": "dennis-klaaijsen"
+       },
+       {
+        "rank": 9,
+        "person": "stefan-de-jong"
+       },
+       {
+        "rank": 10,
+        "person": "terence-clappers"
+       },
+       {
+        "rank": 11,
+        "person": "daniek-penners"
+       },
+       {
+        "rank": 12,
+        "person": "erwin-van-logchem"
+       },
+       {
+        "rank": 13,
+        "person": "tim-janssen"
+       },
+       {
+        "rank": 14,
+        "person": "owen-van-berkel"
+       },
+       {
+        "rank": 15,
+        "person": "melvin-jansen"
+       },
+       {
+        "rank": 16,
+        "person": "max-burskens"
+       },
+       {
+        "rank": 17,
+        "person": "sander-dekeyser"
+       },
+       {
+        "rank": 18,
+        "person": "marcel-ultee"
+       },
+       {
+        "rank": 19,
+        "person": "rico-pakvis"
+       },
+       {
+        "rank": 20,
+        "person": "loek-weijt"
+       },
+       {
+        "rank": 21,
+        "person": "thijs-brinkhof"
+       },
+       {
+        "rank": 22,
+        "person": "florian-schut"
+       },
+       {
+        "rank": 23,
+        "person": "ruben-dekeyser"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jelmer van der Windt",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Thibault Dhaene",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ben Delcoigne",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bendix-engemann",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mathieu Baesen",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Erik Van Alphen",
+        "result_published": "29",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "3",
+    "url": "https://windtulip.nl/home/results_dashboard/193/3/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "floris-wondergem"
+       },
+       {
+        "rank": 2,
+        "person": "terence-clappers"
+       },
+       {
+        "rank": 3,
+        "person": "tom-verhof"
+       },
+       {
+        "rank": 4,
+        "person": "tomas-van-zelst"
+       },
+       {
+        "rank": 5,
+        "person": "dennis-klaaijsen"
+       },
+       {
+        "rank": 6,
+        "person": "erwin-van-logchem"
+       },
+       {
+        "rank": 7,
+        "person": "tim-gerdes"
+       },
+       {
+        "rank": 8,
+        "person": "dyon-cools"
+       },
+       {
+        "rank": 9,
+        "person": "david-van-den-toorn"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder"
+       },
+       {
+        "rank": 11,
+        "person": "sander-dekeyser"
+       },
+       {
+        "rank": 12,
+        "person": "tim-janssen"
+       },
+       {
+        "rank": 13,
+        "person": "daniek-penners"
+       },
+       {
+        "rank": 14,
+        "person": "max-burskens"
+       },
+       {
+        "rank": 15,
+        "person": "rico-pakvis"
+       },
+       {
+        "rank": 16,
+        "person": "florian-schut"
+       },
+       {
+        "rank": 17,
+        "person": "stefan-de-jong"
+       },
+       {
+        "rank": 18,
+        "person": "loek-weijt"
+       },
+       {
+        "rank": 19,
+        "person": "melvin-jansen"
+       },
+       {
+        "rank": 20,
+        "person": "marcel-ultee"
+       },
+       {
+        "rank": 21,
+        "person": "thijs-brinkhof"
+       },
+       {
+        "rank": 22,
+        "person": "ruben-dekeyser"
+       },
+       {
+        "rank": null,
+        "person": "owen-van-berkel",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bendix-engemann",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mathieu Baesen",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Erik Van Alphen",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jelmer van der Windt",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Thibault Dhaene",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ben Delcoigne",
+        "result_published": "29",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "4",
+    "url": "https://windtulip.nl/home/results_dashboard/193/4/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "floris-wondergem"
+       },
+       {
+        "rank": 2,
+        "person": "tomas-van-zelst"
+       },
+       {
+        "rank": 3,
+        "person": "peter-mulder"
+       },
+       {
+        "rank": 4,
+        "person": "dennis-klaaijsen"
+       },
+       {
+        "rank": 5,
+        "person": "dyon-cools"
+       },
+       {
+        "rank": 6,
+        "person": "tim-janssen"
+       },
+       {
+        "rank": 7,
+        "person": "terence-clappers"
+       },
+       {
+        "rank": 8,
+        "person": "tom-verhof"
+       },
+       {
+        "rank": 9,
+        "person": "sander-dekeyser"
+       },
+       {
+        "rank": 10,
+        "person": "david-van-den-toorn"
+       },
+       {
+        "rank": 11,
+        "person": "stefan-de-jong"
+       },
+       {
+        "rank": 12,
+        "person": "melvin-jansen"
+       },
+       {
+        "rank": 13,
+        "person": "loek-weijt"
+       },
+       {
+        "rank": 14,
+        "person": "max-burskens"
+       },
+       {
+        "rank": 15,
+        "person": "rico-pakvis"
+       },
+       {
+        "rank": 16,
+        "person": "owen-van-berkel"
+       },
+       {
+        "rank": 17,
+        "person": "erwin-van-logchem"
+       },
+       {
+        "rank": 18,
+        "person": "daniek-penners"
+       },
+       {
+        "rank": 19,
+        "person": "ruben-dekeyser"
+       },
+       {
+        "rank": null,
+        "person": "bendix-engemann",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mathieu Baesen",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "florian-schut",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Erik Van Alphen",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jelmer van der Windt",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marcel-ultee",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Thibault Dhaene",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thijs-brinkhof",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-gerdes",
+        "result_published": "29",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ben Delcoigne",
+        "result_published": "29",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

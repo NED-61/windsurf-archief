@@ -1,0 +1,1001 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2024-slalom-f-youth-pro",
+ "event": {
+  "name": "DAM-X 2024",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2024-10-11",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "F- Youth Pro",
+  "class_label_published": "F- Youth Pro",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF, OCS gescoord als 16 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/8db816be",
+  "file": "archive/nl/2024/dam-x-2024/bronnen/winterwave-damx-2024-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X with slalom, freestyle and wing slalom - register now",
+    "url": "https://www.surf-magazin.de/en/wingsurfing/scene-and-events/brouwersdam-dam-x-with-slalom-freestyle-and-wing-slalom-register-now/",
+    "used_for": "achtste DAM-X, vrijdag 11 tot en met zondag 13 oktober (bericht van 20 juni 2024)"
+   }
+  ],
+  "verified": "16 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (16x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'F- Youth Pro - DAM-X 2024'."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "skip-brull",
+   "sail": "NED-173",
+   "name": "Skip Brull",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    2.0,
+    0.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6
+   ],
+   "total": 4.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "peyton-dits",
+   "sail": "NED-241",
+   "name": "Peyton Dits",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    4.0,
+    2.0,
+    7.0,
+    0.0,
+    2.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 15.0,
+   "net": 4.0
+  },
+  {
+   "rank": 3,
+   "person": "mika-boone",
+   "sail": "NED-134",
+   "name": "Mika Boone",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    2.0,
+    16.0,
+    3.0,
+    3.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS"
+   },
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 31.0,
+   "net": 11.0
+  },
+  {
+   "rank": 4,
+   "person": "joep-havik",
+   "sail": "NED-231",
+   "name": "Joep Havik",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    3.0,
+    16.0,
+    2.0,
+    4.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS"
+   },
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 36.0,
+   "net": 14.0
+  },
+  {
+   "rank": 5,
+   "person": "yfke-van-der-meer",
+   "sail": "NED-252",
+   "name": "Yfke van der Meer",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    6.0,
+    4.0,
+    16.0,
+    5.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R. 3": "OCS"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 40.0,
+   "net": 18.0
+  },
+  {
+   "rank": 6,
+   "person": "milo-zaal",
+   "sail": "NED-303",
+   "name": "Milo Zaal",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    5.0,
+    16.0,
+    6.0,
+    8.0,
+    6.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 44.0,
+   "net": 20.0
+  },
+  {
+   "rank": 7,
+   "person": "yannick-walhof",
+   "sail": "NED-338",
+   "name": "Yannick Walhof",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    9.0,
+    3.0,
+    5.0,
+    9.0,
+    9.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 42.0,
+   "net": 24.0
+  },
+  {
+   "rank": 8,
+   "person": "finn-brull",
+   "sail": "NED-731",
+   "name": "Finn Brull",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    8.0,
+    5.0,
+    8.0,
+    6.0,
+    7.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 48.0,
+   "net": 26.0
+  },
+  {
+   "rank": 9,
+   "person": "merlijn-boswijk",
+   "sail": "NED-244",
+   "name": "Merlijn Boswijk",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    7.0,
+    16.0,
+    4.0,
+    7.0,
+    8.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS"
+   },
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 53.0,
+   "net": 26.0
+  },
+  {
+   "rank": 10,
+   "person": "sara-de-kimpe",
+   "sail": "NED-170",
+   "name": "Sara de kimpe",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    10.0,
+    6.0,
+    12.0,
+    12.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 60.0,
+   "net": 36.0
+  },
+  {
+   "rank": 11,
+   "person": "anna-korevaar",
+   "sail": "NED-157",
+   "name": "Anna Korevaar",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    12.0,
+    7.0,
+    9.0,
+    14.0,
+    11.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 65.0,
+   "net": 39.0
+  },
+  {
+   "rank": 12,
+   "person": "steff-de-bruijn",
+   "sail": "NED-508",
+   "name": "Steff de Bruijn",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    13.0,
+    10.0,
+    16.0,
+    10.0,
+    12.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 70.0,
+   "net": 41.0
+  },
+  {
+   "rank": 13,
+   "person": "cedric-walhof",
+   "sail": "NED-388",
+   "name": "Cédric Walhof",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    11.0,
+    16.0,
+    11.0,
+    13.0,
+    13.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R. 2": "OCS"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 72.0,
+   "net": 43.0
+  },
+  {
+   "rank": 14,
+   "person": "marijn-schouten",
+   "sail": null,
+   "sail_published": "T",
+   "name": "Marijn Schouten",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    14.0,
+    8.0,
+    10.0,
+    16.0,
+    14.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6
+   ],
+   "total": 77.0,
+   "net": 46.0
+  },
+  {
+   "rank": 15,
+   "person": "neill-chardet",
+   "sail": "NED-2011",
+   "name": "Neill Chardet",
+   "nationality": "NED",
+   "division": "Youth Profleet",
+   "points": [
+    15.0,
+    9.0,
+    13.0,
+    15.0,
+    15.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 80.0,
+   "net": 50.0
+  },
+  {
+   "rank": 16,
+   "person": "jan-wim-becker",
+   "sail": "GER-876",
+   "name": "Jan Wim Becker",
+   "nationality": "GER",
+   "division": "Youth Profleet",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    11.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 91.0,
+   "net": 59.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "mika-boone",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "joep-havik",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "peyton-dits",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "milo-zaal",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "yfke-van-der-meer",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "merlijn-boswijk",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "finn-brull",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "yannick-walhof",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "sara-de-kimpe",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "cedric-walhof",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "anna-korevaar",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "steff-de-bruijn",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "marijn-schouten",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "neill-chardet",
+        "result_published": "15.0"
+       },
+       {
+        "rank": null,
+        "person": "jan-wim-becker",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "peyton-dits",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "yannick-walhof",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "yfke-van-der-meer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "finn-brull",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sara-de-kimpe",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "anna-korevaar",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "marijn-schouten",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "neill-chardet",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "steff-de-bruijn",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "jan-wim-becker",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "joep-havik",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "merlijn-boswijk",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "mika-boone",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "milo-zaal",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "cedric-walhof",
+        "result_published": "16",
+        "remark": "OCS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "joep-havik",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "merlijn-boswijk",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "yannick-walhof",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "milo-zaal",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "peyton-dits",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "finn-brull",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "anna-korevaar",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "marijn-schouten",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "cedric-walhof",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "sara-de-kimpe",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "neill-chardet",
+        "result_published": "13.0"
+       },
+       {
+        "rank": null,
+        "person": "jan-wim-becker",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "steff-de-bruijn",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yfke-van-der-meer",
+        "result_published": "16",
+        "remark": "OCS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peyton-dits",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "joep-havik",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "yfke-van-der-meer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "finn-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "merlijn-boswijk",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "milo-zaal",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "yannick-walhof",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "steff-de-bruijn",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "jan-wim-becker",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "sara-de-kimpe",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "cedric-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "anna-korevaar",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "neill-chardet",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "marijn-schouten",
+        "result_published": "16.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "peyton-dits",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "yfke-van-der-meer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "joep-havik",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "milo-zaal",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "finn-brull",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "merlijn-boswijk",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "yannick-walhof",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "sara-de-kimpe",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "anna-korevaar",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "steff-de-bruijn",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "cedric-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "marijn-schouten",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "neill-chardet",
+        "result_published": "15.0"
+       },
+       {
+        "rank": null,
+        "person": "jan-wim-becker",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peyton-dits",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "milo-zaal",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mika-boone",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "yfke-van-der-meer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "joep-havik",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "yannick-walhof",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "cedric-walhof",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "steff-de-bruijn",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "sara-de-kimpe",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "merlijn-boswijk",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "anna-korevaar",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "neill-chardet",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "finn-brull",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "marijn-schouten",
+        "result_published": "15.0"
+       },
+       {
+        "rank": null,
+        "person": "jan-wim-becker",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

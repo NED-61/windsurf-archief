@@ -1,0 +1,743 @@
+{
+ "schema_version": 1,
+ "id": "nvw-cup-2025-0913-slalom-zo-groep-5-profleet-foil-2",
+ "event": {
+  "name": "NVW Cup 2025, Brouwersdam",
+  "scope": "nl",
+  "series": "NVW Cup",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-09-13",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Zo Groep 5 - Profleet Foil 2",
+  "class_label_published": "Zo Groep 5 - Profleet Foil 2",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R.1",
+   "R.2",
+   "R.3",
+   "R.4",
+   "R.5",
+   "R.6"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF, OCS gescoord als 10 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "ifca_elimination"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/344f6f32",
+  "file": "archive/nl/2025/nvw-cup-2025-0913/bronnen/winterwave-nvw-cup-13-14-september-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'nvw-cup-2-onk-slalom-13-en-14-september' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20250320113802/https://www.wedstrijdsurfen.nl/evenement/nvw-cup-2-onk-slalom-13-en-14-september/",
+    "used_for": "NVW Cup #2 (+ ONK Slalom), 13 en 14 september 2025, slalom (fin en foil) (planning)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+    "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+    "used_for": "13-14 september, Brouwersdam: NVW Cup Slalom Fin en Foil gaat door, geen kwalificatie voor het ONK; een breed toegankelijk weekend met training en wedstrijden voor amateur- en profleet (22 juli 2025)"
+   }
+  ],
+  "verified": "10 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (10x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Zo Groep 5 - Profleet Foil 2 - NVW Cup 13 en 14 september'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Bij een zeilnummercel met meer delen staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "matthijs-pos",
+   "sail": "Ned-318",
+   "bib": "218",
+   "sail_published": "218 / Ned-318",
+   "name": "Matthijs Pos",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    0.7,
+    3.0,
+    0.7,
+    0.7,
+    5.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 12.1,
+   "net": 4.1
+  },
+  {
+   "rank": 2,
+   "person": "bjarne-van-der-weg",
+   "sail": "NED2024",
+   "bib": "172",
+   "sail_published": "172 / NED2024",
+   "name": "Bjarne van der Weg",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    2.0,
+    0.7,
+    4.0,
+    3.0,
+    10.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R.5": "DNF"
+   },
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 22.7,
+   "net": 8.7
+  },
+  {
+   "rank": 3,
+   "person": "femke-van-der-veen",
+   "sail": "NED2251",
+   "bib": "164",
+   "sail_published": "164 / NED2251",
+   "name": "Femke van der Veen",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    3.0,
+    4.0,
+    6.0,
+    4.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 23.0,
+   "net": 13.0
+  },
+  {
+   "rank": 4,
+   "person": "bob-van-de-burgt",
+   "sail": "NED -737",
+   "bib": "187",
+   "sail_published": "187 / NED -737",
+   "name": "Bob van de Burgt",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    10.0,
+    5.0,
+    3.0,
+    2.0,
+    6.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R.1": "OCS",
+    "R.6": "DNF"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 36.0,
+   "net": 16.0
+  },
+  {
+   "rank": 5,
+   "person": "sem-stroosma",
+   "sail": "Ned 450",
+   "bib": "229",
+   "sail_published": "229 / Ned 450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    10.0,
+    6.0,
+    2.0,
+    10.0,
+    3.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.4": "DNF",
+    "R.6": "DNF"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 41.0,
+   "net": 21.0
+  },
+  {
+   "rank": 6,
+   "person": "thijs-hanemaaijer",
+   "sail": "Ned 107",
+   "bib": "246",
+   "sail_published": "246 / Ned 107",
+   "name": "Thijs hanemaaijer�",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    4.0,
+    0.7
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 44.7,
+   "net": 24.7
+  },
+  {
+   "rank": 7,
+   "person": "brendan-lorho",
+   "sail": "FRA-113",
+   "bib": "169",
+   "sail_published": "169 / FRA-113",
+   "name": "Brendan LORHO",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    4.0,
+    2.0,
+    10.0,
+    10.0,
+    9.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R.3": "DNF",
+    "R.4": "DNF",
+    "R.6": "DNF"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 45.0,
+   "net": 25.0
+  },
+  {
+   "rank": 8,
+   "person": "simon-everaert",
+   "sail": null,
+   "bib": "177",
+   "sail_published": "177 / /",
+   "name": "Simon Everaert�",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    0.7,
+    10.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF",
+    "R.6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 50.7,
+   "net": 30.7
+  },
+  {
+   "rank": 9,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED 259",
+   "bib": "162",
+   "sail_published": "162 / NED 259",
+   "name": "Bart vd Bogaart",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    10.0,
+    10.0,
+    5.0,
+    10.0,
+    8.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.4": "DNF",
+    "R.6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 53.0,
+   "net": 33.0
+  },
+  {
+   "rank": 10,
+   "person": "jan-versteegen",
+   "sail": "NED-210",
+   "bib": "202",
+   "sail_published": "202 / NED-210",
+   "name": "Jan Verstege",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    10.0,
+    10.0,
+    7.0,
+    10.0,
+    7.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.4": "DNF",
+    "R.6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 54.0,
+   "net": 34.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R.1",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "matthijs-pos",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bjarne-van-der-weg",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "femke-van-der-veen",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "brendan-lorho",
+        "result_published": "4.0"
+       },
+       {
+        "rank": null,
+        "person": "simon-everaert",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sem-stroosma",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thijs-hanemaaijer",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "10",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bart-van-den-bogaart",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.2",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "bjarne-van-der-weg",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "brendan-lorho",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "matthijs-pos",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "femke-van-der-veen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bob-van-de-burgt",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sem-stroosma",
+        "result_published": "6.0"
+       },
+       {
+        "rank": null,
+        "person": "thijs-hanemaaijer",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bart-van-den-bogaart",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "simon-everaert",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.3",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "matthijs-pos",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "femke-van-der-veen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jan-versteegen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "thijs-hanemaaijer",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "brendan-lorho",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "simon-everaert",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.4",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "matthijs-pos",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "femke-van-der-veen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": null,
+        "person": "sem-stroosma",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bart-van-den-bogaart",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thijs-hanemaaijer",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "brendan-lorho",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "simon-everaert",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.5",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "simon-everaert",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "femke-van-der-veen",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "sem-stroosma",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "matthijs-pos",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bob-van-de-burgt",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jan-versteegen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bart-van-den-bogaart",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "brendan-lorho",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "bjarne-van-der-weg",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.6",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "thijs-hanemaaijer",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "matthijs-pos",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "femke-van-der-veen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": null,
+        "person": "simon-everaert",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sem-stroosma",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bart-van-den-bogaart",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "brendan-lorho",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

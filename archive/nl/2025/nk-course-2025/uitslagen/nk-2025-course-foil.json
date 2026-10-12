@@ -1,0 +1,3007 @@
+{
+ "schema_version": 1,
+ "id": "nk-2025-course-foil",
+ "event": {
+  "name": "NK Course 2025",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-09-19",
+  "location": "Medemblik (IJsselmeer)",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Foil",
+  "class_label_published": "ONK FOIL 2025",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R.1",
+   "R.2",
+   "R.3",
+   "R.4",
+   "R.5",
+   "R.6",
+   "R.7",
+   "R.8",
+   "R.9",
+   "R.10",
+   "R.11",
+   "R.12",
+   "R.13"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race; DNF, DNS, RDG, RET, UFD gescoord als 28 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 5 eliminations, 2 discard after 12 eliminations, ",
+  "winterwave_scoring": "ifca_elimination"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/e5721f82",
+  "file": "archive/nl/2025/nk-course-2025/bronnen/winterwave-onk-foil-course-2025-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'onk-foil-course-19-21-september-medemblik' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20250320115357/https://www.wedstrijdsurfen.nl/evenement/onk-foil-course-19-21-september-medemblik/",
+    "used_for": "ONK Foil Course, 19-21 september 2025, course race (fin en foil), Vooroever 13 Medemblik (planning)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'onk-course-medemblik-19-21-september'",
+    "url": "https://www.wedstrijdsurfen.nl/nieuws/onk-course-medemblik-19-21-september/",
+    "used_for": "ONK Course Foil 2025, 19-21 september op het IJsselmeer bij Medemblik; kampioenen overall en jeugd Finn Brüll, dames Yfke van der Meer, U13 Marijn Schouten, U15 Neill Chardet, U17 Anna Korevaar, grand master Martijn van Geemen (geraadpleegd op 12 oktober 2026 via een tekstweergave)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+    "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+    "used_for": "update van de NVW-kalender 2025 (22 juli 2025)"
+   },
+   {
+    "name": "opgave van de repo-eigenaar (deelnemer), 12 oktober 2026",
+    "url": null,
+    "used_for": "dit is het ONK; het WSH-weekend in Heeg (27-28 september 2025) was geen ONK"
+   }
+  ],
+  "verified": "28 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (28x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'ONK FOIL 2025 - ONK Foil Course - 19-21 september'.",
+  "In de ladder staat de naam soms anders dan in de totaalstand (gekoppeld op het zeilnummer): 'Milan' = 'Milan Hoevens'."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "finn-brull",
+   "sail": "NED-731",
+   "name": "Finn Brüll",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    2.0,
+    1.0,
+    5.0,
+    1.0,
+    1.0,
+    6.0,
+    9.0,
+    3.0,
+    4.0,
+    4.0,
+    3.0,
+    1.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 43.0,
+   "net": 28.0
+  },
+  {
+   "rank": 2,
+   "person": "merlijn-boswijk",
+   "sail": "NED-244",
+   "name": "Merlijn Boswijk",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    28.0,
+    2.0,
+    1.0,
+    5.0,
+    3.0,
+    3.0,
+    1.0,
+    2.0,
+    6.75,
+    3.0,
+    4.0,
+    28.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R.9": "RDG (6.75 Race)",
+    "R.1": "UFD",
+    "R.12": "UFD"
+   },
+   "discarded": [
+    1,
+    12
+   ],
+   "total": 87.75,
+   "net": 31.75
+  },
+  {
+   "rank": 3,
+   "person": "skip-brull",
+   "sail": "NED-173",
+   "name": "Skip Brüll",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    28.0,
+    3.0,
+    10.0,
+    6.0,
+    7.0,
+    1.0,
+    15.0,
+    1.0,
+    2.0,
+    2.0,
+    1.0,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R.1": "UFD"
+   },
+   "discarded": [
+    1,
+    7
+   ],
+   "total": 87.0,
+   "net": 44.0
+  },
+  {
+   "rank": 4,
+   "person": "mika-boone",
+   "sail": "NED-134",
+   "name": "Mika boone",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    3.0,
+    5.0,
+    6.0,
+    2.0,
+    6.0,
+    2.0,
+    3.0,
+    9.0,
+    7.0,
+    9.0,
+    8.0,
+    3.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    8,
+    10
+   ],
+   "total": 71.0,
+   "net": 53.0
+  },
+  {
+   "rank": 5,
+   "person": "peyton-dits",
+   "sail": "NED-241",
+   "name": "Peyton Dits",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    1.0,
+    6.0,
+    4.0,
+    4.0,
+    5.0,
+    9.0,
+    8.0,
+    5.0,
+    6.0,
+    5.0,
+    6.0,
+    4.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6,
+    13
+   ],
+   "total": 73.0,
+   "net": 54.0
+  },
+  {
+   "rank": 6,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    4.0,
+    9.0,
+    2.0,
+    3.0,
+    4.0,
+    11.0,
+    5.0,
+    7.0,
+    5.0,
+    8.0,
+    10.0,
+    6.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6,
+    11
+   ],
+   "total": 81.0,
+   "net": 60.0
+  },
+  {
+   "rank": 7,
+   "person": "kaj-rozeboom",
+   "sail": "ARU-19",
+   "name": "Kaj Rozeboom",
+   "nationality": "ARU",
+   "division": "Youth",
+   "points": [
+    14.0,
+    12.0,
+    11.0,
+    8.0,
+    14.0,
+    5.0,
+    11.0,
+    4.0,
+    1.0,
+    11.0,
+    5.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    5
+   ],
+   "total": 100.0,
+   "net": 72.0
+  },
+  {
+   "rank": 8,
+   "person": "thibault-dijksterhuis",
+   "sail": "NED-556",
+   "name": "Thibault Antoine Dijksterhuis",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    9.0,
+    10.0,
+    3.0,
+    11.0,
+    2.0,
+    8.0,
+    4.0,
+    10.0,
+    8.0,
+    14.0,
+    7.0,
+    11.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    10
+   ],
+   "total": 103.0,
+   "net": 78.0
+  },
+  {
+   "rank": 9,
+   "person": "milo-zaal",
+   "sail": "NED-303",
+   "name": "Milo Zaal",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    5.0,
+    11.0,
+    9.0,
+    7.0,
+    8.0,
+    10.0,
+    6.0,
+    8.0,
+    9.0,
+    7.0,
+    9.0,
+    9.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 103.0,
+   "net": 82.0
+  },
+  {
+   "rank": 10,
+   "person": "matt-de-jong",
+   "sail": "NED-6",
+   "name": "Matt de jong",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    28.0,
+    4.0,
+    12.0,
+    14.0,
+    13.0,
+    17.0,
+    17.0,
+    6.0,
+    3.0,
+    1.0,
+    2.0,
+    8.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R.1": "UFD"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 134.0,
+   "net": 89.0
+  },
+  {
+   "rank": 11,
+   "person": "joep-havik",
+   "sail": "NED-231",
+   "name": "Joep Havik",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    10.0,
+    14.0,
+    7.0,
+    12.0,
+    10.0,
+    7.0,
+    13.0,
+    16.0,
+    10.0,
+    6.0,
+    11.0,
+    5.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    8
+   ],
+   "total": 132.0,
+   "net": 102.0
+  },
+  {
+   "rank": 12,
+   "person": "cedric-walhof",
+   "sail": "NED-388",
+   "name": "Cedric Walhof",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    8.0,
+    17.0,
+    16.0,
+    10.0,
+    17.0,
+    12.0,
+    7.0,
+    13.0,
+    13.0,
+    10.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 159.0,
+   "net": 125.0
+  },
+  {
+   "rank": 13,
+   "person": "martijn-van-geemen",
+   "sail": "NED-31",
+   "name": "Martijn van Geemen",
+   "nationality": "NED",
+   "division": "Grand Master",
+   "points": [
+    12.0,
+    16.0,
+    8.0,
+    15.0,
+    12.0,
+    15.0,
+    12.0,
+    12.0,
+    12.0,
+    13.0,
+    15.0,
+    10.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 165.0,
+   "net": 134.0
+  },
+  {
+   "rank": 14,
+   "person": "yannick-walhof",
+   "sail": "NED-338",
+   "name": "Yannick Walhof",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    11.0,
+    13.0,
+    15.0,
+    16.0,
+    15.0,
+    19.0,
+    16.0,
+    14.0,
+    11.0,
+    17.0,
+    13.0,
+    13.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6,
+    10
+   ],
+   "total": 187.0,
+   "net": 151.0
+  },
+  {
+   "rank": 15,
+   "person": "freerk-blom",
+   "sail": "NED-25",
+   "name": "Freerk Blom",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    6.0,
+    8.0,
+    17.0,
+    9.0,
+    9.0,
+    14.0,
+    2.0,
+    11.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "R.9": "RET",
+    "R.10": "DNS",
+    "R.11": "DNS",
+    "R.12": "DNS",
+    "R.13": "DNS"
+   },
+   "discarded": [
+    9,
+    10
+   ],
+   "total": 216.0,
+   "net": 160.0
+  },
+  {
+   "rank": 16,
+   "person": "adri-keet",
+   "sail": "NED-34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "Grand Master",
+   "points": [
+    7.0,
+    15.0,
+    14.0,
+    13.0,
+    11.0,
+    13.0,
+    14.0,
+    28.0,
+    18.0,
+    15.0,
+    17.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "R.8": "DNF",
+    "R.12": "DNS",
+    "R.13": "DNS"
+   },
+   "discarded": [
+    8,
+    12
+   ],
+   "total": 221.0,
+   "net": 165.0
+  },
+  {
+   "rank": 17,
+   "person": "yfke-van-der-meer",
+   "sail": "NED-252",
+   "name": "Yfke van der Meer",
+   "nationality": "NED",
+   "division": "Youth - Women",
+   "points": [
+    15.0,
+    19.0,
+    19.0,
+    18.0,
+    19.0,
+    18.0,
+    25.0,
+    15.0,
+    14.0,
+    12.0,
+    14.0,
+    14.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    7
+   ],
+   "total": 217.0,
+   "net": 173.0
+  },
+  {
+   "rank": 18,
+   "person": "sara-de-kimpe",
+   "sail": "NED-170",
+   "name": "Sara de Kimpe",
+   "nationality": "NED",
+   "division": "Overall - Women",
+   "points": [
+    16.0,
+    20.0,
+    20.0,
+    19.0,
+    18.0,
+    25.0,
+    23.0,
+    18.0,
+    15.0,
+    16.0,
+    16.0,
+    15.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6,
+    7
+   ],
+   "total": 237.0,
+   "net": 189.0
+  },
+  {
+   "rank": 19,
+   "person": "anna-korevaar",
+   "sail": "NED-157",
+   "name": "Anna Korevaar",
+   "nationality": "NED",
+   "division": "Youth - Women - U17",
+   "points": [
+    18.0,
+    22.0,
+    23.0,
+    21.0,
+    20.0,
+    21.0,
+    18.0,
+    17.0,
+    28.0,
+    18.0,
+    18.0,
+    16.0,
+    17.0
+   ],
+   "race_remarks": {
+    "R.9": "DNF"
+   },
+   "discarded": [
+    3,
+    9
+   ],
+   "total": 257.0,
+   "net": 206.0
+  },
+  {
+   "rank": 20,
+   "person": "neill-chardet",
+   "sail": "NED-2011",
+   "name": "Neill Chardet",
+   "nationality": "NED",
+   "division": "Youth - U15",
+   "points": [
+    22.0,
+    25.0,
+    24.0,
+    20.0,
+    22.0,
+    23.0,
+    20.0,
+    20.0,
+    17.0,
+    19.0,
+    19.0,
+    17.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 266.0,
+   "net": 217.0
+  },
+  {
+   "rank": 21,
+   "person": "marijn-schouten",
+   "sail": "NED-160",
+   "name": "Marijn Schouten",
+   "nationality": "NED",
+   "division": "Youth - U13",
+   "points": [
+    19.0,
+    23.0,
+    21.0,
+    24.0,
+    24.0,
+    27.0,
+    22.0,
+    19.0,
+    16.0,
+    20.0,
+    21.0,
+    18.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6
+   ],
+   "total": 274.0,
+   "net": 223.0
+  },
+  {
+   "rank": 22,
+   "person": "milan-hoevens",
+   "sail": "NED-477",
+   "name": "Milan Hoevens",
+   "nationality": "NED",
+   "division": "Youth - U17",
+   "points": [
+    17.0,
+    21.0,
+    22.0,
+    22.0,
+    21.0,
+    22.0,
+    26.0,
+    21.0,
+    19.0,
+    21.0,
+    20.0,
+    20.0,
+    21.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    7
+   ],
+   "total": 273.0,
+   "net": 225.0
+  },
+  {
+   "rank": 23,
+   "person": "luc-buse",
+   "sail": "NED-333",
+   "name": "Luc Busé",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    13.0,
+    18.0,
+    13.0,
+    17.0,
+    16.0,
+    16.0,
+    21.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "R.8": "DNF",
+    "R.9": "DNS",
+    "R.10": "DNS",
+    "R.11": "DNS",
+    "R.12": "DNS",
+    "R.13": "DNS"
+   },
+   "discarded": [
+    8,
+    9
+   ],
+   "total": 282.0,
+   "net": 226.0
+  },
+  {
+   "rank": 24,
+   "person": "mies-dijksterhuis",
+   "sail": "NED-582",
+   "name": "Mies Dijksterhuis",
+   "nationality": "NED",
+   "division": "Youth - Women - U17",
+   "points": [
+    20.0,
+    26.0,
+    25.0,
+    23.0,
+    23.0,
+    26.0,
+    24.0,
+    22.0,
+    20.0,
+    22.0,
+    22.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 291.0,
+   "net": 239.0
+  },
+  {
+   "rank": 25,
+   "person": "thijs-dijkstra",
+   "sail": "NED-297",
+   "name": "Thijs Dijkstra",
+   "nationality": "NED",
+   "division": "Youth - U15",
+   "points": [
+    23.0,
+    27.0,
+    26.0,
+    25.0,
+    25.0,
+    24.0,
+    19.0,
+    23.0,
+    28.0,
+    28.0,
+    28.0,
+    21.0,
+    22.0
+   ],
+   "race_remarks": {
+    "R.9": "DNS",
+    "R.10": "DNS",
+    "R.11": "DNS"
+   },
+   "discarded": [
+    9,
+    10
+   ],
+   "total": 319.0,
+   "net": 263.0
+  },
+  {
+   "rank": 26,
+   "person": "hidde-boon",
+   "sail": "NED-126",
+   "name": "Hidde Boon",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    4.0,
+    10.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "R.1": "DNS",
+    "R.2": "DNS",
+    "R.3": "DNS",
+    "R.4": "DNS",
+    "R.5": "DNS",
+    "R.8": "DNF",
+    "R.9": "DNS",
+    "R.10": "DNS",
+    "R.11": "DNS",
+    "R.12": "DNS",
+    "R.13": "DNS"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 322.0,
+   "net": 266.0
+  },
+  {
+   "rank": 27,
+   "person": "kas-de-wolf",
+   "sail": "NED-39",
+   "name": "Kas de wolf",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    28.0,
+    7.0,
+    18.0,
+    28.0,
+    28.0,
+    20.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "R.1": "UFD",
+    "R.4": "DNF",
+    "R.5": "DNF",
+    "R.7": "DNS",
+    "R.8": "DNF",
+    "R.9": "DNS",
+    "R.10": "DNS",
+    "R.11": "DNS",
+    "R.12": "DNS",
+    "R.13": "DNS"
+   },
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 325.0,
+   "net": 269.0
+  },
+  {
+   "rank": 28,
+   "person": "marc-de-jong",
+   "sail": "NED-10",
+   "name": "Marc de Jong",
+   "nationality": "NED",
+   "division": "Grand Master",
+   "points": [
+    21.0,
+    24.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0,
+    28.0
+   ],
+   "race_remarks": {
+    "R.3": "DNS",
+    "R.4": "DNS",
+    "R.5": "DNS",
+    "R.6": "DNS",
+    "R.7": "DNS",
+    "R.8": "DNF",
+    "R.9": "DNS",
+    "R.10": "DNS",
+    "R.11": "DNS",
+    "R.12": "DNS",
+    "R.13": "DNS"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 353.0,
+   "net": 297.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R.1",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "peyton-dits",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "finn-brull",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "max-baaijen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "milo-zaal",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "freerk-blom",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "adri-keet",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "cedric-walhof",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "thibault-dijksterhuis",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "joep-havik",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "yannick-walhof",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "martijn-van-geemen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "luc-buse",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "kaj-rozeboom",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "yfke-van-der-meer",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "sara-de-kimpe",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "milan-hoevens",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "anna-korevaar",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "marijn-schouten",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "mies-dijksterhuis",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "marc-de-jong",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "neill-chardet",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "thijs-dijkstra",
+        "result_published": "23.0"
+       },
+       {
+        "rank": null,
+        "person": "matt-de-jong",
+        "result_published": "28",
+        "remark": "UFD"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "UFD"
+       },
+       {
+        "rank": null,
+        "person": "skip-brull",
+        "result_published": "28",
+        "remark": "UFD"
+       },
+       {
+        "rank": null,
+        "person": "merlijn-boswijk",
+        "result_published": "28",
+        "remark": "UFD"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.2",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "finn-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "merlijn-boswijk",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "skip-brull",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "matt-de-jong",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "mika-boone",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "peyton-dits",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "kas-de-wolf",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "freerk-blom",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "max-baaijen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "thibault-dijksterhuis",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "milo-zaal",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "kaj-rozeboom",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "yannick-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "joep-havik",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "adri-keet",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "martijn-van-geemen",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "cedric-walhof",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "luc-buse",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "yfke-van-der-meer",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "sara-de-kimpe",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "milan-hoevens",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "anna-korevaar",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "marijn-schouten",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "marc-de-jong",
+        "result_published": "24.0"
+       },
+       {
+        "rank": 25,
+        "person": "neill-chardet",
+        "result_published": "25.0"
+       },
+       {
+        "rank": 26,
+        "person": "mies-dijksterhuis",
+        "result_published": "26.0"
+       },
+       {
+        "rank": 27,
+        "person": "thijs-dijkstra",
+        "result_published": "27.0"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.3",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "merlijn-boswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "max-baaijen",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thibault-dijksterhuis",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "peyton-dits",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "finn-brull",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "mika-boone",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "joep-havik",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "martijn-van-geemen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "milo-zaal",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "skip-brull",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "kaj-rozeboom",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "matt-de-jong",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "luc-buse",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "adri-keet",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "yannick-walhof",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "cedric-walhof",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "freerk-blom",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "kas-de-wolf",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "yfke-van-der-meer",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "sara-de-kimpe",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "marijn-schouten",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "milan-hoevens",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "anna-korevaar",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "neill-chardet",
+        "result_published": "24.0"
+       },
+       {
+        "rank": 25,
+        "person": "mies-dijksterhuis",
+        "result_published": "25.0"
+       },
+       {
+        "rank": 26,
+        "person": "thijs-dijkstra",
+        "result_published": "26.0"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.4",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "finn-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "mika-boone",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "max-baaijen",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "peyton-dits",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "merlijn-boswijk",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "skip-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "milo-zaal",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "kaj-rozeboom",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "freerk-blom",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "cedric-walhof",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "thibault-dijksterhuis",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "joep-havik",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "adri-keet",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "matt-de-jong",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "martijn-van-geemen",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "yannick-walhof",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "luc-buse",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "yfke-van-der-meer",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "sara-de-kimpe",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "neill-chardet",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "anna-korevaar",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "milan-hoevens",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "mies-dijksterhuis",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "marijn-schouten",
+        "result_published": "24.0"
+       },
+       {
+        "rank": 25,
+        "person": "thijs-dijkstra",
+        "result_published": "25.0"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.5",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "finn-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thibault-dijksterhuis",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "merlijn-boswijk",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "max-baaijen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "peyton-dits",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "mika-boone",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "skip-brull",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "milo-zaal",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "freerk-blom",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "joep-havik",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "adri-keet",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "martijn-van-geemen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "matt-de-jong",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "kaj-rozeboom",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "yannick-walhof",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "luc-buse",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "cedric-walhof",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "sara-de-kimpe",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "yfke-van-der-meer",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "anna-korevaar",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "milan-hoevens",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "neill-chardet",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "mies-dijksterhuis",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "marijn-schouten",
+        "result_published": "24.0"
+       },
+       {
+        "rank": 25,
+        "person": "thijs-dijkstra",
+        "result_published": "25.0"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.6",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "mika-boone",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "merlijn-boswijk",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "hidde-boon",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "kaj-rozeboom",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "finn-brull",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "joep-havik",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "thibault-dijksterhuis",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "peyton-dits",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "milo-zaal",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "max-baaijen",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "cedric-walhof",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "adri-keet",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "freerk-blom",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "martijn-van-geemen",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "luc-buse",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "matt-de-jong",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "yfke-van-der-meer",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "yannick-walhof",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "kas-de-wolf",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "anna-korevaar",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "milan-hoevens",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "neill-chardet",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "thijs-dijkstra",
+        "result_published": "24.0"
+       },
+       {
+        "rank": 25,
+        "person": "sara-de-kimpe",
+        "result_published": "25.0"
+       },
+       {
+        "rank": 26,
+        "person": "mies-dijksterhuis",
+        "result_published": "26.0"
+       },
+       {
+        "rank": 27,
+        "person": "marijn-schouten",
+        "result_published": "27.0"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.7",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "merlijn-boswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "freerk-blom",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thibault-dijksterhuis",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-baaijen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "milo-zaal",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "cedric-walhof",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "peyton-dits",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "finn-brull",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "hidde-boon",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "kaj-rozeboom",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "martijn-van-geemen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "joep-havik",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "adri-keet",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "skip-brull",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "yannick-walhof",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "matt-de-jong",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "anna-korevaar",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "thijs-dijkstra",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "neill-chardet",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "luc-buse",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "marijn-schouten",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "sara-de-kimpe",
+        "result_published": "23.0"
+       },
+       {
+        "rank": 24,
+        "person": "mies-dijksterhuis",
+        "result_published": "24.0"
+       },
+       {
+        "rank": 25,
+        "person": "yfke-van-der-meer",
+        "result_published": "25.0"
+       },
+       {
+        "rank": 26,
+        "person": "milan-hoevens",
+        "result_published": "26.0"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.8",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "merlijn-boswijk",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "finn-brull",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "kaj-rozeboom",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "peyton-dits",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "matt-de-jong",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "milo-zaal",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "mika-boone",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "thibault-dijksterhuis",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "freerk-blom",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "martijn-van-geemen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "cedric-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yannick-walhof",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "yfke-van-der-meer",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "joep-havik",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "anna-korevaar",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "sara-de-kimpe",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "marijn-schouten",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "neill-chardet",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "milan-hoevens",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "mies-dijksterhuis",
+        "result_published": "22.0"
+       },
+       {
+        "rank": 23,
+        "person": "thijs-dijkstra",
+        "result_published": "23.0"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "adri-keet",
+        "result_published": "28",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "luc-buse",
+        "result_published": "28",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.9",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kaj-rozeboom",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "matt-de-jong",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "finn-brull",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-baaijen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "peyton-dits",
+        "result_published": "6.0"
+       },
+       {
+        "rank": null,
+        "person": "merlijn-boswijk",
+        "result_published": "6.75",
+        "remark": "RDG"
+       },
+       {
+        "rank": 7,
+        "person": "mika-boone",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "thibault-dijksterhuis",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "milo-zaal",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "joep-havik",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "yannick-walhof",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "martijn-van-geemen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "cedric-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yfke-van-der-meer",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "sara-de-kimpe",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "marijn-schouten",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "neill-chardet",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "adri-keet",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "milan-hoevens",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "mies-dijksterhuis",
+        "result_published": "20.0"
+       },
+       {
+        "rank": null,
+        "person": "freerk-blom",
+        "result_published": "28",
+        "remark": "RET"
+       },
+       {
+        "rank": null,
+        "person": "anna-korevaar",
+        "result_published": "28",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thijs-dijkstra",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "luc-buse",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.10",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "matt-de-jong",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "merlijn-boswijk",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "finn-brull",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "peyton-dits",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "joep-havik",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "milo-zaal",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "max-baaijen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "mika-boone",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "cedric-walhof",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "kaj-rozeboom",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "yfke-van-der-meer",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "martijn-van-geemen",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "thibault-dijksterhuis",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "adri-keet",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "sara-de-kimpe",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "yannick-walhof",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "anna-korevaar",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "neill-chardet",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "marijn-schouten",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "milan-hoevens",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "mies-dijksterhuis",
+        "result_published": "22.0"
+       },
+       {
+        "rank": null,
+        "person": "freerk-blom",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "luc-buse",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "thijs-dijkstra",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.11",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "matt-de-jong",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "finn-brull",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "merlijn-boswijk",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "kaj-rozeboom",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "peyton-dits",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "thibault-dijksterhuis",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "mika-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "milo-zaal",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "max-baaijen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "joep-havik",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "cedric-walhof",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "yannick-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yfke-van-der-meer",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "martijn-van-geemen",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "sara-de-kimpe",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "adri-keet",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "anna-korevaar",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "neill-chardet",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "milan-hoevens",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "marijn-schouten",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "mies-dijksterhuis",
+        "result_published": "22.0"
+       },
+       {
+        "rank": null,
+        "person": "freerk-blom",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "luc-buse",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "thijs-dijkstra",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.12",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "finn-brull",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "kaj-rozeboom",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-boone",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "peyton-dits",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "joep-havik",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-baaijen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "skip-brull",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "matt-de-jong",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "milo-zaal",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "martijn-van-geemen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "thibault-dijksterhuis",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "cedric-walhof",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "yannick-walhof",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yfke-van-der-meer",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "sara-de-kimpe",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "anna-korevaar",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "neill-chardet",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "marijn-schouten",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "mies-dijksterhuis",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "milan-hoevens",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "thijs-dijkstra",
+        "result_published": "21.0"
+       },
+       {
+        "rank": null,
+        "person": "merlijn-boswijk",
+        "result_published": "28",
+        "remark": "UFD"
+       },
+       {
+        "rank": null,
+        "person": "adri-keet",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "freerk-blom",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "luc-buse",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.13",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "merlijn-boswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "kaj-rozeboom",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "finn-brull",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "skip-brull",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "milo-zaal",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "thibault-dijksterhuis",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "mika-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "matt-de-jong",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peyton-dits",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "joep-havik",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "cedric-walhof",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "martijn-van-geemen",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "yannick-walhof",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "yfke-van-der-meer",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "sara-de-kimpe",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "anna-korevaar",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "neill-chardet",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "mies-dijksterhuis",
+        "result_published": "19.0"
+       },
+       {
+        "rank": 20,
+        "person": "marijn-schouten",
+        "result_published": "20.0"
+       },
+       {
+        "rank": 21,
+        "person": "milan-hoevens",
+        "result_published": "21.0"
+       },
+       {
+        "rank": 22,
+        "person": "thijs-dijkstra",
+        "result_published": "22.0"
+       },
+       {
+        "rank": null,
+        "person": "freerk-blom",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "kas-de-wolf",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "luc-buse",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "marc-de-jong",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "hidde-boon",
+        "result_published": "28",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "adri-keet",
+        "result_published": "28",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

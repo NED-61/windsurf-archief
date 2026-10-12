@@ -1,0 +1,1284 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2026-slalom-in-ladies",
+ "event": {
+  "name": "DAM-X 2026",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-10-09",
+  "location": "Brouwersdam (Grevelingenmeer)",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "In - Ladies",
+  "class_label_published": "In - Ladies",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6",
+   "R. 7",
+   "R. 8",
+   "R. 9",
+   "R. 10"
+  ],
+  "discards": 3,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF gescoord als 13 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "races_without_points": [
+   "R. 11",
+   "R. 12"
+  ],
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/9eba46bb",
+  "file": "archive/nl/2026/dam-x-2026/bronnen/winterwave-damx-2026-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "DAM-X Brouwersdam",
+    "url": "https://www.dam-x.com/nl",
+    "used_for": "tiende editie, 9 tot en met 11 oktober 2026"
+   },
+   {
+    "name": "Go-Kids agenda: DAM-X 10th edition",
+    "url": "https://go-kids.nl/zeeland/agenda/dam-x-10th-edition-aan-het-grevelingenmeer-bij-brouwersdam",
+    "used_for": "vrijdag 9 tot en met zondag 11 oktober 2026, Brouwersdam aan het Grevelingenmeer; windsurf- en wingslalom"
+   }
+  ],
+  "verified": "13 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 3 (13x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'In - Ladies - DAM-X 2026'.",
+  "De races R. 11, R. 12 staan in de kop van de totaalstand zonder punten voor deze klasse (niet gevaren): weggelaten uit races, genoemd in format.races_without_points.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "nien-van-craeynest",
+   "sail": null,
+   "bib": "110",
+   "sail_published": "110",
+   "name": "Nien Van Craeynest",
+   "nationality": "BEL",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    2.0,
+    0.7,
+    0.7,
+    4.0,
+    2.0,
+    3.0,
+    13.0,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {
+    "R. 7": "DNF"
+   },
+   "discarded": [
+    4,
+    6,
+    7
+   ],
+   "total": 27.5,
+   "net": 7.5
+  },
+  {
+   "rank": 2,
+   "person": "dominique",
+   "sail": null,
+   "bib": "74",
+   "sail_published": "74",
+   "name": "Dominique",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    2.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 19.8,
+   "net": 9.8
+  },
+  {
+   "rank": 3,
+   "person": "femke-van-den-berg",
+   "sail": null,
+   "bib": "20",
+   "sail_published": "20",
+   "name": "Femke Van den Berg",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    0.7,
+    2.0,
+    2.0,
+    3.0,
+    4.0,
+    2.0,
+    5.0,
+    3.0,
+    8.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    7,
+    9
+   ],
+   "total": 33.7,
+   "net": 16.7
+  },
+  {
+   "rank": 4,
+   "person": "monica-van-der-pluijm",
+   "sail": null,
+   "bib": "40",
+   "sail_published": "40",
+   "name": "Monica van der Pluijm",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    5.0,
+    7.0,
+    5.0,
+    2.0,
+    3.0,
+    5.0,
+    2.0,
+    4.0,
+    9.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2,
+    9
+   ],
+   "total": 44.0,
+   "net": 23.0
+  },
+  {
+   "rank": 5,
+   "person": "jacqueline-stoel",
+   "sail": null,
+   "bib": "57",
+   "sail_published": "57",
+   "name": "Jacqueline Stoel",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    4.0,
+    4.0,
+    3.0,
+    7.0,
+    5.0,
+    8.0,
+    7.0,
+    6.0,
+    3.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6,
+    10
+   ],
+   "total": 58.0,
+   "net": 32.0
+  },
+  {
+   "rank": 6,
+   "person": "yvet-van-der-molen",
+   "sail": null,
+   "bib": "76",
+   "sail_published": "76",
+   "name": "Yvet Van der molen",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    6.0,
+    6.0,
+    7.0,
+    5.0,
+    6.0,
+    4.0,
+    4.0,
+    7.0,
+    5.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    8,
+    10
+   ],
+   "total": 59.0,
+   "net": 36.0
+  },
+  {
+   "rank": 7,
+   "person": "sylke-van-dijk",
+   "sail": null,
+   "bib": "2",
+   "sail_published": "2",
+   "name": "Sylke van Dijk",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    8.0,
+    9.0,
+    8.0,
+    6.0,
+    7.0,
+    7.0,
+    3.0,
+    9.0,
+    10.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    8,
+    9
+   ],
+   "total": 74.0,
+   "net": 46.0
+  },
+  {
+   "rank": 8,
+   "person": "yana-deklerck",
+   "sail": null,
+   "bib": "70",
+   "sail_published": "70",
+   "name": "Yana Deklerck",
+   "nationality": "BEL",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    13.0,
+    8.0,
+    6.0,
+    8.0,
+    8.0,
+    9.0,
+    13.0,
+    13.0,
+    7.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF"
+   },
+   "discarded": [
+    1,
+    7,
+    8
+   ],
+   "total": 90.0,
+   "net": 51.0
+  },
+  {
+   "rank": 9,
+   "person": "marike-van-rooij",
+   "sail": null,
+   "bib": "4",
+   "sail_published": "4",
+   "name": "Marike van Rooij",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    11.0,
+    13.0,
+    13.0,
+    9.0,
+    13.0,
+    6.0,
+    13.0,
+    5.0,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 5": "DNF",
+    "R. 7": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    5
+   ],
+   "total": 93.0,
+   "net": 54.0
+  },
+  {
+   "rank": 10,
+   "person": "linda-ter-veld",
+   "sail": null,
+   "bib": "71",
+   "sail_published": "71",
+   "name": "Linda ter Veld",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    10.0,
+    13.0,
+    9.0,
+    10.0,
+    13.0,
+    13.0,
+    6.0,
+    11.0,
+    6.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    2,
+    5,
+    6
+   ],
+   "total": 101.0,
+   "net": 62.0
+  },
+  {
+   "rank": 11,
+   "person": "patricia-kiele",
+   "sail": null,
+   "bib": "72",
+   "sail_published": "72",
+   "name": "Patricia Kiele",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    9.0,
+    8.0,
+    11.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 114.0,
+   "net": 75.0
+  },
+  {
+   "rank": 12,
+   "person": "manouk-calkhoven",
+   "sail": null,
+   "bib": "5",
+   "sail_published": "5",
+   "name": "Manouk Calkhoven",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    9.0,
+    5.0,
+    10.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF"
+   },
+   "discarded": [
+    4,
+    5,
+    6
+   ],
+   "total": 115.0,
+   "net": 76.0
+  },
+  {
+   "rank": 13,
+   "person": "laura",
+   "sail": null,
+   "bib": "126",
+   "sail_published": "126",
+   "name": "Laura",
+   "nationality": "NED",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    7.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    13.0,
+    8.0,
+    10.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    4
+   ],
+   "total": 116.0,
+   "net": 77.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "femke-van-den-berg",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "nien-van-craeynest",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "dominique",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "jacqueline-stoel",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "monica-van-der-pluijm",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "yvet-van-der-molen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "laura",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "sylke-van-dijk",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "manouk-calkhoven",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "linda-ter-veld",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "marike-van-rooij",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "yana-deklerck",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "patricia-kiele",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "nien-van-craeynest",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "femke-van-den-berg",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "dominique",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "jacqueline-stoel",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "manouk-calkhoven",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "yvet-van-der-molen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "monica-van-der-pluijm",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "yana-deklerck",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "sylke-van-dijk",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "marike-van-rooij",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "laura",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "patricia-kiele",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "linda-ter-veld",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "nien-van-craeynest",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "femke-van-den-berg",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jacqueline-stoel",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "dominique",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "monica-van-der-pluijm",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "yana-deklerck",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "yvet-van-der-molen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "sylke-van-dijk",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "linda-ter-veld",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "manouk-calkhoven",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "marike-van-rooij",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "laura",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "patricia-kiele",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "dominique",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "monica-van-der-pluijm",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "femke-van-den-berg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "nien-van-craeynest",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "yvet-van-der-molen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sylke-van-dijk",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jacqueline-stoel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "yana-deklerck",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "marike-van-rooij",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "linda-ter-veld",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "manouk-calkhoven",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "laura",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "patricia-kiele",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "dominique",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "nien-van-craeynest",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "monica-van-der-pluijm",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "femke-van-den-berg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jacqueline-stoel",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "yvet-van-der-molen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "sylke-van-dijk",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "yana-deklerck",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "manouk-calkhoven",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marike-van-rooij",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "laura",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "patricia-kiele",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "linda-ter-veld",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "dominique",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "femke-van-den-berg",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "nien-van-craeynest",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "yvet-van-der-molen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "monica-van-der-pluijm",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "marike-van-rooij",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "sylke-van-dijk",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "jacqueline-stoel",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "yana-deklerck",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "manouk-calkhoven",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "laura",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "patricia-kiele",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "linda-ter-veld",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 7",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "dominique",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "monica-van-der-pluijm",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "sylke-van-dijk",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "yvet-van-der-molen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "femke-van-den-berg",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "linda-ter-veld",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jacqueline-stoel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "laura",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "patricia-kiele",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "manouk-calkhoven",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marike-van-rooij",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yana-deklerck",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "nien-van-craeynest",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 8",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "nien-van-craeynest",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "dominique",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "femke-van-den-berg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "monica-van-der-pluijm",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "marike-van-rooij",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "jacqueline-stoel",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "yvet-van-der-molen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "patricia-kiele",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "sylke-van-dijk",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "laura",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "linda-ter-veld",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "manouk-calkhoven",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "yana-deklerck",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 9",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "nien-van-craeynest",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "dominique",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jacqueline-stoel",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "marike-van-rooij",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "yvet-van-der-molen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "linda-ter-veld",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "yana-deklerck",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "femke-van-den-berg",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "monica-van-der-pluijm",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "sylke-van-dijk",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "patricia-kiele",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "manouk-calkhoven",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "laura",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 10",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "nien-van-craeynest",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "monica-van-der-pluijm",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "dominique",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "femke-van-den-berg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "yana-deklerck",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "marike-van-rooij",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "sylke-van-dijk",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "patricia-kiele",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "yvet-van-der-molen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "linda-ter-veld",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "jacqueline-stoel",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "manouk-calkhoven",
+        "result_published": "13",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "laura",
+        "result_published": "13",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

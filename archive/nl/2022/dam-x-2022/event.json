@@ -1,0 +1,33 @@
+{
+ "event_slug": "dam-x-2022",
+ "scope": "nl",
+ "name": "DAM-X 2022",
+ "series": "DAM-X",
+ "year": 2022,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": "Brouwersdam",
+ "discipline": "slalom",
+ "classes": [
+  "dam-x-2022-slalom-j-chicks-girls-ladies",
+  "dam-x-2022-slalom-masters-groep-2",
+  "dam-x-2022-slalom-g-boys-tm-14",
+  "dam-x-2022-slalom-h-guys-15-tm-18",
+  "dam-x-2022-slalom-f-men-19",
+  "dam-x-2022-slalom-masters-groep-1",
+  "dam-x-2022-slalom-k-profleet",
+  "dam-x-2022-slalom-l-jeugd-pro-fleet",
+  "dam-x-2022-slalom-masters-groep-a",
+  "dam-x-2022-slalom-masters-groep-b"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Uitslagen uit het Windtulip Results Archive (tien dashboards 'DAM-X 2022 - ...'). Windtulip publiceert de rondes als 'eliminaties', maar elke ronde is één race met één heat voor de hele klasse: daarom als fleet_racing opgenomen. Windtulip markeert de dashboards niet als definitief ('final: false').",
+  "DAM-X telt mee in het archief: een funwedstrijd, maar serieus genoeg om mee te tellen, net als The Real Trip (opgave van de gebruiker, 12 oktober 2026).",
+  "Datum niet gevonden. Locatie AFGELEID: DAM-X wordt bij de Brouwersdam gehouden (edities 2023-2026 bij het Zeil- & Surfcentrum Brouwersdam); voor 2022 niet in een bron nagegaan.",
+  "Masters 35+: eerst twee groepen (groep 1 en 2, elk vier races; op Windtulip als 'oud E' en 'oud I'), daarna een rangschikking van alle masters op hun netto-score uit de eigen groep, verdeeld over groep A (22 riders) en groep B (21 riders) met die score als RDG. Groep 1 en 2 staan als gewone uitslag in het archief; groep A en B als klassement over de groepen heen (aggregate: telt niet als extra start)."
+ ],
+ "name_published": "DAM-X 2022"
+}

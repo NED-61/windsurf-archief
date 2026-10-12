@@ -1,0 +1,29 @@
+{
+ "event_slug": "nk-course-2026",
+ "scope": "nl",
+ "name": "NK Course 2026",
+ "series": "NK Course",
+ "year": 2026,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2026-09-12",
+ "date_end": "2026-09-13",
+ "location": "Hoorn (Stadsstrand)",
+ "discipline": "course_race",
+ "classes": [
+  "nk-2026-course-foil"
+ ],
+ "metadata_sources": [
+  {
+   "name": "wedstrijdsurfen.nl (NVW): wedstrijdkalender 2026",
+   "url": "https://www.wedstrijdsurfen.nl/wedstrijden",
+   "used_for": "12-13 september 2026: ONK Foil Course Hoorn, course race, Stadsstrand Hoorn (planning)"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als '2026 ONK Foil Course - Hoorn', klasse 'Foil' (scoring 'windsurf_full_fleet': alleen de totaalstand, codes in de cel).",
+  "Datum en locatie volgens de NVW-kalender 2026 (planning); niet in de uitslag zelf."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "2026 ONK Foil Course - Hoorn"
+}

@@ -8,8 +8,8 @@
   "year": 2024,
   "stop_number": null,
   "stops_known": null,
-  "date": null,
-  "location": null,
+  "date": "2024-08-31",
+  "location": "Hoorn en Heeg",
   "discipline": "course_race",
   "gender": null,
   "class": "Formula Foil",
@@ -63,6 +63,16 @@
     "name": "WaterSportvereniging Heeg: Division 2 Open Dutch Championship 2024",
     "url": "https://wsheeg.nl/div2-odc-2024/",
     "used_for": "WSH = WaterSportvereniging Heeg; ODC op 28 en 29 september 2024 op het Heegermeer"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina '31-aug-en-1-sept-2024-nvw-onk-course-1-hoorn' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20240911224054/https://www.wedstrijdsurfen.nl/evenement/31-aug-en-1-sept-2024-nvw-onk-course-1-hoorn/",
+    "used_for": "NVW ONK Course #1 Hoorn, 31 augustus en 1 september 2024 (met NOR en SI 'ONK Windsurfing Course 2024')"
+   },
+   {
+    "name": "scoring.winterwave.nl: NK Course Race 2024 - Hoorn",
+    "url": "https://scoring.winterwave.nl/results/total/0/9107cbad",
+    "used_for": "de 12 races in Hoorn (vergeleken met HO01-HO12, zie de note in event.json)"
    }
   ],
   "verified": "34 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; elke code behalve RDG hoort bij 35 punten"

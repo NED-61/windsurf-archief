@@ -204,6 +204,16 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| DAM-X 2022 | F | Men 19+ | fleet_racing | 29 | Floris Wondergem | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-f-men-19.json |
+| DAM-X 2022 | G | Boys t/m 14 | fleet_racing | 8 | Julian Koldeweid | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-g-boys-tm-14.json |
+| DAM-X 2022 | H | Guys 15 t/m 18 | fleet_racing | 28 | Brendan LORHO | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-h-guys-15-tm-18.json |
+| DAM-X 2022 | J | Chicks/Girls/Ladies | fleet_racing | 14 | Andrea Vanhoorne | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-j-chicks-girls-ladies.json |
+| DAM-X 2022 | K | Profleet Men & Women | fleet_racing | 13 | Jordy Vonk | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-k-profleet.json |
+| DAM-X 2022 | L | Jeugd pro fleet | fleet_racing | 20 | Cyril EVRARD | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-l-jeugd-pro-fleet.json |
+| DAM-X 2022 | Masters 35+ (groep 1) | fleet_racing | 21 | Bas Brull | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-1.json |
+| DAM-X 2022 | Masters 35+ (groep 2) | fleet_racing | 21 | Steven de Geus | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-2.json |
+| DAM-X 2022 | Masters 35+ (groep A) | fleet_racing | 22 | Steven de Geus | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-a.json |
+| DAM-X 2022 | Masters 35+ (groep B) | fleet_racing | 21 | Jeroen Kuik | complete | gecontroleerd | archive/nl/2022/dam-x-2022/uitslagen/dam-x-2022-slalom-masters-groep-b.json |
 | NK Slalom 2022 | Dames | elimination | 6 | Femke van der Veen | complete | gecontroleerd | archive/nl/2022/nk-slalom-2022/uitslagen/nk-2022-slalom-dames.json |
 | NK Slalom 2022 | Heren | elimination | 21 | Jordy Vonk | complete | gecontroleerd | archive/nl/2022/nk-slalom-2022/uitslagen/nk-2022-slalom-heren.json |
 | NK Slalom 2022 | Jeugd | elimination | 30 | Max Baaijen | complete | gecontroleerd | archive/nl/2022/nk-slalom-2022/uitslagen/nk-2022-slalom-jeugd.json |
@@ -212,6 +222,15 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| DAM-X 2023 | E - Profleet (Foil only) | fleet_racing | 13 | Amado Vrieswijk | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-e-profleet-foil-only.json |
+| DAM-X 2023 | F - Profleet (Fin only) | fleet_racing | 19 | Taty Frans | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-f-profleet-fin-only.json |
+| DAM-X 2023 | G - Retired Profleet ( Fin only) | fleet_racing | 9 | Tomas van Zelst | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-g-retired-profleet-fin-only.json |
+| DAM-X 2023 | H - Youth Profleet (*Under 20 years, Foil only) | fleet_racing | 22 | Koen Hessels | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-h-youth-profleet-under-20-years-foil-only.json |
+| DAM-X 2023 | I - Masters 35+ years | fleet_racing | 56 | Remco Bakker | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-i-masters-35-years.json |
+| DAM-X 2023 | J - Men 19 up to 34 years | fleet_racing | 41 | Tom Verhof | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-j-men-19-up-to-34-years.json |
+| DAM-X 2023 | K - Boys up to 14 years | fleet_racing | 16 | Mika Henning | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-k-boys-up-to-14-years.json |
+| DAM-X 2023 | L - Ladies, Chicks en Girls | fleet_racing | 12 | Nien Van Craeynest | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-l-ladies-chicks-en-girls.json |
+| DAM-X 2023 | M - Guys 15 up to 18 years | fleet_racing | 23 | Chepé van Steenbrugge | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-m-guys-15-up-to-18-years.json |
 | NK Slalom 2023 | Dames | elimination | 5 | Femke van der Veen | complete | gecontroleerd | archive/nl/2023/nk-slalom-2023/uitslagen/nk-2023-slalom-dames.json |
 | NK Slalom 2023 | Heren | elimination | 32 | Amado Vrieswijk | complete | gecontroleerd | archive/nl/2023/nk-slalom-2023/uitslagen/nk-2023-slalom-heren.json |
 | NK Slalom 2023 | Heren jeugd | elimination | 25 | Sem Stroosma | complete | gecontroleerd | archive/nl/2023/nk-slalom-2023/uitslagen/nk-2023-slalom-heren-jeugd.json |
@@ -231,6 +250,15 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| DAM-X 2024 | E- Profleet FOIL | fleet_racing | 24 | Amado Vrieswijk | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-e-profleet-foil.json |
+| DAM-X 2024 | F- Youth Pro | fleet_racing | 16 | Skip Brull | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-f-youth-pro.json |
+| DAM-X 2024 | H- Retired Pro | fleet_racing | 9 | Peter van der Lugt | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-h-retired-pro.json |
+| DAM-X 2024 | J- Masters | fleet_racing | 64 | Bart van Leeuwen | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-j-masters.json |
+| DAM-X 2024 | K- Men 19-34 | fleet_racing | 37 | Aart Van Loocke | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-k-men-19-34.json |
+| DAM-X 2024 | L- Boys up to 14 | fleet_racing | 19 | Gus Van Mol | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-l-boys-up-to-14.json |
+| DAM-X 2024 | M- Ladies & chicks | fleet_racing | 11 | Nien Van Craeynest | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-m-ladies-chicks.json |
+| DAM-X 2024 | N- Girls | fleet_racing | 11 | Lotte Lievens | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-n-girls.json |
+| DAM-X 2024 | P- Guys 15 -18 | fleet_racing | 21 | chepé vansteenbrugge | complete | gecontroleerd | archive/nl/2024/dam-x-2024/uitslagen/dam-x-2024-slalom-p-guys-15-18.json |
 | Grote Prijs van Aalsmeer 2024 | IQ Foil | long_distance | 18 | Kas De Wolf | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-iq-foil.json |
 | Grote Prijs van Aalsmeer 2024 | Open windsurf tot max 9,5 m² | long_distance | 12 | André Korver | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-open-windsurf-max-9-5m2.json |
 | Grote Prijs van Aalsmeer 2024 | Raceboard tot max 9,5 m² | long_distance | 16 | Jan Muieyer | complete | gecontroleerd | archive/nl/2024/gpa-2024/uitslagen/gpa-2024-long-distance-raceboard-max-9-5m2.json |
@@ -264,13 +292,25 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Grote Prijs van Aalsmeer 2025 | Rookies (korte baan) | long_distance | 2 | Imky de Bruine | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-rookies.json |
 | Grote Prijs van Aalsmeer 2025 | Windfoil tot max 9,5 m² | long_distance | 7 | Kas De Wolf | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-windfoil-max-9-5m2.json |
 | Grote Prijs van Aalsmeer 2025 | Windsurfer LT / Kona One | long_distance | 6 | Albert Meppelink | partial | gecontroleerd | archive/nl/2025/gpa-2025/uitslagen/gpa-2025-long-distance-windsurfer-lt-kona-one.json |
-| NK Course 2025 | Division 2, Cat A | fleet_racing | 10 | Lennart CNOSSEN | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-division-2-cat-a.json |
-| NK Course 2025 | Division 2, Cat C | fleet_racing | 8 | Alain CADRE | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-division-2-cat-c.json |
-| NK Course 2025 | Formula Foil | fleet_racing | 26 | Max BAAIJEN | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-formula-foil.json |
-| NK Course 2025 | Raceboard / Windsurfer LT | fleet_racing | 8 | Bas van der VELDEN | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-raceboard-windsurfer-lt.json |
+| NK Course 2025 | Foil | fleet_racing | 28 | Finn Brüll | complete | gecontroleerd | archive/nl/2025/nk-course-2025/uitslagen/nk-2025-course-foil.json |
+| NK Slalom 2025 | Fin | elimination | 32 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2025/nk-slalom-2025/uitslagen/nk-2025-slalom-fin.json |
+| NK Slalom 2025 | Foil | elimination | 20 | Amado Vrieswijk | complete | gecontroleerd | archive/nl/2025/nk-slalom-2025/uitslagen/nk-2025-slalom-foil.json |
+| NVW Cup 2025, Brouwersdam | Groep 1 - Amateurfleet Fin 1 | fleet_racing | 11 | Sebastiaan Reek | complete | gecontroleerd | archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-1-amateurfleet-fin-1.json |
+| NVW Cup 2025, Brouwersdam | Groep 2 - Amateurfleet Fin 2 | fleet_racing | 7 | Simon Everaert� | complete | gecontroleerd | archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-2-amateurfleet-fin-2.json |
+| NVW Cup 2025, Brouwersdam | Groep 4 - Profleet Fin 2 | fleet_racing | 8 | Brendan LORHO | complete | gecontroleerd | archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-4-profleet-fin-2.json |
+| NVW Cup 2025, Brouwersdam | Groep 5 - Profleet Foil | fleet_racing | 11 | Bob van de Burgt | complete | gecontroleerd | archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-groep-5-profleet-foil.json |
+| NVW Cup 2025, Brouwersdam | Zo Groep 4 - Profleet Foil 2 | fleet_racing | 10 | Tim Janssen | complete | gecontroleerd | archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-zo-groep-4-profleet-foil-2.json |
+| NVW Cup 2025, Brouwersdam | Zo Groep 5 - Profleet Foil 2 | fleet_racing | 10 | Matthijs Pos | complete | gecontroleerd | archive/nl/2025/nvw-cup-2025-0913/uitslagen/nvw-cup-2025-0913-slalom-zo-groep-5-profleet-foil-2.json |
 | Ronde om Texel 2025 | Windsurf | long_distance | 26 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2025/ronde-om-texel-2025/uitslagen/ronde-om-texel-2025-long-distance-windsurf.json |
 | Stonedam Foil Cup 2025 | Heren & Dames 20+ | fleet_racing | 18 | Max Baaijen | complete | gecontroleerd | archive/nl/2025/stonedam-foil-cup-2025/uitslagen/stonedam-foil-cup-2025-foil-heren-dames-20plus.json |
 | Stonedam Foil Cup 2025 | Jeugd U20 | fleet_racing | 14 | Matt de Jong | complete | gecontroleerd | archive/nl/2025/stonedam-foil-cup-2025/uitslagen/stonedam-foil-cup-2025-foil-jeugd-u20.json |
+| WSH Windsurf Weekend 2025 | Division 2, Cat A | fleet_racing | 10 | Lennart CNOSSEN | complete | gecontroleerd | archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-division-2-cat-a.json |
+| WSH Windsurf Weekend 2025 | Division 2, Cat C | fleet_racing | 8 | Alain CADRE | complete | gecontroleerd | archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-division-2-cat-c.json |
+| WSH Windsurf Weekend 2025 | Formula Foil | fleet_racing | 26 | Max BAAIJEN | complete | gecontroleerd | archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-formula-foil.json |
+| WSH Windsurf Weekend 2025 | Raceboard / Windsurfer LT | fleet_racing | 8 | Bas van der VELDEN | complete | gecontroleerd | archive/nl/2025/wsh-windsurf-weekend-2025/uitslagen/wsh-windsurf-weekend-2025-course-raceboard-windsurfer-lt.json |
+| Windsurfer LT 2025, W.S.D. Plané | Heavy | fleet_racing | 5 | Marcel van der Ploeg | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-plane-2025/uitslagen/windsurfer-lt-plane-2025-course-heavy.json |
+| Windsurfer LT 2025, W.S.D. Plané | Light | fleet_racing | 5 | Peter Van Schie | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-plane-2025/uitslagen/windsurfer-lt-plane-2025-course-light.json |
+| Windsurfer LT 2025, W.S.D. Plané | Medium | fleet_racing | 5 | Lennart Cnossen | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-plane-2025/uitslagen/windsurfer-lt-plane-2025-course-medium.json |
 | Windsurfer LT Jaarprijs 2025 | Dames | fleet_racing | 12 | Pascal van Corbach | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-dames.json |
 | Windsurfer LT Jaarprijs 2025 | Gewichtsklasse A | fleet_racing | 21 | Sam van Diepen | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-a.json |
 | Windsurfer LT Jaarprijs 2025 | Gewichtsklasse B | fleet_racing | 19 | Jurian Velthuis | complete | gecontroleerd | archive/nl/2025/windsurfer-lt-jaarprijs-2025/uitslagen/windsurfer-lt-jaarprijs-2025-course-b.json |
@@ -282,6 +322,18 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| DAM-X 2026 | In - Boys | fleet_racing | 25 | Mika Lievens | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-boys.json |
+| DAM-X 2026 | In - Girls en Chicks | fleet_racing | 15 | Isabelle Westerveld | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-girls-en-chicks.json |
+| DAM-X 2026 | In - Guys | fleet_racing | 28 | Chepé Vansteenbrugge | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-guys.json |
+| DAM-X 2026 | In - Ladies | fleet_racing | 13 | Nien Van Craeynest | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-ladies.json |
+| DAM-X 2026 | In - Masters | fleet_racing | 74 | Peter van der Lugt | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-masters.json |
+| DAM-X 2026 | In - Windsurfer LT | fleet_racing | 12 | Kevin Mevissen | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-in-windsurfer-lt.json |
+| DAM-X 2026 | Out - Men | fleet_racing | 40 | Fabian Blanke | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-men.json |
+| DAM-X 2026 | Out - Profleet | fleet_racing | 27 | Amado Vrieswijk | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-profleet.json |
+| DAM-X 2026 | Out - Youth Pro | fleet_racing | 13 | Peyton Dits | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-youth-pro.json |
+| NK Course 2026 | Foil | fleet_racing | 26 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2026/nk-course-2026/uitslagen/nk-2026-course-foil.json |
+| NK Slalom 2026, foil (Aalsmeer) | Foil | fleet_racing | 11 | Amado vrieswijk | complete | gecontroleerd | archive/nl/2026/nk-slalom-2026-0613/uitslagen/nk-2026-0613-slalom-foil.json |
+| Ronde om Texel 2026 | Windsurf | long_distance | 33 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2026/ronde-om-texel-2026/uitslagen/ronde-om-texel-2026-long-distance-windsurf.json |
 | Stonedam Foil Cup 2026 | Pro | fleet_racing | 24 | Sem Stroosma | complete | gecontroleerd | archive/nl/2026/stonedam-foil-cup-2026/uitslagen/stonedam-foil-cup-2026-foil-pro.json |
 | Stonedam Foil Cup 2026 | Recreational | fleet_racing | 14 | Seppe Wiersema | complete | gecontroleerd | archive/nl/2026/stonedam-foil-cup-2026/uitslagen/stonedam-foil-cup-2026-foil-recreational.json |
 | The Real Trip 2026 | Fin Adults men | fleet_racing | 27 | Jeffrey van Hoe | complete | gecontroleerd | archive/nl/2026/the-real-trip-2026/uitslagen/the-real-trip-2026-long-distance-fin-adults-men.json |
@@ -600,8 +652,14 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: inbox/los/ONK2000_eindstand.htm (html-versie (Word 9) van ONK2000_eindstand.doc, dat al is verwerkt; cel voor cel vergeleken met de uitslagen in het archief (plaats, zeilnummer, naam, punten per race, totaal, netto): heren 37 riders: gelijk, dames 5 riders: gelijk, jeugd 15 riders: gelijk. Bevat per rider de woonplaats; daarom niet in git maar in local-only/)
 - **overgeslagen**: inbox/los/nl_wedstrijden_2000-2008.zip (zip met tien bestanden die ook los zijn aangeleverd (sha256 van alle tien gelijk aan de losse bestanden, soms onder een andere naam). Bevat ONK2000_eindstand.htm (woonplaatsen) en de pagina's met verslagen van Adri Keet; daarom niet in git maar in local-only/)
 - **overgeslagen**: inbox/los/8e21e607-0d2e-485e-9fe2-d3682d43f8a4.pdf (manage2sail-pdf 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025 - WSH Open Amateur Windsurfer - Overall Results as of 29 SEP 2025'; fun-klasse: op aanwijzing van de gebruiker (8 oktober 2026) niet in het archief; de bron is bewaard en niet omgezet)
+- **overgeslagen**: inbox/los/winterwave-nk-course-race-2024-capture.json.gz (tweede bron van een uitslag die al in het archief staat; niet opnieuw omgezet. winterwave 'NK Course Race 2024 - Hoorn' (28 riders, 12 races) vergeleken met HO01-HO12 van de eindstand: 18 riders gelijk (een code is in Hoorn 28 punten, in de eindstand 35), 10 met een ander getal in één of meer races (Merlijn Boswijk: HO10 winterwave 20 / eindstand 19; Thibault antoine Dijksterhuis: HO10 winterwave 22 / eindstand 21; Milo Zaal: HO10 winterwave 21 / eindstand 20; Aart-Jan van Zadelhoff: HO04 winterwave 20 / eindstand 19; Sara de Kimpe: HO04 winterwave 19 / eindstand 18, HO08 winterwave 25 / eindstand 23; John Munten: HO04 winterwave 23 / eindstand 21, HO08 winterwave 24 / eindstand 22, HO11 winterwave 22 / eindstand 21; Cédric Walhof: HO04 winterwave 21 / eindstand 20, HO08 winterwave 26 / eindstand 24, HO09 winterwave 26 / eindstand 24, HO10 winterwave 23 / eindstand 22, HO11 winterwave 21 / eindstand 20, HO12 winterwave 24 / eindstand 23; Marijn Schouten: HO04 winterwave 22 / eindstand 23, HO08 winterwave 22 / eindstand 26, HO09 winterwave 25 / eindstand 26, HO10 winterwave 19 / eindstand 23, HO11 winterwave 20 / eindstand 22, HO12 winterwave 23 / eindstand 24; Neill chardet: HO04 winterwave 18 / eindstand 22, HO08 winterwave 21 / eindstand 25, HO09 winterwave 24 / eindstand 25; Marc de jong: HO08 winterwave 23 / eindstand 21); 6 riders van de eindstand hebben in Hoorn alleen DNC en staan niet in de Hoorn-uitslag)
+- **overgeslagen**: inbox/los/winterwave-round-texel-2024-capture.json.gz (tweede bron van een uitslag die al in het archief staat; niet opnieuw omgezet. winterwave 'Round Texel 2024 - Windsurf' (30 riders, zonder namen (de kolommen 'Boat name' en 'Crew' zijn leeg; vergeleken op de zeilnummercel)) vergeleken met de uitslag in het archief: alle 30 gelijk (plaats en tijd; riders zonder tijd staan op winterwave zonder code))
+- **overgeslagen**: inbox/los/winterwave-round-texel-2025-capture.json.gz (tweede bron van een uitslag die al in het archief staat; niet opnieuw omgezet. winterwave 'Round Texel 2025 - Windsurf' (26 riders, met namen) vergeleken met de uitslag in het archief: alle 26 gelijk (plaats en tijd; riders zonder tijd staan op winterwave zonder code))
+- **wacht**: inbox/los/winterwave-regiocup-dww-capture.json.gz (Regiocup 'DWW' op scoring.winterwave.nl: iQfoil Windsurfen (16 riders) en Slalom Windsurfen (21 riders), elk 8 races; daarnaast kite- en wingklassen (niet vastgelegd). Jaar en plaats staan niet in de bron; de divisies hebben dezelfde omschrijvingen als bij NK Slalom 2024 ('Youth U21 ...'). Niet omgezet tot de gebruiker weet welke wedstrijd dit is. De ladders staan op 'Unstarted' terwijl de totaalstand punten heeft.)
+- **overgeslagen**: inbox/los/winterwave-extra-capture.json.gz (de gezamenlijke vastlegging van 12 oktober 2026 (13 evenementen) waaruit de losse winterwave-<evenement>-capture.json.gz zijn gesplitst; de pagina's zijn in die bestanden ongewijzigd (sha256 per pagina). Dubbel, daarom niet in git)
+- **overgeslagen**: inbox/los/windtulip-damx-2022-bundle.json.gz (bundel (base64) van de tien Windtulip-page-data.json van DAM-X 2022, zoals uit de browser gedownload; de tien bestanden staan los in bronnen/ (sha256 gelijk). Dubbel, daarom niet in git)
 
-**Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 15× nl, totaal 152.
+**Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 5× nl, totaal 142.
 
 ## Kalender: geplande wedstrijden zonder uitslag
 
@@ -734,4 +792,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 847 bron(nen), 278 verwerkt._
+_Registry: 874 bron(nen), 309 verwerkt._

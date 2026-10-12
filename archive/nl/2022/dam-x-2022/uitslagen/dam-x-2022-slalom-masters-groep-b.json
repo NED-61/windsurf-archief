@@ -1,0 +1,685 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2022-slalom-masters-groep-b",
+ "event": {
+  "name": "DAM-X 2022",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Masters 35+ (groep B)",
+  "class_label_published": "I | Masters 35+ (groep B) - DAM-X 2022",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1"
+  ],
+  "discards": 0,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.0, tweede 2.0; RDG zoals gepubliceerd",
+  "windtulip_eliminations": [
+   1
+  ]
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/200/total_results/",
+  "file": "archive/nl/2022/dam-x-2022/bronnen/windtulip-200-total_results.page-data.json",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaalstand en races uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "metadata_sources": [],
+  "verified": "21 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 0 (21x); geen dubbele namen; punten per race vergeleken met de plaats in de race (winnaar 0.0, RDG = toegekende punten): alle gelijk"
+ },
+ "coverage": "complete",
+ "aggregate": true,
+ "notes": [
+  "Gepubliceerd in het Windtulip Results Archive als 'I | Masters 35+ (groep B) - DAM-X 2022' (regatta 'DAM-X 2022'), dashboard 200. Elke 'eliminatie' is één race met één heat voor de hele klasse.",
+  "Een zeilnummercel met alleen een getal is het startnummer van DAM-X: dat staat in bib, sail is leeg (AANNAME; zeilnummers met landcode staan wel in sail).",
+  "Groep B is geen eigen race: de rangschikking van de masters op hun netto-score uit groep 1 of 2 (RDG = die score). In category staat de groep waarin de rider voer. Telt niet als extra start (aggregate).",
+  "Martijn de Jong staat in groep B met de hoogst mogelijke score, maar in geen van beide groepen: telt niet mee (counted: false).",
+  "Telt niet mee: 3 ingeschreven rider(s) die in hun eigen categorie-uitslag niet meetellen (alleen DNC, DNF of DNS in alle races) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jeroen-kuik",
+   "sail": null,
+   "bib": "176",
+   "sail_published": "176",
+   "name": "Jeroen Kuik",
+   "nationality": null,
+   "division": null,
+   "points": [
+    34.0
+   ],
+   "race_remarks": {
+    "1": "RDG (34.0)"
+   },
+   "discarded": [],
+   "total": 34.0,
+   "net": 34.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 2,
+   "person": "jan-pieter-van-der-meer",
+   "sail": null,
+   "bib": "164",
+   "sail_published": "164",
+   "name": "Jan Pieter van der Meer",
+   "nationality": null,
+   "division": null,
+   "points": [
+    36.0
+   ],
+   "race_remarks": {
+    "1": "RDG (36.0)"
+   },
+   "discarded": [],
+   "total": 36.0,
+   "net": 36.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 2,
+   "person": "pieter-janssens",
+   "sail": null,
+   "bib": "185",
+   "sail_published": "185",
+   "name": "Pieter Janssens",
+   "nationality": null,
+   "division": null,
+   "points": [
+    36.0
+   ],
+   "race_remarks": {
+    "1": "RDG (36.0)"
+   },
+   "discarded": [],
+   "total": 36.0,
+   "net": 36.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 4,
+   "person": "christian-klaus",
+   "sail": null,
+   "bib": "180",
+   "sail_published": "180",
+   "name": "Christian Klaus",
+   "nationality": null,
+   "division": null,
+   "points": [
+    38.0
+   ],
+   "race_remarks": {
+    "1": "RDG (38.0)"
+   },
+   "discarded": [],
+   "total": 38.0,
+   "net": 38.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 4,
+   "person": "arjan-vos",
+   "sail": null,
+   "bib": "76",
+   "sail_published": "76",
+   "name": "Arjan Vos",
+   "nationality": null,
+   "division": null,
+   "points": [
+    38.0
+   ],
+   "race_remarks": {
+    "1": "RDG (38.0)"
+   },
+   "discarded": [],
+   "total": 38.0,
+   "net": 38.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 4,
+   "person": "marco-vermoen",
+   "sail": null,
+   "bib": "90",
+   "sail_published": "90",
+   "name": "Marco Vermoen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    38.0
+   ],
+   "race_remarks": {
+    "1": "RDG (38.0)"
+   },
+   "discarded": [],
+   "total": 38.0,
+   "net": 38.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 7,
+   "person": "michiel-van-der-stel",
+   "sail": null,
+   "bib": "226",
+   "sail_published": "226",
+   "name": "Michiel van der Stel",
+   "nationality": null,
+   "division": null,
+   "points": [
+    40.0
+   ],
+   "race_remarks": {
+    "1": "RDG (40.0)"
+   },
+   "discarded": [],
+   "total": 40.0,
+   "net": 40.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 8,
+   "person": "arwin-van-der-waal",
+   "sail": null,
+   "bib": "172",
+   "sail_published": "172",
+   "name": "Arwin van der Waal",
+   "nationality": null,
+   "division": null,
+   "points": [
+    42.0
+   ],
+   "race_remarks": {
+    "1": "RDG (42.0)"
+   },
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 8,
+   "person": "sjoerd-vissers",
+   "sail": null,
+   "bib": "116",
+   "sail_published": "116",
+   "name": "Sjoerd Vissers",
+   "nationality": null,
+   "division": null,
+   "points": [
+    42.0
+   ],
+   "race_remarks": {
+    "1": "RDG (42.0)"
+   },
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 10,
+   "person": "pytrik-arendz",
+   "sail": null,
+   "bib": "229",
+   "sail_published": "229",
+   "name": "Pytrik arendz",
+   "nationality": null,
+   "division": null,
+   "points": [
+    43.0
+   ],
+   "race_remarks": {
+    "1": "RDG (43.0)"
+   },
+   "discarded": [],
+   "total": 43.0,
+   "net": 43.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 10,
+   "person": "jakub-sliva",
+   "sail": null,
+   "bib": "244",
+   "sail_published": "244",
+   "name": "Jakub Sliva",
+   "nationality": null,
+   "division": null,
+   "points": [
+    43.0
+   ],
+   "race_remarks": {
+    "1": "RDG (43.0)"
+   },
+   "discarded": [],
+   "total": 43.0,
+   "net": 43.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 12,
+   "person": "tim-melis",
+   "sail": null,
+   "bib": "202",
+   "sail_published": "202",
+   "name": "Tim Melis",
+   "nationality": null,
+   "division": null,
+   "points": [
+    47.0
+   ],
+   "race_remarks": {
+    "1": "RDG (47.0)"
+   },
+   "discarded": [],
+   "total": 47.0,
+   "net": 47.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 13,
+   "person": "raymond-weijt",
+   "sail": null,
+   "bib": "167",
+   "sail_published": "167",
+   "name": "Raymond Weijt",
+   "nationality": null,
+   "division": null,
+   "points": [
+    48.0
+   ],
+   "race_remarks": {
+    "1": "RDG (48.0)"
+   },
+   "discarded": [],
+   "total": 48.0,
+   "net": 48.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 13,
+   "person": "marc-schaeffer",
+   "sail": null,
+   "bib": "93",
+   "sail_published": "93",
+   "name": "Marc SCHAEFFER",
+   "nationality": null,
+   "division": null,
+   "points": [
+    48.0
+   ],
+   "race_remarks": {
+    "1": "RDG (48.0)"
+   },
+   "discarded": [],
+   "total": 48.0,
+   "net": 48.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 15,
+   "person": "steven-ijzer",
+   "sail": null,
+   "bib": "177",
+   "sail_published": "177",
+   "name": "Steven IJzer",
+   "nationality": null,
+   "division": null,
+   "points": [
+    49.0
+   ],
+   "race_remarks": {
+    "1": "RDG (49.0)"
+   },
+   "discarded": [],
+   "total": 49.0,
+   "net": 49.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 16,
+   "person": "arjan-verschuuren",
+   "sail": null,
+   "bib": "230",
+   "sail_published": "230",
+   "name": "Arjan Verschuuren",
+   "nationality": null,
+   "division": null,
+   "points": [
+    53.0
+   ],
+   "race_remarks": {
+    "1": "RDG (53.0)"
+   },
+   "discarded": [],
+   "total": 53.0,
+   "net": 53.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)"
+  },
+  {
+   "rank": 17,
+   "person": "ekkehard-siebrecht",
+   "sail": null,
+   "bib": "181",
+   "sail_published": "181",
+   "name": "Ekkerhard Siebrecht",
+   "nationality": null,
+   "division": null,
+   "points": [
+    58.0
+   ],
+   "race_remarks": {
+    "1": "RDG (58.0)"
+   },
+   "discarded": [],
+   "total": 58.0,
+   "net": 58.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)"
+  },
+  {
+   "rank": 18,
+   "person": null,
+   "sail": null,
+   "bib": "111",
+   "sail_published": "111",
+   "name": "Alex Engels",
+   "nationality": null,
+   "division": null,
+   "points": [
+    63.0
+   ],
+   "race_remarks": {
+    "1": "RDG (63.0)"
+   },
+   "discarded": [],
+   "total": 63.0,
+   "net": 63.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 1)",
+   "counted": false
+  },
+  {
+   "rank": 18,
+   "person": null,
+   "sail": null,
+   "bib": "225",
+   "sail_published": "225",
+   "name": "Remco Zielstra",
+   "nationality": null,
+   "division": null,
+   "points": [
+    63.0
+   ],
+   "race_remarks": {
+    "1": "RDG (63.0)"
+   },
+   "discarded": [],
+   "total": 63.0,
+   "net": 63.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)",
+   "counted": false
+  },
+  {
+   "rank": 18,
+   "person": null,
+   "sail": null,
+   "bib": "88",
+   "sail_published": "88",
+   "name": "Stefan Zielstra",
+   "nationality": null,
+   "division": null,
+   "points": [
+    63.0
+   ],
+   "race_remarks": {
+    "1": "RDG (63.0)"
+   },
+   "discarded": [],
+   "total": 63.0,
+   "net": 63.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": "Masters 35+ (groep 2)",
+   "counted": false
+  },
+  {
+   "rank": 21,
+   "person": null,
+   "sail": null,
+   "bib": "161",
+   "sail_published": "161",
+   "name": "Martijn de Jong",
+   "nationality": null,
+   "division": null,
+   "points": [
+    84.0
+   ],
+   "race_remarks": {
+    "1": "RDG (84.0)"
+   },
+   "discarded": [],
+   "total": 84.0,
+   "net": 84.0,
+   "point_notes": {
+    "1": "-"
+   },
+   "category": null,
+   "counted": false,
+   "flag": "staat in geen van beide groepen (1 en 2)"
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "1",
+    "url": "https://windtulip.nl/home/results_dashboard/200/1/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": null,
+        "person": "jeroen-kuik",
+        "result_published": "34.0",
+        "remark": "RDG (34.0)"
+       },
+       {
+        "rank": null,
+        "person": "jan-pieter-van-der-meer",
+        "result_published": "36.0",
+        "remark": "RDG (36.0)"
+       },
+       {
+        "rank": null,
+        "person": "pieter-janssens",
+        "result_published": "36.0",
+        "remark": "RDG (36.0)"
+       },
+       {
+        "rank": null,
+        "person": "christian-klaus",
+        "result_published": "38.0",
+        "remark": "RDG (38.0)"
+       },
+       {
+        "rank": null,
+        "person": "arjan-vos",
+        "result_published": "38.0",
+        "remark": "RDG (38.0)"
+       },
+       {
+        "rank": null,
+        "person": "marco-vermoen",
+        "result_published": "38.0",
+        "remark": "RDG (38.0)"
+       },
+       {
+        "rank": null,
+        "person": "michiel-van-der-stel",
+        "result_published": "40.0",
+        "remark": "RDG (40.0)"
+       },
+       {
+        "rank": null,
+        "person": "arwin-van-der-waal",
+        "result_published": "42.0",
+        "remark": "RDG (42.0)"
+       },
+       {
+        "rank": null,
+        "person": "sjoerd-vissers",
+        "result_published": "42.0",
+        "remark": "RDG (42.0)"
+       },
+       {
+        "rank": null,
+        "person": "pytrik-arendz",
+        "result_published": "43.0",
+        "remark": "RDG (43.0)"
+       },
+       {
+        "rank": null,
+        "person": "jakub-sliva",
+        "result_published": "43.0",
+        "remark": "RDG (43.0)"
+       },
+       {
+        "rank": null,
+        "person": "tim-melis",
+        "result_published": "47.0",
+        "remark": "RDG (47.0)"
+       },
+       {
+        "rank": null,
+        "person": "raymond-weijt",
+        "result_published": "48.0",
+        "remark": "RDG (48.0)"
+       },
+       {
+        "rank": null,
+        "person": "marc-schaeffer",
+        "result_published": "48.0",
+        "remark": "RDG (48.0)"
+       },
+       {
+        "rank": null,
+        "person": "steven-ijzer",
+        "result_published": "49.0",
+        "remark": "RDG (49.0)"
+       },
+       {
+        "rank": null,
+        "person": "arjan-verschuuren",
+        "result_published": "53.0",
+        "remark": "RDG (53.0)"
+       },
+       {
+        "rank": null,
+        "person": "ekkehard-siebrecht",
+        "result_published": "58.0",
+        "remark": "RDG (58.0)"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Alex Engels",
+        "result_published": "63.0",
+        "remark": "RDG (63.0)"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Remco Zielstra",
+        "result_published": "63.0",
+        "remark": "RDG (63.0)"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stefan Zielstra",
+        "result_published": "63.0",
+        "remark": "RDG (63.0)"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Martijn de Jong",
+        "result_published": "84.0",
+        "remark": "RDG (84.0)"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

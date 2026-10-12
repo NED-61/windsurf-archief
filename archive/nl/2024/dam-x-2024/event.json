@@ -1,0 +1,37 @@
+{
+ "event_slug": "dam-x-2024",
+ "scope": "nl",
+ "name": "DAM-X 2024",
+ "series": "DAM-X",
+ "year": 2024,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2024-10-11",
+ "date_end": "2024-10-13",
+ "location": "Brouwersdam",
+ "discipline": "slalom",
+ "classes": [
+  "dam-x-2024-slalom-e-profleet-foil",
+  "dam-x-2024-slalom-f-youth-pro",
+  "dam-x-2024-slalom-h-retired-pro",
+  "dam-x-2024-slalom-j-masters",
+  "dam-x-2024-slalom-k-men-19-34",
+  "dam-x-2024-slalom-l-boys-up-to-14",
+  "dam-x-2024-slalom-m-ladies-chicks",
+  "dam-x-2024-slalom-n-girls",
+  "dam-x-2024-slalom-p-guys-15-18"
+ ],
+ "metadata_sources": [
+  {
+   "name": "surf-magazin.de: Brouwersdam DAM-X with slalom, freestyle and wing slalom - register now",
+   "url": "https://www.surf-magazin.de/en/wingsurfing/scene-and-events/brouwersdam-dam-x-with-slalom-freestyle-and-wing-slalom-register-now/",
+   "used_for": "achtste DAM-X, vrijdag 11 tot en met zondag 13 oktober (bericht van 20 juni 2024)"
+  }
+ ],
+ "notes": [
+  "DAM-X telt mee in het archief: een funwedstrijd, maar serieus genoeg om mee te tellen, net als The Real Trip (opgave van de gebruiker, 12 oktober 2026).",
+  "De klasse 'G- Wingfoil' is niet opgenomen: wingen is geen windsurfen. De bron staat in bronnen/.",
+  "Het evenement 'DAM-X 2024 FIN' (klasse 'Profleet FIN') staat op winterwave zonder uitslag (vastgelegd, leeg)."
+ ],
+ "name_published": "DAM-X 2024"
+}

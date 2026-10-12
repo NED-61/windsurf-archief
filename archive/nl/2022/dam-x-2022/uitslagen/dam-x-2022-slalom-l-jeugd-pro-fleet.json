@@ -1,0 +1,1149 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2022-slalom-l-jeugd-pro-fleet",
+ "event": {
+  "name": "DAM-X 2022",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "L | Jeugd pro fleet",
+  "class_label_published": "L | Jeugd pro fleet",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.0, tweede 2.0; DNF, OCS zoals gepubliceerd",
+  "windtulip_eliminations": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/196/total_results/",
+  "file": "archive/nl/2022/dam-x-2022/bronnen/windtulip-196-total_results.page-data.json",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaalstand en races uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "metadata_sources": [],
+  "verified": "20 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (20x); geen dubbele namen; punten per race vergeleken met de plaats in de race (winnaar 0.0, RDG = toegekende punten): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd in het Windtulip Results Archive als 'L | Jeugd pro fleet' (regatta 'DAM-X 2022'), dashboard 196. Elke 'eliminatie' is één race met één heat voor de hele klasse.",
+  "Een zeilnummercel met alleen een getal is het startnummer van DAM-X: dat staat in bib, sail is leeg (AANNAME; zeilnummers met landcode staan wel in sail)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "cyril-evrard",
+   "sail": "BEL250",
+   "name": "Cyril EVRARD",
+   "nationality": null,
+   "division": null,
+   "points": [
+    0.0,
+    0.0,
+    5.0,
+    20.0,
+    0.0,
+    4.0
+   ],
+   "race_remarks": {
+    "4": "DNF"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 29.0,
+   "net": 4.0
+  },
+  {
+   "rank": 2,
+   "person": "skip-brull",
+   "sail": "NED173",
+   "name": "Skip Brull",
+   "nationality": null,
+   "division": null,
+   "points": [
+    3.0,
+    2.0,
+    2.0,
+    0.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 11.0,
+   "net": 6.0
+  },
+  {
+   "rank": 3,
+   "person": "sem-stroosma",
+   "sail": "NED450",
+   "name": "Sem Stroosma",
+   "nationality": null,
+   "division": null,
+   "points": [
+    4.0,
+    4.0,
+    0.0,
+    2.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 16.0,
+   "net": 8.0
+  },
+  {
+   "rank": 4,
+   "person": "koen-hessels",
+   "sail": "NED88",
+   "name": "Koen Hessels",
+   "nationality": null,
+   "division": null,
+   "points": [
+    2.0,
+    3.0,
+    20.0,
+    3.0,
+    4.0,
+    0.0
+   ],
+   "race_remarks": {
+    "3": "OCS"
+   },
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 32.0,
+   "net": 8.0
+  },
+  {
+   "rank": 5,
+   "person": "kaj-rozeboom",
+   "sail": "NED6",
+   "name": "Kaj Rozeboom",
+   "nationality": null,
+   "division": null,
+   "points": [
+    20.0,
+    5.0,
+    3.0,
+    4.0,
+    5.0,
+    20.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "6": "OCS"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 57.0,
+   "net": 17.0
+  },
+  {
+   "rank": 6,
+   "person": "hidde-schraffordt",
+   "sail": "NED114",
+   "name": "Hidde Schraffordt",
+   "nationality": null,
+   "division": null,
+   "points": [
+    5.0,
+    8.0,
+    4.0,
+    5.0,
+    7.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    5
+   ],
+   "total": 35.0,
+   "net": 20.0
+  },
+  {
+   "rank": 7,
+   "person": "thijs-hanemaaijer",
+   "sail": "NED107",
+   "name": "Thijs Hanemaaijer",
+   "nationality": null,
+   "division": null,
+   "points": [
+    7.0,
+    6.0,
+    6.0,
+    8.0,
+    20.0,
+    5.0
+   ],
+   "race_remarks": {
+    "5": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 52.0,
+   "net": 24.0
+  },
+  {
+   "rank": 8,
+   "person": "zara-rozeboom",
+   "sail": "NED127",
+   "name": "Zara Rozeboom",
+   "nationality": null,
+   "division": null,
+   "points": [
+    20.0,
+    7.0,
+    7.0,
+    6.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1,
+    5
+   ],
+   "total": 55.0,
+   "net": 27.0
+  },
+  {
+   "rank": 9,
+   "person": "felix-schlusemann",
+   "sail": "GER1051",
+   "name": "Felix Schlusemann",
+   "nationality": null,
+   "division": null,
+   "points": [
+    6.0,
+    20.0,
+    8.0,
+    13.0,
+    6.0,
+    8.0
+   ],
+   "race_remarks": {
+    "2": "OCS"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 61.0,
+   "net": 28.0
+  },
+  {
+   "rank": 10,
+   "person": "mika-boone",
+   "sail": "NED134",
+   "name": "Mika Boone",
+   "nationality": null,
+   "division": null,
+   "points": [
+    8.0,
+    9.0,
+    9.0,
+    9.0,
+    11.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 55.0,
+   "net": 35.0
+  },
+  {
+   "rank": 11,
+   "person": "peyton-dits",
+   "sail": "NED241",
+   "name": "Peyton Dits",
+   "nationality": null,
+   "division": null,
+   "points": [
+    9.0,
+    13.0,
+    10.0,
+    11.0,
+    9.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    6
+   ],
+   "total": 63.0,
+   "net": 39.0
+  },
+  {
+   "rank": 12,
+   "person": "finn-brull",
+   "sail": "NED731",
+   "name": "Finn Brull",
+   "nationality": null,
+   "division": null,
+   "points": [
+    10.0,
+    10.0,
+    11.0,
+    10.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 65.0,
+   "net": 41.0
+  },
+  {
+   "rank": 13,
+   "person": "lukas-klaus",
+   "sail": "GER781",
+   "name": "Lukas Klaus",
+   "nationality": null,
+   "division": null,
+   "points": [
+    12.0,
+    15.0,
+    20.0,
+    14.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {
+    "3": "DNF"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 81.0,
+   "net": 46.0
+  },
+  {
+   "rank": 14,
+   "person": "merlijn-boswijk",
+   "sail": "NED244",
+   "name": "Merlijn Boswijk",
+   "nationality": null,
+   "division": null,
+   "points": [
+    11.0,
+    11.0,
+    13.0,
+    12.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 73.0,
+   "net": 47.0
+  },
+  {
+   "rank": 15,
+   "person": "joep-havik",
+   "sail": "NED231",
+   "name": "Joep Havik",
+   "nationality": null,
+   "division": null,
+   "points": [
+    14.0,
+    12.0,
+    12.0,
+    15.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    6
+   ],
+   "total": 81.0,
+   "net": 52.0
+  },
+  {
+   "rank": 16,
+   "person": "wim-saelens",
+   "sail": "BEL77",
+   "name": "Wim Saelens",
+   "nationality": null,
+   "division": null,
+   "points": [
+    20.0,
+    14.0,
+    14.0,
+    7.0,
+    20.0,
+    20.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "5": "DNF",
+    "6": "DNF"
+   },
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 95.0,
+   "net": 55.0
+  },
+  {
+   "rank": 17,
+   "person": "anna-korevaar",
+   "sail": "NED157",
+   "name": "Anna Korevaar",
+   "nationality": null,
+   "division": null,
+   "points": [
+    13.0,
+    20.0,
+    20.0,
+    17.0,
+    16.0,
+    15.0
+   ],
+   "race_remarks": {
+    "2": "OCS",
+    "3": "OCS"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 101.0,
+   "net": 61.0
+  },
+  {
+   "rank": 18,
+   "person": "diederik-leemans",
+   "sail": "NED301",
+   "name": "Diederik Leemans",
+   "nationality": null,
+   "division": null,
+   "points": [
+    20.0,
+    16.0,
+    15.0,
+    16.0,
+    15.0,
+    16.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 98.0,
+   "net": 62.0
+  },
+  {
+   "rank": 19,
+   "person": "arthur-dunnewind",
+   "sail": "NED135",
+   "name": "Arthur Dunnewind",
+   "nationality": null,
+   "division": null,
+   "points": [
+    15.0,
+    17.0,
+    20.0,
+    20.0,
+    20.0,
+    20.0
+   ],
+   "race_remarks": {
+    "3": "OCS",
+    "4": "DNF",
+    "5": "DNF",
+    "6": "DNF"
+   },
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 112.0,
+   "net": 72.0
+  },
+  {
+   "rank": 20,
+   "person": "jack-rozeboom",
+   "sail": null,
+   "sail_published": "X",
+   "name": "Jack Rozeboom",
+   "nationality": null,
+   "division": null,
+   "points": [
+    20.0,
+    20.0,
+    20.0,
+    18.0,
+    17.0,
+    17.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 112.0,
+   "net": 72.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "1",
+    "url": "https://windtulip.nl/home/results_dashboard/196/1/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "cyril-evrard"
+       },
+       {
+        "rank": 2,
+        "person": "koen-hessels"
+       },
+       {
+        "rank": 3,
+        "person": "skip-brull"
+       },
+       {
+        "rank": 4,
+        "person": "sem-stroosma"
+       },
+       {
+        "rank": 5,
+        "person": "hidde-schraffordt"
+       },
+       {
+        "rank": 6,
+        "person": "felix-schlusemann"
+       },
+       {
+        "rank": 7,
+        "person": "thijs-hanemaaijer"
+       },
+       {
+        "rank": 8,
+        "person": "mika-boone"
+       },
+       {
+        "rank": 9,
+        "person": "peyton-dits"
+       },
+       {
+        "rank": 10,
+        "person": "finn-brull"
+       },
+       {
+        "rank": 11,
+        "person": "merlijn-boswijk"
+       },
+       {
+        "rank": 12,
+        "person": "lukas-klaus"
+       },
+       {
+        "rank": 13,
+        "person": "anna-korevaar"
+       },
+       {
+        "rank": 14,
+        "person": "joep-havik"
+       },
+       {
+        "rank": 15,
+        "person": "arthur-dunnewind"
+       },
+       {
+        "rank": null,
+        "person": "zara-rozeboom",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "kaj-rozeboom",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jack-rozeboom",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "wim-saelens",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "diederik-leemans",
+        "result_published": "20",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "2",
+    "url": "https://windtulip.nl/home/results_dashboard/196/2/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "cyril-evrard"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull"
+       },
+       {
+        "rank": 3,
+        "person": "koen-hessels"
+       },
+       {
+        "rank": 4,
+        "person": "sem-stroosma"
+       },
+       {
+        "rank": 5,
+        "person": "kaj-rozeboom"
+       },
+       {
+        "rank": 6,
+        "person": "thijs-hanemaaijer"
+       },
+       {
+        "rank": 7,
+        "person": "zara-rozeboom"
+       },
+       {
+        "rank": 8,
+        "person": "hidde-schraffordt"
+       },
+       {
+        "rank": 9,
+        "person": "mika-boone"
+       },
+       {
+        "rank": 10,
+        "person": "finn-brull"
+       },
+       {
+        "rank": 11,
+        "person": "merlijn-boswijk"
+       },
+       {
+        "rank": 12,
+        "person": "joep-havik"
+       },
+       {
+        "rank": 13,
+        "person": "peyton-dits"
+       },
+       {
+        "rank": 14,
+        "person": "wim-saelens"
+       },
+       {
+        "rank": 15,
+        "person": "lukas-klaus"
+       },
+       {
+        "rank": 16,
+        "person": "diederik-leemans"
+       },
+       {
+        "rank": 17,
+        "person": "arthur-dunnewind"
+       },
+       {
+        "rank": null,
+        "person": "jack-rozeboom",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "felix-schlusemann",
+        "result_published": "20",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "anna-korevaar",
+        "result_published": "20",
+        "remark": "OCS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "3",
+    "url": "https://windtulip.nl/home/results_dashboard/196/3/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "sem-stroosma"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull"
+       },
+       {
+        "rank": 3,
+        "person": "kaj-rozeboom"
+       },
+       {
+        "rank": 4,
+        "person": "hidde-schraffordt"
+       },
+       {
+        "rank": 5,
+        "person": "cyril-evrard"
+       },
+       {
+        "rank": 6,
+        "person": "thijs-hanemaaijer"
+       },
+       {
+        "rank": 7,
+        "person": "zara-rozeboom"
+       },
+       {
+        "rank": 8,
+        "person": "felix-schlusemann"
+       },
+       {
+        "rank": 9,
+        "person": "mika-boone"
+       },
+       {
+        "rank": 10,
+        "person": "peyton-dits"
+       },
+       {
+        "rank": 11,
+        "person": "finn-brull"
+       },
+       {
+        "rank": 12,
+        "person": "joep-havik"
+       },
+       {
+        "rank": 13,
+        "person": "merlijn-boswijk"
+       },
+       {
+        "rank": 14,
+        "person": "wim-saelens"
+       },
+       {
+        "rank": 15,
+        "person": "diederik-leemans"
+       },
+       {
+        "rank": null,
+        "person": "lukas-klaus",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jack-rozeboom",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "koen-hessels",
+        "result_published": "20",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "anna-korevaar",
+        "result_published": "20",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "arthur-dunnewind",
+        "result_published": "20",
+        "remark": "OCS"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "4",
+    "url": "https://windtulip.nl/home/results_dashboard/196/4/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "skip-brull"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma"
+       },
+       {
+        "rank": 3,
+        "person": "koen-hessels"
+       },
+       {
+        "rank": 4,
+        "person": "kaj-rozeboom"
+       },
+       {
+        "rank": 5,
+        "person": "hidde-schraffordt"
+       },
+       {
+        "rank": 6,
+        "person": "zara-rozeboom"
+       },
+       {
+        "rank": 7,
+        "person": "wim-saelens"
+       },
+       {
+        "rank": 8,
+        "person": "thijs-hanemaaijer"
+       },
+       {
+        "rank": 9,
+        "person": "mika-boone"
+       },
+       {
+        "rank": 10,
+        "person": "finn-brull"
+       },
+       {
+        "rank": 11,
+        "person": "peyton-dits"
+       },
+       {
+        "rank": 12,
+        "person": "merlijn-boswijk"
+       },
+       {
+        "rank": 13,
+        "person": "felix-schlusemann"
+       },
+       {
+        "rank": 14,
+        "person": "lukas-klaus"
+       },
+       {
+        "rank": 15,
+        "person": "joep-havik"
+       },
+       {
+        "rank": 16,
+        "person": "diederik-leemans"
+       },
+       {
+        "rank": 17,
+        "person": "anna-korevaar"
+       },
+       {
+        "rank": 18,
+        "person": "jack-rozeboom"
+       },
+       {
+        "rank": null,
+        "person": "cyril-evrard",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arthur-dunnewind",
+        "result_published": "20",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "5",
+    "url": "https://windtulip.nl/home/results_dashboard/196/5/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "cyril-evrard"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull"
+       },
+       {
+        "rank": 3,
+        "person": "sem-stroosma"
+       },
+       {
+        "rank": 4,
+        "person": "koen-hessels"
+       },
+       {
+        "rank": 5,
+        "person": "kaj-rozeboom"
+       },
+       {
+        "rank": 6,
+        "person": "felix-schlusemann"
+       },
+       {
+        "rank": 7,
+        "person": "hidde-schraffordt"
+       },
+       {
+        "rank": 8,
+        "person": "zara-rozeboom"
+       },
+       {
+        "rank": 9,
+        "person": "peyton-dits"
+       },
+       {
+        "rank": 10,
+        "person": "lukas-klaus"
+       },
+       {
+        "rank": 11,
+        "person": "mika-boone"
+       },
+       {
+        "rank": 12,
+        "person": "finn-brull"
+       },
+       {
+        "rank": 13,
+        "person": "merlijn-boswijk"
+       },
+       {
+        "rank": 14,
+        "person": "joep-havik"
+       },
+       {
+        "rank": 15,
+        "person": "diederik-leemans"
+       },
+       {
+        "rank": 16,
+        "person": "anna-korevaar"
+       },
+       {
+        "rank": 17,
+        "person": "jack-rozeboom"
+       },
+       {
+        "rank": null,
+        "person": "thijs-hanemaaijer",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arthur-dunnewind",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "wim-saelens",
+        "result_published": "20",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "6",
+    "url": "https://windtulip.nl/home/results_dashboard/196/6/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "koen-hessels"
+       },
+       {
+        "rank": 2,
+        "person": "skip-brull"
+       },
+       {
+        "rank": 3,
+        "person": "sem-stroosma"
+       },
+       {
+        "rank": 4,
+        "person": "cyril-evrard"
+       },
+       {
+        "rank": 5,
+        "person": "thijs-hanemaaijer"
+       },
+       {
+        "rank": 6,
+        "person": "hidde-schraffordt"
+       },
+       {
+        "rank": 7,
+        "person": "zara-rozeboom"
+       },
+       {
+        "rank": 8,
+        "person": "felix-schlusemann"
+       },
+       {
+        "rank": 9,
+        "person": "mika-boone"
+       },
+       {
+        "rank": 10,
+        "person": "lukas-klaus"
+       },
+       {
+        "rank": 11,
+        "person": "peyton-dits"
+       },
+       {
+        "rank": 12,
+        "person": "finn-brull"
+       },
+       {
+        "rank": 13,
+        "person": "merlijn-boswijk"
+       },
+       {
+        "rank": 14,
+        "person": "joep-havik"
+       },
+       {
+        "rank": 15,
+        "person": "anna-korevaar"
+       },
+       {
+        "rank": 16,
+        "person": "diederik-leemans"
+       },
+       {
+        "rank": 17,
+        "person": "jack-rozeboom"
+       },
+       {
+        "rank": null,
+        "person": "arthur-dunnewind",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "wim-saelens",
+        "result_published": "20",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "kaj-rozeboom",
+        "result_published": "20",
+        "remark": "OCS"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

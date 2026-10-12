@@ -1,0 +1,40 @@
+{
+ "event_slug": "nk-slalom-2025",
+ "scope": "nl",
+ "name": "NK Slalom 2025",
+ "series": "NK Slalom",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2025-11-01",
+ "date_end": "2025-11-02",
+ "location": "Brouwersdam (binnenzijde, Ouddorp)",
+ "discipline": "slalom",
+ "classes": [
+  "nk-2025-slalom-foil",
+  "nk-2025-slalom-fin"
+ ],
+ "metadata_sources": [
+  {
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'onk-slalom-1-en-2-november' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20250320112309/https://www.wedstrijdsurfen.nl/evenement/onk-slalom-1-en-2-november/",
+   "used_for": "ONK Slalom, 1 en 2 november 2025, slalom (fin en foil), Brouwersdam binnenzijde Ouddorp (planning)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+   "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+   "used_for": "update van de NVW-kalender 2025 (22 juli 2025)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'onk-kampioenen-slalom-fin-en-foil-2025'",
+   "url": "https://www.wedstrijdsurfen.nl/nieuws/onk-kampioenen-slalom-fin-en-foil-2025/",
+   "used_for": "twee wedstrijddagen bij de Brouwersdam (bericht van 7 november 2025); alleen het overall-klassement is gehuldigd, want een officiële ONK-titel vraagt minimaal 15 deelnemers (geraadpleegd op 12 oktober 2026 via een tekstweergave)"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'ONK Slalom 2025 (fin & foil)', klassen 'Foil' en 'Vin' (vin = fin).",
+  "Datum en locatie volgens de NVW (planning en uitslagbericht)."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "ONK Slalom 2025 (fin & foil)"
+}

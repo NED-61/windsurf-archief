@@ -1,0 +1,1565 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2026-slalom-in-windsurfer-lt",
+ "event": {
+  "name": "DAM-X 2026",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-10-09",
+  "location": "Brouwersdam (Grevelingenmeer)",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "In - Windsurfer LT",
+  "class_label_published": "In - Windsurfer LT",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6",
+   "R. 7",
+   "R. 8",
+   "R. 9",
+   "R. 10",
+   "R. 11",
+   "R. 12"
+  ],
+  "discards": 3,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF, NSC gescoord als 12 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/6e020b50",
+  "file": "archive/nl/2026/dam-x-2026/bronnen/winterwave-damx-2026-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "DAM-X Brouwersdam",
+    "url": "https://www.dam-x.com/nl",
+    "used_for": "tiende editie, 9 tot en met 11 oktober 2026"
+   },
+   {
+    "name": "Go-Kids agenda: DAM-X 10th edition",
+    "url": "https://go-kids.nl/zeeland/agenda/dam-x-10th-edition-aan-het-grevelingenmeer-bij-brouwersdam",
+    "used_for": "vrijdag 9 tot en met zondag 11 oktober 2026, Brouwersdam aan het Grevelingenmeer; windsurf- en wingslalom"
+   }
+  ],
+  "verified": "12 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 3 (12x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'In - Windsurfer LT - DAM-X 2026'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Telt niet mee: 7 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "kevin-mevissen",
+   "sail": null,
+   "bib": "1179",
+   "sail_published": "1179",
+   "name": "Kevin Mevissen",
+   "nationality": "NED",
+   "division": "Masters 35 plus",
+   "points": [
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 8.4,
+   "net": 6.300000000000001
+  },
+  {
+   "rank": 2,
+   "person": "jurian-velthuis",
+   "sail": null,
+   "bib": "663",
+   "sail_published": "663",
+   "name": "Jurian Velthuis",
+   "nationality": "NED",
+   "division": "Masters 35 plus",
+   "points": [
+    2.0,
+    3.0,
+    5.0,
+    3.0,
+    5.0,
+    3.0,
+    4.0,
+    2.0,
+    2.0,
+    2.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5,
+    7
+   ],
+   "total": 38.0,
+   "net": 24.0
+  },
+  {
+   "rank": 3,
+   "person": "marc-lameij",
+   "sail": null,
+   "bib": "767",
+   "sail_published": "767",
+   "name": "Marc Lameij",
+   "nationality": "NED",
+   "division": "Masters 35 plus",
+   "points": [
+    4.0,
+    2.0,
+    2.0,
+    2.0,
+    4.0,
+    2.0,
+    2.0,
+    5.0,
+    4.0,
+    5.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    8,
+    10
+   ],
+   "total": 39.0,
+   "net": 25.0
+  },
+  {
+   "rank": 4,
+   "person": "leroy-wevers",
+   "sail": null,
+   "bib": "904",
+   "sail_published": "904",
+   "name": "Leroy Wevers",
+   "nationality": "NED",
+   "division": "Men 19 t/m 34",
+   "points": [
+    5.0,
+    5.0,
+    3.0,
+    5.0,
+    3.0,
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2,
+    4
+   ],
+   "total": 41.0,
+   "net": 26.0
+  },
+  {
+   "rank": 5,
+   "person": "paul-van-der-sluijs",
+   "sail": null,
+   "bib": "1314",
+   "sail_published": "1314",
+   "name": "Paul van der Sluijs",
+   "nationality": "NED",
+   "division": "Masters 35 plus",
+   "points": [
+    3.0,
+    4.0,
+    4.0,
+    4.0,
+    2.0,
+    12.0,
+    5.0,
+    4.0,
+    5.0,
+    4.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R. 6": "NSC"
+   },
+   "discarded": [
+    6,
+    7,
+    9
+   ],
+   "total": 57.0,
+   "net": 35.0
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "bib": "640",
+   "sail_published": "640",
+   "name": "Ingard Borgel",
+   "nationality": "GER",
+   "division": "Ladies 19 jaar en ouder",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 144.0,
+   "net": 108.0,
+   "counted": false
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "bib": "67",
+   "sail_published": "67",
+   "name": "Mees van den Berg",
+   "nationality": "NED",
+   "division": "Guys 15 t/m 18",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 144.0,
+   "net": 108.0,
+   "counted": false
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "bib": "31",
+   "sail_published": "31",
+   "name": "Marcel van der Ploeg",
+   "nationality": "NED",
+   "division": "Masters 35 plus",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 144.0,
+   "net": 108.0,
+   "counted": false
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "bib": "599",
+   "sail_published": "599",
+   "name": "Stijn Storm Lameij",
+   "nationality": "NED",
+   "division": "Guys 15 t/m 18",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 144.0,
+   "net": 108.0,
+   "counted": false
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "bib": "1908",
+   "sail_published": "1908",
+   "name": "Bjorn Velthuis",
+   "nationality": "NED",
+   "division": "Guys 15 t/m 18",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 144.0,
+   "net": 108.0,
+   "counted": false
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "sail_published": "X",
+   "name": "Pascal bouldauduc",
+   "nationality": "BEL",
+   "division": "Masters 35 plus",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 144.0,
+   "net": 108.0,
+   "counted": false
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "bib": "287",
+   "sail_published": "287",
+   "name": "Tony Halma",
+   "nationality": "NED",
+   "division": "Masters 35 plus",
+   "points": [
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 144.0,
+   "net": 108.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "jurian-velthuis",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "paul-van-der-sluijs",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "marc-lameij",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "leroy-wevers",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marc-lameij",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jurian-velthuis",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "paul-van-der-sluijs",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "leroy-wevers",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marc-lameij",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "paul-van-der-sluijs",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jurian-velthuis",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marc-lameij",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jurian-velthuis",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "paul-van-der-sluijs",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "leroy-wevers",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "paul-van-der-sluijs",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "marc-lameij",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jurian-velthuis",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marc-lameij",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jurian-velthuis",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "leroy-wevers",
+        "result_published": "4.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "paul-van-der-sluijs",
+        "result_published": "12",
+        "remark": "NSC"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 7",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "marc-lameij",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "jurian-velthuis",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "paul-van-der-sluijs",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 8",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "jurian-velthuis",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "paul-van-der-sluijs",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "marc-lameij",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 9",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "jurian-velthuis",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "marc-lameij",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "paul-van-der-sluijs",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 10",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "jurian-velthuis",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "leroy-wevers",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "paul-van-der-sluijs",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "marc-lameij",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 11",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "leroy-wevers",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "marc-lameij",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "jurian-velthuis",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "paul-van-der-sluijs",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 12",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "kevin-mevissen",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "leroy-wevers",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jurian-velthuis",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "marc-lameij",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "paul-van-der-sluijs",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Ingard Borgel",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Mees van den Berg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Marcel van der Ploeg",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stijn Storm Lameij",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjorn Velthuis",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Pascal bouldauduc",
+        "result_published": "12",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Tony Halma",
+        "result_published": "12",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

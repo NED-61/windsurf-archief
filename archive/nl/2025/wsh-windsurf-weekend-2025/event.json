@@ -1,0 +1,50 @@
+{
+ "event_slug": "wsh-windsurf-weekend-2025",
+ "scope": "nl",
+ "name": "WSH Windsurf Weekend 2025",
+ "series": "WSH Windsurf Weekend",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2025-09-27",
+ "date_end": "2025-09-28",
+ "location": "Heeg",
+ "discipline": "course_race",
+ "classes": [
+  "wsh-windsurf-weekend-2025-course-formula-foil",
+  "wsh-windsurf-weekend-2025-course-division-2-cat-a",
+  "wsh-windsurf-weekend-2025-course-division-2-cat-c",
+  "wsh-windsurf-weekend-2025-course-raceboard-windsurfer-lt"
+ ],
+ "metadata_sources": [
+  {
+   "name": "opgave van de repo-eigenaar (deelnemer), 8 oktober 2026",
+   "url": null,
+   "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet)"
+  },
+  {
+   "name": "opgave van de repo-eigenaar, 12 oktober 2026",
+   "url": null,
+   "used_for": "het WSH-weekend in Heeg was geen ONK; het ONK Foil Course 2025 was in Medemblik"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'tbc-onk-div-ii-en-foil-course-27-28-september-heeg' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20250320114127/https://www.wedstrijdsurfen.nl/evenement/tbc-onk-div-ii-en-foil-course-27-28-september-heeg/",
+   "used_for": "TBC: ONK DIV II en Foil Course, 27-28 september 2025, It Eilan 64 Heeg (planning van maart 2025)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+   "used_for": "Heeg Foil Course en DIV II gaan door, georganiseerd door WS Heeg; het course-evenement is dit jaar geen kwalificatie voor het ONK; vorig jaar was Heeg wel ONK (22 juli 2025)"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd als 'WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025' (manage2sail, rapporten van maandag 29 september 2025, 12:46-12:48).",
+  "Geen NK: volgens de gebruiker (12 oktober 2026) was dit weekend geen ONK; het NK Course 2025 was de ONK Foil Course in Medemblik (19-21 september 2025, zie nk-course-2025). De NVW meldde op 22 juli 2025 dat het course-evenement in Heeg dat jaar geen kwalificatie voor het ONK was (in 2024 was Heeg dat wel). In de NVW-planning van maart 2025 heette het weekend nog 'ONK DIV II en Foil Course' (TBC). Van 8 tot 12 oktober 2026 stond deze wedstrijd in het archief als NK Course 2025 (op grond van 'ODC' in de naam).",
+  "Datum (zaterdag 27 en zondag 28 september 2025) volgens de gebruiker, die zelf meedeed, en de NVW-planning; in de bron staat alleen de datum van de rapporten. Locatie: WSH = WaterSportvereniging Heeg; de NVW-planning noemt It Eilan 64, Heeg.",
+  "Eén enkele wedstrijd (opgave van de gebruiker): anders dan in 2024 zijn er voor deze uitslagen geen races elders gevaren. De bron noemt de uitslagen 'Overall Results'; het zijn dus de einduitslagen.",
+  "'WSH Open Amateur Windsurfer' (5 riders) is een fun-klasse en hoort niet in het archief (opgave van de gebruiker, 8 oktober 2026): niet omgezet, de bron staat in bronnen/."
+ ],
+ "organizer": "WaterSportvereniging Heeg (WSH)",
+ "name_published": "WSH Windsurf Weekend ODC DIV2/FOIL/RACE/LT/OPEN 2025"
+}

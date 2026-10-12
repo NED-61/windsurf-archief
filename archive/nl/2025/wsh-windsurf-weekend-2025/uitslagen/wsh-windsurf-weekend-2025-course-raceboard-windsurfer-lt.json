@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "id": "nk-2025-course-raceboard-windsurfer-lt",
+ "id": "wsh-windsurf-weekend-2025-course-raceboard-windsurfer-lt",
  "event": {
-  "name": "NK Course 2025",
+  "name": "WSH Windsurf Weekend 2025",
   "scope": "nl",
-  "series": "NK Course",
+  "series": "WSH Windsurf Weekend",
   "year": 2025,
   "stop_number": null,
   "stops_known": null,
@@ -31,7 +31,7 @@
  "source": {
   "name": "d2195101-1da5-4ac4-a5f5-c0dafb4922ae.pdf",
   "url": null,
-  "file": "archive/nl/2025/nk-course-2025/bronnen/d2195101-1da5-4ac4-a5f5-c0dafb4922ae.pdf",
+  "file": "archive/nl/2025/wsh-windsurf-weekend-2025/bronnen/d2195101-1da5-4ac4-a5f5-c0dafb4922ae.pdf",
   "type": "pdf",
   "retrieved": "2026-10-08",
   "method": "pdfplumber: woordposities; punten en codes toegewezen aan de dichtstbijzijnde racekolom (tekst-pdf van manage2sail)",
@@ -39,7 +39,22 @@
    {
     "name": "opgave van de repo-eigenaar (deelnemer), 8 oktober 2026",
     "url": null,
-    "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet); NK-titels: overall, jeugd tot en met 19 en masters"
+    "used_for": "datum 27 en 28 september 2025; één enkele wedstrijd; 'WSH Open Amateur Windsurfer' is een fun-klasse (de andere vier klassen niet)"
+   },
+   {
+    "name": "opgave van de repo-eigenaar, 12 oktober 2026",
+    "url": null,
+    "used_for": "het WSH-weekend in Heeg was geen ONK; het ONK Foil Course 2025 was in Medemblik"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'tbc-onk-div-ii-en-foil-course-27-28-september-heeg' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20250320114127/https://www.wedstrijdsurfen.nl/evenement/tbc-onk-div-ii-en-foil-course-27-28-september-heeg/",
+    "used_for": "TBC: ONK DIV II en Foil Course, 27-28 september 2025, It Eilan 64 Heeg (planning van maart 2025)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+    "used_for": "Heeg Foil Course en DIV II gaan door, georganiseerd door WS Heeg; het course-evenement is dit jaar geen kwalificatie voor het ONK; vorig jaar was Heeg wel ONK (22 juli 2025)"
    }
   ],
   "verified": "8 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal en netto herrekend uit de racepunten: gelijk; geen dubbele namen; elke code hoort bij 9 punten (8 riders + 1) en elke score van 9 heeft een code"

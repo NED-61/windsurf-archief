@@ -1,0 +1,41 @@
+{
+ "event_slug": "nvw-cup-2025-0913",
+ "scope": "nl",
+ "name": "NVW Cup 2025, Brouwersdam",
+ "series": "NVW Cup",
+ "year": 2025,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2025-09-13",
+ "date_end": "2025-09-14",
+ "location": "Brouwersdam",
+ "discipline": "slalom",
+ "classes": [
+  "nvw-cup-2025-0913-slalom-groep-1-amateurfleet-fin-1",
+  "nvw-cup-2025-0913-slalom-groep-2-amateurfleet-fin-2",
+  "nvw-cup-2025-0913-slalom-groep-4-profleet-fin-2",
+  "nvw-cup-2025-0913-slalom-groep-5-profleet-foil",
+  "nvw-cup-2025-0913-slalom-zo-groep-4-profleet-foil-2",
+  "nvw-cup-2025-0913-slalom-zo-groep-5-profleet-foil-2"
+ ],
+ "metadata_sources": [
+  {
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'nvw-cup-2-onk-slalom-13-en-14-september' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20250320113802/https://www.wedstrijdsurfen.nl/evenement/nvw-cup-2-onk-slalom-13-en-14-september/",
+   "used_for": "NVW Cup #2 (+ ONK Slalom), 13 en 14 september 2025, slalom (fin en foil) (planning)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+   "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+   "used_for": "13-14 september, Brouwersdam: NVW Cup Slalom Fin en Foil gaat door, geen kwalificatie voor het ONK; een breed toegankelijk weekend met training en wedstrijden voor amateur- en profleet (22 juli 2025)"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'NVW Cup 13 en 14 september' met zeven groepen (amateurfleet en profleet, fin en foil; 'Zo' = zondag). Slalom als vlootraces gevaren ('full fleet'): daarom fleet_racing.",
+  "Het jaar staat niet in de uitslag: 2025 volgt uit de NVW-kalender (NVW Cup #2, 13 en 14 september 2025). In de planning van maart 2025 heette het weekend 'NVW Cup #2 + ONK Slalom'; volgens de NVW-update van 22 juli 2025 was het geen kwalificatie voor het ONK. Het ONK Slalom 2025 was op 1 en 2 november (zie nk-slalom-2025).",
+  "De amateurfleet is opgenomen (keuze van de gebruiker, 12 oktober 2026).",
+  "'Groep 3 - Profleet Fin 1' staat op winterwave met één race die niet gestart is en zonder punten: niet opgenomen."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "NVW Cup 13 en 14 september"
+}

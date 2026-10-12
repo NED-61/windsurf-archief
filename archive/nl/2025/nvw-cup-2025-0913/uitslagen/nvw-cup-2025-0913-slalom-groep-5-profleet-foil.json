@@ -1,0 +1,329 @@
+{
+ "schema_version": 1,
+ "id": "nvw-cup-2025-0913-slalom-groep-5-profleet-foil",
+ "event": {
+  "name": "NVW Cup 2025, Brouwersdam",
+  "scope": "nl",
+  "series": "NVW Cup",
+  "year": 2025,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2025-09-13",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Groep 5 - Profleet Foil",
+  "class_label_published": "Groep 5 - Profleet Foil",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R.1"
+  ],
+  "discards": 0,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF, DNS gescoord als 11 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "ifca_elimination"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/8f6a6aca",
+  "file": "archive/nl/2025/nvw-cup-2025-0913/bronnen/winterwave-nvw-cup-13-14-september-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): evenementpagina 'nvw-cup-2-onk-slalom-13-en-14-september' (Wayback Machine)",
+    "url": "https://web.archive.org/web/20250320113802/https://www.wedstrijdsurfen.nl/evenement/nvw-cup-2-onk-slalom-13-en-14-september/",
+    "used_for": "NVW Cup #2 (+ ONK Slalom), 13 en 14 september 2025, slalom (fin en foil) (planning)"
+   },
+   {
+    "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'update-nvw-wedstrijdkalender-laatste-nieuws'",
+    "url": "https://web.archive.org/web/20250807125953/https://www.wedstrijdsurfen.nl/nieuws/update-nvw-wedstrijdkalender-laatste-nieuws/",
+    "used_for": "13-14 september, Brouwersdam: NVW Cup Slalom Fin en Foil gaat door, geen kwalificatie voor het ONK; een breed toegankelijk weekend met training en wedstrijden voor amateur- en profleet (22 juli 2025)"
+   }
+  ],
+  "verified": "11 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 0 (11x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Groep 5 - Profleet Foil - NVW Cup 13 en 14 september'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Bij een zeilnummercel met meer delen staat het deel met landcode in sail, een los nummer in bib en de volledige cel in sail_published.",
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "bob-van-de-burgt",
+   "sail": "NED -737",
+   "bib": "187",
+   "sail_published": "187 / NED -737",
+   "name": "Bob van de Burgt",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 0.7,
+   "net": 0.7
+  },
+  {
+   "rank": 2,
+   "person": "sem-stroosma",
+   "sail": "Ned 450",
+   "bib": "229",
+   "sail_published": "229 / Ned 450",
+   "name": "Sem Stroosma",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 2.0,
+   "net": 2.0
+  },
+  {
+   "rank": 3,
+   "person": "matthijs-pos",
+   "sail": "Ned-318",
+   "bib": "218",
+   "sail_published": "218 / Ned-318",
+   "name": "Matthijs Pos",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 3.0,
+   "net": 3.0
+  },
+  {
+   "rank": 4,
+   "person": "thijs-hanemaaijer",
+   "sail": "Ned 107",
+   "bib": "246",
+   "sail_published": "246 / Ned 107",
+   "name": "Thijs hanemaaijer�",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 4.0,
+   "net": 4.0
+  },
+  {
+   "rank": 5,
+   "person": "diederik-leemans",
+   "sail": "NED301",
+   "bib": "160",
+   "sail_published": "160 / NED301",
+   "name": "Diederik Leemans",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 5.0,
+   "net": 5.0
+  },
+  {
+   "rank": 6,
+   "person": "tim-janssen",
+   "sail": "NED-159",
+   "sail_published": "/ NED-159",
+   "name": "Tim Janssen",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 6.0,
+   "net": 6.0
+  },
+  {
+   "rank": 7,
+   "person": "haldun-atar",
+   "sail": null,
+   "bib": "200",
+   "sail_published": "200 / 7777",
+   "name": "Haldun Atar",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 8,
+   "person": "caren-niezen",
+   "sail": "NED 367",
+   "bib": "180",
+   "sail_published": "180 / NED 367",
+   "name": "Caren Niezen",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 8.0,
+   "net": 8.0
+  },
+  {
+   "rank": 9,
+   "person": null,
+   "sail": "GER-1703",
+   "sail_published": "/ GER-1703",
+   "name": "Bendix� Engemann",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    11.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF"
+   },
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0,
+   "counted": false
+  },
+  {
+   "rank": 9,
+   "person": null,
+   "sail": "NED2024",
+   "bib": "172",
+   "sail_published": "172 / NED2024",
+   "name": "Bjarne van der Weg",
+   "nationality": "NED",
+   "division": "Profleet Foil",
+   "points": [
+    11.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF"
+   },
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0,
+   "counted": false
+  },
+  {
+   "rank": 9,
+   "person": null,
+   "sail": "Ned-210",
+   "bib": "202",
+   "sail_published": "202 /Ned-210",
+   "name": "Jan Versteegen",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    11.0
+   ],
+   "race_remarks": {
+    "R.1": "DNS"
+   },
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R.1",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "bob-van-de-burgt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "matthijs-pos",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "tim-janssen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "haldun-atar",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "caren-niezen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bendix� Engemann",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Bjarne van der Weg",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jan Versteegen",
+        "result_published": "11",
+        "remark": "DNS"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -6,9 +6,9 @@
  "year": 2024,
  "stop_number": null,
  "stops_known": null,
- "date": null,
+ "date": "2024-08-31",
  "date_end": "2024-09-29",
- "location": null,
+ "location": "Hoorn en Heeg",
  "discipline": "course_race",
  "classes": [
   "nk-2024-course-formula-foil"
@@ -23,11 +23,22 @@
    "name": "WaterSportvereniging Heeg: Division 2 Open Dutch Championship 2024",
    "url": "https://wsheeg.nl/div2-odc-2024/",
    "used_for": "WSH = WaterSportvereniging Heeg; ODC op 28 en 29 september 2024 op het Heegermeer"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina '31-aug-en-1-sept-2024-nvw-onk-course-1-hoorn' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20240911224054/https://www.wedstrijdsurfen.nl/evenement/31-aug-en-1-sept-2024-nvw-onk-course-1-hoorn/",
+   "used_for": "NVW ONK Course #1 Hoorn, 31 augustus en 1 september 2024 (met NOR en SI 'ONK Windsurfing Course 2024')"
+  },
+  {
+   "name": "scoring.winterwave.nl: NK Course Race 2024 - Hoorn",
+   "url": "https://scoring.winterwave.nl/results/total/0/9107cbad",
+   "used_for": "de 12 races in Hoorn (vergeleken met HO01-HO12, zie de note in event.json)"
   }
  ],
  "notes": [
   "Gepubliceerd als 'WSH ODC Windsurfing DIV2/FOIL/OPEN 2024 - Formula Windsurfing Foil Division - Final Overall Results' (manage2sail, 29 september 2024). ODC = Open Dutch Championship.",
-  "De eindstand telt 23 races met codes HO01-HO12 en HE01-HE11. Het evenement bij WSH (Heeg, Heegermeer) was op 28 en 29 september 2024; waar en wanneer de HO-races zijn gevaren staat niet in de bron. Daarom is geen begindatum en locatie ingevuld."
+  "De eindstand telt 23 races: HO01-HO12 in Hoorn (NVW ONK Course #1, 31 augustus en 1 september 2024) en HE01-HE11 bij WSH in Heeg (28 en 29 september 2024). Datum = eerste en laatste wedstrijddag. Dat HO Hoorn is, staat niet in de bron zelf: het volgt uit de NVW-planning en uit de Hoorn-uitslag op scoring.winterwave.nl (zelfde races).",
+  "Vergelijking met Hoorn (12 oktober 2026): de races HO01-HO12 zijn 'NK Course Race 2024 - Hoorn' op scoring.winterwave.nl (bronnen/winterwave-nk-course-race-2024-capture.json.gz). Winterwave 'NK Course Race 2024 - Hoorn' (28 riders, 12 races) vergeleken met HO01-HO12 van de eindstand: 18 riders gelijk (een code is in Hoorn 28 punten, in de eindstand 35), 10 met een ander getal in één of meer races (Merlijn Boswijk: HO10 winterwave 20 / eindstand 19; Thibault antoine Dijksterhuis: HO10 winterwave 22 / eindstand 21; Milo Zaal: HO10 winterwave 21 / eindstand 20; Aart-Jan van Zadelhoff: HO04 winterwave 20 / eindstand 19; Sara de Kimpe: HO04 winterwave 19 / eindstand 18, HO08 winterwave 25 / eindstand 23; John Munten: HO04 winterwave 23 / eindstand 21, HO08 winterwave 24 / eindstand 22, HO11 winterwave 22 / eindstand 21; Cédric Walhof: HO04 winterwave 21 / eindstand 20, HO08 winterwave 26 / eindstand 24, HO09 winterwave 26 / eindstand 24, HO10 winterwave 23 / eindstand 22, HO11 winterwave 21 / eindstand 20, HO12 winterwave 24 / eindstand 23; Marijn Schouten: HO04 winterwave 22 / eindstand 23, HO08 winterwave 22 / eindstand 26, HO09 winterwave 25 / eindstand 26, HO10 winterwave 19 / eindstand 23, HO11 winterwave 20 / eindstand 22, HO12 winterwave 23 / eindstand 24; Neill chardet: HO04 winterwave 18 / eindstand 22, HO08 winterwave 21 / eindstand 25, HO09 winterwave 24 / eindstand 25; Marc de jong: HO08 winterwave 23 / eindstand 21); 6 riders van de eindstand hebben in Hoorn alleen DNC en staan niet in de Hoorn-uitslag. De Hoorn-uitslag is niet apart opgenomen: hij is een onderdeel van deze eindstand."
  ],
  "name_published": "WSH ODC Windsurfing DIV2/FOIL/OPEN 2024 - Formula Windsurfing Foil Division"
 }

@@ -1,0 +1,1522 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2024-slalom-k-men-19-34",
+ "event": {
+  "name": "DAM-X 2024",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2024-10-11",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "K- Men 19-34",
+  "class_label_published": "K- Men 19-34",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF gescoord als 18, 19 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race",
+  "heats_per_race": [
+   2
+  ],
+  "heat_scoring_observed": "per heat geklasseerd: elke heat telt vanaf plaats 1 (winnaar 0)"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/de573d95",
+  "file": "archive/nl/2024/dam-x-2024/bronnen/winterwave-damx-2024-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X with slalom, freestyle and wing slalom - register now",
+    "url": "https://www.surf-magazin.de/en/wingsurfing/scene-and-events/brouwersdam-dam-x-with-slalom-freestyle-and-wing-slalom-register-now/",
+    "used_for": "achtste DAM-X, vrijdag 11 tot en met zondag 13 oktober (bericht van 20 juni 2024)"
+   }
+  ],
+  "verified": "37 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (37x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'K- Men 19-34 - DAM-X 2024'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Per ronde is de klasse verdeeld over meer heats; elke heat is apart geklasseerd. De indeling per ronde staat in detail.races.",
+  "Telt niet mee: 6 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "aart-van-loocke",
+   "sail": null,
+   "bib": "66",
+   "sail_published": "66",
+   "name": "Aart Van Loocke",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 0.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "jonathan-bultynck",
+   "sail": null,
+   "bib": "124",
+   "sail_published": "124",
+   "name": "Jonathan Bultynck",
+   "nationality": "BEL",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    0.0,
+    0.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 3.0,
+   "net": 0.0
+  },
+  {
+   "rank": 3,
+   "person": "tom-verhof",
+   "sail": null,
+   "bib": "133",
+   "sail_published": "133",
+   "name": "Tom Verhof",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    2.0,
+    3.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 5.0,
+   "net": 2.0
+  },
+  {
+   "rank": 4,
+   "person": "mikk-hillebrand",
+   "sail": null,
+   "bib": "177",
+   "sail_published": "177",
+   "name": "Mikk Hillebrand",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    3.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 7.0,
+   "net": 4.0
+  },
+  {
+   "rank": 5,
+   "person": "thibault-dhaene",
+   "sail": null,
+   "bib": "205",
+   "sail_published": "205",
+   "name": "Thibault D'haene",
+   "nationality": "BEL",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    9.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 13.0,
+   "net": 4.0
+  },
+  {
+   "rank": 6,
+   "person": "maarten-pluim",
+   "sail": null,
+   "bib": "93",
+   "sail_published": "93",
+   "name": "Maarten Pluim",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    2.0,
+    9.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 15.0,
+   "net": 6.0
+  },
+  {
+   "rank": 7,
+   "person": "jonas-bonne",
+   "sail": null,
+   "bib": "107",
+   "sail_published": "107",
+   "name": "Jonas Bonne",
+   "nationality": "BEL",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    10.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 16.0,
+   "net": 6.0
+  },
+  {
+   "rank": 8,
+   "person": "sam-van-diepen",
+   "sail": null,
+   "bib": "146",
+   "sail_published": "146",
+   "name": "Sam van Diepen",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    3.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 12.0,
+   "net": 7.0
+  },
+  {
+   "rank": 9,
+   "person": "daniel-bos",
+   "sail": null,
+   "bib": "218",
+   "sail_published": "218",
+   "name": "Daniel Bos",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    4.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 14.0,
+   "net": 9.0
+  },
+  {
+   "rank": 10,
+   "person": "erwin-van-logchem",
+   "sail": null,
+   "bib": "41",
+   "sail_published": "41",
+   "name": "Erwin Van Logchem",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    4.0,
+    8.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 18.0,
+   "net": 10.0
+  },
+  {
+   "rank": 11,
+   "person": "stefan-de-jong",
+   "sail": null,
+   "bib": "59",
+   "sail_published": "59",
+   "name": "Stefan de Jong",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    6.0,
+    4.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 29.0,
+   "net": 10.0
+  },
+  {
+   "rank": 12,
+   "person": "bart-idsinga",
+   "sail": null,
+   "bib": "217",
+   "sail_published": "217",
+   "name": "Bart Idsinga",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    5.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 17.0,
+   "net": 11.0
+  },
+  {
+   "rank": 13,
+   "person": "owen-van-berkel",
+   "sail": null,
+   "bib": "101",
+   "sail_published": "101",
+   "name": "Owen Van Berkel",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    7.0,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 18.0,
+   "net": 11.0
+  },
+  {
+   "rank": 14,
+   "person": "steven-wellens",
+   "sail": null,
+   "bib": "142",
+   "sail_published": "142",
+   "name": "steven wellens",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    6.0,
+    6.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 20.0,
+   "net": 12.0
+  },
+  {
+   "rank": 15,
+   "person": "jari-de-keijzer",
+   "sail": null,
+   "bib": "176",
+   "sail_published": "176",
+   "name": "Jari De keijzer",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    7.0,
+    5.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 22.0,
+   "net": 12.0
+  },
+  {
+   "rank": 16,
+   "person": "sebastiaan-penninga",
+   "sail": null,
+   "bib": "100",
+   "sail_published": "100",
+   "name": "Sebastiaan Penninga",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    5.0,
+    13.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 25.0,
+   "net": 12.0
+  },
+  {
+   "rank": 17,
+   "person": "dyon-cools",
+   "sail": null,
+   "bib": "74",
+   "sail_published": "74",
+   "name": "Dyon Cools",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    9.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 24.0,
+   "net": 15.0
+  },
+  {
+   "rank": 18,
+   "person": "mathieu-baesen",
+   "sail": null,
+   "bib": "116",
+   "sail_published": "116",
+   "name": "Mathieu Baesen",
+   "nationality": "BEL",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    8.0,
+    12.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 29.0,
+   "net": 17.0
+  },
+  {
+   "rank": 19,
+   "person": "kieran-julien",
+   "sail": null,
+   "bib": "196",
+   "sail_published": "196",
+   "name": "Kieran Julien",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    8.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 28.0,
+   "net": 18.0
+  },
+  {
+   "rank": 20,
+   "person": "joep-van-oorschot",
+   "sail": null,
+   "bib": "238",
+   "sail_published": "238",
+   "name": "Joep van Oorschot",
+   "nationality": "NED",
+   "division": null,
+   "points": [
+    11.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 29.0,
+   "net": 18.0
+  },
+  {
+   "rank": 21,
+   "person": "mathijs-bronkhorst",
+   "sail": null,
+   "bib": "76",
+   "sail_published": "76",
+   "name": "Mathijs Bronkhorst",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    10.0,
+    13.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 31.0,
+   "net": 18.0
+  },
+  {
+   "rank": 22,
+   "person": "jasper-baes",
+   "sail": null,
+   "bib": "64",
+   "sail_published": "64",
+   "name": "Jasper Baes",
+   "nationality": "BEL",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    11.0,
+    7.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 33.0,
+   "net": 18.0
+  },
+  {
+   "rank": 23,
+   "person": "jesse-melis",
+   "sail": null,
+   "bib": "173",
+   "sail_published": "173",
+   "name": "Jesse Melis",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    13.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 35.0,
+   "net": 22.0
+  },
+  {
+   "rank": 24,
+   "person": "dries-wynants",
+   "sail": null,
+   "bib": "128",
+   "sail_published": "128",
+   "name": "Dries Wynants",
+   "nationality": "BEL",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    13.0,
+    10.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 37.0,
+   "net": 23.0
+  },
+  {
+   "rank": 25,
+   "person": "niels-poortvliet",
+   "sail": null,
+   "bib": "194",
+   "sail_published": "194",
+   "name": "Niels Poortvliet",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    14.0,
+    11.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 38.0,
+   "net": 24.0
+  },
+  {
+   "rank": 26,
+   "person": "loek-weijt",
+   "sail": null,
+   "bib": "199",
+   "sail_published": "199",
+   "name": "Loek Weijt",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    19.0,
+    12.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 44.0,
+   "net": 25.0
+  },
+  {
+   "rank": 27,
+   "person": "samuel-huber",
+   "sail": null,
+   "bib": "123",
+   "sail_published": "123",
+   "name": "Samuel Huber",
+   "nationality": "GER",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    14.0,
+    15.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 41.0,
+   "net": 26.0
+  },
+  {
+   "rank": 28,
+   "person": "laurens-boll",
+   "sail": null,
+   "bib": "136",
+   "sail_published": "136",
+   "name": "Laurens Boll",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    12.0,
+    14.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 42.0,
+   "net": 26.0
+  },
+  {
+   "rank": 29,
+   "person": "daan-van-lierop",
+   "sail": null,
+   "bib": "211",
+   "sail_published": "211",
+   "name": "Daan van Lierop",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    18.0,
+    15.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 44.0,
+   "net": 26.0
+  },
+  {
+   "rank": 30,
+   "person": "stijn-nijland",
+   "sail": null,
+   "bib": "233",
+   "sail_published": "233",
+   "name": "Stijn Nijland",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    12.0,
+    16.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 47.0,
+   "net": 28.0
+  },
+  {
+   "rank": 31,
+   "person": "fabio-dimastrapasqua",
+   "sail": null,
+   "bib": "159",
+   "sail_published": "159",
+   "name": "Fabio Dimastrapasqua",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    15.0,
+    14.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 48.0,
+   "net": 29.0
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": null,
+   "bib": "234",
+   "sail_published": "234",
+   "name": "Jürgen Saragoza",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 54.0,
+   "net": 36.0,
+   "counted": false
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": null,
+   "bib": "75",
+   "sail_published": "75",
+   "name": "Matthijs van Herpt",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 54.0,
+   "net": 36.0,
+   "counted": false
+  },
+  {
+   "rank": 32,
+   "person": null,
+   "sail": null,
+   "bib": "82",
+   "sail_published": "82",
+   "name": "Huib Swolfs",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    18.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 54.0,
+   "net": 36.0,
+   "counted": false
+  },
+  {
+   "rank": 35,
+   "person": null,
+   "sail": null,
+   "bib": "172",
+   "sail_published": "172",
+   "name": "Maas Goudswaard",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    19.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 57.0,
+   "net": 38.0,
+   "counted": false
+  },
+  {
+   "rank": 35,
+   "person": null,
+   "sail": null,
+   "bib": "114",
+   "sail_published": "114",
+   "name": "Wisse Dunant Maurits",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    19.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 57.0,
+   "net": 38.0,
+   "counted": false
+  },
+  {
+   "rank": 35,
+   "person": null,
+   "sail": null,
+   "bib": "192",
+   "sail_published": "192",
+   "name": "Olivier Klasen",
+   "nationality": "NED",
+   "division": "Men 19 up to 34 years",
+   "points": [
+    19.0,
+    19.0,
+    19.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 57.0,
+   "net": 38.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "jonathan-bultynck",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "tom-verhof",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mikk-hillebrand",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "daniel-bos",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-idsinga",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "stefan-de-jong",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "owen-van-berkel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "kieran-julien",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "dyon-cools",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "mathijs-bronkhorst",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "joep-van-oorschot",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "stijn-nijland",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "jesse-melis",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "samuel-huber",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "fabio-dimastrapasqua",
+        "result_published": "15.0"
+       },
+       {
+        "rank": null,
+        "person": "loek-weijt",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Maas Goudswaard",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Wisse Dunant Maurits",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Olivier Klasen",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "aart-van-loocke",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "maarten-pluim",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "sam-van-diepen",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "erwin-van-logchem",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "sebastiaan-penninga",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "steven-wellens",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jari-de-keijzer",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "mathieu-baesen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "thibault-dhaene",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jonas-bonne",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "jasper-baes",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "laurens-boll",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "dries-wynants",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "niels-poortvliet",
+        "result_published": "14.0"
+       },
+       {
+        "rank": null,
+        "person": "daan-van-lierop",
+        "result_published": "18",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jürgen Saragoza",
+        "result_published": "18",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Matthijs van Herpt",
+        "result_published": "18",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Huib Swolfs",
+        "result_published": "18",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "jonathan-bultynck",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "mikk-hillebrand",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "tom-verhof",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "stefan-de-jong",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "daniel-bos",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-idsinga",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "owen-van-berkel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "dyon-cools",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "joep-van-oorschot",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "kieran-julien",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "jesse-melis",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "loek-weijt",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "mathijs-bronkhorst",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "fabio-dimastrapasqua",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "samuel-huber",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "stijn-nijland",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Maas Goudswaard",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Wisse Dunant Maurits",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Olivier Klasen",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "aart-van-loocke",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thibault-dhaene",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jonas-bonne",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "sam-van-diepen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jari-de-keijzer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "steven-wellens",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "jasper-baes",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "erwin-van-logchem",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "maarten-pluim",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "dries-wynants",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "niels-poortvliet",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "mathieu-baesen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "sebastiaan-penninga",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "laurens-boll",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "daan-van-lierop",
+        "result_published": "15.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jürgen Saragoza",
+        "result_published": "18",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Matthijs van Herpt",
+        "result_published": "18",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Huib Swolfs",
+        "result_published": "18",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "tom-verhof",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "mikk-hillebrand",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jonathan-bultynck",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "owen-van-berkel",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "daniel-bos",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-idsinga",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "dyon-cools",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "mathijs-bronkhorst",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "joep-van-oorschot",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "kieran-julien",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "jesse-melis",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "samuel-huber",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "loek-weijt",
+        "result_published": "13.0"
+       },
+       {
+        "rank": null,
+        "person": "fabio-dimastrapasqua",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Maas Goudswaard",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "stefan-de-jong",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "stijn-nijland",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Wisse Dunant Maurits",
+        "result_published": "19",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Olivier Klasen",
+        "result_published": "19",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "aart-van-loocke",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thibault-dhaene",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "jonas-bonne",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "maarten-pluim",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "sam-van-diepen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "erwin-van-logchem",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "sebastiaan-penninga",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "steven-wellens",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "mathieu-baesen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jari-de-keijzer",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "daan-van-lierop",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 13,
+        "person": "niels-poortvliet",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "dries-wynants",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "jasper-baes",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "laurens-boll",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Jürgen Saragoza",
+        "result_published": "18",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Matthijs van Herpt",
+        "result_published": "18",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Huib Swolfs",
+        "result_published": "18",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

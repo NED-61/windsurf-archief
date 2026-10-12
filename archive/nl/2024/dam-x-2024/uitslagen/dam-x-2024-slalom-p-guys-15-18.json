@@ -1,0 +1,1265 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2024-slalom-p-guys-15-18",
+ "event": {
+  "name": "DAM-X 2024",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2024,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2024-10-11",
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "P- Guys 15 -18",
+  "class_label_published": "P- Guys 15 -18",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF gescoord als 10, 11 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race",
+  "heats_per_race": [
+   2
+  ],
+  "heat_scoring_observed": "per heat geklasseerd: elke heat telt vanaf plaats 1 (winnaar 0)"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/56506da5",
+  "file": "archive/nl/2024/dam-x-2024/bronnen/winterwave-damx-2024-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X with slalom, freestyle and wing slalom - register now",
+    "url": "https://www.surf-magazin.de/en/wingsurfing/scene-and-events/brouwersdam-dam-x-with-slalom-freestyle-and-wing-slalom-register-now/",
+    "used_for": "achtste DAM-X, vrijdag 11 tot en met zondag 13 oktober (bericht van 20 juni 2024)"
+   }
+  ],
+  "verified": "21 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (21x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'P- Guys 15 -18 - DAM-X 2024'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Per ronde is de klasse verdeeld over meer heats; elke heat is apart geklasseerd. De indeling per ronde staat in detail.races.",
+  "Telt niet mee: 3 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "chepe-vansteenbrugge",
+   "sail": null,
+   "bib": "95",
+   "sail_published": "95",
+   "name": "chepé vansteenbrugge",
+   "nationality": "BEL",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 0.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "wim-saelens",
+   "sail": null,
+   "bib": "239",
+   "sail_published": "239",
+   "name": "Wim Saelens",
+   "nationality": "BEL",
+   "division": null,
+   "points": [
+    3.0,
+    3.0,
+    0.0,
+    3.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 9.0,
+   "net": 3.0
+  },
+  {
+   "rank": 3,
+   "person": "rien-pierloot",
+   "sail": null,
+   "bib": "27",
+   "sail_published": "27",
+   "name": "Rien Pierloot",
+   "nationality": "BEL",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 8.0,
+   "net": 4.0
+  },
+  {
+   "rank": 4,
+   "person": "rick-groothuis",
+   "sail": null,
+   "bib": "51",
+   "sail_published": "51",
+   "name": "Rick Groothuis",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    2.0,
+    0.0,
+    2.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 10.0,
+   "net": 4.0
+  },
+  {
+   "rank": 5,
+   "person": "lucas-buytaert",
+   "sail": null,
+   "bib": "134",
+   "sail_published": "134",
+   "name": "Lucas Buytaert",
+   "nationality": "BEL",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    4.0,
+    2.0,
+    5.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 17.0,
+   "net": 8.0
+  },
+  {
+   "rank": 6,
+   "person": "fos-cooper",
+   "sail": null,
+   "bib": "127",
+   "sail_published": "127",
+   "name": "Fos Cooper",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    3.0,
+    3.0,
+    5.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 17.0,
+   "net": 8.0
+  },
+  {
+   "rank": 7,
+   "person": "ties-vissers",
+   "sail": null,
+   "bib": "24",
+   "sail_published": "24",
+   "name": "Ties Vissers",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    0.0,
+    4.0,
+    6.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 19.0,
+   "net": 8.0
+  },
+  {
+   "rank": 8,
+   "person": "tom-kootstra",
+   "sail": null,
+   "bib": "63",
+   "sail_published": "63",
+   "name": "Tom Kootstra",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    5.0,
+    5.0,
+    4.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 21.0,
+   "net": 11.0
+  },
+  {
+   "rank": 9,
+   "person": "joris-dobbelaere",
+   "sail": null,
+   "bib": "178",
+   "sail_published": "178",
+   "name": "Joris Dobbelaere",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    4.0,
+    4.0,
+    3.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 31.0,
+   "net": 11.0
+  },
+  {
+   "rank": 10,
+   "person": "daan-vd-bogaart",
+   "sail": null,
+   "bib": "16",
+   "sail_published": "16",
+   "name": "Daan Vd Bogaart",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    5.0,
+    5.0,
+    4.0,
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 30.0,
+   "net": 14.0
+  },
+  {
+   "rank": 11,
+   "person": "lars-de-kok",
+   "sail": null,
+   "bib": "52",
+   "sail_published": "52",
+   "name": "Lars De kok",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    6.0,
+    11.0,
+    3.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 34.0,
+   "net": 16.0
+  },
+  {
+   "rank": 12,
+   "person": "sebastiaan-klok",
+   "sail": null,
+   "bib": "45",
+   "sail_published": "45",
+   "name": "Sebastiaan Klok",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    6.0,
+    6.0,
+    7.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 30.0,
+   "net": 17.0
+  },
+  {
+   "rank": 13,
+   "person": "aron-brandwijk",
+   "sail": null,
+   "bib": "65",
+   "sail_published": "65",
+   "name": "Aron Brandwijk",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    10.0,
+    10.0,
+    10.0,
+    5.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 37.0,
+   "net": 17.0
+  },
+  {
+   "rank": 14,
+   "person": "bruno-ghyczy",
+   "sail": null,
+   "bib": "35",
+   "sail_published": "35",
+   "name": "Bruno Ghyczy",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    7.0,
+    11.0,
+    11.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 40.0,
+   "net": 18.0
+  },
+  {
+   "rank": 15,
+   "person": "naut-bolder",
+   "sail": null,
+   "bib": "219",
+   "sail_published": "219",
+   "name": "Naut Bolder",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    8.0,
+    8.0,
+    6.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 44.0,
+   "net": 22.0
+  },
+  {
+   "rank": 16,
+   "person": "romynn-huygen",
+   "sail": null,
+   "bib": "44",
+   "sail_published": "44",
+   "name": "Romynn Huygen",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    11.0,
+    11.0,
+    11.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 45.0,
+   "net": 23.0
+  },
+  {
+   "rank": 17,
+   "person": "xander-derumeaux",
+   "sail": null,
+   "bib": "60",
+   "sail_published": "60",
+   "name": "Xander Derumeaux",
+   "nationality": "BEL",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    7.0,
+    9.0,
+    8.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 44.0,
+   "net": 24.0
+  },
+  {
+   "rank": 18,
+   "person": "job-molenaar",
+   "sail": null,
+   "bib": "79",
+   "sail_published": "79",
+   "name": "Job Molenaar",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    9.0,
+    7.0,
+    10.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 48.0,
+   "net": 26.0
+  },
+  {
+   "rank": 19,
+   "person": null,
+   "sail": null,
+   "bib": "174",
+   "sail_published": "174",
+   "name": "Friso Melis",
+   "nationality": "NED",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    11.0,
+    11.0,
+    11.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 53.0,
+   "net": 31.0,
+   "counted": false
+  },
+  {
+   "rank": 19,
+   "person": null,
+   "sail": null,
+   "bib": "5",
+   "sail_published": "5",
+   "name": "Willem Everaert",
+   "nationality": "BEL",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    11.0,
+    11.0,
+    11.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 53.0,
+   "net": 31.0,
+   "counted": false
+  },
+  {
+   "rank": 21,
+   "person": null,
+   "sail": null,
+   "bib": "66",
+   "sail_published": "66",
+   "name": "Terence Seraus",
+   "nationality": "NB",
+   "division": "Guys 15 up to 18 years",
+   "points": [
+    11.0,
+    11.0,
+    11.0,
+    11.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 55.0,
+   "net": 33.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "chepe-vansteenbrugge",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "rien-pierloot",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "fos-cooper",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "joris-dobbelaere",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "tom-kootstra",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sebastiaan-klok",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "xander-derumeaux",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "naut-bolder",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "job-molenaar",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "aron-brandwijk",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "ties-vissers",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "rick-groothuis",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "wim-saelens",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lucas-buytaert",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "daan-vd-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "lars-de-kok",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bruno-ghyczy",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Friso Melis",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "romynn-huygen",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Willem Everaert",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Terence Seraus",
+        "result_published": "11",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "chepe-vansteenbrugge",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "rien-pierloot",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "fos-cooper",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "joris-dobbelaere",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "tom-kootstra",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sebastiaan-klok",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "job-molenaar",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "naut-bolder",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "xander-derumeaux",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "aron-brandwijk",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "rick-groothuis",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "lucas-buytaert",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "wim-saelens",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ties-vissers",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "daan-vd-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": "bruno-ghyczy",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Friso Melis",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "lars-de-kok",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "romynn-huygen",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Willem Everaert",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Terence Seraus",
+        "result_published": "11",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "chepe-vansteenbrugge",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "rien-pierloot",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "joris-dobbelaere",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "tom-kootstra",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "fos-cooper",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "naut-bolder",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "sebastiaan-klok",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "xander-derumeaux",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "aron-brandwijk",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "job-molenaar",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "wim-saelens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "rick-groothuis",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "lars-de-kok",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "daan-vd-bogaart",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "lucas-buytaert",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "ties-vissers",
+        "result_published": "6.0"
+       },
+       {
+        "rank": null,
+        "person": "bruno-ghyczy",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Friso Melis",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "romynn-huygen",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Willem Everaert",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Terence Seraus",
+        "result_published": "11",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "chepe-vansteenbrugge",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fos-cooper",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "rick-groothuis",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "ties-vissers",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "aron-brandwijk",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "romynn-huygen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "lars-de-kok",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "daan-vd-bogaart",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "naut-bolder",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "job-molenaar",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Terence Seraus",
+        "result_published": "11",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "rien-pierloot",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "lucas-buytaert",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "wim-saelens",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "tom-kootstra",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "sebastiaan-klok",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bruno-ghyczy",
+        "result_published": "6.0"
+       },
+       {
+        "rank": null,
+        "person": "joris-dobbelaere",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "xander-derumeaux",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Friso Melis",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Willem Everaert",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "chepe-vansteenbrugge",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "aron-brandwijk",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "rick-groothuis",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "fos-cooper",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "ties-vissers",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "romynn-huygen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "lars-de-kok",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "daan-vd-bogaart",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "naut-bolder",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "job-molenaar",
+        "result_published": "11",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Terence Seraus",
+        "result_published": "11",
+        "remark": "DNF"
+       }
+      ]
+     },
+     {
+      "name": "Heat 2",
+      "results": [
+       {
+        "rank": 1,
+        "person": "wim-saelens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "rien-pierloot",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "tom-kootstra",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "lucas-buytaert",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bruno-ghyczy",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sebastiaan-klok",
+        "result_published": "6.0"
+       },
+       {
+        "rank": null,
+        "person": "joris-dobbelaere",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "xander-derumeaux",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Friso Melis",
+        "result_published": "10",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Willem Everaert",
+        "result_published": "10",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

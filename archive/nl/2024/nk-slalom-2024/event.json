@@ -6,17 +6,34 @@
  "year": 2024,
  "stop_number": null,
  "stops_known": null,
- "date": null,
- "date_end": null,
- "location": null,
+ "date": "2024-10-19",
+ "date_end": "2024-10-20",
+ "location": "Brouwersdam",
  "discipline": "slalom",
  "classes": [
   "nk-2024-slalom-fin",
   "nk-2024-slalom-foil"
  ],
- "metadata_sources": [],
+ "metadata_sources": [
+  {
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina '19-en-20-okt-2024-nvw-onk-slalom-3-brouwersdam' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20240520052352/https://www.wedstrijdsurfen.nl/evenement/19-en-20-okt-2024-nvw-onk-slalom-3-brouwersdam/",
+   "used_for": "NVW ONK Slalom #3 Brouwersdam, 19 en 20 oktober 2024, slalom (fin en foil) (planning)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): evenementpagina '27-en-28-april-2024-nvw-onk-slalom-1-brouwersdam' (Wayback Machine)",
+   "url": "https://web.archive.org/web/20240520065516/https://www.wedstrijdsurfen.nl/evenement/27-en-28-april-2024-nvw-onk-slalom-1-brouwersdam/",
+   "used_for": "NVW ONK Slalom #1 Brouwersdam, 27-28 april 2024: AFGELAST"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): nieuwsbericht 'onk-kampioenen-vin-en-foil-slalom-2024'",
+   "url": "https://www.wedstrijdsurfen.nl/nieuws/onk-kampioenen-vin-en-foil-slalom-2024/",
+   "used_for": "ONK Slalom 2024 op 19 en 20 oktober 2024 bij de Brouwersdam, vin en foil; kampioenen vin open Ingmar Daldorf, foil open Sem Stroosma (geraadpleegd op 12 oktober 2026 via een tekstweergave)"
+  }
+ ],
  "notes": [
-  "Uitslag uit twee pdf's 'Overall results: NK Slalom 2024' (Fin en Foil), afgedrukt op 20 oktober 2024 om 17:17 en 17:20. Datum en locatie staan niet in de bron; niet ingevuld.",
-  "De pdf's bevatten alleen de totaaluitslag met punten per eliminatie; heats en finales staan er niet in."
- ]
+  "Uitslag van scoring.winterwave.nl (NVW, 'NK Slalom 2024'): totaalstand plus alle heats en finales van de drie eliminaties. Eerder stond hier de totaaluitslag uit twee pdf's 'Overall results: NK Slalom 2024' (afgedrukt op 20 oktober 2024): de eindstand is dezelfde (plaats, naam, punten per eliminatie, totaal en netto van alle riders gelijk); de pdf's staan nog in bronnen/. Vervangen op aanwijzing van de gebruiker (12 oktober 2026).",
+  "Datum en locatie volgens de NVW: het ONK Slalom 2024 werd op 19 en 20 oktober 2024 bij de Brouwersdam gevaren (in de planning 'ONK Slalom #3'; #1 op 27-28 april was afgelast)."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)"
 }

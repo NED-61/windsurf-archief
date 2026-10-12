@@ -36,7 +36,16 @@
     "used_for": "45e editie, 5 t/m 8 juni 2024; de Ronde om Texel zelf op zaterdag 8 juni 2024; start op het strand bij Paal 17 (vooraankondiging van februari 2024)"
    }
   ],
-  "verified": "30 deelnemers (23 gefinisht, 5 DNF, 2 DNS); plaatsen aaneengesloten 1..23; volgorde klopt met de tijd (oplopend); geen dubbele namen"
+  "verified": "30 deelnemers (23 gefinisht, 5 DNF, 2 DNS); plaatsen aaneengesloten 1..23; volgorde klopt met de tijd (oplopend); geen dubbele namen",
+  "other_sources": [
+   {
+    "name": "scoring.winterwave.nl (Winter-Wave scoring): Round Texel 2024 - ONK Windsurf Marathon",
+    "url": "https://scoring.winterwave.nl/results/total/2/d8ac3e3a",
+    "file": "archive/nl/2024/ronde-om-texel-2024/bronnen/winterwave-round-texel-2024-capture.json.gz",
+    "retrieved": "2026-10-12",
+    "compared": "alle 30 riders gelijk (plaats en tijd); winterwave toont geen namen (vergeleken op de zeilnummercel) en geen codes"
+   }
+  ]
  },
  "coverage": "complete",
  "notes": [

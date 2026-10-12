@@ -1,0 +1,630 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2023-slalom-g-retired-profleet-fin-only",
+ "event": {
+  "name": "DAM-X 2023",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2023-10-06",
+  "location": "Zeil- & Surfcentrum Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "G - Retired Profleet ( Fin only)",
+  "class_label_published": "G - Retired Profleet ( Fin only)",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6"
+  ],
+  "discards": 2,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0; DNF gescoord als 9 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/a6ae1ab1",
+  "file": "archive/nl/2023/dam-x-2023/bronnen/winterwave-damx-2023-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "surf-magazin.de: Brouwersdam DAM-X - Regatta, party and test weekend",
+    "url": "https://www.surf-magazin.de/en/windsurfing/scene-and-events/brouwersdam-dam-x-regatta-party-and-test-weekend/",
+    "used_for": "zevende DAM-X, 6-8 oktober, Zeil- & Surfcentrum Brouwersdam; slalom voor alle niveaus, foil of vin (bericht van 12 september 2023)"
+   }
+  ],
+  "verified": "9 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 2 (9x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'G - Retired Profleet ( Fin only) - DAM-X 2023'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "tomas-van-zelst",
+   "sail": "NED-28",
+   "name": "Tomas van Zelst",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    9.0,
+    0.0
+   ],
+   "race_remarks": {
+    "R. 5": "DNF"
+   },
+   "discarded": [
+    1,
+    5
+   ],
+   "total": 9.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "geert-beek-van",
+   "sail": "NED-525",
+   "name": "Geert Van Beek",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    5.0,
+    3.0,
+    3.0,
+    6.0,
+    0.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    4
+   ],
+   "total": 19.0,
+   "net": 8.0
+  },
+  {
+   "rank": 3,
+   "person": "fabienne-hoogendam",
+   "sail": "NED-223",
+   "name": "Fabienne Hoogendam",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    3.0,
+    5.0,
+    7.0,
+    2.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 22.0,
+   "net": 10.0
+  },
+  {
+   "rank": 4,
+   "person": "milo-zaal",
+   "sail": "NED-303",
+   "name": "Milo Zaal",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    4.0,
+    7.0,
+    5.0,
+    3.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 26.0,
+   "net": 14.0
+  },
+  {
+   "rank": 5,
+   "person": "peter-van-der-lugt",
+   "sail": null,
+   "bib": "11",
+   "sail_published": "11",
+   "name": "Peter van der Lugt",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    4,
+    5
+   ],
+   "total": 33.0,
+   "net": 15.0
+  },
+  {
+   "rank": 6,
+   "person": "max-shytikov",
+   "sail": "NED-507",
+   "name": "Maksym Shytikov",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    6.0,
+    4.0,
+    4.0,
+    5.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    5
+   ],
+   "total": 31.0,
+   "net": 19.0
+  },
+  {
+   "rank": 7,
+   "person": "marco-vermoen",
+   "sail": "E-365",
+   "name": "Marco Vermoen",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    7.0,
+    9.0,
+    8.0,
+    4.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF"
+   },
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 38.0,
+   "net": 21.0
+  },
+  {
+   "rank": 8,
+   "person": "iris-gimpel",
+   "sail": null,
+   "sail_published": "V",
+   "name": "Iris Gimpel",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    9.0,
+    6.0,
+    9.0,
+    7.0,
+    4.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF"
+   },
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 42.0,
+   "net": 24.0
+  },
+  {
+   "rank": 9,
+   "person": "thomas-van-der-sluijs",
+   "sail": null,
+   "bib": "126",
+   "sail_published": "126",
+   "name": "Thom Van der Sluijs",
+   "nationality": null,
+   "division": "Retired Profleet ( Fin only)",
+   "points": [
+    9.0,
+    9.0,
+    6.0,
+    9.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 51.0,
+   "net": 33.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "tomas-van-zelst",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "peter-van-der-lugt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "fabienne-hoogendam",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "milo-zaal",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "geert-beek-van",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-shytikov",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "marco-vermoen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "iris-gimpel",
+        "result_published": "9",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "thomas-van-der-sluijs",
+        "result_published": "9",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "tomas-van-zelst",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "peter-van-der-lugt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "geert-beek-van",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "max-shytikov",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "fabienne-hoogendam",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "iris-gimpel",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "milo-zaal",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "thomas-van-der-sluijs",
+        "result_published": "9",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marco-vermoen",
+        "result_published": "9",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "tomas-van-zelst",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "peter-van-der-lugt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "geert-beek-van",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "max-shytikov",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "milo-zaal",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "thomas-van-der-sluijs",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "fabienne-hoogendam",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "marco-vermoen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "iris-gimpel",
+        "result_published": "9.0"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "tomas-van-zelst",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fabienne-hoogendam",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "milo-zaal",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "marco-vermoen",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-shytikov",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "geert-beek-van",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "iris-gimpel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "thomas-van-der-sluijs",
+        "result_published": "9",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-van-der-lugt",
+        "result_published": "9",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "geert-beek-van",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "fabienne-hoogendam",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "milo-zaal",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "iris-gimpel",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "marco-vermoen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-shytikov",
+        "result_published": "6.0"
+       },
+       {
+        "rank": null,
+        "person": "thomas-van-der-sluijs",
+        "result_published": "9",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-van-der-lugt",
+        "result_published": "9",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tomas-van-zelst",
+        "result_published": "9",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "tomas-van-zelst",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "geert-beek-van",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "fabienne-hoogendam",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "milo-zaal",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "marco-vermoen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-shytikov",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "iris-gimpel",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "thomas-van-der-sluijs",
+        "result_published": "9",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-van-der-lugt",
+        "result_published": "9",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

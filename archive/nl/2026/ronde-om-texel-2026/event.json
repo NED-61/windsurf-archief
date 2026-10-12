@@ -1,0 +1,37 @@
+{
+ "event_slug": "ronde-om-texel-2026",
+ "scope": "nl",
+ "name": "Ronde om Texel 2026",
+ "series": "Ronde om Texel",
+ "year": 2026,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2026-06-06",
+ "date_end": null,
+ "location": "Texel",
+ "discipline": "long_distance",
+ "classes": [
+  "ronde-om-texel-2026-long-distance-windsurf"
+ ],
+ "metadata_sources": [
+  {
+   "name": "Texel.net: Ronde om Texel (Round Texel)",
+   "url": "https://www.texel.net/en/activity/ronde-om-texel-round-texel",
+   "used_for": "Round Texel 2026 op zaterdag 6 juni 2026"
+  },
+  {
+   "name": "F18 International: Round Texel 2026",
+   "url": "https://www.f18-international.org/round-texel-2026/",
+   "used_for": "32 windsurfers naast 249 catamarans en 91 wingfoilers; de windsurfuitslag staat op scoring.winterwave.nl (bericht van 11 juni 2026)"
+  },
+  {
+   "name": "wedstrijdsurfen.nl (NVW): Voorlopige wedstrijdkalender 2026 is gepubliceerd",
+   "url": "https://www.wedstrijdsurfen.nl/nieuws/voorlopige-wedstrijdkalender-2026-is-gepubliceerd/",
+   "used_for": "het NK Long Distance is in 2026 een officiële titel bij de Ronde om Texel (bericht van 31 januari 2026)"
+  }
+ ],
+ "notes": [
+  "Uitslag 'Round Texel 2026 - Windsurf' van scoring.winterwave.nl (scoring 'texel_rating'). Volgens de NVW was dit in 2026 het NK Long Distance."
+ ],
+ "title": "NK Long Distance"
+}

@@ -1,0 +1,43 @@
+{
+ "event_slug": "dam-x-2026",
+ "scope": "nl",
+ "name": "DAM-X 2026",
+ "series": "DAM-X",
+ "year": 2026,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2026-10-09",
+ "date_end": "2026-10-11",
+ "location": "Brouwersdam (Grevelingenmeer)",
+ "discipline": "slalom",
+ "classes": [
+  "dam-x-2026-slalom-in-boys",
+  "dam-x-2026-slalom-in-girls-en-chicks",
+  "dam-x-2026-slalom-in-guys",
+  "dam-x-2026-slalom-in-ladies",
+  "dam-x-2026-slalom-in-masters",
+  "dam-x-2026-slalom-in-windsurfer-lt",
+  "dam-x-2026-slalom-out-men",
+  "dam-x-2026-slalom-out-profleet",
+  "dam-x-2026-slalom-out-youth-pro"
+ ],
+ "metadata_sources": [
+  {
+   "name": "DAM-X Brouwersdam",
+   "url": "https://www.dam-x.com/nl",
+   "used_for": "tiende editie, 9 tot en met 11 oktober 2026"
+  },
+  {
+   "name": "Go-Kids agenda: DAM-X 10th edition",
+   "url": "https://go-kids.nl/zeeland/agenda/dam-x-10th-edition-aan-het-grevelingenmeer-bij-brouwersdam",
+   "used_for": "vrijdag 9 tot en met zondag 11 oktober 2026, Brouwersdam aan het Grevelingenmeer; windsurf- en wingslalom"
+  }
+ ],
+ "notes": [
+  "DAM-X telt mee in het archief: een funwedstrijd, maar serieus genoeg om mee te tellen, net als The Real Trip (opgave van de gebruiker, 12 oktober 2026).",
+  "De klasse 'Out - Wingfoil' is niet opgenomen: wingen is geen windsurfen. De bron staat in bronnen/.",
+  "Vastgelegd op 12 oktober 2026, de dag na het evenement. Winterwave zegt niet of de stand definitief is; als einduitslag opgenomen (AANNAME).",
+  "De klassen heten 'In - ...' en 'Out - ...' zoals gepubliceerd (vermoedelijk binnen- en buitenzijde van de dam; de betekenis staat niet in de bron)."
+ ],
+ "name_published": "DAM-X 2026"
+}

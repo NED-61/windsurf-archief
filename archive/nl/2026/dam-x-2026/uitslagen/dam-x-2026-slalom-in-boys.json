@@ -1,0 +1,2773 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2026-slalom-in-boys",
+ "event": {
+  "name": "DAM-X 2026",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-10-09",
+  "location": "Brouwersdam (Grevelingenmeer)",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "In - Boys",
+  "class_label_published": "In - Boys",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R. 1",
+   "R. 2",
+   "R. 3",
+   "R. 4",
+   "R. 5",
+   "R. 6",
+   "R. 7",
+   "R. 8",
+   "R. 9",
+   "R. 10",
+   "R. 11",
+   "R. 12"
+  ],
+  "discards": 3,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF gescoord als 25 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 8 eliminations, ",
+  "winterwave_scoring": "simple_fun_race"
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/1/83951540",
+  "file": "archive/nl/2026/dam-x-2026/bronnen/winterwave-damx-2026-capture.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "vastgelegd via de ingebouwde browser van de desktop-app (fetch van elke pagina op scoring.winterwave.nl; html ongewijzigd bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz); tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "DAM-X Brouwersdam",
+    "url": "https://www.dam-x.com/nl",
+    "used_for": "tiende editie, 9 tot en met 11 oktober 2026"
+   },
+   {
+    "name": "Go-Kids agenda: DAM-X 10th edition",
+    "url": "https://go-kids.nl/zeeland/agenda/dam-x-10th-edition-aan-het-grevelingenmeer-bij-brouwersdam",
+    "used_for": "vrijdag 9 tot en met zondag 11 oktober 2026, Brouwersdam aan het Grevelingenmeer; windsurf- en wingslalom"
+   }
+  ],
+  "verified": "25 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 3 (25x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'In - Boys - DAM-X 2026'.",
+  "Een zeilnummercel met alleen een getal is het startnummer van het evenement: dat staat in bib, sail is leeg (AANNAME; de vaste zeilnummers met landcode staan wel in sail).",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "mika-lievens",
+   "sail": null,
+   "bib": "64",
+   "sail_published": "64",
+   "name": "Mika Lievens",
+   "nationality": "GER",
+   "division": "Boys t/m 14",
+   "points": [
+    0.7,
+    4.0,
+    0.7,
+    3.0,
+    0.7,
+    0.7,
+    3.0,
+    4.0,
+    0.7,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    4,
+    8
+   ],
+   "total": 19.6,
+   "net": 8.6
+  },
+  {
+   "rank": 2,
+   "person": "banasiak-borys",
+   "sail": null,
+   "bib": "12",
+   "sail_published": "12",
+   "name": "Banasiak Borys",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    3.0,
+    0.7,
+    4.0,
+    2.0,
+    4.0,
+    4.0,
+    0.7,
+    0.7,
+    2.0,
+    4.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    5,
+    6
+   ],
+   "total": 29.1,
+   "net": 17.1
+  },
+  {
+   "rank": 3,
+   "person": "gus-van-mol",
+   "sail": null,
+   "bib": "63",
+   "sail_published": "63",
+   "name": "Gus Van Mol",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    0.7,
+    3.0,
+    2.0,
+    2.0,
+    2.0,
+    3.0,
+    2.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    9,
+    11
+   ],
+   "total": 26.7,
+   "net": 17.7
+  },
+  {
+   "rank": 4,
+   "person": "pim-zelvoort",
+   "sail": null,
+   "bib": "17",
+   "sail_published": "17",
+   "name": "Pim Zelvoort",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    5.0,
+    5.0,
+    3.0,
+    4.0,
+    2.0,
+    3.0,
+    5.0,
+    3.0,
+    4.0,
+    3.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    11,
+    12
+   ],
+   "total": 87.0,
+   "net": 32.0
+  },
+  {
+   "rank": 5,
+   "person": "alexander-leroy",
+   "sail": null,
+   "bib": "31",
+   "sail_published": "31",
+   "name": "Alexander Leroy",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    4.0,
+    7.0,
+    7.0,
+    5.0,
+    5.0,
+    5.0,
+    8.0,
+    7.0,
+    11.0,
+    5.0,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    7,
+    9
+   ],
+   "total": 74.0,
+   "net": 48.0
+  },
+  {
+   "rank": 6,
+   "person": "sander-vande-casteele",
+   "sail": null,
+   "bib": "27",
+   "sail_published": "27",
+   "name": "Sander Vande Casteele",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    7.0,
+    6.0,
+    6.0,
+    4.0,
+    6.0,
+    6.0,
+    6.0,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 128.0,
+   "net": 53.0
+  },
+  {
+   "rank": 7,
+   "person": "seppe-vande-casteele",
+   "sail": null,
+   "bib": "28",
+   "sail_published": "28",
+   "name": "Seppe Vande Casteele",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    3.0,
+    25.0,
+    6.0,
+    25.0,
+    25.0,
+    7.0,
+    5.0,
+    5.0,
+    7.0,
+    8.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 3": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    3,
+    5
+   ],
+   "total": 145.0,
+   "net": 70.0
+  },
+  {
+   "rank": 8,
+   "person": "bas-deschildre",
+   "sail": null,
+   "bib": "23",
+   "sail_published": "23",
+   "name": "Bas Deschildre",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    9.0,
+    8.0,
+    12.0,
+    8.0,
+    8.0,
+    7.0,
+    9.0,
+    8.0,
+    7.0,
+    8.0,
+    11.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3,
+    11
+   ],
+   "total": 103.0,
+   "net": 71.0
+  },
+  {
+   "rank": 9,
+   "person": "andres-verhaeghe",
+   "sail": null,
+   "bib": "1",
+   "sail_published": "1",
+   "name": "Andres Verhaeghe",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    12.0,
+    25.0,
+    25.0,
+    9.0,
+    9.0,
+    8.0,
+    10.0,
+    12.0,
+    8.0,
+    10.0,
+    14.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    11
+   ],
+   "total": 152.0,
+   "net": 88.0
+  },
+  {
+   "rank": 10,
+   "person": "tijl-deschildre",
+   "sail": null,
+   "bib": "22",
+   "sail_published": "22",
+   "name": "Tijl Deschildre",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    10.0,
+    25.0,
+    10.0,
+    10.0,
+    7.0,
+    12.0,
+    15.0,
+    9.0,
+    9.0,
+    13.0,
+    13.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF"
+   },
+   "discarded": [
+    2,
+    7,
+    10
+   ],
+   "total": 142.0,
+   "net": 89.0
+  },
+  {
+   "rank": 11,
+   "person": "james",
+   "sail": null,
+   "bib": "44",
+   "sail_published": "44",
+   "name": "James",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    11.0,
+    25.0,
+    9.0,
+    11.0,
+    13.0,
+    10.0,
+    13.0,
+    18.0,
+    14.0,
+    14.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF"
+   },
+   "discarded": [
+    2,
+    8,
+    11
+   ],
+   "total": 170.0,
+   "net": 111.0
+  },
+  {
+   "rank": 12,
+   "person": "boaz-van-der-spek",
+   "sail": null,
+   "bib": "15",
+   "sail_published": "15",
+   "name": "Boaz van der Spek",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    11.0,
+    25.0,
+    12.0,
+    12.0,
+    9.0,
+    25.0,
+    10.0,
+    25.0,
+    11.0,
+    12.0,
+    11.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 3": "DNF",
+    "R. 7": "DNF",
+    "R. 9": "DNF"
+   },
+   "discarded": [
+    1,
+    3,
+    7
+   ],
+   "total": 188.0,
+   "net": 113.0
+  },
+  {
+   "rank": 13,
+   "person": "denut-warre",
+   "sail": null,
+   "bib": "29",
+   "sail_published": "29",
+   "name": "Denut Warre",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    10.0,
+    25.0,
+    14.0,
+    11.0,
+    25.0,
+    16.0,
+    17.0,
+    16.0,
+    25.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 3": "DNF",
+    "R. 6": "DNF",
+    "R. 10": "DNF"
+   },
+   "discarded": [
+    1,
+    3,
+    6
+   ],
+   "total": 195.0,
+   "net": 120.0
+  },
+  {
+   "rank": 14,
+   "person": "boris",
+   "sail": null,
+   "bib": "46",
+   "sail_published": "46",
+   "name": "Boris",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    11.0,
+    13.0,
+    10.0,
+    13.0,
+    11.0,
+    19.0,
+    25.0,
+    25.0,
+    17.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    9
+   ],
+   "total": 209.0,
+   "net": 134.0
+  },
+  {
+   "rank": 15,
+   "person": "levi-mureau",
+   "sail": null,
+   "bib": "75",
+   "sail_published": "75",
+   "name": "Levi Mureau",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    14.0,
+    11.0,
+    14.0,
+    16.0,
+    13.0,
+    12.0,
+    15.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 220.0,
+   "net": 145.0
+  },
+  {
+   "rank": 16,
+   "person": "vigo-gerritsen",
+   "sail": null,
+   "bib": "10",
+   "sail_published": "10",
+   "name": "Vigo Gerritsen",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    6.0,
+    11.0,
+    12.0,
+    25.0,
+    7.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 10": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 223.0,
+   "net": 148.0
+  },
+  {
+   "rank": 17,
+   "person": "sieb-van-de-kamp",
+   "sail": null,
+   "bib": "14",
+   "sail_published": "14",
+   "name": "Sieb van de Kamp",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    16.0,
+    25.0,
+    25.0,
+    12.0,
+    15.0,
+    10.0,
+    15.0,
+    9.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 227.0,
+   "net": 152.0
+  },
+  {
+   "rank": 18,
+   "person": "jonathan",
+   "sail": null,
+   "bib": "13",
+   "sail_published": "13",
+   "name": "Jonathan",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    17.0,
+    14.0,
+    15.0,
+    9.0,
+    10.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 228.0,
+   "net": 153.0
+  },
+  {
+   "rank": 19,
+   "person": "robbe-van-ginhoven",
+   "sail": null,
+   "bib": "66",
+   "sail_published": "66",
+   "name": "Robbe van Ginhoven",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    13.0,
+    15.0,
+    25.0,
+    25.0,
+    18.0,
+    13.0,
+    17.0,
+    16.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    5
+   ],
+   "total": 242.0,
+   "net": 167.0
+  },
+  {
+   "rank": 20,
+   "person": "selle-goeman",
+   "sail": null,
+   "bib": "47",
+   "sail_published": "47",
+   "name": "Selle Goeman",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    7.0,
+    6.0,
+    8.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    4,
+    5,
+    6
+   ],
+   "total": 246.0,
+   "net": 171.0
+  },
+  {
+   "rank": 21,
+   "person": "bjorn-bruining",
+   "sail": null,
+   "bib": "109",
+   "sail_published": "109",
+   "name": "Björn Bruining",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    8.0,
+    9.0,
+    6.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    4,
+    5,
+    6
+   ],
+   "total": 248.0,
+   "net": 173.0
+  },
+  {
+   "rank": 22,
+   "person": "jeff-francois",
+   "sail": null,
+   "bib": "61",
+   "sail_published": "61",
+   "name": "Jeff François",
+   "nationality": "BEL",
+   "division": "Boys t/m 14",
+   "points": [
+    6.0,
+    25.0,
+    5.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    2,
+    4,
+    5
+   ],
+   "total": 261.0,
+   "net": 186.0
+  },
+  {
+   "rank": 23,
+   "person": "eliaz-buijssen",
+   "sail": null,
+   "bib": "25",
+   "sail_published": "25",
+   "name": "Eliaz Buijssen",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    13.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF"
+   },
+   "discarded": [
+    2,
+    3,
+    4
+   ],
+   "total": 277.0,
+   "net": 202.0
+  },
+  {
+   "rank": 24,
+   "person": null,
+   "sail": null,
+   "bib": "6",
+   "sail_published": "6",
+   "name": "Julius Anton",
+   "nationality": "GER",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 300.0,
+   "net": 225.0,
+   "counted": false
+  },
+  {
+   "rank": 24,
+   "person": null,
+   "sail": null,
+   "bib": "78",
+   "sail_published": "78",
+   "name": "Dex Simons",
+   "nationality": "NED",
+   "division": "Boys t/m 14",
+   "points": [
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "race_remarks": {
+    "R. 1": "DNF",
+    "R. 2": "DNF",
+    "R. 3": "DNF",
+    "R. 4": "DNF",
+    "R. 5": "DNF",
+    "R. 6": "DNF",
+    "R. 7": "DNF",
+    "R. 8": "DNF",
+    "R. 9": "DNF",
+    "R. 10": "DNF",
+    "R. 11": "DNF",
+    "R. 12": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 300.0,
+   "net": 225.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R. 1",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "banasiak-borys",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "alexander-leroy",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "pim-zelvoort",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "jeff-francois",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "selle-goeman",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bjorn-bruining",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bas-deschildre",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "tijl-deschildre",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "james",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "andres-verhaeghe",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "eliaz-buijssen",
+        "result_published": "13.0"
+       },
+       {
+        "rank": null,
+        "person": "vigo-gerritsen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sander-vande-casteele",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boaz-van-der-spek",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "denut-warre",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sieb-van-de-kamp",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "robbe-van-ginhoven",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jonathan",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "levi-mureau",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boris",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-vande-casteele",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 2",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "banasiak-borys",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "seppe-vande-casteele",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mika-lievens",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "pim-zelvoort",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "selle-goeman",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "alexander-leroy",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bas-deschildre",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bjorn-bruining",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "denut-warre",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "boaz-van-der-spek",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "vigo-gerritsen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tijl-deschildre",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sander-vande-casteele",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sieb-van-de-kamp",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "robbe-van-ginhoven",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "james",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jonathan",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "levi-mureau",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boris",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "andres-verhaeghe",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 3",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "pim-zelvoort",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "banasiak-borys",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "jeff-francois",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bjorn-bruining",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "alexander-leroy",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "selle-goeman",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "james",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "tijl-deschildre",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "boris",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "bas-deschildre",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "robbe-van-ginhoven",
+        "result_published": "13.0"
+       },
+       {
+        "rank": null,
+        "person": "vigo-gerritsen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sander-vande-casteele",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boaz-van-der-spek",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "denut-warre",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sieb-van-de-kamp",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jonathan",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "levi-mureau",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-vande-casteele",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "andres-verhaeghe",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 4",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "gus-van-mol",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "banasiak-borys",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-lievens",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "pim-zelvoort",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "alexander-leroy",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "seppe-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "sander-vande-casteele",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bas-deschildre",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "andres-verhaeghe",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "tijl-deschildre",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "james",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "boaz-van-der-spek",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "boris",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "denut-warre",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "robbe-van-ginhoven",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "sieb-van-de-kamp",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": "vigo-gerritsen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jonathan",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "levi-mureau",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 5",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "pim-zelvoort",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "gus-van-mol",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "banasiak-borys",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "alexander-leroy",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sander-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "tijl-deschildre",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bas-deschildre",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "andres-verhaeghe",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "boris",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "denut-warre",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "boaz-van-der-spek",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "james",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "levi-mureau",
+        "result_published": "14.0"
+       },
+       {
+        "rank": null,
+        "person": "vigo-gerritsen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sieb-van-de-kamp",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "robbe-van-ginhoven",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jonathan",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-vande-casteele",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 6",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "pim-zelvoort",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "banasiak-borys",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "alexander-leroy",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sander-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bas-deschildre",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "andres-verhaeghe",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "boaz-van-der-spek",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "james",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "levi-mureau",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "tijl-deschildre",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "boris",
+        "result_published": "13.0"
+       },
+       {
+        "rank": null,
+        "person": "vigo-gerritsen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "denut-warre",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sieb-van-de-kamp",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "robbe-van-ginhoven",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jonathan",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-vande-casteele",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 7",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "banasiak-borys",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "mika-lievens",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "sander-vande-casteele",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "pim-zelvoort",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "vigo-gerritsen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "seppe-vande-casteele",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "alexander-leroy",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bas-deschildre",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "andres-verhaeghe",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "boris",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "sieb-van-de-kamp",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "james",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "levi-mureau",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "tijl-deschildre",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "denut-warre",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "jonathan",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "robbe-van-ginhoven",
+        "result_published": "18.0"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boaz-van-der-spek",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 8",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "banasiak-borys",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "pim-zelvoort",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "mika-lievens",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "seppe-vande-casteele",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sander-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "alexander-leroy",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bas-deschildre",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tijl-deschildre",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "boaz-van-der-spek",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "vigo-gerritsen",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "andres-verhaeghe",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "robbe-van-ginhoven",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "jonathan",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "sieb-van-de-kamp",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "levi-mureau",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "denut-warre",
+        "result_published": "17.0"
+       },
+       {
+        "rank": 18,
+        "person": "james",
+        "result_published": "18.0"
+       },
+       {
+        "rank": 19,
+        "person": "boris",
+        "result_published": "19.0"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 9",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "banasiak-borys",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "gus-van-mol",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "pim-zelvoort",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "seppe-vande-casteele",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sander-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bas-deschildre",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "andres-verhaeghe",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tijl-deschildre",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "sieb-van-de-kamp",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "alexander-leroy",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "vigo-gerritsen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "levi-mureau",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "james",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "jonathan",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "denut-warre",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "robbe-van-ginhoven",
+        "result_published": "17.0"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boaz-van-der-spek",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boris",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 10",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "gus-van-mol",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "pim-zelvoort",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "banasiak-borys",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "alexander-leroy",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "sander-vande-casteele",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "seppe-vande-casteele",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bas-deschildre",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jonathan",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "andres-verhaeghe",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "boaz-van-der-spek",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "levi-mureau",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "tijl-deschildre",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "james",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "sieb-van-de-kamp",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "robbe-van-ginhoven",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": "vigo-gerritsen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "denut-warre",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "boris",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 11",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "banasiak-borys",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "gus-van-mol",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "alexander-leroy",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "sander-vande-casteele",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "denut-warre",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "vigo-gerritsen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "seppe-vande-casteele",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "sieb-van-de-kamp",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jonathan",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "bas-deschildre",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "boaz-van-der-spek",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "tijl-deschildre",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "andres-verhaeghe",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "levi-mureau",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "james",
+        "result_published": "16.0"
+       },
+       {
+        "rank": 17,
+        "person": "boris",
+        "result_published": "17.0"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "robbe-van-ginhoven",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "eliaz-buijssen",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "pim-zelvoort",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R. 12",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "results": [
+       {
+        "rank": 1,
+        "person": "mika-lievens",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "banasiak-borys",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "gus-van-mol",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "seppe-vande-casteele",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "denut-warre",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "alexander-leroy",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "sander-vande-casteele",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bas-deschildre",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tijl-deschildre",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "andres-verhaeghe",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "boaz-van-der-spek",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "vigo-gerritsen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": 13,
+        "person": "jonathan",
+        "result_published": "13.0"
+       },
+       {
+        "rank": 14,
+        "person": "eliaz-buijssen",
+        "result_published": "14.0"
+       },
+       {
+        "rank": 15,
+        "person": "boris",
+        "result_published": "15.0"
+       },
+       {
+        "rank": 16,
+        "person": "james",
+        "result_published": "16.0"
+       },
+       {
+        "rank": null,
+        "person": "jeff-francois",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Julius Anton",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjorn-bruining",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "sieb-van-de-kamp",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "robbe-van-ginhoven",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "selle-goeman",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "pim-zelvoort",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "levi-mureau",
+        "result_published": "25",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Dex Simons",
+        "result_published": "25",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,435 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2022-slalom-g-boys-tm-14",
+ "event": {
+  "name": "DAM-X 2022",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": "men",
+  "class": "G | Boys t/m 14",
+  "class_label_published": "G | Boys t/m 14",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.0, tweede 2.0; DNF zoals gepubliceerd",
+  "windtulip_eliminations": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/191/total_results/",
+  "file": "archive/nl/2022/dam-x-2022/bronnen/windtulip-191-total_results.page-data.json",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaalstand en races uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "metadata_sources": [],
+  "verified": "8 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (8x); geen dubbele namen; punten per race vergeleken met de plaats in de race (winnaar 0.0, RDG = toegekende punten): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd in het Windtulip Results Archive als 'G | Boys t/m 14' (regatta 'DAM-X 2022'), dashboard 191. Elke 'eliminatie' is één race met één heat voor de hele klasse.",
+  "Een zeilnummercel met alleen een getal is het startnummer van DAM-X: dat staat in bib, sail is leeg (AANNAME; zeilnummers met landcode staan wel in sail)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "julian-koldeweid",
+   "sail": null,
+   "bib": "62",
+   "sail_published": "62",
+   "name": "Julian Koldeweid",
+   "nationality": null,
+   "division": null,
+   "points": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 0.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "chiel-crielaard",
+   "sail": null,
+   "bib": "65",
+   "sail_published": "65",
+   "name": "Chiel Crielaard",
+   "nationality": null,
+   "division": null,
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 8.0,
+   "net": 6.0
+  },
+  {
+   "rank": 3,
+   "person": "nick-becker",
+   "sail": null,
+   "bib": "50",
+   "sail_published": "50",
+   "name": "Nick Becker",
+   "nationality": null,
+   "division": null,
+   "points": [
+    4.0,
+    6.0,
+    5.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 18.0,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "wubbe-van-der-veen",
+   "sail": null,
+   "bib": "53",
+   "sail_published": "53",
+   "name": "Wubbe van der Veen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    8.0,
+    3.0,
+    3.0,
+    8.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 22.0,
+   "net": 14.0
+  },
+  {
+   "rank": 5,
+   "person": "milo-zaal",
+   "sail": null,
+   "bib": "125",
+   "sail_published": "125",
+   "name": "Milo Zaal",
+   "nationality": null,
+   "division": null,
+   "points": [
+    8.0,
+    4.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 22.0,
+   "net": 14.0
+  },
+  {
+   "rank": 6,
+   "person": "fynn-van-de-griend",
+   "sail": null,
+   "bib": "127",
+   "sail_published": "127",
+   "name": "Fynn Van De Griend",
+   "nationality": null,
+   "division": null,
+   "points": [
+    3.0,
+    8.0,
+    4.0,
+    8.0
+   ],
+   "race_remarks": {
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 23.0,
+   "net": 15.0
+  },
+  {
+   "rank": 7,
+   "person": "aron-brandwijk",
+   "sail": null,
+   "bib": "12",
+   "sail_published": "12",
+   "name": "Aron Brandwijk",
+   "nationality": null,
+   "division": null,
+   "points": [
+    8.0,
+    5.0,
+    8.0,
+    5.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 26.0,
+   "net": 18.0
+  },
+  {
+   "rank": 8,
+   "person": "moritz-scheuvens",
+   "sail": null,
+   "bib": "39",
+   "sail_published": "39",
+   "name": "Moritz Scheuvens",
+   "nationality": null,
+   "division": null,
+   "points": [
+    8.0,
+    7.0,
+    7.0,
+    8.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 30.0,
+   "net": 22.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "1",
+    "url": "https://windtulip.nl/home/results_dashboard/191/1/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "julian-koldeweid"
+       },
+       {
+        "rank": 2,
+        "person": "chiel-crielaard"
+       },
+       {
+        "rank": 3,
+        "person": "fynn-van-de-griend"
+       },
+       {
+        "rank": 4,
+        "person": "nick-becker"
+       },
+       {
+        "rank": null,
+        "person": "aron-brandwijk",
+        "result_published": "8",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "milo-zaal",
+        "result_published": "8",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "moritz-scheuvens",
+        "result_published": "8",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "wubbe-van-der-veen",
+        "result_published": "8",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "2",
+    "url": "https://windtulip.nl/home/results_dashboard/191/2/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "julian-koldeweid"
+       },
+       {
+        "rank": 2,
+        "person": "chiel-crielaard"
+       },
+       {
+        "rank": 3,
+        "person": "wubbe-van-der-veen"
+       },
+       {
+        "rank": 4,
+        "person": "milo-zaal"
+       },
+       {
+        "rank": 5,
+        "person": "aron-brandwijk"
+       },
+       {
+        "rank": 6,
+        "person": "nick-becker"
+       },
+       {
+        "rank": 7,
+        "person": "moritz-scheuvens"
+       },
+       {
+        "rank": 8,
+        "person": "fynn-van-de-griend"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "3",
+    "url": "https://windtulip.nl/home/results_dashboard/191/3/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "julian-koldeweid"
+       },
+       {
+        "rank": 2,
+        "person": "chiel-crielaard"
+       },
+       {
+        "rank": 3,
+        "person": "wubbe-van-der-veen"
+       },
+       {
+        "rank": 4,
+        "person": "fynn-van-de-griend"
+       },
+       {
+        "rank": 5,
+        "person": "nick-becker"
+       },
+       {
+        "rank": 6,
+        "person": "milo-zaal"
+       },
+       {
+        "rank": 7,
+        "person": "moritz-scheuvens"
+       },
+       {
+        "rank": 8,
+        "person": "aron-brandwijk"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "4",
+    "url": "https://windtulip.nl/home/results_dashboard/191/4/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "julian-koldeweid"
+       },
+       {
+        "rank": 2,
+        "person": "chiel-crielaard"
+       },
+       {
+        "rank": 3,
+        "person": "nick-becker"
+       },
+       {
+        "rank": 4,
+        "person": "milo-zaal"
+       },
+       {
+        "rank": 5,
+        "person": "aron-brandwijk"
+       },
+       {
+        "rank": null,
+        "person": "fynn-van-de-griend",
+        "result_published": "8",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "moritz-scheuvens",
+        "result_published": "8",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "wubbe-van-der-veen",
+        "result_published": "8",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,997 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2022-slalom-masters-groep-2",
+ "event": {
+  "name": "DAM-X 2022",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Masters 35+ (groep 2)",
+  "class_label_published": "oud I | Masters 35+ (groep 2)",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.0, tweede 2.0; DNF zoals gepubliceerd",
+  "windtulip_eliminations": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/189/total_results/",
+  "file": "archive/nl/2022/dam-x-2022/bronnen/windtulip-189-total_results.page-data.json",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaalstand en races uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "metadata_sources": [],
+  "verified": "21 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (21x); geen dubbele namen; punten per race vergeleken met de plaats in de race (winnaar 0.0, RDG = toegekende punten): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd in het Windtulip Results Archive als 'oud I | Masters 35+ (groep 2)' (regatta 'DAM-X 2022'), dashboard 189. Elke 'eliminatie' is één race met één heat voor de hele klasse.",
+  "Een zeilnummercel met alleen een getal is het startnummer van DAM-X: dat staat in bib, sail is leeg (AANNAME; zeilnummers met landcode staan wel in sail).",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "steven-de-geus",
+   "sail": null,
+   "bib": "87",
+   "sail_published": "87",
+   "name": "Steven de Geus",
+   "nationality": null,
+   "division": null,
+   "points": [
+    0.0,
+    2.0,
+    0.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 2.0,
+   "net": 0.0
+  },
+  {
+   "rank": 2,
+   "person": "geert-beek-van",
+   "sail": null,
+   "bib": "239",
+   "sail_published": "239",
+   "name": "Geert van Beek",
+   "nationality": null,
+   "division": null,
+   "points": [
+    2.0,
+    0.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 8.0,
+   "net": 5.0
+  },
+  {
+   "rank": 3,
+   "person": "rudger-wismeijer",
+   "sail": null,
+   "bib": "233",
+   "sail_published": "233",
+   "name": "Rudger Wismeijer",
+   "nationality": null,
+   "division": null,
+   "points": [
+    6.0,
+    8.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 20.0,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "jens-lochler",
+   "sail": null,
+   "bib": "80",
+   "sail_published": "80",
+   "name": "Jens Löchler",
+   "nationality": null,
+   "division": null,
+   "points": [
+    4.0,
+    3.0,
+    8.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 20.0,
+   "net": 12.0
+  },
+  {
+   "rank": 5,
+   "person": "michel-ten-hove",
+   "sail": null,
+   "bib": "75",
+   "sail_published": "75",
+   "name": "Michel ten Hove",
+   "nationality": null,
+   "division": null,
+   "points": [
+    9.0,
+    4.0,
+    9.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 24.0,
+   "net": 15.0
+  },
+  {
+   "rank": 6,
+   "person": "daniel-muskowitz",
+   "sail": null,
+   "bib": "92",
+   "sail_published": "92",
+   "name": "Daniel Muskowitz",
+   "nationality": null,
+   "division": null,
+   "points": [
+    5.0,
+    6.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 22.0,
+   "net": 16.0
+  },
+  {
+   "rank": 7,
+   "person": "max-shytikov",
+   "sail": null,
+   "bib": "51",
+   "sail_published": "51",
+   "name": "Max Shytikov",
+   "nationality": null,
+   "division": null,
+   "points": [
+    8.0,
+    11.0,
+    4.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 30.0,
+   "net": 19.0
+  },
+  {
+   "rank": 8,
+   "person": "merijn-kegel",
+   "sail": null,
+   "bib": "247",
+   "sail_published": "247",
+   "name": "Merijn Kegel",
+   "nationality": null,
+   "division": null,
+   "points": [
+    7.0,
+    7.0,
+    7.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 32.0,
+   "net": 21.0
+  },
+  {
+   "rank": 9,
+   "person": "john-munten",
+   "sail": null,
+   "bib": "69",
+   "sail_published": "69",
+   "name": "John Munten",
+   "nationality": null,
+   "division": null,
+   "points": [
+    3.0,
+    5.0,
+    21.0,
+    21.0
+   ],
+   "race_remarks": {
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 50.0,
+   "net": 29.0
+  },
+  {
+   "rank": 10,
+   "person": "olof-teulings",
+   "sail": null,
+   "bib": "96",
+   "sail_published": "96",
+   "name": "Olof Teulings",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    10.0,
+    10.0,
+    9.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 50.0,
+   "net": 29.0
+  },
+  {
+   "rank": 11,
+   "person": "ronald-verriet",
+   "sail": null,
+   "bib": "231",
+   "sail_published": "231",
+   "name": "Ronald Verriet",
+   "nationality": null,
+   "division": null,
+   "points": [
+    10.0,
+    12.0,
+    13.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 45.0,
+   "net": 32.0
+  },
+  {
+   "rank": 12,
+   "person": "marco-vermoen",
+   "sail": null,
+   "bib": "90",
+   "sail_published": "90",
+   "name": "Marco Vermoen",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    9.0,
+    21.0,
+    8.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 59.0,
+   "net": 38.0
+  },
+  {
+   "rank": 13,
+   "person": "arjan-vos",
+   "sail": null,
+   "bib": "76",
+   "sail_published": "76",
+   "name": "Arjan Vos",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    14.0,
+    12.0,
+    12.0
+   ],
+   "race_remarks": {
+    "1": "DNF"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 59.0,
+   "net": 38.0
+  },
+  {
+   "rank": 14,
+   "person": "michiel-van-der-stel",
+   "sail": null,
+   "bib": "226",
+   "sail_published": "226",
+   "name": "Michiel van der Stel",
+   "nationality": null,
+   "division": null,
+   "points": [
+    11.0,
+    16.0,
+    16.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 56.0,
+   "net": 40.0
+  },
+  {
+   "rank": 15,
+   "person": "jakub-sliva",
+   "sail": null,
+   "bib": "244",
+   "sail_published": "244",
+   "name": "Jakub Sliva",
+   "nationality": null,
+   "division": null,
+   "points": [
+    12.0,
+    17.0,
+    14.0,
+    21.0
+   ],
+   "race_remarks": {
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 64.0,
+   "net": 43.0
+  },
+  {
+   "rank": 16,
+   "person": "pytrik-arendz",
+   "sail": null,
+   "bib": "229",
+   "sail_published": "229",
+   "name": "Pytrik arendz",
+   "nationality": null,
+   "division": null,
+   "points": [
+    13.0,
+    15.0,
+    15.0,
+    21.0
+   ],
+   "race_remarks": {
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 64.0,
+   "net": 43.0
+  },
+  {
+   "rank": 17,
+   "person": "marc-schaeffer",
+   "sail": null,
+   "bib": "93",
+   "sail_published": "93",
+   "name": "Marc SCHAEFFER",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    21.0,
+    6.0,
+    21.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 69.0,
+   "net": 48.0
+  },
+  {
+   "rank": 18,
+   "person": "raymond-weijt",
+   "sail": null,
+   "bib": "167",
+   "sail_published": "167",
+   "name": "Raymond Weijt",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    13.0,
+    21.0,
+    14.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 69.0,
+   "net": 48.0
+  },
+  {
+   "rank": 19,
+   "person": "arjan-verschuuren",
+   "sail": null,
+   "bib": "230",
+   "sail_published": "230",
+   "name": "Arjan Verschuuren",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    21.0,
+    11.0,
+    21.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 74.0,
+   "net": 53.0
+  },
+  {
+   "rank": 20,
+   "person": null,
+   "sail": null,
+   "bib": "88",
+   "sail_published": "88",
+   "name": "Stefan Zielstra",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 84.0,
+   "net": 63.0,
+   "counted": false
+  },
+  {
+   "rank": 20,
+   "person": null,
+   "sail": null,
+   "bib": "225",
+   "sail_published": "225",
+   "name": "Remco Zielstra",
+   "nationality": null,
+   "division": null,
+   "points": [
+    21.0,
+    21.0,
+    21.0,
+    21.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 84.0,
+   "net": 63.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "1",
+    "url": "https://windtulip.nl/home/results_dashboard/189/1/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "steven-de-geus"
+       },
+       {
+        "rank": 2,
+        "person": "geert-beek-van"
+       },
+       {
+        "rank": 3,
+        "person": "john-munten"
+       },
+       {
+        "rank": 4,
+        "person": "jens-lochler"
+       },
+       {
+        "rank": 5,
+        "person": "daniel-muskowitz"
+       },
+       {
+        "rank": 6,
+        "person": "rudger-wismeijer"
+       },
+       {
+        "rank": 7,
+        "person": "merijn-kegel"
+       },
+       {
+        "rank": 8,
+        "person": "max-shytikov"
+       },
+       {
+        "rank": 9,
+        "person": "michel-ten-hove"
+       },
+       {
+        "rank": 10,
+        "person": "ronald-verriet"
+       },
+       {
+        "rank": 11,
+        "person": "michiel-van-der-stel"
+       },
+       {
+        "rank": 12,
+        "person": "jakub-sliva"
+       },
+       {
+        "rank": 13,
+        "person": "pytrik-arendz"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Remco Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arjan-verschuuren",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "raymond-weijt",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arjan-vos",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stefan Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marco-vermoen",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marc-schaeffer",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "olof-teulings",
+        "result_published": "21",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "2",
+    "url": "https://windtulip.nl/home/results_dashboard/189/2/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "geert-beek-van"
+       },
+       {
+        "rank": 2,
+        "person": "steven-de-geus"
+       },
+       {
+        "rank": 3,
+        "person": "jens-lochler"
+       },
+       {
+        "rank": 4,
+        "person": "michel-ten-hove"
+       },
+       {
+        "rank": 5,
+        "person": "john-munten"
+       },
+       {
+        "rank": 6,
+        "person": "daniel-muskowitz"
+       },
+       {
+        "rank": 7,
+        "person": "merijn-kegel"
+       },
+       {
+        "rank": 8,
+        "person": "rudger-wismeijer"
+       },
+       {
+        "rank": 9,
+        "person": "marco-vermoen"
+       },
+       {
+        "rank": 10,
+        "person": "olof-teulings"
+       },
+       {
+        "rank": 11,
+        "person": "max-shytikov"
+       },
+       {
+        "rank": 12,
+        "person": "ronald-verriet"
+       },
+       {
+        "rank": 13,
+        "person": "raymond-weijt"
+       },
+       {
+        "rank": 14,
+        "person": "arjan-vos"
+       },
+       {
+        "rank": 15,
+        "person": "pytrik-arendz"
+       },
+       {
+        "rank": 16,
+        "person": "michiel-van-der-stel"
+       },
+       {
+        "rank": 17,
+        "person": "jakub-sliva"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Remco Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arjan-verschuuren",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stefan Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marc-schaeffer",
+        "result_published": "21",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "3",
+    "url": "https://windtulip.nl/home/results_dashboard/189/3/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "steven-de-geus"
+       },
+       {
+        "rank": 2,
+        "person": "rudger-wismeijer"
+       },
+       {
+        "rank": 3,
+        "person": "geert-beek-van"
+       },
+       {
+        "rank": 4,
+        "person": "max-shytikov"
+       },
+       {
+        "rank": 5,
+        "person": "daniel-muskowitz"
+       },
+       {
+        "rank": 6,
+        "person": "marc-schaeffer"
+       },
+       {
+        "rank": 7,
+        "person": "merijn-kegel"
+       },
+       {
+        "rank": 8,
+        "person": "jens-lochler"
+       },
+       {
+        "rank": 9,
+        "person": "michel-ten-hove"
+       },
+       {
+        "rank": 10,
+        "person": "olof-teulings"
+       },
+       {
+        "rank": 11,
+        "person": "arjan-verschuuren"
+       },
+       {
+        "rank": 12,
+        "person": "arjan-vos"
+       },
+       {
+        "rank": 13,
+        "person": "ronald-verriet"
+       },
+       {
+        "rank": 14,
+        "person": "jakub-sliva"
+       },
+       {
+        "rank": 15,
+        "person": "pytrik-arendz"
+       },
+       {
+        "rank": 16,
+        "person": "michiel-van-der-stel"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Remco Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "raymond-weijt",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "john-munten",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stefan Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marco-vermoen",
+        "result_published": "21",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "4",
+    "url": "https://windtulip.nl/home/results_dashboard/189/4/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "steven-de-geus"
+       },
+       {
+        "rank": 2,
+        "person": "michel-ten-hove"
+       },
+       {
+        "rank": 3,
+        "person": "geert-beek-van"
+       },
+       {
+        "rank": 4,
+        "person": "rudger-wismeijer"
+       },
+       {
+        "rank": 5,
+        "person": "jens-lochler"
+       },
+       {
+        "rank": 6,
+        "person": "daniel-muskowitz"
+       },
+       {
+        "rank": 7,
+        "person": "max-shytikov"
+       },
+       {
+        "rank": 8,
+        "person": "marco-vermoen"
+       },
+       {
+        "rank": 9,
+        "person": "olof-teulings"
+       },
+       {
+        "rank": 10,
+        "person": "ronald-verriet"
+       },
+       {
+        "rank": 11,
+        "person": "merijn-kegel"
+       },
+       {
+        "rank": 12,
+        "person": "arjan-vos"
+       },
+       {
+        "rank": 13,
+        "person": "michiel-van-der-stel"
+       },
+       {
+        "rank": 14,
+        "person": "raymond-weijt"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Remco Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "pytrik-arendz",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "arjan-verschuuren",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jakub-sliva",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "john-munten",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Stefan Zielstra",
+        "result_published": "21",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "marc-schaeffer",
+        "result_published": "21",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

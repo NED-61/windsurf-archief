@@ -1,0 +1,681 @@
+{
+ "schema_version": 1,
+ "id": "dam-x-2022-slalom-j-chicks-girls-ladies",
+ "event": {
+  "name": "DAM-X 2022",
+  "scope": "nl",
+  "series": "DAM-X",
+  "year": 2022,
+  "stop_number": null,
+  "stops_known": null,
+  "date": null,
+  "location": "Brouwersdam",
+  "discipline": "slalom",
+  "gender": "women",
+  "class": "J | Chicks/Girls/Ladies",
+  "class_label_published": "J | Chicks/Girls/Ladies",
+  "equipment": null
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "discards": 1,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.0, tweede 2.0; DNF zoals gepubliceerd",
+  "windtulip_eliminations": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "source": {
+  "name": "Windtulip Results Archive",
+  "url": "https://windtulip.nl/home/results_dashboard/188/total_results/",
+  "file": "archive/nl/2022/dam-x-2022/bronnen/windtulip-188-total_results.page-data.json",
+  "type": "web",
+  "retrieved": "2026-10-12",
+  "method": "page-data.json byte-identiek opgehaald via de ingebouwde browser; totaalstand en races uit de daarin opgenomen Windtulip-HTML (BeautifulSoup)",
+  "metadata_sources": [],
+  "verified": "14 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 1 (14x); geen dubbele namen; punten per race vergeleken met de plaats in de race (winnaar 0.0, RDG = toegekende punten): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd in het Windtulip Results Archive als 'J | Chicks/Girls/Ladies' (regatta 'DAM-X 2022'), dashboard 188. Elke 'eliminatie' is één race met één heat voor de hele klasse.",
+  "Een zeilnummercel met alleen een getal is het startnummer van DAM-X: dat staat in bib, sail is leeg (AANNAME; zeilnummers met landcode staan wel in sail).",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "andrea-vanhoorne",
+   "sail": null,
+   "bib": "60",
+   "sail_published": "60",
+   "name": "Andrea Vanhoorne",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    2.0,
+    0.0,
+    2.0,
+    0.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 4.0,
+   "net": 2.0
+  },
+  {
+   "rank": 2,
+   "person": "fabienne-hoogendam",
+   "sail": null,
+   "bib": "61",
+   "sail_published": "61",
+   "name": "Fabienne Hoogendam",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    0.0,
+    2.0,
+    0.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 4.0,
+   "net": 2.0
+  },
+  {
+   "rank": 3,
+   "person": "nien-van-craeynest",
+   "sail": null,
+   "bib": "46",
+   "sail_published": "46",
+   "name": "Nien Van Craeynest",
+   "nationality": null,
+   "division": "Chicks 15 tm 18",
+   "points": [
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 12.0,
+   "net": 9.0
+  },
+  {
+   "rank": 4,
+   "person": "jacqueline-stoel",
+   "sail": null,
+   "bib": "121",
+   "sail_published": "121",
+   "name": "Jacqueline Stoel",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    5.0,
+    4.0,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 21.0,
+   "net": 14.0
+  },
+  {
+   "rank": 5,
+   "person": "pien-de-groot",
+   "sail": null,
+   "bib": "14",
+   "sail_published": "14",
+   "name": "Pien de Groot",
+   "nationality": null,
+   "division": "Chicks 15 tm 18",
+   "points": [
+    4.0,
+    6.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 22.0,
+   "net": 16.0
+  },
+  {
+   "rank": 6,
+   "person": "sandra-windhorst",
+   "sail": null,
+   "bib": "52",
+   "sail_published": "52",
+   "name": "Sandra Windhorst",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    9.0,
+    5.0,
+    4.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 26.0,
+   "net": 17.0
+  },
+  {
+   "rank": 7,
+   "person": "anniek-schut",
+   "sail": null,
+   "bib": "35",
+   "sail_published": "35",
+   "name": "Anniek Schut",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    8.0,
+    10.0,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 29.0,
+   "net": 19.0
+  },
+  {
+   "rank": 8,
+   "person": "sol-degrieck",
+   "sail": null,
+   "bib": "34",
+   "sail_published": "34",
+   "name": "Sol Degrieck",
+   "nationality": null,
+   "division": "Chicks 15 tm 18",
+   "points": [
+    7.0,
+    8.0,
+    8.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 28.0,
+   "net": 20.0
+  },
+  {
+   "rank": 9,
+   "person": "ashley-veenstra",
+   "sail": null,
+   "bib": "91",
+   "sail_published": "91",
+   "name": "Ashley Veenstra",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    6.0,
+    7.0,
+    9.0,
+    14.0
+   ],
+   "race_remarks": {
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 36.0,
+   "net": 22.0
+  },
+  {
+   "rank": 10,
+   "person": "hadewych-van-walraven",
+   "sail": null,
+   "bib": "15",
+   "sail_published": "15",
+   "name": "Hadewych Van walraven",
+   "nationality": null,
+   "division": "Chicks 15 tm 18",
+   "points": [
+    10.0,
+    9.0,
+    10.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 38.0,
+   "net": 28.0
+  },
+  {
+   "rank": 11,
+   "person": "ingrid-rademakers",
+   "sail": null,
+   "bib": "47",
+   "sail_published": "47",
+   "name": "Ingrid Rademakers",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    14.0,
+    11.0,
+    14.0,
+    10.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 49.0,
+   "net": 35.0
+  },
+  {
+   "rank": 12,
+   "person": "bibi-schreuder",
+   "sail": null,
+   "bib": "38",
+   "sail_published": "38",
+   "name": "Bibi Schreuder",
+   "nationality": null,
+   "division": "Chicks 15 tm 18",
+   "points": [
+    12.0,
+    12.0,
+    14.0,
+    11.0
+   ],
+   "race_remarks": {
+    "3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 49.0,
+   "net": 35.0
+  },
+  {
+   "rank": 13,
+   "person": "tessa-van-der-wel",
+   "sail": null,
+   "bib": "118",
+   "sail_published": "118",
+   "name": "Tessa van der Wel",
+   "nationality": null,
+   "division": "Ladies 19",
+   "points": [
+    11.0,
+    14.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 53.0,
+   "net": 39.0
+  },
+  {
+   "rank": 14,
+   "person": null,
+   "sail": null,
+   "bib": "36",
+   "sail_published": "36",
+   "name": "Lyn Saelens",
+   "nationality": null,
+   "division": "Chicks 15 tm 18",
+   "points": [
+    14.0,
+    14.0,
+    14.0,
+    14.0
+   ],
+   "race_remarks": {
+    "1": "DNF",
+    "2": "DNF",
+    "3": "DNF",
+    "4": "DNF"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 56.0,
+   "net": 42.0,
+   "counted": false
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "1",
+    "url": "https://windtulip.nl/home/results_dashboard/188/1/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "fabienne-hoogendam"
+       },
+       {
+        "rank": 2,
+        "person": "andrea-vanhoorne"
+       },
+       {
+        "rank": 3,
+        "person": "nien-van-craeynest"
+       },
+       {
+        "rank": 4,
+        "person": "pien-de-groot"
+       },
+       {
+        "rank": 5,
+        "person": "jacqueline-stoel"
+       },
+       {
+        "rank": 6,
+        "person": "ashley-veenstra"
+       },
+       {
+        "rank": 7,
+        "person": "sol-degrieck"
+       },
+       {
+        "rank": 8,
+        "person": "anniek-schut"
+       },
+       {
+        "rank": 9,
+        "person": "sandra-windhorst"
+       },
+       {
+        "rank": 10,
+        "person": "hadewych-van-walraven"
+       },
+       {
+        "rank": 11,
+        "person": "tessa-van-der-wel"
+       },
+       {
+        "rank": 12,
+        "person": "bibi-schreuder"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lyn Saelens",
+        "result_published": "14",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "ingrid-rademakers",
+        "result_published": "14",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "2",
+    "url": "https://windtulip.nl/home/results_dashboard/188/2/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "andrea-vanhoorne"
+       },
+       {
+        "rank": 2,
+        "person": "fabienne-hoogendam"
+       },
+       {
+        "rank": 3,
+        "person": "nien-van-craeynest"
+       },
+       {
+        "rank": 4,
+        "person": "jacqueline-stoel"
+       },
+       {
+        "rank": 5,
+        "person": "sandra-windhorst"
+       },
+       {
+        "rank": 6,
+        "person": "pien-de-groot"
+       },
+       {
+        "rank": 7,
+        "person": "ashley-veenstra"
+       },
+       {
+        "rank": 8,
+        "person": "sol-degrieck"
+       },
+       {
+        "rank": 9,
+        "person": "hadewych-van-walraven"
+       },
+       {
+        "rank": 10,
+        "person": "anniek-schut"
+       },
+       {
+        "rank": 11,
+        "person": "ingrid-rademakers"
+       },
+       {
+        "rank": 12,
+        "person": "bibi-schreuder"
+       },
+       {
+        "rank": null,
+        "person": "tessa-van-der-wel",
+        "result_published": "14",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lyn Saelens",
+        "result_published": "14",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "3",
+    "url": "https://windtulip.nl/home/results_dashboard/188/3/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "fabienne-hoogendam"
+       },
+       {
+        "rank": 2,
+        "person": "andrea-vanhoorne"
+       },
+       {
+        "rank": 3,
+        "person": "nien-van-craeynest"
+       },
+       {
+        "rank": 4,
+        "person": "sandra-windhorst"
+       },
+       {
+        "rank": 5,
+        "person": "jacqueline-stoel"
+       },
+       {
+        "rank": 6,
+        "person": "pien-de-groot"
+       },
+       {
+        "rank": 7,
+        "person": "anniek-schut"
+       },
+       {
+        "rank": 8,
+        "person": "sol-degrieck"
+       },
+       {
+        "rank": 9,
+        "person": "ashley-veenstra"
+       },
+       {
+        "rank": 10,
+        "person": "hadewych-van-walraven"
+       },
+       {
+        "rank": null,
+        "person": "tessa-van-der-wel",
+        "result_published": "14",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lyn Saelens",
+        "result_published": "14",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bibi-schreuder",
+        "result_published": "14",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "ingrid-rademakers",
+        "result_published": "14",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "4",
+    "url": "https://windtulip.nl/home/results_dashboard/188/4/",
+    "heats": [
+     {
+      "name": "Heat 1",
+      "status": "unstarted",
+      "results": [
+       {
+        "rank": 1,
+        "person": "andrea-vanhoorne"
+       },
+       {
+        "rank": 2,
+        "person": "fabienne-hoogendam"
+       },
+       {
+        "rank": 3,
+        "person": "nien-van-craeynest"
+       },
+       {
+        "rank": 4,
+        "person": "anniek-schut"
+       },
+       {
+        "rank": 5,
+        "person": "sol-degrieck"
+       },
+       {
+        "rank": 6,
+        "person": "pien-de-groot"
+       },
+       {
+        "rank": 7,
+        "person": "jacqueline-stoel"
+       },
+       {
+        "rank": 8,
+        "person": "sandra-windhorst"
+       },
+       {
+        "rank": 9,
+        "person": "hadewych-van-walraven"
+       },
+       {
+        "rank": 10,
+        "person": "ingrid-rademakers"
+       },
+       {
+        "rank": 11,
+        "person": "bibi-schreuder"
+       },
+       {
+        "rank": null,
+        "person": "tessa-van-der-wel",
+        "result_published": "14",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": null,
+        "name": "Lyn Saelens",
+        "result_published": "14",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "ashley-veenstra",
+        "result_published": "14",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
