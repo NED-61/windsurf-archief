@@ -229,6 +229,13 @@
       fotoSec.hidden = false;
     }).catch(function () { /* dienst niet bereikbaar: het blok blijft verborgen */ });
   }
+  var fotoRider = document.querySelector(".fotos-rider[data-rider]");
+  if (fotoRider && fotoBase) {
+    fotoFetch("/api/rider/" + encodeURIComponent(fotoRider.getAttribute("data-rider"))).then(function (j) {
+      if (!j.n) return;
+      fotoGrid(j.fotos, fotoRider.querySelector(".fotos-grid")); fotoRider.querySelector(".fotos-n").textContent = j.n + (j.n === 1 ? " foto" : " foto's"); fotoRider.hidden = false;
+    }).catch(function () { /* idem */ });
+  }
   var fotoNieuw = document.querySelector(".fotos-nieuw");
   if (fotoNieuw && fotoBase) {
     fotoFetch("/api/nieuw?n=12").then(function (j) {

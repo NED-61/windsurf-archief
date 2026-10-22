@@ -189,7 +189,11 @@ Nog te doen door Max (in deze volgorde; alles staat stap voor stap in `UNRAID.md
 4. Mailbox in hPanel aanmaken en de SMTP-variabelen invullen.
 5. Eigen foto's uploaden als admin; dan een paar bekenden uitnodigen (claimcode uitdelen op `/beheer?tab=claims`).
 
-Daarna F3 (taggen, riderpagina, jeugdregel) en F4.
+**22 oktober 2026, later op de avond: F0 gemeten, F3 gebouwd, F4 deels.** De container draait op de Unraid (poort 8010, funnel op 10000, zie UNRAID.md), de site staat live met het fotoblok. Meting door Max: 60 thumbnails in 0,3 s, maar vermoedelijk vanaf een apparaat in het tailnet, dus de echte 4G-meting staat nog open. Max koos: doorgaan met de fasen.
+
+- F3 (windsurf-foto 0.3.0): taggen op de fotopagina met de deelnemerslijst van de wedstrijd als eerste suggestie, vrije namen, tag weghalen (beheer, rider zelf, tagger, uploader), goedkeuren (beheer, rider zelf), jeugdregel (rider alleen in jeugdklassen, of wedstrijd met alleen jeugdklassen: tag wacht), 'toon geen foto's op mijn profiel' (verbergt ook de naam bij foto's), tags in de wachtrij op `/beheer`, fotoblok op de riderpagina van de site (`/api/rider/<id>`). De jeugdvlag komt uit `assets/riders.json` (`youth`) en `assets/wedstrijden.json` (`youth_classes`), berekend uit de klassenamen in `build_site.py` (`YOUTH_RE`).
+- F4, gedaan: export `/api/export/<slug>` en `tools/foto_manifest.py` (manifestregels in `media/media.json`, K10); fotografen op de startpagina van de fotodienst. Nog niet: video-links (vraagt een afspraak over waar die in `event.json` komen), statistieken per wedstrijd op de archiefsite, hash-controle van de NAS vanuit `archive.py verify`.
+- Nog voor Max: op de Unraid de container bijwerken naar 0.3.0 (DOCKER, Force update); de 4G-meting; SMTP; eigen foto's; het pad van de originelen is `/mnt/user/max/fotos/windsurf-archief`.
 
 ## Bronnen
 

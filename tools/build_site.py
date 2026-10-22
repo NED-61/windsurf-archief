@@ -107,6 +107,17 @@ def class_label(r):
     return r["event"].get("class") or r["id"]
 
 
+YOUTH_RE = re.compile(r"jeugd|youth|junior|kids|boys|girls|jongens|meisjes|t/m 1[0-9]|up to 1[0-9]|\(-1[0-9]\)|-1[0-9] years|under 20|u1[0-9]\b|u20\b", re.I)
+MIXED_RE = re.compile(r"open|ladies|dames|masters|adults|overall", re.I)   # 'Fin (Open & Youth)', 'Chicks/Girls/Ladies': gemengd, dus geen jeugdklasse
+
+
+def is_youth_class(r):
+    """Jeugd- of kidsklasse volgens de korte klassenaam (voor de jeugdregel van de fotodienst: een tag op zo'n rider wacht op
+    goedkeuring). Alleen de korte naam: de gepubliceerde naam noemt soms divisies ('Heren (divisies Heren, Jeugd, Master)')."""
+    lab = class_label(r)
+    return bool(YOUTH_RE.search(lab)) and not MIXED_RE.search(lab)
+
+
 def published_class(r):
     pub = r["event"].get("class_label_published") or r["event"].get("class")
     return pub if pub and norm(pub) != norm(class_label(r)) else None
@@ -630,6 +641,10 @@ def rider_page(P, pid, a, results, agg=()):
   {('<p class="aka">Ook gepubliceerd als ' + ', '.join(esc(x) for x in aliases) + '.</p>') if aliases else ''}
   {('<ul class="sails" aria-label="Zeilnummers">' + ''.join(sail_bits) + '</ul>') if sail_bits else ''}
 </header>
+<section class="block fotos-rider" data-rider="{esc(pid)}" hidden>
+  <div class="block-h"><h2>Foto's <small class="muted fotos-n"></small></h2><a href="{FOTO_URL}/" rel="noopener">Alle foto's</a></div>
+  <div class="fotos-grid"></div>
+</section>
 <div class="tbl-wrap"><table class="res rider-t">
 <caption>Alle starts in het archief, nieuwste eerst.</caption>
 <thead><tr><th scope="col" class="num">Jaar</th><th scope="col">Wedstrijd</th><th scope="col">Klasse</th><th scope="col">Plaats</th><th scope="col">Zeilnr.</th><th scope="col">Divisie</th><th scope="col" class="num">Resultaat</th></tr></thead>
@@ -818,9 +833,11 @@ def fototest_page():
     fetch(base + "/api/test" + bust, { mode: "cors" }).then(function (r) { if (!r.ok) throw new Error("status " + r.status); return r.json(); }).then(function (j) {
       var t1 = performance.now(), n = j.fotos.length, klaar = 0, fouten = 0;
       j.fotos.forEach(function (f) {
-        var img = new Image(); img.width = f.tw; img.height = f.th; img.decoding = "async";
+        var a = document.createElement("a"); a.className = "ft"; a.href = f.m.replace(/^https?:\\/\\/[^\\/]+/, base);   /* zelfde opmaak als het echte fotoblok */
+        var img = new Image(); img.width = f.tw; img.height = f.th; img.decoding = "async"; img.alt = "";
         img.onload = img.onerror = function (e) { klaar++; if (e.type === "error") fouten++; if (klaar === n) einde(); };
-        img.src = f.t.replace(/^https?:\\/\\/[^\\/]+/, base) + bust; grid.appendChild(img);   /* altijd via het adres uit het veld, ook als APP_URL op de NAS anders staat */
+        img.src = f.t.replace(/^https?:\\/\\/[^\\/]+/, base) + bust;   /* altijd via het adres uit het veld, ook als APP_URL op de NAS anders staat */
+        a.appendChild(img); grid.appendChild(a);
       });
       function einde() {
         var t2 = performance.now(), bytes = 0;
@@ -852,12 +869,13 @@ def fototest_page():
 
 # ---------------------------------------------------------------- data voor de browser
 def write_js_data(out, P, events, results, apps):
-    riders, sails_by = [], {}
+    riders, sails_by, youth_by = [], {}, {}
     for pid, a in apps.items():
         p = P.get(pid)
         if not p: continue
         sails = sorted({x["sail"] for x in a if x["sail"]})
         sails_by[pid] = sails
+        youth_by[pid] = all(is_youth_class(x["r"]) for x in a)   # alleen in jeugdklassen gevaren
         years = sorted({x["ev"]["year"] for x in a})
         riders.append([pid, p["name"], " ".join(p.get("aliases", [])), " ".join(sails), len(a), f"{years[0]}–{years[-1]}" if years[0] != years[-1] else str(years[0])])
     evs = [[e["slug"], e["name"], e["year"], " ".join(class_label(r) for r in e["results"])] for e in events.values()]
@@ -871,10 +889,11 @@ def write_js_data(out, P, events, results, apps):
     # voor de fotodienst (windsurf-foto): de enige lijst van wedstrijden en riders, zodat people.json het enige ridersregister blijft
     wedstrijden = [{"slug": e["slug"], "name": e["name"], "year": e["year"], "date": e["date"], "date_end": e["date_end"], "location": e["location"],
                     "series": e["series"], "scope": e["scope"], "classes": [class_label(r) for r in e["results"]],
+                    "youth_classes": [class_label(r) for r in e["results"] if is_youth_class(r)],
                     "riders": sorted({x["person"] for r in e["results"] for x in r["entries"] if x.get("person") and counted(x)})}
                    for e in sorted(events.values(), key=lambda e: e["sortdate"], reverse=True)]
     (out / "assets/wedstrijden.json").write_text(json.dumps(wedstrijden, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    riders_json = [{"id": r[0], "name": r[1], "aliases": P[r[0]].get("aliases", []), "sails": sails_by[r[0]], "n": r[4], "years": r[5]} for r in riders]
+    riders_json = [{"id": r[0], "name": r[1], "aliases": P[r[0]].get("aliases", []), "sails": sails_by[r[0]], "n": r[4], "years": r[5], "youth": youth_by[r[0]]} for r in riders]
     (out / "assets/riders.json").write_text(json.dumps(riders_json, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
