@@ -171,7 +171,7 @@ CSS_VERSION = "5"      # wordt in main() vervangen door een hash van de inhoud (
 
 def page(title, body, depth, active=None, description=None, extra_js=""):
     pre = "../" * depth
-    nav = [("wedstrijden.html", "Wedstrijden", "wedstrijden"), ("riders.html", "Riders", "riders"),
+    nav = [("wedstrijden.html", "Wedstrijden", "wedstrijden"), ("riders.html", "Riders", "riders"), ("fotos.html", "Foto's", "fotos"),
            ("statistieken.html", "Statistieken", "statistieken"), ("over.html", "Over", "over")]
     cur = ' aria-current="page"'
     navhtml = "".join(f'<a href="{pre}{h}"{cur if k == active else ""}>{t}</a>' for h, t, k in nav)
@@ -537,7 +537,7 @@ def event_page(P, ev, events):
 <div class="cls-grid">{''.join(cls)}</div>
 {('<p class="awards">Prijzen: ' + '; '.join(f'{esc(x["award"])}: {esc(x["name"])}' for x in ev["awards"]) + '.</p>') if ev.get("awards") else ''}
 {('<p class="small">Fleet = groep die samen dezelfde races vaart (bijvoorbeeld long course of short course). Per categorie is er een eigen klassement; een overall-klassement telt de categorieën samen.</p>') if grouped else ''}
-<section class="block fotos" data-wedstrijd="{esc(ev['slug'])}" hidden>
+<section class="block fotos" id="fotos" data-wedstrijd="{esc(ev['slug'])}" hidden>
   <div class="block-h"><h2>Foto's <small class="muted fotos-n"></small></h2><a class="fotos-upload" href="{FOTO_URL}/upload?wedstrijd={esc(ev['slug'])}" rel="noopener">Foto's toevoegen</a></div>
   <p class="fotos-leeg muted" hidden>Nog geen foto's van deze wedstrijd. Heb jij er? Voeg ze toe.</p>
   <div class="fotos-grid"></div>
@@ -642,7 +642,7 @@ def rider_page(P, pid, a, results, agg=()):
   {('<ul class="sails" aria-label="Zeilnummers">' + ''.join(sail_bits) + '</ul>') if sail_bits else ''}
 </header>
 <section class="block fotos-rider" data-rider="{esc(pid)}" hidden>
-  <div class="block-h"><h2>Foto's <small class="muted fotos-n"></small></h2><a href="{FOTO_URL}/" rel="noopener">Alle foto's</a></div>
+  <div class="block-h"><h2>Foto's <small class="muted fotos-n"></small></h2><a href="../fotos.html">Alle foto's</a></div>
   <div class="fotos-grid"></div>
 </section>
 <div class="tbl-wrap"><table class="res rider-t">
@@ -803,10 +803,29 @@ def home_page(P, events, results, apps):
   <div class="ev-cards">{''.join(latest)}</div>
 </section>
 <section class="block fotos-nieuw" hidden>
-  <div class="block-h"><h2>Nieuwste foto's</h2><a href="{FOTO_URL}/" rel="noopener">Alle foto's</a></div>
+  <div class="block-h"><h2>Nieuwste foto's</h2><a href="fotos.html">Alle foto's</a></div>
   <div class="fotos-grid"></div>
 </section>"""
     return page(SITE_NAME, body, 0, None)
+
+
+def fotos_page():
+    """Overzicht van de foto's op de site zelf: nieuwste foto's en alle wedstrijden met foto's (gevuld door site.js vanaf de fotodienst).
+    Alleen uploaden, inloggen en het bewerken of taggen van een foto gebeuren op de fotodienst."""
+    body = f"""<header class="ph"><h1>Foto's</h1>
+<p class="lede">Foto's bij de wedstrijden, geplaatst door riders en fotografen. Klik op een foto om hem groot te zien; bij de wedstrijd staan ze allemaal.</p>
+<p><a class="btn-link" href="{FOTO_URL}/upload" rel="noopener">Foto's toevoegen</a> <span class="small">Heb jij foto's van een wedstrijd uit het archief? Maak een account bij de fotodienst en zet ze erbij.</span></p>
+</header>
+<p class="fotos-uit muted" hidden>De fotodienst is op dit moment niet bereikbaar. Probeer het later nog eens.</p>
+<section class="block fotos-alle" hidden>
+  <div class="block-h"><h2>Nieuwste foto's</h2></div>
+  <div class="fotos-grid"></div>
+</section>
+<section class="block fotos-wedstrijden" hidden>
+  <div class="block-h"><h2>Wedstrijden met foto's</h2></div>
+  <ul class="evs"></ul>
+</section>"""
+    return page("Foto's", body, 0, "fotos", "Foto's bij de wedstrijden in het archief.")
 
 
 def fototest_page():
@@ -927,6 +946,7 @@ def main():
     w("zoeken.html", search_page())
     w("over.html", about_page(events, results, apps))
     w("fototest.html", fototest_page())
+    w("fotos.html", fotos_page())
     for ev in events.values(): w(f"wedstrijd/{ev['slug']}.html", event_page(P, ev, events))
     for r in results.values(): w(f"uitslag/{r['id']}.html", result_page(P, r, events[r['_event']]))
     for pid, a in apps.items():
