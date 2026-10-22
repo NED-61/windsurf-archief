@@ -820,7 +820,7 @@ def fototest_page():
       j.fotos.forEach(function (f) {
         var img = new Image(); img.width = f.tw; img.height = f.th; img.decoding = "async";
         img.onload = img.onerror = function (e) { klaar++; if (e.type === "error") fouten++; if (klaar === n) einde(); };
-        img.src = f.t + bust; grid.appendChild(img);
+        img.src = f.t.replace(/^https?:\\/\\/[^\\/]+/, base) + bust; grid.appendChild(img);   /* altijd via het adres uit het veld, ook als APP_URL op de NAS anders staat */
       });
       function einde() {
         var t2 = performance.now(), bytes = 0;
