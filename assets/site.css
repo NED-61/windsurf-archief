@@ -244,3 +244,5 @@ body.lb-open { overflow: hidden; }
 .fototest-form input { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: .4rem .6rem; }
 .fototest-form button { font: inherit; padding: .35rem .8rem; border: 1px solid var(--link); border-radius: 4px; background: var(--bg); color: var(--link); cursor: pointer; }
 .fototest-uit { font-variant-numeric: tabular-nums; }
+.btn-link { display: inline-block; padding: .35rem .9rem; border: 1px solid var(--link); border-radius: 4px; color: var(--link); margin-right: .5rem; }
+.btn-link:hover { background: var(--hover); text-decoration: none; }

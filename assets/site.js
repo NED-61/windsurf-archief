@@ -236,6 +236,24 @@
       fotoGrid(j.fotos, fotoRider.querySelector(".fotos-grid")); fotoRider.querySelector(".fotos-n").textContent = j.n + (j.n === 1 ? " foto" : " foto's"); fotoRider.hidden = false;
     }).catch(function () { /* idem */ });
   }
+  var fotoAlle = document.querySelector(".fotos-alle");
+  if (fotoAlle && fotoBase) {
+    var fotoUit = document.querySelector(".fotos-uit"), fotoWed = document.querySelector(".fotos-wedstrijden");
+    fotoFetch("/api/nieuw?n=60").then(function (j) {
+      if (j.n) { fotoGrid(j.fotos, fotoAlle.querySelector(".fotos-grid")); fotoAlle.hidden = false; }
+      return fotoFetch("/api/telling");
+    }).then(function (telling) {
+      var namen = {};
+      (window.ARCHIEF ? window.ARCHIEF.e : []).forEach(function (x) { namen[x[0]] = { name: x[1], year: x[2] }; });
+      var rows = Object.keys(telling).map(function (slug) { return { slug: slug, n: telling[slug], name: (namen[slug] || {}).name || slug, year: (namen[slug] || {}).year || 0 }; })
+        .sort(function (a, b) { return b.year - a.year || a.name.localeCompare(b.name, "nl"); });
+      if (!rows.length) { if (fotoUit) { fotoUit.textContent = "Er zijn nog geen foto's geplaatst. Heb jij er? Voeg ze toe."; fotoUit.hidden = false; } return; }
+      fotoWed.querySelector(".evs").innerHTML = rows.map(function (r) {
+        return '<li class="ev"><div class="ev-h"><a class="ev-name" href="wedstrijd/' + esc(r.slug) + '.html#fotos">' + esc(r.name) + '</a><span class="ev-meta">' + r.year + " · " + r.n + (r.n === 1 ? " foto" : " foto's") + "</span></div></li>";
+      }).join("");
+      fotoWed.hidden = false;
+    }).catch(function () { if (fotoUit) fotoUit.hidden = false; });
+  }
   var fotoNieuw = document.querySelector(".fotos-nieuw");
   if (fotoNieuw && fotoBase) {
     fotoFetch("/api/nieuw?n=12").then(function (j) {
