@@ -45,7 +45,7 @@ archive/, data/people.json  (bron van waarheid voor wedstrijden en riders)
 
 | # | Keuze | Aanbeveling | Alternatief |
 |---|---|---|---|
-| K1 | Publiek adres van de NAS | **Besloten (22 oktober): Tailscale Funnel.** De container als eigen Tailscale-apparaat `windsurf-foto` met Funnel aan (manier A uit de fvjl-handleiding), adres `https://windsurf-foto.<tailnet>.ts.net`; lukt dat niet, dan `tailscale funnel` op de host op poort 443 of 10000 (8443 is van fvjl). Geen cache, bandbreedte beperkt: meten in F0 | Later, als het te traag wordt: Cloudflare Tunnel naar `foto.<domein>` met cache; één basis-adres wijzigen |
+| K1 | Publiek adres van de NAS | **Besloten (22 oktober): Tailscale Funnel.** `tailscale funnel` op de host, poort 10000 naar de container (443 is de Unraid-webinterface via Tailscale Serve, 8443 is fvjl): adres `https://homelab257.tailc2d973.ts.net:10000`. Geen cache, bandbreedte beperkt: meten in F0 | Later, als het te traag wordt: Cloudflare Tunnel naar `foto.<domein>` met cache; één basis-adres wijzigen |
 | K2 | Hoe de site de foto's toont | Bij het laden ophalen (`fetch`) bij de fotodienst: altijd actueel, geen herbouw nodig | Bij de GitHub-build de manifesten meebakken: zoekmachines zien de foto's, maar verouderd tussen builds |
 | K3 | Techniek fotodienst | Python: FastAPI, SQLite, Pillow (en pillow-heif voor iPhone-foto's), Jinja2-templates. Zelfde taal als alle archiefgereedschap | Next.js met de skeletten van fvjl (sessies, Dockerfile, Unraid-handleiding bestaan al) |
 | K4 | Wat bezoekers krijgen | Thumbnail 400 px en kijkversie 1600 px (JPEG/WebP). Het origineel blijft op de NAS, te downloaden door uploader en admin, en door iedereen als de uploader dat aanvinkt | Altijd originelen: 10 tot 20 keer zoveel verkeer |
