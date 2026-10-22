@@ -193,7 +193,8 @@ Nog te doen door Max (in deze volgorde; alles staat stap voor stap in `UNRAID.md
 
 - F3 (windsurf-foto 0.3.0): taggen op de fotopagina met de deelnemerslijst van de wedstrijd als eerste suggestie, vrije namen, tag weghalen (beheer, rider zelf, tagger, uploader), goedkeuren (beheer, rider zelf), jeugdregel (rider alleen in jeugdklassen, of wedstrijd met alleen jeugdklassen: tag wacht), 'toon geen foto's op mijn profiel' (verbergt ook de naam bij foto's), tags in de wachtrij op `/beheer`, fotoblok op de riderpagina van de site (`/api/rider/<id>`). De jeugdvlag komt uit `assets/riders.json` (`youth`) en `assets/wedstrijden.json` (`youth_classes`), berekend uit de klassenamen in `build_site.py` (`YOUTH_RE`).
 - F4, gedaan: export `/api/export/<slug>` en `tools/foto_manifest.py` (manifestregels in `media/media.json`, K10); fotografen op de startpagina van de fotodienst. Nog niet: video-links (vraagt een afspraak over waar die in `event.json` komen), statistieken per wedstrijd op de archiefsite, hash-controle van de NAS vanuit `archive.py verify`.
-- Nog voor Max: op de Unraid de container bijwerken naar 0.3.0 (DOCKER, Force update); de 4G-meting; SMTP; eigen foto's; het pad van de originelen is `/mnt/user/max/fotos/windsurf-archief`.
+- Op verzoek van Max (0.3.1): de originelen staan op de NAS in mappen per jaar en wedstrijd met de opnamedatum in de naam (`2024/nk-slalom-2024/nk-slalom-2024_20241019-143512_a874401b.jpg`), zodat ze ook zonder de dienst terug te vinden zijn; de oude indeling op hash wordt bij het opstarten verplaatst.
+- Nog voor Max: op de Unraid de container bijwerken (DOCKER, Force update; `/api/health` toont de versie); SMTP; eigen foto's; het pad van de originelen is `/mnt/user/max/fotos/windsurf-archief`.
 
 ## Bronnen
 
