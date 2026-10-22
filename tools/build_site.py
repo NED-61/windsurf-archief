@@ -5,7 +5,9 @@
 
 Leest alleen archive/**/uitslagen/*.json, archive/**/event.json en data/people.json (nooit bronnen/, local-only/ of de
 registry) en schrijft losse HTML-pagina's met relatieve links, zodat de map overal gehost kan worden (domein-root of submap).
-Opmaak: stijl C "Rustig" (systeemletter, dunne lijnen, één linkkleur); de site doet geen verzoeken naar andere domeinen.
+Opmaak: stijl C "Rustig" (systeemletter, dunne lijnen, één linkkleur). Het enige verzoek naar een ander domein is het ophalen
+van foto's bij de fotodienst (FOTO_URL, repo windsurf-foto op de NAS; zie docs/fotoplan.md): is die niet bereikbaar, dan
+blijft het fotoblok verborgen en werkt de rest gewoon. assets/wedstrijden.json en assets/riders.json zijn voor die dienst.
 """
 import argparse, datetime, hashlib, html, json, re, shutil, unicodedata
 from collections import Counter, defaultdict
@@ -15,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = Path(__file__).resolve().parent / "site_assets"
 SITE_NAME = "Windsurf Wedstrijdarchief"
 REPO_URL = "https://github.com/NED-61/windsurf-archief"
+FOTO_URL = "https://homelab257.tailc2d973.ts.net"   # de fotodienst (windsurf-foto op de NAS, via Tailscale Funnel); zonder slash aan het eind
 MONTHS = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
 PARTICLES = {"van", "de", "der", "den", "het", "t", "ter", "ten", "te", "vd", "v", "d", "in", "op", "la", "le", "du", "da", "di", "dal", "del", "von"}
 REMARKS = {"DNF": "niet gefinisht", "DNS": "niet gestart", "DNC": "niet aan de start", "DSQ": "gediskwalificeerd",
@@ -173,7 +176,7 @@ def page(title, body, depth, active=None, description=None, extra_js=""):
 <script defer src="{pre}assets/search-index.js?v={CSS_VERSION}"></script>{extra_js}
 <script defer src="{pre}assets/site.js?v={CSS_VERSION}"></script>
 </head>
-<body data-root="{pre}">
+<body data-root="{pre}" data-foto="{FOTO_URL}">
 <a class="skip" href="#main">Naar de inhoud</a>
 <header class="top">
   <div class="wrap top-in">
@@ -523,6 +526,11 @@ def event_page(P, ev, events):
 <div class="cls-grid">{''.join(cls)}</div>
 {('<p class="awards">Prijzen: ' + '; '.join(f'{esc(x["award"])}: {esc(x["name"])}' for x in ev["awards"]) + '.</p>') if ev.get("awards") else ''}
 {('<p class="small">Fleet = groep die samen dezelfde races vaart (bijvoorbeeld long course of short course). Per categorie is er een eigen klassement; een overall-klassement telt de categorieën samen.</p>') if grouped else ''}
+<section class="block fotos" data-wedstrijd="{esc(ev['slug'])}" hidden>
+  <div class="block-h"><h2>Foto's <small class="muted fotos-n"></small></h2><a class="fotos-upload" href="{FOTO_URL}/upload?wedstrijd={esc(ev['slug'])}" rel="noopener">Foto's toevoegen</a></div>
+  <p class="fotos-leeg muted" hidden>Nog geen foto's van deze wedstrijd. Heb jij er? Voeg ze toe.</p>
+  <div class="fotos-grid"></div>
+</section>
 {oth}
 {('<section class="block small"><h3>Bronnen voor datum en locatie</h3><ul class="notes">' + srcs + '</ul></section>') if srcs else ''}"""
     return page(ev["name"], body, 1, "wedstrijden", f"Uitslagen van {ev['name']}.")
@@ -744,6 +752,8 @@ def about_page(events, results, apps):
 <ul>{src_li}</ul>
 <h2>Hoe riders worden gekoppeld</h2>
 <p>Dezelfde volledige naam geldt als dezelfde persoon. Een andere schrijfwijze met hetzelfde zeilnummer ook. Twijfelgevallen worden pas samengevoegd als dat is nagegaan.</p>
+<h2>Foto's</h2>
+<p>Foto's bij een wedstrijd komen van riders en fotografen, die ze zelf plaatsen op <a href="{FOTO_URL}/" rel="noopener">de fotodienst van het archief</a>, met toestemming en naamsvermelding. De foto's staan op een eigen server, los van deze site; is die even niet bereikbaar, dan ontbreekt alleen het fotoblok. Staat er een foto van jou die je liever niet online ziet? Meld het bij de foto.</p>
 <h2>Iets gezien dat niet klopt?</h2>
 <p>Een verkeerde naam, een ontbrekende uitslag of een oude pdf op zolder: de data staat in <a href="{REPO_URL}" rel="noopener">deze GitHub-repository</a>. Er staan geen geboortedata of contactgegevens in, alleen wat in de uitslagen stond.</p>
 </div>"""
@@ -776,17 +786,78 @@ def home_page(P, events, results, apps):
 <section class="block">
   <div class="block-h"><h2>Laatste wedstrijden</h2><a href="wedstrijden.html">Alle wedstrijden</a></div>
   <div class="ev-cards">{''.join(latest)}</div>
+</section>
+<section class="block fotos-nieuw" hidden>
+  <div class="block-h"><h2>Nieuwste foto's</h2><a href="{FOTO_URL}/" rel="noopener">Alle foto's</a></div>
+  <div class="fotos-grid"></div>
 </section>"""
     return page(SITE_NAME, body, 0, None)
 
 
+def fototest_page():
+    """Meetpagina voor fase F0 van het fotoplan: laadt 60 testthumbnails van de fotodienst en toont hoe lang dat duurde.
+    Niet gelinkt vanuit het menu. Een ander adres testen: fototest.html?foto=https://..."""
+    body = f"""<header class="ph"><h1>Fototest</h1>
+<p class="lede">Meet hoe snel de foto's van de NAS laden (fase F0 van het fotoplan). Open deze pagina buiten huis, op 4G, en druk op Start; doe het ook met drie apparaten tegelijk.</p></header>
+<form class="form fototest-form" onsubmit="return false">
+  <label>Adres van de fotodienst <input id="ft-base" value="{FOTO_URL}" spellcheck="false"></label>
+  <p><button type="button" id="ft-start">Start</button> <button type="button" id="ft-nocache">Opnieuw, zonder browsercache</button> <button type="button" id="ft-groot">Eén foto groot</button></p>
+</form>
+<ol id="ft-uit" class="fototest-uit"></ol>
+<div id="ft-grid" class="fotos-grid"></div>"""
+    js = """<script>
+(function () {
+  var uit, grid, base;
+  function regel(t) { var li = document.createElement("li"); li.textContent = t; uit.insertBefore(li, uit.firstChild); }
+  function mb(n) { return (n / 1e6).toFixed(2) + " MB"; }
+  function run(nocache) {
+    base = document.getElementById("ft-base").value.replace(/\\/$/, "");
+    grid.innerHTML = ""; performance.clearResourceTimings && performance.clearResourceTimings();
+    var t0 = performance.now(), bust = nocache ? "?x=" + Date.now() : "";
+    regel("Bezig…");
+    fetch(base + "/api/test" + bust, { mode: "cors" }).then(function (r) { if (!r.ok) throw new Error("status " + r.status); return r.json(); }).then(function (j) {
+      var t1 = performance.now(), n = j.fotos.length, klaar = 0, fouten = 0;
+      j.fotos.forEach(function (f) {
+        var img = new Image(); img.width = f.tw; img.height = f.th; img.decoding = "async";
+        img.onload = img.onerror = function (e) { klaar++; if (e.type === "error") fouten++; if (klaar === n) einde(); };
+        img.src = f.t + bust; grid.appendChild(img);
+      });
+      function einde() {
+        var t2 = performance.now(), bytes = 0;
+        (performance.getEntriesByType ? performance.getEntriesByType("resource") : []).forEach(function (e) { if (e.name.indexOf(base) === 0) bytes += e.transferSize || 0; });
+        uit.firstChild.textContent = n + " thumbnails in " + ((t2 - t0) / 1000).toFixed(1) + " s (manifest " + Math.round(t1 - t0) + " ms, foto's " + ((t2 - t1) / 1000).toFixed(1) + " s)" +
+          (bytes ? ", " + mb(bytes) + ", " + Math.round(bytes / 1e3 / ((t2 - t1) / 1000)) + " kB/s" : ", omvang onbekend (cache?)") + (fouten ? ", " + fouten + " mislukt" : "") + (nocache ? ", zonder cache" : "") + " · " + new Date().toLocaleTimeString("nl-NL");
+      }
+    }).catch(function (e) { uit.firstChild.textContent = "Mislukt: " + e.message + " (staat de dienst aan, en klopt het adres?)"; });
+  }
+  function groot() {
+    base = document.getElementById("ft-base").value.replace(/\\/$/, "");
+    var t0 = performance.now(), img = new Image(), n = 1 + Math.floor(Math.random() * 60), nn = (n < 10 ? "0" : "") + n;
+    regel("Bezig…");
+    img.onload = function () { uit.firstChild.textContent = "Kijkversie (1600 px) in " + Math.round(performance.now() - t0) + " ms"; };
+    img.onerror = function () { uit.firstChild.textContent = "Kijkversie mislukt"; };
+    img.src = base + "/i/test-" + nn + "/m.jpg?x=" + Date.now(); img.style.width = "100%"; grid.innerHTML = ""; grid.appendChild(img);
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    uit = document.getElementById("ft-uit"); grid = document.getElementById("ft-grid");
+    var q = new URLSearchParams(location.search).get("foto"); if (q) document.getElementById("ft-base").value = q;
+    document.getElementById("ft-start").addEventListener("click", function () { run(false); });
+    document.getElementById("ft-nocache").addEventListener("click", function () { run(true); });
+    document.getElementById("ft-groot").addEventListener("click", groot);
+  });
+})();
+</script>"""
+    return page("Fototest", body, 0, None, "Meetpagina voor de foto's van de NAS.", extra_js=js)
+
+
 # ---------------------------------------------------------------- data voor de browser
 def write_js_data(out, P, events, results, apps):
-    riders = []
+    riders, sails_by = [], {}
     for pid, a in apps.items():
         p = P.get(pid)
         if not p: continue
         sails = sorted({x["sail"] for x in a if x["sail"]})
+        sails_by[pid] = sails
         years = sorted({x["ev"]["year"] for x in a})
         riders.append([pid, p["name"], " ".join(p.get("aliases", [])), " ".join(sails), len(a), f"{years[0]}–{years[-1]}" if years[0] != years[-1] else str(years[0])])
     evs = [[e["slug"], e["name"], e["year"], " ".join(class_label(r) for r in e["results"])] for e in events.values()]
@@ -797,6 +868,14 @@ def write_js_data(out, P, events, results, apps):
                             "e": {x["person"]: x.get("rank") for x in r["entries"] if x.get("person")},
                             **({"v": 1} if r.get("provisional") else {})} for r in results.values() if not extra_ranking(r)}}      # v = tussenstand: telt mee, met een aanduiding
     (out / "assets/duel-data.js").write_text("window.DUEL=" + json.dumps(duel, ensure_ascii=False, separators=(",", ":")) + ";", encoding="utf-8")
+    # voor de fotodienst (windsurf-foto): de enige lijst van wedstrijden en riders, zodat people.json het enige ridersregister blijft
+    wedstrijden = [{"slug": e["slug"], "name": e["name"], "year": e["year"], "date": e["date"], "date_end": e["date_end"], "location": e["location"],
+                    "series": e["series"], "scope": e["scope"], "classes": [class_label(r) for r in e["results"]],
+                    "riders": sorted({x["person"] for r in e["results"] for x in r["entries"] if x.get("person") and counted(x)})}
+                   for e in sorted(events.values(), key=lambda e: e["sortdate"], reverse=True)]
+    (out / "assets/wedstrijden.json").write_text(json.dumps(wedstrijden, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    riders_json = [{"id": r[0], "name": r[1], "aliases": P[r[0]].get("aliases", []), "sails": sails_by[r[0]], "n": r[4], "years": r[5]} for r in riders]
+    (out / "assets/riders.json").write_text(json.dumps(riders_json, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 def asset_version():
@@ -828,6 +907,7 @@ def main():
     w("statistieken.html", stats_page(P, events, results, apps))
     w("zoeken.html", search_page())
     w("over.html", about_page(events, results, apps))
+    w("fototest.html", fototest_page())
     for ev in events.values(): w(f"wedstrijd/{ev['slug']}.html", event_page(P, ev, events))
     for r in results.values(): w(f"uitslag/{r['id']}.html", result_page(P, r, events[r['_event']]))
     for pid, a in apps.items():
