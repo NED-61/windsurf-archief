@@ -177,10 +177,11 @@
     if (ctl) setTimeout(function () { ctl.abort(); }, 8000);
     return fetch(fotoBase + pad, { mode: "cors", signal: ctl ? ctl.signal : undefined }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
   }
+  function fotoAdres(u) { return String(u || "").replace(/^https?:\/\/[^\/]+/, fotoBase); }   /* altijd via fotoBase, ook als APP_URL op de NAS anders staat */
   function fotoGrid(fotos, cont) {
     cont.innerHTML = fotos.map(function (f) {
-      return '<a class="ft" href="' + esc(f.url) + '" data-m="' + esc(f.m) + '" data-url="' + esc(f.url) + '" data-caption="' + esc(f.caption || "") + '" data-credit="' + esc(f.credit || "") + '" rel="noopener">' +
-        '<img loading="lazy" src="' + esc(f.t) + '" width="' + f.tw + '" height="' + f.th + '" alt="' + esc(f.caption || "Foto") + '"></a>';
+      return '<a class="ft" href="' + esc(fotoAdres(f.url)) + '" data-m="' + esc(fotoAdres(f.m)) + '" data-url="' + esc(fotoAdres(f.url)) + '" data-caption="' + esc(f.caption || "") + '" data-credit="' + esc(f.credit || "") + '" rel="noopener">' +
+        '<img loading="lazy" src="' + esc(fotoAdres(f.t)) + '" width="' + f.tw + '" height="' + f.th + '" alt="' + esc(f.caption || "Foto") + '"></a>';
     }).join("");
   }
   var lb = null, lbLijst = [], lbIdx = -1;
@@ -222,7 +223,7 @@
   var fotoSec = document.querySelector(".fotos[data-wedstrijd]");
   if (fotoSec && fotoBase) {
     fotoFetch("/api/wedstrijd/" + encodeURIComponent(fotoSec.getAttribute("data-wedstrijd"))).then(function (j) {
-      var up = fotoSec.querySelector(".fotos-upload"); if (up && j.upload_url) up.href = j.upload_url;
+      var up = fotoSec.querySelector(".fotos-upload"); if (up && j.upload_url) up.href = fotoAdres(j.upload_url);
       if (j.n) { fotoGrid(j.fotos, fotoSec.querySelector(".fotos-grid")); fotoSec.querySelector(".fotos-n").textContent = j.n + (j.n === 1 ? " foto" : " foto's"); }
       else fotoSec.querySelector(".fotos-leeg").hidden = false;
       fotoSec.hidden = false;
