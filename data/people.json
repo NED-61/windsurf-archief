@@ -7534,22 +7534,11 @@
    ]
   },
   {
-   "id": "dmitiry-kropiventsev",
-   "name": "Dmitiry Kropiventsev",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "nk-2026-slalom-fin",
-     "name": "Dmitiry Kropiventsev",
-     "sail": "171",
-     "division": "Masters"
-    }
-   ]
-  },
-  {
    "id": "dmitriy-kropiventsev",
    "name": "Dmitriy Kropiventsev",
-   "aliases": [],
+   "aliases": [
+    "Dmitiry Kropiventsev"
+   ],
    "appearances": [
     {
      "event": "dam-x-2024-slalom-j-masters",
@@ -7580,6 +7569,24 @@
      "division": "Masters 35 plus",
      "bib": "151",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Dmitiry Kropiventsev",
+     "sail": "171",
+     "division": "Masters",
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Dmitiry Kropiventsev",
+      "Dmitriy Kropiventsev"
+     ],
+     "by": "gebruiker",
+     "date": "2026-10-22",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Dmitiry Kropiventsev' (dmitiry-kropiventsev) samengevoegd"
     }
    ]
   },
@@ -40584,15 +40591,5 @@
    "date": "2026-10-12"
   }
  ],
- "pending": [
-  {
-   "people": [
-    "dmitiry-kropiventsev",
-    "dmitriy-kropiventsev"
-   ],
-   "similarity": 0.95,
-   "source": "import_onk_slalom_2026",
-   "reason": "'Dmitiry Kropiventsev' (nk-2026-slalom-fin) lijkt op 'Dmitriy Kropiventsev', zonder gelijk zeilnummer"
-  }
- ]
+ "pending": []
 }
