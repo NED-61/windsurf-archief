@@ -167,8 +167,7 @@
 
   /* ---------- foto's van de fotodienst (windsurf-foto op de NAS) ----------
      Het fotoblok op een wedstrijdpagina en de strook op de homepage staan verborgen in de html en verschijnen pas als de dienst
-     antwoordt. Antwoordt hij niet (NAS uit, funnel uit), dan blijft alles zoals het was. De lightbox is dezelfde als galerij.js
-     in de repo windsurf-foto; wijzig je hier iets, kijk dan ook daar. */
+     antwoordt. Antwoordt hij niet (NAS uit, funnel uit), dan blijft alles zoals het was. */
   var fotoBase = document.body.getAttribute("data-foto") || "";
   var fotoQ = new URLSearchParams(location.search).get("foto");
   if (fotoQ) fotoBase = fotoQ.replace(/\/$/, "");
@@ -178,48 +177,13 @@
     return fetch(fotoBase + pad, { mode: "cors", signal: ctl ? ctl.signal : undefined }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
   }
   function fotoAdres(u) { return String(u || "").replace(/^https?:\/\/[^\/]+/, fotoBase); }   /* altijd via fotoBase, ook als APP_URL op de NAS anders staat */
+  /* klikken op een foto gaat naar de fotopagina van de fotodienst: daar staat hij groot, met wie erop staat en vorige/volgende (geen lightbox; keuze van Max, 22 oktober 2026) */
   function fotoGrid(fotos, cont) {
     cont.innerHTML = fotos.map(function (f) {
-      return '<a class="ft" href="' + esc(fotoAdres(f.url)) + '" data-m="' + esc(fotoAdres(f.m)) + '" data-url="' + esc(fotoAdres(f.url)) + '" data-caption="' + esc(f.caption || "") + '" data-credit="' + esc(f.credit || "") + '" rel="noopener">' +
+      return '<a class="ft" href="' + esc(fotoAdres(f.url)) + '" title="' + esc(f.caption || "") + '">' +
         '<img loading="lazy" src="' + esc(fotoAdres(f.t)) + '" width="' + f.tw + '" height="' + f.th + '" alt="' + esc(f.caption || "Foto") + '"></a>';
     }).join("");
   }
-  var lb = null, lbLijst = [], lbIdx = -1;
-  function lbBouw() {
-    lb = document.createElement("div");
-    lb.className = "lb"; lb.setAttribute("role", "dialog"); lb.setAttribute("aria-label", "Foto groot");
-    lb.innerHTML = '<img alt=""><div class="lb-bar"><div class="lb-txt"></div><a class="lb-link" href="#" rel="noopener">Details</a><span class="lb-n"></span></div>' +
-      '<button class="lb-prev" aria-label="Vorige">&#8249;</button><button class="lb-next" aria-label="Volgende">&#8250;</button><button class="lb-sluit" aria-label="Sluiten">&times;</button>';
-    lb.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); lbToon(lbIdx - 1); });
-    lb.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); lbToon(lbIdx + 1); });
-    lb.querySelector(".lb-sluit").addEventListener("click", lbSluit);
-    lb.addEventListener("click", function (e) { if (e.target === lb || e.target.tagName === "IMG") lbToon(lbIdx + 1); });
-    document.addEventListener("keydown", function (e) {
-      if (!lb || lb.hidden) return;
-      if (e.key === "Escape") lbSluit(); else if (e.key === "ArrowRight") lbToon(lbIdx + 1); else if (e.key === "ArrowLeft") lbToon(lbIdx - 1);
-    });
-    document.body.appendChild(lb);
-  }
-  function lbToon(i) {
-    if (!lbLijst.length) return;
-    lbIdx = (i + lbLijst.length) % lbLijst.length;
-    var a = lbLijst[lbIdx];
-    lb.querySelector("img").src = a.dataset.m;
-    lb.querySelector(".lb-txt").innerHTML = (a.dataset.caption ? esc(a.dataset.caption) + " " : "") + (a.dataset.credit ? '<span class="muted">Foto: ' + esc(a.dataset.credit) + "</span>" : "");
-    lb.querySelector(".lb-link").href = a.dataset.url || a.href;
-    lb.querySelector(".lb-n").textContent = (lbIdx + 1) + " / " + lbLijst.length;
-    lb.hidden = false; document.body.classList.add("lb-open");
-    var vlg = lbLijst[(lbIdx + 1) % lbLijst.length]; if (vlg) { var p = new Image(); p.src = vlg.dataset.m; }
-  }
-  function lbSluit() { if (lb) { lb.hidden = true; document.body.classList.remove("lb-open"); } }
-  document.addEventListener("click", function (e) {
-    var a = e.target.closest(".fotos-grid a.ft[data-m]");
-    if (!a || e.metaKey || e.ctrlKey) return;
-    e.preventDefault();
-    if (!lb) lbBouw();
-    lbLijst = Array.prototype.slice.call(a.closest(".fotos-grid").querySelectorAll("a.ft[data-m]"));
-    lbToon(lbLijst.indexOf(a));
-  });
   var fotoSec = document.querySelector(".fotos[data-wedstrijd]");
   if (fotoSec && fotoBase) {
     fotoFetch("/api/wedstrijd/" + encodeURIComponent(fotoSec.getAttribute("data-wedstrijd"))).then(function (j) {
