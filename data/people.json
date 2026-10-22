@@ -1185,6 +1185,13 @@
      "sail": "NB-20",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Amado vrieswijk",
+     "sail": "NB-20",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -3067,6 +3074,20 @@
      "sail": "NED-259",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "bevestigd"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Bart",
+     "sail": "NED-259",
+     "division": "Youth",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Bart VD Bogaart",
+     "sail": "NED-259",
+     "division": "Youth",
+     "match": "bevestigd"
     }
    ],
    "confirmed": [
@@ -4032,6 +4053,13 @@
      "sail": "NED-2024",
      "division": "Overall",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Bjarne van der Weg",
+     "sail": "NED-2024",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -4386,6 +4414,13 @@
      "name": "Bob van de Burgt",
      "sail": "NED-737",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Bob van de Burgt",
+     "sail": "NED-737",
+     "division": "Overall",
      "match": "naam"
     }
    ]
@@ -4780,6 +4815,13 @@
      "name": "Bruno Ghyczy",
      "sail": "NED-454",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Bruno Ghyczy",
+     "sail": "NED-454",
+     "division": "Youth",
      "match": "naam"
     }
    ]
@@ -6183,6 +6225,13 @@
      "division": "Amateurfleet Fin",
      "bib": "203",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Daan vd Bogaart",
+     "sail": "Ned-614",
+     "division": "Youth",
+     "match": "naam"
     }
    ]
   },
@@ -7132,6 +7181,13 @@
      "sail": "NED-301",
      "division": "Youth",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Diederik Leemans",
+     "sail": "NED-301",
+     "division": "Youth",
+     "match": "naam"
     }
    ]
   },
@@ -7478,6 +7534,19 @@
    ]
   },
   {
+   "id": "dmitiry-kropiventsev",
+   "name": "Dmitiry Kropiventsev",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Dmitiry Kropiventsev",
+     "sail": "171",
+     "division": "Masters"
+    }
+   ]
+  },
+  {
    "id": "dmitriy-kropiventsev",
    "name": "Dmitriy Kropiventsev",
    "aliases": [],
@@ -7569,6 +7638,21 @@
      "sail": null,
      "division": "Ladies 19 jaar en ouder",
      "bib": "74"
+    }
+   ]
+  },
+  {
+   "id": "dominique-bos",
+   "name": "Dominique Bos",
+   "aliases": [
+    "Dominique bos"
+   ],
+   "appearances": [
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Dominique bos",
+     "sail": "NED-613",
+     "division": "Women"
     }
    ]
   },
@@ -8928,6 +9012,14 @@
      "division": "Men 19 t/m 34",
      "bib": "164",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Erwin van Logchem",
+     "sail": "NED-760",
+     "division": "Overall",
+     "bib": "7",
+     "match": "naam"
     }
    ]
   },
@@ -9865,6 +9957,20 @@
      "name": "Femke",
      "sail": "NED-2251",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
+     "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Femke van der Veen",
+     "sail": "NED-2251",
+     "division": "Women",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Femke",
+     "sail": "NED-2251",
+     "division": "Women",
      "match": "naam+zeilnummer"
     }
    ]
@@ -12947,6 +13053,13 @@
      "sail": "NED-191",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Ingmar Daldorf",
+     "sail": "NED-191",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -13183,6 +13296,13 @@
      "sail": "NED-567",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Iris Gimpel",
+     "sail": "NED-567",
+     "division": "Women",
+     "match": "naam"
     }
    ]
   },
@@ -13270,6 +13390,13 @@
      "sail": null,
      "division": "Girls t/m 14",
      "bib": "24",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Isabelle Westerveld",
+     "sail": "NED-214",
+     "division": "Women Youth",
      "match": "naam"
     }
    ]
@@ -14283,6 +14410,13 @@
      "division": "Profleet Foil",
      "bib": "202",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Jan Versteegen",
+     "sail": "NED-210",
+     "division": "Masters",
+     "match": "naam"
     }
    ]
   },
@@ -16260,6 +16394,13 @@
      "sail": "BEL-248",
      "division": "Masters",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Joeri Gybels",
+     "sail": "BEL-248",
+     "division": "Masters",
+     "match": "naam"
     }
    ]
   },
@@ -16880,6 +17021,13 @@
      "sail": null,
      "division": "Guys 15 t/m 18",
      "bib": "193",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Jonathan Klok",
+     "sail": "NED-1102",
+     "division": "Youth",
      "match": "naam"
     }
    ]
@@ -23235,6 +23383,13 @@
      "division": "Masters 35 plus",
      "bib": "192",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Martijn van der Pluijm",
+     "sail": "7111",
+     "division": "Masters",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -23726,6 +23881,13 @@
      "sail": "NED-550",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Mathijs Bronkhorst",
+     "sail": "NED-550",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -24003,6 +24165,20 @@
      "sail": "NED-318",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Matthijs Pos",
+     "sail": "NED-318",
+     "division": "Youth",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Matthijs Pos",
+     "sail": "NED-318",
+     "division": "Youth",
+     "match": "naam"
     }
    ]
   },
@@ -24092,6 +24268,13 @@
     },
     {
      "event": "nk-2026-0613-slalom-foil",
+     "name": "Matthijs van der Weg",
+     "sail": "NED-2023",
+     "division": "Masters",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
      "name": "Matthijs van der Weg",
      "sail": "NED-2023",
      "division": "Masters",
@@ -24673,6 +24856,20 @@
      "sail": "NED-61",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Max Baaijen",
+     "sail": "NED-61",
+     "division": "Overall",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Max Baaijen",
+     "sail": "NED-61",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -25068,6 +25265,13 @@
      "sail": "NED-404",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Melvin Jansen",
+     "sail": "NED-404",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -25224,6 +25428,13 @@
      "sail": null,
      "division": "Masters 35 plus",
      "bib": "224",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Merijn Kegel",
+     "sail": "NED-511",
+     "division": "Masters",
      "match": "naam"
     }
    ]
@@ -26014,6 +26225,13 @@
      "sail": "NED-330",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Mikk Hillebrand",
+     "sail": "NED-330",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -28692,6 +28910,13 @@
      "division": "Masters 35 plus",
      "bib": "95",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Peter-Martijn Bronkhorst",
+     "sail": "NED-1052",
+     "division": "Masters",
+     "match": "naam"
     }
    ]
   },
@@ -28968,6 +29193,20 @@
      "name": "Peter Mulder",
      "sail": "NED-95",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Peter Mulder",
+     "sail": "NED-95",
+     "division": "Overall",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Peter Mulder",
+     "sail": "NED-95",
+     "division": "Overall",
      "match": "naam"
     }
    ]
@@ -30211,6 +30450,13 @@
      "sail": null,
      "division": "Masters 35 plus",
      "bib": "174",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Pieter Eliens",
+     "sail": "NED-538",
+     "division": "Masters",
      "match": "naam"
     }
    ]
@@ -33358,6 +33604,13 @@
      "sail": "NED-174",
      "division": "Youth Profleet (Under 20 years, Foil only)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Ruben Landstra",
+     "sail": "NED-174",
+     "division": "Youth",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -34189,6 +34442,13 @@
      "division": "Guys 15 t/m 18",
      "bib": "60",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Sebastiaan Klok",
+     "sail": "NED-2009",
+     "division": "Youth",
+     "match": "naam"
     }
    ]
   },
@@ -34483,6 +34743,20 @@
      "sail": "NED-450",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Sem Stroosma",
+     "sail": "NED-450",
+     "division": "Overall",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Sem Sroosma",
+     "sail": "NED-450",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -34520,7 +34794,8 @@
    "id": "seppe-wiersema",
    "name": "Seppe Wiersema",
    "aliases": [
-    "Seppe WIERSEMA"
+    "Seppe WIERSEMA",
+    "Seppe wiersema"
    ],
    "appearances": [
     {
@@ -34574,6 +34849,20 @@
      "sail": null,
      "division": "Guys 15 t/m 18",
      "bib": "16",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Seppe wiersema",
+     "sail": "NED-215",
+     "division": "Youth",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Seppe wiersema",
+     "sail": "NED-215",
+     "division": "Youth",
      "match": "naam"
     }
    ]
@@ -34975,7 +35264,8 @@
    "id": "sjoerd-wieringa",
    "name": "Sjoerd Wieringa",
    "aliases": [
-    "sjoerd wieringa"
+    "sjoerd wieringa",
+    "Sjoerd wieringa"
    ],
    "appearances": [
     {
@@ -34984,6 +35274,13 @@
      "sail": null,
      "division": "Men 19 t/m 34",
      "bib": "183"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Sjoerd wieringa",
+     "sail": null,
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -35996,6 +36293,13 @@
      "sail": "NED-322",
      "division": "Youth Profleet (Under 20 years, Foil only)",
      "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Suus boone",
+     "sail": "NED-322",
+     "division": "Women youth",
+     "match": "naam"
     }
    ]
   },
@@ -36133,6 +36437,13 @@
      "name": "Taty Frans",
      "sail": "NB-9",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Taty Frans",
+     "sail": "NB-9",
+     "division": "Overall",
      "match": "naam"
     }
    ]
@@ -36747,6 +37058,13 @@
      "name": "Thijs Hanemaaijer",
      "sail": "NED-107",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
+     "name": "Thijs Hanemaaijer",
+     "sail": "NED-107",
+     "division": "Overall",
      "match": "naam"
     }
    ]
@@ -37473,6 +37791,13 @@
     },
     {
      "event": "nk-2026-0613-slalom-foil",
+     "name": "Tim Janssen",
+     "sail": "NED-159",
+     "division": "Overall",
+     "match": "naam"
+    },
+    {
+     "event": "nk-2026-slalom-foil",
      "name": "Tim Janssen",
      "sail": "NED-159",
      "division": "Overall",
@@ -38757,6 +39082,13 @@
      "sail": null,
      "division": "Masters 35 plus",
      "bib": "194"
+    },
+    {
+     "event": "nk-2026-slalom-fin",
+     "name": "Vincent Mylemans",
+     "sail": "BEL-12",
+     "division": "Overall",
+     "match": "naam"
     }
    ]
   },
@@ -40252,5 +40584,15 @@
    "date": "2026-10-12"
   }
  ],
- "pending": []
+ "pending": [
+  {
+   "people": [
+    "dmitiry-kropiventsev",
+    "dmitriy-kropiventsev"
+   ],
+   "similarity": 0.95,
+   "source": "import_onk_slalom_2026",
+   "reason": "'Dmitiry Kropiventsev' (nk-2026-slalom-fin) lijkt op 'Dmitriy Kropiventsev', zonder gelijk zeilnummer"
+  }
+ ]
 }

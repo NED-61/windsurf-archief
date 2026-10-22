@@ -12418,6 +12418,64 @@
    "sha256": "de0e1ed569e44dc4f176cc3d4c0eee81f659f00667e2cfbbc4e895af7f6bc20d",
    "archived": "local-only/leveringen/2026-10-12/windtulip-damx-2022-bundle.json.gz",
    "notes": "bundel (base64) van de tien Windtulip-page-data.json van DAM-X 2022, zoals uit de browser gedownload; de tien bestanden staan los in bronnen/ (sha256 gelijk). Dubbel, daarom niet in git"
+  },
+  {
+   "ref": "inbox/los/winterwave-onk-fin-slalom-2026-capture.json.gz",
+   "received": "2026-10-22",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-22",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "fae57154c81babcc13a78c623d113c01f9e16cf94fe22f6f3fc077cf6c86bf8a",
+   "archived": "archive/nl/2026/nk-slalom-2026/bronnen/winterwave-onk-fin-slalom-2026-capture.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl op 22 oktober 2026 (totaalstand en alle ladders als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_onk_slalom_2026.py",
+   "outputs": [
+    "archive/nl/2026/nk-slalom-2026/uitslagen/nk-2026-slalom-fin.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/winterwave-onk-foil-slalom-2026-capture-2026-10-22.json.gz",
+   "received": "2026-10-22",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-10-22",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "d38c5c2d9f635dd93e9650ea6f6940c331495dc87c17d58deb532d34fc43daf9",
+   "archived": "archive/nl/2026/nk-slalom-2026/bronnen/winterwave-onk-foil-slalom-2026-capture-2026-10-22.json.gz",
+   "notes": "vastlegging van scoring.winterwave.nl op 22 oktober 2026 (totaalstand en alle ladders als ongewijzigde html, sha256 per pagina); verwerkt met tools/import_onk_slalom_2026.py",
+   "outputs": [
+    "archive/nl/2026/nk-slalom-2026/uitslagen/nk-2026-slalom-foil.json"
+   ]
+  },
+  {
+   "ref": "inbox/los/Overall - ONK Fin Slalom 2026 _ Result total.html",
+   "received": "2026-10-22",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-22",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "45cc233adde5515ce38b6df60bf40d0ff737ef27e81a98bcb697c23f1df63523",
+   "archived": "archive/nl/2026/nk-slalom-2026/bronnen/Overall - ONK Fin Slalom 2026 _ Result total.html",
+   "notes": "door de gebruiker opgeslagen totaalpagina van scoring.winterwave.nl (tweede bron van dezelfde uitslag); vergeleken met de vastlegging, zie de uitslag"
+  },
+  {
+   "ref": "inbox/los/Overall - ONK Foil Slalom 2026 _ Result total.html",
+   "received": "2026-10-22",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-10-22",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "32ddc2e09f7174ebcad5080f2d06c1b394b638c523475163df354f1100aacd25",
+   "archived": "archive/nl/2026/nk-slalom-2026/bronnen/Overall - ONK Foil Slalom 2026 _ Result total.html",
+   "notes": "door de gebruiker opgeslagen totaalpagina van scoring.winterwave.nl (tweede bron van dezelfde uitslag); vergeleken met de vastlegging, zie de uitslag"
   }
  ]
 }

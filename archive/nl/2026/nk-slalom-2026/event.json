@@ -1,0 +1,32 @@
+{
+ "event_slug": "nk-slalom-2026",
+ "scope": "nl",
+ "name": "NK Slalom 2026 (Brouwersdam)",
+ "series": "NK Slalom",
+ "year": 2026,
+ "stop_number": 2,
+ "stops_known": 2,
+ "date": "2026-10-17",
+ "date_end": "2026-10-18",
+ "location": "Surfcentrum Brouwersdam (Ossenhoek 1, Ouddorp)",
+ "discipline": "slalom",
+ "classes": [
+  "nk-2026-slalom-fin",
+  "nk-2026-slalom-foil"
+ ],
+ "metadata_sources": [
+  {
+   "name": "wedstrijdsurfen.nl (NVW): 17-18 oktober ONK Slalom Fin en Foil Brouwersdam",
+   "url": "https://www.wedstrijdsurfen.nl/evenement/17-18-oktober-onk-slalom-fin-en-foil-brouwersdam/",
+   "used_for": "17 t/m 18 oktober 2026, slalom (fin en foil), Surfcentrum Brouwersdam, Ossenhoek 1 (Kabbelaarsbank), Ouddorp; derde en laatste slalomwedstrijd van het seizoen na het ONK Slalom Fin van 2-3 mei en het ONK Slalom Foil van 13-14 juni (geraadpleegd 22 oktober 2026)"
+  }
+ ],
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als twee evenementen: 'ONK Fin Slalom 2026' (klasse 'Overall') en 'ONK Foil Slalom 2026' (klasse 'Overall'). Elke ronde is één race met de hele vloot: daarom fleet_racing.",
+  "Het NK Slalom 2026 foil bestaat uit twee stops: Aalsmeer 13-14 juni (ronde 1-16, tussenstand in nk-slalom-2026-0613) en de Brouwersdam 17-18 oktober (ronde 17-27). De eindstand over 27 rondes staat hier (opgave van de gebruiker, 22 oktober 2026: twee stops, oktober is de laatste).",
+  "Het ONK Slalom Fin van 2-3 mei 2026 (Brouwersdam) is niet gevaren: geen wind (opgave van de gebruiker, 22 oktober 2026).",
+  "Datum en locatie volgens de NVW-evenementpagina; niet in de uitslag zelf."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
+ "name_published": "ONK Fin Slalom 2026 / ONK Foil Slalom 2026"
+}

@@ -27,7 +27,7 @@ INBOX = ROOT / "inbox"
 BIG = 95 * 1024 * 1024  # GitHub weigert > 100 MB
 
 def load():
-    return json.loads(REG.read_text()) if REG.exists() else {"schema_version": 1, "items": []}
+    return json.loads(REG.read_text(encoding="utf-8")) if REG.exists() else {"schema_version": 1, "items": []}
 
 def save(r):
     REG.parent.mkdir(exist_ok=True)
@@ -54,7 +54,7 @@ def cmd_inbox():
 def manifest_add(ev_dir, entry):
     mf = ev_dir / "media" / "media.json"
     mf.parent.mkdir(parents=True, exist_ok=True)
-    d = json.loads(mf.read_text()) if mf.exists() else {"schema_version": 1, "files": []}
+    d = json.loads(mf.read_text(encoding="utf-8")) if mf.exists() else {"schema_version": 1, "files": []}
     d["files"] = [f for f in d["files"] if f["sha256"] != entry["sha256"]] + [entry]
     mf.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 
@@ -149,7 +149,7 @@ def cmd_index():
     reg = load()
     rows = {}
     for ef in sorted((ROOT / "archive").glob("*/*/*/uitslagen/*.json")):
-        d = json.loads(ef.read_text())
+        d = json.loads(ef.read_text(encoding="utf-8"))
         ev, src = d["event"], d["source"]
         winner = d["entries"][0]["name"] if d.get("entries") else "-"
         rows.setdefault((ev.get("scope", "nl"), ev["year"]), []).append(

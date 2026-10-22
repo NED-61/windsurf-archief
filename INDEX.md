@@ -332,7 +332,9 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | DAM-X 2026 | Out - Profleet | fleet_racing | 27 | Amado Vrieswijk | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-profleet.json |
 | DAM-X 2026 | Out - Youth Pro | fleet_racing | 13 | Peyton Dits | complete | gecontroleerd | archive/nl/2026/dam-x-2026/uitslagen/dam-x-2026-slalom-out-youth-pro.json |
 | NK Course 2026 | Foil | fleet_racing | 26 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2026/nk-course-2026/uitslagen/nk-2026-course-foil.json |
-| NK Slalom 2026, foil (Aalsmeer) | Foil | fleet_racing | 11 | Amado vrieswijk | complete | gecontroleerd | archive/nl/2026/nk-slalom-2026-0613/uitslagen/nk-2026-0613-slalom-foil.json |
+| NK Slalom 2026 (Brouwersdam) | Fin | fleet_racing | 40 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2026/nk-slalom-2026/uitslagen/nk-2026-slalom-fin.json |
+| NK Slalom 2026 (Brouwersdam) | Foil | fleet_racing | 16 | Amado vrieswijk | complete | gecontroleerd | archive/nl/2026/nk-slalom-2026/uitslagen/nk-2026-slalom-foil.json |
+| NK Slalom 2026, foil (Aalsmeer) | Foil | fleet_racing | 11 | Amado vrieswijk | partial | gecontroleerd | archive/nl/2026/nk-slalom-2026-0613/uitslagen/nk-2026-0613-slalom-foil.json |
 | Ronde om Texel 2026 | Windsurf | long_distance | 33 | Merlijn Boswijk | complete | gecontroleerd | archive/nl/2026/ronde-om-texel-2026/uitslagen/ronde-om-texel-2026-long-distance-windsurf.json |
 | Stonedam Foil Cup 2026 | Pro | fleet_racing | 24 | Sem Stroosma | complete | gecontroleerd | archive/nl/2026/stonedam-foil-cup-2026/uitslagen/stonedam-foil-cup-2026-foil-pro.json |
 | Stonedam Foil Cup 2026 | Recreational | fleet_racing | 14 | Seppe Wiersema | complete | gecontroleerd | archive/nl/2026/stonedam-foil-cup-2026/uitslagen/stonedam-foil-cup-2026-foil-recreational.json |
@@ -658,6 +660,8 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **wacht**: inbox/los/winterwave-regiocup-dww-capture.json.gz (Regiocup 'DWW' op scoring.winterwave.nl: iQfoil Windsurfen (16 riders) en Slalom Windsurfen (21 riders), elk 8 races; daarnaast kite- en wingklassen (niet vastgelegd). Jaar en plaats staan niet in de bron; de divisies hebben dezelfde omschrijvingen als bij NK Slalom 2024 ('Youth U21 ...'). Niet omgezet tot de gebruiker weet welke wedstrijd dit is. De ladders staan op 'Unstarted' terwijl de totaalstand punten heeft.)
 - **overgeslagen**: inbox/los/winterwave-extra-capture.json.gz (de gezamenlijke vastlegging van 12 oktober 2026 (13 evenementen) waaruit de losse winterwave-<evenement>-capture.json.gz zijn gesplitst; de pagina's zijn in die bestanden ongewijzigd (sha256 per pagina). Dubbel, daarom niet in git)
 - **overgeslagen**: inbox/los/windtulip-damx-2022-bundle.json.gz (bundel (base64) van de tien Windtulip-page-data.json van DAM-X 2022, zoals uit de browser gedownload; de tien bestanden staan los in bronnen/ (sha256 gelijk). Dubbel, daarom niet in git)
+- **overgeslagen**: inbox/los/Overall - ONK Fin Slalom 2026 _ Result total.html (door de gebruiker opgeslagen totaalpagina van scoring.winterwave.nl (tweede bron van dezelfde uitslag); vergeleken met de vastlegging, zie de uitslag)
+- **overgeslagen**: inbox/los/Overall - ONK Foil Slalom 2026 _ Result total.html (door de gebruiker opgeslagen totaalpagina van scoring.winterwave.nl (tweede bron van dezelfde uitslag); vergeleken met de vastlegging, zie de uitslag)
 
 **Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 5× nl, totaal 142.
 
@@ -792,4 +796,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 874 bron(nen), 309 verwerkt._
+_Registry: 878 bron(nen), 311 verwerkt._

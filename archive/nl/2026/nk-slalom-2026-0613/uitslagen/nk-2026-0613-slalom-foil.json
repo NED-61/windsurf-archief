@@ -62,10 +62,14 @@
   ],
   "verified": "11 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 3 (11x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
  },
- "coverage": "complete",
+ "coverage": "partial",
  "notes": [
-  "Gepubliceerd op scoring.winterwave.nl als 'Overall - ONK Foil Slalom 2026'."
+  "Gepubliceerd op scoring.winterwave.nl als 'Overall - ONK Foil Slalom 2026'.",
+  "Tussenstand na stop 1 van 2 (16 van de 27 rondes), vastgelegd op 12 oktober 2026; de eindstand over beide stops staat in nk-2026-slalom-foil (NK Slalom 2026, Brouwersdam). Winterwave heeft de score voor DNS/DNF daarna herberekend naar 16 in plaats van 11; deze tussenstand staat zoals op 12 oktober gepubliceerd. Keuze van de gebruiker, 22 oktober 2026."
  ],
+ "provisional": true,
+ "provisional_note": "Tussenstand na stop 1 (Aalsmeer, 13-14 juni 2026); de eindstand na stop 2 (Brouwersdam, 17-18 oktober 2026) is nk-2026-slalom-foil.",
+ "subranking_of": "nk-2026-slalom-foil",
  "entries": [
   {
    "rank": 1,

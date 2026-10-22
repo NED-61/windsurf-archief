@@ -1,0 +1,3646 @@
+{
+ "schema_version": 1,
+ "id": "nk-2026-slalom-foil",
+ "event": {
+  "name": "NK Slalom 2026 (Brouwersdam)",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2026,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2026-10-17",
+  "location": "Surfcentrum Brouwersdam (Ossenhoek 1, Ouddorp)",
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Foil",
+  "class_label_published": "Overall",
+  "equipment": "foil"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R.1",
+   "R.2",
+   "R.3",
+   "R.4",
+   "R.5",
+   "R.6",
+   "R.7",
+   "R.8",
+   "R.9",
+   "R.10",
+   "R.11",
+   "R.12",
+   "R.13",
+   "R.14",
+   "R.15",
+   "R.16",
+   "R.17",
+   "R.18",
+   "R.19",
+   "R.20",
+   "R.21",
+   "R.22",
+   "R.23",
+   "R.24",
+   "R.25",
+   "R.26",
+   "R.27"
+  ],
+  "discards": 3,
+  "scoring_system": "lage punten: plaats in de race, winnaar 0.7; DNF, DNS, OCS gescoord als 16 (zoals gepubliceerd)",
+  "discard_rule_published": "Total after discard (substration of the worst) elimination result. 1 discard after 3 eliminations, 2 discard after 5 eliminations, 3 discard after 7 eliminations, ",
+  "winterwave_scoring": "ifca_elimination",
+  "stops": [
+   "nk-2026-0613-slalom-foil",
+   "nk-2026-slalom-foil"
+  ]
+ },
+ "source": {
+  "name": "scoring.winterwave.nl (Winter-Wave scoring)",
+  "url": "https://scoring.winterwave.nl/results/total/0/771e8361",
+  "file": "archive/nl/2026/nk-slalom-2026/bronnen/winterwave-onk-foil-slalom-2026-capture-2026-10-22.json.gz",
+  "type": "web",
+  "retrieved": "2026-10-22",
+  "method": "vastgelegd met urllib vanaf de pc van de repo-eigenaar (Claude Code): GET per pagina op scoring.winterwave.nl; html ongewijzigd als utf-8-tekst bewaard met de sha256 van de ruwe bytes, gebundeld in een json.gz; tabellen gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "wedstrijdsurfen.nl (NVW): 17-18 oktober ONK Slalom Fin en Foil Brouwersdam",
+    "url": "https://www.wedstrijdsurfen.nl/evenement/17-18-oktober-onk-slalom-fin-en-foil-brouwersdam/",
+    "used_for": "17 t/m 18 oktober 2026, slalom (fin en foil), Surfcentrum Brouwersdam, Ossenhoek 1 (Kabbelaarsbank), Ouddorp; derde en laatste slalomwedstrijd van het seizoen na het ONK Slalom Fin van 2-3 mei en het ONK Slalom Foil van 13-14 juni (geraadpleegd 22 oktober 2026)"
+   }
+  ],
+  "verified": "16 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; totaal = som van de racepunten en netto = totaal - gemarkeerde weglatingen: gelijk; weggelaten scores zijn de slechtste; weglatingen per rider: 3 (16x); geen dubbele namen; punten per race vergeleken met de plaats in de heat (ladder): alle gelijk"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd op scoring.winterwave.nl als 'Overall - ONK Foil Slalom 2026'.",
+  "Eindstand van het ONK Foil Slalom 2026 over twee stops: ronde 1 t/m 16 op 13-14 juni 2026 in Aalsmeer (WSCA, Kudelstaartseweg 20), ronde 17 t/m 27 op 17-18 oktober 2026 bij de Brouwersdam. De tussenstand na stop 1 staat in nk-2026-0613-slalom-foil.",
+  "Winterwave heeft bij het toevoegen van de oktober-rondes de score voor DNS, DNF en DNC herberekend naar 16 (het aantal deelnemers over beide stops) in plaats van 11 (het aantal in juni); daardoor wijken de juni-punten in deze eindstand af van de tussenstand van 12 oktober 2026.",
+  "Wie alleen in juni of alleen in oktober meevoer, heeft in de andere stop in elke ronde de code-score; de codes staan in race_remarks zoals de ladders ze geven.",
+  "opgeslagen pagina 'Overall - ONK Foil Slalom 2026 _ Result total.html': 16 rijen, alle cellen gelijk aan de vastlegging van 22 oktober 2026"
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "amado-vrieswijk",
+   "sail": "NB-20",
+   "name": "Amado vrieswijk",
+   "nationality": "NB",
+   "division": "Overall",
+   "points": [
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    6.0,
+    0.7,
+    0.7,
+    2.0,
+    0.7,
+    0.7,
+    16.0,
+    0.7,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {
+    "R.23": "OCS"
+   },
+   "discarded": [
+    17,
+    20,
+    23
+   ],
+   "total": 40.8,
+   "net": 16.8
+  },
+  {
+   "rank": 2,
+   "person": "sem-stroosma",
+   "sail": "NED-450",
+   "name": "Sem Sroosma",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    16.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    16.0,
+    2.0,
+    3.0,
+    16.0,
+    2.0,
+    2.0,
+    0.7,
+    2.0,
+    3.0,
+    0.7,
+    2.0,
+    2.0,
+    16.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R.5": "OCS",
+    "R.11": "OCS",
+    "R.14": "DNF",
+    "R.23": "OCS"
+   },
+   "discarded": [
+    5,
+    11,
+    14
+   ],
+   "total": 109.4,
+   "net": 61.4
+  },
+  {
+   "rank": 3,
+   "person": "thijs-hanemaaijer",
+   "sail": "NED-107",
+   "name": "Thijs Hanemaaijer",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    5.0,
+    5.0,
+    4.0,
+    4.0,
+    2.0,
+    4.0,
+    4.0,
+    3.0,
+    3.0,
+    3.0,
+    2.0,
+    3.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0,
+    5.0,
+    4.0,
+    4.0,
+    3.0,
+    6.0,
+    2.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2,
+    22
+   ],
+   "total": 96.0,
+   "net": 80.0
+  },
+  {
+   "rank": 4,
+   "person": "diederik-leemans",
+   "sail": "NED-301",
+   "name": "Diederik Leemans",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    4.0,
+    3.0,
+    5.0,
+    5.0,
+    3.0,
+    3.0,
+    6.0,
+    5.0,
+    5.0,
+    5.0,
+    4.0,
+    6.0,
+    4.0,
+    16.0,
+    16.0,
+    16.0,
+    5.0,
+    4.0,
+    7.0,
+    3.0,
+    5.0,
+    5.0,
+    3.0,
+    6.0,
+    5.0,
+    7.0,
+    10.0
+   ],
+   "race_remarks": {
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF"
+   },
+   "discarded": [
+    14,
+    15,
+    16
+   ],
+   "total": 166.0,
+   "net": 118.0
+  },
+  {
+   "rank": 5,
+   "person": "bart-van-den-bogaart",
+   "sail": "NED-259",
+   "name": "Bart VD Bogaart",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    4.0,
+    5.0,
+    3.0,
+    7.0,
+    7.0,
+    6.0,
+    5.0,
+    5.0,
+    6.0,
+    4.0,
+    4.0,
+    4.0,
+    8.0,
+    3.0,
+    8.0,
+    5.0,
+    7.0,
+    7.0,
+    5.0,
+    7.0,
+    6.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    8,
+    17,
+    19
+   ],
+   "total": 151.0,
+   "net": 128.0
+  },
+  {
+   "rank": 6,
+   "person": "bjarne-van-der-weg",
+   "sail": "NED-2024",
+   "name": "Bjarne van der Weg",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    3.0,
+    4.0,
+    3.0,
+    3.0,
+    16.0,
+    6.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    3.0,
+    4.0,
+    9.0,
+    16.0,
+    16.0,
+    16.0,
+    7.0,
+    6.0,
+    6.0,
+    16.0,
+    6.0,
+    4.0,
+    4.0,
+    4.0,
+    7.0,
+    3.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R.5": "OCS",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.20": "DNF"
+   },
+   "discarded": [
+    5,
+    14,
+    15
+   ],
+   "total": 184.0,
+   "net": 136.0
+  },
+  {
+   "rank": 7,
+   "person": "suus-boone",
+   "sail": "NED-322",
+   "name": "Suus boone",
+   "nationality": "NED",
+   "division": "Women youth",
+   "points": [
+    8.0,
+    9.0,
+    7.0,
+    8.0,
+    16.0,
+    9.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    8.0,
+    5.0,
+    7.0,
+    7.0,
+    10.0,
+    11.0,
+    12.0,
+    6.0,
+    9.0,
+    8.0,
+    7.0,
+    9.0,
+    8.0,
+    8.0,
+    9.0
+   ],
+   "race_remarks": {
+    "R.5": "OCS"
+   },
+   "discarded": [
+    5,
+    18,
+    19
+   ],
+   "total": 229.0,
+   "net": 190.0
+  },
+  {
+   "rank": 8,
+   "person": "max-baaijen",
+   "sail": "NED-61",
+   "name": "Max Baaijen",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    7.0,
+    7.0,
+    8.0,
+    7.0,
+    16.0,
+    7.0,
+    7.0,
+    6.0,
+    6.0,
+    7.0,
+    6.0,
+    7.0,
+    5.0,
+    3.0,
+    5.0,
+    5.0,
+    9.0,
+    10.0,
+    10.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R.5": "OCS",
+    "R.20": "DNF",
+    "R.21": "DNF",
+    "R.22": "DNF",
+    "R.23": "DNF",
+    "R.24": "DNF",
+    "R.25": "DNF",
+    "R.26": "DNF",
+    "R.27": "DNF"
+   },
+   "discarded": [
+    5,
+    20,
+    21
+   ],
+   "total": 266.0,
+   "net": 218.0
+  },
+  {
+   "rank": 9,
+   "person": "tim-janssen",
+   "sail": "NED-159",
+   "name": "Tim Janssen",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    11.0,
+    11.0,
+    10.0,
+    9.0,
+    5.0,
+    8.0,
+    9.0,
+    9.0,
+    9.0,
+    9.0,
+    7.0,
+    9.0,
+    7.0,
+    6.0,
+    6.0,
+    6.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R.17": "DNF",
+    "R.18": "DNF",
+    "R.19": "DNF",
+    "R.20": "DNF",
+    "R.21": "DNF",
+    "R.22": "DNF",
+    "R.23": "DNF",
+    "R.24": "DNF",
+    "R.25": "DNF",
+    "R.26": "DNF",
+    "R.27": "DNF"
+   },
+   "discarded": [
+    17,
+    18,
+    19
+   ],
+   "total": 307.0,
+   "net": 259.0
+  },
+  {
+   "rank": 10,
+   "person": "bob-van-de-burgt",
+   "sail": "NED-737",
+   "name": "Bob van de Burgt",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    2.0,
+    8.0,
+    5.0,
+    16.0,
+    4.0,
+    3.0,
+    0.7,
+    3.0,
+    3.0,
+    16.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF",
+    "R.5": "DNF",
+    "R.6": "DNF",
+    "R.7": "DNF",
+    "R.8": "DNF",
+    "R.9": "DNF",
+    "R.10": "DNF",
+    "R.11": "DNF",
+    "R.12": "DNF",
+    "R.13": "DNF",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.20": "DNF",
+    "R.26": "OCS"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 319.7,
+   "net": 271.7
+  },
+  {
+   "rank": 11,
+   "person": "femke-van-der-veen",
+   "sail": "NED-2251",
+   "name": "Femke",
+   "nationality": "NED",
+   "division": "Women",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    12.0,
+    7.0,
+    9.0,
+    16.0,
+    8.0,
+    9.0,
+    6.0,
+    8.0,
+    9.0,
+    6.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF",
+    "R.5": "DNF",
+    "R.6": "DNF",
+    "R.7": "DNF",
+    "R.8": "DNF",
+    "R.9": "DNF",
+    "R.10": "DNF",
+    "R.11": "DNF",
+    "R.12": "DNF",
+    "R.13": "DNF",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.20": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 353.0,
+   "net": 305.0
+  },
+  {
+   "rank": 12,
+   "person": "peter-mulder",
+   "sail": "NED-95",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Overall",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    10.0,
+    10.0,
+    8.0,
+    10.0,
+    10.0,
+    16.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF",
+    "R.5": "DNF",
+    "R.6": "DNF",
+    "R.7": "DNF",
+    "R.8": "DNF",
+    "R.9": "DNF",
+    "R.10": "DNF",
+    "R.11": "DNF",
+    "R.12": "DNF",
+    "R.13": "DNF",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.17": "DNF",
+    "R.18": "DNF",
+    "R.19": "DNF",
+    "R.20": "DNF",
+    "R.26": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 392.0,
+   "net": 344.0
+  },
+  {
+   "rank": 13,
+   "person": "matthijs-pos",
+   "sail": "NED-318",
+   "name": "Matthijs Pos",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    4.0,
+    9.0,
+    2.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF",
+    "R.5": "DNF",
+    "R.6": "DNF",
+    "R.7": "DNF",
+    "R.8": "DNF",
+    "R.9": "DNF",
+    "R.10": "DNF",
+    "R.11": "DNF",
+    "R.12": "DNF",
+    "R.13": "DNF",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.20": "DNF",
+    "R.21": "DNF",
+    "R.22": "DNF",
+    "R.23": "DNF",
+    "R.24": "DNF",
+    "R.25": "DNF",
+    "R.26": "DNF",
+    "R.27": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 399.0,
+   "net": 351.0
+  },
+  {
+   "rank": 14,
+   "person": "jan-versteegen",
+   "sail": "NED-210",
+   "name": "Jan Versteegen",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    9.0,
+    10.0,
+    9.0,
+    10.0,
+    16.0,
+    10.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R.5": "OCS",
+    "R.7": "DNS",
+    "R.8": "DNS",
+    "R.9": "DNF",
+    "R.10": "DNF",
+    "R.11": "DNF",
+    "R.12": "DNF",
+    "R.13": "DNF",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.17": "DNF",
+    "R.18": "DNF",
+    "R.19": "DNF",
+    "R.20": "DNF",
+    "R.21": "DNF",
+    "R.22": "DNF",
+    "R.23": "DNF",
+    "R.24": "DNF",
+    "R.25": "DNF",
+    "R.26": "DNF",
+    "R.27": "DNF"
+   },
+   "discarded": [
+    5,
+    7,
+    8
+   ],
+   "total": 400.0,
+   "net": 352.0
+  },
+  {
+   "rank": 15,
+   "person": "seppe-wiersema",
+   "sail": "NED-215",
+   "name": "Seppe wiersema",
+   "nationality": "NED",
+   "division": "Youth",
+   "points": [
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    11.0,
+    12.0,
+    11.0,
+    7.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R.1": "DNF",
+    "R.2": "DNF",
+    "R.3": "DNF",
+    "R.4": "DNF",
+    "R.5": "DNF",
+    "R.6": "DNF",
+    "R.7": "DNF",
+    "R.8": "DNF",
+    "R.9": "DNF",
+    "R.10": "DNF",
+    "R.11": "DNF",
+    "R.12": "DNF",
+    "R.13": "DNF",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.21": "DNF",
+    "R.22": "DNF",
+    "R.23": "DNF",
+    "R.24": "DNF",
+    "R.25": "DNF",
+    "R.26": "DNF",
+    "R.27": "DNF"
+   },
+   "discarded": [
+    1,
+    2,
+    3
+   ],
+   "total": 409.0,
+   "net": 361.0
+  },
+  {
+   "rank": 16,
+   "person": "matthijs-van-der-weg",
+   "sail": "NED-2023",
+   "name": "Matthijs van der Weg",
+   "nationality": "NED",
+   "division": "Masters",
+   "points": [
+    10.0,
+    8.0,
+    11.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R.4": "DNF",
+    "R.5": "DNS",
+    "R.6": "DNS",
+    "R.7": "DNS",
+    "R.8": "DNS",
+    "R.9": "DNF",
+    "R.10": "DNF",
+    "R.11": "DNF",
+    "R.12": "DNF",
+    "R.13": "DNF",
+    "R.14": "DNF",
+    "R.15": "DNF",
+    "R.16": "DNF",
+    "R.17": "DNF",
+    "R.18": "DNF",
+    "R.19": "DNF",
+    "R.20": "DNF",
+    "R.21": "DNF",
+    "R.22": "DNF",
+    "R.23": "DNF",
+    "R.24": "DNF",
+    "R.25": "DNF",
+    "R.26": "DNF",
+    "R.27": "DNF"
+   },
+   "discarded": [
+    4,
+    5,
+    6
+   ],
+   "total": 413.0,
+   "net": 365.0
+  }
+ ],
+ "detail": {
+  "races": [
+   {
+    "race": "R.1",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "diederik-leemans",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "thijs-hanemaaijer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jan-versteegen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "matthijs-van-der-weg",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "tim-janssen",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.2",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "diederik-leemans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "thijs-hanemaaijer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "matthijs-van-der-weg",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "suus-boone",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jan-versteegen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "tim-janssen",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.3",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "suus-boone",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "max-baaijen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "jan-versteegen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "tim-janssen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "matthijs-van-der-weg",
+        "result_published": "11.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.4",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tim-janssen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jan-versteegen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.5",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thijs-hanemaaijer",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "diederik-leemans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bart-van-den-bogaart",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "tim-janssen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": null,
+        "person": "sem-stroosma",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "bjarne-van-der-weg",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "suus-boone",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.6",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "diederik-leemans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bjarne-van-der-weg",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "tim-janssen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "suus-boone",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "jan-versteegen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.7",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bart-van-den-bogaart",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bjarne-van-der-weg",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "diederik-leemans",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tim-janssen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.8",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-baaijen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bart-van-den-bogaart",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tim-janssen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.9",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-baaijen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bart-van-den-bogaart",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tim-janssen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.10",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tim-janssen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.11",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thijs-hanemaaijer",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "diederik-leemans",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "max-baaijen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "tim-janssen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "sem-stroosma",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.12",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "diederik-leemans",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "max-baaijen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "tim-janssen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.13",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thijs-hanemaaijer",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "sem-stroosma",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "diederik-leemans",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-baaijen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "tim-janssen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "bjarne-van-der-weg",
+        "result_published": "9.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.14",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thijs-hanemaaijer",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "max-baaijen",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bart-van-den-bogaart",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "suus-boone",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "tim-janssen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": null,
+        "person": "sem-stroosma",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "diederik-leemans",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjarne-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.15",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bart-van-den-bogaart",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-baaijen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "tim-janssen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "suus-boone",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "diederik-leemans",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjarne-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.16",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bart-van-den-bogaart",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "max-baaijen",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "tim-janssen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "suus-boone",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "diederik-leemans",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjarne-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.17",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "sem-stroosma",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "bob-van-de-burgt",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "matthijs-pos",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "amado-vrieswijk",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bjarne-van-der-weg",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bart-van-den-bogaart",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "max-baaijen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "suus-boone",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "seppe-wiersema",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "femke-van-der-veen",
+        "result_published": "12.0"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.18",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bart-van-den-bogaart",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "diederik-leemans",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "thijs-hanemaaijer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bjarne-van-der-weg",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "femke-van-der-veen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bob-van-de-burgt",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "matthijs-pos",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "max-baaijen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "suus-boone",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "seppe-wiersema",
+        "result_published": "12.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.19",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "matthijs-pos",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "sem-stroosma",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bob-van-de-burgt",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bjarne-van-der-weg",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "diederik-leemans",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "bart-van-den-bogaart",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "femke-van-der-veen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "max-baaijen",
+        "result_published": "10.0"
+       },
+       {
+        "rank": 11,
+        "person": "seppe-wiersema",
+        "result_published": "11.0"
+       },
+       {
+        "rank": 12,
+        "person": "suus-boone",
+        "result_published": "12.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.20",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "sem-stroosma",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "amado-vrieswijk",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "diederik-leemans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "suus-boone",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "seppe-wiersema",
+        "result_published": "7.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "bjarne-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "femke-van-der-veen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.21",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "thijs-hanemaaijer",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bob-van-de-burgt",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bjarne-van-der-weg",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bart-van-den-bogaart",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "femke-van-der-veen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "suus-boone",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.22",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "thijs-hanemaaijer",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bart-van-den-bogaart",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "femke-van-der-veen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.23",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "bob-van-de-burgt",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "thijs-hanemaaijer",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "diederik-leemans",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "femke-van-der-veen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "suus-boone",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "peter-mulder",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "amado-vrieswijk",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "sem-stroosma",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.24",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "bjarne-van-der-weg",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "thijs-hanemaaijer",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "diederik-leemans",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bart-van-den-bogaart",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "femke-van-der-veen",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "suus-boone",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.25",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "diederik-leemans",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "bjarne-van-der-weg",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "femke-van-der-veen",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "peter-mulder",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.26",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bjarne-van-der-weg",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bart-van-den-bogaart",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "femke-van-der-veen",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "diederik-leemans",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "suus-boone",
+        "result_published": "8.0"
+       },
+       {
+        "rank": null,
+        "person": "bob-van-de-burgt",
+        "result_published": "16",
+        "remark": "OCS"
+       },
+       {
+        "rank": null,
+        "person": "peter-mulder",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "race": "R.27",
+    "heats": [
+     {
+      "name": "Race",
+      "status": "result final",
+      "results": [
+       {
+        "rank": 1,
+        "person": "amado-vrieswijk",
+        "result_published": "1.0"
+       },
+       {
+        "rank": 2,
+        "person": "sem-stroosma",
+        "result_published": "2.0"
+       },
+       {
+        "rank": 3,
+        "person": "bob-van-de-burgt",
+        "result_published": "3.0"
+       },
+       {
+        "rank": 4,
+        "person": "thijs-hanemaaijer",
+        "result_published": "4.0"
+       },
+       {
+        "rank": 5,
+        "person": "bjarne-van-der-weg",
+        "result_published": "5.0"
+       },
+       {
+        "rank": 6,
+        "person": "bart-van-den-bogaart",
+        "result_published": "6.0"
+       },
+       {
+        "rank": 7,
+        "person": "femke-van-der-veen",
+        "result_published": "7.0"
+       },
+       {
+        "rank": 8,
+        "person": "peter-mulder",
+        "result_published": "8.0"
+       },
+       {
+        "rank": 9,
+        "person": "suus-boone",
+        "result_published": "9.0"
+       },
+       {
+        "rank": 10,
+        "person": "diederik-leemans",
+        "result_published": "10.0"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-pos",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "matthijs-van-der-weg",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "max-baaijen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "seppe-wiersema",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "tim-janssen",
+        "result_published": "16",
+        "remark": "DNF"
+       },
+       {
+        "rank": null,
+        "person": "jan-versteegen",
+        "result_published": "16",
+        "remark": "DNF"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

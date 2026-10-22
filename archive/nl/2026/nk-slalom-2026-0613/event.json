@@ -4,8 +4,8 @@
  "name": "NK Slalom 2026, foil (Aalsmeer)",
  "series": "NK Slalom",
  "year": 2026,
- "stop_number": null,
- "stops_known": null,
+ "stop_number": 1,
+ "stops_known": 2,
  "date": "2026-06-13",
  "date_end": "2026-06-14",
  "location": "Aalsmeer (WSCA, Kudelstaartseweg 20)",
@@ -28,7 +28,8 @@
  "notes": [
   "Gepubliceerd op scoring.winterwave.nl als 'ONK Foil Slalom 2026', klasse 'Overall'. Als vlootraces gevaren (16 races, 'full fleet'): daarom fleet_racing.",
   "Het NK Slalom 2026 bestaat uit meer wedstrijden (fin in mei, foil in juni, fin en foil samen in oktober); het stopnummer staat niet in de bron, daarom de datum in de mapnaam. 'ONK Fin Slalom 2026' staat op winterwave zonder uitslag (12 oktober 2026); de wedstrijd van 17-18 oktober 2026 moet nog gevaren worden.",
-  "Datum en locatie volgens de NVW-kalender 2026 (planning); niet in de uitslag zelf."
+  "Datum en locatie volgens de NVW-kalender 2026 (planning); niet in de uitslag zelf.",
+  "Stop 1 van 2 van het NK Slalom 2026 foil; de eindstand over beide stops staat bij nk-slalom-2026 (Brouwersdam, 17-18 oktober 2026). De uitslag hier is de tussenstand na 16 rondes. Het ONK Slalom Fin van 2-3 mei 2026 (Brouwersdam) is niet gevaren: geen wind (opgave van de gebruiker, 22 oktober 2026)."
  ],
  "organizer": "Nederlandse Vereniging van Wedstrijdsurfers (NVW)",
  "name_published": "ONK Foil Slalom 2026"
