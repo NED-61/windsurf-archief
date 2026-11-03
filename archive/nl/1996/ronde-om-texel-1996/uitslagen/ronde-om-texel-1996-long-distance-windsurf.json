@@ -1,10 +1,10 @@
 {
  "schema_version": 1,
- "id": "texelrace-1996-long-distance-windsurf",
+ "id": "ronde-om-texel-1996-long-distance-windsurf",
  "event": {
-  "name": "Texelrace 1996",
+  "name": "Ronde om Texel 1996",
   "scope": "nl",
-  "series": "Texelrace",
+  "series": "Ronde om Texel",
   "year": 1996,
   "stop_number": null,
   "stops_known": null,
@@ -26,7 +26,7 @@
  "source": {
   "name": "WhatsApp Image 2026-11-03 at 10.16.58.jpeg",
   "url": null,
-  "file": "local-only/nl/1996/texelrace-1996/bronnen/WhatsApp Image 2026-11-03 at 10.16.58.jpeg",
+  "file": "local-only/nl/1996/ronde-om-texel-1996/bronnen/WhatsApp Image 2026-11-03 at 10.16.58.jpeg",
   "type": "image",
   "retrieved": "2026-11-03",
   "method": "met de hand overgetikt van de foto (uitsnedes vergroot gelezen); daarna nagerekend: plaatsen doorlopend, geen dubbele namen, prijzen in volgorde",
@@ -175,7 +175,7 @@
   },
   {
    "rank": 11,
-   "person": "tjitse-spitse",
+   "person": "tjitse-spitze",
    "sail": null,
    "bib": null,
    "name": "Tjitse Spitse",

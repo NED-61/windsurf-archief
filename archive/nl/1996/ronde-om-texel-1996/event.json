@@ -1,8 +1,8 @@
 {
- "event_slug": "texelrace-1996",
+ "event_slug": "ronde-om-texel-1996",
  "scope": "nl",
- "name": "Texelrace 1996",
- "series": "Texelrace",
+ "name": "Ronde om Texel 1996",
+ "series": "Ronde om Texel",
  "year": 1996,
  "stop_number": null,
  "stops_known": null,
@@ -15,9 +15,9 @@
  "notes": [
   "Aangeleverd door de repo-eigenaar op 3 november 2026 als foto (WhatsApp) van de getypte uitslaglijst (één A4, gevouwen).",
   "Datum niet bekend: het blad noemt alleen het jaar. Locatie volgens de titel van het blad.",
-  "Reeks 'Texelrace', zoals bij texelrace-2001 (uit het archief van Adri Keet). Of dit dezelfde wedstrijd is als de latere Ronde om Texel voor windsurfers (in het archief vanaf 2017) is niet bekend."
+  "Gepubliceerd als 'Texel Race 1996'. De Texelrace is altijd de Ronde om Texel (opgave van de gebruiker, 3 november 2026)."
  ],
  "classes": [
-  "texelrace-1996-long-distance-windsurf"
+  "ronde-om-texel-1996-long-distance-windsurf"
  ]
 }

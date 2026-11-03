@@ -12487,9 +12487,9 @@
    "channel": "los",
    "kind": "uitslag",
    "sha256": "2f052116ef13ec6c06fdf20901b8c2d32618b3b23f23678637a41272c6eb0c8e",
-   "archived": "local-only/nl/1996/texelrace-1996/bronnen/WhatsApp Image 2026-11-03 at 10.16.58.jpeg",
+   "archived": "local-only/nl/1996/ronde-om-texel-1996/bronnen/WhatsApp Image 2026-11-03 at 10.16.58.jpeg",
    "outputs": [
-    "archive/nl/1996/texelrace-1996/uitslagen/texelrace-1996-long-distance-windsurf.json"
+    "archive/nl/1996/ronde-om-texel-1996/uitslagen/ronde-om-texel-1996-long-distance-windsurf.json"
    ],
    "notes": "foto van de uitslaglijst (WhatsApp; maker en rechten niet bekend) met per rider de woonplaats: daarom niet in git maar in local-only/; verwerkt met tools/import_texel_1996.py"
   }

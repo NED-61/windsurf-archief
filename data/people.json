@@ -465,7 +465,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Adri Keet",
      "sail": null,
      "division": null,
@@ -1117,7 +1117,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Alexander Verhage",
      "sail": null,
      "division": null,
@@ -5624,7 +5624,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Christian Sandee",
      "sail": null,
      "division": null,
@@ -6000,7 +6000,7 @@
      "division": "Heren"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Collin Ansink",
      "sail": null,
      "division": null,
@@ -6804,9 +6804,10 @@
    "name": "Dennis Littel",
    "aliases": [
     "DENNIS LITTEL",
-    "Dennis Litte l",
     "Denis Littel",
-    "Dennis"
+    "Dennis",
+    "Dennis Litte l",
+    "Little"
    ],
    "appearances": [
     {
@@ -7033,6 +7034,28 @@
      "sail": "NED-13",
      "division": "Masters",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2009-long-distance-fw",
+     "name": "Little",
+     "sail": "13",
+     "division": null,
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "DENNIS LITTEL",
+      "Denis Littel",
+      "Dennis",
+      "Dennis Litte l",
+      "Dennis Littel",
+      "Little"
+     ],
+     "by": "gebruiker",
+     "date": "2026-11-03",
+     "note": "bevestigd door de gebruiker, 3 november 2026: 'Little' (GPA 2009, FW, zeilnummer 13) is Dennis Littel"
     }
    ]
   },
@@ -7069,7 +7092,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Dick Hoekstra",
      "sail": null,
      "division": null
@@ -9401,7 +9424,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Fabian Otto",
      "sail": null,
      "division": null,
@@ -10741,7 +10764,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Fred de Haan",
      "sail": null,
      "division": null
@@ -11253,7 +11276,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Gertjan Nieuwenkamp",
      "sail": null,
      "division": null
@@ -11825,7 +11848,7 @@
      "division": "Heren"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Hans Knipscheer",
      "sail": null,
      "division": null,
@@ -13619,7 +13642,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Jacob Roeper",
      "sail": null,
      "division": null
@@ -14868,7 +14891,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Jaques van der Hout",
      "sail": null,
      "division": null,
@@ -16942,7 +16965,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "John van der Starre",
      "sail": null,
      "division": null
@@ -18732,7 +18755,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Klaas Jan van der Vis",
      "sail": null,
      "division": null
@@ -19976,19 +19999,6 @@
      "division": null,
      "bib": "125",
      "match": "naam"
-    }
-   ]
-  },
-  {
-   "id": "little",
-   "name": "Little",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2009-long-distance-fw",
-     "name": "Little",
-     "sail": "13",
-     "division": null
     }
    ]
   },
@@ -21693,7 +21703,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Marcel van der Zwart",
      "sail": null,
      "division": null,
@@ -23719,7 +23729,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Martijn van Geemen",
      "sail": null,
      "division": null,
@@ -30965,7 +30975,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Ramses Landman",
      "sail": null,
      "division": null,
@@ -31362,7 +31372,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Remco Otten",
      "sail": null,
      "division": null,
@@ -31994,7 +32004,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Richard Straatman",
      "sail": null,
      "division": null
@@ -32853,7 +32863,7 @@
      "division": "Male"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Robin van Baarle",
      "sail": null,
      "division": null,
@@ -32963,7 +32973,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Roland de Vries",
      "sail": null,
      "division": null
@@ -33356,7 +33366,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Ron Ruiter",
      "sail": null,
      "division": null,
@@ -33458,7 +33468,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Ronald de Jong",
      "sail": null,
      "division": null,
@@ -33948,7 +33958,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Ruud Bakker",
      "sail": null,
      "division": null
@@ -35804,7 +35814,7 @@
      "match": "naam"
     },
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Stefan Gideonse",
      "sail": null,
      "division": null,
@@ -36874,7 +36884,7 @@
    "aliases": [],
    "appearances": [
     {
-     "event": "texelrace-1996-long-distance-windsurf",
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
      "name": "Theo Pauw",
      "sail": null,
      "division": null
@@ -38228,28 +38238,35 @@
    ]
   },
   {
-   "id": "tjitse-spitse",
-   "name": "Tjitse Spitse",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "texelrace-1996-long-distance-windsurf",
-     "name": "Tjitse Spitse",
-     "sail": null,
-     "division": null
-    }
-   ]
-  },
-  {
    "id": "tjitse-spitze",
    "name": "Tjitse Spitze",
-   "aliases": [],
+   "aliases": [
+    "Tjitse Spitse"
+   ],
    "appearances": [
     {
      "event": "nk-2007-slalom-overall",
      "name": "Tjitse Spitze",
      "sail": "141",
      "division": null
+    },
+    {
+     "event": "ronde-om-texel-1996-long-distance-windsurf",
+     "name": "Tjitse Spitse",
+     "sail": null,
+     "division": null,
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Tjitse Spitse",
+      "Tjitse Spitze"
+     ],
+     "by": "gebruiker",
+     "date": "2026-11-03",
+     "note": "bevestigd door de gebruiker, 3 november 2026"
     }
    ]
   },
@@ -40837,26 +40854,15 @@
    ],
    "by": "gebruiker",
    "date": "2026-10-12"
-  }
- ],
- "pending": [
-  {
-   "people": [
-    "tjitse-spitse",
-    "tjitse-spitze"
-   ],
-   "similarity": 0.92,
-   "source": "import_texel_1996",
-   "reason": "'Tjitse Spitse' (texelrace-1996-long-distance-windsurf) lijkt op 'Tjitse Spitze', zonder gelijk zeilnummer"
   },
   {
    "people": [
     "fred-de-haan",
     "fred-hastman"
    ],
-   "similarity": 0.86,
-   "source": "import_texel_1996",
-   "reason": "'Fred de Haan' (texelrace-1996-long-distance-windsurf) lijkt op 'Fred Hastman', zonder gelijk zeilnummer"
+   "by": "gebruiker",
+   "date": "2026-11-03"
   }
- ]
+ ],
+ "pending": []
 }

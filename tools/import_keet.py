@@ -90,10 +90,11 @@ EVENTS = {
                   "Eén wedstrijddag uit de reeks Slalom XL in Almere; het volgnummer binnen de reeks is niet bekend (datum in de mapnaam).",
                   "Organisator afgeleid uit de voettekst van de uitslag ('Slalom XL - 23 okt 2010 - www.almerecentraal.nl')."]},
     # ---- zonder uitslag: alleen een verslag
-    "texelrace-2001": {"scope": "nl", "year": 2001, "name": "Texelrace 2001", "series": "Texelrace", "date": "2001-09-22", "date_end": None, "location": "Texel",
+    "texelrace-2001": {"scope": "nl", "year": 2001, "name": "Ronde om Texel 2001", "series": "Ronde om Texel", "name_published": "Texelrace 2001", "date": "2001-09-22", "date_end": None, "location": "Texel",
         "discipline": "long_distance",
         "meta_sources": [KAL("kalender 2001.xls", "22 september: Texelrace (planning)")],
-        "notes": [HERKOMST, "Geen uitslag in het archief. Alleen een verslag van Adri Keet, die schrijft dat hij de Texelrace 2001 won (bewaard in local-only/, niet gepubliceerd). Datum volgens de kalender 2001 (planning), niet bevestigd."]},
+        "notes": [HERKOMST, "Geen uitslag in het archief. Alleen een verslag van Adri Keet, die schrijft dat hij de Texelrace 2001 won (bewaard in local-only/, niet gepubliceerd). Datum volgens de kalender 2001 (planning), niet bevestigd.",
+                  "De Texelrace is altijd de Ronde om Texel (opgave van de gebruiker, 3 november 2026); tot die dag stond dit evenement in de reeks Texelrace. De mapnaam texelrace-2001 is gebleven."]},
     "nk-course-2009-stop2": {"scope": "nl", "year": 2009, "name": "NK Course 2009, stop 2 (Scheveningen)", "series": "NK Course", "stop_number": 2,
         "date": "2009-05-30", "date_end": "2009-06-01", "location": "Scheveningen", "discipline": "course_race",
         "meta_sources": [KAL("kalender 2009.xls", "weekeinde van 30 mei 2009: NK Scheveningen (planning)")],

@@ -6,7 +6,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
-| Texelrace 1996 | Windsurf | long_distance | 26 | Jaques van der Hout | complete | gecontroleerd | archive/nl/1996/texelrace-1996/uitslagen/texelrace-1996-long-distance-windsurf.json |
+| Ronde om Texel 1996 | Windsurf | long_distance | 26 | Jaques van der Hout | complete | gecontroleerd | archive/nl/1996/ronde-om-texel-1996/uitslagen/ronde-om-texel-1996-long-distance-windsurf.json |
 
 ## nl / 1998
 

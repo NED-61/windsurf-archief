@@ -3,12 +3,13 @@
 
   python3 tools/import_texel_1996.py [--dry-run]
 
-Zet om (scope nl): Texelrace 1996 -> texelrace-1996-long-distance-windsurf (long_distance, 26 riders).
+Zet om (scope nl): Ronde om Texel 1996 -> ronde-om-texel-1996-long-distance-windsurf (long_distance, 26 riders).
 Het blad geeft alleen plaats, naam en woonplaats, en bij vijf riders een prijs ('1e master', '2e master', '3e master', '1e junior',
 '1e Texelaar'); geen tijden, zeilnummers, klassen of datum. De uitslag is met de hand overgetikt (tabel ROWS) en wordt bij elke run
 nagerekend. De foto gaat naar local-only/ (woonplaatsen; maker en rechten niet bekend): alleen de registry-regel met de hash gaat mee
 in git. De woonplaats wordt niet overgenomen.
-Reeks 'Texelrace', zoals texelrace-2001 (uit het archief van Adri Keet), naar de titel van het blad.
+Reeks 'Ronde om Texel': de Texelrace is altijd de Ronde om Texel (opgave van de gebruiker, 3 november 2026). Tot die dag heette dit
+evenement texelrace-1996 in de reeks Texelrace; het script ruimt die oude versie op (zie migrate_old).
 
 Herhaalbaar. Gebruikt de koppelregels van import_los.py en de extra koppelvragen van import_keet.py.
 """
@@ -27,12 +28,14 @@ SRC = "import_texel_1996"
 RECEIVED = "2026-11-03"
 rel, sha, norm = L.rel, L.sha, L.norm
 
-SLUG = "texelrace-1996"
+SLUG = "ronde-om-texel-1996"
+OLD_SLUG = "texelrace-1996"            # naam tot 3 november 2026
 RID = f"{SLUG}-long-distance-windsurf"
 EV_DIR = ROOT / "archive/nl/1996" / SLUG
 PRIV = ROOT / "local-only/nl/1996" / SLUG
 PHOTO = "WhatsApp Image 2026-11-03 at 10.16.58.jpeg"
 TITLE = "UITSLAGLIJST TEXEL RACE 1996"
+BESLUIT = "De Texelrace is altijd de Ronde om Texel (opgave van de gebruiker, 3 november 2026)"
 HERKOMST = "Aangeleverd door de repo-eigenaar op 3 november 2026 als foto (WhatsApp) van de getypte uitslaglijst (één A4, gevouwen)."
 FOTO = ("foto van de uitslaglijst (WhatsApp; maker en rechten niet bekend) met per rider de woonplaats: daarom niet in git maar in local-only/; "
         "verwerkt met tools/import_texel_1996.py")
@@ -71,13 +74,12 @@ ROWS = """
 N_ROWS = 26
 
 EVENT = {
-    "event_slug": SLUG, "scope": "nl", "name": "Texelrace 1996", "series": "Texelrace", "year": 1996, "stop_number": None, "stops_known": None,
+    "event_slug": SLUG, "scope": "nl", "name": "Ronde om Texel 1996", "series": "Ronde om Texel", "year": 1996, "stop_number": None, "stops_known": None,
     "date": None, "date_end": None, "location": "Texel", "discipline": "long_distance", "name_published": "Texel Race 1996",
     "metadata_sources": [],
     "notes": [HERKOMST,
               "Datum niet bekend: het blad noemt alleen het jaar. Locatie volgens de titel van het blad.",
-              "Reeks 'Texelrace', zoals bij texelrace-2001 (uit het archief van Adri Keet). Of dit dezelfde wedstrijd is als de latere "
-              "Ronde om Texel voor windsurfers (in het archief vanaf 2017) is niet bekend."],
+              "Gepubliceerd als 'Texel Race 1996'. " + BESLUIT + "."],
 }
 
 
@@ -140,6 +142,7 @@ def register_source(dry):
             dest.parent.mkdir(parents=True, exist_ok=True); os.rename(f, dest)
             assert sha(dest) == h, f"hash gewijzigd: {dest}"; moved = 1
     elif dest.is_file(): h = sha(dest)
+    elif dry: return 0                      # dry-run: de foto kan nog onder de oude naam staan (migrate_old verplaatst niets)
     else: sys.exit(f"foto niet gevonden: inbox/los/{PHOTO}")
     if dry: return moved
     reg = A.load()
@@ -152,10 +155,48 @@ def register_source(dry):
     return moved
 
 
+# ---------------------------------------------------------------- oude naam (texelrace-1996) opruimen
+def migrate_old(dry):
+    """Tot 3 november 2026 heette het evenement texelrace-1996. De foto verhuist naar de nieuwe map (hash gecontroleerd), de oude
+    uitslag en event.json verdwijnen (dit script schrijft ze opnieuw onder de nieuwe naam) en de optredens onder de oude uitslag-id
+    gaan uit data/people.json, zodat link_people ze onder de nieuwe id opnieuw aanmaakt."""
+    done = []
+    old_photo, new_photo = ROOT / "local-only/nl/1996" / OLD_SLUG / "bronnen" / PHOTO, PRIV / "bronnen" / PHOTO
+    if old_photo.is_file():
+        done.append(f"{rel(old_photo)} -> {rel(new_photo.parent)}/")
+        if not dry:
+            if new_photo.exists(): sys.exit(f"{rel(new_photo)} bestaat al; niets verplaatst")
+            h = sha(old_photo)
+            new_photo.parent.mkdir(parents=True, exist_ok=True); os.rename(old_photo, new_photo)
+            assert sha(new_photo) == h, f"hash gewijzigd: {new_photo}"
+            for d in (old_photo.parent, old_photo.parent.parent):
+                if not any(d.iterdir()): d.rmdir()
+    old_dir = ROOT / "archive/nl/1996" / OLD_SLUG
+    if old_dir.is_dir():
+        files = sorted(x for x in old_dir.rglob("*") if x.is_file())
+        assert all(x.name in ("event.json", f"{OLD_SLUG}-long-distance-windsurf.json") for x in files), f"onverwacht bestand in {rel(old_dir)}"
+        done.append(f"{rel(old_dir)}/ weg ({len(files)} bestanden, opnieuw geschreven onder {SLUG})")
+        if not dry:
+            for x in files: x.unlink()
+            for d in sorted((x for x in old_dir.rglob("*") if x.is_dir()), reverse=True): d.rmdir()
+            old_dir.rmdir()
+    path = ROOT / "data/people.json"
+    pd = json.loads(path.read_text(encoding="utf-8"))
+    old_rid = f"{OLD_SLUG}-long-distance-windsurf"
+    n = sum(1 for p in pd["people"] for x in p["appearances"] if x["event"] == old_rid)
+    if n:
+        done.append(f"{n} optredens onder {old_rid} uit data/people.json")
+        for p in pd["people"]: p["appearances"] = [x for x in p["appearances"] if x["event"] != old_rid]
+        pd["people"] = [p for p in pd["people"] if p["appearances"] or p.get("confirmed")]
+        if not dry: path.write_text(json.dumps(pd, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return done
+
+
 # ---------------------------------------------------------------- hoofdprogramma
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dry-run", action="store_true"); a = ap.parse_args()
     L.SRC = K.SRC = SRC      # koppelvoorstellen van deze importer krijgen deze bron, zodat een herhaling alleen de eigen voorstellen vervangt
+    migrated = migrate_old(a.dry_run)
     moved = register_source(a.dry_run)
     r = build()
     unc = counting.uncounted(r)
@@ -170,7 +211,7 @@ def main():
         f.write_text(json.dumps(ev, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         counting.apply(quiet=True)
     extra = K.extra_proposals([r], a.dry_run)
-    print(json.dumps({"dry_run": a.dry_run, "bronnen_verplaatst": moved,
+    print(json.dumps({"dry_run": a.dry_run, "oude_naam_opgeruimd": migrated, "bronnen_verplaatst": moved,
                       "uitslag": {RID: {"riders": len(r["entries"]), "controle": r["source"]["verified"]}},
                       "tellen_niet_mee": [e["name"] for e in unc], "koppelen": counts, "gekoppeld_op": log, "open_voorstellen": pend + extra},
                      ensure_ascii=False, indent=1))
