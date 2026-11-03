@@ -236,3 +236,26 @@ abbr[title] { text-decoration: none; color: var(--mut); cursor: help; }
 .fototest-uit { font-variant-numeric: tabular-nums; }
 .btn-link { display: inline-block; padding: .35rem .9rem; border: 1px solid var(--link); border-radius: 4px; color: var(--link); margin-right: .5rem; }
 .btn-link:hover { background: var(--hover); text-decoration: none; }
+
+/* riderpagina (3 november 2026): fotostrook bovenaan, overzicht per reeks, alle starts per jaar met een filter op discipline */
+.fotos-strook { grid-template-columns: repeat(5, minmax(0, 1fr)); }   /* staat na .fotos-grid en wint dus ook van diens media query */
+@media (max-width: 40rem) {
+  .fotos-strook { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 44%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 4px; }
+  .fotos-strook .ft { scroll-snap-align: start; }
+}
+.fotos-alles { display: grid; gap: .5rem; }
+.fotos-alles h3 { font-size: .95rem; font-weight: 500; color: var(--mut); margin-top: .25rem; }
+.dfilter { display: flex; flex-wrap: wrap; gap: .2rem 1.1rem; font-size: .95rem; }
+.dfilter button { font: inherit; background: none; border: 0; padding: 0; color: var(--link); cursor: pointer; }
+.dfilter button span { color: var(--mut); font-size: .85rem; font-variant-numeric: tabular-nums; }
+.dfilter button[aria-pressed="true"] { color: var(--fg); }
+.dfilter button:hover { text-decoration: underline; }
+.rider-starts { gap: 1rem; }
+.rider-yr { padding-top: .75rem; }
+.rider-t { table-layout: fixed; }
+.rider-t .ev-l { color: var(--fg); }
+.rider-t .sub { display: block; font-size: .85rem; color: var(--mut); font-weight: 400; margin-top: .1rem; }
+.rider-t .sub a { color: var(--mut); }
+.rider-t .plc { width: 6.5rem; }
+.rider-t .val { width: 8rem; }
+@media (max-width: 40rem) { .rider-t .plc { width: 5.5rem; } .rider-t .val { width: 6.5rem; } }

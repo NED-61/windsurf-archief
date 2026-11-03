@@ -21,6 +21,7 @@ FOTO_URL = "https://homelab257.tailc2d973.ts.net:10000"   # de fotodienst (winds
 SITE_URL = "https://ned-61.com/windsurf-archief/"   # hoofdadres (zonder www; keuze van Max, 3 november 2026): canonical, sitemap en Open Graph
 GOOGLE_VERIFICATIE = ""   # Search Console, eigenschap URL-voorvoegsel https://ned-61.com/windsurf-archief/, methode HTML-tag: de code uit content="..."; komt alleen in index.html
 NOINDEX = {"zoeken.html", "fototest.html"}   # niet in Google en niet in de sitemap: zonder javascript leeg, of een meetpagina
+RIDER_VEEL = 8   # vanaf zoveel starts krijgt de riderpagina het overzicht per reeks en het filter op discipline
 DISCIPLINE_NL = {"slalom": "slalom", "course_race": "course race", "long_distance": "long distance", "short_course": "short course", "funboard": "funboard"}
 MONTHS = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
 PARTICLES = {"van", "de", "der", "den", "het", "t", "ter", "ten", "te", "vd", "v", "d", "in", "op", "la", "le", "du", "da", "di", "dal", "del", "von"}
@@ -680,6 +681,8 @@ def riders_page(P, apps):
 
 
 def rider_page(P, pid, a, results, agg=()):
+    """Riderpagina: kop met de samenvatting, een fotostrook (5 willekurige, uit te klappen; gevuld door site.js vanaf de fotodienst),
+    bij veel starts een overzicht per wedstrijdreeks, en alle starts per jaar met een filter op discipline (keuze van Max, 3 november 2026)."""
     p = P[pid]
     pre = "../"
     starts = len(a); wins = sum(1 for x in a if x["rank"] == 1 and not x["prov"]); pods = sum(1 for x in a if x["rank"] and x["rank"] <= 3 and not x["prov"])
@@ -692,23 +695,66 @@ def rider_page(P, pid, a, results, agg=()):
         ys = sorted({y for _, y in v}); s0 = sorted(v)[-1][0]
         sail_bits.append(f'<li>{sail_html(s0, "sail sail-lg")}<span class="yrs">{ys[0]}{"–" + str(ys[-1]) if ys[-1] != ys[0] else ""}</span></li>')
     aliases = [x for x in p.get("aliases", []) if norm(x) != norm(p["name"])]
-    rows = []
+    disc_of = lambda x: x["r"]["event"].get("discipline") or "overig"
+    disc_nl = lambda d: DISCIPLINE_NL.get(d, d).capitalize()
+    veel = starts >= RIDER_VEEL
+    sail_key = lambda s: re.sub(r"\D", "", s or "") or (s or "")
+    hoofd = Counter(sail_key(x["sail"]) for x in a if x["sail"]).most_common(1)
+    hoofd_zeil = hoofd[0][0] if hoofd else None      # het zeilnummer uit de kop; per start staat alleen een afwijkend nummer
+
+    # ---- alle starts, per jaar
     allrows = sorted(list(a) + list(agg), key=lambda x: (x["ev"]["sortdate"], x["ev"]["name"], x["agg"], x["rid"]))
-    for x in reversed(allrows):
-        r = x["r"]
-        if r["format"]["type"] in ("elimination", "fleet_racing"):
-            val = f'{fmt_pts(x["net"])} netto'
-        elif r["format"]["type"] == "long_distance":
-            val = (f'{x["laps"]} rondes, {x["time"]}' if x["laps"] is not None else (x["time"] or ""))
-        elif r["format"]["type"] == "series_standings":
-            val = f'{fmt_pts(x["net"])} punten'
-        else:
-            val = ""
-        pl = f'<span class="pl{" p1" if x["rank"] == 1 else ""}">{x["rank"]}</span> <span class="of">van {x["n"]}</span>' if x["rank"] else \
-             f'<span class="pl">{remark_html(x["remark"]) or "–"}</span>'
-        rows.append(f'<tr><td class="num">{x["ev"]["year"]}</td><th scope="row"><a href="../wedstrijd/{esc(x["ev"]["slug"])}.html">{esc(x["ev"]["name"])}</a></th>'
-                    f'<td><a href="../uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>{" <small class=muted>(telt niet als extra start)</small>" if x["agg"] else ""}{" <small class=muted>(tussenstand)</small>" if x["prov"] else ""}</td><td class="plc">{pl}</td>'
-                    f'<td>{sail_html(x["sail"])}</td><td class="div">{esc(x["division"] or "")}</td><td class="num val">{esc(val)}</td></tr>')
+    by_year = defaultdict(list)
+    for x in reversed(allrows): by_year[x["ev"]["year"]].append(x)
+    year_secs = []
+    for y in sorted(by_year, reverse=True):
+        rows = []
+        for x in by_year[y]:
+            r = x["r"]
+            if r["format"]["type"] in ("elimination", "fleet_racing", "series_standings"):
+                val = "–" if x["net"] is None else f'{fmt_pts(x["net"])} {"punten" if r["format"]["type"] == "series_standings" else "netto"}'
+            elif r["format"]["type"] == "long_distance":
+                val = (f'{x["laps"]} rondes, {x["time"]}' if x["laps"] is not None else (x["time"] or ""))
+            else:
+                val = ""
+            pl = f'<span class="pl{" p1" if x["rank"] == 1 else ""}">{x["rank"]}</span> <span class="of">van {x["n"]}</span>' if x["rank"] else \
+                 f'<span class="pl">{remark_html(x["remark"]) or "–"}</span>'
+            sub = [f'<a href="../uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>']
+            if x["agg"]: sub.append("telt niet als extra start")
+            if x["prov"]: sub.append("tussenstand")
+            if x["division"] and norm(x["division"]) not in norm(class_label(r)): sub.append(esc(x["division"]))   # niet 'Heren · heren'
+            if x["sail"] and sail_key(x["sail"]) != hoofd_zeil: sub.append(sail_html(x["sail"]))
+            rows.append(f'<tr data-d="{esc(disc_of(x))}"><th scope="row"><a class="ev-l" href="../wedstrijd/{esc(x["ev"]["slug"])}.html">{esc(x["ev"]["name"])}</a>'
+                        f'<small class="sub">{" · ".join(sub)}</small></th><td class="plc">{pl}</td><td class="num val">{esc(val)}</td></tr>')
+        year_secs.append(f'<section class="year rider-yr"><h3 class="yr">{y}</h3><table class="res rider-t"><tbody>{"".join(rows)}</tbody></table></section>')
+
+    # ---- filter op discipline (alleen bij veel starts in meer disciplines)
+    discs = Counter(disc_of(x) for x in a)
+    dfilter = ""
+    if veel and len(discs) > 1:
+        knoppen = [f'<button type="button" data-d="" aria-pressed="true">Alle <span>{starts}</span></button>']
+        knoppen += [f'<button type="button" data-d="{esc(d)}" aria-pressed="false">{esc(disc_nl(d))} <span>{n}</span></button>' for d, n in discs.most_common()]
+        dfilter = f'<div class="dfilter" role="group" aria-label="Toon alleen een discipline">{"".join(knoppen)}</div>'
+
+    # ---- per wedstrijdreeks (alleen bij veel starts)
+    reeksen = ""
+    if veel:
+        per = defaultdict(list)
+        for x in a: per[x["ev"]["series"] or x["ev"]["name"]].append(x)
+        if len(per) > 1:
+            rr = []
+            for s, xs in sorted(per.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+                ys = sorted({x["ev"]["year"] for x in xs}); b = best_of(xs)
+                yr = f"{ys[0]}–{ys[-1]}" if ys[-1] != ys[0] else str(ys[0])
+                best = f'{b["rank"]}e, <a href="../uitslag/{esc(b["rid"])}.html">{esc(b["ev"]["name"])}</a>' if b else "–"
+                rr.append(f'<tr><th scope="row">{esc(s)}</th><td class="num">{len(xs)}</td><td class="num">{yr}</td><td class="best">{best}</td></tr>')
+            reeksen = f"""<section class="block">
+  <div class="block-h"><h2>Per wedstrijdreeks</h2></div>
+  <div class="tbl-wrap"><table class="list reeks-t">
+  <thead><tr><th scope="col">Reeks</th><th scope="col" class="num">Starts</th><th scope="col" class="num">Jaren</th><th scope="col">Beste resultaat</th></tr></thead>
+  <tbody>{"".join(rr)}</tbody></table></div>
+</section>"""
+
     summary = f'{starts} {"start" if starts == 1 else "starts"} van {years[0]}{" tot en met " + str(years[-1]) if years[-1] != years[0] else ""}'
     if wins: summary += f', {wins}× winnaar'
     if pods: summary += f', {pods}× podium'
@@ -719,14 +765,18 @@ def rider_page(P, pid, a, results, agg=()):
   {('<p class="aka">Ook gepubliceerd als ' + ', '.join(esc(x) for x in aliases) + '.</p>') if aliases else ''}
   {('<ul class="sails" aria-label="Zeilnummers">' + ''.join(sail_bits) + '</ul>') if sail_bits else ''}
 </header>
-<section class="block fotos-rider" data-rider="{esc(pid)}" hidden>
-  <div class="block-h"><h2>Foto's <small class="muted fotos-n"></small></h2><a href="../fotos.html">Alle foto's</a></div>
-  <div class="fotos-grid"></div>
+<section class="block fotos-rider" data-rider="{esc(pid)}" data-naam="{esc(p['name'])}" hidden>
+  <div class="block-h"><h2>Foto's <small class="muted fotos-n"></small></h2><button type="button" class="linkbtn fotos-meer" hidden>Alle foto's tonen</button></div>
+  <div class="fotos-grid fotos-strook"></div>
+  <div class="fotos-alles" hidden></div>
+  <p class="small fotos-uitleg"></p>
 </section>
-<div class="tbl-wrap"><table class="res rider-t">
-<caption>Alle starts in het archief, nieuwste eerst.</caption>
-<thead><tr><th scope="col" class="num">Jaar</th><th scope="col">Wedstrijd</th><th scope="col">Klasse</th><th scope="col">Plaats</th><th scope="col">Zeilnr.</th><th scope="col">Divisie</th><th scope="col" class="num">Resultaat</th></tr></thead>
-<tbody>{''.join(rows)}</tbody></table></div>
+{reeksen}
+<section class="block rider-starts">
+  <div class="block-h"><h2>Alle starts</h2><span class="small">nieuwste eerst</span></div>
+  {dfilter}
+  {''.join(year_secs)}
+</section>
 <p class="more"><a href="../statistieken.html#{esc(pid)}">Vergelijk {esc(p['name'])} met een andere rider</a></p>
 {json_ld({"@context": "https://schema.org", "@type": "Person", "name": p["name"], "url": f"{SITE_URL}rider/{pid}.html",
           **({"alternateName": other_spellings(p)} if other_spellings(p) else {})})}"""
