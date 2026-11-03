@@ -849,6 +849,8 @@ def about_page(events, results, apps):
 <p>Dezelfde volledige naam geldt als dezelfde persoon. Een andere schrijfwijze met hetzelfde zeilnummer ook. Twijfelgevallen worden pas samengevoegd als dat is nagegaan.</p>
 <h2>Foto's</h2>
 <p>Foto's bij een wedstrijd komen van riders en fotografen, die ze zelf plaatsen op <a href="{FOTO_URL}/" rel="noopener">de fotodienst van het archief</a>, met toestemming en naamsvermelding. De foto's staan op een eigen server, los van deze site; is die even niet bereikbaar, dan ontbreekt alleen het fotoblok. Staat er een foto van jou die je liever niet online ziet? Meld het bij de foto.</p>
+<h2>Bezoekers tellen</h2>
+<p>We tellen hoeveel mensen het archief bekijken en welke pagina's, zonder cookies en zonder je te volgen: er wordt niets op je apparaat bewaard en geen IP-adres opgeslagen. Per bezoek gaan alleen de pagina, de site waar je vandaan kwam en de breedte van je scherm naar de eigen server van het archief. Die gegevens worden met niemand gedeeld.</p>
 <h2>Iets gezien dat niet klopt?</h2>
 <p>Een verkeerde naam, een ontbrekende uitslag of een oude pdf op zolder: de data staat in <a href="{REPO_URL}" rel="noopener">deze GitHub-repository</a>. Er staan geen geboortedata of contactgegevens in, alleen wat in de uitslagen stond.</p>
 </div>"""

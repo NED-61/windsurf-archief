@@ -7,6 +7,7 @@
 Antwoorden van Max: 1 = eigen teller (en hij vraagt of zijn andere pagina's op ned-61.com ook geteld kunnen worden: ja, met dezelfde scriptregel); 2 = hoofdadres zonder www; 3 = nee, ook jeugdriders komen in Google; 4 = Search Console alleen voor het archief (URL-voorvoegsel met een html-tag), en riders moeten op naam vindbaar zijn ("pieter eliens" moet de riderpagina geven).
 
 - V1 gebouwd: canonical, `sitemap.xml` (1577 adressen, `lastmod` uit git), beschrijvingen met winnaars en per rider starts, jaren en andere schrijfwijzen, Open Graph met `assets/og.png`, BreadcrumbList en Person (JSON-LD), `noindex` op `zoeken.html` en `fototest.html`. De Search Console-code komt in `GOOGLE_VERIFICATIE` in `tools/build_site.py`.
+- V3 gebouwd: de teller in windsurf-foto 0.5.0 (`app/teller.py`, `POST /api/tel`, overzicht op `/beheer?tab=bezoek`), het bericht vanuit `tools/site_assets/site.js` en de alinea op de over-pagina. Voor de andere pagina's op ned-61.com: `<script defer src="https://homelab257.tailc2d973.ts.net:10000/static/tel.js"></script>` in de kop. Max: Force update van de container.
 - V2 (Max): Search Console, URL-voorvoegsel `https://ned-61.com/windsurf-archief/`, methode HTML-tag; de code naar Claude; daarna de sitemap indienen.
 
 ## 1. Waar we nu staan (gemeten 3 november 2026)

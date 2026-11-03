@@ -225,4 +225,15 @@
       fotoGrid(j.fotos, fotoNieuw.querySelector(".fotos-grid")); fotoNieuw.hidden = false;
     }).catch(function () { /* idem */ });
   }
+
+  /* ---------- bezoekersteller (windsurf-foto, app/teller.py; plan in docs/bezoekersplan.md) ----------
+     Eén klein bericht per paginaweergave: pad, verwijzer en schermbreedte. Geen cookies, niets bewaard op het apparaat, geen IP-adres
+     opgeslagen. Alleen op https (niet bij een build die je lokaal opent) en niet bij ?foto= (testen); tellen mag de pagina nooit hinderen. */
+  if (fotoBase && !fotoQ && location.protocol === "https:") {
+    try {
+      var telMsg = JSON.stringify({ p: location.pathname, r: document.referrer || "", w: (window.screen && screen.width) || 0 });
+      if (!(navigator.sendBeacon && navigator.sendBeacon(fotoBase + "/api/tel", telMsg)))
+        fetch(fotoBase + "/api/tel", { method: "POST", body: telMsg, keepalive: true, mode: "no-cors" });
+    } catch (e) { /* niets */ }
+  }
 })();
