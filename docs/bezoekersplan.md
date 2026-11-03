@@ -2,6 +2,13 @@
 
 3 november 2026. Vraag van Max: "ik wil ook een tracker van visitors en dat google het kan vinden". Dit plan beschrijft de stand van nu, wat er moet gebeuren, wie wat doet en de vier keuzes die nog open staan (hoofdstuk 6).
 
+## 0. Besluiten en stand (3 november 2026)
+
+Antwoorden van Max: 1 = eigen teller (en hij vraagt of zijn andere pagina's op ned-61.com ook geteld kunnen worden: ja, met dezelfde scriptregel); 2 = hoofdadres zonder www; 3 = nee, ook jeugdriders komen in Google; 4 = Search Console alleen voor het archief (URL-voorvoegsel met een html-tag), en riders moeten op naam vindbaar zijn ("pieter eliens" moet de riderpagina geven).
+
+- V1 gebouwd: canonical, `sitemap.xml` (1577 adressen, `lastmod` uit git), beschrijvingen met winnaars en per rider starts, jaren en andere schrijfwijzen, Open Graph met `assets/og.png`, BreadcrumbList en Person (JSON-LD), `noindex` op `zoeken.html` en `fototest.html`. De Search Console-code komt in `GOOGLE_VERIFICATIE` in `tools/build_site.py`.
+- V2 (Max): Search Console, URL-voorvoegsel `https://ned-61.com/windsurf-archief/`, methode HTML-tag; de code naar Claude; daarna de sitemap indienen.
+
 ## 1. Waar we nu staan (gemeten 3 november 2026)
 
 - De site staat op `https://ned-61.com/windsurf-archief/` en geeft precies dezelfde pagina op `https://www.ned-61.com/windsurf-archief/`. `http://` stuurt door naar `https://ned-61.com/...` (zonder www). Geen enkele pagina zegt welk adres het echte is (geen `canonical`), dus Google ziet elke pagina twee keer.

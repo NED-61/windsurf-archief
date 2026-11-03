@@ -9,7 +9,7 @@ Opmaak: stijl C "Rustig" (systeemletter, dunne lijnen, één linkkleur). Het eni
 van foto's bij de fotodienst (FOTO_URL, repo windsurf-foto op de NAS; zie docs/fotoplan.md): is die niet bereikbaar, dan
 blijft het fotoblok verborgen en werkt de rest gewoon. assets/wedstrijden.json en assets/riders.json zijn voor die dienst.
 """
-import argparse, datetime, hashlib, html, json, re, shutil, unicodedata
+import argparse, subprocess, datetime, hashlib, html, json, re, shutil, unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -18,6 +18,10 @@ ASSETS = Path(__file__).resolve().parent / "site_assets"
 SITE_NAME = "Windsurf Wedstrijdarchief"
 REPO_URL = "https://github.com/NED-61/windsurf-archief"
 FOTO_URL = "https://homelab257.tailc2d973.ts.net:10000"   # de fotodienst (windsurf-foto op de NAS, via Tailscale Funnel op poort 10000; 443 is de Unraid-webinterface, 8443 fvjl); zonder slash aan het eind
+SITE_URL = "https://ned-61.com/windsurf-archief/"   # hoofdadres (zonder www; keuze van Max, 3 november 2026): canonical, sitemap en Open Graph
+GOOGLE_VERIFICATIE = ""   # Search Console, eigenschap URL-voorvoegsel https://ned-61.com/windsurf-archief/, methode HTML-tag: de code uit content="..."; komt alleen in index.html
+NOINDEX = {"zoeken.html", "fototest.html"}   # niet in Google en niet in de sitemap: zonder javascript leeg, of een meetpagina
+DISCIPLINE_NL = {"slalom": "slalom", "course_race": "course race", "long_distance": "long distance", "short_course": "short course", "funboard": "funboard"}
 MONTHS = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
 PARTICLES = {"van", "de", "der", "den", "het", "t", "ter", "ten", "te", "vd", "v", "d", "in", "op", "la", "le", "du", "da", "di", "dal", "del", "von"}
 REMARKS = {"DNF": "niet gefinisht", "DNS": "niet gestart", "DNC": "niet aan de start", "DSQ": "gediskwalificeerd",
@@ -176,13 +180,23 @@ def page(title, body, depth, active=None, description=None, extra_js=""):
     cur = ' aria-current="page"'
     navhtml = "".join(f'<a href="{pre}{h}"{cur if k == active else ""}>{t}</a>' for h, t, k in nav)
     full_title = f"{title} | {SITE_NAME}" if title != SITE_NAME else SITE_NAME
+    desc = description or "Uitslagen van Nederlandse windsurfwedstrijden, met elke heat en elke rider."
     return f"""<!doctype html>
 <html lang="nl">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{esc(full_title)}</title>
-<meta name="description" content="{esc(description or 'Uitslagen van Nederlandse windsurfwedstrijden, met elke heat en elke rider.')}">
+<meta name="description" content="{esc(desc)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{SITE_NAME}">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:image" content="{SITE_URL}assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="{pre}assets/site.css?v={CSS_VERSION}">
 <script defer src="{pre}assets/search-index.js?v={CSS_VERSION}"></script>{extra_js}
 <script defer src="{pre}assets/site.js?v={CSS_VERSION}"></script>
@@ -214,9 +228,72 @@ def page(title, body, depth, active=None, description=None, extra_js=""):
 
 
 def crumbs(items, depth):
+    """Kruimelpad; items = (pad vanaf de hoofdmap of None voor deze pagina, tekst). Met hetzelfde pad als BreadcrumbList voor Google."""
     pre = "../" * depth
     parts = [f'<a href="{pre}{h}">{esc(t)}</a>' if h else f"<span>{esc(t)}</span>" for h, t in items]
-    return '<nav class="crumbs" aria-label="Kruimelpad">' + '<span aria-hidden="true">/</span>'.join(parts) + "</nav>"
+    ld = {"@context": "https://schema.org", "@type": "BreadcrumbList",
+          "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": t, **({"item": SITE_URL + h} if h is not None else {})}
+                              for i, (h, t) in enumerate([("", SITE_NAME)] + list(items))]}
+    return '<nav class="crumbs" aria-label="Kruimelpad">' + '<span aria-hidden="true">/</span>'.join(parts) + "</nav>" + json_ld(ld)
+
+
+def json_ld(d):
+    return '<script type="application/ld+json">' + json.dumps(d, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/") + "</script>"
+
+
+def winner_name(P, r, rank=1):
+    x = next((x for x in r["entries"] if x.get("rank") == rank and counted(x)), None)
+    if not x: return None
+    return P[x["person"]]["name"] if x.get("person") in P else x.get("name")
+
+
+def event_desc(P, ev):
+    """Beschrijving voor Google: naam, datum en plaats, aantal riders en de winnaars."""
+    main = [r for r in ev["results"] if not extra_ranking(r) and not r.get("provisional")]
+    s = "".join([f"Uitslag {ev['name']}"] + [f", {b}" for b in (fmt_date(ev["date"], ev.get("date_end")), ev["location"]) if b]) + f": {ev['participants']} riders."
+    if len(main) == 1:
+        w = [winner_name(P, main[0], k) for k in (1, 2, 3)]
+        if w[0]: s += f" Winnaar {w[0]}" + (f", voor {w[1]}" + (f" en {w[2]}" if w[2] else "") if w[1] else "") + "."
+    elif main:
+        ws = [f"{class_label(r)}: {winner_name(P, r)}" for r in main if winner_name(P, r)]
+        if ws: s += " Winnaars: " + "; ".join(ws[:4]) + ("; …" if len(ws) > 4 else "") + "."
+    return s
+
+
+def result_desc(P, r, ev):
+    n = n_counted(r)
+    kind = "tussenstand" if r.get("provisional") else "volledige uitslag"
+    s = f"{ev['name']}, {class_label(r)}: {kind} met {n} riders" + (", met alle heats" if r.get("eliminations") else "") + "."
+    top = [f"{k} {winner_name(P, r, k)}" for k in (1, 2, 3) if winner_name(P, r, k)]
+    return s + (" " + ", ".join(top) + "." if top else "")
+
+
+def other_spellings(p):
+    """Andere schrijfwijzen van een rider voor de beschrijving: alleen volledige namen, geen hoofdletter- of spatievarianten."""
+    base = re.sub(r"\s", "", norm(p["name"]))
+    seen, out = {base}, []
+    for x in p.get("aliases", []):
+        k = re.sub(r"\s", "", norm(x))
+        if len(x.split()) < 2 or k in seen: continue
+        seen.add(k); out.append(x)
+    return out
+
+
+def rider_desc(p, a):
+    years = sorted({x["ev"]["year"] for x in a})
+    starts = len(a); wins = sum(1 for x in a if x["rank"] == 1 and not x["prov"]); pods = sum(1 for x in a if x["rank"] and x["rank"] <= 3 and not x["prov"])
+    disc = []
+    for x in a:
+        d = DISCIPLINE_NL.get(x["r"]["event"].get("discipline"))
+        if d and d not in disc: disc.append(d)
+    s = f"{p['name']}: alle windsurfuitslagen in het archief, {starts} {'start' if starts == 1 else 'starts'}"
+    s += f" van {years[0]} tot en met {years[-1]}" if years[-1] != years[0] else f" in {years[0]}"
+    if wins: s += f", {wins}× winnaar"
+    if pods: s += f", {pods}× podium"
+    if disc: s += f" ({', '.join(disc)})"
+    s += "."
+    aka = other_spellings(p)[:3]
+    return s + (f" Ook gepubliceerd als {', '.join(aka)}." if aka else "")
 
 
 def rider_link(P, pid, name=None, pre="../"):
@@ -497,7 +574,7 @@ def result_page(P, r, ev):
 {source_html(r, ev)}
 {('<ul class="notes">' + ''.join(f'<li>{esc(n)}</li>' for n in notes) + '</ul>') if notes else ''}
 </section>"""
-    return page(f"{class_label(r)}, {ev['name']}", body, 1, "wedstrijden", f"Uitslag {class_label(r)} van {ev['name']}.")
+    return page(f"{class_label(r)}, {ev['name']}", body, 1, "wedstrijden", result_desc(P, r, ev))
 
 
 def podium_html(P, r, pre):
@@ -545,7 +622,7 @@ def event_page(P, ev, events):
 </section>
 {oth}
 {('<section class="block small"><h3>Bronnen voor datum en locatie</h3><ul class="notes">' + srcs + '</ul></section>') if srcs else ''}"""
-    return page(ev["name"], body, 1, "wedstrijden", f"Uitslagen van {ev['name']}.")
+    return page(ev["name"], body, 1, "wedstrijden", event_desc(P, ev))
 
 
 def events_page(events):
@@ -650,8 +727,10 @@ def rider_page(P, pid, a, results, agg=()):
 <caption>Alle starts in het archief, nieuwste eerst.</caption>
 <thead><tr><th scope="col" class="num">Jaar</th><th scope="col">Wedstrijd</th><th scope="col">Klasse</th><th scope="col">Plaats</th><th scope="col">Zeilnr.</th><th scope="col">Divisie</th><th scope="col" class="num">Resultaat</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>
-<p class="more"><a href="../statistieken.html#{esc(pid)}">Vergelijk {esc(p['name'])} met een andere rider</a></p>"""
-    return page(p["name"], body, 1, "riders", f"Alle wedstrijdresultaten van {p['name']} in het archief.")
+<p class="more"><a href="../statistieken.html#{esc(pid)}">Vergelijk {esc(p['name'])} met een andere rider</a></p>
+{json_ld({"@context": "https://schema.org", "@type": "Person", "name": p["name"], "url": f"{SITE_URL}rider/{pid}.html",
+          **({"alternateName": other_spellings(p)} if other_spellings(p) else {})})}"""
+    return page(p["name"], body, 1, "riders", rider_desc(p, a))
 
 
 def chart_svg(series, label):
@@ -807,7 +886,8 @@ def home_page(P, events, results, apps):
   <div class="block-h"><h2>Nieuwste foto's</h2><a href="fotos.html">Alle foto's</a></div>
   <div class="fotos-grid"></div>
 </section>"""
-    return page(SITE_NAME, body, 0, None)
+    return page(SITE_NAME, body, 0, None, f"Uitslagen van Nederlandse windsurfwedstrijden van {years[0]} tot en met {years[-1]}, met elke heat en elke rider: "
+                                          f"{len(results)} uitslagen en {len(apps)} riders.")
 
 
 def fotos_page():
@@ -917,6 +997,64 @@ def write_js_data(out, P, events, results, apps):
     (out / "assets/riders.json").write_text(json.dumps(riders_json, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
+def canonical(rel):
+    return SITE_URL + ("" if rel == "index.html" else rel)
+
+
+def seo_head(rel):
+    """Wat er per pagina bij komt in de kop: het hoofdadres (canonical en og:url), noindex voor NOINDEX en de Search Console-code op de startpagina."""
+    url = canonical(rel)
+    bits = [f'<link rel="canonical" href="{url}">', f'<meta property="og:url" content="{url}">']
+    if rel in NOINDEX: bits.append('<meta name="robots" content="noindex">')
+    if rel == "index.html" and GOOGLE_VERIFICATIE: bits.append(f'<meta name="google-site-verification" content="{esc(GOOGLE_VERIFICATIE)}">')
+    return "\n".join(bits)
+
+
+def git_dates():
+    """Datum van de laatste commit per bestand onder archive/ (voor lastmod in de sitemap), met één git-aanroep. Leeg als git of de
+    geschiedenis er niet is; dan krijgt de sitemap geen datums. Op GitHub haalt de workflow daarvoor de hele geschiedenis op (fetch-depth: 0)."""
+    try:
+        log = subprocess.run(["git", "log", "--format=%x00%cs", "--name-only", "--", "archive"], cwd=ROOT, capture_output=True,
+                             encoding="utf-8", errors="replace", timeout=120, check=True).stdout
+    except Exception:  # noqa: BLE001
+        return {}
+    dates, cur = {}, None
+    for line in log.splitlines():
+        if line.startswith("\x00"): cur = line[1:]; continue
+        if line and cur: dates.setdefault(line.strip('"'), cur)       # nieuwste commit eerst: de eerste keer is de laatste wijziging
+    return dates
+
+
+def lastmods(events, results, apps, agg_apps):
+    """lastmod per pagina: een uitslag = zijn eigen bestand, een wedstrijd = zijn uitslagen en event.json, een rider = de uitslagen waarin hij staat,
+    de overzichtspagina's = de laatste wijziging in het hele archief."""
+    g = git_dates()
+    if not g: return {}
+    f_of = lambda r: f"archive/{events[r['_event']]['scope']}/{events[r['_event']]['year']}/{r['_event']}/uitslagen/{r['id']}.json"
+    res = {rid: g.get(f_of(r)) for rid, r in results.items()}
+    out = {f"uitslag/{rid}.html": d for rid, d in res.items() if d}
+    for slug, e in events.items():
+        ds = [res[r["id"]] for r in e["results"] if res.get(r["id"])] + [g.get(f"archive/{e['scope']}/{e['year']}/{slug}/event.json")]
+        if any(ds): out[f"wedstrijd/{slug}.html"] = max(d for d in ds if d)
+    for pid, a in apps.items():
+        ds = [res.get(x["rid"]) for x in list(a) + list(agg_apps.get(pid, []))]
+        if any(ds): out[f"rider/{pid}.html"] = max(d for d in ds if d)
+    newest = max(g.values())
+    for rel in ("index.html", "wedstrijden.html", "riders.html", "statistieken.html", "over.html", "fotos.html"): out[rel] = newest
+    return out
+
+
+def write_sitemap(out, rels, mods):
+    rows = []
+    for rel in rels:
+        if rel in NOINDEX: continue
+        lm = f"<lastmod>{mods[rel]}</lastmod>" if mods.get(rel) else ""
+        rows.append(f"<url><loc>{esc(canonical(rel))}</loc>{lm}</url>")
+    (out / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                     + "\n".join(rows) + "\n</urlset>\n", encoding="utf-8")
+    return len(rows)
+
+
 def asset_version():
     """Korte hash van alles waar de site uit gebouwd wordt (uitslagen, evenementen, people.json, css en js). Staat als ?v=... achter
     elke verwijzing naar assets/: de server laat browsers .js en .css een week bewaren, dus zonder een nieuwe versie bij nieuwe
@@ -935,11 +1073,15 @@ def main():
     out = (ROOT / a.out).resolve()
     if out.exists(): shutil.rmtree(out)
     for d in ("assets", "wedstrijd", "uitslag", "rider"): (out / d).mkdir(parents=True, exist_ok=True)
-    for f in ("site.css", "site.js"): shutil.copy2(ASSETS / f, out / "assets" / f)
+    for f in ("site.css", "site.js", "og.png"): shutil.copy2(ASSETS / f, out / "assets" / f)
     P, events, results = load()
     apps = build_appearances(P, events, results)
     agg_apps = build_appearances(P, events, results, aggregate=True)
-    w = lambda rel, s: (out / rel).write_text(s, encoding="utf-8")
+    rels = []
+
+    def w(rel, s):
+        rels.append(rel)
+        (out / rel).write_text(s.replace("</head>", seo_head(rel) + "\n</head>", 1), encoding="utf-8")
     w("index.html", home_page(P, events, results, apps))
     w("wedstrijden.html", events_page(events))
     w("riders.html", riders_page(P, apps))
@@ -953,9 +1095,10 @@ def main():
     for pid, a in apps.items():
         if pid in P: w(f"rider/{pid}.html", rider_page(P, pid, a, results, agg_apps.get(pid, [])))
     write_js_data(out, P, events, results, apps)
+    n_map = write_sitemap(out, rels, lastmods(events, results, apps, agg_apps))
     n = sum(1 for _ in out.rglob("*.html"))
     missing = sorted({x.get("person") for r in results.values() for x in r["entries"] if x.get("person") and x["person"] not in P})
-    print(f"site gebouwd in {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}: {n} pagina's, {len(events)} wedstrijden, {len(results)} uitslagen, {len(apps)} riders"
+    print(f"site gebouwd in {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}: {n} pagina's, {len(events)} wedstrijden, {len(results)} uitslagen, {len(apps)} riders, sitemap {n_map} adressen"
           + (f"; LET OP: {len(missing)} person-id's ontbreken in people.json: {missing[:5]}" if missing else ""))
 
 
