@@ -2,6 +2,12 @@
 
 _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken._
 
+## nl / 1996
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| Texelrace 1996 | Windsurf | long_distance | 26 | Jaques van der Hout | complete | gecontroleerd | archive/nl/1996/texelrace-1996/uitslagen/texelrace-1996-long-distance-windsurf.json |
+
 ## nl / 1998
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
@@ -796,4 +802,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 878 bron(nen), 311 verwerkt._
+_Registry: 879 bron(nen), 312 verwerkt._

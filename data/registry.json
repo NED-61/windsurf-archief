@@ -12476,6 +12476,22 @@
    "sha256": "32ddc2e09f7174ebcad5080f2d06c1b394b638c523475163df354f1100aacd25",
    "archived": "archive/nl/2026/nk-slalom-2026/bronnen/Overall - ONK Foil Slalom 2026 _ Result total.html",
    "notes": "door de gebruiker opgeslagen totaalpagina van scoring.winterwave.nl (tweede bron van dezelfde uitslag); vergeleken met de vastlegging, zie de uitslag"
+  },
+  {
+   "ref": "inbox/los/WhatsApp Image 2026-11-03 at 10.16.58.jpeg",
+   "received": "2026-11-03",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-03",
+   "scope": "nl",
+   "channel": "los",
+   "kind": "uitslag",
+   "sha256": "2f052116ef13ec6c06fdf20901b8c2d32618b3b23f23678637a41272c6eb0c8e",
+   "archived": "local-only/nl/1996/texelrace-1996/bronnen/WhatsApp Image 2026-11-03 at 10.16.58.jpeg",
+   "outputs": [
+    "archive/nl/1996/texelrace-1996/uitslagen/texelrace-1996-long-distance-windsurf.json"
+   ],
+   "notes": "foto van de uitslaglijst (WhatsApp; maker en rechten niet bekend) met per rider de woonplaats: daarom niet in git maar in local-only/; verwerkt met tools/import_texel_1996.py"
   }
  ]
 }

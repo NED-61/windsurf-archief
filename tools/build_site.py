@@ -308,6 +308,7 @@ def result_table_ld(P, r, pre):
     has_div = any(division_text(x) for x in ents)
     has_eq = any(x.get("equipment") and EQUIP.get(x["equipment"], x["equipment"]).lower() != (x.get("division") or "").lower() for x in ents)
     has_laps = any(x.get("laps") is not None for x in ents)
+    has_time = any(x.get("time") for x in ents)
     has_fc = any(x.get("finish_clock") for x in ents)
     rows = []
     for x in ents:
@@ -322,17 +323,17 @@ def result_table_ld(P, r, pre):
                     + (f'<td class="div">{esc(division_text(x))}</td>' if has_div else "")
                     + (f'<td class="div">{esc(EQUIP.get(x.get("equipment"), x.get("equipment") or ""))}</td>' if has_eq else "")
                     + (f'<td class="num">{esc(x.get("laps") if x.get("laps") is not None else "–")}</td>' if has_laps else "")
-                    + f'<td class="num">{esc(x.get("time") or "–")}</td>'
+                    + (f'<td class="num">{esc(x.get("time") or "–")}</td>' if has_time else "")
                     + (f'<td class="num">{esc(x.get("finish_clock") or "")}</td>' if has_fc else "")
                     + (f'<td class="num">{esc(x.get("overall_rank") or "")}</td>' if has_ov else "")
-                    + f'<td>{remark_html(x.get("remark"))}</td></tr>')
+                    + f'<td>{" ".join(t for t in (remark_html(x.get("remark")), esc(x.get("prize_published") or "")) if t)}</td></tr>')
     tb = r["format"].get("time_basis")
     rk = "Gerangschikt op aantal rondes, daarna op tijd." if has_laps else f'Rangschikking: {esc(r["format"].get("ranking") or "op tijd")}.'
     nc = len(ents) - n_counted(r)
     if nc: rk += f" Niet in de tabel: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} die niet gestart {'is' if nc == 1 else 'zijn'} (DNS)."
     return f"""<div class="tbl-wrap"><table class="res">
 <caption>{rk}{(' Tijd: ' + esc(tb) + '.') if tb else ''}</caption>
-<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">M/V</th>' if has_g else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{'<th scope="col" class="num">Rondes</th>' if has_laps else ''}<th scope="col" class="num">Tijd</th>{'<th scope="col" class="num">Finish</th>' if has_fc else ''}{'<th scope="col" class="num">Overall</th>' if has_ov else ''}<th scope="col">Opmerking</th></tr></thead>
+<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">M/V</th>' if has_g else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{'<th scope="col" class="num">Rondes</th>' if has_laps else ''}{'<th scope="col" class="num">Tijd</th>' if has_time else ''}{'<th scope="col" class="num">Finish</th>' if has_fc else ''}{'<th scope="col" class="num">Overall</th>' if has_ov else ''}<th scope="col">Opmerking</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>"""
 
 
