@@ -10,6 +10,7 @@ on:
       - "data/people.json"
       - "tools/build_site.py"
       - "tools/publish_site.py"
+      - "tools/indexnow.py"
       - "tools/site_assets/**"
       - ".github/workflows/site.yml"
   workflow_dispatch:
@@ -38,5 +39,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin website:website || echo "branch website bestaat nog niet"
+          echo "OUD=$(git rev-parse --verify --quiet website || true)" >> "$GITHUB_ENV"   # vorige versie, voor IndexNow
           python3 tools/publish_site.py -m "Site gebouwd uit ${GITHUB_SHA::7}"
           git push origin website
+      # Meldt nieuwe en gewijzigde pagina's bij Bing en andere zoekmachines (bereikplan B0.3). Doet pas iets op het eigen domein
+      # (EIGEN_DOMEIN in tools/build_site.py); een fout geeft alleen een waarschuwing, de site staat dan al online.
+      - name: Zoekmachines melden (IndexNow)
+        run: python3 tools/indexnow.py --oud "$OUD"

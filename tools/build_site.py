@@ -20,8 +20,15 @@ SITE_NAME = "Windsurf Wedstrijdarchief"
 SITE_SHORT = "Windsurfarchief"   # korte naam achter elke titel, in og:site_name en als naam van de site voor Google (eigen domein windsurfarchief.nl, keuze van Max, 15 november 2026)
 REPO_URL = "https://github.com/NED-61/windsurf-archief"
 FOTO_URL = "https://homelab257.tailc2d973.ts.net:10000"   # de fotodienst (windsurf-foto op de NAS, via Tailscale Funnel op poort 10000; 443 is de Unraid-webinterface, 8443 fvjl); zonder slash aan het eind
-SITE_URL = "https://ned-61.com/windsurf-archief/"   # hoofdadres (zonder www; keuze van Max, 3 november 2026): canonical, sitemap en Open Graph
-GOOGLE_VERIFICATIE = ""   # Search Console, eigenschap URL-voorvoegsel https://ned-61.com/windsurf-archief/, methode HTML-tag: de code uit content="..."; komt alleen in index.html
+# Het eigen domein (bereikplan keuze 1). Op False tot https://windsurfarchief.nl/ echt de site toont; dan op True zetten en pushen
+# (stappen in docs/bereikplan.md, "Domeindag"). Daarmee verandert alles mee: canonical, sitemap, Open Graph, .htaccess (het oude adres
+# stuurt dan door), het deelplaatje en IndexNow (tools/indexnow.py meldt alleen op het eigen domein).
+EIGEN_DOMEIN = False
+OUD_URL = "https://ned-61.com/windsurf-archief/"   # zonder www (keuze van Max, 3 november 2026)
+NIEUW_URL = "https://windsurfarchief.nl/"
+SITE_URL = NIEUW_URL if EIGEN_DOMEIN else OUD_URL   # hoofdadres: canonical, sitemap en Open Graph (main() kan het voor een proefbouw vervangen: --site-url)
+GOOGLE_VERIFICATIE = ""   # Search Console, eigenschap URL-voorvoegsel https://windsurfarchief.nl/, methode HTML-tag: de code uit content="..."; komt alleen in index.html
+INDEXNOW_SLEUTEL = "9216e24db75eeb189806573cb645d972"   # IndexNow (bereikplan B0.3): staat als <sleutel>.txt in de hoofdmap van de site; geen geheim
 NOINDEX = {"zoeken.html", "fototest.html", "404.html"}   # niet in Google en niet in de sitemap: zonder javascript leeg, een meetpagina, of de foutpagina
 RIDER_VEEL = 8   # vanaf zoveel starts krijgt de riderpagina het overzicht per reeks en het filter op discipline
 DISCIPLINE_NL = {"slalom": "slalom", "course_race": "course race", "long_distance": "long distance", "short_course": "short course", "funboard": "funboard"}
@@ -203,6 +210,7 @@ def page(title, body, depth, active=None, description=None, extra_js="", full_ti
 <link rel="icon" href="{pre}favicon.ico" sizes="48x48">
 <link rel="icon" href="{pre}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{pre}apple-touch-icon.png">
+<link rel="alternate" type="application/atom+xml" href="{pre}nieuw.xml" title="Nieuw in het {SITE_SHORT}">
 <link rel="stylesheet" href="{pre}assets/site.css?v={CSS_VERSION}">
 <script defer src="{pre}assets/search-index.js?v={CSS_VERSION}"></script>{extra_js}
 <script defer src="{pre}assets/site.js?v={CSS_VERSION}"></script>
@@ -251,6 +259,44 @@ def winner_name(P, r, rank=1):
     x = next((x for x in r["entries"] if x.get("rank") == rank and counted(x)), None)
     if not x: return None
     return P[x["person"]]["name"] if x.get("person") in P else x.get("name")
+
+
+def names_at(P, r, rank, pre):
+    """Alle riders op een plaats (bij een gedeelde plaats meer dan één), als links met de naam uit het register (niet de schrijfwijze van
+    die ene uitslag, zoals 'Max baaijen'); '–' als niemand. Voor overzichten over meer uitslagen heen (reeks, jaar)."""
+    xs = [x for x in r["entries"] if x.get("rank") == rank and counted(x)]
+    return " en ".join(rider_link(P, x.get("person"), None if x.get("person") in P else x.get("name"), pre) for x in xs) or "–"
+
+
+def slugify(s):
+    return re.sub(r"[^a-z0-9]+", "-", norm(s)).strip("-")
+
+
+REEKS_MIN = 2   # een reekspagina vanaf zoveel edities in het archief; een reeks met één editie heeft alleen de wedstrijdpagina (bereikplan B1.1)
+
+
+def reeksen(events):
+    """Wedstrijdreeksen met een eigen pagina, op slug: naam en edities op datum. Zet ook ev["reeks"] (de slug) bij elke editie, voor de links."""
+    per = defaultdict(list)
+    for e in events.values():
+        if e["series"]: per[e["series"]].append(e)
+    out = {}
+    for name, es in sorted(per.items()):
+        if len(es) < REEKS_MIN: continue
+        slug = slugify(name)
+        out[slug] = {"slug": slug, "name": name, "events": sorted(es, key=lambda e: (e["sortdate"], e["name"]))}
+        for e in es: e["reeks"] = slug
+    return out
+
+
+def waarde(r, x):
+    """De uitslag van één rider als tekst: netto punten, punten, of rondes en tijd (x = regel uit de uitslag of een optreden)."""
+    ft = r["format"]["type"]
+    if ft in ("elimination", "fleet_racing", "series_standings"):
+        return "–" if x.get("net") is None else f'{fmt_pts(x["net"])} {"punten" if ft == "series_standings" else "netto"}'
+    if ft == "long_distance":
+        return f'{x["laps"]} rondes, {x["time"]}' if x.get("laps") is not None else (x.get("time") or "")
+    return ""
 
 
 def event_desc(P, ev):
@@ -567,7 +613,7 @@ def result_page(P, r, ev):
         result_table_series(P, r, pre) if ft == "series_standings" else "<p>Dit formaat wordt nog niet getoond.</p>")))
     siblings = [x for x in ev["results"] if x["id"] != r["id"]]
     sib = ("<p class='sibs'>Andere klassen: " + ", ".join(f'<a href="{esc(x["id"])}.html">{esc(class_label(x))}</a>' for x in siblings) + "</p>") if siblings else ""
-    body = f"""{crumbs([("wedstrijden.html", "Wedstrijden"), (f"wedstrijd/{ev['slug']}.html", ev["name"]), (None, class_label(r))], 1)}
+    body = f"""{crumbs([("wedstrijden.html", "Wedstrijden")] + reeks_crumb(ev) + [(f"wedstrijd/{ev['slug']}.html", ev["name"]), (None, class_label(r))], 1)}
 <header class="ph">
   <h1>{esc(class_label(r))}{' (tussenstand)' if r.get('provisional') else ''}</h1>
   <p class="lede"><a href="../wedstrijd/{esc(ev['slug'])}.html">{esc(ev['name'])}</a>. {event_meta_line(ev)}. {n_counted(r)} deelnemers. {fleet_line(r)}</p>
@@ -581,6 +627,11 @@ def result_page(P, r, ev):
 {('<ul class="notes">' + ''.join(f'<li>{esc(n)}</li>' for n in notes) + '</ul>') if notes else ''}
 </section>"""
     return page(f"{ev['name']}, {class_label(r)}: {'tussenstand' if r.get('provisional') else 'uitslag'}", body, 1, "wedstrijden", result_desc(P, r, ev))
+
+
+def reeks_crumb(ev):
+    """Stap in het kruimelpad naar de reekspagina, als de reeks er een heeft."""
+    return [(f"reeks/{ev['reeks']}.html", ev["series"])] if ev.get("reeks") else []
 
 
 def podium_html(P, r, pre):
@@ -610,10 +661,12 @@ def event_page(P, ev, events):
   {podium_html(P, r, pre)}
   <p class="more"><a href="../uitslag/{esc(r['id'])}.html">{'Volledige tussenstand' if r.get('provisional') else 'Volledige uitslag'}, {n_counted(r)} deelnemers</a>{' (onvolledig)' if r.get('coverage') == 'partial' and not r.get('provisional') else ''}</p>
 </section>""")
-    other = sorted([e for e in events.values() if e["series"] == ev["series"] and e["slug"] != ev["slug"]], key=lambda e: e["sortdate"])
-    oth = ("<p class='sibs'>Andere edities: " + ", ".join(f'<a href="{esc(e["slug"])}.html">{esc(e["name"])}</a>' for e in other) + "</p>") if other else ""
+    other = sorted([e for e in events.values() if ev["series"] and e["series"] == ev["series"] and e["slug"] != ev["slug"]], key=lambda e: e["sortdate"])
+    oth = ("Andere edities: " + ", ".join(f'<a href="{esc(e["slug"])}.html">{esc(e["name"])}</a>' for e in other) + ".") if other else ""
+    if ev.get("reeks"): oth = f'Alle edities en winnaars: <a href="../reeks/{esc(ev["reeks"])}.html">{esc(ev["series"])}</a>. ' + oth
+    oth = f"<p class='sibs'>{oth}</p>" if oth else ""
     srcs = "".join(f'<li><a href="{esc(m["url"])}" rel="noopener">{esc(m["name"])}</a></li>' for m in ev.get("meta_sources", []) if m.get("url"))
-    body = f"""{crumbs([("wedstrijden.html", "Wedstrijden"), (None, ev["name"])], 1)}
+    body = f"""{crumbs([("wedstrijden.html", "Wedstrijden")] + reeks_crumb(ev) + [(None, ev["name"])], 1)}
 <header class="ph">
   <h1>{esc(ev['name'])}</h1>
   <p class="lede">{event_meta_line(ev)}. {len(ev['results'])} {'klasse' if len(ev['results']) == 1 else 'klassen'}, {ev['participants']} riders.</p>
@@ -633,40 +686,180 @@ def event_page(P, ev, events):
 
 
 def event_ld(P, ev):
-    """SportsEvent (JSON-LD): wat, wanneer en waar, voor zoekmachines en AI-assistenten (bereikplan B0.9). Alleen als de datum bekend is.
+    """SportsEvent (JSON-LD): wat, wanneer en waar, voor zoekmachines en AI-assistenten (bereikplan B0.9). Alleen als datum én locatie bekend
+    zijn: Google eist bij een evenement allebei, en zonder locatie komt de pagina als fout in het rapport Evenementen van Search Console.
     De locatie 'Naam (adres)' wordt Place met naam en adres; zonder haakjes is de hele tekst beide."""
-    if not ev.get("date"): return ""
+    if not ev.get("date") or not ev.get("location"): return ""
     d = {"@context": "https://schema.org", "@type": "SportsEvent", "name": ev["name"], "url": f"{SITE_URL}wedstrijd/{ev['slug']}.html",
          "startDate": ev["date"], "endDate": ev.get("date_end") or ev["date"], "sport": "Windsurfen",
          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "description": event_desc(P, ev)}
-    if ev.get("location"):
-        m = re.match(r"^(.*?)\s*\((.*)\)\s*$", ev["location"])
-        d["location"] = {"@type": "Place", "name": m.group(1) if m else ev["location"], "address": m.group(2) if m else ev["location"]}
+    m = re.match(r"^(.*?)\s*\((.*)\)\s*$", ev["location"])
+    d["location"] = {"@type": "Place", "name": m.group(1) if m else ev["location"], "address": m.group(2) if m else ev["location"]}
     if ev.get("organizer"): d["organizer"] = {"@type": "Organization", "name": ev["organizer"]}
     if ev.get("series"): d["superEvent"] = {"@type": "EventSeries", "name": ev["series"]}
     return json_ld(d)
 
 
-def events_page(events):
+def event_item(e, pre=""):
+    """Een wedstrijd in een lijst: naam, datum en plaats, en een link per klasse."""
+    chips = "".join(f'<a class="chip" href="{pre}uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>' for r in e["results"])
+    return f"""<li class="ev">
+  <div class="ev-h"><a class="ev-name" href="{pre}wedstrijd/{esc(e['slug'])}.html">{esc(e['name'])}</a><span class="ev-meta">{event_meta_line(e)}</span></div>
+  <div class="chips">{chips}</div>
+</li>"""
+
+
+def events_page(events, R):
     by_year = defaultdict(list)
     for e in events.values(): by_year[e["year"]].append(e)
     secs = []
     for y in sorted(by_year, reverse=True):
-        items = []
-        for e in sorted(by_year[y], key=lambda e: e["sortdate"], reverse=True):
-            chips = "".join(f'<a class="chip" href="uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>' for r in e["results"])
-            items.append(f"""<li class="ev">
-  <div class="ev-h"><a class="ev-name" href="wedstrijd/{esc(e['slug'])}.html">{esc(e['name'])}</a><span class="ev-meta">{event_meta_line(e)}</span></div>
-  <div class="chips">{chips}</div>
-</li>""")
-        secs.append(f'<section class="year"><h2 class="yr">{y}</h2><ul class="evs">{"".join(items)}</ul></section>')
+        items = "".join(event_item(e) for e in sorted(by_year[y], key=lambda e: e["sortdate"], reverse=True))
+        secs.append(f'<section class="year" id="jaar-{y}"><h2 class="yr"><a href="jaar/{y}.html">{y}</a></h2><ul class="evs">{items}</ul></section>')
+    reeks_links = "".join(f'<a href="reeks/{esc(s)}.html">{esc(x["name"])} <span class="muted">{len(x["events"])}</span></a>'
+                          for s, x in sorted(R.items(), key=lambda kv: (-len(kv[1]["events"]), kv[1]["name"])))
+    jaar_links = "".join(f'<a href="jaar/{y}.html">{y}</a>' for y in sorted(by_year, reverse=True))
     body = f"""<header class="ph"><h1>Wedstrijden</h1>
 <p class="lede">Alle wedstrijden in het archief, nieuwste eerst. Klik op een klasse voor de volledige uitslag.</p></header>
+<section class="block idx" id="reeksen"><h2>Per reeks</h2><p class="small">Alle edities van een reeks, met de winnaars per jaar. Het getal is het aantal edities in het archief.</p>
+<nav class="chips" aria-label="Reeksen">{reeks_links}</nav></section>
+<section class="block idx"><h2>Per jaar</h2><nav class="az" aria-label="Jaren">{jaar_links}</nav></section>
 {''.join(secs)}"""
     ys = sorted(e["year"] for e in events.values())
     return page("Alle windsurfwedstrijden en uitslagen", body, 0, "wedstrijden",
                 f"Alle {len(events)} windsurfwedstrijden in het archief, van {ys[0]} tot en met {ys[-1]}, nieuwste eerst: "
                 f"NK's, regiocups, rondjes en cups, met de uitslag van elke klasse.")
+
+
+def top_list(P, apps, key, n, pre="", cap=None):
+    """Ranglijst (meeste starts, overwinningen ...): de eerste n, aangevuld met wie gelijk staat met de laatste; wie het maar één keer deed telt
+    niet. Met cap: worden het er door gelijke standen meer, dan valt de groep op de laatste plaats weg (als er dan nog iemand overblijft)."""
+    ranked = [(pid, v) for pid, v in Counter({pid: key(a) for pid, a in apps.items()}).most_common() if v > 0]
+    if not ranked: return ""
+    cut = max(ranked[:n][-1][1], 2)
+    rows = [(pid, v) for pid, v in ranked if v >= cut]
+    if cap and len(rows) > cap and any(v > cut for _, v in rows): rows = [(pid, v) for pid, v in rows if v > cut]
+    if not rows: return "<p class='muted'>Nog niemand vaker dan één keer.</p>"
+    return ("<ol class='rank'>" + "".join(f'<li><a href="{pre}rider/{esc(pid)}.html">{esc(P[pid]["name"])}</a><span class="num">{v}</span></li>'
+                                         for pid, v in rows) + "</ol>")
+
+
+def n_wins(a): return sum(1 for x in a if x["rank"] == 1 and not x["prov"])
+def n_pods(a): return sum(1 for x in a if x["rank"] and x["rank"] <= 3 and not x["prov"])
+
+
+def apps_in(P, apps, slugs):
+    """De optredens van elke rider, beperkt tot een set wedstrijden (voor reeks- en jaarpagina's); riders zonder optreden vallen weg."""
+    sub = {pid: [x for x in a if x["ev"]["slug"] in slugs] for pid, a in apps.items() if pid in P}
+    return {pid: a for pid, a in sub.items() if a}
+
+
+def reeks_page(P, R, apps):
+    """Pagina per wedstrijdreeks (bereikplan B1.1): de winnaars per editie en klasse, wie het vaakst won of op het podium stond, riders per jaar
+    en alle edities. Geen titels: wat als Nederlandse titel telt, beslist Max (B1.2); hier staat alleen wie elke uitslag won."""
+    pre = "../"
+    es, name = R["events"], R["name"]
+    ys = sorted({e["year"] for e in es})
+    span = f"{ys[0]}–{ys[-1]}" if ys[0] != ys[-1] else str(ys[0])
+    sub = apps_in(P, apps, {e["slug"] for e in es})
+    n_starts = sum(len(a) for a in sub.values())
+    groups, any_prov = [], False
+    for e in reversed(es):
+        main = [r for r in e["results"] if not extra_ranking(r)] or e["results"]
+        rows = []
+        for i, r in enumerate(main):
+            any_prov |= bool(r.get("provisional"))
+            ev_cell = (f'<th scope="rowgroup" rowspan="{len(main)}" class="ed"><a href="../wedstrijd/{esc(e["slug"])}.html">{esc(e["name"])}</a>'
+                       f'<small class="sub">{esc(fmt_date(e["date"], e.get("date_end")) or e["year"])}</small></th>') if i == 0 else ""
+            prov = ' <small class="muted">tussenstand</small>' if r.get("provisional") else ""
+            rows.append(f'<tr>{ev_cell}<td><a href="../uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>{prov}</td>'
+                        + "".join(f'<td class="nm">{names_at(P, r, k, pre)}</td>' for k in (1, 2, 3)) + "</tr>")
+        groups.append(f'<tbody>{"".join(rows)}</tbody>')
+    uitleg = "De winnaar van elke uitslag in het archief."
+    if name.upper().startswith(("NK", "ONK")):
+        uitleg += " Of dat ook de Nederlandse titel was, hangt af van de reglementen van dat jaar, bijvoorbeeld bij meerdere stops."
+    if any_prov: uitleg += " Een tussenstand is de stand na een deel van de wedstrijd: daar staat wie op dat moment voor lag."
+    per_year = defaultdict(set)
+    for pid, a in sub.items():
+        for x in a: per_year[x["ev"]["year"]].add(pid)
+    series = [(y, len(per_year[y])) for y in sorted(per_year)]
+    chart = ""
+    if len(series) >= 3:
+        tbl = "".join(f'<tr><th scope="row">{y}</th><td class="num">{v}</td></tr>' for y, v in series)
+        chart = f"""<section class="block">
+  <h2>Riders per jaar</h2>
+  <p class="muted">Aantal verschillende riders met minstens één start in {esc(name)} in dat jaar.</p>
+  {chart_svg(series, "riders")}
+  <details class="tbl-view"><summary>Als tabel</summary><table class="list"><thead><tr><th scope="col">Jaar</th><th scope="col" class="num">Riders</th></tr></thead><tbody>{tbl}</tbody></table></details>
+</section>"""
+    last = es[-1]
+    body = f"""{crumbs([("wedstrijden.html", "Wedstrijden"), (None, name)], 1)}
+<header class="ph">
+  <h1>{esc(name)}</h1>
+  <p class="lede">{len(es)} edities in het archief, van {ys[0]} tot en met {ys[-1]}, met {len(sub)} riders en {n_starts} starts. Laatste editie: <a href="../wedstrijd/{esc(last['slug'])}.html">{esc(last['name'])}</a>.</p>
+</header>
+<section class="block">
+  <h2>Winnaars per editie</h2>
+  <p class="small">{uitleg}</p>
+  <div class="tbl-wrap"><table class="list reeks-w">
+  <thead><tr><th scope="col">Editie</th><th scope="col">Klasse</th><th scope="col">Winnaar</th><th scope="col">2e</th><th scope="col">3e</th></tr></thead>
+  {"".join(groups)}</table></div>
+</section>
+<section class="block tops">
+  <div><h2>Meeste overwinningen</h2>{top_list(P, sub, n_wins, 8, pre, cap=15)}</div>
+  <div><h2>Meeste podiumplaatsen</h2>{top_list(P, sub, n_pods, 8, pre, cap=15)}</div>
+  <div><h2>Meeste starts</h2>{top_list(P, sub, len, 10, pre, cap=15)}</div>
+</section>
+{chart}
+<section class="block">
+  <div class="block-h"><h2>Alle edities</h2><span class="small">nieuwste eerst</span></div>
+  <ul class="evs">{"".join(event_item(e, pre) for e in reversed(es))}</ul>
+</section>"""
+    top = Counter({pid: n_wins(a) for pid, a in sub.items()}).most_common(1)
+    desc = f"Alle {len(es)} edities van {name} in het archief ({span}): de winnaars per klasse, riders per jaar en wie het vaakst won."
+    if top and top[0][1] >= 2: desc += f" Meeste overwinningen: {P[top[0][0]]['name']} ({top[0][1]}×)."
+    title = f"{name}{'' if 'windsurf' in name.lower() else ' windsurfen'}: uitslagen en winnaars {span}"
+    return page(title, body, 1, "wedstrijden", desc)
+
+
+def jaar_page(P, y, es, apps, years):
+    """Pagina per jaar (bereikplan B1.3): de wedstrijden van dat jaar op datum met de winnaar van elke klasse, en wie het vaakst startte."""
+    pre = "../"
+    es = sorted(es, key=lambda e: (e["sortdate"], e["name"]))
+    sub = apps_in(P, apps, {e["slug"] for e in es})
+    cards = []
+    for e in es:
+        lis = "".join(f'<li><a href="../uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>'
+                      f'<span>{names_at(P, r, 1, pre)}{" (tussenstand)" if r.get("provisional") else ""}</span></li>' for r in e["results"])
+        reeks = f'<p class="small">Reeks: <a href="../reeks/{esc(e["reeks"])}.html">{esc(e["series"])}</a>, alle edities en winnaars</p>' if e.get("reeks") else ""
+        cards.append(f"""<article class="ev-card">
+  <h3><a href="../wedstrijd/{esc(e['slug'])}.html">{esc(e['name'])}</a></h3>
+  <p class="ev-meta">{event_meta_line(e)}. {e['participants']} riders.</p>
+  <ul class="winners">{lis}</ul>{reeks}
+</article>""")
+    i = years.index(y)
+    nav = [f'<a href="{years[i - 1]}.html">← {years[i - 1]}</a>'] if i > 0 else []
+    nav.append(f'<a href="../wedstrijden.html#jaar-{y}">Alle jaren</a>')
+    if i < len(years) - 1: nav.append(f'<a href="{years[i + 1]}.html">{years[i + 1]} →</a>')
+    n = len(es)
+    tops = ""
+    if n >= 2:
+        tops = f'<section class="block tops"><div><h2>Meeste starts in {y}</h2>{top_list(P, sub, len, 10, pre, cap=15)}</div></section>'
+    body = f"""{crumbs([("wedstrijden.html", "Wedstrijden"), (None, str(y))], 1)}
+<header class="ph">
+  <h1>Windsurfwedstrijden {y}</h1>
+  <p class="lede">{n} {'wedstrijd' if n == 1 else 'wedstrijden'} uit {y} in het archief, met {len(sub)} riders en {sum(len(a) for a in sub.values())} starts. Op datum, met de winnaar van elke klasse.</p>
+  <p class="more">{" · ".join(nav)}</p>
+</header>
+<section class="block">
+  <h2>{'De wedstrijd' if n == 1 else 'De wedstrijden'}</h2>
+  <div class="ev-cards">{''.join(cards)}</div>
+</section>
+{tops}"""
+    names = [e["name"] for e in es]
+    if n == 1: desc = f"De windsurfwedstrijd uit {y} in het archief: {names[0]}, met de winnaar van elke klasse."
+    else: desc = f"Alle {n} windsurfwedstrijden uit {y} in het archief, met de winnaar van elke klasse: " + ", ".join(names[:3]) + (f" en {n - 3} meer." if n > 3 else ".")
+    return page(f"Windsurfwedstrijden {y}: alle uitslagen", body, 1, "wedstrijden", desc)
 
 
 def best_of(apps):
@@ -705,6 +898,37 @@ def riders_page(P, apps):
                 f"Alle {len(apps)} riders in het archief van Nederlandse windsurfwedstrijden, op achternaam, met hun aantal starts, jaren en beste resultaat.")
 
 
+RIDER_WEINIG = 3   # tot en met zoveel starts krijgt de riderpagina per start de uitslag rond de rider (bereikplan B1.5)
+
+
+def buren_html(P, pid, x):
+    """Voor een riderpagina met weinig starts: de uitslag rond deze rider (twee plaatsen ervoor en erna, en de winnaar) met datum, plaats,
+    aantal deelnemers en de reeks. Echte gegevens in plaats van vultekst, en links naar de riders eromheen (bereikplan B1.5)."""
+    r, ev = x["r"], x["ev"]
+    ents = [e for e in r["entries"] if counted(e)]
+    i = next((k for k, e in enumerate(ents) if e.get("person") == pid), None)
+    if i is None: return ""
+    gap = '<tr class="gap"><td colspan="3">…</td></tr>'
+    rows, prev = [], -1
+    for k in sorted({0} | set(range(max(0, i - 2), min(len(ents), i + 3)))):
+        if k > prev + 1: rows.append(gap)
+        e, zelf = ents[k], ' class="zelf"' if k == i else ""
+        rows.append(f'<tr{zelf}>{rank_cell(e.get("rank"), e.get("remark"))}'
+                    f'<th scope="row" class="nm">{rider_link(P, e.get("person"), None if e.get("person") in P else e.get("name"))}</th><td class="num">{esc(waarde(r, e))}</td></tr>')
+        prev = k
+    if prev < len(ents) - 1: rows.append(gap)
+    w = winner_name(P, r)
+    zin = ", ".join(esc(b) for b in (fmt_date(ev["date"], ev.get("date_end")) or str(ev["year"]), ev["location"]) if b) + f". {len(ents)} deelnemers"
+    if w: zin += f", {'voorop in de tussenstand' if r.get('provisional') else 'gewonnen door'} {esc(w)}"
+    zin += "."
+    if ev.get("reeks"): zin += f' Onderdeel van <a href="../reeks/{esc(ev["reeks"])}.html">{esc(ev["series"])}</a>, met alle edities en winnaars.'
+    return f"""<section class="block buren">
+  <div class="block-h"><h2>{esc(ev['name'])}, {esc(class_label(r))}{' (tussenstand)' if r.get('provisional') else ''}</h2><a href="../uitslag/{esc(r['id'])}.html">Volledige uitslag</a></div>
+  <p class="small">{zin}</p>
+  <div class="tbl-wrap"><table class="res buren-t"><tbody>{''.join(rows)}</tbody></table></div>
+</section>"""
+
+
 def rider_page(P, pid, a, results, agg=()):
     """Riderpagina: kop met de samenvatting, een fotostrook (5 willekurige, uit te klappen; gevuld door site.js vanaf de fotodienst),
     bij veel starts een overzicht per wedstrijdreeks, en alle starts per jaar met een filter op discipline (keuze van Max, 3 november 2026)."""
@@ -736,13 +960,8 @@ def rider_page(P, pid, a, results, agg=()):
         rows = []
         for x in by_year[y]:
             r = x["r"]
-            if r["format"]["type"] in ("elimination", "fleet_racing", "series_standings"):
-                val = "–" if x["net"] is None else f'{fmt_pts(x["net"])} {"punten" if r["format"]["type"] == "series_standings" else "netto"}'
-            elif r["format"]["type"] == "long_distance":
-                val = (f'{x["laps"]} rondes, {x["time"]}' if x["laps"] is not None else (x["time"] or ""))
-            else:
-                val = ""
-            pl = f'<span class="pl{" p1" if x["rank"] == 1 else ""}">{x["rank"]}</span> <span class="of">van {x["n"]}</span>' if x["rank"] else \
+            val = waarde(r, x)
+            pl =f'<span class="pl{" p1" if x["rank"] == 1 else ""}">{x["rank"]}</span> <span class="of">van {x["n"]}</span>' if x["rank"] else \
                  f'<span class="pl">{remark_html(x["remark"]) or "–"}</span>'
             sub = [f'<a href="../uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a>']
             if x["agg"]: sub.append("telt niet als extra start")
@@ -772,13 +991,23 @@ def rider_page(P, pid, a, results, agg=()):
                 ys = sorted({x["ev"]["year"] for x in xs}); b = best_of(xs)
                 yr = f"{ys[0]}–{ys[-1]}" if ys[-1] != ys[0] else str(ys[0])
                 best = f'{b["rank"]}e, <a href="../uitslag/{esc(b["rid"])}.html">{esc(b["ev"]["name"])}</a>' if b else "–"
-                rr.append(f'<tr><th scope="row">{esc(s)}</th><td class="num">{len(xs)}</td><td class="num">{yr}</td><td class="best">{best}</td></tr>')
+                rk = xs[0]["ev"].get("reeks")
+                sn = f'<a href="../reeks/{esc(rk)}.html">{esc(s)}</a>' if rk else esc(s)
+                rr.append(f'<tr><th scope="row">{sn}</th><td class="num">{len(xs)}</td><td class="num">{yr}</td><td class="best">{best}</td></tr>')
             reeksen = f"""<section class="block">
   <div class="block-h"><h2>Per wedstrijdreeks</h2></div>
   <div class="tbl-wrap"><table class="list reeks-t">
   <thead><tr><th scope="col">Reeks</th><th scope="col" class="num">Starts</th><th scope="col" class="num">Jaren</th><th scope="col">Beste resultaat</th></tr></thead>
   <tbody>{"".join(rr)}</tbody></table></div>
 </section>"""
+
+    # ---- bij weinig starts: de uitslag rond deze rider, met de context van de wedstrijd, en een vraag om foto's (bereikplan B1.5)
+    buren = ""
+    if starts <= RIDER_WEINIG:
+        buren = "".join(buren_html(P, pid, x) for x in reversed(a))
+        ev = a[-1]["ev"]
+        buren += (f'<p class="small">Heb je een foto van {esc(p["name"])} bij {esc(ev["name"])}? <a href="{FOTO_URL}/upload?wedstrijd={esc(ev["slug"])}" rel="noopener">'
+                  f"Voeg hem toe bij de wedstrijd</a>; dan staat hij ook op deze pagina.</p>")
 
     summary = f'{starts} {"start" if starts == 1 else "starts"} van {years[0]}{" tot en met " + str(years[-1]) if years[-1] != years[0] else ""}'
     if wins: summary += f', {wins}× winnaar'
@@ -796,7 +1025,7 @@ def rider_page(P, pid, a, results, agg=()):
   <div class="fotos-alles" hidden></div>
   <p class="small fotos-uitleg"></p>
 </section>
-{reeksen}
+{reeksen}{buren}
 <section class="block rider-starts">
   <div class="block-h"><h2>Alle starts</h2><span class="small">nieuwste eerst</span></div>
   {dfilter}
@@ -853,18 +1082,9 @@ def stats_page(P, events, results, apps):
             win_rows.append(f'<tr><td class="num">{e["year"]}</td><td><a href="wedstrijd/{esc(e["slug"])}.html">{esc(e["name"])}</a></td>'
                             f'<td><a href="uitslag/{esc(r["id"])}.html">{esc(class_label(r))}</a></td><td class="nm">{names}</td></tr>')
 
-    def top(key, n, label):
-        c = Counter({pid: key(a) for pid, a in apps.items()})
-        rows = [(pid, v) for pid, v in c.most_common() if v > 0][:n]
-        if not rows: return ""
-        cut = rows[-1][1]
-        rows = [(pid, v) for pid, v in c.most_common() if v >= max(cut, 2)] if cut == 1 else [(pid, v) for pid, v in c.most_common() if v >= cut]
-        if not rows: return "<p class='muted'>Nog niemand vaker dan één keer.</p>"
-        return ("<ol class='rank'>" + "".join(f'<li><a href="rider/{esc(pid)}.html">{esc(P[pid]["name"])}</a><span class="num">{v}</span></li>'
-                                             for pid, v in rows) + "</ol>")
-    starts = top(lambda a: len(a), 10, "starts")
-    wins = top(lambda a: sum(1 for x in a if x["rank"] == 1 and not x["prov"]), 8, "overwinningen")
-    pods = top(lambda a: sum(1 for x in a if x["rank"] and x["rank"] <= 3 and not x["prov"]), 8, "podiums")
+    starts = top_list(P, apps, len, 10)
+    wins = top_list(P, apps, n_wins, 8)
+    pods = top_list(P, apps, n_pods, 8)
     body = f"""<header class="ph"><h1>Statistieken</h1>
 <p class="lede">Telt alleen wat in het archief staat: {len(results)} uitslagen van {len(events)} wedstrijden, {len(apps)} riders. Oudere en ontbrekende uitslagen komen er nog bij.</p></header>
 
@@ -937,7 +1157,16 @@ def about_page(events, results, apps):
                 "bezoekers tellen zonder cookies, en hoe je een fout meldt of uitslagen aanlevert.")
 
 
-def home_page(P, events, results, apps):
+NIEUW_THUIS = 6   # zoveel nieuwste toevoegingen op de startpagina; de feed heeft er NIEUW_FEED
+
+
+def nieuwste(events, added, n):
+    """De wedstrijden die het laatst in het archief kwamen (eerste commit van hun uitslagen), niet de laatst gevarene: een oude uitslag
+    die vorige week boven water kwam, is ook nieuw (bereikplan B1.6)."""
+    return sorted(events.values(), key=lambda e: (added[e["slug"]][0], e["sortdate"], e["slug"]), reverse=True)[:n]
+
+
+def home_page(P, events, results, apps, added):
     evs = sorted(events.values(), key=lambda e: e["sortdate"], reverse=True)
     latest = []
     for e in evs[:4]:
@@ -950,10 +1179,13 @@ def home_page(P, events, results, apps):
   <ul class="winners">{cls}{more}</ul>
 </article>""")
     years = sorted({e["year"] for e in events.values()})
-    series = sorted({e["series"] for e in events.values() if e["series"]})
+    series = {e["series"]: e.get("reeks") for e in events.values() if e["series"]}
+    series_html = ", ".join(f'<a href="reeks/{esc(series[s])}.html">{esc(s)}</a>' if series[s] else esc(s) for s in sorted(series))
+    nieuw = "".join(f'<li><a href="wedstrijd/{esc(e["slug"])}.html">{esc(e["name"])}</a><span><time datetime="{added[e["slug"]][0][:10]}">'
+                    f'{fmt_date(added[e["slug"]][0][:10])}</time></span></li>' for e in nieuwste(events, added, NIEUW_THUIS))
     body = f"""<section class="hero">
   <h1>Elke heat, elke rider.</h1>
-  <p class="lede">Uitslagen van Nederlandse windsurfwedstrijden van {years[0]} tot en met {years[-1]}: {', '.join(esc(s) for s in series)}. {len(results)} uitslagen, {len(apps)} riders.</p>
+  <p class="lede">Uitslagen van Nederlandse windsurfwedstrijden van {years[0]} tot en met {years[-1]}: {series_html}. {len(results)} uitslagen, {len(apps)} riders.</p>
   <form class="big-search" role="search" action="zoeken.html" method="get">
     <label class="vh" for="q-home">Zoek rider, zeilnummer of wedstrijd</label>
     <input id="q-home" name="q" type="search" autocomplete="off" placeholder="Zoek op naam of zeilnummer, bijvoorbeeld NED 69" spellcheck="false">
@@ -963,6 +1195,10 @@ def home_page(P, events, results, apps):
 <section class="block">
   <div class="block-h"><h2>Laatste wedstrijden</h2><a href="wedstrijden.html">Alle wedstrijden</a></div>
   <div class="ev-cards">{''.join(latest)}</div>
+</section>
+<section class="block nieuw">
+  <div class="block-h"><h2>Nieuw in het archief</h2><a href="nieuw.xml" title="Atom-feed: nieuwe uitslagen in je feedlezer">Volg via de feed</a></div>
+  <ul class="winners">{nieuw}</ul>
 </section>
 <section class="block fotos-nieuw" hidden>
   <div class="block-h"><h2>Nieuwste foto's</h2><a href="fotos.html">Alle foto's</a></div>
@@ -1111,37 +1347,98 @@ def seo_head(rel):
 
 
 def git_dates():
-    """Datum van de laatste commit per bestand onder archive/ (voor lastmod in de sitemap), met één git-aanroep. Leeg als git of de
-    geschiedenis er niet is; dan krijgt de sitemap geen datums. Op GitHub haalt de workflow daarvoor de hele geschiedenis op (fetch-depth: 0)."""
+    """Per bestand onder archive/ het tijdstip (ISO 8601) van de laatste en de eerste commit, met één git-aanroep: de laatste geeft lastmod
+    in de sitemap, de eerste wanneer een uitslag in het archief kwam (startpagina en feed). Leeg als git of de geschiedenis er niet is;
+    dan krijgt de sitemap geen datums. Op GitHub haalt de workflow daarvoor de hele geschiedenis op (fetch-depth: 0)."""
     try:
-        log = subprocess.run(["git", "log", "--format=%x00%cs", "--name-only", "--", "archive"], cwd=ROOT, capture_output=True,
+        log = subprocess.run(["git", "log", "--format=%x00%ct", "--name-only", "--", "archive"], cwd=ROOT, capture_output=True,
                              encoding="utf-8", errors="replace", timeout=120, check=True).stdout
     except Exception:  # noqa: BLE001
         return {}
-    dates, cur = {}, None
+    last, first, cur = {}, {}, None
     for line in log.splitlines():
-        if line.startswith("\x00"): cur = line[1:]; continue
-        if line and cur: dates.setdefault(line.strip('"'), cur)       # nieuwste commit eerst: de eerste keer is de laatste wijziging
-    return dates
+        if line.startswith("\x00"):      # in UTC, zodat tijden als tekst te vergelijken zijn
+            cur = datetime.datetime.fromtimestamp(int(line[1:]), datetime.timezone.utc).isoformat().replace("+00:00", "Z"); continue
+        if line and cur:
+            f = line.strip('"')
+            last.setdefault(f, cur); first[f] = cur       # nieuwste commit eerst: de eerste keer is de laatste wijziging, de laatste keer de eerste
+    return {f: (last[f], first[f]) for f in last}
 
 
-def lastmods(events, results, apps, agg_apps):
+def event_files(e):
+    base = f"archive/{e['scope']}/{e['year']}/{e['slug']}/"
+    return [f"{base}uitslagen/{r['id']}.json" for r in e["results"]], f"{base}event.json"
+
+
+def toegevoegd(events, dates):
+    """Per wedstrijd (slug): (eerste, laatste) commit-tijd van zijn uitslagen, de laatste ook van event.json. Zonder git: de wedstrijddatum."""
+    out = {}
+    for slug, e in events.items():
+        res, ej = event_files(e)
+        fs = [dates[f] for f in res if f in dates]
+        if fs: out[slug] = (min(f[1] for f in fs), max([f[0] for f in fs] + ([dates[ej][0]] if ej in dates else [])))
+        else: out[slug] = (e["sortdate"] + "T00:00:00Z",) * 2
+    return out
+
+
+def lastmods(events, results, apps, agg_apps, R, dates):
     """lastmod per pagina: een uitslag = zijn eigen bestand, een wedstrijd = zijn uitslagen en event.json, een rider = de uitslagen waarin hij staat,
-    de overzichtspagina's = de laatste wijziging in het hele archief."""
-    g = git_dates()
+    een reeks of een jaar = de wedstrijden erin, de andere overzichtspagina's = de laatste wijziging in het hele archief."""
+    g = {f: v[0][:10] for f, v in dates.items()}
     if not g: return {}
-    f_of = lambda r: f"archive/{events[r['_event']]['scope']}/{events[r['_event']]['year']}/{r['_event']}/uitslagen/{r['id']}.json"
-    res = {rid: g.get(f_of(r)) for rid, r in results.items()}
+    res = {}
+    for e in events.values():
+        for r, f in zip(e["results"], event_files(e)[0]): res[r["id"]] = g.get(f)
     out = {f"uitslag/{rid}.html": d for rid, d in res.items() if d}
     for slug, e in events.items():
-        ds = [res[r["id"]] for r in e["results"] if res.get(r["id"])] + [g.get(f"archive/{e['scope']}/{e['year']}/{slug}/event.json")]
+        ds = [res[r["id"]] for r in e["results"] if res.get(r["id"])] + [g.get(event_files(e)[1])]
         if any(ds): out[f"wedstrijd/{slug}.html"] = max(d for d in ds if d)
     for pid, a in apps.items():
         ds = [res.get(x["rid"]) for x in list(a) + list(agg_apps.get(pid, []))]
         if any(ds): out[f"rider/{pid}.html"] = max(d for d in ds if d)
+    groups = {f"reeks/{s}.html": x["events"] for s, x in R.items()}
+    for e in events.values(): groups.setdefault(f"jaar/{e['year']}.html", []).append(e)
+    for rel, es in groups.items():
+        ds = [out.get(f"wedstrijd/{e['slug']}.html") for e in es]
+        if any(ds): out[rel] = max(d for d in ds if d)
     newest = max(g.values())
     for rel in ("index.html", "wedstrijden.html", "riders.html", "statistieken.html", "over.html", "fotos.html"): out[rel] = newest
     return out
+
+
+NIEUW_FEED = 50
+
+
+def write_feed(out, P, events, added):
+    """nieuw.xml (Atom): de wedstrijden die het laatst in het archief kwamen, nieuwste eerst (bereikplan B1.6). Voor feedlezers, clubs en de NVW,
+    en Google en Bing lezen hem als extra sitemap (staat in robots.txt). De id's zijn tag-URI's, zodat ze bij de verhuizing naar het eigen
+    domein niet veranderen."""
+    evs = nieuwste(events, added, NIEUW_FEED)
+    ent = []
+    for e in evs:
+        first, last = added[e["slug"]]
+        ent.append(f"""<entry>
+<title>Uitslag {esc(e['name'])}</title>
+<link rel="alternate" type="text/html" href="{SITE_URL}wedstrijd/{esc(e['slug'])}.html"/>
+<id>tag:windsurfarchief.nl,2026:wedstrijd/{esc(e['slug'])}</id>
+<published>{first}</published>
+<updated>{max(first, last)}</updated>
+<summary>{esc(event_desc(P, e))}</summary>
+</entry>""")
+    upd = max(max(added[e["slug"]]) for e in evs)
+    (out / "nieuw.xml").write_text(f"""<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="nl">
+<title>Nieuw in het {SITE_SHORT}</title>
+<subtitle>Nieuwe uitslagen van Nederlandse windsurfwedstrijden</subtitle>
+<link rel="self" type="application/atom+xml" href="{SITE_URL}nieuw.xml"/>
+<link rel="alternate" type="text/html" href="{SITE_URL}"/>
+<id>tag:windsurfarchief.nl,2026:nieuw</id>
+<updated>{upd}</updated>
+<author><name>{SITE_SHORT}</name><uri>{SITE_URL}</uri></author>
+<icon>{SITE_URL}icon-192.png</icon>
+{chr(10).join(ent)}
+</feed>
+""", encoding="utf-8")
 
 
 SITEMAP_DELEN = [("riders", "rider/"), ("wedstrijden", "wedstrijd/"), ("uitslagen", "uitslag/"), ("overzicht", "")]
@@ -1167,14 +1464,36 @@ def write_sitemap(out, rels, mods):
     return sum(len(rs) for rs in delen.values())
 
 
+def htaccess():
+    """De .htaccess van de site (bereikplan B0.5). Dezelfde branch staat in de map op ned-61.com en straks ook op windsurfarchief.nl; daarom
+    kijkt de doorverwijzing naar de hostnaam: wat niet op de host van SITE_URL binnenkomt (www, of na de verhuizing het oude adres), gaat met
+    een 301 naar dezelfde pagina op het hoofdadres. In een map ziet RewriteRule het pad zonder die map, dus 'windsurf-archief/x.html' op
+    ned-61.com wordt 'x.html' op het hoofdadres, en de zoekvraag (?q=) gaat vanzelf mee. Http naar https doet de CDN van Hostinger al
+    (gemeten 15 november 2026); %{HTTPS} gebruiken we niet, want achter de CDN kan dat een lus geven. versie.txt komt nooit door: daarmee
+    controleren tools/check_domein.py en tools/indexnow.py welke versie op elk adres staat."""
+    u = urlsplit(SITE_URL)
+    return "\n".join([
+        "# Gemaakt door tools/build_site.py (docs/bereikplan.md, B0.5). Geldt alleen voor deze map en wat eronder staat.",
+        f"ErrorDocument 404 {u.path or '/'}404.html",
+        "RewriteEngine On",
+        r"RewriteRule ^versie\.txt$ - [L]",
+        "# Alles wat niet op het hoofdadres binnenkomt: 301 naar dezelfde pagina op het hoofdadres.",
+        f"RewriteCond %{{HTTP_HOST}} !^{re.escape(u.hostname)}(:[0-9]+)?$ [NC]",
+        f"RewriteRule ^(.*)$ {SITE_URL}$1 [R=301,L]",
+        "# Een map zonder pagina: naar het overzicht in plaats van een 403.",
+        f"RewriteRule ^rider/?$ {SITE_URL}riders.html [R=301,L]",
+        f"RewriteRule ^(wedstrijd|uitslag|reeks|jaar)/?$ {SITE_URL}wedstrijden.html [R=301,L]",
+        ""])
+
+
 def write_server_files(out):
-    """robots.txt (alles mag, ook AI-zoekrobots: keuze 6 van het bereikplan) met de sitemap, en .htaccess met de foutpagina. Beide gelden
-    pas echt in de hoofdmap van een domein (windsurfarchief.nl); in de submap op ned-61.com negeren zoekmachines robots.txt, en geldt
-    .htaccess alleen voor die submap. De hoofdmap van ned-61.com raken ze nooit."""
-    pad = urlsplit(SITE_URL).path or "/"
-    (out / "robots.txt").write_text(f"# Windsurfarchief: alles mag gelezen worden.\nUser-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8")
-    (out / ".htaccess").write_text("# Gemaakt door tools/build_site.py (docs/bereikplan.md, B0.5). Geldt alleen voor deze map en wat eronder staat.\n"
-                                   f"ErrorDocument 404 {pad}404.html\n", encoding="utf-8")
+    """robots.txt (alles mag, ook AI-zoekrobots: keuze 6 van het bereikplan) met de sitemap en de feed, .htaccess (zie htaccess()), versie.txt
+    en het sleutelbestand van IndexNow. robots.txt en de sleutel gelden pas echt in de hoofdmap van een domein (windsurfarchief.nl); in de
+    submap op ned-61.com negeren zoekmachines robots.txt. De hoofdmap van ned-61.com raken deze bestanden nooit."""
+    (out / "robots.txt").write_text(f"# Windsurfarchief: alles mag gelezen worden.\nUser-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\nSitemap: {SITE_URL}nieuw.xml\n", encoding="utf-8")
+    (out / ".htaccess").write_text(htaccess(), encoding="utf-8")
+    (out / "versie.txt").write_text(CSS_VERSION + "\n", encoding="utf-8")
+    (out / f"{INDEXNOW_SLEUTEL}.txt").write_text(INDEXNOW_SLEUTEL, encoding="utf-8")
 
 
 def asset_version():
@@ -1189,24 +1508,35 @@ def asset_version():
 
 
 def main():
-    global CSS_VERSION
+    global CSS_VERSION, SITE_URL
     CSS_VERSION = asset_version()
-    ap = argparse.ArgumentParser(); ap.add_argument("--out", default="site"); a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--out", default="site")
+    ap.add_argument("--site-url", help="proefbouw met een ander hoofdadres, bijvoorbeeld https://windsurfarchief.nl/ (niet publiceren)")
+    a = ap.parse_args()
+    if a.site_url: SITE_URL = a.site_url.rstrip("/") + "/"
     out = (ROOT / a.out).resolve()
     if out.exists(): shutil.rmtree(out)
-    for d in ("assets", "wedstrijd", "uitslag", "rider"): (out / d).mkdir(parents=True, exist_ok=True)
-    for f in ("site.css", "site.js", "og.png"): shutil.copy2(ASSETS / f, out / "assets" / f)
+    for d in ("assets", "wedstrijd", "uitslag", "rider", "reeks", "jaar"): (out / d).mkdir(parents=True, exist_ok=True)
+    for f in ("site.css", "site.js"): shutil.copy2(ASSETS / f, out / "assets" / f)
+    eigen = urlsplit(SITE_URL).hostname == urlsplit(NIEUW_URL).hostname
+    shutil.copy2(ASSETS / ("og-eigen-domein.png" if eigen else "og.png"), out / "assets/og.png")   # deelplaatje met het adres van de site erop
     for f in ("favicon.ico", "favicon.svg", "apple-touch-icon.png", "icon-192.png"): shutil.copy2(ASSETS / f, out / f)   # in de hoofdmap: daar zoekt Google het icoontje
     P, events, results = load()
     apps = build_appearances(P, events, results)
     agg_apps = build_appearances(P, events, results, aggregate=True)
+    R = reeksen(events)
+    years = sorted({e["year"] for e in events.values()})
+    dates = git_dates()
+    added = toegevoegd(events, dates)
     rels = []
 
     def w(rel, s):
         rels.append(rel)
         (out / rel).write_text(s.replace("</head>", seo_head(rel) + "\n</head>", 1), encoding="utf-8")
-    w("index.html", home_page(P, events, results, apps))
-    w("wedstrijden.html", events_page(events))
+    w("index.html", home_page(P, events, results, apps, added))
+    w("wedstrijden.html", events_page(events, R))
+    for s, x in R.items(): w(f"reeks/{s}.html", reeks_page(P, x, apps))
+    for y in years: w(f"jaar/{y}.html", jaar_page(P, y, [e for e in events.values() if e["year"] == y], apps, years))
     w("riders.html", riders_page(P, apps))
     w("statistieken.html", stats_page(P, events, results, apps))
     w("zoeken.html", search_page())
@@ -1219,11 +1549,13 @@ def main():
     for pid, a in apps.items():
         if pid in P: w(f"rider/{pid}.html", rider_page(P, pid, a, results, agg_apps.get(pid, [])))
     write_js_data(out, P, events, results, apps)
-    n_map = write_sitemap(out, rels, lastmods(events, results, apps, agg_apps))
+    n_map = write_sitemap(out, rels, lastmods(events, results, apps, agg_apps, R, dates))
+    write_feed(out, P, events, added)
     write_server_files(out)
     n = sum(1 for _ in out.rglob("*.html"))
     missing = sorted({x.get("person") for r in results.values() for x in r["entries"] if x.get("person") and x["person"] not in P})
-    print(f"site gebouwd in {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}: {n} pagina's, {len(events)} wedstrijden, {len(results)} uitslagen, {len(apps)} riders, sitemap {n_map} adressen"
+    print(f"site gebouwd in {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}: {n} pagina's, {len(events)} wedstrijden, {len(results)} uitslagen, "
+          f"{len(R)} reeksen, {len(years)} jaren, {len(apps)} riders, sitemap {n_map} adressen, hoofdadres {SITE_URL}"
           + (f"; LET OP: {len(missing)} person-id's ontbreken in people.json: {missing[:5]}" if missing else ""))
 
 
