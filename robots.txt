@@ -1,0 +1,5 @@
+# Windsurfarchief: alles mag gelezen worden.
+User-agent: *
+Allow: /
+
+Sitemap: https://ned-61.com/windsurf-archief/sitemap.xml

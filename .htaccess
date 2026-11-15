@@ -1,0 +1,2 @@
+# Gemaakt door tools/build_site.py (docs/bereikplan.md, B0.5). Geldt alleen voor deze map en wat eronder staat.
+ErrorDocument 404 /windsurf-archief/404.html
