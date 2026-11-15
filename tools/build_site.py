@@ -1501,9 +1501,10 @@ def asset_version():
     elke verwijzing naar assets/: de server laat browsers .js en .css een week bewaren, dus zonder een nieuwe versie bij nieuwe
     data blijven zoeken en de onderlinge vergelijking de oude gegevens tonen."""
     h = hashlib.sha256()
-    files = sorted((ROOT / "archive").glob("*/*/*/uitslagen/*.json")) + sorted((ROOT / "archive").glob("*/*/*/event.json"))
-    for f in files + [ROOT / "data/people.json", ASSETS / "site.css", ASSETS / "site.js", Path(__file__)]:
-        h.update(str(f.relative_to(ROOT)).encode()); h.update(f.read_bytes().replace(b"\r\n", b"\n"))   # zonder CRLF: op Windows en op GitHub dezelfde versie
+    rel = lambda f: f.relative_to(ROOT).as_posix()     # met / en hoofdlettergevoelig gesorteerd: op Windows en op GitHub dezelfde versie
+    files = sorted((ROOT / "archive").glob("*/*/*/uitslagen/*.json"), key=rel) + sorted((ROOT / "archive").glob("*/*/*/event.json"), key=rel)
+    for f in files + [ROOT / "data/people.json", ASSETS / "site.css", ASSETS / "site.js", Path(__file__).resolve()]:
+        h.update(rel(f).encode()); h.update(f.read_bytes().replace(b"\r\n", b"\n"))   # ook zonder CRLF
     return h.hexdigest()[:10]
 
 
