@@ -2,6 +2,14 @@
 
 15 november 2026. Vraag van Max: "a full indexing and publishing plan for maximal impressions and viewers for the site". Dit plan bouwt voort op `docs/bezoekersplan.md` (canonical, sitemap, teller: gebouwd). Het beschrijft waar we staan, wie de site zoekt, wat er technisch, inhoudelijk en daarbuiten moet gebeuren, in welke volgorde, en de keuzes voor Max (hoofdstuk 12).
 
+## Besluiten en stand (15 november 2026)
+
+Antwoorden van Max op hoofdstuk 12: 1 = `windsurfarchief.nl`; 2 = niet nodig (de hoofdsite ned-61.com blijft zoals hij is, B0.7 vervalt); 3 = misschien (besluit bij de evaluatie in week 8); 4 = akkoord, foto's nu niet in Google Afbeeldingen; 5 = eerst de site goed neerzetten, daarna pas posten (B2.4 en B3 wachten tot B0 en B1 klaar zijn); 6 = ja, alle robots welkom; 7 = vroeg wat hoofdstuk 11 is (de volgorde; uitgelegd).
+
+- Gebouwd op 15 november, nog op het oude adres: titels en beschrijvingen (B0.8), `SITE_SHORT` = "Windsurfarchief" achter elke titel en in `og:site_name`, WebSite-gegevens op de startpagina en het icoontje in de hoofdmap van de site (B0.6, `tools/make_icons.py`), SportsEvent op wedstrijdpagina's met een datum (B0.9), de sitemap als index met vier deelsitemaps (B0.4), een eigen foutpagina `404.html` met `.htaccess` (B0.5, eerste stap) en `robots.txt` (alles mag). windsurf-foto 0.5.3: het nieuwe domein mag de api gebruiken en telt mee als archief, met dezelfde paden als nu.
+- Max: `windsurfarchief.nl` registreren, een website toevoegen en de branch `website` daar laten uitrollen (stappen in hoofdstuk 3), en een Force update van de container op de Unraid (0.5.3).
+- Daarna Claude: `SITE_URL` naar `https://windsurfarchief.nl/`, de `.htaccess` met de doorverwijzingen (oude adressen en www), IndexNow (B0.3), `og.png` met het nieuwe adres, en de stappen voor Search Console (domein via DNS) en Bing (B0.1, B0.2). Dan B1.
+
 ## 0. Kort
 
 De vijf dingen die het meeste opleveren, in deze volgorde:

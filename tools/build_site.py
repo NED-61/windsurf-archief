@@ -10,17 +10,19 @@ van foto's bij de fotodienst (FOTO_URL, repo windsurf-foto op de NAS; zie docs/f
 blijft het fotoblok verborgen en werkt de rest gewoon. assets/wedstrijden.json en assets/riders.json zijn voor die dienst.
 """
 import argparse, subprocess, datetime, hashlib, html, json, re, shutil, unicodedata
+from urllib.parse import urlsplit
 from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = Path(__file__).resolve().parent / "site_assets"
 SITE_NAME = "Windsurf Wedstrijdarchief"
+SITE_SHORT = "Windsurfarchief"   # korte naam achter elke titel, in og:site_name en als naam van de site voor Google (eigen domein windsurfarchief.nl, keuze van Max, 15 november 2026)
 REPO_URL = "https://github.com/NED-61/windsurf-archief"
 FOTO_URL = "https://homelab257.tailc2d973.ts.net:10000"   # de fotodienst (windsurf-foto op de NAS, via Tailscale Funnel op poort 10000; 443 is de Unraid-webinterface, 8443 fvjl); zonder slash aan het eind
 SITE_URL = "https://ned-61.com/windsurf-archief/"   # hoofdadres (zonder www; keuze van Max, 3 november 2026): canonical, sitemap en Open Graph
 GOOGLE_VERIFICATIE = ""   # Search Console, eigenschap URL-voorvoegsel https://ned-61.com/windsurf-archief/, methode HTML-tag: de code uit content="..."; komt alleen in index.html
-NOINDEX = {"zoeken.html", "fototest.html"}   # niet in Google en niet in de sitemap: zonder javascript leeg, of een meetpagina
+NOINDEX = {"zoeken.html", "fototest.html", "404.html"}   # niet in Google en niet in de sitemap: zonder javascript leeg, een meetpagina, of de foutpagina
 RIDER_VEEL = 8   # vanaf zoveel starts krijgt de riderpagina het overzicht per reeks en het filter op discipline
 DISCIPLINE_NL = {"slalom": "slalom", "course_race": "course race", "long_distance": "long distance", "short_course": "short course", "funboard": "funboard"}
 MONTHS = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
@@ -174,13 +176,13 @@ def build_appearances(P, events, results, aggregate=False):
 CSS_VERSION = "5"      # wordt in main() vervangen door een hash van de inhoud (zie asset_version): browsers bewaren .js en .css een week
 
 
-def page(title, body, depth, active=None, description=None, extra_js=""):
+def page(title, body, depth, active=None, description=None, extra_js="", full_title=None):
     pre = "../" * depth
     nav = [("wedstrijden.html", "Wedstrijden", "wedstrijden"), ("riders.html", "Riders", "riders"), ("fotos.html", "Foto's", "fotos"),
            ("statistieken.html", "Statistieken", "statistieken"), ("over.html", "Over", "over")]
     cur = ' aria-current="page"'
     navhtml = "".join(f'<a href="{pre}{h}"{cur if k == active else ""}>{t}</a>' for h, t, k in nav)
-    full_title = f"{title} | {SITE_NAME}" if title != SITE_NAME else SITE_NAME
+    full_title = full_title or f"{title} | {SITE_SHORT}"
     desc = description or "Uitslagen van Nederlandse windsurfwedstrijden, met elke heat en elke rider."
     return f"""<!doctype html>
 <html lang="nl">
@@ -190,7 +192,7 @@ def page(title, body, depth, active=None, description=None, extra_js=""):
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="{SITE_NAME}">
+<meta property="og:site_name" content="{SITE_SHORT}">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
@@ -198,6 +200,9 @@ def page(title, body, depth, active=None, description=None, extra_js=""):
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{pre}favicon.ico" sizes="48x48">
+<link rel="icon" href="{pre}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{pre}apple-touch-icon.png">
 <link rel="stylesheet" href="{pre}assets/site.css?v={CSS_VERSION}">
 <script defer src="{pre}assets/search-index.js?v={CSS_VERSION}"></script>{extra_js}
 <script defer src="{pre}assets/site.js?v={CSS_VERSION}"></script>
@@ -575,7 +580,7 @@ def result_page(P, r, ev):
 {source_html(r, ev)}
 {('<ul class="notes">' + ''.join(f'<li>{esc(n)}</li>' for n in notes) + '</ul>') if notes else ''}
 </section>"""
-    return page(f"{class_label(r)}, {ev['name']}", body, 1, "wedstrijden", result_desc(P, r, ev))
+    return page(f"{ev['name']}, {class_label(r)}: {'tussenstand' if r.get('provisional') else 'uitslag'}", body, 1, "wedstrijden", result_desc(P, r, ev))
 
 
 def podium_html(P, r, pre):
@@ -622,8 +627,24 @@ def event_page(P, ev, events):
   <div class="fotos-grid"></div>
 </section>
 {oth}
-{('<section class="block small"><h3>Bronnen voor datum en locatie</h3><ul class="notes">' + srcs + '</ul></section>') if srcs else ''}"""
-    return page(ev["name"], body, 1, "wedstrijden", event_desc(P, ev))
+{('<section class="block small"><h3>Bronnen voor datum en locatie</h3><ul class="notes">' + srcs + '</ul></section>') if srcs else ''}
+{event_ld(P, ev)}"""
+    return page(f"Uitslag {ev['name']}", body, 1, "wedstrijden", event_desc(P, ev))
+
+
+def event_ld(P, ev):
+    """SportsEvent (JSON-LD): wat, wanneer en waar, voor zoekmachines en AI-assistenten (bereikplan B0.9). Alleen als de datum bekend is.
+    De locatie 'Naam (adres)' wordt Place met naam en adres; zonder haakjes is de hele tekst beide."""
+    if not ev.get("date"): return ""
+    d = {"@context": "https://schema.org", "@type": "SportsEvent", "name": ev["name"], "url": f"{SITE_URL}wedstrijd/{ev['slug']}.html",
+         "startDate": ev["date"], "endDate": ev.get("date_end") or ev["date"], "sport": "Windsurfen",
+         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "description": event_desc(P, ev)}
+    if ev.get("location"):
+        m = re.match(r"^(.*?)\s*\((.*)\)\s*$", ev["location"])
+        d["location"] = {"@type": "Place", "name": m.group(1) if m else ev["location"], "address": m.group(2) if m else ev["location"]}
+    if ev.get("organizer"): d["organizer"] = {"@type": "Organization", "name": ev["organizer"]}
+    if ev.get("series"): d["superEvent"] = {"@type": "EventSeries", "name": ev["series"]}
+    return json_ld(d)
 
 
 def events_page(events):
@@ -642,7 +663,10 @@ def events_page(events):
     body = f"""<header class="ph"><h1>Wedstrijden</h1>
 <p class="lede">Alle wedstrijden in het archief, nieuwste eerst. Klik op een klasse voor de volledige uitslag.</p></header>
 {''.join(secs)}"""
-    return page("Wedstrijden", body, 0, "wedstrijden")
+    ys = sorted(e["year"] for e in events.values())
+    return page("Alle windsurfwedstrijden en uitslagen", body, 0, "wedstrijden",
+                f"Alle {len(events)} windsurfwedstrijden in het archief, van {ys[0]} tot en met {ys[-1]}, nieuwste eerst: "
+                f"NK's, regiocups, rondjes en cups, met de uitslag van elke klasse.")
 
 
 def best_of(apps):
@@ -677,7 +701,8 @@ def riders_page(P, apps):
 <p class="lede">{len(apps)} riders, gesorteerd op achternaam zonder tussenvoegsel (Van der Veen staat bij de V).</p></header>
 <nav class="az" aria-label="Letters">{idx}</nav>
 {''.join(secs)}"""
-    return page("Riders", body, 0, "riders")
+    return page("Alle riders", body, 0, "riders",
+                f"Alle {len(apps)} riders in het archief van Nederlandse windsurfwedstrijden, op achternaam, met hun aantal starts, jaren en beste resultaat.")
 
 
 def rider_page(P, pid, a, results, agg=()):
@@ -780,7 +805,9 @@ def rider_page(P, pid, a, results, agg=()):
 <p class="more"><a href="../statistieken.html#{esc(pid)}">Vergelijk {esc(p['name'])} met een andere rider</a></p>
 {json_ld({"@context": "https://schema.org", "@type": "Person", "name": p["name"], "url": f"{SITE_URL}rider/{pid}.html",
           **({"alternateName": other_spellings(p)} if other_spellings(p) else {})})}"""
-    return page(p["name"], body, 1, "riders", rider_desc(p, a))
+    ys = sorted({x["ev"]["year"] for x in a})
+    span = f"{ys[0]}–{ys[-1]}" if ys[0] != ys[-1] else str(ys[0])
+    return page(f"{p['name']}: {'windsurfuitslag' if len(a) == 1 else 'windsurfuitslagen'} {span}", body, 1, "riders", rider_desc(p, a))
 
 
 def chart_svg(series, label):
@@ -871,7 +898,9 @@ def stats_page(P, events, results, apps):
   <div class="tbl-wrap"><table class="list"><thead><tr><th scope="col" class="num">Jaar</th><th scope="col">Wedstrijd</th><th scope="col">Klasse</th><th scope="col">Winnaar</th></tr></thead>
   <tbody>{''.join(win_rows)}</tbody></table></div>
 </section>"""
-    return page("Statistieken", body, 0, "statistieken", extra_js='\n<script defer src="assets/duel-data.js?v=' + CSS_VERSION + '"></script>')
+    return page("Statistieken: meeste starts, overwinningen en podiums", body, 0, "statistieken",
+                f"Wie heeft de meeste starts, overwinningen en podiumplaatsen in Nederlandse windsurfwedstrijden? Ranglijsten, winnaars en riders per jaar uit {len(results)} uitslagen.",
+                extra_js='\n<script defer src="assets/duel-data.js?v=' + CSS_VERSION + '"></script>')
 
 
 def search_page():
@@ -904,7 +933,8 @@ def about_page(events, results, apps):
 <h2>Iets gezien dat niet klopt?</h2>
 <p>Een verkeerde naam, een ontbrekende uitslag of een oude pdf op zolder: de data staat in <a href="{REPO_URL}" rel="noopener">deze GitHub-repository</a>. Er staan geen geboortedata of contactgegevens in, alleen wat in de uitslagen stond.</p>
 </div>"""
-    return page("Over dit archief", body, 0, "over")
+    return page("Over dit archief", body, 0, "over", "Hoe het Windsurfarchief werkt: waar de uitslagen vandaan komen, hoe riders worden gekoppeld, foto's, "
+                "bezoekers tellen zonder cookies, en hoe je een fout meldt of uitslagen aanlevert.")
 
 
 def home_page(P, events, results, apps):
@@ -938,8 +968,25 @@ def home_page(P, events, results, apps):
   <div class="block-h"><h2>Nieuwste foto's</h2><a href="fotos.html">Alle foto's</a></div>
   <div class="fotos-grid"></div>
 </section>"""
-    return page(SITE_NAME, body, 0, None, f"Uitslagen van Nederlandse windsurfwedstrijden van {years[0]} tot en met {years[-1]}, met elke heat en elke rider: "
-                                          f"{len(results)} uitslagen en {len(apps)} riders.")
+    site_ld = json_ld({"@context": "https://schema.org", "@type": "WebSite", "name": SITE_SHORT, "alternateName": [SITE_NAME, "windsurfarchief.nl"], "url": SITE_URL,
+                       "inLanguage": "nl"})
+    return page(SITE_NAME, body + "\n" + site_ld, 0, None, f"Uitslagen van Nederlandse windsurfwedstrijden van {years[0]} tot en met {years[-1]}, met elke heat en elke rider: "
+                                                        f"{len(results)} uitslagen en {len(apps)} riders.",
+                full_title=f"{SITE_SHORT}: uitslagen van Nederlandse windsurfwedstrijden sinds {years[0]}")
+
+
+def notfound_page():
+    """Foutpagina (404.html): de server toont hem op elk adres dat niet bestaat, op welke diepte ook. Daarom een <base> naar het hoofdadres,
+    zodat de gewone relatieve links en assets kloppen. Zoekvak en links naar de overzichten (bereikplan B0.5)."""
+    body = """<header class="ph"><h1>Pagina niet gevonden</h1>
+<p class="lede">Deze pagina bestaat niet (meer). Zoek een rider, zeilnummer of wedstrijd, of kies een overzicht.</p></header>
+<form class="big-search" role="search" action="zoeken.html" method="get">
+  <label class="vh" for="q-404">Zoek rider, zeilnummer of wedstrijd</label>
+  <input id="q-404" name="q" type="search" autocomplete="off" placeholder="Zoek op naam of zeilnummer" spellcheck="false">
+  <div class="qs-pop" hidden></div>
+</form>
+<p class="more"><a href="wedstrijden.html">Alle wedstrijden</a> · <a href="riders.html">Alle riders</a> · <a href="index.html">Naar de startpagina</a></p>"""
+    return page("Pagina niet gevonden", body, 0, None, "Deze pagina bestaat niet.").replace("<head>\n", f'<head>\n<base href="{SITE_URL}">\n', 1)
 
 
 def fotos_page():
@@ -1055,6 +1102,7 @@ def canonical(rel):
 
 def seo_head(rel):
     """Wat er per pagina bij komt in de kop: het hoofdadres (canonical en og:url), noindex voor NOINDEX en de Search Console-code op de startpagina."""
+    if rel == "404.html": return '<meta name="robots" content="noindex">'
     url = canonical(rel)
     bits = [f'<link rel="canonical" href="{url}">', f'<meta property="og:url" content="{url}">']
     if rel in NOINDEX: bits.append('<meta name="robots" content="noindex">')
@@ -1096,15 +1144,37 @@ def lastmods(events, results, apps, agg_apps):
     return out
 
 
+SITEMAP_DELEN = [("riders", "rider/"), ("wedstrijden", "wedstrijd/"), ("uitslagen", "uitslag/"), ("overzicht", "")]
+
+
 def write_sitemap(out, rels, mods):
-    rows = []
+    """sitemap.xml is een index met een deelsitemap per soort pagina (riders, wedstrijden, uitslagen, overzicht), zodat Search Console
+    per soort laat zien hoeveel pagina's in Google staan (bereikplan B0.4). Geeft het aantal adressen."""
+    delen = {naam: [] for naam, _ in SITEMAP_DELEN}
     for rel in rels:
         if rel in NOINDEX: continue
-        lm = f"<lastmod>{mods[rel]}</lastmod>" if mods.get(rel) else ""
-        rows.append(f"<url><loc>{esc(canonical(rel))}</loc>{lm}</url>")
-    (out / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                     + "\n".join(rows) + "\n</urlset>\n", encoding="utf-8")
-    return len(rows)
+        naam = next(n for n, pre in SITEMAP_DELEN if rel.startswith(pre))
+        delen[naam].append(rel)
+    head = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    idx = []
+    for naam, rs in delen.items():
+        if not rs: continue
+        rows = [f"<url><loc>{esc(canonical(rel))}</loc>" + (f"<lastmod>{mods[rel]}</lastmod>" if mods.get(rel) else "") + "</url>" for rel in rs]
+        (out / f"sitemap-{naam}.xml").write_text(head + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(rows) + "\n</urlset>\n", encoding="utf-8")
+        lm = max((mods[rel] for rel in rs if mods.get(rel)), default=None)
+        idx.append(f"<sitemap><loc>{esc(SITE_URL)}sitemap-{naam}.xml</loc>" + (f"<lastmod>{lm}</lastmod>" if lm else "") + "</sitemap>")
+    (out / "sitemap.xml").write_text(head + '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(idx) + "\n</sitemapindex>\n", encoding="utf-8")
+    return sum(len(rs) for rs in delen.values())
+
+
+def write_server_files(out):
+    """robots.txt (alles mag, ook AI-zoekrobots: keuze 6 van het bereikplan) met de sitemap, en .htaccess met de foutpagina. Beide gelden
+    pas echt in de hoofdmap van een domein (windsurfarchief.nl); in de submap op ned-61.com negeren zoekmachines robots.txt, en geldt
+    .htaccess alleen voor die submap. De hoofdmap van ned-61.com raken ze nooit."""
+    pad = urlsplit(SITE_URL).path or "/"
+    (out / "robots.txt").write_text(f"# Windsurfarchief: alles mag gelezen worden.\nUser-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8")
+    (out / ".htaccess").write_text("# Gemaakt door tools/build_site.py (docs/bereikplan.md, B0.5). Geldt alleen voor deze map en wat eronder staat.\n"
+                                   f"ErrorDocument 404 {pad}404.html\n", encoding="utf-8")
 
 
 def asset_version():
@@ -1126,6 +1196,7 @@ def main():
     if out.exists(): shutil.rmtree(out)
     for d in ("assets", "wedstrijd", "uitslag", "rider"): (out / d).mkdir(parents=True, exist_ok=True)
     for f in ("site.css", "site.js", "og.png"): shutil.copy2(ASSETS / f, out / "assets" / f)
+    for f in ("favicon.ico", "favicon.svg", "apple-touch-icon.png", "icon-192.png"): shutil.copy2(ASSETS / f, out / f)   # in de hoofdmap: daar zoekt Google het icoontje
     P, events, results = load()
     apps = build_appearances(P, events, results)
     agg_apps = build_appearances(P, events, results, aggregate=True)
@@ -1142,12 +1213,14 @@ def main():
     w("over.html", about_page(events, results, apps))
     w("fototest.html", fototest_page())
     w("fotos.html", fotos_page())
+    w("404.html", notfound_page())
     for ev in events.values(): w(f"wedstrijd/{ev['slug']}.html", event_page(P, ev, events))
     for r in results.values(): w(f"uitslag/{r['id']}.html", result_page(P, r, events[r['_event']]))
     for pid, a in apps.items():
         if pid in P: w(f"rider/{pid}.html", rider_page(P, pid, a, results, agg_apps.get(pid, [])))
     write_js_data(out, P, events, results, apps)
     n_map = write_sitemap(out, rels, lastmods(events, results, apps, agg_apps))
+    write_server_files(out)
     n = sum(1 for _ in out.rglob("*.html"))
     missing = sorted({x.get("person") for r in results.values() for x in r["entries"] if x.get("person") and x["person"] not in P})
     print(f"site gebouwd in {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}: {n} pagina's, {len(events)} wedstrijden, {len(results)} uitslagen, {len(apps)} riders, sitemap {n_map} adressen"
