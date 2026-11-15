@@ -1503,7 +1503,7 @@ def asset_version():
     h = hashlib.sha256()
     files = sorted((ROOT / "archive").glob("*/*/*/uitslagen/*.json")) + sorted((ROOT / "archive").glob("*/*/*/event.json"))
     for f in files + [ROOT / "data/people.json", ASSETS / "site.css", ASSETS / "site.js", Path(__file__)]:
-        h.update(str(f.relative_to(ROOT)).encode()); h.update(f.read_bytes())
+        h.update(str(f.relative_to(ROOT)).encode()); h.update(f.read_bytes().replace(b"\r\n", b"\n"))   # zonder CRLF: op Windows en op GitHub dezelfde versie
     return h.hexdigest()[:10]
 
 
