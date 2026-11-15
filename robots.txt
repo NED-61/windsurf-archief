@@ -3,3 +3,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ned-61.com/windsurf-archief/sitemap.xml
+Sitemap: https://ned-61.com/windsurf-archief/nieuw.xml

@@ -259,3 +259,15 @@ abbr[title] { text-decoration: none; color: var(--mut); cursor: help; }
 .rider-t .plc { width: 6.5rem; }
 .rider-t .val { width: 8rem; }
 @media (max-width: 40rem) { .rider-t .plc { width: 5.5rem; } .rider-t .val { width: 6.5rem; } }
+/* reeks- en jaarpagina's, uitslag rond een rider (bereikplan B1) */
+.yr a { color: inherit; }
+.reeks-w tbody + tbody { border-top: 2px solid var(--line); }
+.reeks-w th.ed { vertical-align: top; min-width: 10rem; }
+.reeks-w th.ed a { color: var(--fg); font-weight: 600; }
+.reeks-w .sub { display: block; font-size: .85rem; color: var(--mut); font-weight: 400; margin-top: .1rem; }
+.reeks-w td.nm { white-space: nowrap; }
+.res tr.zelf th, .res tr.zelf td { background: var(--hover); }
+.res tr.zelf .nm a { font-weight: 600; }
+.buren-t tr.gap td { color: var(--mut); text-align: center; padding-block: 0; }
+.buren-t td.num { width: 9rem; }
+.nieuw .winners { max-width: 40rem; }
