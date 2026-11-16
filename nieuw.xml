@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="nl">
 <title>Nieuw in het Windsurfarchief</title>
 <subtitle>Nieuwe uitslagen van Nederlandse windsurfwedstrijden</subtitle>
-<link rel="self" type="application/atom+xml" href="https://ned-61.com/windsurf-archief/nieuw.xml"/>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/"/>
+<link rel="self" type="application/atom+xml" href="https://windsurfarchief.nl/nieuw.xml"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/"/>
 <id>tag:windsurfarchief.nl,2026:nieuw</id>
 <updated>2026-11-03T09:29:56Z</updated>
-<author><name>Windsurfarchief</name><uri>https://ned-61.com/windsurf-archief/</uri></author>
-<icon>https://ned-61.com/windsurf-archief/icon-192.png</icon>
+<author><name>Windsurfarchief</name><uri>https://windsurfarchief.nl/</uri></author>
+<icon>https://windsurfarchief.nl/icon-192.png</icon>
 <entry>
 <title>Uitslag Ronde om Texel 1996</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/ronde-om-texel-1996.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/ronde-om-texel-1996.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/ronde-om-texel-1996</id>
 <published>2026-11-03T09:29:56Z</published>
 <updated>2026-11-03T09:29:56Z</updated>
@@ -18,7 +18,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Slalom 2026 (Brouwersdam)</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-slalom-2026.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-slalom-2026.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-slalom-2026</id>
 <published>2026-10-22T19:45:50Z</published>
 <updated>2026-10-22T21:17:33Z</updated>
@@ -26,7 +26,7 @@
 </entry>
 <entry>
 <title>Uitslag DAM-X 2026</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/dam-x-2026.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/dam-x-2026.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/dam-x-2026</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -34,7 +34,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2026</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2026.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2026.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2026</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -42,7 +42,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Slalom 2026, foil (Aalsmeer)</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-slalom-2026-0613.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-slalom-2026-0613.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-slalom-2026-0613</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-22T19:45:50Z</updated>
@@ -50,7 +50,7 @@
 </entry>
 <entry>
 <title>Uitslag Ronde om Texel 2026</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/ronde-om-texel-2026.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/ronde-om-texel-2026.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/ronde-om-texel-2026</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -58,7 +58,7 @@
 </entry>
 <entry>
 <title>Uitslag Windsurfer LT 2025, W.S.D. Plané</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/windsurfer-lt-plane-2025.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/windsurfer-lt-plane-2025.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/windsurfer-lt-plane-2025</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -66,7 +66,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Slalom 2025</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-slalom-2025.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-slalom-2025.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-slalom-2025</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -74,7 +74,7 @@
 </entry>
 <entry>
 <title>Uitslag WSH Windsurf Weekend 2025</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/wsh-windsurf-weekend-2025.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/wsh-windsurf-weekend-2025.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/wsh-windsurf-weekend-2025</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -82,7 +82,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2025</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2025.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2025.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2025</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -90,7 +90,7 @@
 </entry>
 <entry>
 <title>Uitslag NVW Cup 2025, Brouwersdam</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nvw-cup-2025-0913.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nvw-cup-2025-0913.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nvw-cup-2025-0913</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -98,7 +98,7 @@
 </entry>
 <entry>
 <title>Uitslag DAM-X 2024</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/dam-x-2024.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/dam-x-2024.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/dam-x-2024</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -106,7 +106,7 @@
 </entry>
 <entry>
 <title>Uitslag DAM-X 2023</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/dam-x-2023.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/dam-x-2023.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/dam-x-2023</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -114,7 +114,7 @@
 </entry>
 <entry>
 <title>Uitslag DAM-X 2022</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/dam-x-2022.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/dam-x-2022.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/dam-x-2022</id>
 <published>2026-10-12T16:16:15Z</published>
 <updated>2026-10-12T16:16:15Z</updated>
@@ -122,7 +122,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2009, stop 2 (Scheveningen)</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2009-stop2.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2009-stop2.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2009-stop2</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -130,7 +130,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2009, stop 1 (Grevelingendam)</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2009-stop1.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2009-stop1.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2009-stop1</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -138,7 +138,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Slalom 2007</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-slalom-2007.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-slalom-2007.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-slalom-2007</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -146,7 +146,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2007</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2007.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2007.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2007</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -154,7 +154,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2006</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2006.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2006.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2006</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -162,7 +162,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2005</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2005.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2005.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2005</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -170,7 +170,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2004, Muiderzand</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2004-0612.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2004-0612.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2004-0612</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -178,7 +178,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2004, Grevelingen</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2004-0522.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2004-0522.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2004-0522</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -186,7 +186,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Race 1999</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-1999.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-1999.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-1999</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -194,7 +194,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Formula 1999</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-1999-1010.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-1999-1010.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-1999-1010</id>
 <published>2026-10-08T16:13:12Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -202,7 +202,7 @@
 </entry>
 <entry>
 <title>Uitslag Stonedam Foil Cup 2026</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/stonedam-foil-cup-2026.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/stonedam-foil-cup-2026.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/stonedam-foil-cup-2026</id>
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -210,7 +210,7 @@
 </entry>
 <entry>
 <title>Uitslag Stonedam Foil Cup 2025</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/stonedam-foil-cup-2025.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/stonedam-foil-cup-2025.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/stonedam-foil-cup-2025</id>
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-05T18:39:16Z</updated>
@@ -218,7 +218,7 @@
 </entry>
 <entry>
 <title>Uitslag Stonedam Foil Cup 2024</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/stonedam-foil-cup-2024.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/stonedam-foil-cup-2024.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/stonedam-foil-cup-2024</id>
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -226,7 +226,7 @@
 </entry>
 <entry>
 <title>Uitslag Stonedam Foil Cup 2023</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/stonedam-foil-cup-2023.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/stonedam-foil-cup-2023.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/stonedam-foil-cup-2023</id>
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-05T18:39:16Z</updated>
@@ -234,7 +234,7 @@
 </entry>
 <entry>
 <title>Uitslag North Sea Cup 2014</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/north-sea-cup-2014.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/north-sea-cup-2014.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/north-sea-cup-2014</id>
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -242,7 +242,7 @@
 </entry>
 <entry>
 <title>Uitslag North Sea Cup 2012</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/north-sea-cup-2012.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/north-sea-cup-2012.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/north-sea-cup-2012</id>
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -250,7 +250,7 @@
 </entry>
 <entry>
 <title>Uitslag Lowlandcup 2006</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/lowlandcup-2006.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/lowlandcup-2006.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/lowlandcup-2006</id>
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -258,7 +258,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup, 31 oktober 2021</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-2021-1031.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-2021-1031.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-2021-1031</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-04T20:43:35Z</updated>
@@ -266,7 +266,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup, 29 september 2019</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-2019-0929.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-2019-0929.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-2019-0929</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-04T20:43:35Z</updated>
@@ -274,7 +274,7 @@
 </entry>
 <entry>
 <title>Uitslag Brouwersdam Cup, 1 september 2019</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/brouwersdam-cup-2019-0901.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/brouwersdam-cup-2019-0901.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/brouwersdam-cup-2019-0901</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -282,7 +282,7 @@
 </entry>
 <entry>
 <title>Uitslag Brouwersdam Cup, 13-14 juli 2019</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/brouwersdam-cup-2019-0713.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/brouwersdam-cup-2019-0713.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/brouwersdam-cup-2019-0713</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -290,7 +290,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup Zuid, 10 september 2017</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-zuid-2017-0910.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-zuid-2017-0910.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-zuid-2017-0910</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -298,7 +298,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup Zuid, 6-7 mei 2017</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-zuid-2017-0506.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-zuid-2017-0506.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-zuid-2017-0506</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -306,7 +306,7 @@
 </entry>
 <entry>
 <title>Uitslag North Sea Cup 2016</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/north-sea-cup-2016.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/north-sea-cup-2016.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/north-sea-cup-2016</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -314,7 +314,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup 2015 (slalom)</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-2015.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-2015.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-2015</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -322,7 +322,7 @@
 </entry>
 <entry>
 <title>Uitslag North Sea Cup 2015</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/north-sea-cup-2015.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/north-sea-cup-2015.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/north-sea-cup-2015</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -330,7 +330,7 @@
 </entry>
 <entry>
 <title>Uitslag Grevelingencup 2015</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/grevelingencup-2015.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/grevelingencup-2015.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/grevelingencup-2015</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -338,7 +338,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup, 19-20 oktober 2013</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-2013-1019.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-2013-1019.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-2013-1019</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -346,7 +346,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup Zuid, 28-29 september 2013</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-zuid-2013-0928.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-zuid-2013-0928.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-zuid-2013-0928</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -354,7 +354,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup Zuid, 8-9 juni 2013</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-zuid-2013-0608.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-zuid-2013-0608.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-zuid-2013-0608</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -362,7 +362,7 @@
 </entry>
 <entry>
 <title>Uitslag Regiocup Noord, 25-26 mei 2013</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/regiocup-noord-2013-0525.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/regiocup-noord-2013-0525.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/regiocup-noord-2013-0525</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-04T20:43:35Z</updated>
@@ -370,7 +370,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Slalom 2009</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-slalom-2009.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-slalom-2009.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-slalom-2009</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -378,7 +378,7 @@
 </entry>
 <entry>
 <title>Uitslag NK Course 2009</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/nk-course-2009.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-course-2009.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/nk-course-2009</id>
 <published>2026-10-04T20:43:35Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -386,7 +386,7 @@
 </entry>
 <entry>
 <title>Uitslag United4 Medemblik I 2026</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/united4-2026-0418.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/united4-2026-0418.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/united4-2026-0418</id>
 <published>2026-10-04T16:36:00Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -394,7 +394,7 @@
 </entry>
 <entry>
 <title>Uitslag Windsurfer LT Jaarprijs 2025</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/windsurfer-lt-jaarprijs-2025.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/windsurfer-lt-jaarprijs-2025.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/windsurfer-lt-jaarprijs-2025</id>
 <published>2026-10-04T16:36:00Z</published>
 <updated>2026-10-08T16:13:12Z</updated>
@@ -402,7 +402,7 @@
 </entry>
 <entry>
 <title>Uitslag Windsurfer LT Jaarprijs 2024</title>
-<link rel="alternate" type="text/html" href="https://ned-61.com/windsurf-archief/wedstrijd/windsurfer-lt-jaarprijs-2024.html"/>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/windsurfer-lt-jaarprijs-2024.html"/>
 <id>tag:windsurfarchief.nl,2026:wedstrijd/windsurfer-lt-jaarprijs-2024</id>
 <published>2026-10-04T16:36:00Z</published>
 <updated>2026-10-08T16:13:12Z</updated>

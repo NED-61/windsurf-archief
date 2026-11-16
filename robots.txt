@@ -2,5 +2,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ned-61.com/windsurf-archief/sitemap.xml
-Sitemap: https://ned-61.com/windsurf-archief/nieuw.xml
+Sitemap: https://windsurfarchief.nl/sitemap.xml
+Sitemap: https://windsurfarchief.nl/nieuw.xml

@@ -1,10 +1,10 @@
 # Gemaakt door tools/build_site.py (docs/bereikplan.md, B0.5). Geldt alleen voor deze map en wat eronder staat.
-ErrorDocument 404 /windsurf-archief/404.html
+ErrorDocument 404 /404.html
 RewriteEngine On
 RewriteRule ^versie\.txt$ - [L]
 # Alles wat niet op het hoofdadres binnenkomt: 301 naar dezelfde pagina op het hoofdadres.
-RewriteCond %{HTTP_HOST} !^ned\-61\.com(:[0-9]+)?$ [NC]
-RewriteRule ^(.*)$ https://ned-61.com/windsurf-archief/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^windsurfarchief\.nl(:[0-9]+)?$ [NC]
+RewriteRule ^(.*)$ https://windsurfarchief.nl/$1 [R=301,L]
 # Een map zonder pagina: naar het overzicht in plaats van een 403.
-RewriteRule ^rider/?$ https://ned-61.com/windsurf-archief/riders.html [R=301,L]
-RewriteRule ^(wedstrijd|uitslag|reeks|jaar)/?$ https://ned-61.com/windsurf-archief/wedstrijden.html [R=301,L]
+RewriteRule ^rider/?$ https://windsurfarchief.nl/riders.html [R=301,L]
+RewriteRule ^(wedstrijd|uitslag|reeks|jaar)/?$ https://windsurfarchief.nl/wedstrijden.html [R=301,L]
