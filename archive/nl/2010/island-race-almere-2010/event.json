@@ -1,0 +1,22 @@
+{
+ "event_slug": "island-race-almere-2010",
+ "scope": "nl",
+ "name": "Island Race Almere 2010",
+ "series": "Island Race Almere",
+ "year": 2010,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2010-05-30",
+ "date_end": null,
+ "location": "Almere",
+ "discipline": null,
+ "classes": [
+  "island-race-almere-2010-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Gepubliceerd als 'Island Race 30 Mei 2010' door Windsurfvereniging Almere Centraal. Island Race 2010 en Almere Eilandrace 2013 zijn één reeks (keuze van de gebruiker, 16 november 2026)."
+ ],
+ "organizer": "Windsurfvereniging Almere Centraal"
+}

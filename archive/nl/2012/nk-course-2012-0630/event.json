@@ -1,0 +1,32 @@
+{
+ "event_slug": "nk-course-2012-0630",
+ "scope": "nl",
+ "name": "NK Course 2012, Grevelingen 30 juni-1 juli",
+ "series": "NK Course",
+ "year": 2012,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2012-06-30",
+ "date_end": "2012-07-01",
+ "location": "Grevelingen",
+ "discipline": "course_race",
+ "classes": [
+  "nk-course-2012-0630-formula",
+  "nk-course-2012-0630-raceboard",
+  "nk-course-2012-0630-techno-293"
+ ],
+ "metadata_sources": [
+  {
+   "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+   "url": "https://windsurfing.rdeleeuw.nl/results",
+   "retrieved": "2026-11-16",
+   "used_for": "datum (30 juni-1 juli 2012)"
+  }
+ ],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Gepubliceerd als 'NK Tour 2012 - Resultaten NK Formula windsurfing 2012: Weekend Grevelingen' (NVW, Sailwave): Formula, Raceboard en Techno 293 OD. De datum volgens windsurfing.rdeleeuw.nl (30 juni/1 juli).",
+  "Het eindresultaat raceboard/Techno 2012 en de uitslag van Brouwersdam 5-6 mei zijn niet omgezet: in die bronnen ontbreekt Formula (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten)."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers"
+}

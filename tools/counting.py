@@ -14,6 +14,9 @@ Een rider met ook maar één gevaren heat of een andere status (OCS, DSQ, RDG) t
 Bronnen zonder statuscodes (afgeleid, staat in de note van de uitslag):
   elimination zonder heats   format.no_result_points: de rider heeft in elke eliminatie die (hoogste) score
   series_standings           format.no_result_net: de rider heeft de hoogst mogelijke eindscore
+  fleet_racing zonder codes  format.no_result_points (sinds 16 november 2026): de rider heeft in elke race de score voor 'geen resultaat'
+                             (één getal, of per race een getal of een lijst; lege cellen van weggelaten heats tellen niet)
+  speed                      geen codes, de regel geldt niet
 
 Wat er gebeurt met zo'n regel in de uitslag:
   - de entry blijft staan zoals gepubliceerd (plaats, naam, zeilnummer, punten), met "counted": false
@@ -74,17 +77,28 @@ def uncounted(doc):
     if t == "fleet_racing":
         races = doc["format"].get("races") or []
         al = doc["format"].get("code_aliases") or {}
+        nrs = no_result_sets(doc["format"].get("no_result_points"), len(races))
         out = []
         for e in doc["entries"]:
             rem = e.get("race_remarks") or {}
             pts = e.get("points")
             if not races or pts is None: continue
+            # bron zonder statuscodes (format.no_result_points, sinds 16 november 2026): de score voor 'geen resultaat' telt als zo'n code
+            nores = lambda i, c: nrs is not None and pts[i] is not None and not rem.get(c) and pts[i] in nrs[i]
             # elke race een code (DNC/DNF/DNS), of geen score en geen code: de rider stond niet in die race (sinds 12 oktober 2026;
             # DAM-X 2023: niet ingedeeld in een heat). Minstens één race moet een code hebben, anders is er niets bekend.
-            ok = all(code(rem.get(c), al) in CODES or (pts[i] is None and not rem.get(c)) for i, c in enumerate(races))
-            if ok and any(code(rem.get(c), al) in CODES for c in races): out.append(e)
+            ok = all(code(rem.get(c), al) in CODES or (pts[i] is None and not rem.get(c)) or nores(i, c) for i, c in enumerate(races))
+            if ok and any(code(rem.get(c), al) in CODES or nores(i, c) for i, c in enumerate(races)): out.append(e)
         return out
     return []
+
+
+def no_result_sets(nr, n):
+    """format.no_result_points (fleet_racing zonder statuscodes): één getal voor alle races, of per race een getal of een lijst van getallen
+    (The Real Trip Makkum 1998: [47, 47, [77, 78]]). -> per race een verzameling scores, of None."""
+    if nr is None: return None
+    per = nr if isinstance(nr, list) else [nr] * n
+    return [set(x) if isinstance(x, list) else {x} for x in per]
 
 
 def aggregate_uncounted(doc, siblings):
@@ -108,6 +122,8 @@ def basis(doc):
     if f["type"] == "elimination" and not doc.get("eliminations") and f.get("no_result_points") is not None:
         return "met in elke eliminatie de hoogste score (geen resultaat; de bron geeft geen statuscodes, dus DNC/DNF is afgeleid)"
     if f["type"] == "long_distance": return "met DNS of DNC (niet gestart)"
+    if f["type"] == "fleet_racing" and f.get("no_result_points") is not None:
+        return "met in elke race de score voor 'geen resultaat' (de bron geeft geen statuscodes, dus afgeleid)"
     return "met alleen DNC, DNF of DNS in " + ("alle heats en finales" if f["type"] == "elimination" else "alle races")
 
 

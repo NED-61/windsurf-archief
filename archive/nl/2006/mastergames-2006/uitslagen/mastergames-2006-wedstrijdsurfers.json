@@ -1,0 +1,282 @@
+{
+ "schema_version": 1,
+ "id": "mastergames-2006-wedstrijdsurfers",
+ "event": {
+  "name": "Mastergames 2006",
+  "scope": "nl",
+  "series": "Mastergames",
+  "year": 2006,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2006-09-24",
+  "location": "Grevelingen",
+  "discipline": null,
+  "gender": null,
+  "class": "Wedstrijdsurfers",
+  "class_label_published": "Wedstrijdsurfers"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "Heat 1",
+   "Heat 2"
+  ],
+  "discards": 0,
+  "races_to_count": 2,
+  "scoring_system": "punten = plaats in de heat (winnaar 0,7); geen resultaat = 15 punten (aantal riders + 1), zoals waargenomen; de bron geeft geen statuscodes",
+  "no_result_points": 15
+ },
+ "source": {
+  "name": "2006_master_games.jpg",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_master_games.jpg",
+  "file": "local-only/nl/2006/mastergames-2006/bronnen/2006_master_games.jpg",
+  "type": "image",
+  "retrieved": "2026-11-16",
+  "method": "met de hand overgetikt van de scan (uitsnedes vergroot gelezen); daarna per rider de punten nagerekend tegen het gepubliceerde totaal",
+  "metadata_sources": [
+   {
+    "name": "kalender 2007 (archief Adri Keet)",
+    "file": "data/backlog/kalenders/kalender 2007.doc",
+    "used_for": "locatie (afgeleid)"
+   }
+  ],
+  "verified": "14 riders; plaats = volgorde in de bron (geen plaatskolom); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van de scan 'Uitslagen MASTERGAMES 2006-09-24' op windsurfing.rdeleeuw.nl (Excel-tabellen per categorie), categorie Wedstrijdsurfers: voornaam, naam, categorie, lycra, heat 1, heat 2 en result. Namen zoals gepubliceerd.",
+  "Het lycranummer staat in bib. De bron heeft geen plaatskolom: de plaats is de volgorde in de tabel; gelijke scores staan onder elkaar en hebben hier opeenvolgende plaatsen.",
+  "Wie in beide heats 15 punten heeft, heeft geen resultaat en telt niet mee.",
+  "Telt niet mee: 3 ingeschreven rider(s) met in elke race de score voor 'geen resultaat' (de bron geeft geen statuscodes, dus afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "peter-claes",
+   "sail": null,
+   "bib": "4",
+   "name": "Peter Claes",
+   "division": null,
+   "points": [
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 1.4,
+   "net": 1.4
+  },
+  {
+   "rank": 2,
+   "person": "frank-heinen",
+   "sail": null,
+   "bib": "130",
+   "name": "Frank Heinen",
+   "division": null,
+   "points": [
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 4.0,
+   "net": 4.0
+  },
+  {
+   "rank": 3,
+   "person": "dirk-doppenberg",
+   "sail": null,
+   "bib": "116",
+   "name": "Dirk Doppenberg",
+   "division": null,
+   "points": [
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "remco-de-bakker",
+   "sail": null,
+   "bib": "81",
+   "name": "Remco De Bakker",
+   "division": null,
+   "points": [
+    8.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 11.0,
+   "net": 11.0
+  },
+  {
+   "rank": 5,
+   "person": "jan-willem-eikhardt",
+   "sail": null,
+   "bib": "93",
+   "name": "Jan-Willem Eikhardt",
+   "division": null,
+   "points": [
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 12.0,
+   "net": 12.0
+  },
+  {
+   "rank": 6,
+   "person": "cobus-vandersel",
+   "sail": null,
+   "bib": "119",
+   "name": "Cobus Vandersel",
+   "division": null,
+   "points": [
+    4.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 7,
+   "person": "marco-van-der-leer",
+   "sail": null,
+   "bib": "71",
+   "name": "Marco van der Leer",
+   "division": null,
+   "points": [
+    5.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 8,
+   "person": "patrick-rooze",
+   "sail": null,
+   "bib": "100",
+   "name": "Patrick Rooze",
+   "division": null,
+   "points": [
+    7.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 14.0,
+   "net": 14.0
+  },
+  {
+   "rank": 9,
+   "person": "kenny-de-jager",
+   "sail": null,
+   "bib": "87",
+   "name": "Kenny De Jager",
+   "division": null,
+   "points": [
+    9.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 14.0,
+   "net": 14.0
+  },
+  {
+   "rank": 10,
+   "person": "jan-bruggeman",
+   "sail": null,
+   "bib": "12",
+   "name": "Jan Bruggeman",
+   "division": null,
+   "points": [
+    15.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 25.0,
+   "net": 25.0
+  },
+  {
+   "rank": 11,
+   "person": "patrick-kleine",
+   "sail": null,
+   "bib": "31",
+   "name": "Patrick Kleine",
+   "division": null,
+   "points": [
+    10.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 25.0,
+   "net": 25.0
+  },
+  {
+   "rank": 12,
+   "person": null,
+   "sail": null,
+   "bib": "127",
+   "name": "Vincent Benoit",
+   "division": null,
+   "points": [
+    15.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0,
+   "counted": false
+  },
+  {
+   "rank": 13,
+   "person": null,
+   "sail": null,
+   "bib": "129",
+   "name": "Jean-Marc De Bruyn",
+   "division": null,
+   "points": [
+    15.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0,
+   "counted": false
+  },
+  {
+   "rank": 14,
+   "person": null,
+   "sail": null,
+   "bib": "85",
+   "name": "Christophe Waerzeggers",
+   "division": null,
+   "points": [
+    15.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

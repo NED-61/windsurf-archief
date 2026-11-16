@@ -1,0 +1,19 @@
+{
+ "event_slug": "bk-slalom-2010",
+ "scope": "internationaal",
+ "name": "BK Slalom 2010 (De Punt)",
+ "series": "BK Slalom",
+ "year": 2010,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2010-08-28",
+ "date_end": "2010-08-29",
+ "location": "De Punt",
+ "discipline": "slalom",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Belgisch kampioenschap: internationaal, bron bewaard en nog niet omgezet (fase 1 is Nederland)."
+ ]
+}

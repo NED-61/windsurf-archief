@@ -1,0 +1,19 @@
+{
+ "event_slug": "nk-course-2012-0505",
+ "scope": "nl",
+ "name": "NK Course 2012, Brouwersdam 5-6 mei",
+ "series": "NK Course",
+ "year": 2012,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2012-05-05",
+ "date_end": "2012-05-06",
+ "location": "Brouwersdam",
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Geen uitslag in het archief: de bron geeft alleen Raceboard en Techno 293 OD, Formula ontbreekt (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten)."
+ ]
+}

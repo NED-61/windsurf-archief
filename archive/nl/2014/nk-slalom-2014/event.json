@@ -1,0 +1,29 @@
+{
+ "event_slug": "nk-slalom-2014",
+ "scope": "nl",
+ "name": "NK Slalom 2014",
+ "series": "NK Slalom",
+ "year": 2014,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2014-10-18",
+ "date_end": "2014-10-19",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "nk-2014-slalom-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+   "url": "https://windsurfing.rdeleeuw.nl/results",
+   "retrieved": "2026-11-16",
+   "used_for": "datum (18-19 oktober 2014)"
+  }
+ ],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Gepubliceerd als 'NK Tour 2014 - Slalom Overall', 'Results are final as of 1630 on 19 october 2014' (NVW, Sailwave). De datum volgens windsurfing.rdeleeuw.nl (18/19 oktober); plaats niet in de bron."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers"
+}

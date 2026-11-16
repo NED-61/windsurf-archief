@@ -1,0 +1,21 @@
+{
+ "event_slug": "the-real-trip-1999-0529",
+ "scope": "nl",
+ "name": "The Real Trip, 29-30 mei 1999",
+ "series": "The Real Trip",
+ "year": 1999,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "1999-05-29",
+ "date_end": "1999-05-30",
+ "location": "Brouwersdam",
+ "discipline": null,
+ "classes": [
+  "the-real-trip-1999-0529-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Datum en plaats volgens de kop van het blad ('29 & 30 mei 1999 - Brouwersdam'). De pagina op windsurfing.rdeleeuw.nl heeft als titel nog '9/10 Mei 1998' (kopie van de pagina van 1998)."
+ ]
+}

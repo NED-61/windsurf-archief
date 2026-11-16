@@ -1,0 +1,668 @@
+{
+ "schema_version": 1,
+ "id": "nk-2014-slalom-overall",
+ "event": {
+  "name": "NK Slalom 2014",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2014,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2014-10-18",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "Slalom Overall"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 1,
+  "races_to_count": 3,
+  "scoring_system": "Appendix A (Sailwave 2.9.7); geen resultaat = 29 punten, zoals gepubliceerd (geen statuscodes in de bron)",
+  "no_result_points": 29.0
+ },
+ "source": {
+  "name": "NK_Slalom_final_2014.pdf",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/NK_Slalom_final_2014.pdf",
+  "file": "archive/nl/2014/nk-slalom-2014/bronnen/NK_Slalom_final_2014.pdf",
+  "type": "pdf",
+  "retrieved": "2026-11-16",
+  "method": "pdfplumber: tekstregels; racecellen van rechts gelezen",
+  "metadata_sources": [
+   {
+    "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+    "url": "https://windsurfing.rdeleeuw.nl/results",
+    "retrieved": "2026-11-16",
+    "used_for": "datum (18-19 oktober 2014)"
+   }
+  ],
+  "verified": "29 riders (bron: Entries 29); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'NK Tour 2014 - Nederlandse Vereniging van Wedstrijdsurfers - Results are final as of 1630 on 19 october 2014 - Slalom Overall' ('Sailed: 4, Discards: 1, To count: 3, Entries: 29, Scoring system: Appendix A').",
+  "De kolommen Division ('Men', 'Youth U 20') en Subdivision ('master', 'grandmaster', 'Youth U17', 'Junior U15') staan in division en subdivision.",
+  "29.0 punten is 'geen resultaat' (de bron geeft geen codes); wie in elke race die score heeft telt niet mee.",
+  "Telt niet mee: 1 ingeschreven rider(s) met in elke race de score voor 'geen resultaat' (de bron geeft geen statuscodes, dus afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "NED 2",
+   "name": "Adriaan van Rijsselberghe",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    5.0,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 7.1,
+   "net": 2.1
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    2.0,
+    4.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 10.0,
+   "net": 6.0
+  },
+  {
+   "rank": 3,
+   "person": "teade-de-jong",
+   "sail": "NED 777",
+   "name": "Teade de Jong",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    3.0,
+    3.0,
+    6.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 19.0,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "master",
+   "points": [
+    9.0,
+    2.0,
+    5.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 22.0,
+   "net": 13.0
+  },
+  {
+   "rank": 5,
+   "person": "dennis-littel",
+   "sail": "NED 13",
+   "name": "Dennis Littel",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    4.0,
+    29.0,
+    8.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 44.0,
+   "net": 15.0
+  },
+  {
+   "rank": 6,
+   "person": "adri-keet",
+   "sail": "NED 34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "master",
+   "points": [
+    0.7,
+    10.0,
+    7.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 25.7,
+   "net": 15.7
+  },
+  {
+   "rank": 7,
+   "person": "tomas-van-zelst",
+   "sail": "NED 28",
+   "name": "Tomas van Zelst",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    12.0,
+    8.0,
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 29.0,
+   "net": 17.0
+  },
+  {
+   "rank": 8,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    6.0,
+    5.0,
+    10.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 37.0,
+   "net": 21.0
+  },
+  {
+   "rank": 9,
+   "person": "nikaj-droop",
+   "sail": "NED 647",
+   "name": "Nikaj Droop",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "master",
+   "points": [
+    16.0,
+    19.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 42.0,
+   "net": 23.0
+  },
+  {
+   "rank": 10,
+   "person": "pieter-bartlema",
+   "sail": "NED 77",
+   "name": "Pieter Bartlema",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    8.0,
+    16.0,
+    9.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 42.0,
+   "net": 26.0
+  },
+  {
+   "rank": 11,
+   "person": "marco-van-der-leer",
+   "sail": "NED 207",
+   "name": "Marco van der Leer",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    7.0,
+    11.0,
+    12.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 40.0,
+   "net": 28.0
+  },
+  {
+   "rank": 12,
+   "person": "peter-mulder",
+   "sail": "NED 71",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    13.0,
+    7.0,
+    15.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 47.0,
+   "net": 32.0
+  },
+  {
+   "rank": 13,
+   "person": "alexander-verhage",
+   "sail": "NED 75",
+   "name": "Alexander Verhage",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "master",
+   "points": [
+    17.0,
+    9.0,
+    11.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 50.0,
+   "net": 33.0
+  },
+  {
+   "rank": 14,
+   "person": "sam-wennekes",
+   "sail": "NED 823",
+   "name": "Sam Wennekens",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": "Youth U17",
+   "points": [
+    16.0,
+    6.0,
+    13.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 51.0,
+   "net": 35.0
+  },
+  {
+   "rank": 15,
+   "person": "bas-mulder",
+   "sail": "NED 6",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    29.0,
+    13.0,
+    14.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 67.0,
+   "net": 38.0
+  },
+  {
+   "rank": 16,
+   "person": "jakob-kooij",
+   "sail": "NED 8",
+   "name": "Jakob Kooij",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": "Youth U17",
+   "points": [
+    11.0,
+    14.0,
+    18.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 61.0,
+   "net": 43.0
+  },
+  {
+   "rank": 17,
+   "person": "thom-vd-sande",
+   "sail": "NED 184",
+   "name": "Thom vd Sande",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    18.0,
+    12.0,
+    29.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 76.0,
+   "net": 47.0
+  },
+  {
+   "rank": 18,
+   "person": "robert-de-leeuw",
+   "sail": "NED 118",
+   "name": "Robert de Leeuw",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "master",
+   "points": [
+    29.0,
+    22.0,
+    17.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 82.0,
+   "net": 53.0
+  },
+  {
+   "rank": 19,
+   "person": "peter-marinelli",
+   "sail": "NED 771",
+   "name": "Peter Marinelli",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "grandmaster",
+   "points": [
+    16.0,
+    17.0,
+    29.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 82.0,
+   "net": 53.0
+  },
+  {
+   "rank": 20,
+   "person": "john-munten",
+   "sail": "NED 30",
+   "name": "John Munten",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "master",
+   "points": [
+    19.0,
+    18.0,
+    16.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 82.0,
+   "net": 53.0
+  },
+  {
+   "rank": 21,
+   "person": "damian-holleman",
+   "sail": "NED 294",
+   "name": "Damian Holleman",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": "Youth U17",
+   "points": [
+    21.0,
+    21.0,
+    19.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    4
+   ],
+   "total": 90.0,
+   "net": 61.0
+  },
+  {
+   "rank": 22,
+   "person": "lars-van-straten",
+   "sail": "NED 29",
+   "name": "Lars van Straten",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": "Youth U17",
+   "points": [
+    22.0,
+    16.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 96.0,
+   "net": 67.0
+  },
+  {
+   "rank": 23,
+   "person": "peter-van-der-lugt",
+   "sail": "NED 12",
+   "name": "Peter van der Lugt",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    10.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 97.0,
+   "net": 68.0
+  },
+  {
+   "rank": 24,
+   "person": "maurits-franken",
+   "sail": "NED 358",
+   "name": "Maurits Franken",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": "Youth U17",
+   "points": [
+    20.0,
+    29.0,
+    29.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 97.0,
+   "net": 68.0
+  },
+  {
+   "rank": 25,
+   "person": "floris-franken",
+   "sail": "NED 9999",
+   "name": "Floris Franken",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": "Junior U15",
+   "points": [
+    25.0,
+    23.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 106.0,
+   "net": 77.0
+  },
+  {
+   "rank": 26,
+   "person": "bram-zijlstra",
+   "sail": "NED 150",
+   "name": "Bram Zijlstra",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    29.0,
+    20.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 107.0,
+   "net": 78.0
+  },
+  {
+   "rank": 27,
+   "person": "a-geesink",
+   "sail": "NED 53",
+   "name": "A. Geesink",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "grandmaster",
+   "points": [
+    23.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 110.0,
+   "net": 81.0
+  },
+  {
+   "rank": 28,
+   "person": "yuri-palmkoeck",
+   "sail": "NED 737",
+   "name": "Yuri Palmkoeck",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "master",
+   "points": [
+    24.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 111.0,
+   "net": 82.0
+  },
+  {
+   "rank": 29,
+   "person": null,
+   "sail": "NED 509",
+   "name": "Joep Clasquin",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 116.0,
+   "net": 87.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

@@ -1,0 +1,26 @@
+{
+ "event_slug": "the-mission-2008",
+ "scope": "nl",
+ "name": "The Mission 2008",
+ "series": "The Mission",
+ "year": 2008,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2008-08-23",
+ "date_end": null,
+ "location": "Brouwersdam",
+ "discipline": "slalom",
+ "classes": [],
+ "metadata_sources": [
+  {
+   "name": "kalender 2007 (archief Adri Keet)",
+   "file": "data/backlog/kalenders/kalender 2007.doc",
+   "used_for": "locatie (afgeleid)"
+  }
+ ],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Geen uitslag in het archief: de bron op windsurfing.rdeleeuw.nl geeft alleen de mannenvloot (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten). De bron is geregistreerd.",
+  "Locatie AFGELEID: de kalender van 2007 noemt 'Mission Brouwersdam'; voor dit jaar niet in een bron nagegaan."
+ ]
+}

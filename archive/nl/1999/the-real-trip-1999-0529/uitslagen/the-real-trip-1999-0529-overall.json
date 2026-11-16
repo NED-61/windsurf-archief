@@ -1,0 +1,1638 @@
+{
+ "schema_version": 1,
+ "id": "the-real-trip-1999-0529-overall",
+ "event": {
+  "name": "The Real Trip, 29-30 mei 1999",
+  "scope": "nl",
+  "series": "The Real Trip",
+  "year": 1999,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "1999-05-29",
+  "location": "Brouwersdam",
+  "discipline": null,
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "\"the real trip\""
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "H1",
+   "H2",
+   "H3",
+   "H4"
+  ],
+  "discards": 1,
+  "races_to_count": 3,
+  "scoring_system": "punten per heat = plaats in de eigen heat (winnaar 0,7); geen resultaat = 29 punten, zoals waargenomen; de bron geeft geen statuscodes",
+  "discards_marked": false,
+  "no_result_points": 29,
+  "heat_assignment_published": false
+ },
+ "source": {
+  "name": "1999_05_29_30 The Real Trip Kabbelaarsbank 1.jpg",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/1999_05_29_30%20The%20Real%20Trip%20Kabbelaarsbank.html",
+  "file": "local-only/nl/1999/the-real-trip-1999-0529/bronnen/1999_05_29_30 The Real Trip Kabbelaarsbank 1.jpg",
+  "files": [
+   "local-only/nl/1999/the-real-trip-1999-0529/bronnen/1999_05_29_30 The Real Trip Kabbelaarsbank 1.jpg",
+   "local-only/nl/1999/the-real-trip-1999-0529/bronnen/1999_05_29_30 The Real Trip Kabbelaarsbank 2.jpg"
+  ],
+  "type": "image",
+  "retrieved": "2026-11-16",
+  "method": "met de hand overgetikt van de scan (uitsnedes vergroot gelezen); daarna per rider de punten nagerekend tegen het gepubliceerde totaal",
+  "metadata_sources": [],
+  "verified": "78 regels overgetikt (blad: 78); 78 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend (netto vanaf 10 afgerond op hele punten): gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van 2 scans van het blad '\"the real trip\"' (North Sails, Pro Limit) op windsurfing.rdeleeuw.nl: plaats, nummer, naam, klasse, totaalscore en de punten per heat. Namen zoals gepubliceerd.",
+  "De kolom 'zeilnr.' bevat de nummers van het evenement (1 tot en met 79): die staan in bib, niet als zeilnummer.",
+  "Klasse zoals gepubliceerd (H, J, D, M); het blad geeft geen verklaring (vermoedelijk heren, jeugd, dames, masters).",
+  "Per heat zijn de riders over meer groepen verdeeld en krijgt elke rider de plaats in de eigen groep; de indeling staat niet op het blad.",
+  "De totaalscore is de som zonder de slechtste heat (1 weglating); het blad markeert niet welke heat is weggelaten, de weggelaten punten staan in discard_points. Vanaf 10 punten staat de totaalscore afgerond op hele punten op het blad (bijvoorbeeld 11,7 als 12); net is de score zoals gepubliceerd.",
+  "85 punten (Bert de Boer heat 1, Michel Bouwman heat 4) is meer dan 'geen resultaat' (29); de bron zegt niet waarvoor (vermoedelijk een straf).",
+  "Telt niet mee: 18 ingeschreven rider(s) met in elke race de score voor 'geen resultaat' (de bron geeft geen statuscodes, dus afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "christian-sandee",
+   "sail": null,
+   "bib": "2",
+   "name": "Christiaan Sandee",
+   "division": "H",
+   "points": [
+    0.7,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    0.7
+   ],
+   "total": null,
+   "net": 2.1
+  },
+  {
+   "rank": 2,
+   "person": "bert-de-boer",
+   "sail": null,
+   "bib": "1",
+   "name": "Bert de Boer",
+   "division": "H",
+   "points": [
+    85.0,
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    85.0
+   ],
+   "total": null,
+   "net": 2.1
+  },
+  {
+   "rank": 3,
+   "person": "erik-gerritsen",
+   "sail": null,
+   "bib": "53",
+   "name": "Erik Gerritsen",
+   "division": "H",
+   "points": [
+    4.0,
+    0.7,
+    2.0,
+    0.7
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    4.0
+   ],
+   "total": null,
+   "net": 3.4
+  },
+  {
+   "rank": 4,
+   "person": "daan-spackler",
+   "sail": null,
+   "bib": "3",
+   "name": "Daan Spackler",
+   "division": "H",
+   "points": [
+    2.0,
+    29.0,
+    0.7,
+    2.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 4.7
+  },
+  {
+   "rank": 5,
+   "person": "gregory-maes",
+   "sail": null,
+   "bib": "36",
+   "name": "Gregory Maes",
+   "division": "H",
+   "points": [
+    0.7,
+    3.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    3.0
+   ],
+   "total": null,
+   "net": 4.7
+  },
+  {
+   "rank": 6,
+   "person": "wolfang-draschner",
+   "sail": null,
+   "bib": "25",
+   "name": "Wolfang Draschner",
+   "division": "M",
+   "points": [
+    0.7,
+    2.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    4.0
+   ],
+   "total": null,
+   "net": 5.7
+  },
+  {
+   "rank": 7,
+   "person": "ernst-jan-de-boom",
+   "sail": null,
+   "bib": "14",
+   "name": "Ernst Jan de Boom",
+   "division": "H",
+   "points": [
+    3.0,
+    2.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    3.0
+   ],
+   "total": null,
+   "net": 7.0
+  },
+  {
+   "rank": 8,
+   "person": "mike-loepke",
+   "sail": null,
+   "bib": "8",
+   "name": "Mike Loepke",
+   "division": "J",
+   "points": [
+    3.0,
+    3.0,
+    3.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    3.0
+   ],
+   "total": null,
+   "net": 8.0
+  },
+  {
+   "rank": 9,
+   "person": "pieter-eliens",
+   "sail": null,
+   "bib": "12",
+   "name": "Pieter Eliens",
+   "division": "H",
+   "points": [
+    2.0,
+    5.0,
+    29.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 10.0
+  },
+  {
+   "rank": 10,
+   "person": "helge-lensing",
+   "sail": null,
+   "bib": "63",
+   "name": "Helge Lensing",
+   "division": "H",
+   "points": [
+    8.0,
+    2.0,
+    3.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    8.0
+   ],
+   "total": null,
+   "net": 11.0
+  },
+  {
+   "rank": 11,
+   "person": "kuno-mooren",
+   "sail": null,
+   "bib": "7",
+   "name": "Kuno Mooren",
+   "division": "H",
+   "points": [
+    6.0,
+    6.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    6.0
+   ],
+   "total": null,
+   "net": 13.0
+  },
+  {
+   "rank": 12,
+   "person": "michel-bouwman",
+   "sail": null,
+   "bib": "18",
+   "name": "Michel Bouwman",
+   "division": "M",
+   "points": [
+    5.0,
+    4.0,
+    4.0,
+    85.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    85.0
+   ],
+   "total": null,
+   "net": 13.0
+  },
+  {
+   "rank": 13,
+   "person": "coen-mica",
+   "sail": null,
+   "bib": "27",
+   "name": "Coen Mica",
+   "division": "H",
+   "points": [
+    5.0,
+    5.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    6.0
+   ],
+   "total": null,
+   "net": 15.0
+  },
+  {
+   "rank": 14,
+   "person": "jeremy-beekman",
+   "sail": null,
+   "bib": "40",
+   "name": "Jeremy Beekman",
+   "division": "H",
+   "points": [
+    7.0,
+    29.0,
+    6.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 15,
+   "person": "alfred-van-der-weide",
+   "sail": null,
+   "bib": "15",
+   "name": "Alfred van der Weide",
+   "division": "H",
+   "points": [
+    8.0,
+    4.0,
+    9.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    9.0
+   ],
+   "total": null,
+   "net": 17.0
+  },
+  {
+   "rank": 16,
+   "person": "patrick-heymans",
+   "sail": null,
+   "bib": "31",
+   "name": "Patrick Heymans",
+   "division": "H",
+   "points": [
+    12.0,
+    4.0,
+    7.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    12.0
+   ],
+   "total": null,
+   "net": 18.0
+  },
+  {
+   "rank": 17,
+   "person": "dennis-littel",
+   "sail": null,
+   "bib": "23",
+   "name": "Dennis Littel",
+   "division": "J",
+   "points": [
+    10.0,
+    11.0,
+    5.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    11.0
+   ],
+   "total": null,
+   "net": 19.0
+  },
+  {
+   "rank": 18,
+   "person": "robert-de-leeuw",
+   "sail": null,
+   "bib": "29",
+   "name": "Robert de Leeuw",
+   "division": "H",
+   "points": [
+    14.0,
+    9.0,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    14.0
+   ],
+   "total": null,
+   "net": 19.0
+  },
+  {
+   "rank": 19,
+   "person": "cornelia-van-der-schil",
+   "sail": null,
+   "bib": "26",
+   "name": "Cornelia van der Schil",
+   "division": "D",
+   "points": [
+    13.0,
+    6.0,
+    5.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    13.0
+   ],
+   "total": null,
+   "net": 19.0
+  },
+  {
+   "rank": 20,
+   "person": "tim-bos",
+   "sail": null,
+   "bib": "49",
+   "name": "Tim Bos",
+   "division": "H",
+   "points": [
+    11.0,
+    5.0,
+    5.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    11.0
+   ],
+   "total": null,
+   "net": 19.0
+  },
+  {
+   "rank": 21,
+   "person": "frederik-schmidt",
+   "sail": null,
+   "bib": "62",
+   "name": "Frederik Schmidt",
+   "division": "J",
+   "points": [
+    7.0,
+    10.0,
+    8.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    10.0
+   ],
+   "total": null,
+   "net": 21.0
+  },
+  {
+   "rank": 22,
+   "person": "rob-gerlings",
+   "sail": null,
+   "bib": "76",
+   "name": "Rob Gerlings",
+   "division": "J",
+   "points": [
+    18.0,
+    6.0,
+    8.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    18.0
+   ],
+   "total": null,
+   "net": 21.0
+  },
+  {
+   "rank": 23,
+   "person": "rene-schijf",
+   "sail": null,
+   "bib": "34",
+   "name": "Rene Schijf",
+   "division": "M",
+   "points": [
+    3.0,
+    9.0,
+    11.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 23.0
+  },
+  {
+   "rank": 24,
+   "person": "aukje-meppelink",
+   "sail": null,
+   "bib": "77",
+   "name": "Aukje Meppelink",
+   "division": "D",
+   "points": [
+    9.0,
+    29.0,
+    10.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 24.0
+  },
+  {
+   "rank": 25,
+   "person": "hans-gerlings",
+   "sail": null,
+   "bib": "75",
+   "name": "Hans Gerlings",
+   "division": "H",
+   "points": [
+    15.0,
+    12.0,
+    7.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    15.0
+   ],
+   "total": null,
+   "net": 27.0
+  },
+  {
+   "rank": 26,
+   "person": "maarten-borst",
+   "sail": null,
+   "bib": "19",
+   "name": "Maarten Borst",
+   "division": "M",
+   "points": [
+    29.0,
+    11.0,
+    6.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 28.0
+  },
+  {
+   "rank": 27,
+   "person": "rj-van-veenendaal",
+   "sail": null,
+   "bib": "17",
+   "name": "R.J. van Veenendaal",
+   "division": "H",
+   "points": [
+    18.0,
+    7.0,
+    13.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    18.0
+   ],
+   "total": null,
+   "net": 29.0
+  },
+  {
+   "rank": 28,
+   "person": "leon-vrijhoef",
+   "sail": null,
+   "bib": "60",
+   "name": "Leon Vrijhoef",
+   "division": "H",
+   "points": [
+    11.0,
+    9.0,
+    10.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    11.0
+   ],
+   "total": null,
+   "net": 29.0
+  },
+  {
+   "rank": 29,
+   "person": "andreas-mater",
+   "sail": null,
+   "bib": "20",
+   "name": "Andreas Mater",
+   "division": "H",
+   "points": [
+    14.0,
+    10.0,
+    7.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    14.0
+   ],
+   "total": null,
+   "net": 29.0
+  },
+  {
+   "rank": 30,
+   "person": "philip-wielaard",
+   "sail": null,
+   "bib": "33",
+   "name": "Philip Wielaard",
+   "division": "H",
+   "points": [
+    10.0,
+    7.0,
+    12.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 29.0
+  },
+  {
+   "rank": 31,
+   "person": "jan-willem-baan",
+   "sail": null,
+   "bib": "56",
+   "name": "Jan Willem Baan",
+   "division": "H",
+   "points": [
+    9.0,
+    29.0,
+    9.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 31.0
+  },
+  {
+   "rank": 32,
+   "person": "joost-lucker",
+   "sail": null,
+   "bib": "39",
+   "name": "Joost Lucker",
+   "division": "H",
+   "points": [
+    17.0,
+    7.0,
+    29.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 32.0
+  },
+  {
+   "rank": 33,
+   "person": "wendy-littel",
+   "sail": null,
+   "bib": "24",
+   "name": "Wendy Littel",
+   "division": "D",
+   "points": [
+    13.0,
+    29.0,
+    14.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 34.0
+  },
+  {
+   "rank": 34,
+   "person": "mark-van-rossum",
+   "sail": null,
+   "bib": "66",
+   "name": "Mark van Rossum",
+   "division": "H",
+   "points": [
+    6.0,
+    3.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 38.0
+  },
+  {
+   "rank": 35,
+   "person": "toine-setz",
+   "sail": null,
+   "bib": "5",
+   "name": "Toine Setz",
+   "division": "H",
+   "points": [
+    7.0,
+    8.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 44.0
+  },
+  {
+   "rank": 36,
+   "person": "maurice-drenth",
+   "sail": null,
+   "bib": "45",
+   "name": "Maurice Drenth",
+   "division": "J",
+   "points": [
+    8.0,
+    8.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 45.0
+  },
+  {
+   "rank": 37,
+   "person": "hans-mooren",
+   "sail": null,
+   "bib": "6",
+   "name": "Hans Mooren",
+   "division": "M",
+   "points": [
+    6.0,
+    12.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 47.0
+  },
+  {
+   "rank": 38,
+   "person": "bernhard-hinsken",
+   "sail": null,
+   "bib": "50",
+   "name": "Bernhard Hinsken",
+   "division": "H",
+   "points": [
+    9.0,
+    29.0,
+    15.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 53.0
+  },
+  {
+   "rank": 39,
+   "person": "evert-piessens",
+   "sail": null,
+   "bib": "73",
+   "name": "Evert Piessens",
+   "division": "H",
+   "points": [
+    2.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 60.0
+  },
+  {
+   "rank": 40,
+   "person": "jurgen-piessens",
+   "sail": null,
+   "bib": "74",
+   "name": "Jurgen Piessens",
+   "division": "H",
+   "points": [
+    4.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 62.0
+  },
+  {
+   "rank": 41,
+   "person": "marc-de-jong",
+   "sail": null,
+   "bib": "71",
+   "name": "Mark de Jong",
+   "division": "H",
+   "points": [
+    4.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 62.0
+  },
+  {
+   "rank": 42,
+   "person": "wouter-de-vries",
+   "sail": null,
+   "bib": "55",
+   "name": "Wouter de Vries",
+   "division": "H",
+   "points": [
+    5.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 63.0
+  },
+  {
+   "rank": 43,
+   "person": "koen-van-gulik",
+   "sail": null,
+   "bib": "44",
+   "name": "Koen van Gulik",
+   "division": "H",
+   "points": [
+    29.0,
+    8.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 66.0
+  },
+  {
+   "rank": 44,
+   "person": "wilco-sjardijn",
+   "sail": null,
+   "bib": "70",
+   "name": "Wilco Sjardijn",
+   "division": "H",
+   "points": [
+    10.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 68.0
+  },
+  {
+   "rank": 45,
+   "person": "marco-poot",
+   "sail": null,
+   "bib": "21",
+   "name": "Marco Poot",
+   "division": "H",
+   "points": [
+    11.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 69.0
+  },
+  {
+   "rank": 46,
+   "person": "cindy-koopman",
+   "sail": null,
+   "bib": "11",
+   "name": "Cindy Koopman",
+   "division": "D",
+   "points": [
+    12.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 70.0
+  },
+  {
+   "rank": 47,
+   "person": "misja-van-der-velden",
+   "sail": null,
+   "bib": "32",
+   "name": "Misja van der Velden",
+   "division": "H",
+   "points": [
+    12.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 70.0
+  },
+  {
+   "rank": 48,
+   "person": "marjan-de-ron",
+   "sail": null,
+   "bib": "69",
+   "name": "Marjan de Ron",
+   "division": "D",
+   "points": [
+    13.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 71.0
+  },
+  {
+   "rank": 49,
+   "person": "daniel-van-blitterswijk",
+   "sail": null,
+   "bib": "57",
+   "name": "Daniel v. Blitterswijk",
+   "division": "H",
+   "points": [
+    14.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 72.0
+  },
+  {
+   "rank": 50,
+   "person": "vincent-vrijenhoef",
+   "sail": null,
+   "bib": "58",
+   "name": "Vincent Vrijenhoef",
+   "division": "H",
+   "points": [
+    15.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 73.0
+  },
+  {
+   "rank": 51,
+   "person": "henno-van-der-tol",
+   "sail": null,
+   "bib": "64",
+   "name": "Henno van der Tol",
+   "division": "H",
+   "points": [
+    15.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 73.0
+  },
+  {
+   "rank": 52,
+   "person": "bert-pelle",
+   "sail": null,
+   "bib": "65",
+   "name": "Bert Pelle",
+   "division": "H",
+   "points": [
+    16.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 74.0
+  },
+  {
+   "rank": 53,
+   "person": "evelien-van-de-panne",
+   "sail": null,
+   "bib": "28",
+   "name": "Evelien van de Panne",
+   "division": "D",
+   "points": [
+    16.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 74.0
+  },
+  {
+   "rank": 54,
+   "person": "leendert-van-galen",
+   "sail": null,
+   "bib": "47",
+   "name": "Leendert van Galen",
+   "division": "J",
+   "points": [
+    16.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 74.0
+  },
+  {
+   "rank": 55,
+   "person": "mike-scott",
+   "sail": null,
+   "bib": "78",
+   "name": "Mike Scott",
+   "division": "H",
+   "points": [
+    17.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 75.0
+  },
+  {
+   "rank": 56,
+   "person": "steven-ten-pas",
+   "sail": null,
+   "bib": "35",
+   "name": "Steven ten Pas",
+   "division": "J",
+   "points": [
+    19.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 77.0
+  },
+  {
+   "rank": 57,
+   "person": "marco-vermoen",
+   "sail": null,
+   "bib": "22",
+   "name": "Marco Vermoen",
+   "division": "H",
+   "points": [
+    19.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 77.0
+  },
+  {
+   "rank": 58,
+   "person": "johan-boerefijn",
+   "sail": null,
+   "bib": "67",
+   "name": "Johan Boerefijn",
+   "division": "J",
+   "points": [
+    20.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 78.0
+  },
+  {
+   "rank": 59,
+   "person": "maurah-bierens",
+   "sail": null,
+   "bib": "46",
+   "name": "Maurah Bierens",
+   "division": "D",
+   "points": [
+    21.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 79.0
+  },
+  {
+   "rank": 60,
+   "person": "jeroen-mol",
+   "sail": null,
+   "bib": "48",
+   "name": "Jeroen Mol",
+   "division": "J",
+   "points": [
+    22.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 80.0
+  },
+  {
+   "rank": 61,
+   "person": null,
+   "sail": null,
+   "bib": "42",
+   "name": "Ivo Wittenberg",
+   "division": "J",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 62,
+   "person": null,
+   "sail": null,
+   "bib": "30",
+   "name": "Gabi Gaasenbeek",
+   "division": "D",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 63,
+   "person": null,
+   "sail": null,
+   "bib": "59",
+   "name": "Jochem Vrijenhoef",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 64,
+   "person": null,
+   "sail": null,
+   "bib": "54",
+   "name": "Walter van der Knaap",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 65,
+   "person": null,
+   "sail": null,
+   "bib": "41",
+   "name": "Trudo Arts",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 66,
+   "person": null,
+   "sail": null,
+   "bib": "52",
+   "name": "Jasper Bassie",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 67,
+   "person": null,
+   "sail": null,
+   "bib": "68",
+   "name": "Edo Boerefijn",
+   "division": "J",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 68,
+   "person": null,
+   "sail": null,
+   "bib": "51",
+   "name": "Bas Heemskerk",
+   "division": "J",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 69,
+   "person": null,
+   "sail": null,
+   "bib": "38",
+   "name": "Torben Tijms",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 70,
+   "person": null,
+   "sail": null,
+   "bib": "10",
+   "name": "Bas Strooij",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 71,
+   "person": null,
+   "sail": null,
+   "bib": "9",
+   "name": "Egbert Mandersloot",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 72,
+   "person": null,
+   "sail": null,
+   "bib": "72",
+   "name": "Paul Verhoeven",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 73,
+   "person": null,
+   "sail": null,
+   "bib": "79",
+   "name": "Arnout Arts",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 74,
+   "person": null,
+   "sail": null,
+   "bib": "4",
+   "name": "Niek van Schouwen",
+   "division": "M",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 75,
+   "person": null,
+   "sail": null,
+   "bib": "16",
+   "name": "Thorsten Chilla",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 76,
+   "person": null,
+   "sail": null,
+   "bib": "43",
+   "name": "Kim van Gulik",
+   "division": "D",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 77,
+   "person": null,
+   "sail": null,
+   "bib": "37",
+   "name": "Arjan Huisman",
+   "division": "J",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  },
+  {
+   "rank": 78,
+   "person": null,
+   "sail": null,
+   "bib": "61",
+   "name": "Christian Vrijenhoef",
+   "division": "H",
+   "points": [
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discard_points": [
+    29.0
+   ],
+   "total": null,
+   "net": 87.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

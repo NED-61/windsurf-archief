@@ -1,0 +1,320 @@
+{
+ "schema_version": 1,
+ "id": "island-race-almere-2013-overall",
+ "event": {
+  "name": "Island Race Almere 2013",
+  "scope": "nl",
+  "series": "Island Race Almere",
+  "year": 2013,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2013-05-11",
+  "location": "Almere",
+  "discipline": null,
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "Almere Eilandrace 2013 - Overall"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4"
+  ],
+  "discards": 1,
+  "races_to_count": 3,
+  "scoring_system": "Appendix A (Sailwave); DNC = 13 punten (inschrijvingen + 1), zoals gepubliceerd"
+ },
+ "source": {
+  "name": "2013-05-11_eilandenrace.html",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2013-05-11_eilandenrace.html",
+  "file": "archive/nl/2013/island-race-almere-2013/bronnen/2013-05-11_eilandenrace.html",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "html-tabel gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+    "url": "https://windsurfing.rdeleeuw.nl/results",
+    "retrieved": "2026-11-16",
+    "used_for": "datum (11 mei 2013)"
+   }
+  ],
+  "verified": "12 riders (bron: Entries 12); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Almere Eilandrace 2013 - Overall' (Sailwave, 'Sailed: 4, Discards: 1, To count: 3, Entries: 12').",
+  "De kolom Fleet ('<85', 'Jeugd', 'Jeugd/rookie') staat in division. Een zeilnummercel 'Hesje 24' is een startnummer (bib); 'X' staat in sail_published.",
+  "Telt niet mee: 2 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "nick-van-der-hoorn",
+   "sail": "NED-147",
+   "bib": null,
+   "name": "Nick van der Hoorn",
+   "division": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 4.0,
+   "net": 3.0
+  },
+  {
+   "rank": 2,
+   "person": "marc-de-jong",
+   "sail": "NED-103",
+   "bib": null,
+   "name": "Marc de Jong",
+   "division": null,
+   "points": [
+    3.0,
+    2.0,
+    4.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3
+   ],
+   "total": 11.0,
+   "net": 7.0
+  },
+  {
+   "rank": 3,
+   "person": "john-munten",
+   "sail": "NED-30",
+   "bib": null,
+   "name": "John Munten",
+   "division": null,
+   "points": [
+    2.0,
+    3.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 10.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "nick-de-ruyter",
+   "sail": "NED-511",
+   "bib": null,
+   "name": "Nick de Ruyter",
+   "division": null,
+   "points": [
+    4.0,
+    4.0,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1
+   ],
+   "total": 15.0,
+   "net": 11.0
+  },
+  {
+   "rank": 5,
+   "person": "robert-de-leeuw",
+   "sail": "NED-118",
+   "bib": null,
+   "name": "Robert de Leeuw",
+   "division": "<85",
+   "points": [
+    5.0,
+    7.0,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2
+   ],
+   "total": 23.0,
+   "net": 16.0
+  },
+  {
+   "rank": 6,
+   "person": "ennio-dal-pont",
+   "sail": null,
+   "bib": "24",
+   "name": "Ennio dal Pont",
+   "division": "Jeugd",
+   "points": [
+    6.0,
+    6.0,
+    5.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R4": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 30.0,
+   "net": 17.0
+  },
+  {
+   "rank": 7,
+   "person": "marco-baaijen",
+   "sail": null,
+   "bib": "27",
+   "name": "Marco Baaijen",
+   "division": null,
+   "points": [
+    7.0,
+    5.0,
+    7.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R4": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 32.0,
+   "net": 19.0
+  },
+  {
+   "rank": 8,
+   "person": "jan-de-jonge",
+   "sail": "NED-787",
+   "bib": null,
+   "name": "Jan de Jonge",
+   "division": null,
+   "points": [
+    8.0,
+    8.0,
+    8.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R4": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 37.0,
+   "net": 24.0
+  },
+  {
+   "rank": 9,
+   "person": "ivo-bosscher",
+   "sail": null,
+   "bib": "23",
+   "name": "Ivo Bosscher",
+   "division": "Jeugd",
+   "points": [
+    9.0,
+    9.0,
+    9.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R4": "DNC"
+   },
+   "discarded": [
+    4
+   ],
+   "total": 40.0,
+   "net": 27.0
+  },
+  {
+   "rank": 10,
+   "person": "max-baaijen",
+   "sail": null,
+   "bib": "21",
+   "name": "Max Baaijen",
+   "division": "Jeugd/rookie",
+   "points": [
+    10.0,
+    10.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 46.0,
+   "net": 33.0
+  },
+  {
+   "rank": 11,
+   "person": null,
+   "sail": "NED-818",
+   "bib": null,
+   "name": "Cobus van der Stel",
+   "division": null,
+   "points": [
+    13.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 52.0,
+   "net": 39.0,
+   "counted": false
+  },
+  {
+   "rank": 11,
+   "person": null,
+   "sail": null,
+   "bib": null,
+   "name": "Renee Vonk",
+   "division": null,
+   "sail_published": "X",
+   "points": [
+    13.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 52.0,
+   "net": 39.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

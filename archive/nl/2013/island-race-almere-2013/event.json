@@ -1,0 +1,29 @@
+{
+ "event_slug": "island-race-almere-2013",
+ "scope": "nl",
+ "name": "Island Race Almere 2013",
+ "series": "Island Race Almere",
+ "year": 2013,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2013-05-11",
+ "date_end": null,
+ "location": "Almere",
+ "discipline": null,
+ "classes": [
+  "island-race-almere-2013-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+   "url": "https://windsurfing.rdeleeuw.nl/results",
+   "retrieved": "2026-11-16",
+   "used_for": "datum (11 mei 2013)"
+  }
+ ],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Gepubliceerd als 'Almere Eilandrace 2013'; de datum volgens de bestandsnaam en windsurfing.rdeleeuw.nl (11 mei). Island Race 2010 en Almere Eilandrace 2013 zijn één reeks (keuze van de gebruiker, 16 november 2026)."
+ ],
+ "name_published": "Almere Eilandrace 2013"
+}

@@ -1,0 +1,169 @@
+{
+ "schema_version": 1,
+ "id": "mastergames-2006-dames",
+ "event": {
+  "name": "Mastergames 2006",
+  "scope": "nl",
+  "series": "Mastergames",
+  "year": 2006,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2006-09-24",
+  "location": "Grevelingen",
+  "discipline": null,
+  "gender": null,
+  "class": "Dames",
+  "class_label_published": "DAMES"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "Heat 1",
+   "Heat 2"
+  ],
+  "discards": 0,
+  "races_to_count": 2,
+  "scoring_system": "punten = plaats in de heat (winnaar 0,7); geen resultaat = 8 punten (aantal riders + 1), zoals waargenomen; de bron geeft geen statuscodes",
+  "no_result_points": 8
+ },
+ "source": {
+  "name": "2006_master_games.jpg",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_master_games.jpg",
+  "file": "local-only/nl/2006/mastergames-2006/bronnen/2006_master_games.jpg",
+  "type": "image",
+  "retrieved": "2026-11-16",
+  "method": "met de hand overgetikt van de scan (uitsnedes vergroot gelezen); daarna per rider de punten nagerekend tegen het gepubliceerde totaal",
+  "metadata_sources": [
+   {
+    "name": "kalender 2007 (archief Adri Keet)",
+    "file": "data/backlog/kalenders/kalender 2007.doc",
+    "used_for": "locatie (afgeleid)"
+   }
+  ],
+  "verified": "7 riders; plaats = volgorde in de bron (geen plaatskolom); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van de scan 'Uitslagen MASTERGAMES 2006-09-24' op windsurfing.rdeleeuw.nl (Excel-tabellen per categorie), categorie Dames: voornaam, naam, categorie, lycra, heat 1, heat 2 en result. Namen zoals gepubliceerd.",
+  "Het lycranummer staat in bib. De bron heeft geen plaatskolom: de plaats is de volgorde in de tabel; gelijke scores staan onder elkaar en hebben hier opeenvolgende plaatsen.",
+  "Wie in beide heats 8 punten heeft, heeft geen resultaat en telt niet mee.",
+  "Telt niet mee: 2 ingeschreven rider(s) met in elke race de score voor 'geen resultaat' (de bron geeft geen statuscodes, dus afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "marlies-schepers",
+   "sail": null,
+   "bib": "65",
+   "name": "Marlies Schepers",
+   "division": null,
+   "points": [
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 1.4,
+   "net": 1.4
+  },
+  {
+   "rank": 2,
+   "person": "rolien-caers",
+   "sail": null,
+   "bib": "92",
+   "name": "Rolien Caers",
+   "division": null,
+   "points": [
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 4.0,
+   "net": 4.0
+  },
+  {
+   "rank": 3,
+   "person": "mathilde-terlouw",
+   "sail": null,
+   "bib": "143",
+   "name": "Mathilde Terlouw",
+   "division": null,
+   "points": [
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "marloes-everlo",
+   "sail": null,
+   "bib": "14",
+   "name": "Marloes Everlo",
+   "division": null,
+   "points": [
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 5,
+   "person": "nicky-van-hoof",
+   "sail": null,
+   "bib": "117",
+   "name": "Nicky Van Hoof",
+   "division": null,
+   "points": [
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 10.0,
+   "net": 10.0
+  },
+  {
+   "rank": 6,
+   "person": null,
+   "sail": null,
+   "bib": "58",
+   "name": "Marleen De Kanter",
+   "division": null,
+   "points": [
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 16.0,
+   "net": 16.0,
+   "counted": false
+  },
+  {
+   "rank": 7,
+   "person": null,
+   "sail": null,
+   "bib": "35",
+   "name": "Christine Daffe",
+   "division": null,
+   "points": [
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 16.0,
+   "net": 16.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

@@ -1,0 +1,842 @@
+{
+ "schema_version": 1,
+ "id": "cool-shoe-crossing-2006-overall",
+ "event": {
+  "name": "Cool Shoe Crossing 2006",
+  "scope": "nl",
+  "series": "Cool Shoe Crossing",
+  "year": 2006,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2006-06-10",
+  "location": "Brouwersdam",
+  "discipline": null,
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "Uitslag Cool Shoe Crossing 2006 na 3 funraces"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3"
+  ],
+  "discards": 0,
+  "races_to_count": 3,
+  "scoring_system": "punten = plaats; geen resultaat = 39, 33 en 30 punten in race 1, 2 en 3 (de hoogste score per race), zoals waargenomen; de bron geeft geen statuscodes",
+  "no_result_points": [
+   39,
+   33,
+   30
+  ]
+ },
+ "source": {
+  "name": "2006_cool_shoe_crossing.htm",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_cool_shoe_crossing.htm",
+  "file": "archive/nl/2006/cool-shoe-crossing-2006/bronnen/2006_cool_shoe_crossing.htm",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "html-tabel gelezen met BeautifulSoup",
+  "metadata_sources": [
+   {
+    "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+    "url": "https://windsurfing.rdeleeuw.nl/results",
+    "retrieved": "2026-11-16",
+    "used_for": "datum (10 juni 2006)"
+   },
+   {
+    "name": "kalender 2007 (archief Adri Keet)",
+    "file": "data/backlog/kalenders/kalender 2007.doc",
+    "used_for": "locatie (afgeleid)"
+   }
+  ],
+  "verified": "48 riders; plaats = volgorde in de bron (geen plaatskolom); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Uitslag Cool Shoe Crossing 2006 na 3 funraces': naam, categorie (Heren, Dames, Junioren), drie funraces en totaal. Namen zoals gepubliceerd.",
+  "De bron heeft geen plaatskolom: de plaats is de volgorde in de lijst; gelijke totalen staan onder elkaar en hebben hier opeenvolgende plaatsen.",
+  "De hoogste score per race (39, 33, 30) is vermoedelijk 'geen resultaat'; wie in alle drie die score heeft (8 riders) telt niet mee. 30 punten in race 3 komt ook voor bij riders die in andere races wel een plaats hebben.",
+  "Telt niet mee: 8 ingeschreven rider(s) met in elke race de score voor 'geen resultaat' (de bron geeft geen statuscodes, dus afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adriaan-van-rijsselberge",
+   "sail": null,
+   "name": "Adriaan van Rijsselberge",
+   "division": "Heren",
+   "points": [
+    0.7,
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 2.1,
+   "net": 2.1
+  },
+  {
+   "rank": 2,
+   "person": "patrick-van-mol",
+   "sail": null,
+   "name": "Patrick van Mol",
+   "division": "Heren",
+   "points": [
+    3.0,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 3,
+   "person": "martijn-van-citteren",
+   "sail": null,
+   "name": "Martijn van Citteren",
+   "division": "Junioren",
+   "points": [
+    4.0,
+    5.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 14.0,
+   "net": 14.0
+  },
+  {
+   "rank": 4,
+   "person": "kay-van-berlo",
+   "sail": null,
+   "name": "Kay van Berlo",
+   "division": "Junioren",
+   "points": [
+    5.0,
+    3.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 15.0,
+   "net": 15.0
+  },
+  {
+   "rank": 5,
+   "person": "freddy-dhondt",
+   "sail": null,
+   "name": "Freddy Dhondt",
+   "division": "Heren",
+   "points": [
+    7.0,
+    8.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 17.0,
+   "net": 17.0
+  },
+  {
+   "rank": 6,
+   "person": "koen-onderbeke",
+   "sail": null,
+   "name": "Koen Onderbeke",
+   "division": "Heren",
+   "points": [
+    2.0,
+    13.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 19.0,
+   "net": 19.0
+  },
+  {
+   "rank": 7,
+   "person": "peter-bonne",
+   "sail": null,
+   "name": "Peter Bonne",
+   "division": "Heren",
+   "points": [
+    9.0,
+    9.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 21.0,
+   "net": 21.0
+  },
+  {
+   "rank": 8,
+   "person": "robby-lancel",
+   "sail": null,
+   "name": "Robby Lancel",
+   "division": "Junioren",
+   "points": [
+    8.0,
+    10.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 29.0,
+   "net": 29.0
+  },
+  {
+   "rank": 9,
+   "person": "hans-talboom",
+   "sail": null,
+   "name": "Hans Talboom",
+   "division": "Heren",
+   "points": [
+    6.0,
+    11.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0
+  },
+  {
+   "rank": 10,
+   "person": "long-ngo",
+   "sail": null,
+   "name": "Long Ngo",
+   "division": "Heren",
+   "points": [
+    11.0,
+    12.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 31.0,
+   "net": 31.0
+  },
+  {
+   "rank": 11,
+   "person": "carlijn-vermeulen",
+   "sail": null,
+   "name": "Carlijn Vermeulen",
+   "division": "Dames",
+   "points": [
+    12.0,
+    14.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 36.0,
+   "net": 36.0
+  },
+  {
+   "rank": 12,
+   "person": "rolien-caers",
+   "sail": null,
+   "name": "Rolien Caers",
+   "division": "Dames",
+   "points": [
+    13.0,
+    15.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 42.0,
+   "net": 42.0
+  },
+  {
+   "rank": 13,
+   "person": "wolfgang-draschner",
+   "sail": null,
+   "name": "Wolfgang Draschner",
+   "division": "Heren",
+   "points": [
+    23.0,
+    17.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 49.0,
+   "net": 49.0
+  },
+  {
+   "rank": 14,
+   "person": "frank-heinen",
+   "sail": null,
+   "name": "Frank Heinen",
+   "division": "Heren",
+   "points": [
+    16.0,
+    18.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 51.0,
+   "net": 51.0
+  },
+  {
+   "rank": 15,
+   "person": "evelien-rietdijk",
+   "sail": null,
+   "name": "Evelien Rietdijk",
+   "division": "Dames",
+   "points": [
+    20.0,
+    20.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 52.0,
+   "net": 52.0
+  },
+  {
+   "rank": 16,
+   "person": "arno-quirijns",
+   "sail": null,
+   "name": "Arno Quirijns",
+   "division": "Heren",
+   "points": [
+    21.0,
+    21.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 57.0,
+   "net": 57.0
+  },
+  {
+   "rank": 17,
+   "person": "patrik-depoorter",
+   "sail": null,
+   "name": "Patrik Depoorter",
+   "division": "Heren",
+   "points": [
+    14.0,
+    26.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 58.0,
+   "net": 58.0
+  },
+  {
+   "rank": 18,
+   "person": "andre-lancel",
+   "sail": null,
+   "name": "Andre Lancel",
+   "division": "Heren",
+   "points": [
+    27.0,
+    16.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 59.0,
+   "net": 59.0
+  },
+  {
+   "rank": 19,
+   "person": "frank-teurlings",
+   "sail": null,
+   "name": "Frank Teurlings",
+   "division": "Heren",
+   "points": [
+    22.0,
+    23.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 64.0,
+   "net": 64.0
+  },
+  {
+   "rank": 20,
+   "person": "robert-de-leeuw",
+   "sail": null,
+   "name": "Robert de Leeuw",
+   "division": "Heren",
+   "points": [
+    26.0,
+    19.0,
+    21.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 66.0,
+   "net": 66.0
+  },
+  {
+   "rank": 21,
+   "person": "nick-van-ingen",
+   "sail": null,
+   "name": "Nick van Ingen",
+   "division": "Junioren",
+   "points": [
+    32.0,
+    7.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 69.0,
+   "net": 69.0
+  },
+  {
+   "rank": 22,
+   "person": "cobus-van-der-stel",
+   "sail": null,
+   "name": "Cobus van der Stel",
+   "division": "heren",
+   "points": [
+    19.0,
+    29.0,
+    22.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 70.0,
+   "net": 70.0
+  },
+  {
+   "rank": 23,
+   "person": "markus-bouman",
+   "sail": null,
+   "name": "Markus Bouman",
+   "division": "heren",
+   "points": [
+    39.0,
+    2.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 71.0,
+   "net": 71.0
+  },
+  {
+   "rank": 24,
+   "person": "bart-claesen",
+   "sail": null,
+   "name": "Bart Claesen",
+   "division": "Heren",
+   "points": [
+    18.0,
+    24.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 72.0,
+   "net": 72.0
+  },
+  {
+   "rank": 25,
+   "person": "nick-vreeswijk",
+   "sail": null,
+   "name": "Nick Vreeswijk",
+   "division": "Heren",
+   "points": [
+    10.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 73.0,
+   "net": 73.0
+  },
+  {
+   "rank": 26,
+   "person": "patrick-lievens",
+   "sail": null,
+   "name": "Patrick Lievens",
+   "division": "Heren",
+   "points": [
+    25.0,
+    28.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 73.0,
+   "net": 73.0
+  },
+  {
+   "rank": 27,
+   "person": "peter-heida",
+   "sail": null,
+   "name": "Peter Heida",
+   "division": "heren",
+   "points": [
+    39.0,
+    6.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 75.0,
+   "net": 75.0
+  },
+  {
+   "rank": 28,
+   "person": "anko-van-strien",
+   "sail": null,
+   "name": "Anko van Strien",
+   "division": "Junioren",
+   "points": [
+    33.0,
+    22.0,
+    24.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 79.0,
+   "net": 79.0
+  },
+  {
+   "rank": 29,
+   "person": "luc-caers",
+   "sail": null,
+   "name": "Luc Caers",
+   "division": "Heren",
+   "points": [
+    17.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 80.0,
+   "net": 80.0
+  },
+  {
+   "rank": 30,
+   "person": "stijn-de-pauw",
+   "sail": null,
+   "name": "Stijn de Pauw",
+   "division": "Heren",
+   "points": [
+    24.0,
+    27.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 81.0,
+   "net": 81.0
+  },
+  {
+   "rank": 31,
+   "person": "marie-paule-geldhof",
+   "sail": null,
+   "name": "Marie-Paule Geldhof",
+   "division": "Dames",
+   "points": [
+    28.0,
+    33.0,
+    23.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 84.0,
+   "net": 84.0
+  },
+  {
+   "rank": 32,
+   "person": "hans-van-der-steen",
+   "sail": null,
+   "name": "Hans van der Steen",
+   "division": "Heren",
+   "points": [
+    29.0,
+    25.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 84.0,
+   "net": 84.0
+  },
+  {
+   "rank": 33,
+   "person": "yentel-caers",
+   "sail": null,
+   "name": "Yentel Caers",
+   "division": "Junioren",
+   "points": [
+    30.0,
+    31.0,
+    26.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 87.0,
+   "net": 87.0
+  },
+  {
+   "rank": 34,
+   "person": "herman-maes",
+   "sail": null,
+   "name": "Herman Maes",
+   "division": "Heren",
+   "points": [
+    39.0,
+    30.0,
+    25.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 94.0,
+   "net": 94.0
+  },
+  {
+   "rank": 35,
+   "person": "rick-jendrusch",
+   "sail": null,
+   "name": "Rick Jendrusch",
+   "division": "Junioren",
+   "points": [
+    31.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 94.0,
+   "net": 94.0
+  },
+  {
+   "rank": 36,
+   "person": "benjamin-peeters",
+   "sail": null,
+   "name": "Benjamin Peeters",
+   "division": "Heren",
+   "points": [
+    36.0,
+    32.0,
+    27.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 95.0,
+   "net": 95.0
+  },
+  {
+   "rank": 37,
+   "person": "dirkjan-bakker",
+   "sail": null,
+   "name": "Dirkjan Bakker",
+   "division": "Heren",
+   "points": [
+    34.0,
+    33.0,
+    28.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 95.0,
+   "net": 95.0
+  },
+  {
+   "rank": 38,
+   "person": "pim-van-der-borgt",
+   "sail": null,
+   "name": "Pim van der Borgt",
+   "division": "Junioren",
+   "points": [
+    35.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 98.0,
+   "net": 98.0
+  },
+  {
+   "rank": 39,
+   "person": "martijn-de-regter",
+   "sail": null,
+   "name": "Martijn de Regter",
+   "division": "Heren",
+   "points": [
+    37.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 100.0,
+   "net": 100.0
+  },
+  {
+   "rank": 40,
+   "person": "robin-jannen",
+   "sail": null,
+   "name": "Robin Jannen",
+   "division": "Junioren",
+   "points": [
+    38.0,
+    33.0,
+    29.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 100.0,
+   "net": 100.0
+  },
+  {
+   "rank": 41,
+   "person": null,
+   "sail": null,
+   "name": "Mayke Poels",
+   "division": "Dames",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  },
+  {
+   "rank": 42,
+   "person": null,
+   "sail": null,
+   "name": "Lotte van der Vleuten",
+   "division": "Dames",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  },
+  {
+   "rank": 43,
+   "person": null,
+   "sail": null,
+   "name": "Jurgen van Emden",
+   "division": "Heren",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  },
+  {
+   "rank": 44,
+   "person": null,
+   "sail": null,
+   "name": "Stijn Pontfoort",
+   "division": "Heren",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  },
+  {
+   "rank": 45,
+   "person": null,
+   "sail": null,
+   "name": "Rob Reijnders",
+   "division": "Heren",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  },
+  {
+   "rank": 46,
+   "person": null,
+   "sail": null,
+   "name": "Pim Kruijt",
+   "division": "Heren",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  },
+  {
+   "rank": 47,
+   "person": null,
+   "sail": null,
+   "name": "Jan-Krijn van Dijke",
+   "division": "Heren",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  },
+  {
+   "rank": 48,
+   "person": null,
+   "sail": null,
+   "name": "Maurits Drenth",
+   "division": "Heren",
+   "points": [
+    39.0,
+    33.0,
+    30.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 102.0,
+   "net": 102.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

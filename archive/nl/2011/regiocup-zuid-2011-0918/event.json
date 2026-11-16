@@ -1,0 +1,23 @@
+{
+ "event_slug": "regiocup-zuid-2011-0918",
+ "scope": "nl",
+ "name": "Regiocup Zuid formula, 18 september 2011",
+ "series": "Regiocup Zuid",
+ "year": 2011,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2011-09-18",
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "regiocup-zuid-2011-0918-formula-gold",
+  "regiocup-zuid-2011-0918-formula-zilver"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Volgens de paginatitel 'Dagklassement formula 18-9-2011' (kop: 'Regiocupzuid 2011, Dag klassement 18-09-2011'). Deze 6 races zitten niet in het eindklassement slalom van 2011."
+ ],
+ "organizer": "Windsurfverenigingen WSB & ZW7"
+}

@@ -1,0 +1,528 @@
+{
+ "schema_version": 1,
+ "id": "nk-course-2012-0630-techno-293",
+ "event": {
+  "name": "NK Course 2012, Grevelingen 30 juni-1 juli",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2012,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2012-06-30",
+  "location": "Grevelingen",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Techno 293 OD",
+  "class_label_published": "Techno 293 OD Class",
+  "equipment": "Techno 293 OD"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8"
+  ],
+  "discards": 2,
+  "races_to_count": 6,
+  "scoring_system": "Appendix A (Sailwave); bij een code staan in de bron geen punten",
+  "code_points": 18
+ },
+ "source": {
+  "name": "2012-06-30_NK_Grevelingendam.html",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-06-30_NK_Grevelingendam.html",
+  "file": "archive/nl/2012/nk-course-2012-0630/bronnen/2012-06-30_NK_Grevelingendam.html",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "tekst van de tabelregels gelezen met BeautifulSoup (één cel per regel); racecellen van rechts gelezen",
+  "metadata_sources": [
+   {
+    "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+    "url": "https://windsurfing.rdeleeuw.nl/results",
+    "retrieved": "2026-11-16",
+    "used_for": "datum (30 juni-1 juli 2012)"
+   }
+  ],
+  "verified": "17 riders (bron: Entries 17); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend (codes: elke code = 18 (inschrijvingen + 1)): gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'NK Tour 2012 - Resultaten NK Formula windsurfing 2012: Weekend Grevelingen', Techno 293 OD Class ('Sailed: 8, Discards: 2, To count: 6, Entries: 17, Scoring system: Appendix A').",
+  "De kolommen Division, Subdivison en Gender staan in division, subdivision en gender ('girl'). Weglatingen staan in de bron tussen haakjes of met een minteken ('-11').",
+  "Bij een code staan geen punten; de bron rekent 18 (inschrijvingen + 1)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "sara-wennekes",
+   "sail": "NED 203",
+   "name": "Sara Wennekes",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    4.0,
+    2.0,
+    3.0,
+    2.0,
+    3.0,
+    4.0,
+    3.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    6
+   ],
+   "total": 23.0,
+   "net": 15.0,
+   "gender": "female"
+  },
+  {
+   "rank": 2,
+   "person": "sam-wennekes",
+   "sail": "NED 823",
+   "name": "Sam Wennekes",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    2.0,
+    5.0,
+    5.0,
+    10.0,
+    1.0,
+    2.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 31.0,
+   "net": 16.0
+  },
+  {
+   "rank": 3,
+   "person": "huub-van-der-hoorn",
+   "sail": "NED 149",
+   "name": "Huub van der Hoorn",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    5.0,
+    1.0,
+    2.0,
+    3.0,
+    6.0,
+    6.0,
+    1.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    8
+   ],
+   "total": 32.0,
+   "net": 18.0
+  },
+  {
+   "rank": 4,
+   "person": "max-van-der-storm",
+   "sail": "NED 116",
+   "name": "Max van der Storm",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    1.0,
+    4.0,
+    8.0,
+    5.0,
+    5.0,
+    3.0,
+    9.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    3,
+    7
+   ],
+   "total": 36.0,
+   "net": 19.0
+  },
+  {
+   "rank": 5,
+   "person": "jolijn-ten-bos",
+   "sail": "NED 841",
+   "name": "Jolijn ten Bos",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    6.0,
+    8.0,
+    6.0,
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    8
+   ],
+   "total": 47.0,
+   "net": 30.0,
+   "gender": "female"
+  },
+  {
+   "rank": 6,
+   "person": "ramon-stolk",
+   "sail": "NED 250",
+   "name": "Ramon Stolk",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    3.0,
+    3.0,
+    11.0,
+    12.0,
+    2.0,
+    1.0,
+    13.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 59.0,
+   "net": 32.0
+  },
+  {
+   "rank": 7,
+   "person": "lars-van-someren",
+   "sail": "NED 800",
+   "name": "Lars van Someren",
+   "nationality": "NED",
+   "division": "Junior U 15",
+   "subdivision": null,
+   "points": [
+    7.0,
+    10.0,
+    9.0,
+    8.0,
+    7.0,
+    8.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    2,
+    3
+   ],
+   "total": 56.0,
+   "net": 37.0
+  },
+  {
+   "rank": 8,
+   "person": "isis-hoekstra",
+   "sail": "NED 260",
+   "name": "Isis Hoekstra",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    9.0,
+    6.0,
+    null,
+    null,
+    8.0,
+    7.0,
+    6.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 79.0,
+   "net": 43.0,
+   "gender": "female"
+  },
+  {
+   "rank": 9,
+   "person": "ian-versluis",
+   "sail": "NED 402",
+   "name": "Ian Versluis",
+   "nationality": "NED",
+   "division": "Junior U 15",
+   "subdivision": null,
+   "points": [
+    8.0,
+    9.0,
+    1.0,
+    9.0,
+    10.0,
+    10.0,
+    7.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 64.0,
+   "net": 44.0
+  },
+  {
+   "rank": 10,
+   "person": "sil-hoekstra",
+   "sail": "NED 460",
+   "name": "Sil Hoekstra",
+   "nationality": "NED",
+   "division": "Junior U 15",
+   "subdivision": null,
+   "points": [
+    10.0,
+    12.0,
+    7.0,
+    7.0,
+    9.0,
+    9.0,
+    10.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 69.0,
+   "net": 47.0
+  },
+  {
+   "rank": 11,
+   "person": "dion-van-laarhoven",
+   "sail": "NED 137",
+   "name": "Dion van Laarhoven",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    12.0,
+    7.0,
+    4.0,
+    1.0,
+    13.0,
+    11.0,
+    null,
+    12.0
+   ],
+   "race_remarks": {
+    "R7": "DNF"
+   },
+   "discarded": [
+    5,
+    7
+   ],
+   "total": 78.0,
+   "net": 47.0
+  },
+  {
+   "rank": 12,
+   "person": "aimee-vant-hoff",
+   "sail": "NED 218",
+   "name": "Aimee van 't Hoff",
+   "nationality": "NED",
+   "division": "Junior U 15",
+   "subdivision": null,
+   "points": [
+    11.0,
+    11.0,
+    10.0,
+    11.0,
+    15.0,
+    14.0,
+    8.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5,
+    6
+   ],
+   "total": 91.0,
+   "net": 62.0,
+   "gender": "female"
+  },
+  {
+   "rank": 13,
+   "person": "anne-lotte-tak",
+   "sail": "NED 464",
+   "name": "Anne-Lotte Tak",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    13.0,
+    14.0,
+    12.0,
+    null,
+    11.0,
+    12.0,
+    11.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R4": "DNF"
+   },
+   "discarded": [
+    2,
+    4
+   ],
+   "total": 97.0,
+   "net": 65.0,
+   "gender": "female"
+  },
+  {
+   "rank": 14,
+   "person": "daniel-van-der-storm",
+   "sail": "NED 181",
+   "name": "Daniël van der Storm",
+   "nationality": "NED",
+   "division": "Junior U 15",
+   "subdivision": null,
+   "points": [
+    14.0,
+    13.0,
+    14.0,
+    6.0,
+    12.0,
+    13.0,
+    14.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    3
+   ],
+   "total": 99.0,
+   "net": 71.0
+  },
+  {
+   "rank": 15,
+   "person": "jim-van-someren",
+   "sail": "NED 600",
+   "name": "Jim van Someren",
+   "nationality": "NED",
+   "division": "Junior U 13",
+   "subdivision": null,
+   "points": [
+    16.0,
+    17.0,
+    13.0,
+    13.0,
+    14.0,
+    15.0,
+    12.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 116.0,
+   "net": 83.0
+  },
+  {
+   "rank": 16,
+   "person": "luuc-van-opzeeland",
+   "sail": "NED 1999",
+   "name": "Luuc van Opzeeland",
+   "nationality": "NED",
+   "division": "Junior U 15",
+   "subdivision": null,
+   "points": [
+    15.0,
+    16.0,
+    null,
+    null,
+    null,
+    null,
+    15.0,
+    15.0
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "discarded": [
+    3,
+    4
+   ],
+   "total": 133.0,
+   "net": 97.0
+  },
+  {
+   "rank": 17,
+   "person": "floor-hardholt",
+   "sail": "NED 407",
+   "name": "Floor Hardholt",
+   "nationality": "NED",
+   "division": "Youth U 17",
+   "subdivision": null,
+   "points": [
+    17.0,
+    15.0,
+    null,
+    14.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R5": "DNF",
+    "R6": "DNF",
+    "R7": "DNF",
+    "R8": "DNC"
+   },
+   "discarded": [
+    3,
+    5
+   ],
+   "total": 136.0,
+   "net": 100.0,
+   "gender": "female"
+  }
+ ],
+ "detail": {}
+}

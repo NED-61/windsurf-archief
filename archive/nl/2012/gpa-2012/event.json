@@ -1,0 +1,19 @@
+{
+ "event_slug": "gpa-2012",
+ "scope": "nl",
+ "name": "Grote Prijs van Aalsmeer 2012",
+ "series": "Grote Prijs van Aalsmeer",
+ "year": 2012,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2012-10-07",
+ "date_end": null,
+ "location": "Westeinderplassen, Aalsmeer",
+ "discipline": "long_distance",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Geen uitslag in het archief: de bron geeft alleen Raceboard Heren (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten). De bron is geregistreerd."
+ ]
+}

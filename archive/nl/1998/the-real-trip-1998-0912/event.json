@@ -1,0 +1,28 @@
+{
+ "event_slug": "the-real-trip-1998-0912",
+ "scope": "nl",
+ "name": "The Real Trip, 12-13 september 1998",
+ "series": "The Real Trip",
+ "year": 1998,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "1998-09-12",
+ "date_end": "1998-09-13",
+ "location": "Makkum",
+ "discipline": null,
+ "classes": [
+  "the-real-trip-1998-0912-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+   "url": "https://windsurfing.rdeleeuw.nl/results",
+   "retrieved": "2026-11-16",
+   "used_for": "jaar (1998)"
+  }
+ ],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Datum en plaats volgens de kop van het blad ('12 & 13 september - Makkum'); het jaar volgens windsurfing.rdeleeuw.nl ('The Real Trip Makkum 12/13 September 1998')."
+ ]
+}

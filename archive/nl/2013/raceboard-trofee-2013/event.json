@@ -1,0 +1,22 @@
+{
+ "event_slug": "raceboard-trofee-2013",
+ "scope": "nl",
+ "name": "Raceboard Trofee 2013",
+ "series": "Raceboard Trofee",
+ "year": 2013,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": null,
+ "location": null,
+ "discipline": "course_race",
+ "classes": [
+  "raceboard-trofee-2013-course-raceboard"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Gepubliceerd als 'Raceboard Trofee 2013 - Einduitslag Formula Raceboard' (Nederlandse Vereniging van Wedstrijdsurfers). Robert de Leeuw noemt het 'NK Eindstand'; de bron zelf noemt het een trofee, daarom een eigen reeks. Datums en plaatsen van de wedstrijden staan niet in de bron."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers"
+}

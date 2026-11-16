@@ -1,0 +1,23 @@
+{
+ "event_slug": "regiocup-zuid-2010",
+ "scope": "nl",
+ "name": "Regiocup Zuid 2010 (eindklassement)",
+ "series": "Regiocup Zuid",
+ "year": 2010,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2010-06-20",
+ "date_end": "2010-10-24",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-zuid-2010-slalom-gold",
+  "regiocup-zuid-2010-slalom-zilver"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Eindklassement van het seizoen: 15 races = 20 juni 2010 (10 races), 10 oktober 2010 (2) en 24 oktober 2010 (3). De drie dagklassementen zitten in deze eindstand en zijn alleen geregistreerd (niet apart omgezet)."
+ ],
+ "organizer": "Windsurfverenigingen WSB & ZW7"
+}

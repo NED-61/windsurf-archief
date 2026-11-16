@@ -1,0 +1,157 @@
+{
+ "schema_version": 1,
+ "id": "nk-course-2012-0630-raceboard",
+ "event": {
+  "name": "NK Course 2012, Grevelingen 30 juni-1 juli",
+  "scope": "nl",
+  "series": "NK Course",
+  "year": 2012,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2012-06-30",
+  "location": "Grevelingen",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Raceboard",
+  "class_label_published": "Raceboard Class",
+  "equipment": "Raceboard"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8"
+  ],
+  "discards": 2,
+  "races_to_count": 6,
+  "scoring_system": "Appendix A (Sailwave); bij een code staan in de bron geen punten",
+  "code_points": 4
+ },
+ "source": {
+  "name": "2012-06-30_NK_Grevelingendam.html",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-06-30_NK_Grevelingendam.html",
+  "file": "archive/nl/2012/nk-course-2012-0630/bronnen/2012-06-30_NK_Grevelingendam.html",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "tekst van de tabelregels gelezen met BeautifulSoup (één cel per regel); racecellen van rechts gelezen",
+  "metadata_sources": [
+   {
+    "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+    "url": "https://windsurfing.rdeleeuw.nl/results",
+    "retrieved": "2026-11-16",
+    "used_for": "datum (30 juni-1 juli 2012)"
+   }
+  ],
+  "verified": "3 riders (bron: Entries 3); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend (codes: elke code = 4 (inschrijvingen + 1)): gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'NK Tour 2012 - Resultaten NK Formula windsurfing 2012: Weekend Grevelingen', Raceboard Class ('Sailed: 8, Discards: 2, To count: 6, Entries: 3, Scoring system: Appendix A').",
+  "De kolommen Division, Subdivison en Gender staan in division, subdivision en gender ('girl'). Weglatingen staan in de bron tussen haakjes of met een minteken ('-11').",
+  "Bij een code staan geen punten; de bron rekent 4 (inschrijvingen + 1).",
+  "Telt niet mee: 1 ingeschreven rider(s) met alleen DNC, DNF of DNS in alle races hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "robert-de-leeuw",
+   "sail": "NED 118",
+   "name": "Robert de Leeuw",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    7,
+    8
+   ],
+   "total": 10.0,
+   "net": 6.0
+  },
+  {
+   "rank": 2,
+   "person": "saskia-van-smoorenburg",
+   "sail": "NED 733",
+   "name": "Saskia van Smoorenburg",
+   "nationality": "NED",
+   "division": "Women",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    2.0,
+    null,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R6": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 24.0,
+   "net": 16.0
+  },
+  {
+   "rank": 3,
+   "person": null,
+   "sail": "NED 888",
+   "name": "Ton van Lingen",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": "Master",
+   "points": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNF",
+    "R6": "DNF",
+    "R7": "DNF",
+    "R8": "DNF"
+   },
+   "discarded": [
+    1,
+    2
+   ],
+   "total": 32.0,
+   "net": 24.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

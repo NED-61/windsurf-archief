@@ -1,0 +1,19 @@
+{
+ "event_slug": "wk-raceboard-masters-2012",
+ "scope": "internationaal",
+ "name": "WK Raceboard Masters 2012 (Windsurf Worlds)",
+ "series": "WK Raceboard Masters",
+ "year": 2012,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2012-08-13",
+ "date_end": "2012-08-19",
+ "location": null,
+ "discipline": "course_race",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Windsurf Worlds 2012, Raceboard Masters: internationaal, bron bewaard en nog niet omgezet."
+ ]
+}

@@ -13,6 +13,10 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
 | NK Funboard 1998 | Overall | fleet_racing | 46 | Adri Keet | complete | gecontroleerd | archive/nl/1998/nk-funboard-1998/uitslagen/nk-1998-funboard-overall.json |
+| The Real Trip, 12-13 september 1998 | Overall | fleet_racing | 164 | Bert den Boer | complete | gecontroleerd | archive/nl/1998/the-real-trip-1998-0912/uitslagen/the-real-trip-1998-0912-overall.json |
+| The Real Trip, 9-10 mei 1998 | Overall | fleet_racing | 92 | Bert den Boer | complete | gecontroleerd | archive/nl/1998/the-real-trip-1998-0509/uitslagen/the-real-trip-1998-0509-overall.json |
+| University of Speed, 12 juli 1998 | Speed | speed | 22 | A. Hoogendam | complete | gecontroleerd | archive/nl/1998/university-of-speed-1998-0712/uitslagen/university-of-speed-1998-0712-speed.json |
+| University of Speed, 27 juni 1998 | Speed | speed | 26 | Ruud Groeneveld | complete | gecontroleerd | archive/nl/1998/university-of-speed-1998-0627/uitslagen/university-of-speed-1998-0627-speed.json |
 
 ## nl / 1999
 
@@ -22,6 +26,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | NK Race 1999 | Race dames | fleet_racing | 8 | Erna Driessen | complete | gecontroleerd | archive/nl/1999/nk-course-1999/uitslagen/nk-1999-course-race-dames.json |
 | NK Race 1999 | Race heren | fleet_racing | 57 | Ramses Landman | complete | gecontroleerd | archive/nl/1999/nk-course-1999/uitslagen/nk-1999-course-race-heren.json |
 | NK Race 1999 | Race jeugd | fleet_racing | 11 | Reinder de Vries | complete | gecontroleerd | archive/nl/1999/nk-course-1999/uitslagen/nk-1999-course-race-jeugd.json |
+| The Real Trip, 29-30 mei 1999 | Overall | fleet_racing | 78 | Christiaan Sandee | complete | gecontroleerd | archive/nl/1999/the-real-trip-1999-0529/uitslagen/the-real-trip-1999-0529-overall.json |
 
 ## nl / 2000
 
@@ -52,13 +57,21 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| Cool Shoe Crossing 2005 | Overall | fleet_racing | 52 | Pat van Hoof | complete | gecontroleerd | archive/nl/2005/cool-shoe-crossing-2005/uitslagen/cool-shoe-crossing-2005-overall.json |
 | NK Course 2005 | Formula, gold fleet | fleet_racing | 66 | Dennis Littel | partial | gecontroleerd | archive/nl/2005/nk-course-2005/uitslagen/nk-2005-course-formula-gold.json |
 
 ## nl / 2006
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| Cool Shoe Crossing 2006 | Overall | fleet_racing | 48 | Adriaan van Rijsselberge | complete | gecontroleerd | archive/nl/2006/cool-shoe-crossing-2006/uitslagen/cool-shoe-crossing-2006-overall.json |
+| F2 Speedchallenge 2006 | Speed | speed | 11 | Dennis Littel | complete | gecontroleerd | archive/nl/2006/f2-speedchallenge-2006/uitslagen/f2-speedchallenge-2006-speed.json |
 | Lowlandcup 2006 | Formula, gold fleet | fleet_racing | 36 | Dennis Littel | complete | gecontroleerd | archive/nl/2006/lowlandcup-2006/uitslagen/lowlandcup-2006-course-formula-gold.json |
+| Mastergames 2006 | Dames | fleet_racing | 7 | Marlies Schepers | complete | gecontroleerd | archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-dames.json |
+| Mastergames 2006 | Kids | fleet_racing | 14 | Kjell De Bruyn | complete | gecontroleerd | archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-kids.json |
+| Mastergames 2006 | Masters | fleet_racing | 23 | Peter Bonne | complete | gecontroleerd | archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-masters.json |
+| Mastergames 2006 | Seniors | fleet_racing | 28 | Jan-Willem Baan | complete | gecontroleerd | archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-seniors.json |
+| Mastergames 2006 | Wedstrijdsurfers | fleet_racing | 14 | Peter Claes | complete | gecontroleerd | archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-wedstrijdsurfers.json |
 | NK Course 2006 | Formula | fleet_racing | 46 | Dennis Littel | partial | gecontroleerd | archive/nl/2006/nk-course-2006/uitslagen/nk-2006-course-formula.json |
 
 ## nl / 2007
@@ -73,6 +86,7 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
 | NK Course 2008 | Overall | fleet_racing | 32 | Dennis Littel | partial | gecontroleerd | archive/nl/2008/nk-course-2008/uitslagen/nk-2008-course-overall.json |
+| XstreamGames IV 2008 | Overall | fleet_racing | 27 | Christophe Waerzeggers | complete | gecontroleerd | archive/nl/2008/xstream-games-2008/uitslagen/xstream-games-2008-slalom-overall.json |
 
 ## nl / 2009
 
@@ -86,24 +100,46 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | NK Course 2009, stop 1 (Grevelingendam) | Formula | fleet_racing | 53 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-course-2009-stop1/uitslagen/nk-2009-stop1-course-formula.json |
 | NK Course 2009, stop 2 (Scheveningen) | Formula, gold fleet | fleet_racing | 34 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-course-2009-stop2/uitslagen/nk-2009-stop2-course-formula-gold.json |
 | NK Slalom 2009 | Overall | elimination | 56 | Dennis Littel | complete | gecontroleerd | archive/nl/2009/nk-slalom-2009/uitslagen/nk-2009-slalom-overall.json |
+| Regiocup Zuid 2009 (eindklassement) | Gold fleet | fleet_racing | 19 | Dennis Klaaysen | complete | gecontroleerd | archive/nl/2009/regiocup-zuid-2009/uitslagen/regiocup-zuid-2009-slalom-gold.json |
+| Regiocup Zuid 2009 (eindklassement) | Silver fleet | fleet_racing | 24 | Marco van Boven | complete | gecontroleerd | archive/nl/2009/regiocup-zuid-2009/uitslagen/regiocup-zuid-2009-slalom-zilver.json |
 | Slalom XL Almere, 3 oktober 2009 | Overall | fleet_racing | 35 | Peter Heida | complete | gecontroleerd | archive/nl/2009/slalom-xl-2009-1003/uitslagen/slalom-xl-2009-1003-slalom-overall.json |
 
 ## nl / 2010
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| Island Race Almere 2010 | Overall | fleet_racing | 24 | Adri Keet | complete | gecontroleerd | archive/nl/2010/island-race-almere-2010/uitslagen/island-race-almere-2010-overall.json |
+| Regiocup Zuid 2010 (eindklassement) | Gold fleet | fleet_racing | 29 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2010/regiocup-zuid-2010/uitslagen/regiocup-zuid-2010-slalom-gold.json |
+| Regiocup Zuid 2010 (eindklassement) | Silver fleet | fleet_racing | 24 | Patrick de Mol | complete | gecontroleerd | archive/nl/2010/regiocup-zuid-2010/uitslagen/regiocup-zuid-2010-slalom-zilver.json |
 | Slalom XL Almere, 23 oktober 2010 | Overall | fleet_racing | 34 | Adriaan van Rijsselberghe | complete | gecontroleerd | archive/nl/2010/slalom-xl-2010-1023/uitslagen/slalom-xl-2010-1023-slalom-overall.json |
+
+## nl / 2011
+
+| Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
+|---|---|---|---|---|---|---|---|
+| Regiocup Zuid 2011 (eindklassement) | Gold fleet | fleet_racing | 34 | Nikaj Droop | complete | gecontroleerd | archive/nl/2011/regiocup-zuid-2011/uitslagen/regiocup-zuid-2011-slalom-gold.json |
+| Regiocup Zuid 2011 (eindklassement) | Silver fleet | fleet_racing | 25 | Andrea Vanhoorne | complete | gecontroleerd | archive/nl/2011/regiocup-zuid-2011/uitslagen/regiocup-zuid-2011-slalom-zilver.json |
+| Regiocup Zuid formula, 18 september 2011 | Gold fleet | fleet_racing | 9 | Jordy Vonk | complete | gecontroleerd | archive/nl/2011/regiocup-zuid-2011-0918/uitslagen/regiocup-zuid-2011-0918-formula-gold.json |
+| Regiocup Zuid formula, 18 september 2011 | Silver fleet | fleet_racing | 7 | Ko de Visser | complete | gecontroleerd | archive/nl/2011/regiocup-zuid-2011-0918/uitslagen/regiocup-zuid-2011-0918-formula-zilver.json |
 
 ## nl / 2012
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| NK Course 2012, Grevelingen 30 juni-1 juli | Formula | fleet_racing | 26 | Dennis Littel | complete | gecontroleerd | archive/nl/2012/nk-course-2012-0630/uitslagen/nk-course-2012-0630-formula.json |
+| NK Course 2012, Grevelingen 30 juni-1 juli | Raceboard | fleet_racing | 3 | Robert de Leeuw | complete | gecontroleerd | archive/nl/2012/nk-course-2012-0630/uitslagen/nk-course-2012-0630-raceboard.json |
+| NK Course 2012, Grevelingen 30 juni-1 juli | Techno 293 OD | fleet_racing | 17 | Sara Wennekes | complete | gecontroleerd | archive/nl/2012/nk-course-2012-0630/uitslagen/nk-course-2012-0630-techno-293.json |
+| NK Slalom 2012 | Overall | fleet_racing | 57 | Adriaan van Rijsselberghe | complete | gecontroleerd | archive/nl/2012/nk-slalom-2012/uitslagen/nk-2012-slalom-overall.json |
 | North Sea Cup 2012 | Formula | fleet_racing | 23 | Dennis Littel | complete | gecontroleerd | archive/nl/2012/north-sea-cup-2012/uitslagen/north-sea-cup-2012-course-formula.json |
+| Schotsmancup 2012 | Gold fleet | fleet_racing | 6 | Dennis Klaaysen | complete | gecontroleerd | archive/nl/2012/schotsmancup-2012/uitslagen/schotsmancup-2012-slalom-gold.json |
+| Schotsmancup 2012 | Silver fleet | fleet_racing | 8 | Koen Onderbeke | complete | gecontroleerd | archive/nl/2012/schotsmancup-2012/uitslagen/schotsmancup-2012-slalom-zilver.json |
 
 ## nl / 2013
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| Island Race Almere 2013 | Overall | fleet_racing | 12 | Nick van der Hoorn | complete | gecontroleerd | archive/nl/2013/island-race-almere-2013/uitslagen/island-race-almere-2013-overall.json |
+| Raceboard Trofee 2013 | Raceboard | fleet_racing | 13 | Max van der Storm | complete | gecontroleerd | archive/nl/2013/raceboard-trofee-2013/uitslagen/raceboard-trofee-2013-course-raceboard.json |
 | Regiocup Noord, 25-26 mei 2013 | Gold fleet | fleet_racing | 22 | Adriaan van Rijsselberghe | partial | gecontroleerd | archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-gold.json |
 | Regiocup Noord, 25-26 mei 2013 | Gold fleet, dagresultaat 25 mei | fleet_racing | 14 | Adriaan van Rijsselberghe | partial | gecontroleerd | archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-gold-dag1.json |
 | Regiocup Noord, 25-26 mei 2013 | Zilver fleet | fleet_racing | 13 | Andrea Vanhoorne | complete | gecontroleerd | archive/nl/2013/regiocup-noord-2013-0525/uitslagen/regiocup-noord-2013-0525-slalom-zilver.json |
@@ -120,7 +156,9 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 
 | Evenement | Klasse | Format | Riders | Winnaar | Dekking | Controle | Bestand |
 |---|---|---|---|---|---|---|---|
+| NK Slalom 2014 | Overall | fleet_racing | 29 | Adriaan van Rijsselberghe | complete | gecontroleerd | archive/nl/2014/nk-slalom-2014/uitslagen/nk-2014-slalom-overall.json |
 | North Sea Cup 2014 | Formula | fleet_racing | 14 | Ingmar Daldorf | complete | gecontroleerd | archive/nl/2014/north-sea-cup-2014/uitslagen/north-sea-cup-2014-course-formula.json |
+| North Sea Cup 2014 | Raceboard, RS-X | fleet_racing | 8 | Karl Lamens | complete | gecontroleerd | archive/nl/2014/north-sea-cup-2014/uitslagen/north-sea-cup-2014-course-raceboard-rsx.json |
 
 ## nl / 2015
 
@@ -668,6 +706,44 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: inbox/los/windtulip-damx-2022-bundle.json.gz (bundel (base64) van de tien Windtulip-page-data.json van DAM-X 2022, zoals uit de browser gedownload; de tien bestanden staan los in bronnen/ (sha256 gelijk). Dubbel, daarom niet in git)
 - **overgeslagen**: inbox/los/Overall - ONK Fin Slalom 2026 _ Result total.html (door de gebruiker opgeslagen totaalpagina van scoring.winterwave.nl (tweede bron van dezelfde uitslag); vergeleken met de vastlegging, zie de uitslag)
 - **overgeslagen**: inbox/los/Overall - ONK Foil Slalom 2026 _ Result total.html (door de gebruiker opgeslagen totaalpagina van scoring.winterwave.nl (tweede bron van dezelfde uitslag); vergeleken met de vastlegging, zie de uitslag)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2023_damx_masters_result.jpg (DUBBEL (al in het archief): schermafdruk van één heat ('Heat 1 Unstarted', RDG-scores) van DAM-X 2022 masters groep A; op windsurfing.rdeleeuw.nl onder 2022 maar als 'Dam-X 2023'. Zelfde namen en scores als dam-x-2022-slalom-masters-groep-a; geen eigen uitslag. Robert de Leeuw noemt als datum 8 oktober)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2019_05_nk_slalom.html (DUBBEL (al in het archief): opgeslagen pagina van het Windtulip-dashboard 78 (Results NK Slalom 2019 Stavoren), hetzelfde dashboard als nk-2019-stop1-slalom-heren (34 riders, Robert de Leeuw 29e))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/20170910_regiocup_zuid.jpg (DUBBEL (al in het archief): foto van het uitslagenblad 10 september 2017 (31 riders), dezelfde tabel als regiocup-zuid-2017-0910-slalom-overall)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2017-06-03_04-nk-slalom_lelystad.pdf (TUSSENSTAND van stop 1, Lelystad 3-4 juni 2017 ('NK SLALOM - PROVESIONAL RESULTS JUNE 4TH 2017', 43 regels, 4 eliminaties). Zit in de eindstand nk-2017-slalom-heren: eliminaties 1-4 gelijk (vergeleken op 16 november 2026), alleen 'geen resultaat' is 42 bij stop 1 en 45 in de eindstand. Datum en plaats van stop 1 volgens deze bron en windsurfing.rdeleeuw.nl)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2013_09_2829_Regiocup_zuid.jpg (DUBBEL (al in het archief): foto van de eindstand slalom goud 28-29 september 2013 (onderkant afgesneden), dezelfde tabel als regiocup-zuid-2013-0928-slalom-gold)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2013_06_0809_Regiocup_zuid.jpg (DUBBEL (al in het archief): foto van de eindstand slalom goud 8-9 juni 2013 (27 riders), dezelfde tabel als regiocup-zuid-2013-0608-slalom-gold)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012_NK_Raceboard.pdf (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): NK Tour 2012 'Eindresultaten 2012': Raceboard (4) en Techno 293 OD (22); de Formula-eindstand staat er niet in)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012-05-06_NK_Brouwersdam_Course_Race.pdf (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): NK Tour 2012, resultaten 5 en 6 mei: Raceboard (3) en Techno 293 OD (18 regels bij 'Entries: 19'); Formula staat er niet in)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012_Regiocup_Zuid_Slalom.pdf (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'regiocup eindstand overall Slalom Gold', 28 races, 20 riders; zilver en Formula ontbreken. Herberekend zonder o.a. Ingmar en Sven Daldorf, dus de punten per race wijken af van de dagbladen)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012_10_28_Regiocup_Zuid_Slalom.pdf (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): dag 28 oktober 2012, slalom goud (19 riders); zilver ontbreekt)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012-06-17_RegioCupZuid.pdf (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): dag 17 juni 2012, slalom goud (11 riders plus 2 zilver); de zilvervloot is niet volledig)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/GPA2012.pdf (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): Grote Prijs Aalsmeer 7-10-2012, alleen 'Raceboard Heren' (23 regels, kloktijden na ronde 1 en 2))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012-08-25_26_TheMissionXL.html (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'Uitslag van de categorie Pro-fleet' (23 riders, kolomkoppen ontbreken))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012-05-05_NK_Brouwersdam_Slalom.pdf (TUSSENSTAND 'Slalom t/m 5 mei 2012' (3 races, 53 inschrijvingen); de drie races zijn R1-R3 van het eindresultaat; tussenstand 't/m 5 mei' (53 inschrijvingen) vergeleken met R1-R3 van het eindresultaat: 49 riders gelijk, 4 met andere punten (de scores achterin hangen af van het aantal inschrijvingen))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2012_04_15_nk_slalom_lelystad.jpg (scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/; 'IFCA (slalom) Class', Lelystad 15-16 april 2012, 2 races, 37 inschrijvingen: R1-R2 van het eindresultaat, maar een vroegere versie (achterin de vloot later andere punten, bijvoorbeeld Robert de Leeuw R1 31 werd 22))
+- **wacht**: https://windsurfing.rdeleeuw.nl/uitslagen/2012_08_13-18_WK_Raceboard_Masters.pdf (internationaal (Windsurf Worlds 2012, Raceboard Masters, 69 inschrijvingen, Sailwave): bron bewaard, nog niet omgezet)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2011-10-09_regiocup_zuid.html (dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (9 oktober 2011, 10 races))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2011-08-29_regiocup_zuid.html (dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (28 augustus 2011, 6 races))
+- **wacht**: https://windsurfing.rdeleeuw.nl/uitslagen/2011_04_30_05_01_bk_slalom_grevelingendam.html (internationaal (BK Slalom 2011, ZSC Broechem, Grevelingendam, 51 inschrijvingen, Sailwave, 'Results are final'): bron bewaard, nog niet omgezet)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2010_10_10_regiocup_zuid.html (dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (10 oktober 2010, 2 races))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2010_10_24_regiocup_zuid.html (dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (24 oktober 2010, 3 races))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2010_10_10_slalom_xl.html (DUBBEL (al in het archief): html-export van hetzelfde werkblad als slalom-xl-2010-1023-slalom-overall (bestandsnaam zegt 10-10, de wedstrijd was 23 oktober): zelfde punten, vergeleken op 16 november 2026)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2010_06_20_regiocup_zuid_zw7.html (dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (20 juni 2010, 10 races))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2010_the_mission_men.pdf (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'Einduitslag: Men' (69 riders, 6 races); de andere vloten ontbreken)
+- **wacht**: https://windsurfing.rdeleeuw.nl/uitslagen/2010_08_29_bk_slalom_de_punt.html (internationaal (BK Race, RSX, Techno, Kona - De Punt 28/8-29/8/2010 SLALOM, 27 inschrijvingen, Sailwave, 'Results are final'): bron bewaard, nog niet omgezet)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2009_05_17_regiocup_zuid_zw7.html (dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (17 mei 2009, 6 races))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2009_10_25_regiocup_zuid_zw7.html (dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (25 oktober 2009, 9 races))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2009_the_mission.html (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): alleen de mannen (65 riders, voorrondes en finale))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2008_the_mission.html (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'RESULTS MEN' (84 riders, 4 races en finale))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2007_the_mission.htm (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'RESULTS MEN (after 4 races & final)' (59 riders))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2006_the_mission.htm (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): alleen Fleet 'Men' (130 riders, voorrondes en finale))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/2005_the_mission.htm (NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'UITSLAG MEN 20 AUGUSTUS 2005' (76 regels))
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/1999_05_29_30%20The%20Real%20Trip%20Kabbelaarsbank.html (pagina van windsurfing.rdeleeuw.nl met alleen de scans van het uitslagenblad en één zin tekst; bewaard bij de scans in local-only/)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/1998_05_09_10%20The%20Real%20Trip%20Kabbelaarsbank.html (pagina van windsurfing.rdeleeuw.nl met alleen de scans van het uitslagenblad en één zin tekst; bewaard bij de scans in local-only/)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/uitslagen/1998_09_12_13%20The%20Real%20Trip%20Makkum.html (pagina van windsurfing.rdeleeuw.nl met alleen de scans van het uitslagenblad en één zin tekst; bewaard bij de scans in local-only/)
+- **overgeslagen**: https://windsurfing.rdeleeuw.nl/results (de overzichtspagina https://windsurfing.rdeleeuw.nl/results zelf (61 uitslagregels van Robert de Leeuw, 1998-2022), opgeslagen op 16 november 2026)
+- **overgeslagen**: inbox/bulk/rdeleeuw-uitslagen/manifest.json (lijst van de opgehaalde bestanden met adres, grootte en sha256 (gemaakt bij het ophalen op 16 november 2026))
+- **onleesbaar**: https://windsurfing.rdeleeuw.nl/uitslagen/regiocup_zuid_2017_05_07_fun_races.jpg (gelinkt op windsurfing.rdeleeuw.nl (Regiocup Zuid 7 mei 2017, Fun Races; Robert de Leeuw 15e, 3e in vloot B) maar op 16 november 2026 niet meer te openen (HTTP 404); alleen de link is geregistreerd)
 
 **Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 5× nl, totaal 142.
 
@@ -802,4 +878,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 879 bron(nen), 312 verwerkt._
+_Registry: 945 bron(nen), 340 verwerkt._

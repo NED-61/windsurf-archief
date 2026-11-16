@@ -1,0 +1,278 @@
+{
+ "schema_version": 1,
+ "id": "mastergames-2006-kids",
+ "event": {
+  "name": "Mastergames 2006",
+  "scope": "nl",
+  "series": "Mastergames",
+  "year": 2006,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2006-09-24",
+  "location": "Grevelingen",
+  "discipline": null,
+  "gender": null,
+  "class": "Kids",
+  "class_label_published": "KIDS"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "Heat 1",
+   "Heat 2"
+  ],
+  "discards": 0,
+  "races_to_count": 2,
+  "scoring_system": "punten = plaats in de heat (winnaar 0,7); geen resultaat = 15 punten (aantal riders + 1), zoals waargenomen; de bron geeft geen statuscodes",
+  "no_result_points": 15
+ },
+ "source": {
+  "name": "2006_master_games.jpg",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_master_games.jpg",
+  "file": "local-only/nl/2006/mastergames-2006/bronnen/2006_master_games.jpg",
+  "type": "image",
+  "retrieved": "2026-11-16",
+  "method": "met de hand overgetikt van de scan (uitsnedes vergroot gelezen); daarna per rider de punten nagerekend tegen het gepubliceerde totaal",
+  "metadata_sources": [
+   {
+    "name": "kalender 2007 (archief Adri Keet)",
+    "file": "data/backlog/kalenders/kalender 2007.doc",
+    "used_for": "locatie (afgeleid)"
+   }
+  ],
+  "verified": "14 riders; plaats = volgorde in de bron (geen plaatskolom); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van de scan 'Uitslagen MASTERGAMES 2006-09-24' op windsurfing.rdeleeuw.nl (Excel-tabellen per categorie), categorie Kids: voornaam, naam, categorie, lycra, heat 1, heat 2 en result. Namen zoals gepubliceerd.",
+  "Het lycranummer staat in bib. De bron heeft geen plaatskolom: de plaats is de volgorde in de tabel; gelijke scores staan onder elkaar en hebben hier opeenvolgende plaatsen.",
+  "Wie in beide heats 15 punten heeft, heeft geen resultaat en telt niet mee."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "kjell-de-bruyn",
+   "sail": null,
+   "bib": "134",
+   "name": "Kjell De Bruyn",
+   "division": null,
+   "points": [
+    3.0,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 3.7,
+   "net": 3.7
+  },
+  {
+   "rank": 2,
+   "person": "henry-de-rudder",
+   "sail": null,
+   "bib": "7",
+   "name": "Henry De Rudder",
+   "division": null,
+   "points": [
+    0.7,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 5.7,
+   "net": 5.7
+  },
+  {
+   "rank": 3,
+   "person": "tomas-vanzelst",
+   "sail": null,
+   "bib": "118",
+   "name": "Tomas Vanzelst",
+   "division": null,
+   "points": [
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 6.0,
+   "net": 6.0
+  },
+  {
+   "rank": 4,
+   "person": "robby-lancel",
+   "sail": null,
+   "bib": "140",
+   "name": "Robby Lancel",
+   "division": null,
+   "points": [
+    4.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 6.0,
+   "net": 6.0
+  },
+  {
+   "rank": 5,
+   "person": "raf-verhoeven",
+   "sail": null,
+   "bib": "2",
+   "name": "Raf Verhoeven",
+   "division": null,
+   "points": [
+    6.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 9.0,
+   "net": 9.0
+  },
+  {
+   "rank": 6,
+   "person": "frederick-ackx",
+   "sail": null,
+   "bib": "33",
+   "name": "Frederick Ackx",
+   "division": null,
+   "points": [
+    5.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 12.0,
+   "net": 12.0
+  },
+  {
+   "rank": 7,
+   "person": "jort-min",
+   "sail": null,
+   "bib": "150",
+   "name": "Jort Min",
+   "division": null,
+   "points": [
+    7.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 13.0,
+   "net": 13.0
+  },
+  {
+   "rank": 8,
+   "person": "yentl-caers",
+   "sail": null,
+   "bib": "55",
+   "name": "Yentl Caers",
+   "division": null,
+   "points": [
+    8.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 16.0,
+   "net": 16.0
+  },
+  {
+   "rank": 9,
+   "person": "imke-de-bruyn",
+   "sail": null,
+   "bib": "17",
+   "name": "Imke De Bruyn",
+   "division": null,
+   "points": [
+    9.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 10,
+   "person": "nick-van-ingen",
+   "sail": null,
+   "bib": "137",
+   "name": "Nick Van Ingen",
+   "division": null,
+   "points": [
+    12.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 22.0,
+   "net": 22.0
+  },
+  {
+   "rank": 11,
+   "person": "robin-van-hoof",
+   "sail": null,
+   "bib": "67",
+   "name": "Robin Van Hoof",
+   "division": null,
+   "points": [
+    10.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 23.0,
+   "net": 23.0
+  },
+  {
+   "rank": 12,
+   "person": "liesbeth-janssen",
+   "sail": null,
+   "bib": "1",
+   "name": "Liesbeth Janssen",
+   "division": null,
+   "points": [
+    11.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 23.0,
+   "net": 23.0
+  },
+  {
+   "rank": 13,
+   "person": "stefan-plonn",
+   "sail": null,
+   "bib": "80",
+   "name": "Stefan Plonn",
+   "division": null,
+   "points": [
+    14.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 25.0,
+   "net": 25.0
+  },
+  {
+   "rank": 14,
+   "person": "robin-janssen",
+   "sail": null,
+   "bib": "133",
+   "name": "Robin Janssen",
+   "division": null,
+   "points": [
+    13.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 27.0,
+   "net": 27.0
+  }
+ ],
+ "detail": {}
+}

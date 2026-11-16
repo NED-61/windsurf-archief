@@ -1,0 +1,33 @@
+{
+ "event_slug": "mastergames-2006",
+ "scope": "nl",
+ "name": "Mastergames 2006",
+ "series": "Mastergames",
+ "year": 2006,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2006-09-24",
+ "date_end": null,
+ "location": "Grevelingen",
+ "discipline": null,
+ "classes": [
+  "mastergames-2006-dames",
+  "mastergames-2006-kids",
+  "mastergames-2006-wedstrijdsurfers",
+  "mastergames-2006-masters",
+  "mastergames-2006-seniors"
+ ],
+ "metadata_sources": [
+  {
+   "name": "kalender 2007 (archief Adri Keet)",
+   "file": "data/backlog/kalenders/kalender 2007.doc",
+   "used_for": "locatie (afgeleid)"
+  }
+ ],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Datum volgens de kop van de bron ('Uitslagen MASTERGAMES 2006-09-24'). Locatie AFGELEID: de kalender van 2007 noemt 'Mastergames Grevelingen'; voor 2006 niet in een bron nagegaan.",
+  "Funwedstrijd met vijf categorieën (Dames, Kids, Wedstrijdsurfers, Masters, Seniors); telt mee zoals DAM-X (keuze van de gebruiker, 16 november 2026). Op windsurfing.rdeleeuw.nl 'The Master Games'."
+ ],
+ "name_published": "MASTERGAMES 2006-09-24"
+}

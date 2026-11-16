@@ -1,0 +1,259 @@
+{
+ "schema_version": 1,
+ "id": "regiocup-zuid-2011-0918-formula-gold",
+ "event": {
+  "name": "Regiocup Zuid formula, 18 september 2011",
+  "scope": "nl",
+  "series": "Regiocup Zuid",
+  "year": 2011,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2011-09-18",
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Gold fleet",
+  "class_label_published": "Regiocupzuid 2011 - Dag klassement 18-09-2011 - Goldfleet",
+  "fleet": "gold"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "Appendix A (Sailwave, ZW7); bij een code staan in de bron geen punten",
+  "code_points_basis": "DNC = 10 (inschrijvingen + 1), andere code = riders zonder DNC in die race + 1 (afgeleid: verklaart alle gepubliceerde netto-scores)",
+  "discards_marked": false
+ },
+ "source": {
+  "name": "2011-09-18_regiocup_zuid.html",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2011-09-18_regiocup_zuid.html",
+  "file": "archive/nl/2011/regiocup-zuid-2011-0918/bronnen/2011-09-18_regiocup_zuid.html",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "html-tabellen gelezen met BeautifulSoup; de punten bij codes afgeleid met de regel in code_points_basis",
+  "metadata_sources": [],
+  "verified": "9 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend (codes: DNC = 10 (inschrijvingen + 1), andere code = riders zonder DNC in die race + 1): gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Dagklassement formula 18-9-2011' (Goldfleet, 'Goldfleet - Sailed: 6 Discards: 1 Ratings: None'). Namen en zeilnummers zoals gepubliceerd.",
+  "De bron geeft alleen de netto-score (Pts) en markeert niet welke races zijn weggelaten: de weggelaten scores (de slechtste, met de afgeleide waarde van een code) staan in discard_points.",
+  "Bij een code (DNC, DNF, DNS, DSQ, RDGa) staan geen punten: die punten zijn leeg, de code staat in race_remarks. RDGa = gemiddelde punten (verhaal); die waarde is niet gepubliceerd.",
+  "Een zeilnummercel zonder cijfer ('-', 'P', 'x') of met een clubnummer ('zw1', land 'zw') staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jordy-vonk",
+   "sail": "NED 69",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "points": [
+    1.0,
+    1.0,
+    2.0,
+    5.0,
+    2.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 8.0,
+   "discard_points": [
+    5.0
+   ]
+  },
+  {
+   "rank": 2,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "points": [
+    2.0,
+    4.0,
+    1.0,
+    1.0,
+    6.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 11.0,
+   "discard_points": [
+    6.0
+   ]
+  },
+  {
+   "rank": 3,
+   "person": "tomas-van-zelst",
+   "sail": "NED 228",
+   "name": "Tomas van Zelst",
+   "nationality": "NED",
+   "points": [
+    4.0,
+    2.0,
+    4.0,
+    4.0,
+    null,
+    1.0
+   ],
+   "race_remarks": {
+    "R5": "DNF"
+   },
+   "total": null,
+   "net": 15.0,
+   "discard_points": [
+    10
+   ]
+  },
+  {
+   "rank": 4,
+   "person": "kay-van-berlo",
+   "sail": "NED 212",
+   "name": "Kay van Berlo",
+   "nationality": "NED",
+   "points": [
+    3.0,
+    5.0,
+    5.0,
+    7.0,
+    1.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 19.0,
+   "discard_points": [
+    7.0
+   ]
+  },
+  {
+   "rank": 5,
+   "person": "john-munten",
+   "sail": "NED 30",
+   "name": "John Munten",
+   "nationality": "NED",
+   "points": [
+    7.0,
+    7.0,
+    3.0,
+    2.0,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 22.0,
+   "discard_points": [
+    7.0
+   ]
+  },
+  {
+   "rank": 6,
+   "person": "kjell-de-bruyn",
+   "sail": "BEL 21",
+   "name": "Kjell de Bruijn",
+   "nationality": "BEL",
+   "points": [
+    6.0,
+    8.0,
+    6.0,
+    3.0,
+    5.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 24.0,
+   "discard_points": [
+    8.0
+   ]
+  },
+  {
+   "rank": 7,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "points": [
+    8.0,
+    6.0,
+    7.0,
+    6.0,
+    3.0,
+    null
+   ],
+   "race_remarks": {
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 30.0,
+   "discard_points": [
+    10
+   ]
+  },
+  {
+   "rank": 8,
+   "person": "denis-standhardt",
+   "sail": "GER 189",
+   "name": "Denis Standhardt",
+   "nationality": "GER",
+   "points": [
+    5.0,
+    3.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 38.0,
+   "discard_points": [
+    10
+   ]
+  },
+  {
+   "rank": 9,
+   "person": "patrick-schmelzer",
+   "sail": "GER 127",
+   "name": "Patrik Schmelzer",
+   "nationality": "GER",
+   "points": [
+    9.0,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R2": "DNF",
+    "R3": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 49.0,
+   "discard_points": [
+    10
+   ]
+  }
+ ],
+ "detail": {}
+}

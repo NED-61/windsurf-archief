@@ -1,0 +1,23 @@
+{
+ "event_slug": "xstream-games-2008",
+ "scope": "nl",
+ "name": "XstreamGames IV 2008",
+ "series": "XstreamGames",
+ "year": 2008,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2008-09-06",
+ "date_end": "2008-09-07",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "xstream-games-2008-slalom-overall"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Datum volgens de kop van de bron ('Zaterdag 6 september 2008', 'Zondag 7 september 2008'). Locatie niet gepubliceerd.",
+  "Scope nl: een Benelux-wedstrijd met vooral Nederlandse deelnemers (opgave van de gebruiker, 16 november 2026)."
+ ],
+ "name_published": "XstreamGames IV - Slalom"
+}

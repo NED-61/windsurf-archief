@@ -1,0 +1,1614 @@
+{
+ "schema_version": 1,
+ "id": "nk-2012-slalom-overall",
+ "event": {
+  "name": "NK Slalom 2012",
+  "scope": "nl",
+  "series": "NK Slalom",
+  "year": 2012,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2012-04-15",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "Slalom 2012 - Eindresultaat Overall"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6"
+  ],
+  "discards": 2,
+  "races_to_count": 4,
+  "scoring_system": "Appendix A (Sailwave); bij een code staan in de bron geen punten",
+  "code_points_basis": "elke code = 58 (inschrijvingen + 1) (afgeleid: verklaart alle netto-scores)",
+  "discards_marked": false
+ },
+ "source": {
+  "name": "2012_NK_Slalom.pdf",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2012_NK_Slalom.pdf",
+  "file": "archive/nl/2012/nk-slalom-2012/bronnen/2012_NK_Slalom.pdf",
+  "type": "pdf",
+  "retrieved": "2026-11-16",
+  "method": "pdfplumber: tekstregels; racecellen van rechts gelezen; afgebroken namen en divisies op de volgende regel samengevoegd",
+  "metadata_sources": [
+   {
+    "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+    "url": "https://windsurfing.rdeleeuw.nl/results",
+    "retrieved": "2026-11-16",
+    "used_for": "datums van Lelystad (15-16 april) en Brouwersdam (5 mei)"
+   }
+  ],
+  "verified": "57 riders (bron: Entries 57); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend (codes: elke code = 58 (inschrijvingen + 1)): gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'NK Tour 2012-Slalom - Nederlandse Vereniging van Wedstrijdsurfers - Slalom 2012 - Eindresultaat Overall' ('Sailed: 6, Discards: 2, To count: 4, Entries: 57, Scoring system: Appendix A').",
+  "De tekstlaag van de pdf markeert de weglatingen niet: de weggelaten scores (de twee slechtste) staan in discard_points. Bij een code staan geen punten; de code staat in race_remarks.",
+  "De kolom Division ('Men', 'Youth U 20') staat in division. 19,5 punten = gedeelde plaats."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adriaan-van-rijsselberge",
+   "sail": "NED 2",
+   "name": "Adriaan van Rijsselberghe",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    0.7,
+    0.7,
+    2.0,
+    2.0,
+    2.0,
+    0.7
+   ],
+   "race_remarks": {},
+   "total": 8.1,
+   "net": 4.1,
+   "discard_points": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "rank": 2,
+   "person": "jordy-vonk",
+   "sail": "NED 69",
+   "name": "Jordy Vonk",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    2.0,
+    2.0,
+    9.0,
+    0.7,
+    7.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "total": 24.7,
+   "net": 8.7,
+   "discard_points": [
+    9.0,
+    7.0
+   ]
+  },
+  {
+   "rank": 3,
+   "person": "pieter-eliens",
+   "sail": "NED 538",
+   "name": "Pieter Eliens",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    7.0,
+    5.0,
+    25.0,
+    17.0,
+    0.7,
+    2.0
+   ],
+   "race_remarks": {},
+   "total": 56.7,
+   "net": 14.7,
+   "discard_points": [
+    25.0,
+    17.0
+   ]
+  },
+  {
+   "rank": 4,
+   "person": "teade-de-jong",
+   "sail": "NED 777",
+   "name": "Teade de Jong",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    4.0,
+    7.0,
+    0.7,
+    7.0,
+    10.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "total": 33.7,
+   "net": 16.7,
+   "discard_points": [
+    10.0,
+    7.0
+   ]
+  },
+  {
+   "rank": 5,
+   "person": "nikaj-droop",
+   "sail": "NED 647",
+   "name": "Nikaj Droop",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    3.0,
+    12.0,
+    7.0,
+    3.0,
+    4.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "total": 40.0,
+   "net": 17.0,
+   "discard_points": [
+    12.0,
+    11.0
+   ]
+  },
+  {
+   "rank": 6,
+   "person": "dirk-doppenberg",
+   "sail": "NED 51",
+   "name": "Dirk Doppenberg",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    5.0,
+    6.0,
+    3.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC"
+   },
+   "total": 138.0,
+   "net": 22.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 7,
+   "person": "dennis-littel",
+   "sail": "NED 13",
+   "name": "Dennis Litel",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    6.0,
+    9.0,
+    10.0,
+    15.0,
+    5.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "total": 48.0,
+   "net": 23.0,
+   "discard_points": [
+    15.0,
+    10.0
+   ]
+  },
+  {
+   "rank": 8,
+   "person": "adri-keet",
+   "sail": "NED 34",
+   "name": "Adri Keet",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    10.0,
+    8.0,
+    4.0,
+    4.0,
+    8.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "total": 43.0,
+   "net": 24.0,
+   "discard_points": [
+    10.0,
+    9.0
+   ]
+  },
+  {
+   "rank": 9,
+   "person": "pieter-bartlema",
+   "sail": "NED 77",
+   "name": "Pieter Bartlema",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    8.0,
+    4.0,
+    6.0,
+    13.0,
+    9.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "total": 46.0,
+   "net": 24.0,
+   "discard_points": [
+    13.0,
+    9.0
+   ]
+  },
+  {
+   "rank": 10,
+   "person": "casper-bouman",
+   "sail": "NED 52",
+   "name": "Casper Bouman",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    3.0,
+    5.0,
+    6.0,
+    16.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC"
+   },
+   "total": 146.0,
+   "net": 30.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 11,
+   "person": "ingmar-daldorf",
+   "sail": "NED 191",
+   "name": "Ingmar Daldorf",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    16.0,
+    3.0,
+    13.0,
+    9.0,
+    17.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "total": 65.0,
+   "net": 32.0,
+   "discard_points": [
+    17.0,
+    16.0
+   ]
+  },
+  {
+   "rank": 12,
+   "person": "tomas-van-zelst",
+   "sail": "NED 28",
+   "name": "Tomas van Zelst",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    11.0,
+    11.0,
+    8.0,
+    10.0,
+    19.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "total": 77.0,
+   "net": 40.0,
+   "discard_points": [
+    19.0,
+    18.0
+   ]
+  },
+  {
+   "rank": 13,
+   "person": "coen-swijnenburg",
+   "sail": "NED 262",
+   "name": "Coen Swijnenburg",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    14.0,
+    21.0,
+    15.0,
+    9.0,
+    11.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "total": 80.0,
+   "net": 44.0,
+   "discard_points": [
+    21.0,
+    15.0
+   ]
+  },
+  {
+   "rank": 14,
+   "person": "marco-van-der-leer",
+   "sail": "NED 207",
+   "name": "Marco van der Leer",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    17.0,
+    16.0,
+    27.0,
+    12.0,
+    12.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "total": 99.0,
+   "net": 55.0,
+   "discard_points": [
+    27.0,
+    17.0
+   ]
+  },
+  {
+   "rank": 15,
+   "person": "bram-zijlstra",
+   "sail": "NED 150",
+   "name": "Bram Zijlstra",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    18.0,
+    20.0,
+    null,
+    19.0,
+    13.0,
+    14.0
+   ],
+   "race_remarks": {
+    "R3": "DNC"
+   },
+   "total": 142.0,
+   "net": 64.0,
+   "discard_points": [
+    58,
+    20.0
+   ]
+  },
+  {
+   "rank": 16,
+   "person": "robert-de-leeuw",
+   "sail": "NED 118",
+   "name": "Robert de Leeuw",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    22.0,
+    27.0,
+    19.0,
+    14.0,
+    28.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "total": 127.0,
+   "net": 72.0,
+   "discard_points": [
+    28.0,
+    27.0
+   ]
+  },
+  {
+   "rank": 17,
+   "person": "jim-van-someren",
+   "sail": "NED 600",
+   "name": "Jim van Someren",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    29.0,
+    10.0,
+    null,
+    23.0,
+    16.0,
+    23.0
+   ],
+   "race_remarks": {
+    "R3": "DNC"
+   },
+   "total": 159.0,
+   "net": 72.0,
+   "discard_points": [
+    58,
+    29.0
+   ]
+  },
+  {
+   "rank": 18,
+   "person": "stijn-feiertag",
+   "sail": "NED 312",
+   "name": "Stijn Feiertag",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    21.0,
+    24.0,
+    null,
+    18.0,
+    15.0,
+    21.0
+   ],
+   "race_remarks": {
+    "R3": "DNC"
+   },
+   "total": 157.0,
+   "net": 75.0,
+   "discard_points": [
+    58,
+    24.0
+   ]
+  },
+  {
+   "rank": 19,
+   "person": "marc-de-jong",
+   "sail": "NED 103",
+   "name": "Marc de Jong",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    22.0,
+    36.0,
+    22.0,
+    15.0,
+    24.0,
+    23.0
+   ],
+   "race_remarks": {},
+   "total": 142.0,
+   "net": 82.0,
+   "discard_points": [
+    36.0,
+    24.0
+   ]
+  },
+  {
+   "rank": 20,
+   "person": "daan-meily",
+   "sail": "NED 84",
+   "name": "Daan Meily",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    25.0,
+    22.0,
+    30.0,
+    22.0,
+    20.0,
+    22.0
+   ],
+   "race_remarks": {},
+   "total": 141.0,
+   "net": 86.0,
+   "discard_points": [
+    30.0,
+    25.0
+   ]
+  },
+  {
+   "rank": 21,
+   "person": "peter-van-der-lugt",
+   "sail": "NED 12",
+   "name": "Peter van der Lugt",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    5.0,
+    6.0,
+    17.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 202.0,
+   "net": 86.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 22,
+   "person": "bas-mulder",
+   "sail": "NED 82",
+   "name": "Bas Mulder",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    28.0,
+    26.0,
+    31.0,
+    25.0,
+    21.0,
+    20.0
+   ],
+   "race_remarks": {},
+   "total": 151.0,
+   "net": 92.0,
+   "discard_points": [
+    31.0,
+    28.0
+   ]
+  },
+  {
+   "rank": 23,
+   "person": "nico-wierstra",
+   "sail": "NED 81",
+   "name": "Nico Wierstra",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    11.0,
+    14.0,
+    12.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC"
+   },
+   "total": 211.0,
+   "net": 95.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 24,
+   "person": "lars-van-someren",
+   "sail": "NED 800",
+   "name": "Lars van Someren",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    30.0,
+    30.0,
+    null,
+    21.0,
+    24.0,
+    23.0
+   ],
+   "race_remarks": {
+    "R3": "DNC"
+   },
+   "total": 186.0,
+   "net": 98.0,
+   "discard_points": [
+    58,
+    30.0
+   ]
+  },
+  {
+   "rank": 25,
+   "person": "peter-mulder",
+   "sail": "NED 71",
+   "name": "Peter Mulder",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    30.0,
+    32.0,
+    35.0,
+    26.0,
+    23.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "total": 165.0,
+   "net": 98.0,
+   "discard_points": [
+    35.0,
+    32.0
+   ]
+  },
+  {
+   "rank": 26,
+   "person": "alexander-verhage",
+   "sail": "NED 75",
+   "name": "Alexander Verhage",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    13.0,
+    13.0,
+    16.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 216.0,
+   "net": 100.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 27,
+   "person": "marco-kraaijenzank",
+   "sail": "NED 10",
+   "name": "Marco Kraaienzank",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    9.0,
+    17.0,
+    18.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 218.0,
+   "net": 102.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 28,
+   "person": "alexander-hoeksta",
+   "sail": "NED 1",
+   "name": "Alexander Hoeksta",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    24.0,
+    18.0,
+    13.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC"
+   },
+   "total": 229.0,
+   "net": 113.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 29,
+   "person": "nick-van-der-hoorn",
+   "sail": "NED 147",
+   "name": "Nick van der Hoorn",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    19.5,
+    18.0,
+    22.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 233.5,
+   "net": 117.5,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 30,
+   "person": "paul-van-der-kaaden",
+   "sail": "NED 993",
+   "name": "Paul van der Kaaden",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    12.0,
+    19.0,
+    33.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 238.0,
+   "net": 122.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 31,
+   "person": "twan-verseput",
+   "sail": "NED 127",
+   "name": "Twan Verseput",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    20.0,
+    22.0,
+    23.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC"
+   },
+   "total": 239.0,
+   "net": 123.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 32,
+   "person": "kenny-de-jager",
+   "sail": "BEL 9",
+   "name": "Kenny de Jager",
+   "nationality": "BEL",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    22.0,
+    25.0,
+    20.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 241.0,
+   "net": 125.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 33,
+   "person": "wouter-verhulst",
+   "sail": "NED 80",
+   "name": "Wouter Verhulst",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    19.5,
+    14.0,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 242.5,
+   "net": 126.5,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 34,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL 26",
+   "name": "Andrea Vankoorne",
+   "nationality": "BEL",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    27.0,
+    29.0,
+    21.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 251.0,
+   "net": 135.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 35,
+   "person": "pieter-buis",
+   "sail": "NED 136",
+   "name": "Pieter Buis",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    34.0,
+    null,
+    24.0,
+    23.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC"
+   },
+   "total": 255.0,
+   "net": 139.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 36,
+   "person": "sven-daldorf",
+   "sail": "NED 1911",
+   "name": "Sven Daldorf",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    24.0,
+    10.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 266.0,
+   "net": 150.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 37,
+   "person": "chris-bond",
+   "sail": "GBR 7",
+   "name": "Chris Bond",
+   "nationality": "GBR",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    23.0,
+    15.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 270.0,
+   "net": 154.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 37,
+   "person": "klaas-sybrand-jissink",
+   "sail": "NED 42",
+   "name": "Klaas Sybrand Jissink",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    15.0,
+    23.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 270.0,
+   "net": 154.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 39,
+   "person": "marc-v-santen",
+   "sail": "NED 211",
+   "name": "Marc van Santen",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    10.0,
+    29.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 271.0,
+   "net": 155.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 40,
+   "person": "kiran-badloe",
+   "sail": "NED 194",
+   "name": "Kiran Badloe",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    null,
+    26.0,
+    null,
+    23.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R3": "DNC",
+    "R5": "DNC"
+   },
+   "total": 281.0,
+   "net": 165.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 41,
+   "person": "tim-gibson",
+   "sail": "GBR 40",
+   "name": "Tim Gibson",
+   "nationality": "GBR",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    26.0,
+    28.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 286.0,
+   "net": 170.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 42,
+   "person": "coen-hendriks",
+   "sail": "NED 7171",
+   "name": "Coen Hendriks",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    22.0,
+    33.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 287.0,
+   "net": 171.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 43,
+   "person": "sam-wennekes",
+   "sail": "NED 823",
+   "name": "Sam Wennekens",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    30.0,
+    31.0,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 293.0,
+   "net": 177.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 44,
+   "person": "kevin-mevissen",
+   "sail": "NED 79",
+   "name": "Kevin Mevissen",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    10.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 300.0,
+   "net": 184.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 44,
+   "person": "matthijs-van-t-hoff",
+   "sail": "NED 216",
+   "name": "Matthijs van 't Hoff",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    10.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 300.0,
+   "net": 184.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 46,
+   "person": "huig-jan-tak",
+   "sail": "NED 465",
+   "name": "Huig-Jan Tak",
+   "nationality": "NED",
+   "division": "Youth U 20",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    14.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 304.0,
+   "net": 188.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 47,
+   "person": "denis-standhardt",
+   "sail": "GER 189",
+   "name": "Denis Standhardt",
+   "nationality": "GER",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    22.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 312.0,
+   "net": 196.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 47,
+   "person": "dave-coces",
+   "sail": "GBR 1000",
+   "name": "Dave Coces",
+   "nationality": "GBR",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    22.0,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R2": "DNS",
+    "R3": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 312.0,
+   "net": 196.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 49,
+   "person": "wolfgang-draschner",
+   "sail": "GER 3333",
+   "name": "Wolfgang Draschner",
+   "nationality": "GER",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    26.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 316.0,
+   "net": 200.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 50,
+   "person": "john-munten",
+   "sail": "NED 30",
+   "name": "John Munten",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    28.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 318.0,
+   "net": 202.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 51,
+   "person": "ronald-vd-poel",
+   "sail": "NED 21",
+   "name": "Ronald van der Poel",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    32.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 322.0,
+   "net": 206.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 52,
+   "person": "marius-van-der-leur",
+   "sail": "NED 111",
+   "name": "Marius van der Leur",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 325.0,
+   "net": 209.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 52,
+   "person": "oliver-bongartz",
+   "sail": "GER 59",
+   "name": "Oliver Bongartz",
+   "nationality": "GER",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 325.0,
+   "net": 209.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 52,
+   "person": "thomas-glaser",
+   "sail": "GER 25",
+   "name": "Thomas Glaeser",
+   "nationality": "GER",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 325.0,
+   "net": 209.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 52,
+   "person": "jonn-schulte",
+   "sail": "GER 207",
+   "name": "Jönn Schulte",
+   "nationality": "GER",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 325.0,
+   "net": 209.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 52,
+   "person": "mark-palmer",
+   "sail": "AUS X",
+   "name": "Mark Palmer",
+   "nationality": "AUS",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 325.0,
+   "net": 209.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  },
+  {
+   "rank": 52,
+   "person": "jaques-vd-hout",
+   "sail": "NED 35",
+   "name": "Jacques van der Hout",
+   "nationality": "NED",
+   "division": "Men",
+   "subdivision": null,
+   "points": [
+    null,
+    null,
+    35.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC",
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC"
+   },
+   "total": 325.0,
+   "net": 209.0,
+   "discard_points": [
+    58,
+    58
+   ]
+  }
+ ],
+ "detail": {}
+}

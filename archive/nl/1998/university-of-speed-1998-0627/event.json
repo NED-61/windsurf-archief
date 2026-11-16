@@ -1,0 +1,21 @@
+{
+ "event_slug": "university-of-speed-1998-0627",
+ "scope": "nl",
+ "name": "University of Speed, 27 juni 1998",
+ "series": "University of Speed",
+ "year": 1998,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "1998-06-27",
+ "date_end": null,
+ "location": "Grevelingendam",
+ "discipline": "speed",
+ "classes": [
+  "university-of-speed-1998-0627-speed"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Datum en plaats volgens de kop van het blad ('27 juni 1998 - Grevelingendam'); onder de titel staat 'Van Bellen Surf & Snow'. Sponsors op het blad: North Sails, Pro Limit, Surf Magazine, F2, Smith, Oxbow."
+ ]
+}

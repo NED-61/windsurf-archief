@@ -1,0 +1,30 @@
+{
+ "event_slug": "nk-slalom-2012",
+ "scope": "nl",
+ "name": "NK Slalom 2012",
+ "series": "NK Slalom",
+ "year": 2012,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2012-04-15",
+ "date_end": null,
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "nk-2012-slalom-overall"
+ ],
+ "metadata_sources": [
+  {
+   "name": "windsurfing.rdeleeuw.nl: uitslagenlijst van Robert de Leeuw",
+   "url": "https://windsurfing.rdeleeuw.nl/results",
+   "retrieved": "2026-11-16",
+   "used_for": "datums van Lelystad (15-16 april) en Brouwersdam (5 mei)"
+  }
+ ],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Eindresultaat van de NK Tour 2012 slalom (NVW): 6 races. Volgens de tussenstanden: R1-R2 Lelystad 15-16 april 2012, R3 Brouwersdam 5 mei 2012; R4-R6 een latere wedstrijd (datum en plaats niet in de bron).",
+  "De uitslag van Lelystad (scan) en de tussenstand 't/m 5 mei' zitten in deze eindstand en zijn alleen geregistreerd."
+ ],
+ "organizer": "Nederlandse Vereniging van Wedstrijdsurfers"
+}

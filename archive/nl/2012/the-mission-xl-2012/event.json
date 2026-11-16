@@ -1,0 +1,19 @@
+{
+ "event_slug": "the-mission-xl-2012",
+ "scope": "nl",
+ "name": "The Mission XL 2012",
+ "series": "The Mission",
+ "year": 2012,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2012-08-25",
+ "date_end": "2012-08-26",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Geen uitslag in het archief: de bron geeft alleen de categorie Pro-fleet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten). De bron is geregistreerd."
+ ]
+}

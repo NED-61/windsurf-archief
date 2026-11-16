@@ -1,0 +1,425 @@
+{
+ "schema_version": 1,
+ "id": "mastergames-2006-masters",
+ "event": {
+  "name": "Mastergames 2006",
+  "scope": "nl",
+  "series": "Mastergames",
+  "year": 2006,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2006-09-24",
+  "location": "Grevelingen",
+  "discipline": null,
+  "gender": null,
+  "class": "Masters",
+  "class_label_published": "MASTERS"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "Heat 1",
+   "Heat 2"
+  ],
+  "discards": 0,
+  "races_to_count": 2,
+  "scoring_system": "punten = plaats in de heat (winnaar 0,7); geen resultaat = 24 punten (aantal riders + 1), zoals waargenomen; de bron geeft geen statuscodes",
+  "no_result_points": 24
+ },
+ "source": {
+  "name": "2006_master_games.jpg",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_master_games.jpg",
+  "file": "local-only/nl/2006/mastergames-2006/bronnen/2006_master_games.jpg",
+  "type": "image",
+  "retrieved": "2026-11-16",
+  "method": "met de hand overgetikt van de scan (uitsnedes vergroot gelezen); daarna per rider de punten nagerekend tegen het gepubliceerde totaal",
+  "metadata_sources": [
+   {
+    "name": "kalender 2007 (archief Adri Keet)",
+    "file": "data/backlog/kalenders/kalender 2007.doc",
+    "used_for": "locatie (afgeleid)"
+   }
+  ],
+  "verified": "23 riders; plaats = volgorde in de bron (geen plaatskolom); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van de scan 'Uitslagen MASTERGAMES 2006-09-24' op windsurfing.rdeleeuw.nl (Excel-tabellen per categorie), categorie Masters: voornaam, naam, categorie, lycra, heat 1, heat 2 en result. Namen zoals gepubliceerd.",
+  "Het lycranummer staat in bib. De bron heeft geen plaatskolom: de plaats is de volgorde in de tabel; gelijke scores staan onder elkaar en hebben hier opeenvolgende plaatsen.",
+  "Wie in beide heats 24 punten heeft, heeft geen resultaat en telt niet mee.",
+  "Telt niet mee: 2 ingeschreven rider(s) met in elke race de score voor 'geen resultaat' (de bron geeft geen statuscodes, dus afgeleid) hebben niet meegevaren en tellen niet mee als deelnemer. Ze staan nog in dit bestand zoals gepubliceerd (counted: false), zonder koppeling aan een rider; de site toont ze niet."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "peter-bonne",
+   "sail": null,
+   "bib": "54",
+   "name": "Peter Bonne",
+   "division": null,
+   "points": [
+    0.7,
+    0.7
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 1.4,
+   "net": 1.4
+  },
+  {
+   "rank": 2,
+   "person": "marc-boydens",
+   "sail": null,
+   "bib": "112",
+   "name": "Marc Boydens",
+   "division": null,
+   "points": [
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 5.0,
+   "net": 5.0
+  },
+  {
+   "rank": 3,
+   "person": "joost-de-ruig",
+   "sail": null,
+   "bib": "109",
+   "name": "Joost de Ruig",
+   "division": null,
+   "points": [
+    3.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 7.0,
+   "net": 7.0
+  },
+  {
+   "rank": 4,
+   "person": "daan-cools",
+   "sail": null,
+   "bib": "63",
+   "name": "Daan Cools",
+   "division": null,
+   "points": [
+    4.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 9.0,
+   "net": 9.0
+  },
+  {
+   "rank": 5,
+   "person": "andre-lancel",
+   "sail": null,
+   "bib": "126",
+   "name": "André Lancel",
+   "division": null,
+   "points": [
+    7.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 9.0,
+   "net": 9.0
+  },
+  {
+   "rank": 6,
+   "person": "bruno-de-wannemaeker",
+   "sail": null,
+   "bib": "131",
+   "name": "Bruno De Wannemaeker",
+   "division": null,
+   "points": [
+    5.0,
+    7.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 12.0,
+   "net": 12.0
+  },
+  {
+   "rank": 7,
+   "person": "hans-talboom",
+   "sail": null,
+   "bib": "53",
+   "name": "Hans Talboom",
+   "division": null,
+   "points": [
+    12.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 8,
+   "person": "hugo-cockx",
+   "sail": null,
+   "bib": "66",
+   "name": "Hugo Cockx",
+   "division": null,
+   "points": [
+    10.0,
+    8.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 18.0,
+   "net": 18.0
+  },
+  {
+   "rank": 9,
+   "person": "sven-scholtis",
+   "sail": null,
+   "bib": "121",
+   "name": "Sven Scholtis",
+   "division": null,
+   "points": [
+    9.0,
+    12.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 21.0,
+   "net": 21.0
+  },
+  {
+   "rank": 10,
+   "person": "danny-loonen",
+   "sail": null,
+   "bib": "82",
+   "name": "Danny Loonen",
+   "division": null,
+   "points": [
+    13.0,
+    9.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 22.0,
+   "net": 22.0
+  },
+  {
+   "rank": 11,
+   "person": "guido-de-jager",
+   "sail": null,
+   "bib": "52",
+   "name": "Guido De Jager",
+   "division": null,
+   "points": [
+    11.0,
+    11.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 22.0,
+   "net": 22.0
+  },
+  {
+   "rank": 12,
+   "person": "luc-caers",
+   "sail": null,
+   "bib": "90",
+   "name": "Luc Caers",
+   "division": null,
+   "points": [
+    14.0,
+    10.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 24.0,
+   "net": 24.0
+  },
+  {
+   "rank": 13,
+   "person": "miguel-agerkop",
+   "sail": null,
+   "bib": "24",
+   "name": "Miguel Agerkop",
+   "division": null,
+   "points": [
+    8.0,
+    19.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 27.0,
+   "net": 27.0
+  },
+  {
+   "rank": 14,
+   "person": "ben-vanderick",
+   "sail": null,
+   "bib": "36",
+   "name": "Ben Vanderick",
+   "division": null,
+   "points": [
+    6.0,
+    24.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 30.0,
+   "net": 30.0
+  },
+  {
+   "rank": 15,
+   "person": "lodewijk-de-schepper",
+   "sail": null,
+   "bib": "6",
+   "name": "Lodewijk De Schepper",
+   "division": null,
+   "points": [
+    16.0,
+    15.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 31.0,
+   "net": 31.0
+  },
+  {
+   "rank": 16,
+   "person": "drik-janssen",
+   "sail": null,
+   "bib": "60",
+   "name": "Drik Janssen",
+   "division": null,
+   "points": [
+    19.0,
+    13.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 17,
+   "person": "kurt-van-den-bosch",
+   "sail": null,
+   "bib": "37",
+   "name": "Kurt Van Den Bosch",
+   "division": null,
+   "points": [
+    15.0,
+    17.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 32.0,
+   "net": 32.0
+  },
+  {
+   "rank": 18,
+   "person": "yves-wynen",
+   "sail": null,
+   "bib": "38",
+   "name": "Yves Wynen",
+   "division": null,
+   "points": [
+    17.0,
+    16.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 33.0,
+   "net": 33.0
+  },
+  {
+   "rank": 19,
+   "person": "jean-vergauwen",
+   "sail": null,
+   "bib": "20",
+   "name": "Jean Vergauwen",
+   "division": null,
+   "points": [
+    20.0,
+    14.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 34.0,
+   "net": 34.0
+  },
+  {
+   "rank": 20,
+   "person": "patrick-begin",
+   "sail": null,
+   "bib": "73",
+   "name": "Patrick Begin",
+   "division": null,
+   "points": [
+    18.0,
+    18.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 36.0,
+   "net": 36.0
+  },
+  {
+   "rank": 21,
+   "person": "franky-janssens",
+   "sail": null,
+   "bib": "70",
+   "name": "Franky Janssens",
+   "division": null,
+   "points": [
+    21.0,
+    24.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 45.0,
+   "net": 45.0
+  },
+  {
+   "rank": 22,
+   "person": null,
+   "sail": null,
+   "bib": "45",
+   "name": "Willy Wels",
+   "division": null,
+   "points": [
+    24.0,
+    24.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 48.0,
+   "net": 48.0,
+   "counted": false
+  },
+  {
+   "rank": 23,
+   "person": null,
+   "sail": null,
+   "bib": "62",
+   "name": "Jan-Krijn van Dijke",
+   "division": null,
+   "points": [
+    24.0,
+    24.0
+   ],
+   "race_remarks": {},
+   "discarded": [],
+   "total": 48.0,
+   "net": 48.0,
+   "counted": false
+  }
+ ],
+ "detail": {}
+}

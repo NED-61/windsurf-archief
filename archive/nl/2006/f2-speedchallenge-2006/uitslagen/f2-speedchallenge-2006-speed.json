@@ -1,0 +1,186 @@
+{
+ "schema_version": 1,
+ "id": "f2-speedchallenge-2006-speed",
+ "event": {
+  "name": "F2 Speedchallenge 2006",
+  "scope": "nl",
+  "series": "F2 Speedchallenge",
+  "year": 2006,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2006-05-20",
+  "location": null,
+  "discipline": "speed",
+  "gender": null,
+  "class": "Speed",
+  "class_label_published": "F2 Speedchallenge 20 Mei 2006"
+ },
+ "format": {
+  "type": "speed",
+  "unit": "km/h",
+  "ranking": "op de gemeten topsnelheid",
+  "speeds_published": "één snelheid per rider (hele km/u)"
+ },
+ "source": {
+  "name": "2006_05_20_f2_speedchallenge.htm",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_05_20_f2_speedchallenge.htm",
+  "file": "archive/nl/2006/f2-speedchallenge-2006/bronnen/2006_05_20_f2_speedchallenge.htm",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "html-tabel gelezen met BeautifulSoup",
+  "metadata_sources": [],
+  "verified": "11 regels (blad: 11); plaatsen aaneengesloten; volgorde aflopend op de hoogste snelheid; per rider de snelheden aflopend (1e = hoogste); geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'F2 Speedchallenge 20 Mei 2006 - Uitslag' (Excel-pagina): plaats, naam, snelheid in km/h en een opmerking.",
+  "Dennis Littel staat op plaats '0' met 'buiten mededinging'; Martin Gerlings op plaats '#' met snelheid '??'. Zoals gepubliceerd in rank_published en speed_published; zij hebben geen plaats (rank leeg). Peter van het Wout en Jurgen Claus hebben allebei 54 km/h en de plaatsen 7 en 8."
+ ],
+ "entries": [
+  {
+   "rank": null,
+   "person": "dennis-littel",
+   "sail": null,
+   "bib": null,
+   "name": "Dennis Littel",
+   "division": null,
+   "speed": 69.0,
+   "speeds": [
+    69.0
+   ],
+   "remark": "buiten mededinging",
+   "rank_published": "0"
+  },
+  {
+   "rank": 1,
+   "person": "alexander-verhage",
+   "sail": null,
+   "bib": null,
+   "name": "Alexander Verhage",
+   "division": null,
+   "speed": 63.0,
+   "speeds": [
+    63.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 2,
+   "person": "andre-hoogendam",
+   "sail": null,
+   "bib": null,
+   "name": "Andre Hoogendam",
+   "division": null,
+   "speed": 62.0,
+   "speeds": [
+    62.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 3,
+   "person": "ruud-kersten",
+   "sail": null,
+   "bib": null,
+   "name": "Ruud Kersten",
+   "division": null,
+   "speed": 60.0,
+   "speeds": [
+    60.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 4,
+   "person": "dhr-onderbeke",
+   "sail": null,
+   "bib": null,
+   "name": "dhr. Onderbeke",
+   "division": null,
+   "speed": 57.0,
+   "speeds": [
+    57.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 5,
+   "person": "bart-van-leeuwen",
+   "sail": null,
+   "bib": null,
+   "name": "Bart van Leeuwen",
+   "division": null,
+   "speed": 56.0,
+   "speeds": [
+    56.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 6,
+   "person": "robert-de-leeuw",
+   "sail": null,
+   "bib": null,
+   "name": "Robert de Leeuw",
+   "division": null,
+   "speed": 55.0,
+   "speeds": [
+    55.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 7,
+   "person": "jurgen-claus",
+   "sail": null,
+   "bib": null,
+   "name": "Jurgen Claus",
+   "division": null,
+   "speed": 54.0,
+   "speeds": [
+    54.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 8,
+   "person": "peter-van-het-wout",
+   "sail": null,
+   "bib": null,
+   "name": "Peter van het Wout",
+   "division": null,
+   "speed": 54.0,
+   "speeds": [
+    54.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": 9,
+   "person": "ramon-van-de-laar",
+   "sail": null,
+   "bib": null,
+   "name": "Ramon van de Laar",
+   "division": null,
+   "speed": 50.0,
+   "speeds": [
+    50.0
+   ],
+   "remark": null
+  },
+  {
+   "rank": null,
+   "person": "martin-gerlings",
+   "sail": null,
+   "bib": null,
+   "name": "Martin Gerlings",
+   "division": null,
+   "speed": null,
+   "speeds": [],
+   "remark": null,
+   "rank_published": "#",
+   "speed_published": "??"
+  }
+ ],
+ "detail": {}
+}

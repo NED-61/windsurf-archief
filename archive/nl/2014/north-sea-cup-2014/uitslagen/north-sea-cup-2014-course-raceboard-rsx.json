@@ -1,0 +1,256 @@
+{
+ "schema_version": 1,
+ "id": "north-sea-cup-2014-course-raceboard-rsx",
+ "event": {
+  "name": "North Sea Cup 2014",
+  "scope": "nl",
+  "series": "North Sea Cup",
+  "year": 2014,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2014-04-05",
+  "location": "Grevelingendam",
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Raceboard, RS-X",
+  "class_label_published": "Northsea cup 2014 Raceboard, RS-X"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7"
+  ],
+  "discards": 1,
+  "races_to_count": 6,
+  "scoring_system": "Appendix A (Sailwave 2.8.5); DNC en DNF = 9 punten (inschrijvingen + 1), zoals gepubliceerd"
+ },
+ "source": {
+  "name": "2014_05_06_NorthSeaCup.JPG",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2014_05_06_NorthSeaCup.JPG",
+  "file": "local-only/nl/2014/north-sea-cup-2014/bronnen/2014_05_06_NorthSeaCup.JPG",
+  "type": "image",
+  "retrieved": "2026-11-16",
+  "method": "met de hand overgetikt van de scan (uitsnedes vergroot gelezen); daarna per rider de punten nagerekend tegen het gepubliceerde totaal",
+  "metadata_sources": [],
+  "verified": "8 riders (bron: Entries 8); plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend: gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een foto van het blad 'Northsea cup 2014 Raceboard, RS-X - Overall' (Sailwave, 'Sailed: 7, Discards: 1, To count: 6, Entries: 8') op windsurfing.rdeleeuw.nl.",
+  "Eén klassement voor Raceboard en RS-X samen: de kolom fleet (Raceboard, RS-X) staat in equipment, de kolom division (Open, U20) in division; 'G' in de kolom Girls staat als girls.",
+  "Tweede klasse van de North Sea Cup 2014, naast Formula (uit tools/import_foilcup.py)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "karl-lamens",
+   "sail": "BEL 91",
+   "name": "Karl Lamens",
+   "nationality": "BEL",
+   "division": "Open",
+   "equipment": "Raceboard",
+   "points": [
+    2.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    3.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 13.0,
+   "net": 10.0
+  },
+  {
+   "rank": 2,
+   "person": "jan-de-muyer",
+   "sail": "BEL 113",
+   "name": "Jan de Muyer",
+   "nationality": "BEL",
+   "division": "Open",
+   "equipment": "Raceboard",
+   "points": [
+    1.0,
+    2.0,
+    9.0,
+    3.0,
+    3.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {
+    "R3": "DNF"
+   },
+   "discarded": [
+    3
+   ],
+   "total": 20.0,
+   "net": 11.0
+  },
+  {
+   "rank": 3,
+   "person": "huig-jan-tak",
+   "sail": "NED 465",
+   "name": "Huig-Jan Tak",
+   "nationality": "NED",
+   "division": "U20",
+   "equipment": "RS-X",
+   "points": [
+    3.0,
+    3.0,
+    2.0,
+    1.0,
+    1.0,
+    2.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    7
+   ],
+   "total": 16.0,
+   "net": 12.0
+  },
+  {
+   "rank": 4,
+   "person": "sam-wennekes",
+   "sail": "NED 823",
+   "name": "Sam Wennekes",
+   "nationality": "NED",
+   "division": "U20",
+   "equipment": "RS-X",
+   "points": [
+    5.0,
+    5.0,
+    4.0,
+    4.0,
+    4.0,
+    8.0,
+    5.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    6
+   ],
+   "total": 35.0,
+   "net": 27.0
+  },
+  {
+   "rank": 5,
+   "person": "stefan-oosterdorp",
+   "sail": "NED 162",
+   "name": "Stefan Oosterdorp",
+   "nationality": "NED",
+   "division": "Open",
+   "equipment": "Raceboard",
+   "points": [
+    9.0,
+    9.0,
+    3.0,
+    5.0,
+    6.0,
+    4.0,
+    3.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 39.0,
+   "net": 30.0
+  },
+  {
+   "rank": 6,
+   "person": "ramon-stolk",
+   "sail": "NED 250",
+   "name": "Ramon Stolk",
+   "nationality": "NED",
+   "division": "U20",
+   "equipment": "RS-X",
+   "points": [
+    4.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    6.0,
+    6.0
+   ],
+   "race_remarks": {},
+   "discarded": [
+    5
+   ],
+   "total": 38.0,
+   "net": 31.0
+  },
+  {
+   "rank": 7,
+   "person": "robert-de-leeuw",
+   "sail": "NED 118",
+   "name": "Robert de Leeuw",
+   "nationality": "NED",
+   "division": "Open",
+   "equipment": "Raceboard",
+   "points": [
+    9.0,
+    9.0,
+    7.0,
+    7.0,
+    5.0,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 49.0,
+   "net": 40.0
+  },
+  {
+   "rank": 8,
+   "person": "jolijn-ten-bos",
+   "sail": "NED 841",
+   "name": "Jolijn ten Bos",
+   "nationality": "NED",
+   "division": "U20",
+   "equipment": "RS-X",
+   "points": [
+    9.0,
+    9.0,
+    6.0,
+    8.0,
+    8.0,
+    7.0,
+    8.0
+   ],
+   "race_remarks": {
+    "R1": "DNC",
+    "R2": "DNC"
+   },
+   "discarded": [
+    1
+   ],
+   "total": 55.0,
+   "net": 46.0,
+   "girls": true
+  }
+ ],
+ "detail": {}
+}

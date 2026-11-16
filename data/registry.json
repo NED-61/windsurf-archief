@@ -12492,6 +12492,957 @@
     "archive/nl/1996/ronde-om-texel-1996/uitslagen/ronde-om-texel-1996-long-distance-windsurf.json"
    ],
    "notes": "foto van de uitslaglijst (WhatsApp; maker en rechten niet bekend) met per rider de woonplaats: daarom niet in git maar in local-only/; verwerkt met tools/import_texel_1996.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2023_damx_masters_result.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "d7c256953f18ee4fffe3b689d789054b7bec84357c47d88f3f4892cf47fc16ce",
+   "archived": "local-only/nl/2022/dam-x-2022/bronnen/2023_damx_masters_result.jpg",
+   "notes": "DUBBEL (al in het archief): schermafdruk van één heat ('Heat 1 Unstarted', RDG-scores) van DAM-X 2022 masters groep A; op windsurfing.rdeleeuw.nl onder 2022 maar als 'Dam-X 2023'. Zelfde namen en scores als dam-x-2022-slalom-masters-groep-a; geen eigen uitslag. Robert de Leeuw noemt als datum 8 oktober"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2019_05_nk_slalom.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "b6fc68f743fef363c008c2c04a68e542387da161097e8dc0a13e1864a0980544",
+   "archived": "archive/nl/2019/nk-slalom-2019-stop1/bronnen/2019_05_nk_slalom.html",
+   "notes": "DUBBEL (al in het archief): opgeslagen pagina van het Windtulip-dashboard 78 (Results NK Slalom 2019 Stavoren), hetzelfde dashboard als nk-2019-stop1-slalom-heren (34 riders, Robert de Leeuw 29e)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/20170910_regiocup_zuid.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "5db9a7afd9f576d897c1137f44d496da3050150acd4ee8738b436ee8bf1c5942",
+   "archived": "local-only/nl/2017/regiocup-zuid-2017-0910/bronnen/20170910_regiocup_zuid.jpg",
+   "notes": "DUBBEL (al in het archief): foto van het uitslagenblad 10 september 2017 (31 riders), dezelfde tabel als regiocup-zuid-2017-0910-slalom-overall"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2017-06-03_04-nk-slalom_lelystad.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "16d00857780ad2a3b078cab9e84aa70c51c8f5215112bca74152a24b2a5610fd",
+   "archived": "archive/nl/2017/nk-slalom-2017/bronnen/2017-06-03_04-nk-slalom_lelystad.pdf",
+   "notes": "TUSSENSTAND van stop 1, Lelystad 3-4 juni 2017 ('NK SLALOM - PROVESIONAL RESULTS JUNE 4TH 2017', 43 regels, 4 eliminaties). Zit in de eindstand nk-2017-slalom-heren: eliminaties 1-4 gelijk (vergeleken op 16 november 2026), alleen 'geen resultaat' is 42 bij stop 1 en 45 in de eindstand. Datum en plaats van stop 1 volgens deze bron en windsurfing.rdeleeuw.nl"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2014_05_06_NorthSeaCup.JPG",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "750f1c2573efd129c73f0eb7bf597018fb8dbbf98996b8f1cc055f89e5c99cb0",
+   "archived": "local-only/nl/2014/north-sea-cup-2014/bronnen/2014_05_06_NorthSeaCup.JPG",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/2014/north-sea-cup-2014/uitslagen/north-sea-cup-2014-course-raceboard-rsx.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/NK_Slalom_final_2014.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "2ca057c161b3431429ffe88806ab0d38cf61411f67bd71ad8956bf4ffcd6bcc9",
+   "archived": "archive/nl/2014/nk-slalom-2014/bronnen/NK_Slalom_final_2014.pdf",
+   "outputs": [
+    "archive/nl/2014/nk-slalom-2014/uitslagen/nk-2014-slalom-overall.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2013-05-11_eilandenrace.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "73db0f581aeb90452f4d1113a2912f7f5ed1be9f7f056d9c7868f64a0deb1b5c",
+   "archived": "archive/nl/2013/island-race-almere-2013/bronnen/2013-05-11_eilandenrace.html",
+   "outputs": [
+    "archive/nl/2013/island-race-almere-2013/uitslagen/island-race-almere-2013-overall.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2013_NK_Raceboard.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "b59aae9815211dfa6a152ff15e3273633a03db11ccd902b80cf64b5ab04eb659",
+   "archived": "archive/nl/2013/raceboard-trofee-2013/bronnen/2013_NK_Raceboard.pdf",
+   "outputs": [
+    "archive/nl/2013/raceboard-trofee-2013/uitslagen/raceboard-trofee-2013-course-raceboard.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2013_09_2829_Regiocup_zuid.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "42c3e8a06513d6945f82c0cf9202dfb68a0ffe71b1d7f59ebea9dd6aa3d2ab8d",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0928/bronnen/2013_09_2829_Regiocup_zuid.jpg",
+   "notes": "DUBBEL (al in het archief): foto van de eindstand slalom goud 28-29 september 2013 (onderkant afgesneden), dezelfde tabel als regiocup-zuid-2013-0928-slalom-gold"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2013_06_0809_Regiocup_zuid.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "fae0a9db8d7d099075337a62c9164c5eb607a12d103a5f641e7fa14b1536fd1e",
+   "archived": "local-only/nl/2013/regiocup-zuid-2013-0608/bronnen/2013_06_0809_Regiocup_zuid.jpg",
+   "notes": "DUBBEL (al in het archief): foto van de eindstand slalom goud 8-9 juni 2013 (27 riders), dezelfde tabel als regiocup-zuid-2013-0608-slalom-gold"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012_NK_Raceboard.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "fc4f0a39832c379461b6109a9abfa0059e25b05bf2505063de264afb7a2f88af",
+   "archived": "archive/nl/2012/nk-course-2012/bronnen/2012_NK_Raceboard.pdf",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): NK Tour 2012 'Eindresultaten 2012': Raceboard (4) en Techno 293 OD (22); de Formula-eindstand staat er niet in"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-06-30_NK_Grevelingendam.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "1a4e55473f973c49180e3c2063f778298af2bdd7ff12d2f00f886c034bd4c2e3",
+   "archived": "archive/nl/2012/nk-course-2012-0630/bronnen/2012-06-30_NK_Grevelingendam.html",
+   "outputs": [
+    "archive/nl/2012/nk-course-2012-0630/uitslagen/nk-course-2012-0630-formula.json",
+    "archive/nl/2012/nk-course-2012-0630/uitslagen/nk-course-2012-0630-raceboard.json",
+    "archive/nl/2012/nk-course-2012-0630/uitslagen/nk-course-2012-0630-techno-293.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-05-06_NK_Brouwersdam_Course_Race.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "994df6efb4983bcde840233710c75b183a0b2e71e14dae6478dbe6da8f51df9d",
+   "archived": "archive/nl/2012/nk-course-2012-0505/bronnen/2012-05-06_NK_Brouwersdam_Course_Race.pdf",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): NK Tour 2012, resultaten 5 en 6 mei: Raceboard (3) en Techno 293 OD (18 regels bij 'Entries: 19'); Formula staat er niet in"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-04-22_Schotsmancup.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "96cfadeec04261dd6a0441149634accb6437f41096727e950ca2d92bd9460733",
+   "archived": "archive/nl/2012/schotsmancup-2012/bronnen/2012-04-22_Schotsmancup.html",
+   "outputs": [
+    "archive/nl/2012/schotsmancup-2012/uitslagen/schotsmancup-2012-slalom-gold.json",
+    "archive/nl/2012/schotsmancup-2012/uitslagen/schotsmancup-2012-slalom-zilver.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012_Regiocup_Zuid_Slalom.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "d6d0eba3c0fe51cd1a48b17e538d7eacf90b62b674c6fffa56ee575273ae1287",
+   "archived": "archive/nl/2012/regiocup-zuid-2012/bronnen/2012_Regiocup_Zuid_Slalom.pdf",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'regiocup eindstand overall Slalom Gold', 28 races, 20 riders; zilver en Formula ontbreken. Herberekend zonder o.a. Ingmar en Sven Daldorf, dus de punten per race wijken af van de dagbladen"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012_10_28_Regiocup_Zuid_Slalom.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "2dd0eb4f55d4cda8854f862d8ff9f880aa5d1861f9d331172d4d8efbae40e7f1",
+   "archived": "archive/nl/2012/regiocup-zuid-2012/bronnen/2012_10_28_Regiocup_Zuid_Slalom.pdf",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): dag 28 oktober 2012, slalom goud (19 riders); zilver ontbreekt"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-06-17_RegioCupZuid.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "c39b6366509367fd678ad32f04967c8785f93175645cebe610708577306e5339",
+   "archived": "archive/nl/2012/regiocup-zuid-2012/bronnen/2012-06-17_RegioCupZuid.pdf",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): dag 17 juni 2012, slalom goud (11 riders plus 2 zilver); de zilvervloot is niet volledig"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/GPA2012.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "081696e0352a0ca2871bd1f5d7c314598cb581109e472406d68f60452dd038f2",
+   "archived": "archive/nl/2012/gpa-2012/bronnen/GPA2012.pdf",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): Grote Prijs Aalsmeer 7-10-2012, alleen 'Raceboard Heren' (23 regels, kloktijden na ronde 1 en 2)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-08-25_26_TheMissionXL.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "a7d64619fd74423915583e274e7906aa90201451ef7d52b995dc4daeec4d5a29",
+   "archived": "archive/nl/2012/the-mission-xl-2012/bronnen/2012-08-25_26_TheMissionXL.html",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'Uitslag van de categorie Pro-fleet' (23 riders, kolomkoppen ontbreken)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012_NK_Slalom.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "186183d1528bee455f421bfc351e1ea865b36d3bfc995050bb7333637e7375e0",
+   "archived": "archive/nl/2012/nk-slalom-2012/bronnen/2012_NK_Slalom.pdf",
+   "outputs": [
+    "archive/nl/2012/nk-slalom-2012/uitslagen/nk-2012-slalom-overall.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-05-05_NK_Brouwersdam_Slalom.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "a500d3fa19c95ed49312a47ebfec676d0551d41f0ba1f25fb77a3634d5bcadd5",
+   "archived": "archive/nl/2012/nk-slalom-2012/bronnen/2012-05-05_NK_Brouwersdam_Slalom.pdf",
+   "notes": "TUSSENSTAND 'Slalom t/m 5 mei 2012' (3 races, 53 inschrijvingen); de drie races zijn R1-R3 van het eindresultaat; tussenstand 't/m 5 mei' (53 inschrijvingen) vergeleken met R1-R3 van het eindresultaat: 49 riders gelijk, 4 met andere punten (de scores achterin hangen af van het aantal inschrijvingen)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012_04_15_nk_slalom_lelystad.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "ce1cb9007bc72fe9acc019b076cca7615898cc313041ccf107de3fc5b0325749",
+   "archived": "local-only/nl/2012/nk-slalom-2012/bronnen/2012_04_15_nk_slalom_lelystad.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/; 'IFCA (slalom) Class', Lelystad 15-16 april 2012, 2 races, 37 inschrijvingen: R1-R2 van het eindresultaat, maar een vroegere versie (achterin de vloot later andere punten, bijvoorbeeld Robert de Leeuw R1 31 werd 22)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2012_08_13-18_WK_Raceboard_Masters.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "wacht",
+   "updated": "2026-11-16",
+   "scope": "internationaal",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "4d32cf6894cdcf0a5ebbd5d2c51de1e52f484658ffba717dd0aac7e13368737f",
+   "archived": "archive/internationaal/2012/wk-raceboard-masters-2012/bronnen/2012_08_13-18_WK_Raceboard_Masters.pdf",
+   "notes": "internationaal (Windsurf Worlds 2012, Raceboard Masters, 69 inschrijvingen, Sailwave): bron bewaard, nog niet omgezet"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2011-10-09_regiocup_zuid.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "bf6f56a06642963f653c7c42a10ede421454ec0c34308773720ee5ed15de950f",
+   "archived": "archive/nl/2011/regiocup-zuid-2011/bronnen/2011-10-09_regiocup_zuid.html",
+   "notes": "dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (9 oktober 2011, 10 races)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2011-08-29_regiocup_zuid.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "365206f36f8fef8282b4a977d0d56c81f84a37aaf8868876a6b6c57c8f5d5f1c",
+   "archived": "archive/nl/2011/regiocup-zuid-2011/bronnen/2011-08-29_regiocup_zuid.html",
+   "notes": "dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (28 augustus 2011, 6 races)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2011_regiocup_zuid.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "e2dfc45fef777c6ad0ffc4674ff2f1f2d5714ebcf7eb82c9ddc1c37d5b5aa7af",
+   "archived": "archive/nl/2011/regiocup-zuid-2011/bronnen/2011_regiocup_zuid.html",
+   "outputs": [
+    "archive/nl/2011/regiocup-zuid-2011/uitslagen/regiocup-zuid-2011-slalom-gold.json",
+    "archive/nl/2011/regiocup-zuid-2011/uitslagen/regiocup-zuid-2011-slalom-zilver.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2011-09-18_regiocup_zuid.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "d4d8d527abb7a35bb5ed97b477a19505dbd08916930afe133457a467ab7c878f",
+   "archived": "archive/nl/2011/regiocup-zuid-2011-0918/bronnen/2011-09-18_regiocup_zuid.html",
+   "outputs": [
+    "archive/nl/2011/regiocup-zuid-2011-0918/uitslagen/regiocup-zuid-2011-0918-formula-gold.json",
+    "archive/nl/2011/regiocup-zuid-2011-0918/uitslagen/regiocup-zuid-2011-0918-formula-zilver.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2011_04_30_05_01_bk_slalom_grevelingendam.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "wacht",
+   "updated": "2026-11-16",
+   "scope": "internationaal",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "a00060e3330db887fc079111a22c6c58f38094d2fa16a8e63260c209d8602729",
+   "archived": "archive/internationaal/2011/bk-slalom-2011/bronnen/2011_04_30_05_01_bk_slalom_grevelingendam.html",
+   "notes": "internationaal (BK Slalom 2011, ZSC Broechem, Grevelingendam, 51 inschrijvingen, Sailwave, 'Results are final'): bron bewaard, nog niet omgezet"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_10_10_regiocup_zuid.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "309444877fa00945190c48563f633de72a912df2907bbfb1a33f95d9826017d3",
+   "archived": "archive/nl/2010/regiocup-zuid-2010/bronnen/2010_10_10_regiocup_zuid.html",
+   "notes": "dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (10 oktober 2010, 2 races)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_regiocup_zuid_eindstand.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "99b4e2ade2ed3252a33000fc488be42fd25857ed02b2f62ea4d18ceb589260e7",
+   "archived": "archive/nl/2010/regiocup-zuid-2010/bronnen/2010_regiocup_zuid_eindstand.html",
+   "outputs": [
+    "archive/nl/2010/regiocup-zuid-2010/uitslagen/regiocup-zuid-2010-slalom-gold.json",
+    "archive/nl/2010/regiocup-zuid-2010/uitslagen/regiocup-zuid-2010-slalom-zilver.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_10_24_regiocup_zuid.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "4c4c0106d4f89eea3b710d7d56eceaab8a27ac405a98b86f4bf97212ae7ccc94",
+   "archived": "archive/nl/2010/regiocup-zuid-2010/bronnen/2010_10_24_regiocup_zuid.html",
+   "notes": "dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (24 oktober 2010, 3 races)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_10_10_slalom_xl.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "d8457e4c6e906f26d18801572cd36aebe4cddc03d8cb4479b9a3843a6319ec56",
+   "archived": "archive/nl/2010/slalom-xl-2010-1023/bronnen/2010_10_10_slalom_xl.html",
+   "notes": "DUBBEL (al in het archief): html-export van hetzelfde werkblad als slalom-xl-2010-1023-slalom-overall (bestandsnaam zegt 10-10, de wedstrijd was 23 oktober): zelfde punten, vergeleken op 16 november 2026"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_06_20_regiocup_zuid_zw7.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "4c580319b8bab19dae814db8770dcfa39711fe117129da26bde4166353822e1c",
+   "archived": "archive/nl/2010/regiocup-zuid-2010/bronnen/2010_06_20_regiocup_zuid_zw7.html",
+   "notes": "dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (20 juni 2010, 10 races)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_the_mission_men.pdf",
+   "received": "2026-11-16",
+   "type": "pdf",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "81e8d6b7b4bd3447c0a6a336bb05adaba3ad5fb4598936911e2effc2941b59dd",
+   "archived": "archive/nl/2010/the-mission-2010/bronnen/2010_the_mission_men.pdf",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'Einduitslag: Men' (69 riders, 6 races); de andere vloten ontbreken"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_05_30_islandrace_almere.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "4464a2c048d760c51f6be7c2ba6500e0a4eba8028a2f3331494df5a182e141cb",
+   "archived": "archive/nl/2010/island-race-almere-2010/bronnen/2010_05_30_islandrace_almere.html",
+   "outputs": [
+    "archive/nl/2010/island-race-almere-2010/uitslagen/island-race-almere-2010-overall.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_08_29_bk_slalom_de_punt.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "wacht",
+   "updated": "2026-11-16",
+   "scope": "internationaal",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "80eb56c730ba82afdf79f43fbd5796eee0f02d1d471d0373e5501988c634a7e5",
+   "archived": "archive/internationaal/2010/bk-slalom-2010/bronnen/2010_08_29_bk_slalom_de_punt.html",
+   "notes": "internationaal (BK Race, RSX, Techno, Kona - De Punt 28/8-29/8/2010 SLALOM, 27 inschrijvingen, Sailwave, 'Results are final'): bron bewaard, nog niet omgezet"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2009_05_17_regiocup_zuid_zw7.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "90125403af8a0d98927bef5adc8931e42bb5267b8f5387d772df853acec57d30",
+   "archived": "archive/nl/2009/regiocup-zuid-2009/bronnen/2009_05_17_regiocup_zuid_zw7.html",
+   "notes": "dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (17 mei 2009, 6 races)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2009_10_25_regiocup_zuid_zw7.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "cc8236f8201d64cabb8bbd2e4fa88939a416f82c668e802a59437a8cd33faba0",
+   "archived": "archive/nl/2009/regiocup-zuid-2009/bronnen/2009_10_25_regiocup_zuid_zw7.html",
+   "notes": "dagresultaat; zit in de complete eindstand van dit evenement en is daarom alleen geregistreerd, niet apart omgezet (25 oktober 2009, 9 races)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2009_regiocup_zuid_eindstand.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "dd3ce09ef784bb157115d24d59752355a2953934dfac1057e4b7165b77ad998e",
+   "archived": "archive/nl/2009/regiocup-zuid-2009/bronnen/2009_regiocup_zuid_eindstand.html",
+   "outputs": [
+    "archive/nl/2009/regiocup-zuid-2009/uitslagen/regiocup-zuid-2009-slalom-gold.json",
+    "archive/nl/2009/regiocup-zuid-2009/uitslagen/regiocup-zuid-2009-slalom-zilver.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2009_the_mission.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "a70c9a2cfcbf19fad9e482e63415f337699f110df15515248fa68cb7f2c87bca",
+   "archived": "archive/nl/2009/the-mission-2009/bronnen/2009_the_mission.html",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): alleen de mannen (65 riders, voorrondes en finale)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2008_the_mission.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "4557255bc2b02a2fbcc4b5767f6138008a38f6945ec12809af1d37edb90ad8ee",
+   "archived": "archive/nl/2008/the-mission-2008/bronnen/2008_the_mission.html",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'RESULTS MEN' (84 riders, 4 races en finale)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2008_xstream_games.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "b4319e5ca494bec2fb1ae52456f177d505811ef85fdeaa46de08ae3ad543cec7",
+   "archived": "archive/nl/2008/xstream-games-2008/bronnen/2008_xstream_games.html",
+   "outputs": [
+    "archive/nl/2008/xstream-games-2008/uitslagen/xstream-games-2008-slalom-overall.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2007_the_mission.htm",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "594e6b5bf1784435296ac335a6ed9654ee0327b143d8af72c38e494a37180dc9",
+   "archived": "archive/nl/2007/the-mission-2007/bronnen/2007_the_mission.htm",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'RESULTS MEN (after 4 races & final)' (59 riders)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_master_games.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "2a998c6cd449514879ed8c982d3990194bc8605b6d409987db9846ecb129980f",
+   "archived": "local-only/nl/2006/mastergames-2006/bronnen/2006_master_games.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/; verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-dames.json",
+    "archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-kids.json",
+    "archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-masters.json",
+    "archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-seniors.json",
+    "archive/nl/2006/mastergames-2006/uitslagen/mastergames-2006-wedstrijdsurfers.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_05_20_f2_speedchallenge.htm",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "0a64ba0925255e6b3d46140955662b2e2216c3c33a4d82b8a345619460bf271c",
+   "archived": "archive/nl/2006/f2-speedchallenge-2006/bronnen/2006_05_20_f2_speedchallenge.htm",
+   "outputs": [
+    "archive/nl/2006/f2-speedchallenge-2006/uitslagen/f2-speedchallenge-2006-speed.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_cool_shoe_crossing.htm",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "7d6781e37a24e2144ec474b9f8cecba37e578e7459c3d145279dad8b8d1f9301",
+   "archived": "archive/nl/2006/cool-shoe-crossing-2006/bronnen/2006_cool_shoe_crossing.htm",
+   "outputs": [
+    "archive/nl/2006/cool-shoe-crossing-2006/uitslagen/cool-shoe-crossing-2006-overall.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2006_the_mission.htm",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "9c6d13ec82192309ff863ad469ff485fcfa5c45c07d16e2aa7a8a397a8cbf9e8",
+   "archived": "archive/nl/2006/the-mission-2006/bronnen/2006_the_mission.htm",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): alleen Fleet 'Men' (130 riders, voorrondes en finale)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2005_cool_shoe_crossing.htm",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "f4567883436a9b061dcfeb385e69a8bf81404290d7e8959677b7ac70e2537f5b",
+   "archived": "archive/nl/2005/cool-shoe-crossing-2005/bronnen/2005_cool_shoe_crossing.htm",
+   "outputs": [
+    "archive/nl/2005/cool-shoe-crossing-2005/uitslagen/cool-shoe-crossing-2005-overall.json"
+   ],
+   "notes": "verwerkt met tools/import_rdeleeuw.py"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/2005_the_mission.htm",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "3175b3d96590c9f2e4501c7bc4878a3f0ad01072737aecc00203695651458ee8",
+   "archived": "archive/nl/2005/the-mission-2005/bronnen/2005_the_mission.htm",
+   "notes": "NIET COMPLEET, niet omgezet (keuze van de gebruiker op 16 november 2026: alleen complete uitslagen omzetten): 'UITSLAG MEN 20 AUGUSTUS 2005' (76 regels)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1999_05_29_30%20The%20Real%20Trip%20Kabbelaarsbank.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "overig",
+   "sha256": "8abc9ddf147d5f70af162c0fb29e042f30b60a9c6ae87f54bb86aef9c8e8f233",
+   "archived": "local-only/nl/1999/the-real-trip-1999-0529/bronnen/1999_05_29_30 The Real Trip Kabbelaarsbank.html",
+   "notes": "pagina van windsurfing.rdeleeuw.nl met alleen de scans van het uitslagenblad en één zin tekst; bewaard bij de scans in local-only/"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_06_27%20University%20of%20Speed%20Grevelingendam.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "c91702484a16355278dbdb0407da2c38d88b2bf08175a4b0b6704c8199a251da",
+   "archived": "local-only/nl/1998/university-of-speed-1998-0627/bronnen/1998_06_27 University of Speed Grevelingendam.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/; het blad noemt per rider de woonplaats (niet overgenomen); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/university-of-speed-1998-0627/uitslagen/university-of-speed-1998-0627-speed.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_07_12%20University%20of%20Speed%20Brouwersdam.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "7ea318571c4dc467419667d561018ff95a22f7c79c9bd78240a5bd710e507e9e",
+   "archived": "local-only/nl/1998/university-of-speed-1998-0712/bronnen/1998_07_12 University of Speed Brouwersdam.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/; het blad noemt per rider de woonplaats (niet overgenomen); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/university-of-speed-1998-0712/uitslagen/university-of-speed-1998-0712-speed.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_05_09_10%20The%20Real%20Trip%20Kabbelaarsbank.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "overig",
+   "sha256": "7df063546784a059b02b120055d497932d49893ada375f552ad4ff133723e778",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0509/bronnen/1998_05_09_10 The Real Trip Kabbelaarsbank.html",
+   "notes": "pagina van windsurfing.rdeleeuw.nl met alleen de scans van het uitslagenblad en één zin tekst; bewaard bij de scans in local-only/"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_09_12_13%20The%20Real%20Trip%20Makkum.html",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "overig",
+   "sha256": "cd43a92e0e517be2aa38c8e9f95fc4d451dc7de356e88972f467026ea4c3b749",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0912/bronnen/1998_09_12_13 The Real Trip Makkum.html",
+   "notes": "pagina van windsurfing.rdeleeuw.nl met alleen de scans van het uitslagenblad en één zin tekst; bewaard bij de scans in local-only/"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_05_09_10%20The%20Real%20Trip%20Kabbelaarsbank%201.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "6bb1851b6994a041c4c6778596a451311d6a6ccc57e1ba857712d0df8b721546",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0509/bronnen/1998_05_09_10 The Real Trip Kabbelaarsbank 1.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 1 van 3); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/the-real-trip-1998-0509/uitslagen/the-real-trip-1998-0509-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_05_09_10%20The%20Real%20Trip%20Kabbelaarsbank%202.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "d7fef21ed886253cae12184940ddac31b137439619e52e38ea95296376597523",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0509/bronnen/1998_05_09_10 The Real Trip Kabbelaarsbank 2.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 2 van 3); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/the-real-trip-1998-0509/uitslagen/the-real-trip-1998-0509-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_05_09_10%20The%20Real%20Trip%20Kabbelaarsbank%203.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "bc7cb1a6a2bf1feb074f64ede176cae52da3658b9b21b287e3f040b9c97446c4",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0509/bronnen/1998_05_09_10 The Real Trip Kabbelaarsbank 3.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 3 van 3); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/the-real-trip-1998-0509/uitslagen/the-real-trip-1998-0509-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_09_12_13%20The%20Real%20Trip%20Makkum%201.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "9a8b3dbd7ebb768dd378be0fc1b0af52b9ebd0445806ab354057a6dd4310caea",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0912/bronnen/1998_09_12_13 The Real Trip Makkum 1.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 1 van 4); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/the-real-trip-1998-0912/uitslagen/the-real-trip-1998-0912-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_09_12_13%20The%20Real%20Trip%20Makkum%202.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "03dd98370db86112bf7cc6524a3c2c8bc2550fec4242d2099f1b601e1c14fd85",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0912/bronnen/1998_09_12_13 The Real Trip Makkum 2.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 2 van 4); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/the-real-trip-1998-0912/uitslagen/the-real-trip-1998-0912-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_09_12_13%20The%20Real%20Trip%20Makkum%203.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "1ae94c0bf34aae260fdfee8173e26529c7e952c6f7d872eb494c358809ca99aa",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0912/bronnen/1998_09_12_13 The Real Trip Makkum 3.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 3 van 4); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/the-real-trip-1998-0912/uitslagen/the-real-trip-1998-0912-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_09_12_13%20The%20Real%20Trip%20Makkum%204.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "cd5abe64771e835010ed750fdeead7d0b4b5ede49bee7a64ce10f775b19f1773",
+   "archived": "local-only/nl/1998/the-real-trip-1998-0912/bronnen/1998_09_12_13 The Real Trip Makkum 4.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 4 van 4); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1998/the-real-trip-1998-0912/uitslagen/the-real-trip-1998-0912-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1999_05_29_30%20The%20Real%20Trip%20Kabbelaarsbank%201.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "f93b17881e9b068234902e71c4249ae032a2974ae040d6a87ce3d9e33e5676f3",
+   "archived": "local-only/nl/1999/the-real-trip-1999-0529/bronnen/1999_05_29_30 The Real Trip Kabbelaarsbank 1.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 1 van 2); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1999/the-real-trip-1999-0529/uitslagen/the-real-trip-1999-0529-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/1999_05_29_30%20The%20Real%20Trip%20Kabbelaarsbank%202.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "verwerkt",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "sha256": "7bdda100f9c52b03b5c04fbc75b80a89773c829d2c05ba652a9ed342fac0a04c",
+   "archived": "local-only/nl/1999/the-real-trip-1999-0529/bronnen/1999_05_29_30 The Real Trip Kabbelaarsbank 2.jpg",
+   "notes": "scan van het uitslagenblad op windsurfing.rdeleeuw.nl (maker en rechten niet bekend): daarom niet in git maar in local-only/ (blad 2 van 2); verwerkt met tools/import_rdeleeuw.py",
+   "outputs": [
+    "archive/nl/1999/the-real-trip-1999-0529/uitslagen/the-real-trip-1999-0529-overall.json"
+   ]
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/results",
+   "received": "2026-11-16",
+   "type": "web",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "overig",
+   "sha256": "6f68b26d517b23625fcba06d7834d944b6ecacb519ec43c87865b428021247a4",
+   "archived": "local-only/nl/bronnen-rdeleeuw/results-pagina.html",
+   "notes": "de overzichtspagina https://windsurfing.rdeleeuw.nl/results zelf (61 uitslagregels van Robert de Leeuw, 1998-2022), opgeslagen op 16 november 2026"
+  },
+  {
+   "ref": "inbox/bulk/rdeleeuw-uitslagen/manifest.json",
+   "received": "2026-11-16",
+   "type": "json",
+   "status": "overgeslagen",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "overig",
+   "sha256": "759e79d63667ba1ad7cec282b413c14add246b6c70d66806f414fd00a96bc893",
+   "archived": "local-only/nl/bronnen-rdeleeuw/manifest.json",
+   "notes": "lijst van de opgehaalde bestanden met adres, grootte en sha256 (gemaakt bij het ophalen op 16 november 2026)"
+  },
+  {
+   "ref": "https://windsurfing.rdeleeuw.nl/uitslagen/regiocup_zuid_2017_05_07_fun_races.jpg",
+   "received": "2026-11-16",
+   "type": "image",
+   "status": "onleesbaar",
+   "updated": "2026-11-16",
+   "scope": "nl",
+   "channel": "bulk",
+   "kind": "uitslag",
+   "notes": "gelinkt op windsurfing.rdeleeuw.nl (Regiocup Zuid 7 mei 2017, Fun Races; Robert de Leeuw 15e, 3e in vloot B) maar op 16 november 2026 niet meer te openen (HTTP 404); alleen de link is geregistreerd"
   }
  ]
 }

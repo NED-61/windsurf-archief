@@ -1,0 +1,19 @@
+{
+ "event_slug": "bk-slalom-2011",
+ "scope": "internationaal",
+ "name": "BK Slalom 2011 (Grevelingendam)",
+ "series": "BK Slalom",
+ "year": 2011,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "2011-04-30",
+ "date_end": "2011-05-01",
+ "location": "Grevelingendam",
+ "discipline": "slalom",
+ "classes": [],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Belgisch kampioenschap (ZSC Broechem) op de Grevelingendam: internationaal zoals bk-formula-slalom-2008; bron bewaard en nog niet omgezet."
+ ]
+}

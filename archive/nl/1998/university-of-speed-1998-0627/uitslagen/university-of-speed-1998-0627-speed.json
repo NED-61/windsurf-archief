@@ -1,0 +1,449 @@
+{
+ "schema_version": 1,
+ "id": "university-of-speed-1998-0627-speed",
+ "event": {
+  "name": "University of Speed, 27 juni 1998",
+  "scope": "nl",
+  "series": "University of Speed",
+  "year": 1998,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "1998-06-27",
+  "location": "Grevelingendam",
+  "discipline": "speed",
+  "gender": null,
+  "class": "Speed",
+  "class_label_published": "university of speed"
+ },
+ "format": {
+  "type": "speed",
+  "unit": "km/h",
+  "ranking": "op de hoogste gemeten snelheid (kolom 'km/uur 1e')",
+  "speeds_published": "per rider de drie hoogste snelheden ('km/uur 1e', '2e', '3e'), zoals gepubliceerd; 'heats' = aantal gevaren heats; 'jaar ranking' = plaats in de jaarranking"
+ },
+ "source": {
+  "name": "1998_06_27 University of Speed Grevelingendam.jpg",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/1998_06_27%20University%20of%20Speed%20Grevelingendam.jpg",
+  "file": "local-only/nl/1998/university-of-speed-1998-0627/bronnen/1998_06_27 University of Speed Grevelingendam.jpg",
+  "type": "image",
+  "retrieved": "2026-11-16",
+  "method": "met de hand overgetikt van de scan (uitsnedes vergroot gelezen); daarna per rider de volgorde nagerekend tegen de snelheden",
+  "metadata_sources": [],
+  "verified": "26 regels (blad: 26); plaatsen aaneengesloten; volgorde aflopend op de hoogste snelheid; per rider de snelheden aflopend (1e = hoogste); geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Overgetikt van een scan van het blad 'university of speed' (North Sails, Pro Limit) op windsurfing.rdeleeuw.nl: plaats, nummer, naam, aantal heats, de drie hoogste snelheden in km/u en de plaats in de jaarranking.",
+  "De woonplaats (kolom op het blad) is niet overgenomen; de scan staat daarom in local-only/ en niet in git.",
+  "De kolom 'zeilnr.' bevat de nummers van het evenement: die staan in bib.",
+  "speeds = de gepubliceerde snelheden, hoogste eerst; speed = de hoogste (waarop gerangschikt is)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "ruud-groeneveld",
+   "sail": null,
+   "bib": "3",
+   "name": "Ruud Groeneveld",
+   "division": null,
+   "speed": 56.5,
+   "speeds": [
+    56.5,
+    53.2,
+    43.4
+   ],
+   "remark": null,
+   "heats": 3,
+   "year_rank": 6
+  },
+  {
+   "rank": 2,
+   "person": "paul-tempels",
+   "sail": null,
+   "bib": "27",
+   "name": "Paul Tempels",
+   "division": null,
+   "speed": 51.4,
+   "speeds": [
+    51.4
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 28
+  },
+  {
+   "rank": 3,
+   "person": "arie-de-boed",
+   "sail": null,
+   "bib": "48",
+   "name": "Arie de Boed",
+   "division": null,
+   "speed": 49.8,
+   "speeds": [
+    49.8,
+    42.7
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 43
+  },
+  {
+   "rank": 4,
+   "person": "robert-de-leeuw",
+   "sail": null,
+   "bib": "14",
+   "name": "Robert de Leeuw",
+   "division": null,
+   "speed": 48.9,
+   "speeds": [
+    48.9,
+    39.0
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 55
+  },
+  {
+   "rank": 5,
+   "person": "peter-van-campen",
+   "sail": null,
+   "bib": "15",
+   "name": "Peter van Campen",
+   "division": null,
+   "speed": 48.4,
+   "speeds": [
+    48.4,
+    42.1
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 59
+  },
+  {
+   "rank": 6,
+   "person": "edwin-junge",
+   "sail": null,
+   "bib": "13",
+   "name": "Edwin Junge",
+   "division": null,
+   "speed": 48.3,
+   "speeds": [
+    48.3,
+    45.5
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 62
+  },
+  {
+   "rank": 7,
+   "person": "maurits-drenth",
+   "sail": null,
+   "bib": "8",
+   "name": "Maurits Drenth",
+   "division": null,
+   "speed": 48.1,
+   "speeds": [
+    48.1
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 64
+  },
+  {
+   "rank": 8,
+   "person": "rob-vendrig",
+   "sail": null,
+   "bib": "53",
+   "name": "Rob Vendrig",
+   "division": null,
+   "speed": 48.0,
+   "speeds": [
+    48.0
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 68
+  },
+  {
+   "rank": 9,
+   "person": "dennis-littel",
+   "sail": null,
+   "bib": "29",
+   "name": "Dennis Littel",
+   "division": null,
+   "speed": 47.5,
+   "speeds": [
+    47.5,
+    42.2
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 76
+  },
+  {
+   "rank": 10,
+   "person": "john-kock",
+   "sail": null,
+   "bib": "19",
+   "name": "John Kock",
+   "division": null,
+   "speed": 46.9,
+   "speeds": [
+    46.9,
+    46.8,
+    45.6
+   ],
+   "remark": null,
+   "heats": 4,
+   "year_rank": 86
+  },
+  {
+   "rank": 11,
+   "person": "coen-annijas",
+   "sail": null,
+   "bib": "45",
+   "name": "Coen Annijas",
+   "division": null,
+   "speed": 46.0,
+   "speeds": [
+    46.0
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 96
+  },
+  {
+   "rank": 12,
+   "person": "michiel-van-der-does",
+   "sail": null,
+   "bib": "18",
+   "name": "Michiel van der Does",
+   "division": null,
+   "speed": 45.8,
+   "speeds": [
+    45.8,
+    37.8
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 100
+  },
+  {
+   "rank": 13,
+   "person": "joost-spoel",
+   "sail": null,
+   "bib": "5",
+   "name": "Joost Spoel",
+   "division": null,
+   "speed": 45.5,
+   "speeds": [
+    45.5,
+    42.8
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 107
+  },
+  {
+   "rank": 14,
+   "person": "willem-jan-coolberge",
+   "sail": null,
+   "bib": "51",
+   "name": "Willem Jan Coolberge",
+   "division": null,
+   "speed": 45.3,
+   "speeds": [
+    45.3
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 111,
+   "flag": "naam afgekapt op het blad"
+  },
+  {
+   "rank": 15,
+   "person": "rob-van-dijk",
+   "sail": null,
+   "bib": "24",
+   "name": "Rob van Dijk",
+   "division": null,
+   "speed": 44.1,
+   "speeds": [
+    44.1
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 122
+  },
+  {
+   "rank": 16,
+   "person": "jc-de-haan",
+   "sail": null,
+   "bib": "4",
+   "name": "J.C. de Haan",
+   "division": null,
+   "speed": 43.7,
+   "speeds": [
+    43.7
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 126
+  },
+  {
+   "rank": 17,
+   "person": "alain-naets",
+   "sail": null,
+   "bib": "50",
+   "name": "Alain Naets",
+   "division": null,
+   "speed": 42.9,
+   "speeds": [
+    42.9,
+    39.1
+   ],
+   "remark": null,
+   "heats": 2,
+   "year_rank": 132
+  },
+  {
+   "rank": 18,
+   "person": "erwin-heeres",
+   "sail": null,
+   "bib": "30",
+   "name": "Erwin Heeres",
+   "division": null,
+   "speed": 42.3,
+   "speeds": [
+    42.3
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 140
+  },
+  {
+   "rank": 19,
+   "person": "jeremy-beekman",
+   "sail": null,
+   "bib": "52",
+   "name": "Jeremy Beekman",
+   "division": null,
+   "speed": 42.3,
+   "speeds": [
+    42.3
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 139
+  },
+  {
+   "rank": 20,
+   "person": "johan-gelauff",
+   "sail": null,
+   "bib": "9",
+   "name": "Johan Gelauff",
+   "division": null,
+   "speed": 37.8,
+   "speeds": [
+    37.8
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 177
+  },
+  {
+   "rank": 21,
+   "person": "anita-van-kats",
+   "sail": null,
+   "bib": "20",
+   "name": "Anita van Kats",
+   "division": null,
+   "speed": 34.7,
+   "speeds": [
+    34.7
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 195
+  },
+  {
+   "rank": 22,
+   "person": "sven-akerboom",
+   "sail": null,
+   "bib": "1",
+   "name": "Sven Akerboom",
+   "division": null,
+   "speed": 33.0,
+   "speeds": [
+    33.0
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 201
+  },
+  {
+   "rank": 23,
+   "person": "youri-vales",
+   "sail": null,
+   "bib": "31",
+   "name": "Youri Vales",
+   "division": null,
+   "speed": 30.7,
+   "speeds": [
+    30.7
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 207
+  },
+  {
+   "rank": 24,
+   "person": "roelof-van-hemmen",
+   "sail": null,
+   "bib": "2",
+   "name": "Roelof van Hemmen",
+   "division": null,
+   "speed": 29.5,
+   "speeds": [
+    29.5
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 208
+  },
+  {
+   "rank": 25,
+   "person": "wendy-littel",
+   "sail": null,
+   "bib": "28",
+   "name": "Wendy Littel",
+   "division": null,
+   "speed": 29.1,
+   "speeds": [
+    29.1,
+    27.5,
+    21.0
+   ],
+   "remark": null,
+   "heats": 3,
+   "year_rank": 210
+  },
+  {
+   "rank": 26,
+   "person": "ben-v-d-schaaf",
+   "sail": null,
+   "bib": "23",
+   "name": "Ben v/d Schaaf",
+   "division": null,
+   "speed": 28.2,
+   "speeds": [
+    28.2
+   ],
+   "remark": null,
+   "heats": 1,
+   "year_rank": 211
+  }
+ ],
+ "detail": {}
+}

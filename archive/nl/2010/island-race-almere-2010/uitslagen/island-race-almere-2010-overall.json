@@ -1,0 +1,237 @@
+{
+ "schema_version": 1,
+ "id": "island-race-almere-2010-overall",
+ "event": {
+  "name": "Island Race Almere 2010",
+  "scope": "nl",
+  "series": "Island Race Almere",
+  "year": 2010,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2010-05-30",
+  "location": "Almere",
+  "discipline": null,
+  "gender": null,
+  "class": "Overall",
+  "class_label_published": "Island Race 30 Mei 2010"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [],
+  "discards": null,
+  "races_to_count": null,
+  "scoring_system": "niet gepubliceerd",
+  "points_per_race_published": false,
+  "ranking_only": true
+ },
+ "source": {
+  "name": "2010_05_30_islandrace_almere.html",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2010_05_30_islandrace_almere.html",
+  "file": "archive/nl/2010/island-race-almere-2010/bronnen/2010_05_30_islandrace_almere.html",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "html-tabel gelezen met BeautifulSoup",
+  "metadata_sources": [],
+  "verified": "24 riders; plaatsen 1 t/m 24 doorlopend; geen dubbele namen"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Island Race 30 Mei 2010' (Windsurfvereniging Almere Centraal): alleen plaats en naam (kolommen 'Pos' en 'Deelnemer').",
+  "Geen races, punten, tijden of zeilnummers gepubliceerd; het formaat van de wedstrijd staat niet in de bron."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "adri-keet",
+   "sail": null,
+   "name": "Adri Keet",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 2,
+   "person": "pieter-eliens",
+   "sail": null,
+   "name": "Pieter Eliëns",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 3,
+   "person": "marc-de-jong",
+   "sail": null,
+   "name": "Marc de Jong",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 4,
+   "person": "tomas-van-zelst",
+   "sail": null,
+   "name": "Thomas van Zelst",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 5,
+   "person": "jordy-vonk",
+   "sail": null,
+   "name": "Jordy Vonk",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 6,
+   "person": "jan-duiker",
+   "sail": null,
+   "name": "Jan Duiker",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 7,
+   "person": "nick-v-d-hoorn",
+   "sail": null,
+   "name": "Nick v/d Hoorn",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 8,
+   "person": "martijn-van-citteren",
+   "sail": null,
+   "name": "Martijn van Citteren",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 9,
+   "person": "danny-kater",
+   "sail": null,
+   "name": "Danny Kater",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 10,
+   "person": "cobus-v-d-stel",
+   "sail": null,
+   "name": "Cobus v/d Stel",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 11,
+   "person": "leon-row",
+   "sail": null,
+   "name": "Leon Row",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 12,
+   "person": "orion-v-d-sluis",
+   "sail": null,
+   "name": "Orion v/d Sluis",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 13,
+   "person": "sara-wennekes",
+   "sail": null,
+   "name": "Sara Wennekes",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 14,
+   "person": "richard-konstapel",
+   "sail": null,
+   "name": "Richard Konstapel",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 15,
+   "person": "renee-glasz",
+   "sail": null,
+   "name": "René Glasz",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 16,
+   "person": "robert-de-leeuw",
+   "sail": null,
+   "name": "Robert de Leeuw",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 17,
+   "person": "melvin-rademakers",
+   "sail": null,
+   "name": "Melvin Rademakers",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 18,
+   "person": "jasper-dessens",
+   "sail": null,
+   "name": "Jasper Dessens",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 19,
+   "person": "raymond-meijer",
+   "sail": null,
+   "name": "Raymond Meijer",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 20,
+   "person": "marc-rutgers",
+   "sail": null,
+   "name": "Marc Rutgers",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 21,
+   "person": "max-v-d-storm",
+   "sail": null,
+   "name": "Max v/d Storm",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 22,
+   "person": "jeroen-holman",
+   "sail": null,
+   "name": "Jeroen Holman",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 23,
+   "person": "rob-leijen",
+   "sail": null,
+   "name": "Rob Leijen",
+   "total": null,
+   "net": null
+  },
+  {
+   "rank": 24,
+   "person": "sam-wennekes",
+   "sail": null,
+   "name": "Sam Wennekes",
+   "total": null,
+   "net": null
+  }
+ ],
+ "detail": {}
+}

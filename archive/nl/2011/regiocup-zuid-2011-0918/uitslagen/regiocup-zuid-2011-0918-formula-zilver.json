@@ -1,0 +1,215 @@
+{
+ "schema_version": 1,
+ "id": "regiocup-zuid-2011-0918-formula-zilver",
+ "event": {
+  "name": "Regiocup Zuid formula, 18 september 2011",
+  "scope": "nl",
+  "series": "Regiocup Zuid",
+  "year": 2011,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2011-09-18",
+  "location": null,
+  "discipline": "course_race",
+  "gender": null,
+  "class": "Silver fleet",
+  "class_label_published": "Regiocupzuid 2011 - Dag klassement 18-09-2011 - Silverfleet",
+  "fleet": "silver"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6"
+  ],
+  "discards": 1,
+  "races_to_count": 5,
+  "scoring_system": "Appendix A (Sailwave, ZW7); bij een code staan in de bron geen punten",
+  "code_points_basis": "DNC = 8 (inschrijvingen + 1), andere code = riders zonder DNC in die race + 1 (afgeleid: verklaart alle gepubliceerde netto-scores)",
+  "discards_marked": false
+ },
+ "source": {
+  "name": "2011-09-18_regiocup_zuid.html",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2011-09-18_regiocup_zuid.html",
+  "file": "archive/nl/2011/regiocup-zuid-2011-0918/bronnen/2011-09-18_regiocup_zuid.html",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "html-tabellen gelezen met BeautifulSoup; de punten bij codes afgeleid met de regel in code_points_basis",
+  "metadata_sources": [],
+  "verified": "7 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend (codes: DNC = 8 (inschrijvingen + 1), andere code = riders zonder DNC in die race + 1): gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Dagklassement formula 18-9-2011' (Silverfleet, 'Silverfleet - Sailed: 6 Discards: 1 Ratings: None'). Namen en zeilnummers zoals gepubliceerd.",
+  "De bron geeft alleen de netto-score (Pts) en markeert niet welke races zijn weggelaten: de weggelaten scores (de slechtste, met de afgeleide waarde van een code) staan in discard_points.",
+  "Bij een code (DNC, DNF, DNS, DSQ, RDGa) staan geen punten: die punten zijn leeg, de code staat in race_remarks. RDGa = gemiddelde punten (verhaal); die waarde is niet gepubliceerd.",
+  "Een zeilnummercel zonder cijfer ('-', 'P', 'x') of met een clubnummer ('zw1', land 'zw') staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "ko-de-visser",
+   "sail": "NED 252",
+   "name": "Ko de Visser",
+   "nationality": "NED",
+   "points": [
+    1.0,
+    2.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 5.0,
+   "discard_points": [
+    2.0
+   ]
+  },
+  {
+   "rank": 2,
+   "person": "imke-de-bruin",
+   "sail": "BEL 22",
+   "name": "Imke de Bruin",
+   "nationality": "BEL",
+   "points": [
+    2.0,
+    1.0,
+    3.0,
+    2.0,
+    3.0,
+    2.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 10.0,
+   "discard_points": [
+    3.0
+   ]
+  },
+  {
+   "rank": 3,
+   "person": "andrea-vanhoorne",
+   "sail": "BEL 26",
+   "name": "Andrea Vanhoorne",
+   "nationality": "BEL",
+   "points": [
+    4.0,
+    4.0,
+    2.0,
+    3.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 14.0,
+   "discard_points": [
+    4.0
+   ]
+  },
+  {
+   "rank": 4,
+   "person": "robert-de-leeuw",
+   "sail": "NED 118",
+   "name": "Robert de Leeuw",
+   "nationality": "NED",
+   "points": [
+    3.0,
+    3.0,
+    4.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 18.0,
+   "discard_points": [
+    4.0
+   ]
+  },
+  {
+   "rank": 5,
+   "person": "peter-magnee",
+   "sail": "NED 811",
+   "name": "Peter Magneé",
+   "nationality": "NED",
+   "points": [
+    5.0,
+    5.0,
+    5.0,
+    6.0,
+    5.0,
+    null
+   ],
+   "race_remarks": {
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 26.0,
+   "discard_points": [
+    8
+   ]
+  },
+  {
+   "rank": 6,
+   "person": "mike-kiten",
+   "sail": null,
+   "name": "Mike Kiten",
+   "sail_published": "TF",
+   "nationality": "NED",
+   "points": [
+    null,
+    null,
+    6.0,
+    5.0,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R2": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 35.0,
+   "discard_points": [
+    8
+   ]
+  },
+  {
+   "rank": 7,
+   "person": "adriaan-van-loopik",
+   "sail": "NED 111",
+   "name": "Adriaan van Loopik",
+   "nationality": "NED",
+   "points": [
+    null,
+    6.0,
+    7.0,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R1": "DNF",
+    "R4": "DNF",
+    "R5": "DNF",
+    "R6": "DNF"
+   },
+   "total": null,
+   "net": 37.0,
+   "discard_points": [
+    8
+   ]
+  }
+ ],
+ "detail": {}
+}

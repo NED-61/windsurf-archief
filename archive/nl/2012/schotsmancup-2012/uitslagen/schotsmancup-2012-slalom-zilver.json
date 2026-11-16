@@ -1,0 +1,292 @@
+{
+ "schema_version": 1,
+ "id": "schotsmancup-2012-slalom-zilver",
+ "event": {
+  "name": "Schotsmancup 2012",
+  "scope": "nl",
+  "series": "Schotsmancup",
+  "year": 2012,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2012-04-22",
+  "location": null,
+  "discipline": "slalom",
+  "gender": null,
+  "class": "Silver fleet",
+  "class_label_published": "Schotsmancup 2012: ROHA Bokaal - Dag klassement 22-04-2012 - Silver Fleet",
+  "fleet": "silver"
+ },
+ "format": {
+  "type": "fleet_racing",
+  "races": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R7",
+   "R8",
+   "R9",
+   "R10"
+  ],
+  "discards": 2,
+  "races_to_count": 8,
+  "scoring_system": "Appendix A (Sailwave, ZW7); bij een code staan in de bron geen punten",
+  "code_points_basis": "DNC = 9 (inschrijvingen + 1), andere code = riders zonder DNC in die race + 1 (afgeleid: verklaart alle gepubliceerde netto-scores)",
+  "discards_marked": false
+ },
+ "source": {
+  "name": "2012-04-22_Schotsmancup.html",
+  "url": "https://windsurfing.rdeleeuw.nl/uitslagen/2012-04-22_Schotsmancup.html",
+  "file": "archive/nl/2012/schotsmancup-2012/bronnen/2012-04-22_Schotsmancup.html",
+  "type": "web",
+  "retrieved": "2026-11-16",
+  "method": "html-tabellen gelezen met BeautifulSoup; de punten bij codes afgeleid met de regel in code_points_basis",
+  "metadata_sources": [],
+  "verified": "8 riders; plaatsen oplopend (gedeelde plaatsen toegestaan); rangschikking oplopend op netto; punten herrekend (codes: DNC = 9 (inschrijvingen + 1), andere code = riders zonder DNC in die race + 1): gelijk; geen dubbele namen; weglatingen zijn steeds de slechtste scores"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Gepubliceerd als 'Dagklassement Schotsmancup 22-04-2012' (Silver Fleet, 'Silver Fleet - Sailed: 10 Discards: 2 Ratings: None'). Namen en zeilnummers zoals gepubliceerd.",
+  "De bron geeft alleen de netto-score (Pts) en markeert niet welke races zijn weggelaten: de weggelaten scores (de slechtste, met de afgeleide waarde van een code) staan in discard_points.",
+  "Bij een code (DNC, DNF, DNS, DSQ, RDGa) staan geen punten: die punten zijn leeg, de code staat in race_remarks. RDGa = gemiddelde punten (verhaal); die waarde is niet gepubliceerd.",
+  "Een zeilnummercel zonder cijfer ('-', 'P', 'x') of met een clubnummer ('zw1', land 'zw') staat in sail_published; sail is dan leeg."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "koen-onderbeke",
+   "sail": "BEL 7",
+   "name": "Koen Onderbeke",
+   "nationality": "BEL",
+   "points": [
+    1.0,
+    2.0,
+    1.0,
+    1.0,
+    3.0,
+    1.0,
+    3.0,
+    null,
+    1.0,
+    2.0
+   ],
+   "race_remarks": {
+    "R8": "DNC"
+   },
+   "total": null,
+   "net": 12.0,
+   "discard_points": [
+    9,
+    3.0
+   ]
+  },
+  {
+   "rank": 2,
+   "person": "patrick-van-mol",
+   "sail": "BEL 38",
+   "name": "Patrick van Mol",
+   "nationality": "BEL",
+   "points": [
+    2.0,
+    1.0,
+    5.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    null,
+    null,
+    1.0
+   ],
+   "race_remarks": {
+    "R8": "DNC",
+    "R9": "DNC"
+   },
+   "total": null,
+   "net": 17.0,
+   "discard_points": [
+    9,
+    9
+   ]
+  },
+  {
+   "rank": 3,
+   "person": "ko-de-visser",
+   "sail": "H252",
+   "name": "Ko de Visser",
+   "nationality": "NED",
+   "points": [
+    6.0,
+    3.0,
+    6.0,
+    6.0,
+    1.0,
+    3.0,
+    1.0,
+    1.0,
+    2.0,
+    3.0
+   ],
+   "race_remarks": {},
+   "total": null,
+   "net": 20.0,
+   "discard_points": [
+    6.0,
+    6.0
+   ]
+  },
+  {
+   "rank": 4,
+   "person": "orion-van-der-sluis",
+   "sail": "NED 205",
+   "name": "Orion van der Sluis",
+   "nationality": "NED",
+   "points": [
+    3.0,
+    6.0,
+    2.0,
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    null,
+    3.0,
+    4.0
+   ],
+   "race_remarks": {
+    "R8": "DNC"
+   },
+   "total": null,
+   "net": 30.0,
+   "discard_points": [
+    9,
+    6.0
+   ]
+  },
+  {
+   "rank": 5,
+   "person": "johen-vente",
+   "sail": null,
+   "name": "Johen Vente",
+   "sail_published": "zw 5",
+   "points": [
+    4.0,
+    5.0,
+    3.0,
+    5.0,
+    5.0,
+    null,
+    4.0,
+    null,
+    4.0,
+    6.0
+   ],
+   "race_remarks": {
+    "R6": "DNC",
+    "R8": "DNC"
+   },
+   "total": null,
+   "net": 36.0,
+   "discard_points": [
+    9,
+    9
+   ]
+  },
+  {
+   "rank": 6,
+   "person": "stephan-koester",
+   "sail": null,
+   "name": "Stephan Koester",
+   "sail_published": "X",
+   "nationality": "BEL",
+   "points": [
+    5.0,
+    7.0,
+    4.0,
+    3.0,
+    null,
+    6.0,
+    7.0,
+    null,
+    5.0,
+    7.0
+   ],
+   "race_remarks": {
+    "R5": "DNC",
+    "R8": "DNC"
+   },
+   "total": null,
+   "net": 44.0,
+   "discard_points": [
+    9,
+    9
+   ]
+  },
+  {
+   "rank": 7,
+   "person": "harie-pavle-geldof",
+   "sail": "BEL 77",
+   "name": "Harie Pavle Geldof",
+   "nationality": "BEL",
+   "points": [
+    8.0,
+    8.0,
+    8.0,
+    null,
+    6.0,
+    4.0,
+    6.0,
+    null,
+    6.0,
+    5.0
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R8": "DNC"
+   },
+   "total": null,
+   "net": 51.0,
+   "discard_points": [
+    9,
+    9
+   ]
+  },
+  {
+   "rank": 8,
+   "person": "andy-de-koning",
+   "sail": "BEL 334",
+   "name": "Andy Dekoning",
+   "nationality": "BEL",
+   "points": [
+    7.0,
+    4.0,
+    7.0,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "race_remarks": {
+    "R4": "DNC",
+    "R5": "DNC",
+    "R6": "DNC",
+    "R7": "DNC",
+    "R8": "DNC",
+    "R9": "DNC",
+    "R10": "DNC"
+   },
+   "total": null,
+   "net": 63.0,
+   "discard_points": [
+    9,
+    9
+   ]
+  }
+ ],
+ "detail": {}
+}

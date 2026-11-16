@@ -33,7 +33,8 @@ GOOGLE_VERIFICATIE = ""   # Search Console, eigenschap URL-voorvoegsel https://w
 INDEXNOW_SLEUTEL = "9216e24db75eeb189806573cb645d972"   # IndexNow (bereikplan B0.3): staat als <sleutel>.txt in de hoofdmap van de site; geen geheim
 NOINDEX = {"zoeken.html", "fototest.html", "404.html"}   # niet in Google en niet in de sitemap: zonder javascript leeg, een meetpagina, of de foutpagina
 RIDER_VEEL = 8   # vanaf zoveel starts krijgt de riderpagina het overzicht per reeks en het filter op discipline
-DISCIPLINE_NL = {"slalom": "slalom", "course_race": "course race", "long_distance": "long distance", "short_course": "short course", "funboard": "funboard"}
+DISCIPLINE_NL = {"slalom": "slalom", "course_race": "course race", "long_distance": "long distance", "short_course": "short course", "funboard": "funboard",
+                 "speed": "speed"}
 MONTHS = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
 PARTICLES = {"van", "de", "der", "den", "het", "t", "ter", "ten", "te", "vd", "v", "d", "in", "op", "la", "le", "du", "da", "di", "dal", "del", "von"}
 REMARKS = {"DNF": "niet gefinisht", "DNS": "niet gestart", "DNC": "niet aan de start", "DSQ": "gediskwalificeerd",
@@ -69,7 +70,9 @@ def fmt_date(d, end=None):
 
 
 def fmt_pts(v):
-    return "–" if v is None else f"{v:.1f}"
+    """Punten met één decimaal; twee als de bron die heeft (Cool Shoe Crossing 2005: winnaar 0,75)."""
+    if v is None: return "–"
+    return f"{v:.2f}" if abs(round(v, 1) - v) > 1e-9 else f"{v:.1f}"
 
 
 def sail_html(sail, cls="sail"):
@@ -298,7 +301,16 @@ def waarde(r, x):
         return "–" if x.get("net") is None else f'{fmt_pts(x["net"])} {"punten" if ft == "series_standings" else "netto"}'
     if ft == "long_distance":
         return f'{x["laps"]} rondes, {x["time"]}' if x.get("laps") is not None else (x.get("time") or "")
+    if ft == "speed":
+        return speed_text(r, x.get("speed"))
     return ""
+
+
+def speed_text(r, v):
+    """Snelheid met eenheid ('56.5 km/u'); de bron geeft km/h."""
+    if v is None: return ""
+    unit = r["format"].get("unit")
+    return f'{v:.1f} {"km/u" if unit == "km/h" else (unit or "")}'.strip()
 
 
 def event_desc(P, ev):
@@ -427,7 +439,48 @@ def nc_basis(r):
     if f["type"] == "elimination" and f.get("no_result_points") is not None and not r.get("eliminations"): return "zonder resultaat in alle eliminaties"
     if f["type"] == "long_distance": return "die niet gestart zijn (DNS)"
     if r.get("aggregate"): return "zonder gevaren race in hun eigen categorie"
+    if f["type"] == "fleet_racing" and f.get("no_result_points") is not None: return "met in elke race de score voor 'geen resultaat'"
     return "met alleen DNC, DNF of DNS"
+
+
+def result_table_speed(P, r, pre):
+    """Snelheidswedstrijd: gerangschikt op de hoogste gemeten snelheid (format.type 'speed')."""
+    ents = r["entries"]
+    f = r["format"]
+    unit = "km/u" if f.get("unit") == "km/h" else (f.get("unit") or "")
+    nsp = max((len(x.get("speeds") or []) for x in ents), default=0)
+    has_sail = any(x.get("sail") for x in ents)
+    has_bib = any(x.get("bib") for x in ents)
+    has_div = any(division_text(x) for x in ents)
+    has_heats = any(x.get("heats") is not None for x in ents)
+    has_yr = any(x.get("year_rank") is not None for x in ents)
+    has_rem = any(x.get("remark") or x.get("speed_published") or x.get("prize_published") for x in ents)
+    rows = []
+    for x in ents:
+        if not counted(x): continue
+        flag = f' <span class="flag" title="{esc(x["flag"])}">*</span>' if x.get("flag") else ""
+        win = ' class="win"' if x.get("rank") == 1 else ""
+        sp = x.get("speeds") or []
+        cells = "".join(f'<td class="num{" tot" if i == 0 else ""}">{f"{sp[i]:.1f}" if i < len(sp) else ""}</td>' for i in range(nsp))
+        rem = " ".join(t for t in (esc(x.get("speed_published") or ""), remark_html(x.get("remark")), esc(x.get("prize_published") or "")) if t)
+        rows.append(f'<tr{win}>{rank_cell(x.get("rank"), x.get("rank_published"))}'
+                    f'<th scope="row" class="nm">{rider_link(P, x.get("person"), x.get("name"), pre)}{flag}</th>'
+                    + (f'<td>{sail_html(x.get("sail"))}</td>' if has_sail else "")
+                    + (f'<td class="num">{esc(x.get("bib") or "")}</td>' if has_bib else "")
+                    + (f'<td class="div">{esc(division_text(x))}</td>' if has_div else "")
+                    + cells
+                    + (f'<td class="num">{esc(x.get("heats") if x.get("heats") is not None else "")}</td>' if has_heats else "")
+                    + (f'<td class="num">{esc(x.get("year_rank") if x.get("year_rank") is not None else "")}</td>' if has_yr else "")
+                    + (f'<td>{rem}</td>' if has_rem else "") + "</tr>")
+    heads = [f"Snelheid ({unit})"] if nsp == 1 else [f"Hoogste ({unit})", "2e", "3e", "4e", "5e"][:nsp]
+    cap = f"Gerangschikt op de hoogste gemeten snelheid in {unit}."
+    if nsp > 1: cap += " Per rider de hoogste snelheden zoals gepubliceerd, hoogste eerst."
+    if has_heats: cap += " Heats: aantal gevaren heats."
+    if has_yr: cap += " Jaar: plaats in de jaarranking."
+    return f"""<div class="tbl-wrap"><table class="res">
+<caption>{esc(cap)}</caption>
+<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{''.join(f'<th scope="col" class="num">{esc(h)}</th>' for h in heads)}{'<th scope="col" class="num">Heats</th>' if has_heats else ''}{'<th scope="col" class="num">Jaar</th>' if has_yr else ''}{'<th scope="col">Opmerking</th>' if has_rem else ''}</tr></thead>
+<tbody>{''.join(rows)}</tbody></table></div>"""
 
 
 def result_table_ld(P, r, pre):
@@ -503,6 +556,7 @@ def result_table_fleet(P, r, pre):
     has_dp = any(x.get("discard_points") for x in ents) and not any(x.get("discarded") for x in ents)
     has_pts = any(x.get("points") for x in ents)
     has_tot = any(x.get("total") is not None for x in ents)
+    has_prize = any(x.get("prize_published") for x in ents)
     head = "".join(f'<th scope="col" class="num" title="Race {esc(c)}">{esc(c)}</th>' for c in races) if has_pts else ""
     rows = []
     for x in ents:
@@ -531,14 +585,15 @@ def result_table_fleet(P, r, pre):
                     + (f'<td class="div">{esc(x.get("equipment") or "")}</td>' if has_eq else "")
                     + "".join(cells)
                     + (f'<td class="num">{esc(", ".join(fmt_pts(v) for v in (x.get("discard_points") or [])))}</td>' if has_dp else "")
-                    + (f'<td class="num">{fmt_pts(x.get("total"))}</td>' if has_tot else "") + f'<td class="num tot stick">{fmt_pts(x.get("net"))}</td></tr>')
+                    + (f'<td class="num">{fmt_pts(x.get("total"))}</td>' if has_tot else "") + f'<td class="num tot stick">{fmt_pts(x.get("net"))}</td>'
+                    + (f'<td>{esc(x.get("prize_published") or "")}</td>' if has_prize else "") + '</tr>')
     sc = r["format"].get("scoring_system")
     cap = ("Punten per race; laagste netto wint." if has_pts else "Punten per race zijn voor dit klassement niet gepubliceerd; laagste netto wint.") + (" Weggelaten scores tussen haakjes." if any(x.get("discarded") for x in ents) else "")           + (f" Puntentelling: {esc(sc)}." if sc else "") + (" Een * achter de plaats is zo gepubliceerd." if any("*" in str(x.get("rank_published") or "") for x in ents) else "")
     if r["format"].get("code_points") is not None: cap += f' Bij een code zonder punten telt de bron {fmt_pts(r["format"]["code_points"])} punten.'
     nc = len(ents) - n_counted(r)
     if nc: cap += f" Niet in de tabel: {nc} ingeschreven {'rider' if nc == 1 else 'riders'} {nc_basis(r)} ({'heeft' if nc == 1 else 'hebben'} niet meegevaren)."
     return f"""<div class="tbl-wrap"><table class="res fleet">
-<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">Categorie</th>' if has_cat else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{head}{'<th scope="col" class="num">Weggelaten</th>' if has_dp else ''}{'<th scope="col" class="num">Totaal</th>' if has_tot else ''}<th scope="col" class="num stick">Netto</th></tr></thead>
+<thead><tr><th scope="col" class="rk">Pl.</th><th scope="col">Naam</th>{'<th scope="col">Zeilnr.</th>' if has_sail else ''}{'<th scope="col" class="num">Startnr.</th>' if has_bib else ''}{'<th scope="col">Categorie</th>' if has_cat else ''}{'<th scope="col">Divisie</th>' if has_div else ''}{'<th scope="col">Materiaal</th>' if has_eq else ''}{head}{'<th scope="col" class="num">Weggelaten</th>' if has_dp else ''}{'<th scope="col" class="num">Totaal</th>' if has_tot else ''}<th scope="col" class="num stick">Netto</th>{'<th scope="col">Prijs</th>' if has_prize else ''}</tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>
 <p class="tbl-cap">{cap}</p>"""
 
@@ -612,7 +667,8 @@ def result_page(P, r, ev):
     table = result_table_elim(P, r, pre) if ft == "elimination" else (
         result_table_ld(P, r, pre) if ft == "long_distance" else (
         result_table_fleet(P, r, pre) if ft == "fleet_racing" else (
-        result_table_series(P, r, pre) if ft == "series_standings" else "<p>Dit formaat wordt nog niet getoond.</p>")))
+        result_table_series(P, r, pre) if ft == "series_standings" else (
+        result_table_speed(P, r, pre) if ft == "speed" else "<p>Dit formaat wordt nog niet getoond.</p>"))))
     siblings = [x for x in ev["results"] if x["id"] != r["id"]]
     sib = ("<p class='sibs'>Andere klassen: " + ", ".join(f'<a href="{esc(x["id"])}.html">{esc(class_label(x))}</a>' for x in siblings) + "</p>") if siblings else ""
     body = f"""{crumbs([("wedstrijden.html", "Wedstrijden")] + reeks_crumb(ev) + [(f"wedstrijd/{ev['slug']}.html", ev["name"]), (None, class_label(r))], 1)}
@@ -642,6 +698,7 @@ def podium_html(P, r, pre):
         if x.get("rank") is None: continue
         val = fmt_pts(x.get("net")) + " netto" if r["format"]["type"] in ("elimination", "fleet_racing") else (
             fmt_pts(x.get("net")) + " punten" if r["format"]["type"] == "series_standings" else
+            speed_text(r, x.get("speed")) if r["format"]["type"] == "speed" else
             (f'{x.get("laps")} rondes' if x.get("laps") is not None else (x.get("time") or "")))
         rows.append(f'<li><span class="pos{" p1" if x["rank"] == 1 else ""}">{x["rank"]}</span>'
                     f'<span class="who">{rider_link(P, x.get("person"), x.get("name"), pre)}</span><span class="val">{esc(val)}</span></li>')

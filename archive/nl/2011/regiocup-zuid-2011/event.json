@@ -1,0 +1,24 @@
+{
+ "event_slug": "regiocup-zuid-2011",
+ "scope": "nl",
+ "name": "Regiocup Zuid 2011 (eindklassement)",
+ "series": "Regiocup Zuid",
+ "year": 2011,
+ "stop_number": null,
+ "stops_known": null,
+ "date": null,
+ "date_end": "2011-10-09",
+ "location": null,
+ "discipline": "slalom",
+ "classes": [
+  "regiocup-zuid-2011-slalom-gold",
+  "regiocup-zuid-2011-slalom-zilver"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Eindklassement van het seizoen: goud 26 races, zilver 24. Bekende wedstrijddagen: 28 augustus 2011 (6 races) en 9 oktober 2011 (10 races); de eerste races (goud 10, zilver 8) staan alleen in het eindklassement. De dagklassementen van 28 augustus en 9 oktober zitten in deze eindstand en zijn alleen geregistreerd.",
+  "Het dagklassement van 18 september 2011 ('Dagklassement formula') zit niet in deze eindstand en staat apart (regiocup-zuid-2011-0918)."
+ ],
+ "organizer": "Windsurfverenigingen WSB & ZW7"
+}

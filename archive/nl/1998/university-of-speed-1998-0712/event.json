@@ -1,0 +1,21 @@
+{
+ "event_slug": "university-of-speed-1998-0712",
+ "scope": "nl",
+ "name": "University of Speed, 12 juli 1998",
+ "series": "University of Speed",
+ "year": 1998,
+ "stop_number": null,
+ "stops_known": null,
+ "date": "1998-07-12",
+ "date_end": null,
+ "location": "Brouwersdam",
+ "discipline": "speed",
+ "classes": [
+  "university-of-speed-1998-0712-speed"
+ ],
+ "metadata_sources": [],
+ "notes": [
+  "Bron: windsurfing.rdeleeuw.nl/results, de uitslagenlijst op de persoonlijke site van Robert de Leeuw (gelinkte bestanden opgehaald op 16 november 2026; onderzoek per bron in docs/bron-rdeleeuw.md).",
+  "Datum en plaats volgens de kop van het blad ('12 juli 1998 - Brouwersdam'); onder de titel staat 'Matos / Buitink'."
+ ]
+}

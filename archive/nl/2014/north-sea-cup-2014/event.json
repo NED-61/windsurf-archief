@@ -11,7 +11,8 @@
  "location": "Grevelingendam",
  "discipline": "course_race",
  "classes": [
-  "north-sea-cup-2014-course-formula"
+  "north-sea-cup-2014-course-formula",
+  "north-sea-cup-2014-course-raceboard-rsx"
  ],
  "metadata_sources": [
   {
@@ -23,7 +24,8 @@
  "notes": [
   "Gepubliceerd als 'North Sea Cup - NED - 2014 - Formula - Overall' (Sailwave 2.9.7). Datum en locatie staan niet in de uitslag; ze komen van de resultatenpagina 2014 van de internationale Formula Windsurfing-klasse ('Netherlands North Sea Cup', 05-06 April, Netherlands, Grevelingendam, Level: National (Open)).",
   "Alleen de Formula-uitslag is aangeleverd; andere klassen van dit evenement staan niet in het archief.",
-  "Scope nl zoals North Sea Cup 2015 (aanwijzing van de gebruiker, 4 oktober 2026)."
+  "Scope nl zoals North Sea Cup 2015 (aanwijzing van de gebruiker, 4 oktober 2026).",
+  "De klasse Raceboard, RS-X komt van een foto op windsurfing.rdeleeuw.nl (tools/import_rdeleeuw.py, 16 november 2026)."
  ],
  "name_published": "North Sea Cup - NED - 2014"
 }
