@@ -23,8 +23,9 @@ FOTO_URL = "https://homelab257.tailc2d973.ts.net:10000"   # de fotodienst (winds
 # Het eigen domein (bereikplan keuze 1). Op False tot https://windsurfarchief.nl/ echt de site toont; dan op True zetten en pushen
 # (stappen in docs/bereikplan.md, "Domeindag"). Daarmee verandert alles mee: canonical, sitemap, Open Graph, .htaccess (het oude adres
 # stuurt dan door), het deelplaatje en IndexNow (tools/indexnow.py meldt alleen op het eigen domein).
-# 16 november 2026: Max heeft windsurfarchief.nl met een eigen website en Git-uitrol in hPanel; check_domein.py --klaar was OK.
-EIGEN_DOMEIN = False
+# 16 november 2026: Max heeft windsurfarchief.nl met een eigen website en Git-uitrol in hPanel; check_domein.py --klaar was OK, en aan
+# (Max: "everything needs to be windsurfarchief.nl"). Het oude adres stuurt sindsdien alles door.
+EIGEN_DOMEIN = True
 OUD_URL = "https://ned-61.com/windsurf-archief/"   # zonder www (keuze van Max, 3 november 2026)
 NIEUW_URL = "https://windsurfarchief.nl/"
 SITE_URL = NIEUW_URL if EIGEN_DOMEIN else OUD_URL   # hoofdadres: canonical, sitemap en Open Graph (main() kan het voor een proefbouw vervangen: --site-url)
