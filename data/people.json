@@ -171,6 +171,14 @@
      "division": "Foil",
      "bib": "Lycra 53",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Aart-Jan Van Zadelhoff",
+     "sail": null,
+     "division": null,
+     "bib": "161",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -533,6 +541,14 @@
      "name": "Adri Keet",
      "sail": "NED 34",
      "division": "Men",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Adri Keet",
+     "sail": null,
+     "division": null,
+     "bib": "101",
      "match": "naam"
     }
    ]
@@ -1704,6 +1720,20 @@
      "name": "Andrea Martinex",
      "sail": "ESP 62",
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "andrea-martinez",
+   "name": "Andrea Martínez",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Andrea Martínez",
+     "sail": null,
+     "division": null,
+     "bib": "100"
     }
    ]
   },
@@ -3128,6 +3158,20 @@
    ]
   },
   {
+   "id": "arthur-van-der-zon",
+   "name": "Arthur Van Der Zon",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Arthur Van Der Zon",
+     "sail": null,
+     "division": null,
+     "bib": "165"
+    }
+   ]
+  },
+  {
    "id": "arvidas-moliusis",
    "name": "Arvidas Moliusis",
    "aliases": [
@@ -3762,6 +3806,14 @@
      "sail": "NED-259",
      "division": "Youth",
      "match": "bevestigd"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Bart Bogaart",
+     "sail": null,
+     "division": null,
+     "bib": "181",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -3973,6 +4025,14 @@
      "sail": null,
      "division": "Masters 35 plus",
      "bib": "172",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Bas Brull",
+     "sail": null,
+     "division": null,
+     "bib": "152",
      "match": "naam"
     }
    ]
@@ -4310,7 +4370,8 @@
    "id": "bas-van-der-velden",
    "name": "Bas van der Velden",
    "aliases": [
-    "Bas van der VELDEN"
+    "Bas van der VELDEN",
+    "Bas Van Der Velden"
    ],
    "appearances": [
     {
@@ -4326,6 +4387,14 @@
      "sail": "NED 266",
      "division": null,
      "bib": "717",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Bas Van Der Velden",
+     "sail": null,
+     "division": null,
+     "bib": "155",
      "match": "naam"
     }
    ]
@@ -6279,6 +6348,14 @@
      "sail": null,
      "division": "Youth Profleet (Under 20 years, Foil only)",
      "bib": "111",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Cedric Walhof",
+     "sail": null,
+     "division": null,
+     "bib": "70",
      "match": "naam"
     }
    ]
@@ -8263,6 +8340,14 @@
      "name": "Dave Peters",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Dave Peters",
+     "sail": null,
+     "division": null,
+     "bib": "162",
+     "match": "naam"
     }
    ]
   },
@@ -8870,6 +8955,14 @@
      "sail": "NED 13",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Dennis Littel",
+     "sail": null,
+     "division": null,
+     "bib": "115",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -9134,6 +9227,14 @@
      "sail": "NED-301",
      "division": "Youth",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Diederik Leemans",
+     "sail": null,
+     "division": null,
+     "bib": "64",
+     "match": "naam"
     }
    ]
   },
@@ -9190,6 +9291,14 @@
      "name": "Dion van Laarhoven",
      "sail": "NED 137",
      "division": "Youth (U20)",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Dion Van Laarhoven",
+     "sail": null,
+     "division": null,
+     "bib": "128",
      "match": "naam"
     }
    ]
@@ -9969,6 +10078,20 @@
    ]
   },
   {
+   "id": "e-wiel",
+   "name": "E. Wiel",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "E. Wiel",
+     "sail": null,
+     "division": null,
+     "bib": "194"
+    }
+   ]
+  },
+  {
    "id": "ed-van-aart",
    "name": "Ed van Aart",
    "aliases": [],
@@ -10304,6 +10427,20 @@
      "sail": null,
      "division": "Boys t/m 14",
      "bib": "25"
+    }
+   ]
+  },
+  {
+   "id": "elien-haspels",
+   "name": "Elien Haspels",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Elien Haspels",
+     "sail": null,
+     "division": null,
+     "bib": "58"
     }
    ]
   },
@@ -10940,6 +11077,14 @@
      "sail": null,
      "division": null,
      "bib": "184"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Erwin Coster",
+     "sail": null,
+     "division": null,
+     "bib": "198",
+     "match": "naam"
     }
    ]
   },
@@ -11289,6 +11434,20 @@
    ]
   },
   {
+   "id": "esther-van-schie",
+   "name": "Esther Van Schie",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Esther Van Schie",
+     "sail": null,
+     "division": null,
+     "bib": "76"
+    }
+   ]
+  },
+  {
    "id": "ethan-westera",
    "name": "Ethan Westera",
    "aliases": [],
@@ -11358,6 +11517,14 @@
      "name": "Evert Jongeneel",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Evert Jongeneel",
+     "sail": null,
+     "division": null,
+     "bib": "158",
+     "match": "naam"
     }
    ]
   },
@@ -12344,6 +12511,14 @@
      "division": "Foil",
      "bib": "Lycra 19",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Fianne Van Den Brule",
+     "sail": null,
+     "division": null,
+     "bib": "119",
+     "match": "naam"
     }
    ]
   },
@@ -12464,6 +12639,20 @@
      "division": "Youth Profleet (Under 20 years, Foil only)",
      "bib": "1",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "finn-bruull",
+   "name": "Finn Bruüll",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Finn Bruüll",
+     "sail": null,
+     "division": null,
+     "bib": "96"
     }
    ]
   },
@@ -13421,6 +13610,14 @@
      "name": "Geert-Jan Worst",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Geert-Jan Worst",
+     "sail": null,
+     "division": null,
+     "bib": "135",
+     "match": "naam"
     }
    ]
   },
@@ -14151,6 +14348,14 @@
      "sail": null,
      "division": "Profleet Foil",
      "bib": "200",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Haldun Atar",
+     "sail": null,
+     "division": null,
+     "bib": "185",
      "match": "naam"
     }
    ]
@@ -15233,6 +15438,14 @@
      "name": "Hidde Boon",
      "sail": "NED-126",
      "division": "Overall",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Hidde Boon",
+     "sail": null,
+     "division": null,
+     "bib": "171",
      "match": "naam"
     }
    ]
@@ -17892,6 +18105,14 @@
      "sail": "NED 778",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Jan Willem Baan",
+     "sail": null,
+     "division": null,
+     "bib": "195",
+     "match": "naam"
     }
    ]
   },
@@ -18391,6 +18612,14 @@
      "name": "Jason Duiveman",
      "sail": "FRA-873",
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Jason Duiveman",
+     "sail": null,
+     "division": null,
+     "bib": "105",
+     "match": "naam"
     }
    ]
   },
@@ -18683,6 +18912,14 @@
      "sail": null,
      "division": null,
      "bib": "186"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Jeff Haspels",
+     "sail": null,
+     "division": null,
+     "bib": "175",
+     "match": "naam"
     }
    ]
   },
@@ -19688,6 +19925,14 @@
      "name": "Jeroen Snelderwaard",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Jeroen Snelderwaard",
+     "sail": null,
+     "division": null,
+     "bib": "178",
+     "match": "naam"
     }
    ]
   },
@@ -20223,6 +20468,14 @@
      "name": "Joep Havik",
      "sail": "NED-231",
      "division": "Youth",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Joep Havik",
+     "sail": null,
+     "division": null,
+     "bib": "106",
      "match": "naam"
     }
    ]
@@ -22012,7 +22265,8 @@
    "id": "jurgen-van-laarhoven",
    "name": "Jurgen van Laarhoven",
    "aliases": [
-    "Jurgen van LAARHOVEN"
+    "Jurgen van LAARHOVEN",
+    "Jurgen Van Laarhoven"
    ],
    "appearances": [
     {
@@ -22048,6 +22302,14 @@
      "name": "Jurgen van LAARHOVEN",
      "sail": "NED 138",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Jurgen Van Laarhoven",
+     "sail": null,
+     "division": null,
+     "bib": "122",
      "match": "naam"
     }
    ]
@@ -22292,6 +22554,14 @@
      "name": "Kaj Rozeboom",
      "sail": "ARU-19",
      "division": "Youth",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Kaj Rozeboom",
+     "sail": null,
+     "division": null,
+     "bib": "132",
      "match": "naam"
     }
    ]
@@ -22673,6 +22943,20 @@
      "name": "Kees Both",
      "sail": null,
      "division": null
+    }
+   ]
+  },
+  {
+   "id": "kees-jan-van-de-kamp",
+   "name": "Kees-Jan Van De Kamp",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Kees-Jan Van De Kamp",
+     "sail": null,
+     "division": null,
+     "bib": "176"
     }
    ]
   },
@@ -24181,6 +24465,14 @@
      "name": "Laurens Zaal",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Laurens Zaal",
+     "sail": null,
+     "division": null,
+     "bib": "85",
+     "match": "naam"
     }
    ]
   },
@@ -24200,7 +24492,9 @@
   {
    "id": "leendert-van-gaalen",
    "name": "Leendert van Gaalen",
-   "aliases": [],
+   "aliases": [
+    "Leendert Van Gaalen"
+   ],
    "appearances": [
     {
      "event": "lowlandcup-2006-course-formula-gold",
@@ -24279,6 +24573,14 @@
      "sail": "NED 7",
      "division": null,
      "bib": "736",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Leendert Van Gaalen",
+     "sail": null,
+     "division": null,
+     "bib": "180",
      "match": "naam"
     }
    ]
@@ -24579,6 +24881,14 @@
      "name": "Leverne van Wanum",
      "sail": "NED 0279",
      "division": "Medium",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Leverne Van Wanum",
+     "sail": null,
+     "division": null,
+     "bib": "133",
      "match": "naam"
     }
    ]
@@ -24959,6 +25269,14 @@
      "sail": "NED-101",
      "division": "Overall",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Lotte Van Den Toorn",
+     "sail": null,
+     "division": null,
+     "bib": "90",
+     "match": "naam"
     }
    ]
   },
@@ -25090,6 +25408,14 @@
      "name": "Luc Busé",
      "sail": "NED-333",
      "division": "Overall",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Luc Buse",
+     "sail": null,
+     "division": null,
+     "bib": "153",
      "match": "naam"
     }
    ],
@@ -25545,6 +25871,14 @@
      "name": "Maarten Apeldoorn",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Maarten Apeldoorn",
+     "sail": null,
+     "division": null,
+     "bib": "111",
+     "match": "naam"
     }
    ]
   },
@@ -26193,6 +26527,14 @@
      "sail": "NED 263",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Marc De Barse",
+     "sail": null,
+     "division": null,
+     "bib": "125",
+     "match": "naam"
     }
    ]
   },
@@ -26586,6 +26928,20 @@
    ]
   },
   {
+   "id": "marc-oostendorp",
+   "name": "Marc Oostendorp",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Marc Oostendorp",
+     "sail": null,
+     "division": null,
+     "bib": "193"
+    }
+   ]
+  },
+  {
    "id": "marc-rutgers",
    "name": "Marc Rutgers",
    "aliases": [],
@@ -26725,6 +27081,20 @@
    ]
   },
   {
+   "id": "marcel-de-nijs",
+   "name": "Marcel De Nijs",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Marcel De Nijs",
+     "sail": null,
+     "division": null,
+     "bib": "200"
+    }
+   ]
+  },
+  {
    "id": "marcel-frings",
    "name": "Marcel Frings",
    "aliases": [],
@@ -26822,7 +27192,9 @@
   {
    "id": "marcel-van-der-ploeg",
    "name": "Marcel van der Ploeg",
-   "aliases": [],
+   "aliases": [
+    "Marcel Van Der Ploeg"
+   ],
    "appearances": [
     {
      "event": "windsurfer-lt-jaarprijs-2024-course-c",
@@ -26856,6 +27228,14 @@
      "name": "Marcel van der Ploeg",
      "sail": "NED 031",
      "division": "Heavy",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Marcel Van Der Ploeg",
+     "sail": null,
+     "division": null,
+     "bib": "187",
      "match": "naam"
     }
    ]
@@ -27013,6 +27393,14 @@
      "sail": null,
      "division": null,
      "bib": "27",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Marco Baaijen",
+     "sail": null,
+     "division": null,
+     "bib": "39",
      "match": "naam"
     }
    ]
@@ -27394,6 +27782,14 @@
      "name": "Marco Ootes",
      "sail": "NED 950",
      "division": "C",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Marco Ootes",
+     "sail": null,
+     "division": null,
+     "bib": "183",
      "match": "naam"
     }
    ]
@@ -27917,6 +28313,14 @@
      "name": "Mariette Labots",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-rookies",
+     "name": "Mariette Labots",
+     "sail": null,
+     "division": null,
+     "bib": "140",
+     "match": "naam"
     }
    ]
   },
@@ -28091,6 +28495,14 @@
      "name": "Marijn Schouten",
      "sail": "NED-160",
      "division": "Youth",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Marijn Schouten",
+     "sail": null,
+     "division": null,
+     "bib": "94",
      "match": "naam"
     }
    ]
@@ -28371,6 +28783,14 @@
      "sail": "NED 353",
      "division": "Foil",
      "bib": "Lycra 35",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Mark Immenga",
+     "sail": null,
+     "division": null,
+     "bib": "98",
      "match": "naam"
     }
    ]
@@ -29347,6 +29767,14 @@
      "sail": null,
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Martijn Van Geemen",
+     "sail": null,
+     "division": null,
+     "bib": "190",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -30293,7 +30721,8 @@
    "id": "maurice-van-grasstek",
    "name": "Maurice van Grasstek",
    "aliases": [
-    "Maurice Grasstek"
+    "Maurice Grasstek",
+    "Maurice Van Grasstek"
    ],
    "appearances": [
     {
@@ -30337,6 +30766,14 @@
      "sail": "NED 279",
      "division": "Men",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Maurice Van Grasstek",
+     "sail": null,
+     "division": null,
+     "bib": "172",
+     "match": "naam"
     }
    ]
   },
@@ -30817,6 +31254,14 @@
      "division": "Jeugd/rookie",
      "bib": "21",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Max Baaijen",
+     "sail": null,
+     "division": null,
+     "bib": "149",
+     "match": "naam"
     }
    ]
   },
@@ -30974,6 +31419,14 @@
      "name": "Maksym Shytikov",
      "sail": "NED-507",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
+     "match": "bevestigd"
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Maksym Shytikov",
+     "sail": null,
+     "division": null,
+     "bib": "87",
      "match": "bevestigd"
     }
    ],
@@ -31339,6 +31792,28 @@
      "name": "Menno Paddenburg",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-rookies",
+     "name": "Menno Paddenburg",
+     "sail": null,
+     "division": null,
+     "bib": "104",
+     "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "menno-tilburg",
+   "name": "Menno Tilburg",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Menno Tilburg",
+     "sail": null,
+     "division": null,
+     "bib": "157"
     }
    ]
   },
@@ -31442,6 +31917,14 @@
      "name": "Merijn Kegel",
      "sail": "NED-511",
      "division": "Masters",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Merijn Kegel",
+     "sail": null,
+     "division": null,
+     "bib": "197",
      "match": "naam"
     }
    ]
@@ -31612,6 +32095,14 @@
      "name": "Merlijn Boswijk",
      "sail": "NED-244",
      "division": "Youth",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Merlijn Boswijk",
+     "sail": null,
+     "division": null,
+     "bib": "139",
      "match": "naam"
     }
    ]
@@ -31867,6 +32358,14 @@
      "name": "Michiel Dijkstra",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Michiel Dijkstra",
+     "sail": null,
+     "division": null,
+     "bib": "62",
+     "match": "naam"
     }
    ]
   },
@@ -32201,6 +32700,14 @@
      "name": "mika boone",
      "sail": "NED-134",
      "division": "Youth Profleet (Under 20 years, Foil only)",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Mika Boone",
+     "sail": null,
+     "division": null,
+     "bib": "82",
      "match": "naam"
     }
    ]
@@ -32713,6 +33220,14 @@
      "sail": "NED-303",
      "division": "Youth Profleet (Under 20 years, Foil only)",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Milo Zaal",
+     "sail": null,
+     "division": null,
+     "bib": "80",
+     "match": "naam"
     }
    ]
   },
@@ -32726,6 +33241,20 @@
      "name": "Mindaugas Kriukelis",
      "sail": "LTU 64",
      "division": "Open"
+    }
+   ]
+  },
+  {
+   "id": "miquel-servera",
+   "name": "Miquel Servera",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Miquel Servera",
+     "sail": null,
+     "division": null,
+     "bib": "141"
     }
    ]
   },
@@ -33091,6 +33620,14 @@
      "sail": "NED-2011",
      "division": "Youth Profleet (Under 20 years, Foil only)",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-rookies",
+     "name": "Neill Chardet",
+     "sail": null,
+     "division": null,
+     "bib": "99",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -33404,6 +33941,14 @@
      "name": "Nick van der Hoorn",
      "sail": "NED-147",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Nick Van Der Hoorn",
+     "sail": null,
+     "division": null,
+     "bib": "137",
      "match": "naam"
     }
    ],
@@ -33817,6 +34362,20 @@
      "division": "Men 19 t/m 34",
      "bib": "197",
      "match": "naam"
+    }
+   ]
+  },
+  {
+   "id": "niels-van-de-griend",
+   "name": "Niels Van De Griend",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Niels Van De Griend",
+     "sail": null,
+     "division": null,
+     "bib": "56"
     }
    ]
   },
@@ -34250,6 +34809,14 @@
      "sail": "NED 987",
      "division": "D",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Olaf Groene",
+     "sail": null,
+     "division": null,
+     "bib": "170",
+     "match": "naam"
     }
    ]
   },
@@ -34578,7 +35145,8 @@
    "id": "pascal-van-corbach",
    "name": "Pascal van Corbach",
    "aliases": [
-    "Pascale van CORBACH"
+    "Pascale van CORBACH",
+    "Pascale Van Corbach"
    ],
    "appearances": [
     {
@@ -34628,6 +35196,14 @@
      "name": "Pascale van CORBACH",
      "sail": "NED 3826",
      "division": null,
+     "match": "bevestigd"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Pascale Van Corbach",
+     "sail": null,
+     "division": null,
+     "bib": "124",
      "match": "bevestigd"
     }
    ],
@@ -35880,6 +36456,14 @@
      "name": "Peter Meelis",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Peter Meelis",
+     "sail": null,
+     "division": null,
+     "bib": "136",
+     "match": "naam"
     }
    ]
   },
@@ -36659,6 +37243,14 @@
      "name": "Peyton Dits",
      "sail": "NED-241",
      "division": "Youth Profleet (Under 20 years, Foil only)",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Peyton Dits",
+     "sail": null,
+     "division": null,
+     "bib": "142",
      "match": "naam"
     }
    ]
@@ -37650,6 +38242,14 @@
      "sail": "NED 538",
      "division": "Men",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Pieter Eliens",
+     "sail": null,
+     "division": null,
+     "bib": "121",
+     "match": "naam"
     }
    ]
   },
@@ -37920,6 +38520,14 @@
      "name": "Quinten Walhof",
      "sail": "NED 11",
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Quinten Walhof",
+     "sail": null,
+     "division": null,
+     "bib": "134",
+     "match": "naam"
     }
    ]
   },
@@ -38797,6 +39405,14 @@
      "division": "Vin",
      "bib": "Lycra 10",
      "match": "naam+zeilnummer"
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Remko Streep",
+     "sail": null,
+     "division": null,
+     "bib": "150",
+     "match": "naam"
     }
    ]
   },
@@ -38922,6 +39538,14 @@
      "sail": "2223",
      "division": "Vin",
      "bib": "Lycra 72",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Rene Griffioen",
+     "sail": null,
+     "division": null,
+     "bib": "196",
      "match": "naam"
     }
    ]
@@ -39215,6 +39839,14 @@
      "sail": "NED 111",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Richard Chardet",
+     "sail": null,
+     "division": null,
+     "bib": "151",
+     "match": "naam"
     }
    ]
   },
@@ -39494,6 +40126,14 @@
      "name": "Rick Oostendorp",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Rick Oostendorp",
+     "sail": null,
+     "division": null,
+     "bib": "184",
+     "match": "naam"
     }
    ]
   },
@@ -39804,6 +40444,14 @@
      "name": "Rob TIDDENS",
      "sail": "NED 1713",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Rob Tiddens",
+     "sail": null,
+     "division": null,
+     "bib": "173",
      "match": "naam"
     }
    ]
@@ -40853,6 +41501,20 @@
    ]
   },
   {
+   "id": "rogier-hassink",
+   "name": "Rogier Hassink",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Rogier Hassink",
+     "sail": null,
+     "division": null,
+     "bib": "166"
+    }
+   ]
+  },
+  {
    "id": "roland-de-vries",
    "name": "Roland de Vries",
    "aliases": [],
@@ -41397,7 +42059,8 @@
     "R.L.J. van der Poel",
     "Ronald Poel",
     "Ronald van de Poel",
-    "Ronald van der Poel"
+    "Ronald van der Poel",
+    "Ronald Van Der Poel"
    ],
    "appearances": [
     {
@@ -41462,6 +42125,14 @@
      "name": "Ronald van der Poel",
      "sail": "NED 21",
      "division": "Men",
+     "match": "bevestigd"
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Ronald Van Der Poel",
+     "sail": null,
+     "division": null,
+     "bib": "169",
      "match": "bevestigd"
     }
    ],
@@ -42385,6 +43056,20 @@
    ]
   },
   {
+   "id": "sander-vlotman",
+   "name": "Sander Vlotman",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Sander Vlotman",
+     "sail": null,
+     "division": null,
+     "bib": "154"
+    }
+   ]
+  },
+  {
    "id": "sandra-windhorst",
    "name": "Sandra Windhorst",
    "aliases": [],
@@ -42408,6 +43093,14 @@
      "name": "Sandy Bakmeijer",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Sandy Bakmeijer",
+     "sail": null,
+     "division": null,
+     "bib": "186",
+     "match": "naam"
     }
    ]
   },
@@ -42675,7 +43368,9 @@
   {
    "id": "sebastiaan-de-bruijn",
    "name": "Sebastiaan de Bruijn",
-   "aliases": [],
+   "aliases": [
+    "Sebastiaan De Bruijn"
+   ],
    "appearances": [
     {
      "event": "stonedam-foil-cup-2023-foil-marathon",
@@ -42688,6 +43383,14 @@
      "name": "Sebastiaan de Bruijn",
      "sail": "NED 509",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-windfoil",
+     "name": "Sebastiaan De Bruijn",
+     "sail": null,
+     "division": null,
+     "bib": "27",
      "match": "naam"
     }
    ]
@@ -42900,6 +43603,14 @@
      "name": "Sebastian Van Der Born",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Sebastian Van Der Born",
+     "sail": null,
+     "division": null,
+     "bib": "168",
+     "match": "naam"
     }
    ]
   },
@@ -43638,6 +44349,20 @@
    ]
   },
   {
+   "id": "sjoerd-brandt",
+   "name": "Sjoerd Brandt",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Sjoerd Brandt",
+     "sail": null,
+     "division": null,
+     "bib": "123"
+    }
+   ]
+  },
+  {
    "id": "sjoerd-vissers",
    "name": "Sjoerd Vissers",
    "aliases": [],
@@ -43732,6 +44457,14 @@
      "name": "Sjouke DIJKSTRA",
      "sail": "NED 163",
      "division": null,
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Sjouke Dijkstra",
+     "sail": null,
+     "division": null,
+     "bib": "159",
      "match": "naam"
     }
    ],
@@ -43838,6 +44571,14 @@
      "name": "Skip Brüll",
      "sail": "NED-173",
      "division": "Overall",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Skip Brull",
+     "sail": null,
+     "division": null,
+     "bib": "88",
      "match": "naam"
     }
    ]
@@ -44209,7 +44950,8 @@
    "id": "steff-de-bruijn",
    "name": "Steff de Bruijn",
    "aliases": [
-    "S De Bruijn"
+    "S De Bruijn",
+    "Steff De Bruijn"
    ],
    "appearances": [
     {
@@ -44265,6 +45007,14 @@
      "name": "Steff de Bruijn",
      "sail": "NED-508",
      "division": "Youth Profleet",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Steff De Bruijn",
+     "sail": null,
+     "division": null,
+     "bib": "79",
      "match": "naam"
     }
    ],
@@ -44975,6 +45725,20 @@
    ]
   },
   {
+   "id": "sven-los",
+   "name": "Sven Los",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Sven Los",
+     "sail": null,
+     "division": null,
+     "bib": "81"
+    }
+   ]
+  },
+  {
    "id": "sven-scholtis",
    "name": "Sven Scholtis",
    "aliases": [],
@@ -45474,6 +46238,14 @@
      "sail": "NED-556",
      "division": "Youth",
      "match": "bevestigd"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Thibault Dijksterhuis",
+     "sail": null,
+     "division": null,
+     "bib": "117",
+     "match": "naam"
     }
    ],
    "confirmed": [
@@ -45648,6 +46420,14 @@
      "name": "Thijs Dijkstra",
      "sail": "NED-297",
      "division": "Youth Profleet (Under 20 years, Foil only)",
+     "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Thijs Dijkstra",
+     "sail": null,
+     "division": null,
+     "bib": "67",
      "match": "naam"
     }
    ]
@@ -46453,6 +47233,14 @@
      "name": "Tim Delen",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Tim Delen",
+     "sail": null,
+     "division": null,
+     "bib": "145",
+     "match": "naam"
     }
    ]
   },
@@ -46925,6 +47713,14 @@
      "sail": "NED 65",
      "division": null,
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Tom Jansen",
+     "sail": null,
+     "division": null,
+     "bib": "163",
+     "match": "naam"
     }
    ]
   },
@@ -47337,6 +48133,20 @@
      "sail": null,
      "division": "Masters 35+ years",
      "bib": "209"
+    }
+   ]
+  },
+  {
+   "id": "ton-hoeberichts",
+   "name": "Ton Hoeberichts",
+   "aliases": [],
+   "appearances": [
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Ton Hoeberichts",
+     "sail": null,
+     "division": null,
+     "bib": "120"
     }
    ]
   },
@@ -48515,6 +49325,14 @@
      "name": "Wessel Waiboer",
      "sail": "NED-156",
      "division": "U21"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Wessel Waiboer",
+     "sail": null,
+     "division": null,
+     "bib": "110",
+     "match": "naam"
     }
    ]
   },
@@ -49700,6 +50518,14 @@
      "sail": "NED-338",
      "division": "Profleet (Foil or fin only TBA depending on wind)",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Yannick Walhof",
+     "sail": null,
+     "division": null,
+     "bib": "189",
+     "match": "naam"
     }
    ]
   },
@@ -49840,6 +50666,14 @@
      "sail": "NED-252",
      "division": "Youth - Women",
      "match": "naam"
+    },
+    {
+     "event": "gpa-2023-long-distance-iq-foil",
+     "name": "Yfke Van Der Meer",
+     "sail": null,
+     "division": null,
+     "bib": "146",
+     "match": "naam"
     }
    ]
   },
@@ -49944,6 +50778,14 @@
      "name": "Yva Spekman",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-rsx-raceboard",
+     "name": "Yva Spekman",
+     "sail": null,
+     "division": null,
+     "bib": "108",
+     "match": "naam"
     }
    ]
   },
@@ -50743,6 +51585,60 @@
    "similarity": 0.73,
    "source": "import_rdeleeuw",
    "reason": "'Sjors Hardholt' en 'Hardholt': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
+  },
+  {
+   "people": [
+    "finn-bruull",
+    "finn-brull"
+   ],
+   "similarity": 0.95,
+   "source": "import_gpa_2023",
+   "reason": "'Finn Bruüll' (gpa-2023-long-distance-iq-foil) lijkt op 'Finn Brull', zonder gelijk zeilnummer"
+  },
+  {
+   "people": [
+    "andrea-martinez",
+    "andrea-martinex"
+   ],
+   "similarity": 0.93,
+   "source": "import_gpa_2023",
+   "reason": "'Andrea Martínez' (gpa-2023-long-distance-iq-foil) lijkt op 'Andrea Martinex', zonder gelijk zeilnummer"
+  },
+  {
+   "people": [
+    "esther-van-schie",
+    "peter-van-schie"
+   ],
+   "similarity": 0.9,
+   "source": "import_gpa_2023",
+   "reason": "'Esther Van Schie' (gpa-2023-long-distance-open-windsurf-max-9-5m2) lijkt op 'Peter van Schie', zonder gelijk zeilnummer"
+  },
+  {
+   "people": [
+    "niels-van-de-griend",
+    "niels-vandegriend"
+   ],
+   "similarity": 0.94,
+   "source": "import_gpa_2023",
+   "reason": "'Niels Van De Griend' (gpa-2023-long-distance-windsurfer-lt-kona-one) lijkt op 'Niels Vandegriend', zonder gelijk zeilnummer"
+  },
+  {
+   "people": [
+    "kees-jan-van-de-kamp",
+    "kj-van-de-kamp"
+   ],
+   "similarity": 0.82,
+   "source": "import_gpa_2023",
+   "reason": "'Kees-Jan Van De Kamp' (gpa-2023-long-distance-open-windsurf-max-9-5m2) en 'KJ Van De Kamp' (KJ Van De Kamp): voorletters en dezelfde naam, zonder zeilnummer in de bron"
+  },
+  {
+   "people": [
+    "e-wiel",
+    "erwin-van-der-wiel"
+   ],
+   "similarity": 0.5,
+   "source": "import_gpa_2023",
+   "reason": "'E. Wiel' (gpa-2023-long-distance-windsurfer-lt-kona-one) en 'Erwin van der Wiel' (Erwin van der Wiel): voorletter en dezelfde achternaam (tussenvoegsel verschilt), zonder zeilnummer in de bron"
   }
  ]
 }

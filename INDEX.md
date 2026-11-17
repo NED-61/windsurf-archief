@@ -275,6 +275,12 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 | DAM-X 2023 | K - Boys up to 14 years | fleet_racing | 16 | Mika Henning | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-k-boys-up-to-14-years.json |
 | DAM-X 2023 | L - Ladies, Chicks en Girls | fleet_racing | 12 | Nien Van Craeynest | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-l-ladies-chicks-en-girls.json |
 | DAM-X 2023 | M - Guys 15 up to 18 years | fleet_racing | 23 | Chepé van Steenbrugge | complete | gecontroleerd | archive/nl/2023/dam-x-2023/uitslagen/dam-x-2023-slalom-m-guys-15-up-to-18-years.json |
+| Grote Prijs van Aalsmeer 2023 | IQ Foil | long_distance | 29 | Max Baaijen | complete | gecontroleerd | archive/nl/2023/gpa-2023/uitslagen/gpa-2023-long-distance-iq-foil.json |
+| Grote Prijs van Aalsmeer 2023 | Open windsurf tot max 9,5 m² | long_distance | 12 | Jan Willem Baan | complete | gecontroleerd | archive/nl/2023/gpa-2023/uitslagen/gpa-2023-long-distance-open-windsurf-max-9-5m2.json |
+| Grote Prijs van Aalsmeer 2023 | RS:X / Raceboard (7,8 en 9,5 m²) | long_distance | 11 | Marc De Barse | complete | gecontroleerd | archive/nl/2023/gpa-2023/uitslagen/gpa-2023-long-distance-rsx-raceboard.json |
+| Grote Prijs van Aalsmeer 2023 | Rookies (korte baan) | long_distance | 3 | Neill Chardet | complete | gecontroleerd | archive/nl/2023/gpa-2023/uitslagen/gpa-2023-long-distance-rookies.json |
+| Grote Prijs van Aalsmeer 2023 | Windfoil | long_distance | 17 | Adri Keet | complete | gecontroleerd | archive/nl/2023/gpa-2023/uitslagen/gpa-2023-long-distance-windfoil.json |
+| Grote Prijs van Aalsmeer 2023 | Windsurfer LT / Kona One | long_distance | 19 | Dion Van Laarhoven | complete | gecontroleerd | archive/nl/2023/gpa-2023/uitslagen/gpa-2023-long-distance-windsurfer-lt-kona-one.json |
 | NK Slalom 2023 | Dames | elimination | 5 | Femke van der Veen | complete | gecontroleerd | archive/nl/2023/nk-slalom-2023/uitslagen/nk-2023-slalom-dames.json |
 | NK Slalom 2023 | Heren | elimination | 32 | Amado Vrieswijk | complete | gecontroleerd | archive/nl/2023/nk-slalom-2023/uitslagen/nk-2023-slalom-heren.json |
 | NK Slalom 2023 | Heren jeugd | elimination | 25 | Sem Stroosma | complete | gecontroleerd | archive/nl/2023/nk-slalom-2023/uitslagen/nk-2023-slalom-heren-jeugd.json |
@@ -744,6 +750,29 @@ _Automatisch gegenereerd door `tools/archive.py index`; niet handmatig bewerken.
 - **overgeslagen**: https://windsurfing.rdeleeuw.nl/results (de overzichtspagina https://windsurfing.rdeleeuw.nl/results zelf (61 uitslagregels van Robert de Leeuw, 1998-2022), opgeslagen op 16 november 2026)
 - **overgeslagen**: inbox/bulk/rdeleeuw-uitslagen/manifest.json (lijst van de opgehaalde bestanden met adres, grootte en sha256 (gemaakt bij het ophalen op 16 november 2026))
 - **onleesbaar**: https://windsurfing.rdeleeuw.nl/uitslagen/regiocup_zuid_2017_05_07_fun_races.jpg (gelinkt op windsurfing.rdeleeuw.nl (Regiocup Zuid 7 mei 2017, Fun Races; Robert de Leeuw 15e, 3e in vloot B) maar op 16 november 2026 niet meer te openen (HTTP 404); alleen de link is geregistreerd)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/1wu2QLdHhT9.webp (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/330722_8dbbd323546524b.jpg (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/api.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/bttn-close.gif (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/bttn-show-lap.gif (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/hamburger-x@2x.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/hamburger@2x.png (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/jquery-1.5.2.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/js (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/l4FnhYDVNHw.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/loadanim4d.gif (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/race.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/race.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/recaptcha__en.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/saved_resource (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/scriptmanager.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/sdk.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/share_button.html (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/webscorer-logo.svg (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/webscorer.min.css (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/webscorer.min.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/WebUIValidation.js.download (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
+- **overgeslagen**: inbox/los/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer_files/zoomicon-13x13.gif (paginabestand (css/js/afbeelding) van een opgeslagen webpagina; bewaard in local-only/, niet in git)
 
 **Windtulip-backlog** (`data/backlog/windtulip-index.txt`, nog niet opgehaald): 137× internationaal, 5× nl, totaal 142.
 
@@ -878,4 +907,4 @@ _Uit wedstrijdkalenders (`data/backlog/kalenders/`). Een kalender is een plannin
 - 10-17 t/m 10-24: NK Slalom reservedata (reserveweekeinden 17 en 24 oktober)
 
 
-_Registry: 945 bron(nen), 340 verwerkt._
+_Registry: 969 bron(nen), 341 verwerkt._

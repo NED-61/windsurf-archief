@@ -1,0 +1,285 @@
+{
+ "schema_version": 1,
+ "id": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+ "event": {
+  "name": "Grote Prijs van Aalsmeer 2023",
+  "scope": "nl",
+  "series": "Grote Prijs van Aalsmeer",
+  "organizer": "Wind Surf Club Aalsmeer (WSCA)",
+  "year": 2023,
+  "stop_number": null,
+  "stops_known": null,
+  "date": "2023-10-01",
+  "location": "Westeinderplassen, Aalsmeer (Surfeiland)",
+  "discipline": "long_distance",
+  "gender": "open",
+  "class": "Open windsurf tot max 9,5 m²",
+  "class_label_published": "Open Klasse max. 9.5m"
+ },
+ "format": {
+  "type": "long_distance",
+  "ranking": "rondes aflopend, daarna tijd bij de laatste ronde oplopend (één overall-lijst over alle klassen)",
+  "time_basis": "gepubliceerde 'Race time' bij de laatst voltooide ronde, vanaf de massastart (niet omgerekend)",
+  "rank_basis": "afgeleid: plaats binnen de klasse volgens de volgorde van de gepubliceerde overall-lijst; gepubliceerde overall-plaats staat in overall_rank",
+  "lap_times_published": true,
+  "course_published": "Grote Baan"
+ },
+ "source": {
+  "name": "Webscorer: Grote Prijs van Aalsmeer 2023, Overall (All racers)",
+  "url": "https://www.webscorer.com/racedetails?raceid=330722",
+  "file": "local-only/nl/2023/gpa-2023/bronnen/Overall (All racers) _ Grote Prijs van Aalsmeer 2023 _ Resources.ws.RaceResults _ Webscorer.html",
+  "type": "web",
+  "retrieved": "2026-11-17",
+  "method": "BeautifulSoup: tabel RaceTable van de opgeslagen pagina (plaats, bib, naam, baan, categorie, geslacht, rondetabel, finish time, laps); kolom Age niet gelezen",
+  "metadata_sources": [
+   {
+    "name": "Gemeenteblad Aalsmeer gmb-2023-335864: Melding Grote Prijs van Aalsmeer op 1 oktober 2023, Surfeiland/Westeinderplas",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2023-335864.pdf",
+    "used_for": "datum (zondag 1 oktober 2023) en locatie (Surfeiland/Westeinderplas); melding vooraf, gepubliceerd 3 augustus 2023"
+   },
+   {
+    "name": "Webscorer: Grote Prijs van Aalsmeer 2023 (race info op de bronpagina)",
+    "url": "https://www.webscorer.com/racedetails?raceid=330722",
+    "used_for": "96 racers, massastart, organisator 'Windsurf Club Aalsmeer', locatie op Webscorer: Kudelstaart; uitslag bijgewerkt zondag 1 oktober 2023 21:48 (GMT+2)"
+   },
+   {
+    "name": "WSCA: Grote Prijs Aalsmeer",
+    "url": "https://www.wsca.nl/grote-prijs-aalsmeer/",
+    "used_for": "organisator WSCA, gehouden sinds 1993, formaat '2,5 uur plus een ronde', rangschikking op rondes en bij gelijk aantal op tijd laatste ronde; huidige klassenlijst (bekeken 17 november 2026): 'Windfoil' en 'IQFoil' zonder zeilmaximum, 'Raceboard tot max. 9,5', 'Open windsurf max 9.5', 'Wing', '(Korte baan) Rookies'"
+   }
+  ],
+  "verified": "12 entries (12 gefinisht, 0 DNF); klasseplaatsen 1..12 in de volgorde van de overall-lijst; overall-lijst: 96 regels (Webscorer: 96 racers); plaatsen 1..95 aaneengesloten; volgorde klopt met rondes (aflopend) en tijd bij de laatste ronde (oplopend); per rider: aantal rondetijden = kolom Laps, elke rondetijd = stap in race time (binnen 1 s afronding), finish time (waar een tijd) = race time laatste ronde; som van de rondetijden wijkt door afronding hooguit 1 s af van de tijd; massastart: alle finishers starttijd 12:30:31; baan klopt met de klasse (rookies kleine baan, de rest grote baan); geen dubbele namen; geen dubbele startnummers; 74 van de 95 finishers hebben een tijd vanaf 2:30:00 bij de laatste ronde"
+ },
+ "coverage": "complete",
+ "notes": [
+  "Klasseplaats is afgeleid uit de gepubliceerde overall-lijst (Webscorer 'Overall (All racers)', één lijst over alle klassen); de gepubliceerde overall-plaats staat in overall_rank. De klasse 'WING Foil' (5 riders) in dezelfde overall-lijst is niet opgenomen: wingen is geen windsurfen (keuze van de gebruiker, 8 oktober 2026). Hun overall-plaatsen ontbreken daardoor in overall_rank.",
+  "Tijd = 'Race time' bij de laatst voltooide ronde uit de rondetabel van Webscorer (vanaf de massastart om 12:30:31). De kolom 'Finish time' geeft alleen de koploper van elke baan een tijd en de anderen hun achterstand in rondes ('-1 lap'); die achterstand is niet overgenomen (volgt uit laps).",
+  "Rondetijden per rider in lap_times, zoals gepubliceerd. Webscorer rondt elke getoonde tijd af op hele seconden; daardoor kan de som van de rondetijden een paar seconden van de tijd afwijken (nagerekend, zie source.verified).",
+  "Startnummer in bib; geen zeilnummers gepubliceerd. Geslacht zoals gepubliceerd (M/F). De opgeslagen pagina bevat per rider de leeftijd (kolom Age); die is niet overgenomen en de pagina staat daarom met de map _files in local-only/, niet in git. Het origineel staat online op Webscorer (zie source.url).",
+  "Gepubliceerd als 'Open Klasse max. 9.5m'; als dezelfde klasse behandeld als 'Open windsurf tot max 9,5m2' van 2024 en 2025 (aanname)."
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "person": "jan-willem-baan",
+   "sail": null,
+   "bib": "195",
+   "name": "Jan Willem Baan",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 3,
+   "time": "3:06:42",
+   "remark": null,
+   "overall_rank": 46,
+   "gender": "male",
+   "lap_times": [
+    "1:04:56",
+    "56:47",
+    "1:04:58"
+   ]
+  },
+  {
+   "rank": 2,
+   "person": "rob-tiddens",
+   "sail": null,
+   "bib": "173",
+   "name": "Rob Tiddens",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 3,
+   "time": "3:18:45",
+   "remark": null,
+   "overall_rank": 48,
+   "gender": "male",
+   "lap_times": [
+    "1:08:57",
+    "1:01:53",
+    "1:07:55"
+   ]
+  },
+  {
+   "rank": 3,
+   "person": "marc-oostendorp",
+   "sail": null,
+   "bib": "193",
+   "name": "Marc Oostendorp",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 2,
+   "time": "2:59:06",
+   "remark": null,
+   "overall_rank": 73,
+   "gender": "male",
+   "lap_times": [
+    "1:29:29",
+    "1:29:37"
+   ]
+  },
+  {
+   "rank": 4,
+   "person": "ronald-vd-poel",
+   "sail": null,
+   "bib": "169",
+   "name": "Ronald Van Der Poel",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "1:16:37",
+   "remark": null,
+   "overall_rank": 80,
+   "gender": "male",
+   "lap_times": [
+    "1:16:37"
+   ]
+  },
+  {
+   "rank": 5,
+   "person": "michiel-dijkstra",
+   "sail": null,
+   "bib": "62",
+   "name": "Michiel Dijkstra",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "1:47:48",
+   "remark": null,
+   "overall_rank": 81,
+   "gender": "male",
+   "lap_times": [
+    "1:47:48"
+   ]
+  },
+  {
+   "rank": 6,
+   "person": "elien-haspels",
+   "sail": null,
+   "bib": "58",
+   "name": "Elien Haspels",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "1:52:40",
+   "remark": null,
+   "overall_rank": 83,
+   "gender": "female",
+   "lap_times": [
+    "1:52:40"
+   ]
+  },
+  {
+   "rank": 7,
+   "person": "esther-van-schie",
+   "sail": null,
+   "bib": "76",
+   "name": "Esther Van Schie",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "1:55:32",
+   "remark": null,
+   "overall_rank": 84,
+   "gender": "female",
+   "lap_times": [
+    "1:55:32"
+   ]
+  },
+  {
+   "rank": 8,
+   "person": "sven-los",
+   "sail": null,
+   "bib": "81",
+   "name": "Sven Los",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "1:57:59",
+   "remark": null,
+   "overall_rank": 85,
+   "gender": "male",
+   "lap_times": [
+    "1:57:59"
+   ]
+  },
+  {
+   "rank": 9,
+   "person": "thijs-dijkstra",
+   "sail": null,
+   "bib": "67",
+   "name": "Thijs Dijkstra",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "2:02:43",
+   "remark": null,
+   "overall_rank": 86,
+   "gender": "male",
+   "lap_times": [
+    "2:02:43"
+   ]
+  },
+  {
+   "rank": 10,
+   "person": "max-shytikov",
+   "sail": null,
+   "bib": "87",
+   "name": "Maksym Shytikov",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "2:16:47",
+   "remark": null,
+   "overall_rank": 89,
+   "gender": "male",
+   "lap_times": [
+    "2:16:47"
+   ]
+  },
+  {
+   "rank": 11,
+   "person": "merijn-kegel",
+   "sail": null,
+   "bib": "197",
+   "name": "Merijn Kegel",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "2:28:04",
+   "remark": null,
+   "overall_rank": 91,
+   "gender": "male",
+   "lap_times": [
+    "2:28:04"
+   ]
+  },
+  {
+   "rank": 12,
+   "person": "kees-jan-van-de-kamp",
+   "sail": null,
+   "bib": "176",
+   "name": "Kees-Jan Van De Kamp",
+   "division": null,
+   "total": null,
+   "net": null,
+   "laps": 1,
+   "time": "2:36:58",
+   "remark": null,
+   "overall_rank": 92,
+   "gender": "male",
+   "lap_times": [
+    "2:36:58"
+   ]
+  }
+ ],
+ "detail": {}
+}
