@@ -18,52 +18,10 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="alternate" type="application/atom+xml" href="nieuw.xml" title="Nieuw in het Windsurfarchief">
-<link rel="stylesheet" href="assets/site.css?v=c5c5ad9949">
-<script defer src="assets/search-index.js?v=c5c5ad9949"></script><script>
-(function () {
-  var uit, grid, base;
-  function regel(t) { var li = document.createElement("li"); li.textContent = t; uit.insertBefore(li, uit.firstChild); }
-  function mb(n) { return (n / 1e6).toFixed(2) + " MB"; }
-  function run(nocache) {
-    base = document.getElementById("ft-base").value.replace(/\/$/, "");
-    grid.innerHTML = ""; performance.clearResourceTimings && performance.clearResourceTimings();
-    var t0 = performance.now(), bust = nocache ? "?x=" + Date.now() : "";
-    regel("Bezig…");
-    fetch(base + "/api/test" + bust, { mode: "cors" }).then(function (r) { if (!r.ok) throw new Error("status " + r.status); return r.json(); }).then(function (j) {
-      var t1 = performance.now(), n = j.fotos.length, klaar = 0, fouten = 0;
-      j.fotos.forEach(function (f) {
-        var a = document.createElement("a"); a.className = "ft"; a.href = f.m.replace(/^https?:\/\/[^\/]+/, base);   /* zelfde opmaak als het echte fotoblok */
-        var img = new Image(); img.width = f.tw; img.height = f.th; img.decoding = "async"; img.alt = "";
-        img.onload = img.onerror = function (e) { klaar++; if (e.type === "error") fouten++; if (klaar === n) einde(); };
-        img.src = f.t.replace(/^https?:\/\/[^\/]+/, base) + bust;   /* altijd via het adres uit het veld, ook als APP_URL op de NAS anders staat */
-        a.appendChild(img); grid.appendChild(a);
-      });
-      function einde() {
-        var t2 = performance.now(), bytes = 0;
-        (performance.getEntriesByType ? performance.getEntriesByType("resource") : []).forEach(function (e) { if (e.name.indexOf(base) === 0) bytes += e.transferSize || 0; });
-        uit.firstChild.textContent = n + " thumbnails in " + ((t2 - t0) / 1000).toFixed(1) + " s (manifest " + Math.round(t1 - t0) + " ms, foto's " + ((t2 - t1) / 1000).toFixed(1) + " s)" +
-          (bytes ? ", " + mb(bytes) + ", " + Math.round(bytes / 1e3 / ((t2 - t1) / 1000)) + " kB/s" : ", omvang onbekend (cache?)") + (fouten ? ", " + fouten + " mislukt" : "") + (nocache ? ", zonder cache" : "") + " · " + new Date().toLocaleTimeString("nl-NL");
-      }
-    }).catch(function (e) { uit.firstChild.textContent = "Mislukt: " + e.message + " (staat de dienst aan, en klopt het adres?)"; });
-  }
-  function groot() {
-    base = document.getElementById("ft-base").value.replace(/\/$/, "");
-    var t0 = performance.now(), img = new Image(), n = 1 + Math.floor(Math.random() * 60), nn = (n < 10 ? "0" : "") + n;
-    regel("Bezig…");
-    img.onload = function () { uit.firstChild.textContent = "Kijkversie (1600 px) in " + Math.round(performance.now() - t0) + " ms"; };
-    img.onerror = function () { uit.firstChild.textContent = "Kijkversie mislukt"; };
-    img.src = base + "/i/test-" + nn + "/m.jpg?x=" + Date.now(); img.style.width = "100%"; grid.innerHTML = ""; grid.appendChild(img);
-  }
-  document.addEventListener("DOMContentLoaded", function () {
-    uit = document.getElementById("ft-uit"); grid = document.getElementById("ft-grid");
-    var q = new URLSearchParams(location.search).get("foto"); if (q) document.getElementById("ft-base").value = q;
-    document.getElementById("ft-start").addEventListener("click", function () { run(false); });
-    document.getElementById("ft-nocache").addEventListener("click", function () { run(true); });
-    document.getElementById("ft-groot").addEventListener("click", groot);
-  });
-})();
-</script>
-<script defer src="assets/site.js?v=c5c5ad9949"></script>
+<link rel="stylesheet" href="assets/site.css?v=34eeb9532f">
+<script defer src="assets/search-index.js?v=34eeb9532f"></script>
+<script defer src="assets/fototest.js?v=34eeb9532f"></script>
+<script defer src="assets/site.js?v=34eeb9532f"></script>
 <link rel="canonical" href="https://windsurfarchief.nl/fototest.html">
 <meta property="og:url" content="https://windsurfarchief.nl/fototest.html">
 <meta name="robots" content="noindex">
@@ -84,7 +42,7 @@
 <main id="main" class="wrap">
 <header class="ph"><h1>Fototest</h1>
 <p class="lede">Meet hoe snel de foto's van de NAS laden (fase F0 van het fotoplan). Open deze pagina buiten huis, op 4G, en druk op Start; doe het ook met drie apparaten tegelijk.</p></header>
-<form class="form fototest-form" onsubmit="return false">
+<form class="form fototest-form" data-niet-versturen="1">
   <label>Adres van de fotodienst <input id="ft-base" value="https://homelab257.tailc2d973.ts.net:10000" spellcheck="false"></label>
   <p><button type="button" id="ft-start">Start</button> <button type="button" id="ft-nocache">Opnieuw, zonder browsercache</button> <button type="button" id="ft-groot">Eén foto groot</button></p>
 </form>
@@ -93,7 +51,7 @@
 </main>
 <footer class="foot">
   <div class="wrap">
-    <p>Uitslagen uit openbare bronnen, zoals gepubliceerd. Bijgewerkt op 16 november 2026. <a href="over.html">Over dit archief</a></p>
+    <p>Uitslagen uit openbare bronnen, zoals gepubliceerd. Bijgewerkt op 17 november 2026. <a href="over.html">Over dit archief</a></p>
   </div>
 </footer>
 </body>
