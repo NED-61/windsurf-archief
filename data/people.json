@@ -1712,28 +1712,35 @@
   },
   {
    "id": "andrea-martinex",
-   "name": "Andrea Martinex",
-   "aliases": [],
+   "name": "Andrea Martínez",
+   "aliases": [
+    "Andrea Martinex"
+   ],
    "appearances": [
     {
      "event": "stonedam-foil-cup-2024-foil-jeugd",
      "name": "Andrea Martinex",
      "sail": "ESP 62",
      "division": null
-    }
-   ]
-  },
-  {
-   "id": "andrea-martinez",
-   "name": "Andrea Martínez",
-   "aliases": [],
-   "appearances": [
+    },
     {
      "event": "gpa-2023-long-distance-iq-foil",
      "name": "Andrea Martínez",
      "sail": null,
      "division": null,
-     "bib": "100"
+     "bib": "100",
+     "match": "naam"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Andrea Martinex",
+      "Andrea Martínez"
+     ],
+     "by": "gebruiker",
+     "date": "2026-11-17",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Andrea Martínez' (andrea-martinez) samengevoegd"
     }
    ]
   },
@@ -12526,9 +12533,10 @@
    "id": "finn-brull",
    "name": "Finn Brull",
    "aliases": [
-    "Finn Brüll",
     "Finn BRULL",
     "Finn BRÜLL",
+    "Finn Bruüll",
+    "Finn Brüll",
     "finn brüll"
    ],
    "appearances": [
@@ -12639,20 +12647,29 @@
      "division": "Youth Profleet (Under 20 years, Foil only)",
      "bib": "1",
      "match": "naam"
-    }
-   ]
-  },
-  {
-   "id": "finn-bruull",
-   "name": "Finn Bruüll",
-   "aliases": [],
-   "appearances": [
+    },
     {
      "event": "gpa-2023-long-distance-iq-foil",
      "name": "Finn Bruüll",
      "sail": null,
      "division": null,
-     "bib": "96"
+     "bib": "96",
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Finn BRULL",
+      "Finn BRÜLL",
+      "Finn Brull",
+      "Finn Bruüll",
+      "Finn Brüll",
+      "finn brüll"
+     ],
+     "by": "gebruiker",
+     "date": "2026-11-17",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Finn Bruüll' (finn-bruull) samengevoegd"
     }
    ]
   },
@@ -22947,20 +22964,6 @@
    ]
   },
   {
-   "id": "kees-jan-van-de-kamp",
-   "name": "Kees-Jan Van De Kamp",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
-     "name": "Kees-Jan Van De Kamp",
-     "sail": null,
-     "division": null,
-     "bib": "176"
-    }
-   ]
-  },
-  {
    "id": "kees-klop",
    "name": "Kees Klop",
    "aliases": [],
@@ -23442,14 +23445,35 @@
   },
   {
    "id": "kj-van-de-kamp",
-   "name": "KJ Van De Kamp",
-   "aliases": [],
+   "name": "Kees-Jan Van De Kamp",
+   "aliases": [
+    "KJ Van De Kamp"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-windsurfer-lt-kona-one",
      "name": "KJ Van De Kamp",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-open-windsurf-max-9-5m2",
+     "name": "Kees-Jan Van De Kamp",
+     "sail": null,
+     "division": null,
+     "bib": "176",
+     "match": "naam"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "KJ Van De Kamp",
+      "Kees-Jan Van De Kamp"
+     ],
+     "by": "gebruiker",
+     "date": "2026-11-17",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Kees-Jan Van De Kamp' (kees-jan-van-de-kamp) samengevoegd"
     }
    ]
   },
@@ -34366,20 +34390,6 @@
    ]
   },
   {
-   "id": "niels-van-de-griend",
-   "name": "Niels Van De Griend",
-   "aliases": [],
-   "appearances": [
-    {
-     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
-     "name": "Niels Van De Griend",
-     "sail": null,
-     "division": null,
-     "bib": "56"
-    }
-   ]
-  },
-  {
    "id": "niels-van-haarlem",
    "name": "Niels van Haarlem",
    "aliases": [],
@@ -34396,13 +34406,34 @@
   {
    "id": "niels-vandegriend",
    "name": "Niels Vandegriend",
-   "aliases": [],
+   "aliases": [
+    "Niels Van De Griend"
+   ],
    "appearances": [
     {
      "event": "gpa-2024-long-distance-windsurfer-lt-kona-one",
      "name": "Niels Vandegriend",
      "sail": null,
      "division": null
+    },
+    {
+     "event": "gpa-2023-long-distance-windsurfer-lt-kona-one",
+     "name": "Niels Van De Griend",
+     "sail": null,
+     "division": null,
+     "bib": "56",
+     "match": "bevestigd"
+    }
+   ],
+   "confirmed": [
+    {
+     "names": [
+      "Niels Van De Griend",
+      "Niels Vandegriend"
+     ],
+     "by": "gebruiker",
+     "date": "2026-11-17",
+     "note": "zelfde persoon (bevestigd in gesprek); 'Niels Van De Griend' (niels-van-de-griend) samengevoegd"
     }
    ]
   },
@@ -51025,6 +51056,14 @@
    ],
    "by": "gebruiker",
    "date": "2026-11-03"
+  },
+  {
+   "people": [
+    "esther-van-schie",
+    "peter-van-schie"
+   ],
+   "by": "gebruiker",
+   "date": "2026-11-17"
   }
  ],
  "pending": [
@@ -51585,51 +51624,6 @@
    "similarity": 0.73,
    "source": "import_rdeleeuw",
    "reason": "'Sjors Hardholt' en 'Hardholt': zelfde achternaam en zelfde zeilnummer, één van de twee heeft alleen een achternaam"
-  },
-  {
-   "people": [
-    "finn-bruull",
-    "finn-brull"
-   ],
-   "similarity": 0.95,
-   "source": "import_gpa_2023",
-   "reason": "'Finn Bruüll' (gpa-2023-long-distance-iq-foil) lijkt op 'Finn Brull', zonder gelijk zeilnummer"
-  },
-  {
-   "people": [
-    "andrea-martinez",
-    "andrea-martinex"
-   ],
-   "similarity": 0.93,
-   "source": "import_gpa_2023",
-   "reason": "'Andrea Martínez' (gpa-2023-long-distance-iq-foil) lijkt op 'Andrea Martinex', zonder gelijk zeilnummer"
-  },
-  {
-   "people": [
-    "esther-van-schie",
-    "peter-van-schie"
-   ],
-   "similarity": 0.9,
-   "source": "import_gpa_2023",
-   "reason": "'Esther Van Schie' (gpa-2023-long-distance-open-windsurf-max-9-5m2) lijkt op 'Peter van Schie', zonder gelijk zeilnummer"
-  },
-  {
-   "people": [
-    "niels-van-de-griend",
-    "niels-vandegriend"
-   ],
-   "similarity": 0.94,
-   "source": "import_gpa_2023",
-   "reason": "'Niels Van De Griend' (gpa-2023-long-distance-windsurfer-lt-kona-one) lijkt op 'Niels Vandegriend', zonder gelijk zeilnummer"
-  },
-  {
-   "people": [
-    "kees-jan-van-de-kamp",
-    "kj-van-de-kamp"
-   ],
-   "similarity": 0.82,
-   "source": "import_gpa_2023",
-   "reason": "'Kees-Jan Van De Kamp' (gpa-2023-long-distance-open-windsurf-max-9-5m2) en 'KJ Van De Kamp' (KJ Van De Kamp): voorletters en dezelfde naam, zonder zeilnummer in de bron"
   },
   {
    "people": [
