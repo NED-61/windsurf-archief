@@ -1184,7 +1184,7 @@ def stats_page(P, events, results, apps):
 
 def search_page():
     body = """<header class="ph"><h1>Zoeken</h1><p class="lede">Zoek op naam, zeilnummer of wedstrijd.</p></header>
-<form class="big-search" role="search" onsubmit="return false">
+<form class="big-search" role="search" data-niet-versturen="1">
   <label class="vh" for="q-big">Zoekterm</label>
   <input id="q-big" type="search" autocomplete="off" placeholder="Bijvoorbeeld NED 61, Kooij of Aalsmeer" spellcheck="false">
 </form>
@@ -1308,56 +1308,13 @@ def fototest_page():
     Niet gelinkt vanuit het menu. Een ander adres testen: fototest.html?foto=https://..."""
     body = f"""<header class="ph"><h1>Fototest</h1>
 <p class="lede">Meet hoe snel de foto's van de NAS laden (fase F0 van het fotoplan). Open deze pagina buiten huis, op 4G, en druk op Start; doe het ook met drie apparaten tegelijk.</p></header>
-<form class="form fototest-form" onsubmit="return false">
+<form class="form fototest-form" data-niet-versturen="1">
   <label>Adres van de fotodienst <input id="ft-base" value="{FOTO_URL}" spellcheck="false"></label>
   <p><button type="button" id="ft-start">Start</button> <button type="button" id="ft-nocache">Opnieuw, zonder browsercache</button> <button type="button" id="ft-groot">Eén foto groot</button></p>
 </form>
 <ol id="ft-uit" class="fototest-uit"></ol>
 <div id="ft-grid" class="fotos-grid"></div>"""
-    js = """<script>
-(function () {
-  var uit, grid, base;
-  function regel(t) { var li = document.createElement("li"); li.textContent = t; uit.insertBefore(li, uit.firstChild); }
-  function mb(n) { return (n / 1e6).toFixed(2) + " MB"; }
-  function run(nocache) {
-    base = document.getElementById("ft-base").value.replace(/\\/$/, "");
-    grid.innerHTML = ""; performance.clearResourceTimings && performance.clearResourceTimings();
-    var t0 = performance.now(), bust = nocache ? "?x=" + Date.now() : "";
-    regel("Bezig…");
-    fetch(base + "/api/test" + bust, { mode: "cors" }).then(function (r) { if (!r.ok) throw new Error("status " + r.status); return r.json(); }).then(function (j) {
-      var t1 = performance.now(), n = j.fotos.length, klaar = 0, fouten = 0;
-      j.fotos.forEach(function (f) {
-        var a = document.createElement("a"); a.className = "ft"; a.href = f.m.replace(/^https?:\\/\\/[^\\/]+/, base);   /* zelfde opmaak als het echte fotoblok */
-        var img = new Image(); img.width = f.tw; img.height = f.th; img.decoding = "async"; img.alt = "";
-        img.onload = img.onerror = function (e) { klaar++; if (e.type === "error") fouten++; if (klaar === n) einde(); };
-        img.src = f.t.replace(/^https?:\\/\\/[^\\/]+/, base) + bust;   /* altijd via het adres uit het veld, ook als APP_URL op de NAS anders staat */
-        a.appendChild(img); grid.appendChild(a);
-      });
-      function einde() {
-        var t2 = performance.now(), bytes = 0;
-        (performance.getEntriesByType ? performance.getEntriesByType("resource") : []).forEach(function (e) { if (e.name.indexOf(base) === 0) bytes += e.transferSize || 0; });
-        uit.firstChild.textContent = n + " thumbnails in " + ((t2 - t0) / 1000).toFixed(1) + " s (manifest " + Math.round(t1 - t0) + " ms, foto's " + ((t2 - t1) / 1000).toFixed(1) + " s)" +
-          (bytes ? ", " + mb(bytes) + ", " + Math.round(bytes / 1e3 / ((t2 - t1) / 1000)) + " kB/s" : ", omvang onbekend (cache?)") + (fouten ? ", " + fouten + " mislukt" : "") + (nocache ? ", zonder cache" : "") + " · " + new Date().toLocaleTimeString("nl-NL");
-      }
-    }).catch(function (e) { uit.firstChild.textContent = "Mislukt: " + e.message + " (staat de dienst aan, en klopt het adres?)"; });
-  }
-  function groot() {
-    base = document.getElementById("ft-base").value.replace(/\\/$/, "");
-    var t0 = performance.now(), img = new Image(), n = 1 + Math.floor(Math.random() * 60), nn = (n < 10 ? "0" : "") + n;
-    regel("Bezig…");
-    img.onload = function () { uit.firstChild.textContent = "Kijkversie (1600 px) in " + Math.round(performance.now() - t0) + " ms"; };
-    img.onerror = function () { uit.firstChild.textContent = "Kijkversie mislukt"; };
-    img.src = base + "/i/test-" + nn + "/m.jpg?x=" + Date.now(); img.style.width = "100%"; grid.innerHTML = ""; grid.appendChild(img);
-  }
-  document.addEventListener("DOMContentLoaded", function () {
-    uit = document.getElementById("ft-uit"); grid = document.getElementById("ft-grid");
-    var q = new URLSearchParams(location.search).get("foto"); if (q) document.getElementById("ft-base").value = q;
-    document.getElementById("ft-start").addEventListener("click", function () { run(false); });
-    document.getElementById("ft-nocache").addEventListener("click", function () { run(true); });
-    document.getElementById("ft-groot").addEventListener("click", groot);
-  });
-})();
-</script>"""
+    js = '\n<script defer src="assets/fototest.js?v=' + CSS_VERSION + '"></script>'   # eigen bestand, geen script in de pagina (zie htaccess, CSP)
     return page("Fototest", body, 0, None, "Meetpagina voor de foto's van de NAS.", extra_js=js)
 
 
@@ -1523,6 +1480,61 @@ def write_sitemap(out, rels, mods):
     return sum(len(rs) for rs in delen.values())
 
 
+def csp():
+    """Content-Security-Policy van de site (17 november 2026). Scripts alleen uit eigen bestanden (assets/), geen scripts in de pagina's
+    of in attributen: komt er via een bron of de fotodienst toch html in een pagina, dan voert die niets uit. Foto's en de api komen van
+    de fotodienst (FOTO_URL); https: in img-src en connect-src zodat fototest.html ook een ander adres kan meten. Stijlen in de pagina
+    (style="...") mogen wel. controleer_csp() stopt het bouwen als een pagina toch een script of on...= in de html heeft."""
+    return "; ".join([
+        "default-src 'self'",
+        "script-src 'self'",
+        "style-src 'self' 'unsafe-inline'",
+        "img-src 'self' data: https:",
+        "connect-src 'self' https:",
+        "font-src 'self'",
+        "frame-ancestors 'self'",
+        "base-uri 'self'",
+        "form-action 'self'",
+        "object-src 'none'",
+    ])
+
+
+_SCRIPT_RE = re.compile(r"<script\b([^>]*)>(.*?)</script>", re.S | re.I)
+_HANDLER_RE = re.compile(r"<[a-z][^>]*\son[a-z]+\s*=", re.I)
+
+
+def controleer_csp(out):
+    """Stopt het bouwen als een pagina iets heeft wat de Content-Security-Policy (csp()) tegenhoudt: een script in de pagina (behalve
+    application/ld+json, dat zijn alleen gegevens), een on...= attribuut of een javascript:-link. Anders zou die pagina online stil
+    kapotgaan. Oplossing: de code in een bestand in tools/site_assets/ zetten (zie fototest.js) en een data-attribuut gebruiken."""
+    fouten = []
+    for f in sorted(out.rglob("*.html")):
+        s = f.read_text(encoding="utf-8")
+        for attrs, inhoud in _SCRIPT_RE.findall(s):
+            if "src=" not in attrs and "application/ld+json" not in attrs and inhoud.strip():
+                fouten.append(f"{f.relative_to(out).as_posix()}: script in de pagina")
+        if _HANDLER_RE.search(s): fouten.append(f"{f.relative_to(out).as_posix()}: on...= attribuut")
+        if re.search(r"""(href|src|action)\s*=\s*["']?\s*javascript:""", s, re.I): fouten.append(f"{f.relative_to(out).as_posix()}: javascript:-link")
+    if fouten:
+        raise SystemExit("Deze pagina's werken niet met de Content-Security-Policy (zie csp() en controleer_csp() in tools/build_site.py):\n  "
+                         + "\n  ".join(fouten[:20]) + (f"\n  ... en nog {len(fouten) - 20}" if len(fouten) > 20 else ""))
+
+
+def beveiligingskoppen():
+    """Koppen die de browser vertellen hoe streng hij moet zijn (17 november 2026). HSTS: altijd https, ook als iemand http typt (de CDN
+    stuurt http al door, dit onthoudt de browser een jaar). Zonder includeSubDomains en preload: andere subdomeinen blijven vrij."""
+    return [
+        "<IfModule mod_headers.c>",
+        '  Header always set Strict-Transport-Security "max-age=31536000"',
+        '  Header always set X-Content-Type-Options "nosniff"',
+        '  Header always set Referrer-Policy "strict-origin-when-cross-origin"',
+        '  Header always set X-Frame-Options "SAMEORIGIN"',
+        '  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"',
+        f'  Header always set Content-Security-Policy "{csp()}"',
+        "</IfModule>",
+    ]
+
+
 def htaccess():
     """De .htaccess van de site (bereikplan B0.5). Dezelfde branch staat in de map op ned-61.com en straks ook op windsurfarchief.nl; daarom
     kijkt de doorverwijzing naar de hostnaam: wat niet op de host van SITE_URL binnenkomt (www, of na de verhuizing het oude adres), gaat met
@@ -1534,6 +1546,7 @@ def htaccess():
     return "\n".join([
         "# Gemaakt door tools/build_site.py (docs/bereikplan.md, B0.5). Geldt alleen voor deze map en wat eronder staat.",
         f"ErrorDocument 404 {u.path or '/'}404.html",
+        *beveiligingskoppen(),
         "RewriteEngine On",
         r"RewriteRule ^versie\.txt$ - [L]",
         "# Alles wat niet op het hoofdadres binnenkomt: 301 naar dezelfde pagina op het hoofdadres.",
@@ -1562,7 +1575,7 @@ def asset_version():
     h = hashlib.sha256()
     rel = lambda f: f.relative_to(ROOT).as_posix()     # met / en hoofdlettergevoelig gesorteerd: op Windows en op GitHub dezelfde versie
     files = sorted((ROOT / "archive").glob("*/*/*/uitslagen/*.json"), key=rel) + sorted((ROOT / "archive").glob("*/*/*/event.json"), key=rel)
-    for f in files + [ROOT / "data/people.json", ASSETS / "site.css", ASSETS / "site.js", Path(__file__).resolve()]:
+    for f in files + [ROOT / "data/people.json", ASSETS / "site.css", ASSETS / "site.js", ASSETS / "fototest.js", Path(__file__).resolve()]:
         h.update(rel(f).encode()); h.update(f.read_bytes().replace(b"\r\n", b"\n"))   # ook zonder CRLF
     return h.hexdigest()[:10]
 
@@ -1577,7 +1590,7 @@ def main():
     out = (ROOT / a.out).resolve()
     if out.exists(): shutil.rmtree(out)
     for d in ("assets", "wedstrijd", "uitslag", "rider", "reeks", "jaar"): (out / d).mkdir(parents=True, exist_ok=True)
-    for f in ("site.css", "site.js"): shutil.copy2(ASSETS / f, out / "assets" / f)
+    for f in ("site.css", "site.js", "fototest.js"): shutil.copy2(ASSETS / f, out / "assets" / f)
     eigen = urlsplit(SITE_URL).hostname == urlsplit(NIEUW_URL).hostname
     shutil.copy2(ASSETS / ("og-eigen-domein.png" if eigen else "og.png"), out / "assets/og.png")   # deelplaatje met het adres van de site erop
     for f in ("favicon.ico", "favicon.svg", "apple-touch-icon.png", "icon-192.png"): shutil.copy2(ASSETS / f, out / f)   # in de hoofdmap: daar zoekt Google het icoontje
@@ -1612,6 +1625,7 @@ def main():
     n_map = write_sitemap(out, rels, lastmods(events, results, apps, agg_apps, R, dates))
     write_feed(out, P, events, added)
     write_server_files(out)
+    controleer_csp(out)
     n = sum(1 for _ in out.rglob("*.html"))
     missing = sorted({x.get("person") for r in results.values() for x in r["entries"] if x.get("person") and x["person"] not in P})
     print(f"site gebouwd in {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}: {n} pagina's, {len(events)} wedstrijden, {len(results)} uitslagen, "

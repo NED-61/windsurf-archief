@@ -8,6 +8,9 @@
   var esc = function (s) {
     return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; });
   };
+  /* formulieren die alleen voor de invoervelden zijn (zoeken, fototest) versturen nooit; in plaats van onsubmit="return false",
+     want de Content-Security-Policy (.htaccess) staat geen scripts in attributen toe */
+  document.addEventListener("submit", function (e) { if (e.target.matches && e.target.matches("form[data-niet-versturen]")) e.preventDefault(); });
 
   /* ---------- zoeken ---------- */
   var idx = null;
@@ -170,18 +173,27 @@
      antwoordt. Antwoordt hij niet (NAS uit, funnel uit), dan blijft alles zoals het was. */
   var fotoBase = document.body.getAttribute("data-foto") || "";
   var fotoQ = new URLSearchParams(location.search).get("foto");
-  if (fotoQ) fotoBase = fotoQ.replace(/\/$/, "");
+  /* ?foto= (een ander adres van de fotodienst testen) alleen voor deze computer of de eigen NAS (zelfde host, andere poort): anders kon
+     iedereen een link naar het archief maken die foto's en links van zijn eigen server toont */
+  function hostVan(u) { try { var x = new URL(u); return /^https?:$/.test(x.protocol) ? x.hostname : ""; } catch (e) { return ""; } }
+  if (fotoQ && (/^(localhost|127\.0\.0\.1|\[::1\])$/.test(hostVan(fotoQ)) || (fotoBase && hostVan(fotoQ) === hostVan(fotoBase))))
+    fotoBase = fotoQ.replace(/\/$/, "");   /* een ander adres wordt genegeerd; de teller telt bij ?foto= nog steeds niet (testen) */
+  /* wat de fotodienst stuurt, behandelen als vreemde invoer: getallen als getal, links alleen naar de fotodienst zelf */
+  function num(x) { x = Math.round(+x); return isFinite(x) && x > 0 ? x : 0; }
   function fotoFetch(pad) {
     var ctl = ("AbortController" in window) ? new AbortController() : null;
     if (ctl) setTimeout(function () { ctl.abort(); }, 8000);
     return fetch(fotoBase + pad, { mode: "cors", signal: ctl ? ctl.signal : undefined }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
   }
-  function fotoAdres(u) { return String(u || "").replace(/^https?:\/\/[^\/]+/, fotoBase); }   /* altijd via fotoBase, ook als APP_URL op de NAS anders staat */
+  function fotoAdres(u) {   /* altijd via fotoBase, ook als APP_URL op de NAS anders staat; iets anders dan een adres op de fotodienst wordt "#" */
+    u = String(u || "").replace(/^https?:\/\/[^\/]+/, fotoBase);
+    return u.indexOf(fotoBase + "/") === 0 ? u : "#";
+  }
   /* klikken op een foto gaat naar de fotopagina van de fotodienst: daar staat hij groot, met wie erop staat en vorige/volgende (geen lightbox; keuze van Max, 22 oktober 2026) */
   function fotoGrid(fotos, cont) {
     cont.innerHTML = fotos.map(function (f) {
       return '<a class="ft" href="' + esc(fotoAdres(f.url)) + '" title="' + esc(f.caption || "") + '">' +
-        '<img loading="lazy" src="' + esc(fotoAdres(f.t)) + '" width="' + f.tw + '" height="' + f.th + '" alt="' + esc(f.caption || "Foto") + '"></a>';
+        '<img loading="lazy" src="' + esc(fotoAdres(f.t)) + '" width="' + num(f.tw) + '" height="' + num(f.th) + '" alt="' + esc(f.caption || "Foto") + '"></a>';
     }).join("");
   }
   var fotoSec = document.querySelector(".fotos[data-wedstrijd]");
@@ -249,7 +261,7 @@
     }).then(function (telling) {
       var namen = {};
       (window.ARCHIEF ? window.ARCHIEF.e : []).forEach(function (x) { namen[x[0]] = { name: x[1], year: x[2] }; });
-      var rows = Object.keys(telling).map(function (slug) { return { slug: slug, n: telling[slug], name: (namen[slug] || {}).name || slug, year: (namen[slug] || {}).year || 0 }; })
+      var rows = Object.keys(telling).map(function (slug) { return { slug: slug, n: num(telling[slug]), name: (namen[slug] || {}).name || slug, year: num((namen[slug] || {}).year) }; })
         .sort(function (a, b) { return b.year - a.year || a.name.localeCompare(b.name, "nl"); });
       if (!rows.length) { if (fotoUit) { fotoUit.textContent = "Er zijn nog geen foto's geplaatst. Heb jij er? Voeg ze toe."; fotoUit.hidden = false; } return; }
       fotoWed.querySelector(".evs").innerHTML = rows.map(function (r) {
