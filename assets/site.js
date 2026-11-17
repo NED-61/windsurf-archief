@@ -205,31 +205,25 @@
       fotoSec.hidden = false;
     }).catch(function () { /* dienst niet bereikbaar: het blok blijft verborgen */ });
   }
-  /* riderpagina: een strook met 5 willekurige foto's, eerst die waarop de rider getagd is, aangevuld met foto's van wedstrijden waarin
-     de rider meevoer; "Alle foto's tonen" klapt ze allemaal uit, in twee groepen (keuze van Max, 3 november 2026) */
+  /* riderpagina: alleen foto's waarop de rider getagd is. Een strook met 5 willekeurige; "Alle foto's tonen" klapt ze allemaal uit.
+     Geen foto's meer van wedstrijden waarin de rider alleen meevoer (Max, 17 november 2026: daar stonden de foto's van alle andere
+     riders van die wedstrijd tussen; van 3 tot 17 november stonden ze er wel bij) */
   var fotoRider = document.querySelector(".fotos-rider[data-rider]");
   if (fotoRider && fotoBase) {
     fotoFetch("/api/rider/" + encodeURIComponent(fotoRider.getAttribute("data-rider"))).then(function (j) {
-      var eigen = j.fotos || [], wed = j.wedstrijd_fotos || [], n = (j.n || 0) + (j.n_wedstrijd || 0);
-      if (!n) return;
+      var eigen = j.fotos || [], n = num(j.n) || eigen.length;
+      if (!eigen.length) return;
       var naam = fotoRider.getAttribute("data-naam") || "deze rider";
       function schud(l) { l = l.slice(); for (var i = l.length - 1; i > 0; i--) { var k = Math.floor(Math.random() * (i + 1)), t = l[i]; l[i] = l[k]; l[k] = t; } return l; }
       var strook = fotoRider.querySelector(".fotos-strook"), alles = fotoRider.querySelector(".fotos-alles"), meer = fotoRider.querySelector(".fotos-meer");
-      fotoGrid(schud(eigen).concat(schud(wed)).slice(0, 5), strook);
+      fotoGrid(schud(eigen).slice(0, 5), strook);
       fotoRider.querySelector(".fotos-n").textContent = n + (n === 1 ? " foto" : " foto's");
-      var uitleg = [];
-      if (j.n) uitleg.push(j.n + " met " + naam + " erop");
-      if (j.n_wedstrijd) uitleg.push(j.n_wedstrijd + " van wedstrijden met " + naam + (j.n_wedstrijd > wed.length ? " (hier " + wed.length + ", de rest bij de wedstrijden)" : ""));
-      fotoRider.querySelector(".fotos-uitleg").textContent = uitleg.join(", ") + ".";
-      if (eigen.length + wed.length > 5) {
+      fotoRider.querySelector(".fotos-uitleg").textContent = (n === 1 ? "De foto" : "Foto's") + " waarop " + naam + " getagd is.";
+      if (eigen.length > 5) {
         meer.hidden = false;
         meer.addEventListener("click", function () {
           if (!alles.getAttribute("data-klaar")) {
-            [[eigen, "Met " + naam + " erop"], [wed, "Van wedstrijden met " + naam]].forEach(function (g) {
-              if (!g[0].length) return;
-              var h = document.createElement("h3"); h.textContent = g[1]; alles.appendChild(h);
-              var d = document.createElement("div"); d.className = "fotos-grid"; alles.appendChild(d); fotoGrid(g[0], d);
-            });
+            var d = document.createElement("div"); d.className = "fotos-grid"; alles.appendChild(d); fotoGrid(eigen, d);
             alles.setAttribute("data-klaar", "1");
           }
           var open = alles.hidden;
