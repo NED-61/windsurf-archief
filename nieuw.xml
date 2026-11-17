@@ -5,9 +5,17 @@
 <link rel="self" type="application/atom+xml" href="https://windsurfarchief.nl/nieuw.xml"/>
 <link rel="alternate" type="text/html" href="https://windsurfarchief.nl/"/>
 <id>tag:windsurfarchief.nl,2026:nieuw</id>
-<updated>2026-11-16T15:19:19Z</updated>
+<updated>2026-11-17T21:11:16Z</updated>
 <author><name>Windsurfarchief</name><uri>https://windsurfarchief.nl/</uri></author>
 <icon>https://windsurfarchief.nl/icon-192.png</icon>
+<entry>
+<title>Uitslag Grote Prijs van Aalsmeer 2023</title>
+<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/gpa-2023.html"/>
+<id>tag:windsurfarchief.nl,2026:wedstrijd/gpa-2023</id>
+<published>2026-11-17T21:08:14Z</published>
+<updated>2026-11-17T21:11:16Z</updated>
+<summary>Uitslag Grote Prijs van Aalsmeer 2023, 1 oktober 2023, Westeinderplassen, Aalsmeer (Surfeiland): 91 riders. Winnaars: IQ Foil: Max Baaijen; Windfoil: Adri Keet; RS:X / Raceboard (7,8 en 9,5 m²): Marc De Barse; Rookies (korte baan): Neill Chardet; ….</summary>
+</entry>
 <entry>
 <title>Uitslag NK Slalom 2014</title>
 <link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/nk-slalom-2014.html"/>
@@ -399,13 +407,5 @@
 <published>2026-10-05T18:39:16Z</published>
 <updated>2026-10-05T18:39:16Z</updated>
 <summary>Uitslag Stonedam Foil Cup 2023, Schildmeer, Steendam: 33 riders. Winnaars: Senior: Max Baaijen; Junior: Peyton Dits; Marathon: Kas De Wolf.</summary>
-</entry>
-<entry>
-<title>Uitslag North Sea Cup 2014</title>
-<link rel="alternate" type="text/html" href="https://windsurfarchief.nl/wedstrijd/north-sea-cup-2014.html"/>
-<id>tag:windsurfarchief.nl,2026:wedstrijd/north-sea-cup-2014</id>
-<published>2026-10-05T18:39:16Z</published>
-<updated>2026-11-16T15:19:19Z</updated>
-<summary>Uitslag North Sea Cup 2014, 5–6 april 2014, Grevelingendam: 21 riders. Winnaars: Formula: Ingmar Daldorf; Raceboard, RS-X: Karl Lamens.</summary>
 </entry>
 </feed>
